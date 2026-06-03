@@ -1414,6 +1414,13 @@ tracked_companies:
     notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
     enabled: true
 
+  - name: Squarespace
+    careers_url: https://www.squarespace.com/about/careers
+    scan_method: websearch
+    scan_query: 'site:www.squarespace.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
   - name: Square
     careers_url: https://block.xyz/careers
     scan_method: websearch
