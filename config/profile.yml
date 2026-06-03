@@ -1,0 +1,119 @@
+# Career-Ops Profile Configuration
+# Copy this file to config/profile.yml and fill in your details.
+# This is the single source of truth for your personal data across all modes.
+
+candidate:
+  full_name: "Huu Phuc Toan Nguyen"
+  email: "nguyenharry2662@gmail.com"
+  phone: "+1-470-667-9000"
+  location: "Atlanta, GA"
+  linkedin: "linkedin.com/in/harrynguyen26"
+  portfolio_url: "https://timoto.ai"
+  github: "github.com/HarryNguyen2662"
+  twitter: ""
+
+target_roles:
+  # Your North Star roles — what you're optimizing for
+  primary:
+    - "Software Engineer (New Grad)"
+    - "Software Engineer — Intern"
+    - "Backend / Distributed Systems Engineer"
+    - "Systems Software Engineer (New Grad)"
+    - "Platform / Cloud Infrastructure Engineer"
+    - "ML Infrastructure Engineer"
+    - "AI/ML Engineer (New Grad)"
+    - "Site Reliability Engineer (New Grad)"
+    - "Performance Engineer"
+    - "Infrastructure Engineer"
+  # Archetypes help the evaluation system score fit
+  archetypes:
+    - name: "Backend / Distributed Systems Engineer"
+      level: "New Grad / Intern"
+      fit: "primary"
+    - name: "ML / AI Infrastructure Engineer"
+      level: "New Grad / Intern"
+      fit: "primary"
+    - name: "Systems Software Engineer"
+      level: "New Grad / Intern"
+      fit: "primary"
+    - name: "Site Reliability Engineer"
+      level: "New Grad / Intern"
+      fit: "primary"
+    - name: "Performance Engineer"
+      level: "New Grad / Intern"
+      fit: "primary"
+    - name: "Platform / Infrastructure Engineer"
+      level: "New Grad"
+      fit: "secondary"
+    - name: "Cloud / DevOps Engineer"
+      level: "New Grad / Intern"
+      fit: "secondary"
+    - name: "AI/ML Engineer (Inference & Serving)"
+      level: "New Grad / Intern"
+      fit: "secondary"
+    - name: "Backend Engineer (Payments & High-Throughput APIs)"
+      level: "Intern"
+      fit: "secondary"
+    - name: "Open Source / Developer Tools Engineer"
+      level: "Contributor / New Grad"
+      fit: "secondary"
+    - name: "Founding / Early-Stage Software Engineer"
+      level: "New Grad"
+      fit: "secondary"
+    - name: "Full-Stack Engineer"
+      level: "New Grad"
+      fit: "adjacent"
+    - name: "Browser / Client Platform Engineer"
+      level: "New Grad / Intern"
+      fit: "adjacent"
+
+narrative:
+  # Your professional headline (1 line)
+  headline: "CS @ Georgia State (May 2027) · Google SWE intern · distributed systems & ML serving"
+  # Your exit story — what makes you unique
+  exit_story: "Primary engineer for backend, cloud infra, and ML serving at TiMoto AI (3-person team) — owns distributed production systems: vLLM, gRPC, Django, AWS/Terraform, 99.9% uptime. Google internship shipped C++ IPC and settings perf work to billions of Chrome users. Prior internship at Develop for Good on AWS, PostgreSQL, and DynamoDB at scale."
+  # Your top 3-5 superpowers
+  superpowers:
+    - "Distributed systems & performance (gRPC, Protocol Buffers, lock-free structures, exactly-once semantics)"
+    - "Production ML serving (vLLM, PagedAttention, concurrent inference on AWS)"
+    - "Cloud & IaC (ECS Fargate, Terraform, multi-AZ, circuit breakers, CI/CD)"
+    - "Low-latency backend (C++, Go, TypeScript) with strong testing discipline"
+  # Proof points — projects, articles, case studies with measurable impact
+  proof_points:
+    - name: "TiMoto AI — ML Serving Platform"
+      url: "https://timoto.ai"
+      hero_metric: "sub-50ms p99 inference, 99.9% uptime, 44% infra cost reduction; distributed production systems on 3-person team"
+    - name: "Google Chrome — SWE Intern"
+      url: ""
+      hero_metric: "96% settings-nav latency cut; C++ IPC + Protobuf shipped to stable (3B+ users)"
+    - name: "Pulumi — Open Source Contributor"
+      url: "https://github.com/pulumi/pulumi"
+      hero_metric: "Go CLI contributions for multi-cloud IaC; 24.4K+ star project"
+    - name: "Develop for Good — AWS BaaS"
+      url: ""
+      hero_metric: "500+ concurrent users; N+1 fix → sub-100ms on 10K+ records"
+  # Optional: dashboard/demo URL with credentials
+  # dashboard:
+  #   url: "https://timoto.ai"
+  #   password: ""
+
+compensation:
+  target_range: "$150K-200K"     # Your target total comp (new grad — adjust as needed)
+  currency: "USD"
+  minimum: "$140K"               # Walk-away number
+  location_flexibility: "Onsite, Remote, or hybrid preferred; open to relocation for strong roles"
+
+location:
+  country: "United States"
+  city: "Atlanta"
+  timezone: "America/New_York"
+  visa_status: "F-1"                # Fill in (e.g. US citizen, F-1, sponsorship needs)
+  # For remote roles outside your country:
+  onsite_availability: "5 days/week in any city"
+
+cv:
+  output_format: "latex" # "html" (default) or "latex"
+  # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
+  # Find it in your Canva design URL: https://www.canva.com/design/DAxxxxxxx/...
+  # The ID starts with "D" and is 11 characters long.
+  # canva_resume_design_id: "DAxxxxxxxxx"

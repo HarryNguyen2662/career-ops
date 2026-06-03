@@ -1,6 +1,5 @@
 # Personal data (user fills these)
-cv.md
-data/applications.md
+# cv.md — tracked (personal repo)
 data/pipeline.md
 data/scan-history.tsv
 data/parser-output/**/*.json
@@ -23,10 +22,10 @@ jds/*
 writing-samples/*
 !writing-samples/README.md
 
-# User config and customization (never auto-updated)
-config/profile.yml
-portals.yml
-modes/_profile.md
+# User config and customization — tracked (personal repo)
+# config/profile.yml
+# portals.yml
+# modes/_profile.md
 .update-dismissed
 .update-lock
 
