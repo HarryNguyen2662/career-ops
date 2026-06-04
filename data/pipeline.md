@@ -1,0 +1,252 @@
+# Pipeline — Pending URLs
+
+## Pendientes
+
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8442397002 | Airtable | Software Engineer, Compute (8+ YOE)
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8124953002 | Airtable | Software Engineer, Data
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8400388002 | Airtable | Software Engineer, Infrastructure (8+ YOE)
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8397618002 | Airtable | Software Engineer, Product Backend (8+ YOE)
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5161882008 | Anthropic | IT Systems Engineer, Enterprise SaaS
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5198108008 | Anthropic | Research Engineer, Machine Learning (RL Velocity)
+- [ ] https://boards.greenhouse.io/chime/jobs/8535338002?gh_jid=8535338002 | Chime | Mobile Software Engineer, Lending
+- [ ] https://boards.greenhouse.io/chime/jobs/8219793002?gh_jid=8219793002 | Chime | Software Engineer, Credit Risk Platform
+- [ ] https://boards.greenhouse.io/chime/jobs/8523547002?gh_jid=8523547002 | Chime | Software Engineer, Deposits & Insights
+- [ ] https://boards.greenhouse.io/chime/jobs/8183064002?gh_jid=8183064002 | Chime | Software Engineer, Financial Platform
+- [ ] https://boards.greenhouse.io/chime/jobs/8433840002?gh_jid=8433840002 | Chime | Software Engineer, Instant Loans
+- [ ] https://boards.greenhouse.io/chime/jobs/8505460002?gh_jid=8505460002 | Chime | Software Engineer, Machine Learning Platform
+- [ ] https://boards.greenhouse.io/chime/jobs/8499450002?gh_jid=8499450002 | Chime | Software Engineer, MyPay
+- [ ] http://block.xyz/careers/jobs/4962872008?gh_jid=4962872008 | Block | Information Systems Engineer, Business Systems
+- [ ] http://block.xyz/careers/jobs/5195924008?gh_jid=5195924008 | Block | Legal Systems Engineer
+- [ ] http://block.xyz/careers/jobs/5207106008?gh_jid=5207106008 | Block | Software Engineer, Cash App Banking
+- [ ] http://block.xyz/careers/jobs/5198719008?gh_jid=5198719008 | Block | Software Engineer, Cash App - Controls
+- [ ] http://block.xyz/careers/jobs/5201726008?gh_jid=5201726008 | Block | Software Engineer, Cash App - Lending Products
+- [ ] http://block.xyz/careers/jobs/4888459008?gh_jid=4888459008 | Block | Software Engineer, Finance Applications
+- [ ] https://www.brex.com/careers/8523205002?gh_jid=8523205002 | Brex | Software Engineer, Forward Deployed Agent Builder
+- [ ] https://www.brex.com/careers/8459783002?gh_jid=8459783002 | Brex | Software Engineer II, Backend
+- [ ] https://boards.greenhouse.io/cloudflare/jobs/7527453?gh_jid=7527453 | Cloudflare | Software Engineer, Data
+- [ ] https://boards.greenhouse.io/cloudflare/jobs/7742773?gh_jid=7742773 | Cloudflare | Systems Engineer, MAPS
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7607561003 | Affirm | Director, Affirm Bank Internal Audit
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7705605003 | Affirm | Director, Software Engineering (Loans Lifecycle)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7622383003 | Affirm | Director, Software Engineering (Site Reliability Engineering)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7675825003 | Affirm | Enterprise IAM Software Engineer II
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7695818003 | Affirm | Machine Learning Engineer II (Fraud)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7719653003 | Affirm | Machine Learning Engineer II (Servicing ML)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7710178003 | Affirm | Manager, Machine Learning Engineering (Fraud)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7723636003 | Affirm | Manager, Machine Learning Engineering (Underwriting) 
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7742412003 | Affirm | Manager, Software Engineering (Card Platform)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7730668003 | Affirm | Manager, Software Engineering (Developer Environments)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7701909003 | Affirm | Manager, Software Engineering (Resilience Engineering)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7485068003 | Affirm | Software Engineer, Early Career
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7710970003 | Affirm | Software Engineer I, Back-end (Repayment Scheduling)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7724913003 | Affirm | 	Software Engineer I, Backend (Servicing Platforms)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7724915003 | Affirm | Software Engineer I, Backend (Servicing Platforms)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7637067003 | Affirm | Software Engineer II, Backend (AI Agents)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7749755003 | Affirm | Software Engineer II, Backend (Capital Orchestration)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7708925003 | Affirm | Software Engineer II, Backend (Merchant Advocacy)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7709632003 | Affirm | Software Engineer II, Backend (Merchant Data Platform EU)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7590373003 | Affirm | Software Engineer II, Backend (PMI Integrations)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7746922003 | Affirm | Software Engineer II, Backend (Repayment UX)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7687973003 | Affirm | Software Engineer II, Frontend (Purchasing Integrations)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7618869003 | Affirm | Software Engineer II, Full-Stack (Card Acquisition)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7678887003 | Affirm | Software Engineer II, Full-Stack (Marketplace Performance)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7694294003 | Affirm | Software Engineer II, Machine Learning (Feature Platform)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7647925003 | Affirm | Software Engineering Apprentice, Full-Stack
+- [ ] https://databricks.com/company/careers/open-positions/job?gh_jid=8298792002 | Databricks | AI Engineer - FDE (Forward Deployed Engineer)
+- [ ] https://databricks.com/company/careers/open-positions/job?gh_jid=7737233002 | Databricks | Software Engineer - Backend
+- [ ] https://databricks.com/company/careers/open-positions/job?gh_jid=7643201002 | Databricks | Sr. Software Engineer - Backend
+- [ ] https://jobs.dropbox.com/listing/7862086?gh_jid=7862086 | Dropbox | Frontend Product Software Engineer, Design Systems
+- [ ] https://jobs.dropbox.com/listing/6330390?gh_jid=6330390 | Dropbox | Infrastructure Software Engineer
+- [ ] https://jobs.dropbox.com/listing/7344925?gh_jid=7344925 | Dropbox | Principal Software Engineer, Core Sharing & Collaboration
+- [ ] https://jobs.dropbox.com/listing/7539817?gh_jid=7539817 | Dropbox | Site Reliability Engineer
+- [ ] https://careers.datadoghq.com/detail/7536402/?gh_jid=7536402 | Datadog | Datadog for Startups Founding Engineering Lead
+- [ ] https://job-boards.greenhouse.io/gitlab/jobs/8565469002 | GitLab | AI Engineer
+- [ ] https://job-boards.greenhouse.io/gitlab/jobs/8504232002 | GitLab | Site Reliability Engineer, Environment Automation
+- [ ] https://job-boards.greenhouse.io/gitlab/jobs/8509682002 | GitLab | Vice President of Engineering, DevOps Engineering
+- [ ] https://job-boards.greenhouse.io/gusto/jobs/7948318 | Gusto | Head of AI and Machine Learning Engineering
+- [ ] https://instacart.careers/job/?gh_jid=7977859 | Instacart | Director, International Strategy & Planning
+- [ ] https://instacart.careers/job/?gh_jid=7759475 | Instacart | Engineering Manager, Machine Learning (Caper)
+- [ ] https://instacart.careers/job/?gh_jid=7942690 | Instacart | International Finance Manager
+- [ ] https://instacart.careers/job/?gh_jid=7789182 | Instacart | Retail Sales Manager, International
+- [ ] https://instacart.careers/job/?gh_jid=7963661 | Instacart | Software Engineer II, Technical Search Visibility
+- [ ] https://boards.greenhouse.io/flexport/jobs/7839297?gh_jid=7839297 | Flexport | Area Manager- New Grad
+- [ ] https://boards.greenhouse.io/flexport/jobs/5850324?gh_jid=5850324 | Flexport | Inbound Sales Development Representative - New Grad
+- [ ] https://boards.greenhouse.io/flexport/jobs/7839346?gh_jid=7839346 | Flexport |  Software Engineer II, Autonomous Freight Systems
+- [ ] https://www.mongodb.com/careers/job/?gh_jid=7387191 | MongoDB | Director, Internal Audit & Controls Transformation
+- [ ] https://www.mongodb.com/careers/job/?gh_jid=7843814 | MongoDB | International Tax Director
+- [ ] https://www.mongodb.com/careers/job/?gh_jid=7702003 | MongoDB | International Tax Manager
+- [ ] https://www.mongodb.com/careers/job/?gh_jid=7650199 | MongoDB | Manager, Site Reliability Engineering - Fleet Management
+- [ ] https://www.mongodb.com/careers/job/?gh_jid=7816135 | MongoDB | Software Engineer 3 - Query Optimization
+- [ ] https://job-boards.greenhouse.io/pagerduty/jobs/5987780004 | PagerDuty | Software Engineer - Core Product 
+- [ ] https://job-boards.greenhouse.io/reddit/jobs/7792848 | Reddit | Ads Conversion Modeling, Machine Learning Engineering Manager
+- [ ] https://job-boards.greenhouse.io/reddit/jobs/7966985 | Reddit | Engineering Manager, Advanced Signals (SWE)
+- [ ] https://job-boards.greenhouse.io/reddit/jobs/7895468 | Reddit | Fullstack Software Engineer, Notifications Lifecycle
+- [ ] https://job-boards.greenhouse.io/reddit/jobs/7846885 | Reddit | Machine Learning Manager, Notifications Relevance
+- [ ] https://job-boards.greenhouse.io/reddit/jobs/6909093 | Reddit | Software Engineer
+- [ ] https://job-boards.greenhouse.io/reddit/jobs/6469397 | Reddit | Software Engineer, Ads
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7908460 | Pinterest | Director, Machine Learning Engineering – Content & User Understanding
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=6121450 | Pinterest | Machine Learning Engineer, Core Engineering
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=6121543 | Pinterest | Machine Learning Engineer, Monetization Engineering
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7075176 | Pinterest | Manager II, Machine Learning Engineering, Core Engineering 
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7752846 | Pinterest | Manager II, Machine Learning Engineering-Homefeed
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7239260 | Pinterest | Manager II, Machine Learning-Search
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7253017 | Pinterest | Master's Fall Machine Learning Internship (ATG - Visual Search)
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7255640 | Pinterest | PhD Fall Machine Learning Intern (ATG — Visual, Multimodal, and Recommender Systems)
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=6963868 | Pinterest | Principal Machine Learning Engineer, Ads Delivery
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7494666 | Pinterest | Security Software Engineer II, Corporate Security
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7770914 | Pinterest | Security Software Engineer II, Detection and Response
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7816431 | Pinterest | Security Software Engineer II, Security Operations
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=4813946 | Pinterest | Software Engineer II, Backend
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7782552 | Pinterest | Software Engineer II, Backend, tvScientific
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7782546 | Pinterest | Software Engineer II, Big Data, tvScientific
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7782571 | Pinterest | Software Engineer II, ML Platform, tvScientific
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7642265 | Pinterest | Software Engineer II, Simulation, tvScientific
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=6121464 | Pinterest | Sr. Machine Learning Engineer, Core Engineering 
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=6121551 | Pinterest | Sr. Machine Learning Engineer, Monetization Engineering
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7494938 | Pinterest | Sr. Machine Learning Engineer, Responsible AI– Applied Research Science
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7494708 | Pinterest | Sr. Security Software Engineer, Application Security
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7732971 | Pinterest | Sr. Security Software Engineer, Corporate Security
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=4902175 | Pinterest | Sr. Software Engineer, Backend
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7782548 | Pinterest | Sr. Software Engineer, Backend, tvScientific
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7642272 | Pinterest | Sr. Software Engineer, Big Data, tvScientific
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7642249 | Pinterest | Sr. Software Engineer, ML Platform, tvScientific
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7782563 | Pinterest | Sr. Software Engineer, Simulation, tvScientific
+- [ ] https://careers.roblox.com/jobs/7142298?gh_jid=7142298 | Roblox | [2026] Applied Scientist - PhD Intern
+- [ ] https://careers.roblox.com/jobs/7463634?gh_jid=7463634 | Roblox | [2026] Data Scientist, Social - PhD Early Career
+- [ ] https://careers.roblox.com/jobs/7557909?gh_jid=7557909 | Roblox | [2026] Software Engineer, Game Developer
+- [ ] https://careers.roblox.com/jobs/7561736?gh_jid=7561736 | Roblox | Core Engine Developer - Systems (C++)
+- [ ] https://careers.roblox.com/jobs/7868390?gh_jid=7868390 | Roblox | Counsel, Americas - Regulatory & International Legal
+- [ ] https://careers.roblox.com/jobs/7332473?gh_jid=7332473 | Roblox | Distinguished Engineer, Machine Learning Systems – Economy
+- [ ] https://careers.roblox.com/jobs/7739622?gh_jid=7739622 | Roblox | Machine Learning Engineering Manager, Critical Harms
+- [ ] https://careers.roblox.com/jobs/7950872?gh_jid=7950872 | Roblox | Machine Learning Scientist
+- [ ] https://careers.roblox.com/jobs/7682993?gh_jid=7682993 | Roblox | Principal AI/ML Engineer, Reliability 
+- [ ] https://careers.roblox.com/jobs/7449585?gh_jid=7449585 | Roblox | Principal Core Systems Software Engineer - Game Engine (C++)
+- [ ] https://careers.roblox.com/jobs/7561743?gh_jid=7561743 | Roblox | Principal Engine Programmer - Systems (C++)
+- [ ] https://careers.roblox.com/jobs/7565086?gh_jid=7565086 | Roblox | Principal Machine Learning Engineer, Alt Defense
+- [ ] https://careers.roblox.com/jobs/7347389?gh_jid=7347389 | Roblox | Principal Machine Learning Engineer, Communication Safety
+- [ ] https://careers.roblox.com/jobs/7617984?gh_jid=7617984 | Roblox | Principal Machine Learning Engineer, Content Safety
+- [ ] https://careers.roblox.com/jobs/7629843?gh_jid=7629843 | Roblox | Principal Machine Learning Engineer, Embodied AI and Smart NPCs
+- [ ] https://careers.roblox.com/jobs/7669310?gh_jid=7669310 | Roblox | Principal Machine Learning Engineer, Engineering Acceleration 
+- [ ] https://careers.roblox.com/jobs/7272668?gh_jid=7272668 | Roblox | Principal Machine Learning Engineer, Safety Experience 
+- [ ] https://careers.roblox.com/jobs/7789332?gh_jid=7789332 | Roblox | Principal Security Software Engineer, Application Security
+- [ ] https://careers.roblox.com/jobs/7744272?gh_jid=7744272 | Roblox | Principal Software Engineer
+- [ ] https://careers.roblox.com/jobs/7460850?gh_jid=7460850 | Roblox | Principal Software Engineer, Ads Experience
+- [ ] https://careers.roblox.com/jobs/7561827?gh_jid=7561827 | Roblox | Principal Software Engineer - Asset Loading
+- [ ] https://careers.roblox.com/jobs/7605764?gh_jid=7605764 | Roblox | Principal Software Engineer, Cluster Lifecycle
+- [ ] https://careers.roblox.com/jobs/7752066?gh_jid=7752066 | Roblox | Principal Software Engineer, Connections 
+- [ ] https://careers.roblox.com/jobs/7876660?gh_jid=7876660 | Roblox | Principal Software Engineer, Connections (Backend)
+- [ ] https://careers.roblox.com/jobs/7650307?gh_jid=7650307 | Roblox | Principal Software Engineer - Content Lifecycle
+- [ ] https://careers.roblox.com/jobs/7821818?gh_jid=7821818 | Roblox | Principal Software Engineer - Content Platform
+- [ ] https://careers.roblox.com/jobs/7839207?gh_jid=7839207 | Roblox | Principal Software Engineer, Crash Reporting
+- [ ] https://careers.roblox.com/jobs/7769510?gh_jid=7769510 | Roblox | Principal Software Engineer - Creator Collaboration
+- [ ] https://careers.roblox.com/jobs/7740153?gh_jid=7740153 | Roblox | Principal Software Engineer - Creator Distributed Systems & Storage   
+- [ ] https://careers.roblox.com/jobs/7559318?gh_jid=7559318 | Roblox | Principal Software Engineer - Creator Success
+- [ ] https://careers.roblox.com/jobs/7678832?gh_jid=7678832 | Roblox | Principal Software Engineer, Data Engineering
+- [ ] https://careers.roblox.com/jobs/7629489?gh_jid=7629489 | Roblox | Principal Software Engineer - Economy ML (Data Systems)
+- [ ] https://careers.roblox.com/jobs/7473601?gh_jid=7473601 | Roblox | Principal Software Engineer - Game Engine Systems
+- [ ] https://careers.roblox.com/jobs/7059504?gh_jid=7059504 | Roblox | Principal Software Engineer - Roblox Database
+- [ ] https://careers.roblox.com/jobs/7545955?gh_jid=7545955 | Roblox | Principal Software Engineer - Roblox Economy Platform
+- [ ] https://careers.roblox.com/jobs/7862605?gh_jid=7862605 | Roblox | Principal Software Engineer - Storage Cache
+- [ ] https://careers.roblox.com/jobs/7851718?gh_jid=7851718 | Roblox | Principal Software Engineer - Video 
+- [ ] https://careers.roblox.com/jobs/7918002?gh_jid=7918002 | Roblox | Principal Software Engineer, WebRTC
+- [ ] https://careers.roblox.com/jobs/7943533?gh_jid=7943533 | Roblox | Software Engineer, Core Services
+- [ ] https://careers.roblox.com/jobs/7786397?gh_jid=7786397 | Roblox | Software Engineer, Creator Translation
+- [ ] https://careers.roblox.com/jobs/7482015?gh_jid=7482015 | Roblox | Software Engineering Manager, Engine UI
+- [ ] https://careers.roblox.com/jobs/7947219?gh_jid=7947219 | Roblox | Software Engineer, Monetization Products
+- [ ] https://careers.roblox.com/jobs/7711780?gh_jid=7711780 | Roblox | Software Engineer, User Co-Experience
+- [ ] https://careers.roblox.com/jobs/7767204?gh_jid=7767204 | Roblox | Software Engineer, User Sharing
+- [ ] https://careers.roblox.com/jobs/7292063?gh_jid=7292063 | Roblox | Sr Machine Learning Engineer - Safety Experience
+- [ ] https://careers.roblox.com/jobs/7561739?gh_jid=7561739 | Roblox | Systems Software Engineer - Game Engine Network (C++)
+- [ ] https://www.rubrik.com/company/careers/departments/job.7555478?gh_jid=7555478 | Rubrik | Sales Development Representative Intern
+- [ ] https://job-boards.greenhouse.io/postman/jobs/7501796003 | Postman | Customer Success Engineer/Devops
+- [ ] https://job-boards.greenhouse.io/postman/jobs/7452531003 | Postman | Head of AI Platform Engineering
+- [ ] https://job-boards.greenhouse.io/postman/jobs/7528077003 | Postman | Strategic Solutions Engineering, Netherlands/Sweden/Denmark
+- [ ] https://sofi.com/careers/job/7722402003?gh_jid=7722402003 | SoFi | Director, Internal Communications
+- [ ] https://www.samsara.com/company/careers/roles/7491153?gh_jid=7491153 | Samsara | AI Engineer
+- [ ] https://www.samsara.com/company/careers/roles/7266435?gh_jid=7266435 | Samsara | Manager, Software Engineering - Mobile Platform
+- [ ] https://www.samsara.com/company/careers/roles/7345839?gh_jid=7345839 | Samsara | Manager, Software Engineering (Platform Reports)
+- [ ] https://www.samsara.com/company/careers/roles/7619925?gh_jid=7619925 | Samsara | Software Engineer II, AI Platform
+- [ ] https://job-boards.greenhouse.io/scaleai/jobs/4660340005 | Scale AI | Machine Learning Fellow - Human Frontier Collective (US)
+- [ ] https://job-boards.greenhouse.io/scaleai/jobs/4689947005 | Scale AI | SWE Fellow - Human Frontier Collective (US)
+- [ ] https://stripe.com/jobs/search?gh_jid=7826765 | Stripe | Backend Engineer, AI Security
+- [ ] https://stripe.com/jobs/search?gh_jid=6567253 | Stripe | Backend Engineer, Core Tech, Canada
+- [ ] https://stripe.com/jobs/search?gh_jid=6042172 | Stripe | Backend Engineer, Core Technology
+- [ ] https://stripe.com/jobs/search?gh_jid=6163230 | Stripe | Backend Engineer, Payments and Risk
+- [ ] https://stripe.com/jobs/search?gh_jid=7569605 | Stripe | Internal Audit Lead, Merchant Acquirer Limited Purpose Bank (MALPB)
+- [ ] https://stripe.com/jobs/search?gh_jid=7942650 | Stripe | International Regulatory Exam Lead
+- [ ] https://stripe.com/jobs/search?gh_jid=7952048 | Stripe | Machine Learning Engineer, Capital Underwriting
+- [ ] https://stripe.com/jobs/search?gh_jid=7930153 | Stripe | People Systems Platform Engineer (Salesforce)
+- [ ] https://stripe.com/jobs/search?gh_jid=7954207 | Stripe | Product Designer, Internal Tools
+- [ ] https://stripe.com/jobs/search?gh_jid=7532256 | Stripe | Software Engineer, Intern
+- [ ] https://unity.com/careers/positions/7904529?gh_jid=7904529 | Unity Technologies | Intern, Research Science
+- [ ] https://unity.com/careers/positions/7947300?gh_jid=7947300 | Unity Technologies | Machine Learning Engineer, User Understanding (Entry-Level / New Grad)
+- [ ] https://unity.com/careers/positions/7815746?gh_jid=7815746 | Unity Technologies | Principal Machine Learning Engineer, Mobile AI Inference Optimization
+- [ ] https://boards.greenhouse.io/figma/jobs/5840332004?gh_jid=5840332004 | Figma | Data Platform Engineer
+- [ ] https://boards.greenhouse.io/figma/jobs/6004606004?gh_jid=6004606004 | Figma | Manager, Figma for Education (International)
+- [ ] https://boards.greenhouse.io/figma/jobs/5838098004?gh_jid=5838098004 | Figma | Manager, Software Engineering - AI Product 
+- [ ] https://boards.greenhouse.io/figma/jobs/5722244004?gh_jid=5722244004 | Figma | Manager, Software Engineering - Billing
+- [ ] https://boards.greenhouse.io/figma/jobs/5778796004?gh_jid=5778796004 | Figma | Manager, Software Engineering - Interaction Design
+- [ ] https://boards.greenhouse.io/figma/jobs/5807963004?gh_jid=5807963004 | Figma | Manager, Software Engineering - Observability
+- [ ] https://boards.greenhouse.io/figma/jobs/5804108004?gh_jid=5804108004 | Figma | Manager, Software Engineering - Search & Recommendations
+- [ ] https://boards.greenhouse.io/figma/jobs/5991176004?gh_jid=5991176004 | Figma | Sales AI Engineer
+- [ ] https://boards.greenhouse.io/figma/jobs/5691886004?gh_jid=5691886004 | Figma | Software Engineer, AI Platforms
+- [ ] https://boards.greenhouse.io/figma/jobs/5551730004?gh_jid=5551730004 | Figma | Software Engineer, AI Product
+- [ ] https://boards.greenhouse.io/figma/jobs/5552530004?gh_jid=5552530004 | Figma | Software Engineer, C++
+- [ ] https://boards.greenhouse.io/figma/jobs/5759501004?gh_jid=5759501004 | Figma | Software Engineer, Code Platform
+- [ ] https://boards.greenhouse.io/figma/jobs/5551686004?gh_jid=5551686004 | Figma | Software Engineer, Data Infrastructure
+- [ ] https://boards.greenhouse.io/figma/jobs/5790627004?gh_jid=5790627004 | Figma | Software Engineer, Developer Experience
+- [ ] https://boards.greenhouse.io/figma/jobs/5552549004?gh_jid=5552549004 | Figma | Software Engineer, Distributed Systems
+- [ ] https://boards.greenhouse.io/figma/jobs/5691911004?gh_jid=5691911004 | Figma | Software Engineer, Full Stack
+- [ ] https://boards.greenhouse.io/figma/jobs/5552522004?gh_jid=5552522004 | Figma | Software Engineer, Graphics & Media
+- [ ] https://boards.greenhouse.io/figma/jobs/5552560004?gh_jid=5552560004 | Figma | Software Engineer, Growth & Monetization
+- [ ] https://boards.greenhouse.io/figma/jobs/5551532004?gh_jid=5551532004 | Figma | Software Engineer, Machine Learning
+- [ ] https://boards.greenhouse.io/figma/jobs/5551649004?gh_jid=5551649004 | Figma | Software Engineer, Production Engineering
+- [ ] https://jobs.lever.co/palantir/98b81271-9e15-40b7-8dce-0c62f24702f9 | Palantir Technologies | Forward Deployed Software Engineer
+- [ ] https://jobs.lever.co/palantir/8f15d728-99cc-4003-9add-928bd72a7f30 | Palantir Technologies | Forward Deployed Software Engineer - AUS Government
+- [ ] https://jobs.lever.co/palantir/395a4483-fc3d-4b77-a500-501923fd0976 | Palantir Technologies | Forward Deployed Software Engineer, Internship - AUS Government
+
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7705604003 | Affirm | Director, Software Engineering (Loans Lifecycle)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7622385003 | Affirm | Director, Software Engineering (Site Reliability Engineering)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7719651003 | Affirm | Machine Learning Engineer II (Servicing ML)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7710180003 | Affirm | Manager, Machine Learning Engineering (Fraud)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7723638003 | Affirm | Manager, Machine Learning Engineering (Underwriting) 
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7730670003 | Affirm | Manager, Software Engineering (Developer Environments)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7701911003 | Affirm | Manager, Software Engineering (Resilience Engineering)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7710972003 | Affirm | Software Engineer I, Back-end (Repayment Scheduling)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7724917003 | Affirm | Software Engineer I, Backend (Servicing Platforms)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7749753003 | Affirm | Software Engineer II, Backend (Capital Orchestration)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7708927003 | Affirm | Software Engineer II, Backend (Merchant Advocacy)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7748356003 | Affirm | Software Engineer II, Backend (Repayment UX)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7694296003 | Affirm | Software Engineer II, Machine Learning (Feature Platform)
+- [ ] https://www.brex.com/careers/8523177002?gh_jid=8523177002 | Brex | Software Engineer, Forward Deployed Agent Builder
+- [ ] https://www.brex.com/careers/8536424002?gh_jid=8536424002 | Brex | Software Engineer II, Backend
+- [ ] http://block.xyz/careers/jobs/5196181008?gh_jid=5196181008 | Block | Software Engineer, Cash App Banking
+- [ ] http://block.xyz/careers/jobs/5069261008?gh_jid=5069261008 | Block | Software Engineer, Cash App - Controls
+- [ ] http://block.xyz/careers/jobs/5196173008?gh_jid=5196173008 | Block | Software Engineer, Cash App - Lending Products
+- [ ] https://jobs.dropbox.com/listing/6330388?gh_jid=6330388 | Dropbox | Infrastructure Software Engineer
+- [ ] https://jobs.dropbox.com/listing/7344930?gh_jid=7344930 | Dropbox | Principal Software Engineer, Core Sharing & Collaboration
+- [ ] https://instacart.careers/job/?gh_jid=7977861 | Instacart | Director, International Strategy & Planning
+- [ ] https://instacart.careers/job/?gh_jid=7942696 | Instacart | International Finance Manager
+- [ ] https://databricks.com/company/careers/open-positions/job?gh_jid=8330188002 | Databricks | AI Engineer - FDE (Forward Deployed Engineer)
+- [ ] https://job-boards.greenhouse.io/reddit/jobs/6512458 | Reddit | Software Engineer, Ads
+- [ ] https://www.samsara.com/company/careers/roles/7589442?gh_jid=7589442 | Samsara | AI Engineer
+- [ ] https://www.samsara.com/company/careers/roles/7630034?gh_jid=7630034 | Samsara | Manager, Software Engineering - Mobile Platform
+- [ ] https://www.samsara.com/company/careers/roles/7266585?gh_jid=7266585 | Samsara | Manager, Software Engineering (Platform Reports)
+- [ ] https://www.samsara.com/company/careers/roles/7618581?gh_jid=7618581 | Samsara | Software Engineer II, AI Platform
+- [ ] https://stripe.com/jobs/search?gh_jid=7232592 | Stripe | Backend Engineer, Payments and Risk
+- [ ] https://jobs.lever.co/palantir/909875b4-1940-41bd-b08d-a269c7235100 | Palantir Technologies | Forward Deployed Software Engineer - AUS Government
+
+- [ ] https://www.brex.com/careers/8523203002?gh_jid=8523203002 | Brex | Software Engineer, Forward Deployed Agent Builder
+- [ ] https://jobs.dropbox.com/listing/6330377?gh_jid=6330377 | Dropbox | Infrastructure Software Engineer
+
+- [ ] https://jobs.dropbox.com/listing/7758123?gh_jid=7758123 | Dropbox | Infrastructure Software Engineer
+
+- [ ] https://jobs.dropbox.com/listing/7752395?gh_jid=7752395 | Dropbox | Infrastructure Software Engineer
+- [ ] https://boards.greenhouse.io/figma/jobs/6008752004?gh_jid=6008752004 | Figma | Manager, Software Engineering - DevEx AI Tools
+- [ ] https://boards.greenhouse.io/figma/jobs/6010279004?gh_jid=6010279004 | Figma | Manager, Software Engineering - Growth Platform 
+- [ ] https://databricks.com/company/careers/open-positions/job?gh_jid=8560407002 | Databricks | AI Engineer - FDE (Forward Deployed Engineer)
+- [ ] https://careers.datadoghq.com/detail/7980350/?gh_jid=7980350 | Datadog | Software Engineer II, Enterprise Engineering
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=6816337 | Pinterest | Software Engineer I, Backend
+- [ ] https://unity.com/careers/positions/7905749?gh_jid=7905749 | Unity Technologies | Intern, Infrastructure
+- [ ] https://unity.com/careers/positions/7902260?gh_jid=7902260 | Unity Technologies | Machine Learning Engineer, Offline Infrastructure (Entry-Level / New Grad)
+
+## Procesadas
