@@ -3,7 +3,8 @@
 # This is the single source of truth for your personal data across all modes.
 
 candidate:
-  full_name: "Huu Phuc Toan Nguyen"
+  full_name: "Harry Nguyen"
+  # CANONICAL email — ALWAYS use this. Never use harry.nguyen@timoto.ai or harrynguyenswe@gmail.com
   email: "nguyenharry2662@gmail.com"
   phone: "+1-470-667-9000"
   location: "Atlanta, GA"
@@ -113,6 +114,40 @@ location:
 
 cv:
   output_format: "latex" # "html" (default) or "latex"
+  # LaTeX rules (enforced on every generate):
+  #   - En-dash: use -- not —
+  #   - Abbreviate: K8s not Kubernetes, IaC not Infrastructure-as-Code
+  #   - Tech tags: max 6 per \resumeProjectHeading line
+  #   - Last skills row: always \resumeSkillHeading{AI Dev Tools}{Claude Code, GitHub Copilot, Codex, Cursor}
+  #   - Do NOT include \input{glyphtounicode} or \pdfgentounicode=1 (breaks tectonic)
+  latex_threshold_score: 3.0  # Generate LaTeX CV for any score >= this
+
+pipeline:
+  apply_policy: "apply_all"  # Apply to all scored >= threshold; warn red flags but never block
+  # Red flags: note but do not skip
+  #   - "no sponsorship" visa language → note, still apply
+  #   - graduation year mismatch (JD wants 2025/2026, Harry is 2027) → disclose proactively
+  #   - YOE requirement exceeded → note, frame production ownership as substitute
+  #   - comp below $140K floor → note, suggest asking recruiter
+
+contacts:
+  reached_out:
+    - person: "Ana Echeverria"
+      company: "CloudKitchens"
+      status: "Sent March (generic); follow-up drafted"
+    - person: "Ren Young"
+      company: "Cursor/Anysphere"
+      status: "Sent (recruiter)"
+    - person: "Alexey Kozy"
+      company: "Cursor/Anysphere"
+      status: "Drafted (peer/infra)"
+    - person: "Albert Slepak"
+      company: "Cursor"
+      status: "Sent (referral request)"
+    - person: "Less Wright"
+      company: "Cursor"
+      status: "Drafted (referral, ex-Meta PyTorch)"
+
   # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
   # Find it in your Canva design URL: https://www.canva.com/design/DAxxxxxxx/...
   # The ID starts with "D" and is 11 characters long.

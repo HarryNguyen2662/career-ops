@@ -1,5 +1,55 @@
 # User Profile Context -- career-ops
 
+---
+
+## HARD RULES (never override)
+
+### Profile Rules
+
+| Rule | Value |
+|------|-------|
+| **Email** | `nguyenharry2662@gmail.com` — NEVER use `harry.nguyen@timoto.ai` or `harrynguyenswe@gmail.com` |
+| **TiMoto framing** | "primary engineer on 3-person team" — NEVER "sole engineer" |
+| **Graduation** | May 2027, Georgia State CS, GPA 3.75 |
+| **Visa** | F-1, OPT eligible May 2027, H-1B sponsorship needed long-term |
+
+### LaTeX Resume Rules
+
+| Rule | Detail |
+|------|--------|
+| **En-dash** | Use `--` not `---` or `—` |
+| **Abbreviate** | `K8s` not `Kubernetes`; `IaC` not `Infrastructure-as-Code` |
+| **Tech tags** | Max 6 tags per `\resumeProjectHeading` line |
+| **AI Dev Tools** | ALWAYS include `\resumeSkillHeading{AI Dev Tools}{Claude Code, GitHub Copilot, Codex, Cursor}` as last skills row |
+| **Compiler compat** | Do NOT include `\input{glyphtounicode}` or `\pdfgentounicode=1` — breaks tectonic |
+
+### Pipeline Rules
+
+| Rule | Detail |
+|------|--------|
+| **CV threshold** | Generate LaTeX CV for any score ≥ 3.0 |
+| **Apply policy** | Apply to everything; warn red flags but never block application |
+| **Visa warnings** | Note sponsorship risk, never skip solely for that reason |
+
+### Red Flags (warn, never block)
+
+- "No sponsorship" language → note, still apply, ask recruiter early
+- Graduation year mismatch (JD wants 2025/2026, Harry is 2027) → disclose proactively in cover/form
+- YOE requirement exceeded → note, frame production ownership as substitute
+- Comp below $140K floor → note, suggest raising in negotiation
+
+### Contacts Already Reached Out
+
+| Person | Company | Status |
+|--------|---------|--------|
+| Ana Echeverria | CloudKitchens | Sent March (generic); follow-up drafted |
+| Ren Young | Cursor/Anysphere | Sent (recruiter) |
+| Alexey Kozy | Cursor/Anysphere | Drafted (peer/infra) |
+| Albert Slepak | Cursor | Sent (referral request) |
+| Less Wright | Cursor | Drafted (referral, ex-Meta PyTorch) |
+
+---
+
 
 
 ## Your Target Roles
