@@ -148,6 +148,67 @@ contacts:
       company: "Cursor"
       status: "Drafted (referral, ex-Meta PyTorch)"
 
+  # Recruiter email directory — use for outreach / follow-up
+  recruiters:
+    - company: "Jane Street"
+      emails: ["abaker@janestreet.com", "mchung@janestreet.com", "gmurphy@janestreet.com", "jkim@janestreet.com"]
+    - company: "Hudson River Trading"
+      emails: ["ying@hudson-trading.com", "christina@hudson-trading.com"]
+    - company: "DRW"
+      emails: ["mvavaroutsos@drwholdings.com", "mschlie@drwholdings.com", "chawk@drwholdings.com"]
+    - company: "Jump Trading"
+      emails: ["mmolloy@jumptrading.com", "esimonovich@jumptrading.co", "caplume@jumptrading.com"]
+    - company: "Two Sigma"
+      emails: ["Sharon.Lin@twosigma.com", "tommy.grassey@twosigma.com", "Liam.Smith@twosigma.com", "priscilla.huh@twosigma.com"]
+    - company: "D.E. Shaw"
+      emails: ["Max.Ma@deshaw.com", "mama@deshaw.com", "Sumya.Rashid@deshaw.com"]
+    - company: "Flow Traders"
+      emails: ["MMancuso@us.flowtraders.com", "athieu@flowtraders.jobs"]
+    - company: "Old Mission Capital"
+      emails: ["Meg.mcleish@oldmissioncapital.com"]
+    - company: "Five Rings"
+      emails: ["cparkwinebrake@fiveringscapital.com"]
+    - company: "Akuna Capital"
+      emails: ["anja.kitzmiller@akunacapital.com"]
+    - company: "IMC"
+      emails: ["anne.olmstead@imc.com", "lauren.bachman@imc.com", "karlie.okeefe@imc.com"]
+    - company: "Cognition"
+      emails: ["lewis@tessera.co"]
+    - company: "Kalshi"
+      emails: ["rjudge@kalshi.com"]
+    - company: "xAI"
+      emails: ["xiaobinw@x.ai"]
+    - company: "Rippling"
+      emails: ["ctung@rippling.com"]
+    - company: "Tesla"
+      emails: ["bcorrell@tesla.com"]
+    - company: "SpaceX"
+      emails: ["Alaina.Williams@spacex.com", "christina.knighton@spacex.com"]
+    - company: "Salesforce"
+      emails: ["nprichodko@salesforce.com"]
+    - company: "Capital One"
+      emails: ["simone.assaley@capitalone.com", "jazmin.ramirez@capitalone.com", "shaelyn.dowd@capitalone.com"]
+    - company: "Databricks"
+      emails: ["morgan.shalom@databricks.com", "katie.tenboer@databricks.com", "sabiha.khan@databricks.com"]
+    - company: "DoorDash"
+      emails: ["jessica.woo@doordash.com", "enny.tran@doordash.com", "cianna.contestabile@doordash.com"]
+    - company: "LinkedIn"
+      emails: ["jaiwebb@linkedin.com"]
+      notes: "Jaime Webb"
+    - company: "Amazon"
+      emails: ["letiagt@amazon.com", "jackdavp@amazon.com"]
+      notes: "LeTia Green-Tettey"
+    - company: "Apple"
+      emails: ["robert_graham@apple.com", "sze@apple.com", "orin_rottman@apple.com", "Lance_Perry@apple.com"]
+    - company: "Meta"
+      emails: ["berniceau@meta.com", "Cantonsen@meta.com", "togorman@meta.com"]
+    - company: "Stripe"
+      emails: ["alexandratorre@stripe.com"]
+    - company: "Google"
+      emails: ["oduhon@google.com", "oduhon@xwf.google.com", "brennaman@xwf.google.com"]
+    - company: "Microsoft"
+      emails: ["v-snunna@microsoft.com"]
+
   # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
   # Find it in your Canva design URL: https://www.canva.com/design/DAxxxxxxx/...
   # The ID starts with "D" and is 11 characters long.
