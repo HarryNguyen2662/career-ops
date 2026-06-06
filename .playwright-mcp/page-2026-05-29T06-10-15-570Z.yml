@@ -1,0 +1,458 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - heading "Current openings at The Trade Desk" [level=1] [ref=e4]
+      - generic [ref=e6]:
+        - img [ref=e7]
+        - generic [ref=e9]:
+          - paragraph [ref=e10]: Create a Job Alert
+          - paragraph [ref=e11]: Level-up your career by having opportunities at The Trade Desk sent directly to your inbox.
+          - link "Create alert" [ref=e12] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=thetradedesk&source=job_alert_board
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e16]:
+            - generic [ref=e17]: Search
+            - textbox "Search" [ref=e18]
+          - generic [ref=e20]:
+            - generic [ref=e21]: Office
+            - generic [ref=e22]:
+              - log [ref=e24]
+              - generic [ref=e26]:
+                - generic [ref=e27]:
+                  - generic [ref=e28]: Select...
+                  - combobox "Office" [ref=e30]
+                - button "Toggle flyout" [ref=e32] [cursor=pointer]:
+                  - img [ref=e33]
+          - generic [ref=e36]:
+            - generic [ref=e37]: Careers Site Category
+            - generic [ref=e38]:
+              - log [ref=e40]
+              - generic [ref=e42]:
+                - generic [ref=e43]:
+                  - generic [ref=e44]: Select...
+                  - combobox "Careers Site Category" [ref=e46]
+                - button "Toggle flyout" [ref=e48] [cursor=pointer]:
+                  - img [ref=e49]
+        - generic [ref=e51]:
+          - heading "193 jobs" [level=2] [ref=e52]
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - paragraph [ref=e56]: Administrative
+              - heading "Interns" [level=3] [ref=e57]
+              - table [ref=e59]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e60]:
+                      - paragraph [ref=e61]: Job
+                - rowgroup [ref=e62]:
+                  - row "2026 Australia Software Engineering Internship Sydney" [ref=e63]:
+                    - cell "2026 Australia Software Engineering Internship Sydney" [ref=e64]:
+                      - link "2026 Australia Software Engineering Internship Sydney" [ref=e65] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5033765007
+                        - paragraph [ref=e66]: 2026 Australia Software Engineering Internship
+                        - paragraph [ref=e67]: Sydney
+            - generic [ref=e68]:
+              - heading "Engineering" [level=3] [ref=e69]
+              - table [ref=e71]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e72]:
+                      - paragraph [ref=e73]: Job
+                - rowgroup [ref=e74]:
+                  - row "Lead Staff Systems Reliability Engineer (Linux & Distributed Systems) London" [ref=e75]:
+                    - cell "Lead Staff Systems Reliability Engineer (Linux & Distributed Systems) London" [ref=e76]:
+                      - link "Lead Staff Systems Reliability Engineer (Linux & Distributed Systems) London" [ref=e77] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/4926299007
+                        - paragraph [ref=e78]: Lead Staff Systems Reliability Engineer (Linux & Distributed Systems)
+                        - paragraph [ref=e79]: London
+            - generic [ref=e80]:
+              - paragraph [ref=e82]: Engineering
+              - heading "Ad Policy Operations" [level=3] [ref=e83]
+              - table [ref=e85]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e86]:
+                      - paragraph [ref=e87]: Job
+                - rowgroup [ref=e88]:
+                  - row "Ad Policy Operations Analyst Denver" [ref=e89]:
+                    - cell "Ad Policy Operations Analyst Denver" [ref=e90]:
+                      - link "Ad Policy Operations Analyst Denver" [ref=e91] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5136312007
+                        - paragraph [ref=e92]: Ad Policy Operations Analyst
+                        - paragraph [ref=e93]: Denver
+            - generic [ref=e94]:
+              - paragraph [ref=e96]: Engineering
+              - heading "Business Intelligence" [level=3] [ref=e97]
+              - table [ref=e99]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e100]:
+                      - paragraph [ref=e101]: Job
+                - rowgroup [ref=e102]:
+                  - row "Business Intelligence Analyst II Ventura" [ref=e103]:
+                    - cell "Business Intelligence Analyst II Ventura" [ref=e104]:
+                      - link "Business Intelligence Analyst II Ventura" [ref=e105] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/4918240007
+                        - paragraph [ref=e106]: Business Intelligence Analyst II
+                        - paragraph [ref=e107]: Ventura
+                  - row "Sr Business Intelligence Analyst New York" [ref=e108]:
+                    - cell "Sr Business Intelligence Analyst New York" [ref=e109]:
+                      - link "Sr Business Intelligence Analyst New York" [ref=e110] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5125010007
+                        - paragraph [ref=e111]: Sr Business Intelligence Analyst
+                        - paragraph [ref=e112]: New York
+                  - row "Staff Business Intelligence Analyst Irvine" [ref=e113]:
+                    - cell "Staff Business Intelligence Analyst Irvine" [ref=e114]:
+                      - link "Staff Business Intelligence Analyst Irvine" [ref=e115] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5044014007
+                        - paragraph [ref=e116]: Staff Business Intelligence Analyst
+                        - paragraph [ref=e117]: Irvine
+            - generic [ref=e118]:
+              - paragraph [ref=e120]: Engineering
+              - heading "Database Engineering" [level=3] [ref=e121]
+              - table [ref=e123]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e124]:
+                      - paragraph [ref=e125]: Job
+                - rowgroup [ref=e126]:
+                  - row "Senior Database Engineer Sydney" [ref=e127]:
+                    - cell "Senior Database Engineer Sydney" [ref=e128]:
+                      - link "Senior Database Engineer Sydney" [ref=e129] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5000637007
+                        - paragraph [ref=e130]: Senior Database Engineer
+                        - paragraph [ref=e131]: Sydney
+                  - row "Senior Database Engineer Hong Kong" [ref=e132]:
+                    - cell "Senior Database Engineer Hong Kong" [ref=e133]:
+                      - link "Senior Database Engineer Hong Kong" [ref=e134] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5000638007
+                        - paragraph [ref=e135]: Senior Database Engineer
+                        - paragraph [ref=e136]: Hong Kong
+            - generic [ref=e137]:
+              - paragraph [ref=e139]: Engineering
+              - heading "Data Science" [level=3] [ref=e140]
+              - table [ref=e142]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e143]:
+                      - paragraph [ref=e144]: Job
+                - rowgroup [ref=e145]:
+                  - row "Applied Scientist II Shanghai" [ref=e146]:
+                    - cell "Applied Scientist II Shanghai" [ref=e147]:
+                      - link "Applied Scientist II Shanghai" [ref=e148] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5082777007
+                        - paragraph [ref=e149]: Applied Scientist II
+                        - paragraph [ref=e150]: Shanghai
+                  - row "Applied Scientist II Irvine" [ref=e151]:
+                    - cell "Applied Scientist II Irvine" [ref=e152]:
+                      - link "Applied Scientist II Irvine" [ref=e153] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5102136007
+                        - paragraph [ref=e154]: Applied Scientist II
+                        - paragraph [ref=e155]: Irvine
+                  - row "Data Scientist II Irvine" [ref=e156]:
+                    - cell "Data Scientist II Irvine" [ref=e157]:
+                      - link "Data Scientist II Irvine" [ref=e158] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5127530007
+                        - paragraph [ref=e159]: Data Scientist II
+                        - paragraph [ref=e160]: Irvine
+                  - row "Senior Applied Scientist , Channel Growth Bellevue; San Jose" [ref=e161]:
+                    - cell "Senior Applied Scientist , Channel Growth Bellevue; San Jose" [ref=e162]:
+                      - link "Senior Applied Scientist , Channel Growth Bellevue; San Jose" [ref=e163] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5021488007
+                        - paragraph [ref=e164]: Senior Applied Scientist , Channel Growth
+                        - paragraph [ref=e165]: Bellevue; San Jose
+                  - row "Staff Applied Scientist London" [ref=e166]:
+                    - cell "Staff Applied Scientist London" [ref=e167]:
+                      - link "Staff Applied Scientist London" [ref=e168] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5118594007
+                        - paragraph [ref=e169]: Staff Applied Scientist
+                        - paragraph [ref=e170]: London
+                  - row "Staff Applied Scientist , Inventory & Marketplace Quality Bellevue; Denver; San Jose" [ref=e171]:
+                    - cell "Staff Applied Scientist , Inventory & Marketplace Quality Bellevue; Denver; San Jose" [ref=e172]:
+                      - link "Staff Applied Scientist , Inventory & Marketplace Quality Bellevue; Denver; San Jose" [ref=e173] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5020009007
+                        - paragraph [ref=e174]: Staff Applied Scientist , Inventory & Marketplace Quality
+                        - paragraph [ref=e175]: Bellevue; Denver; San Jose
+            - generic [ref=e176]:
+              - paragraph [ref=e178]: Engineering
+              - heading "Enterprise Engineering" [level=3] [ref=e179]
+              - table [ref=e181]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e182]:
+                      - paragraph [ref=e183]: Job
+                - rowgroup [ref=e184]:
+                  - row "Sr Enterprise Engineer - Salesforce New York" [ref=e185]:
+                    - cell "Sr Enterprise Engineer - Salesforce New York" [ref=e186]:
+                      - link "Sr Enterprise Engineer - Salesforce New York" [ref=e187] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5087706007
+                        - paragraph [ref=e188]: Sr Enterprise Engineer - Salesforce
+                        - paragraph [ref=e189]: New York
+                  - row "Sr Enterprise Salesforce Engineer Bellevue; New York; San Francisco; Seattle" [ref=e190]:
+                    - cell "Sr Enterprise Salesforce Engineer Bellevue; New York; San Francisco; Seattle" [ref=e191]:
+                      - link "Sr Enterprise Salesforce Engineer Bellevue; New York; San Francisco; Seattle" [ref=e192] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5107235007
+                        - paragraph [ref=e193]: Sr Enterprise Salesforce Engineer
+                        - paragraph [ref=e194]: Bellevue; New York; San Francisco; Seattle
+            - generic [ref=e195]:
+              - paragraph [ref=e197]: Engineering
+              - heading "Product Management" [level=3] [ref=e198]
+              - table [ref=e200]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e201]:
+                      - paragraph [ref=e202]: Job
+                - rowgroup [ref=e203]:
+                  - row "Director of Design Technology New Bellevue" [ref=e204]:
+                    - cell "Director of Design Technology New Bellevue" [ref=e205]:
+                      - link "Director of Design Technology New Bellevue" [ref=e206] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5147050007
+                        - paragraph [ref=e207]:
+                          - text: Director of Design Technology
+                          - generic [ref=e209]: New
+                        - paragraph [ref=e210]: Bellevue
+                  - row "Principal Product Manager, Core Platform Ventura TV OS New San Jose" [ref=e211]:
+                    - cell "Principal Product Manager, Core Platform Ventura TV OS New San Jose" [ref=e212]:
+                      - link "Principal Product Manager, Core Platform Ventura TV OS New San Jose" [ref=e213] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5147818007
+                        - paragraph [ref=e214]:
+                          - text: Principal Product Manager, Core Platform Ventura TV OS
+                          - generic [ref=e216]: New
+                        - paragraph [ref=e217]: San Jose
+                  - row "Principal Product Manager, Pharma New York" [ref=e218]:
+                    - cell "Principal Product Manager, Pharma New York" [ref=e219]:
+                      - link "Principal Product Manager, Pharma New York" [ref=e220] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5071040007
+                        - paragraph [ref=e221]: Principal Product Manager, Pharma
+                        - paragraph [ref=e222]: New York
+                  - row "Senior Product Manager, Audience Bellevue; Los Angeles; San Francisco; Ventura" [ref=e223]:
+                    - cell "Senior Product Manager, Audience Bellevue; Los Angeles; San Francisco; Ventura" [ref=e224]:
+                      - link "Senior Product Manager, Audience Bellevue; Los Angeles; San Francisco; Ventura" [ref=e225] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5117931007
+                        - paragraph [ref=e226]: Senior Product Manager, Audience
+                        - paragraph [ref=e227]: Bellevue; Los Angeles; San Francisco; Ventura
+                  - row "Senior Product Manager, Audience Sydney" [ref=e228]:
+                    - cell "Senior Product Manager, Audience Sydney" [ref=e229]:
+                      - link "Senior Product Manager, Audience Sydney" [ref=e230] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5137436007
+                        - paragraph [ref=e231]: Senior Product Manager, Audience
+                        - paragraph [ref=e232]: Sydney
+                  - row "Sr Staff Product Manager New London" [ref=e233]:
+                    - cell "Sr Staff Product Manager New London" [ref=e234]:
+                      - link "Sr Staff Product Manager New London" [ref=e235] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5088833007
+                        - paragraph [ref=e236]:
+                          - text: Sr Staff Product Manager
+                          - generic [ref=e238]: New
+                        - paragraph [ref=e239]: London
+                  - row "Sr. Staff Product Manager, Revenue Products New Bellevue; New York; San Francisco; San Jose" [ref=e240]:
+                    - cell "Sr. Staff Product Manager, Revenue Products New Bellevue; New York; San Francisco; San Jose" [ref=e241]:
+                      - link "Sr. Staff Product Manager, Revenue Products New Bellevue; New York; San Francisco; San Jose" [ref=e242] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5147007007
+                        - paragraph [ref=e243]:
+                          - text: Sr. Staff Product Manager, Revenue Products
+                          - generic [ref=e245]: New
+                        - paragraph [ref=e246]: Bellevue; New York; San Francisco; San Jose
+                  - row "Staff Product Manager Singapore" [ref=e247]:
+                    - cell "Staff Product Manager Singapore" [ref=e248]:
+                      - link "Staff Product Manager Singapore" [ref=e249] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5115375007
+                        - paragraph [ref=e250]: Staff Product Manager
+                        - paragraph [ref=e251]: Singapore
+                  - row "Staff Product Manager, Agentic AI New York; San Francisco" [ref=e252]:
+                    - cell "Staff Product Manager, Agentic AI New York; San Francisco" [ref=e253]:
+                      - link "Staff Product Manager, Agentic AI New York; San Francisco" [ref=e254] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5136215007
+                        - paragraph [ref=e255]: Staff Product Manager, Agentic AI
+                        - paragraph [ref=e256]: New York; San Francisco
+                  - row "Staff Product Manager, Generalist Bellevue; San Francisco; San Jose" [ref=e257]:
+                    - cell "Staff Product Manager, Generalist Bellevue; San Francisco; San Jose" [ref=e258]:
+                      - link "Staff Product Manager, Generalist Bellevue; San Francisco; San Jose" [ref=e259] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5128622007
+                        - paragraph [ref=e260]: Staff Product Manager, Generalist
+                        - paragraph [ref=e261]: Bellevue; San Francisco; San Jose
+                  - row "Staff Product Manager, Infra Generalist Bellevue; Irvine; Los Angeles; San Francisco; San Jose; Seattle; Ventura" [ref=e262]:
+                    - cell "Staff Product Manager, Infra Generalist Bellevue; Irvine; Los Angeles; San Francisco; San Jose; Seattle; Ventura" [ref=e263]:
+                      - link "Staff Product Manager, Infra Generalist Bellevue; Irvine; Los Angeles; San Francisco; San Jose; Seattle; Ventura" [ref=e264] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/4833571007
+                        - paragraph [ref=e265]: Staff Product Manager, Infra Generalist
+                        - paragraph [ref=e266]: Bellevue; Irvine; Los Angeles; San Francisco; San Jose; Seattle; Ventura
+                  - row "Staff Product Manager, Pharma Los Angeles; New York; San Francisco; San Jose" [ref=e267]:
+                    - cell "Staff Product Manager, Pharma Los Angeles; New York; San Francisco; San Jose" [ref=e268]:
+                      - link "Staff Product Manager, Pharma Los Angeles; New York; San Francisco; San Jose" [ref=e269] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5067851007
+                        - paragraph [ref=e270]: Staff Product Manager, Pharma
+                        - paragraph [ref=e271]: Los Angeles; New York; San Francisco; San Jose
+            - generic [ref=e272]:
+              - paragraph [ref=e274]: Engineering
+              - heading "Site Reliability Engineering" [level=3] [ref=e275]
+              - table [ref=e277]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e278]:
+                      - paragraph [ref=e279]: Job
+                - rowgroup [ref=e280]:
+                  - row "Sr Site Reliability Engineer Sydney" [ref=e281]:
+                    - cell "Sr Site Reliability Engineer Sydney" [ref=e282]:
+                      - link "Sr Site Reliability Engineer Sydney" [ref=e283] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5090393007
+                        - paragraph [ref=e284]: Sr Site Reliability Engineer
+                        - paragraph [ref=e285]: Sydney
+            - generic [ref=e286]:
+              - paragraph [ref=e288]: Engineering
+              - heading "Software Engineering" [level=3] [ref=e289]
+              - table [ref=e291]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e292]:
+                      - paragraph [ref=e293]: Job
+                - rowgroup [ref=e294]:
+                  - row "Front End Engineer II - Reporting Boulder" [ref=e295]:
+                    - cell "Front End Engineer II - Reporting Boulder" [ref=e296]:
+                      - link "Front End Engineer II - Reporting Boulder" [ref=e297] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5120336007
+                        - paragraph [ref=e298]: Front End Engineer II - Reporting
+                        - paragraph [ref=e299]: Boulder
+                  - row "Full Stack Software Engineer II Bellevue; Seattle" [ref=e300]:
+                    - cell "Full Stack Software Engineer II Bellevue; Seattle" [ref=e301]:
+                      - link "Full Stack Software Engineer II Bellevue; Seattle" [ref=e302] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5043258007
+                        - paragraph [ref=e303]: Full Stack Software Engineer II
+                        - paragraph [ref=e304]: Bellevue; Seattle
+                  - row "Lead Senior Full‑Stack Software Engineer, Rapid Customer Enablement Bellevue; Irvine" [ref=e305]:
+                    - cell "Lead Senior Full‑Stack Software Engineer, Rapid Customer Enablement Bellevue; Irvine" [ref=e306]:
+                      - link "Lead Senior Full‑Stack Software Engineer, Rapid Customer Enablement Bellevue; Irvine" [ref=e307] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5084718007
+                        - paragraph [ref=e308]: Lead Senior Full‑Stack Software Engineer, Rapid Customer Enablement
+                        - paragraph [ref=e309]: Bellevue; Irvine
+                  - row "Lead Sr Staff Software Engineer - Front End Fundamentals Bellevue; Boulder; Chicago; Denver; Irvine; Los Angeles; New York; San Francisco; San Jose; Seattle; Ventura" [ref=e310]:
+                    - cell "Lead Sr Staff Software Engineer - Front End Fundamentals Bellevue; Boulder; Chicago; Denver; Irvine; Los Angeles; New York; San Francisco; San Jose; Seattle; Ventura" [ref=e311]:
+                      - link "Lead Sr Staff Software Engineer - Front End Fundamentals Bellevue; Boulder; Chicago; Denver; Irvine; Los Angeles; New York; San Francisco; San Jose; Seattle; Ventura" [ref=e312] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5106268007
+                        - paragraph [ref=e313]: Lead Sr Staff Software Engineer - Front End Fundamentals
+                        - paragraph [ref=e314]: Bellevue; Boulder; Chicago; Denver; Irvine; Los Angeles; New York; San Francisco; San Jose; Seattle; Ventura
+                  - row "Lead Staff Software Engineer London" [ref=e315]:
+                    - cell "Lead Staff Software Engineer London" [ref=e316]:
+                      - link "Lead Staff Software Engineer London" [ref=e317] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5032811007
+                        - paragraph [ref=e318]: Lead Staff Software Engineer
+                        - paragraph [ref=e319]: London
+                  - row "Lead Staff Software Engineer, Front End - Deal Manager Experiences New York; Toronto" [ref=e320]:
+                    - cell "Lead Staff Software Engineer, Front End - Deal Manager Experiences New York; Toronto" [ref=e321]:
+                      - link "Lead Staff Software Engineer, Front End - Deal Manager Experiences New York; Toronto" [ref=e322] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5024446007
+                        - paragraph [ref=e323]: Lead Staff Software Engineer, Front End - Deal Manager Experiences
+                        - paragraph [ref=e324]: New York; Toronto
+                  - row "Senior Full Stack Software Engineer - Omnichannel Bellevue; Boston; Boulder; Chicago; Denver; Irvine; Los Angeles; New York; San Francisco; San Jose; Seattle; Ventura" [ref=e325]:
+                    - cell "Senior Full Stack Software Engineer - Omnichannel Bellevue; Boston; Boulder; Chicago; Denver; Irvine; Los Angeles; New York; San Francisco; San Jose; Seattle; Ventura" [ref=e326]:
+                      - link "Senior Full Stack Software Engineer - Omnichannel Bellevue; Boston; Boulder; Chicago; Denver; Irvine; Los Angeles; New York; San Francisco; San Jose; Seattle; Ventura" [ref=e327] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5120331007
+                        - paragraph [ref=e328]: Senior Full Stack Software Engineer - Omnichannel
+                        - paragraph [ref=e329]: Bellevue; Boston; Boulder; Chicago; Denver; Irvine; Los Angeles; New York; San Francisco; San Jose; Seattle; Ventura
+                  - row "Senior Software Engineer Sydney" [ref=e330]:
+                    - cell "Senior Software Engineer Sydney" [ref=e331]:
+                      - link "Senior Software Engineer Sydney" [ref=e332] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5087851007
+                        - paragraph [ref=e333]: Senior Software Engineer
+                        - paragraph [ref=e334]: Sydney
+                  - row "Senior Software Engineer Irvine" [ref=e335]:
+                    - cell "Senior Software Engineer Irvine" [ref=e336]:
+                      - link "Senior Software Engineer Irvine" [ref=e337] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5127583007
+                        - paragraph [ref=e338]: Senior Software Engineer
+                        - paragraph [ref=e339]: Irvine
+                  - row "Senior Software Engineer - Cloud Services Bellevue; San Francisco" [ref=e340]:
+                    - cell "Senior Software Engineer - Cloud Services Bellevue; San Francisco" [ref=e341]:
+                      - link "Senior Software Engineer - Cloud Services Bellevue; San Francisco" [ref=e342] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5135067007
+                        - paragraph [ref=e343]: Senior Software Engineer - Cloud Services
+                        - paragraph [ref=e344]: Bellevue; San Francisco
+                  - row "Senior Software Engineer - Data & Distributed Systems Bellevue" [ref=e345]:
+                    - cell "Senior Software Engineer - Data & Distributed Systems Bellevue" [ref=e346]:
+                      - link "Senior Software Engineer - Data & Distributed Systems Bellevue" [ref=e347] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5056981007
+                        - paragraph [ref=e348]: Senior Software Engineer - Data & Distributed Systems
+                        - paragraph [ref=e349]: Bellevue
+                  - row "Senior Software Engineer-Data Engineer Bellevue; Seattle" [ref=e350]:
+                    - cell "Senior Software Engineer-Data Engineer Bellevue; Seattle" [ref=e351]:
+                      - link "Senior Software Engineer-Data Engineer Bellevue; Seattle" [ref=e352] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5134929007
+                        - paragraph [ref=e353]: Senior Software Engineer-Data Engineer
+                        - paragraph [ref=e354]: Bellevue; Seattle
+                  - row "Senior Software Engineer - Decisioning Workflows Team New York" [ref=e355]:
+                    - cell "Senior Software Engineer - Decisioning Workflows Team New York" [ref=e356]:
+                      - link "Senior Software Engineer - Decisioning Workflows Team New York" [ref=e357] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5121510007
+                        - paragraph [ref=e358]: Senior Software Engineer - Decisioning Workflows Team
+                        - paragraph [ref=e359]: New York
+                  - row "Senior Software Engineer - Geo Targeting Team Bellevue; Irvine" [ref=e360]:
+                    - cell "Senior Software Engineer - Geo Targeting Team Bellevue; Irvine" [ref=e361]:
+                      - link "Senior Software Engineer - Geo Targeting Team Bellevue; Irvine" [ref=e362] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/4689448007
+                        - paragraph [ref=e363]: Senior Software Engineer - Geo Targeting Team
+                        - paragraph [ref=e364]: Bellevue; Irvine
+                  - row "Senior Software Engineer - Identity Team Bellevue" [ref=e365]:
+                    - cell "Senior Software Engineer - Identity Team Bellevue" [ref=e366]:
+                      - link "Senior Software Engineer - Identity Team Bellevue" [ref=e367] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5123444007
+                        - paragraph [ref=e368]: Senior Software Engineer - Identity Team
+                        - paragraph [ref=e369]: Bellevue
+                  - row "Senior Software Engineer - MQE Bellevue; San Jose" [ref=e370]:
+                    - cell "Senior Software Engineer - MQE Bellevue; San Jose" [ref=e371]:
+                      - link "Senior Software Engineer - MQE Bellevue; San Jose" [ref=e372] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5121384007
+                        - paragraph [ref=e373]: Senior Software Engineer - MQE
+                        - paragraph [ref=e374]: Bellevue; San Jose
+                  - row "Senior Software Engineer - Observability & IRM Bellevue; Boulder; Denver; Los Angeles; Seattle; Ventura" [ref=e375]:
+                    - cell "Senior Software Engineer - Observability & IRM Bellevue; Boulder; Denver; Los Angeles; Seattle; Ventura" [ref=e376]:
+                      - link "Senior Software Engineer - Observability & IRM Bellevue; Boulder; Denver; Los Angeles; Seattle; Ventura" [ref=e377] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5057572007
+                        - paragraph [ref=e378]: Senior Software Engineer - Observability & IRM
+                        - paragraph [ref=e379]: Bellevue; Boulder; Denver; Los Angeles; Seattle; Ventura
+                  - row "Senior Software Engineer - OpenPath San Jose" [ref=e380]:
+                    - cell "Senior Software Engineer - OpenPath San Jose" [ref=e381]:
+                      - link "Senior Software Engineer - OpenPath San Jose" [ref=e382] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5137396007
+                        - paragraph [ref=e383]: Senior Software Engineer - OpenPath
+                        - paragraph [ref=e384]: San Jose
+                  - row "Senior Software Engineer - Price Optimization & Bidding Boulder" [ref=e385]:
+                    - cell "Senior Software Engineer - Price Optimization & Bidding Boulder" [ref=e386]:
+                      - link "Senior Software Engineer - Price Optimization & Bidding Boulder" [ref=e387] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/4823184007
+                        - paragraph [ref=e388]: Senior Software Engineer - Price Optimization & Bidding
+                        - paragraph [ref=e389]: Boulder
+                  - row "Senior Software Engineer – Janus Platform New London" [ref=e390]:
+                    - cell "Senior Software Engineer – Janus Platform New London" [ref=e391]:
+                      - link "Senior Software Engineer – Janus Platform New London" [ref=e392] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/5145118007
+                        - paragraph [ref=e393]:
+                          - text: Senior Software Engineer – Janus Platform
+                          - generic [ref=e395]: New
+                        - paragraph [ref=e396]: London
+                  - row "Software Engineer II Sydney" [ref=e397]:
+                    - cell "Software Engineer II Sydney" [ref=e398]:
+                      - link "Software Engineer II Sydney" [ref=e399] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/thetradedesk/jobs/4972481007
+                        - paragraph [ref=e400]: Software Engineer II
+                        - paragraph [ref=e401]: Sydney
+          - navigation "Pagination" [ref=e403]:
+            - button "Previous page" [disabled] [ref=e404]:
+              - img [ref=e405]
+            - list [ref=e407]:
+              - listitem [ref=e408]:
+                - button "Go to page 1": "1"
+              - listitem [ref=e409]:
+                - button "Go to page 2" [ref=e410] [cursor=pointer]: "2"
+              - listitem [ref=e411]:
+                - button "Go to page 3" [ref=e412] [cursor=pointer]: "3"
+              - listitem [ref=e413]:
+                - button "Go to page 4" [ref=e414] [cursor=pointer]: "4"
+            - button "Next page" [ref=e415] [cursor=pointer]:
+              - img [ref=e416]
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - paragraph [ref=e420]: Powered by
+      - link "Greenhouse logo" [ref=e421] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=e422]

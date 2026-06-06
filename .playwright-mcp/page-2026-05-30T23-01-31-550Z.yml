@@ -1,0 +1,113 @@
+- generic [ref=e2]:
+  - list [ref=e4]:
+    - listitem [ref=e5]:
+      - link "Convex" [ref=e6] [cursor=pointer]:
+        - /url: https://convex.dev
+        - img "Convex" [ref=e7]
+    - listitem [ref=e8]:
+      - link "Back to Convex’s Job Listings" [ref=e9] [cursor=pointer]:
+        - /url: /convex-dev
+        - img [ref=e10]
+    - listitem
+  - generic [ref=e12]:
+    - heading "Software Engineer, AI" [level=1] [ref=e14]
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - heading "Location" [level=2] [ref=e18]
+          - paragraph [ref=e19]: San Francisco
+        - generic [ref=e20]:
+          - heading "Employment Type" [level=2] [ref=e21]
+          - paragraph [ref=e22]: Full time
+        - generic [ref=e23]:
+          - heading "Department" [level=2] [ref=e24]
+          - paragraph [ref=e25]: Engineering
+      - generic [ref=e26]:
+        - tablist [ref=e27]:
+          - tab "Overview" [selected] [ref=e28] [cursor=pointer]
+          - tab "Application" [ref=e29] [cursor=pointer]
+        - tabpanel "Overview" [ref=e31]:
+          - generic [ref=e32]:
+            - paragraph [ref=e33]:
+              - strong [ref=e34]: Convex is transforming the way developers build applications.
+            - paragraph [ref=e35]: Our mission is to fundamentally change how software is built on the Internet by empowering developers to create fast, reliable, and dynamic apps without a backend team. We provide a full-stack app platform carefully designed with database, compute and backend abstractions that allow developers and LLMs to move fast but also create products that scale and remain simple over their lifetime.
+            - paragraph [ref=e36]
+            - paragraph [ref=e37]:
+              - link "The Team:" [ref=e38] [cursor=pointer]:
+                - /url: https://convex.dev/about-us
+                - strong [ref=e39]: "The Team:"
+            - paragraph [ref=e40]: Convex has assembled a team of engineers who have built and designed some of the largest backends in the world, with exabytes of data, millions of transactions per second, and shipped desktop and mobile software onto billions of devices. We are a group of friendly, collaborative, and passionate people that love working in-person together in our office in San Francisco. We hire primarily in SF but have a few experienced folks working remotely in certain situations.
+            - paragraph [ref=e41]
+            - paragraph [ref=e42]:
+              - strong [ref=e43]: "The Role:"
+            - paragraph [ref=e44]: It’s not sufficient for Convex to be the best platform for agentic development, it also has to be the best platform for building agentic applications too, all while maintaining strong architectural principles that lead to applications that stay simple, correct, and secure over time. Architecting this platform is still the domain of very talented humans, and we want you to be one of them.
+            - paragraph [ref=e45]: We have a lot of work to do. The projects involve range from small ergonomic tweaks to make agentic development seamless, large structural changes like branching and automatic performance optimization of Convex projects, and keeping on top of and ahead of technological shifts in the industry.
+            - paragraph [ref=e46]: The ideal candidate would be an excellent engineer with the good taste to invest in developing composable APIs and abstractions while also being high energy and enthusiastic about working on a broad product surface area. If you’re a former founder, an engineer straddling both product and infrastructure, or a junior engineer excited to learn a ton while working with a truly world-class team, this is for you.
+            - paragraph [ref=e47]
+            - paragraph [ref=e48]:
+              - strong [ref=e49]: "What You'll Do:"
+            - list [ref=e50]:
+              - listitem [ref=e51]:
+                - paragraph [ref=e52]: Work across our APIs, plugins, and AI framework integrations to make Convex the best platform for building agentic apps and agents.
+              - listitem [ref=e53]:
+                - paragraph [ref=e54]: Stay close to how developers are actually building with Convex, identify gaps, and own fixing them.
+              - listitem [ref=e55]:
+                - paragraph [ref=e56]: Be self-directed to prioritize the right projects to work on, in close collaboration with our Head of AI Ergonomics, the engineering team, and CTO (hi! this is me, James).
+              - listitem [ref=e57]:
+                - paragraph [ref=e58]: Strengthen the case that Convex is the best platform for agentic development, through demos, examples, and working directly with customers.
+              - listitem [ref=e59]:
+                - paragraph [ref=e60]: Write a bunch of cool code at the frontier of how AI apps get built.
+            - paragraph [ref=e61]
+            - paragraph [ref=e62]:
+              - strong [ref=e63]: "What Excites Us:"
+            - list [ref=e64]:
+              - listitem [ref=e65]:
+                - paragraph [ref=e66]: Experience building developer-facing products, APIs, or tooling.
+              - listitem [ref=e67]:
+                - paragraph [ref=e68]: Strong instincts for what makes a developer tool feel right to use.
+              - listitem [ref=e69]:
+                - paragraph [ref=e70]: Genuine curiosity about how AI is changing the way software gets built.
+              - listitem [ref=e71]:
+                - paragraph [ref=e72]: Experience or enthusiasm for scaling in a high growth startup environment.
+              - listitem [ref=e73]:
+                - paragraph [ref=e74]: Interest in working in-person at Convex's office in SF, or have experience working remotely and be highly self-directed.
+              - listitem [ref=e75]:
+                - paragraph [ref=e76]: Ability to write high quality code (TypeScript experience a plus).
+              - listitem [ref=e77]:
+                - paragraph [ref=e78]: An enthusiasm for going deep to understand Convex systems and not be constrained to a certain layer of the stack.
+            - paragraph [ref=e79]
+            - heading "Ideal Characteristics" [level=1] [ref=e80]
+            - paragraph [ref=e81]: This is an attempt to outline some characteristics of engineers who tend to thrive at Convex. We have a high demand for conceptual thought and architectural sensibilities, while also having the typical demands of a small startup.
+            - paragraph [ref=e82]
+            - heading "Have they seen excellence?" [level=3] [ref=e83]
+            - paragraph [ref=e84]: If someone has a few years of experience it's extremely valuable for them to have worked closely with a person, team or organization that's truly excellent, in any domain. Excellence can't just be learned passively since it requires being better than the status quo. The candidate doesn't need to be excellent yet but they need to have an appreciation that it requires a lifetime of dedication.
+            - paragraph [ref=e85]
+            - heading "Are they a deep thinker?" [level=3] [ref=e86]
+            - paragraph [ref=e87]: Convex is a rejection of industry norms and a belief there's a better way of building apps. This requires us to think for ourselves and chart our own course. Engineers here need to think deeply about why they're solving problems and the long-term implications of their choices. If someone does something just because they were told to or because it's a "best practice" they will probably not excel here.
+            - paragraph [ref=e88]
+            - heading "Do they value simplicity and pragmatism?" [level=3] [ref=e89]
+            - paragraph [ref=e90]: Simplicity is at the heart of all good systems, especially those that are able to scale and adapt to future needs. In addition to architectural simplicity, we also try to do the simplest thing to solve a given problem at Convex. Don't come here because you want to write a consensus protocol or storage engine, even though sometimes we need to do these things. Come here because you want to get really good at achieving great things in the simplest possible way.
+            - paragraph [ref=e91]
+            - heading "Do they bring energy to the room?" [level=3] [ref=e92]
+            - paragraph [ref=e93]: Startups are hard. Building something from nothing is hard. Driving forward progress despite uncertainty is hard. Shitting on stuff is easy and just brings everyone else down. We have a high bar for quality but also a high bar for being constructive, positive, and excited about making things better. We're meant to be having fun here.
+            - paragraph [ref=e94]
+            - heading "Do they have tenacity?" [level=3] [ref=e95]
+            - paragraph [ref=e96]: Working at Convex is rewarding and the workload isn't crazy but our users come first and sometimes that means we need to be on-call. We sometimes (rarely), get paged at night and have to respond with dedication, sometimes need to dig deep to debug a tricky issue or solve a problem no one has solved before. There's a camaraderie that comes from being in a team where everyone has tenacity, will step in to help each other out, and can be trusted to do the right thing.
+            - paragraph [ref=e97]
+            - paragraph [ref=e98]:
+              - emphasis [ref=e99]: "*The salary range for this full-time position is > $170,000 + equity + benefits"
+          - link "Apply for this Job" [ref=e100] [cursor=pointer]:
+            - /url: /convex-dev/dae7eefa-e97a-466f-9413-38ceeac8435b/application
+            - button "Apply for this Job" [ref=e101]
+  - contentinfo [ref=e102]:
+    - link "Learn more about Ashby" [ref=e103] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=e104]: Powered by
+      - img "Ashby" [ref=e105]
+    - paragraph [ref=e111]:
+      - link "Privacy Policy" [ref=e112] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=e113] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=e114] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

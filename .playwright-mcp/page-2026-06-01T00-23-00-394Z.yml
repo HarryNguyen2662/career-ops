@@ -1,0 +1,968 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img [ref=e7]
+          - menubar [ref=e9]:
+            - navigation [ref=e10]:
+              - list [ref=e11]:
+                - listitem [ref=e12]:
+                  - link "Games" [ref=e13] [cursor=pointer]:
+                    - /url: /games
+                - listitem [ref=e14]:
+                  - link "Industry" [ref=e15] [cursor=pointer]:
+                    - /url: /industry
+                - listitem [ref=e16]:
+                  - link "Resources" [ref=e17] [cursor=pointer]:
+                    - /url: /resources
+                - listitem [ref=e18]:
+                  - link "Community" [ref=e19] [cursor=pointer]:
+                    - /url: /community
+                - listitem [ref=e20]:
+                  - link "Learning" [ref=e21] [cursor=pointer]:
+                    - /url: https://learn.unity.com/
+                - listitem [ref=e22]:
+                  - link "Support" [ref=e23] [cursor=pointer]:
+                    - /url: /support-services
+                - listitem [ref=e24]:
+                  - link "Pricing" [ref=e25] [cursor=pointer]:
+                    - /url: /products
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Develop
+                  - generic:
+                    - link:
+                      - /url: /products/unity-engine
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Unity Engine
+                          - generic: Build 2D and 3D games for any platform
+                    - link:
+                      - /url: /features/collaboration
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Collaboration
+                          - generic: Collaborate and iterate quickly with your team
+                  - generic:
+                    - button [ref=e26] [cursor=pointer]:
+                      - generic [ref=e27]:
+                        - text: Download Unity
+                        - generic [ref=e29]:
+                          - img [ref=e491]
+                          - img [ref=e494]
+                    - button [ref=e36] [cursor=pointer]:
+                      - generic [ref=e37]:
+                        - text: Plans and pricing
+                        - img [ref=e497]
+              - generic:
+                - generic:
+                  - generic: Deploy
+                  - generic:
+                    - link:
+                      - /url: /features/multiplatform
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Multiplatform
+                          - generic: Discover 25+ platforms Unity supports
+                    - link:
+                      - /url: /features/liveops
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: LiveOps
+                          - generic: Post-launch insights and live game ops
+              - generic:
+                - generic:
+                  - generic: Grow
+                  - generic:
+                    - link:
+                      - /url: /solutions/user-acquisition
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: User acquisition
+                          - generic: Get discovered and acquire mobile users
+                    - link:
+                      - /url: /products/iap
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: In-App Purchase
+                          - generic: Discover and manage IAP across stores
+                    - link:
+                      - /url: /solutions/app-monetization
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Monetization
+                          - generic: Connect players with the right games
+                  - generic:
+                    - button [ref=e41] [cursor=pointer]:
+                      - generic [ref=e42]:
+                        - text: Advertise with Unity
+                        - img [ref=e500]
+                    - button [ref=e46] [cursor=pointer]:
+                      - generic [ref=e47]:
+                        - text: Monetize with Unity
+                        - img [ref=e503]
+              - generic:
+                - generic:
+                  - generic: Use cases
+                  - generic:
+                    - link:
+                      - /url: /solutions/mobile
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Mobile Games
+                          - generic: Build & grow mobile hits with Unity
+                    - link:
+                      - /url: /solutions/indie
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Indie Games
+                          - generic: Ship big games with small teams
+                    - link:
+                      - /url: /solutions/xr/games
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: XR Games
+                          - generic: Launch XR games across platforms
+                    - link:
+                      - /url: /features/multiplayer
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Multiplayer Games
+                          - generic: Simplify multiplayer game development
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Use cases
+                  - generic:
+                    - link:
+                      - /url: /solutions/immersive-3d-collaboration
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: 3D collaboration
+                          - generic: Build and review 3D projects in real time
+                    - link:
+                      - /url: /solutions/immersive-training
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Immersive training
+                          - generic: Train in immersive environments
+                    - link:
+                      - /url: /solutions/immersive-customer-experiences
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Customer experiences
+                          - generic: Create interactive 3D experiences
+              - generic:
+                - generic:
+                  - generic: Industries
+                  - generic:
+                    - link:
+                      - /url: /solutions/manufacturing
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Manufacturing
+                          - generic: Achieve operational excellence
+                    - link:
+                      - /url: /solutions/retail
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Retail
+                          - generic: Transform in-store experiences into online ones
+                    - link:
+                      - /url: /solutions/automotive
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Automotive
+                          - generic: Boost innovation and in-car experiences
+                  - button [ref=e51] [cursor=pointer]:
+                    - generic [ref=e52]:
+                      - text: See all industries
+                      - img [ref=e506]
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Technical library
+                  - generic:
+                    - link:
+                      - /url: https://docs.unity.com
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Documentation
+                            - generic:
+                              - generic:
+                                - img
+                          - generic: Official user manuals and API references
+                    - link:
+                      - /url: /developer-tools
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Developer tools
+                          - generic: Release versions and issue tracker
+                    - link:
+                      - /url: /roadmap
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Roadmap
+                          - generic: Review upcoming features
+                    - link:
+                      - /url: /glossary
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Glossary
+                          - generic: Library of technical terms
+              - generic:
+                - generic:
+                  - generic: Insights
+                  - generic:
+                    - link:
+                      - /url: /resources?type=case-study
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Case studies
+                          - generic: Real-world success stories
+                    - link:
+                      - /url: https://docs.unity3d.com/6000.0/Documentation/Manual/best-practice-guides.html?ampDeviceId=99ad6033-4db9-4f5e-a1a9-feb604cb4b89&ampSessionId=1780273366361&ampTimestamp=1780359766366
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Best practice guides
+                          - generic: Expert tips and tricks
+                    - link:
+                      - /url: /demos
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Demos
+                          - generic: Demos, samples, and building blocks
+                  - button [ref=e56] [cursor=pointer]:
+                    - generic [ref=e57]:
+                      - text: All resources
+                      - img [ref=e509]
+              - generic:
+                - generic:
+                  - generic: What's new
+                  - generic:
+                    - link:
+                      - /url: /blog
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Blog
+                          - generic: Updates, information, and technical tips
+                    - link:
+                      - /url: /news
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: News
+                          - generic: News, stories, and press center
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Community Hub
+                  - generic:
+                    - link:
+                      - /url: https://discussions.unity.com/
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Discussions
+                            - generic:
+                              - generic:
+                                - img
+                          - generic: Discuss, problem-solve, and connect
+                    - link:
+                      - /url: /events-hub
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Events
+                          - generic: Global and local events
+              - generic:
+                - generic:
+                  - generic: Community stories
+                  - generic:
+                    - link:
+                      - /url: /made-with-unity
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Made with Unity
+                          - generic: Showcasing Unity creators
+                    - link:
+                      - /url: https://www.youtube.com/@unity/streams
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Livestreams
+                          - generic: Join devs, creators, and insiders
+                    - link:
+                      - /url: /awards
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Unity Awards
+                          - generic: Celebrating Unity creators worldwide
+            - generic:
+              - generic:
+                - generic:
+                  - generic: For every level
+                  - generic:
+                    - link:
+                      - /url: https://learn.unity.com
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Unity Learn
+                          - generic: Master Unity skills for free
+                    - link:
+                      - /url: /learn/professionals
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Professional training
+                          - generic: Level up your team with Unity trainers
+              - generic:
+                - generic:
+                  - generic: New to Unity
+                  - generic:
+                    - link:
+                      - /url: /learn/get-started
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Getting started
+                          - generic: Kickstart your learning
+                    - link:
+                      - /url: https://learn.unity.com/pathway/unity-essentials
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Unity Essential Pathways
+                          - generic: New to Unity? Start your journey
+                    - link:
+                      - /url: /how-to
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: How-to Guides
+                          - generic: Actionable tips and best practices
+              - generic:
+                - generic:
+                  - generic: Education
+                  - generic:
+                    - link:
+                      - /url: /products/unity-student
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: For students
+                          - generic: Kickstart your career
+                    - link:
+                      - /url: /solutions/education
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: For educators
+                          - generic: Supercharge your teaching
+                    - link:
+                      - /url: /products/unity-education-grant-license
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Education Grant License
+                          - generic: Bring Unity’s power to your institution
+                    - link:
+                      - /url: /products/unity-certifications
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Certifications
+                          - generic: Prove your Unity mastery
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Support options
+                  - generic:
+                    - link:
+                      - /url: /support-services
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Get help
+                          - generic: Helping you succeed with Unity
+                    - link:
+                      - /url: /products/success-plans
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Success plans
+                          - generic: Reach your goals faster with expert support
+                    - link:
+                      - /url: /faq
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: FAQ
+                          - generic: Answers to common questions
+                    - link:
+                      - /url: /contact-us
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - generic: Contact us
+                          - generic: Connect with our team
+        - generic [ref=e61]:
+          - button "Download Unity" [ref=e62] [cursor=pointer]:
+            - generic [ref=e63]:
+              - text: Download Unity
+              - img [ref=e512]
+          - button "Get started" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]:
+              - text: Get started
+              - img [ref=e515]
+          - button [ref=e72] [cursor=pointer]:
+            - img [ref=e518]
+          - button [ref=e78] [cursor=pointer]:
+            - img [ref=e521]
+          - button [ref=e84] [cursor=pointer]:
+            - img [ref=e524]
+    - main [ref=e90]:
+      - generic [ref=e92]:
+        - generic [ref=e95]:
+          - img "Hero background image" [ref=e96]
+          - generic [ref=e99]:
+            - generic [ref=e100]: "Requisition ID: JOBREQ-2616049"
+            - heading "Machine Learning Engineer, User Understanding (Entry-Level / New Grad)" [level=1] [ref=e101]
+            - generic [ref=e102]: Mountain View, CA, USA, Full-time
+            - button "Apply" [ref=e526] [cursor=pointer]:
+              - generic [ref=e527]:
+                - img [ref=e528]
+                - generic [ref=e530]: Apply
+                - img [ref=e531]
+        - navigation "Breadcrumbs" [ref=e105]:
+          - list [ref=e106]:
+            - listitem [ref=e107]:
+              - link "Unity Careers" [ref=e108] [cursor=pointer]:
+                - /url: /careers
+                - generic [ref=e109]: Unity Careers
+            - listitem [ref=e110]:
+              - img [ref=e112]
+              - link "Positions" [ref=e114] [cursor=pointer]:
+                - /url: /careers/positions
+                - generic [ref=e115]: Positions
+            - listitem [ref=e116]:
+              - img [ref=e118]
+              - generic [ref=e120]: Description
+        - generic [ref=e121]:
+          - generic [ref=e124]:
+            - img [ref=e125]
+            - generic [ref=e128]:
+              - generic [ref=e129]: "ALERT: Unity has received reports of scams where individuals purporting to be Unity HR representatives conduct bogus employment interviews via email or text, and then request payment as a condition for receiving an offer of employment. Please be aware that Unity does not conduct interviews by email or text, and will never request payment as a condition for applying for a position or receiving an offer of employment. These scam operators may also ask for your personal information (name, address, birthdate, social security number, etc.) which you should not provide to them. If you have been a target of such a scam, you should report it by contacting the U.S. Federal Trade Commission (see this FTC posting for further details) the office of your state Attorney General, or the government agency responsible for investigating matters such as this where you reside this FTC posting for further details) the office of your state Attorney General, or the government agency responsible for investigating matters such as this where you reside."
+              - button "See more" [ref=e130] [cursor=pointer]
+            - generic [ref=e131]:
+              - button "See FTC" [ref=e132] [cursor=pointer]:
+                - generic [ref=e134]: See FTC
+              - button "Dismiss" [ref=e135] [cursor=pointer]
+          - generic [ref=e137]:
+            - navigation [ref=e139]:
+              - list [ref=e140]:
+                - listitem [ref=e141]:
+                  - link "The opportunity" [ref=e143] [cursor=pointer]:
+                    - /url: "#section0"
+                - listitem [ref=e144]:
+                  - link "What you'll be doing" [ref=e146] [cursor=pointer]:
+                    - /url: "#section1"
+                - listitem [ref=e147]:
+                  - link "What we're looking for" [ref=e149] [cursor=pointer]:
+                    - /url: "#section2"
+                - listitem [ref=e150]:
+                  - link "You might also have" [ref=e152] [cursor=pointer]:
+                    - /url: "#section3"
+                - listitem [ref=e153]:
+                  - link "Additional information" [ref=e155] [cursor=pointer]:
+                    - /url: "#section4"
+                - listitem [ref=e156]:
+                  - link "Benefits" [ref=e158] [cursor=pointer]:
+                    - /url: "#section5"
+                - listitem [ref=e159]:
+                  - link "Life at Unity" [ref=e161] [cursor=pointer]:
+                    - /url: "#section6"
+                - listitem [ref=e162]:
+                  - link "Apply" [ref=e164] [cursor=pointer]:
+                    - /url: "#apply"
+            - generic [ref=e165]:
+              - generic:
+                - heading [level=2]
+              - generic [ref=e166]:
+                - paragraph
+                - heading "The opportunity" [level=3] [ref=e533]
+                - text: Our Gamer AI team develops conversion rate prediction and market price models that power our ad ranking and recommendation systems. By leveraging large-scale data and contextual signals, we continuously enhance prediction relevance and accuracy. This drives outcomes such as higher user engagement, stronger conversion performance, and better return on ad spend, helping advertisers achieve their goals while delivering a more engaging experience for users.
+                - paragraph
+                - paragraph [ref=e534]: We are seeking a motivated Machine Learning Engineer to support the development and maintenance of systems for understanding user behavior across applications. You will contribute to improving ad ranking, conversion predictions, and recommendation systems, working alongside experienced engineers to build behavioral models and optimize ad performance.
+                - paragraph
+                - heading "What you'll be doing" [level=3] [ref=e535]
+                - paragraph
+                - list [ref=e536]:
+                  - listitem [ref=e537]: Design, implement, and optimize user behavior models that directly influence ad ranking, bidding, and conversion outcomes across billions of impressions.
+                  - listitem [ref=e538]: Monitor model performance and help identify data quality issues or model degradation.
+                  - listitem [ref=e539]: Write clean, maintainable code and participate in code reviews to improve your craft.
+                  - listitem [ref=e540]: Learn and communicate how our models work to cross-functional partners.
+                - paragraph
+                - heading "What we're looking for" [level=3] [ref=e541]
+                - paragraph
+                - list [ref=e542]:
+                  - listitem [ref=e543]: BS in Computer Science, Machine Learning, Statistics, or related field.
+                  - listitem [ref=e544]: Strong foundation in Python or similar programming languages.
+                  - listitem [ref=e545]: Familiarity with machine learning fundamentals and statistical analysis.
+                  - listitem [ref=e546]: Curiosity about how ads, recommendations, and user behavior work at scale.
+                  - listitem [ref=e547]: Hungry to grow through rapid iteration, experimenting with real signals and learning what works at scale.
+                - paragraph
+                - heading "You might also have" [level=3] [ref=e548]
+                - paragraph
+                - list [ref=e549]:
+                  - listitem [ref=e550]: First experience, publications, or academic projects in the ads domain or recommendation systems.
+                  - listitem [ref=e551]: Exposure to experimentation and A/B testing frameworks.
+                  - listitem [ref=e552]: Experience using AI tools like Claude Code or GitHub Copilot to learn and build faster.
+                - paragraph
+                - heading "Additional information" [level=3] [ref=e553]
+                - paragraph
+                - list [ref=e554]:
+                  - listitem [ref=e555]: Relocation support is not available for this position
+                  - listitem [ref=e556]: Work visa/immigration sponsorship is not available for this position
+                - paragraph
+                - heading "Benefits" [level=3] [ref=e557]
+                - text: At Unity, we want our team members to thrive. We offer a wide range of benefits designed to support well-being and work-life balance.
+                - paragraph
+                - paragraph [ref=e558]: "Please note: Benefits eligibility, specific offerings, and coverage vary based on the country and employment status."
+                - paragraph [ref=e559]: "While specific benefits vary, here are some of the ways we strive to take care of our eligible team members globally: Comprehensive health, life, and disability insurance | Commute subsidy | Employee stock ownership | Competitive retirement/pension plans | Generous vacation and personal days | Support for new parents through leave and family-care programs | Office food snacks | Mental Health and Wellbeing programs and support | Employee Resource Groups | Global Employee Assistance Program | Training and development programs | Volunteering and donation matching program"
+                - paragraph
+                - heading "Life at Unity" [level=3] [ref=e560]
+                - text: "Unity [NYSE: U] is the world’s leading game engine, powering play for more than 3 billion consumers each month. The top mobile games in the world, the most played PC indie titles, the most innovative console games, and virtually all of the top XR and Web Games are developed, deployed, and grown in Unity. Unity also enables teams across industries like automotive, manufacturing, and healthcare to design, simulate, and collaborate in 3D — closing the gap between ideas and reality. For more information, please visit www.unity.com."
+                - paragraph
+                - paragraph [ref=e561]:
+                  - emphasis [ref=e562]:
+                    - text: Unity is a proud equal opportunity employer. We are committed to fostering an inclusive, innovative environment and celebrate our employees across age, race, color, ancestry, national origin, religion, disability, sex, gender identity or expression, sexual orientation, or any other protected status in accordance with applicable law. Our differences are strengths that enable us to support the growing and evolving needs of our customers, partners, and collaborators. If you have a disability that means there are preparations or accommodations we can make to help ensure you have a comfortable and positive interview experience, please fill out
+                    - link "this form" [ref=e563] [cursor=pointer]:
+                      - /url: https://docs.google.com/forms/d/e/1FAIpQLSdrbRLG1N-apH1eahQ622Gypo-rmiAB6LLTP1UsSWQNu7omxQ/viewform
+                    - text: to let us know.
+                - paragraph [ref=e564]:
+                  - emphasis [ref=e565]: This position requires the incumbent to have a sufficient knowledge of English to have professional verbal and written exchanges in this language since the performance of the duties related to this position requires frequent and regular communication with colleagues and partners located worldwide and whose common language is English.
+                - paragraph [ref=e566]:
+                  - emphasis [ref=e567]: Headhunters and recruitment agencies may not submit resumes/CVs through this website or directly to managers. Unity does not accept unsolicited headhunter and agency resumes. Unity will not pay fees to any third-party agency or company that does not have a signed agreement with Unity.
+                - paragraph [ref=e568]:
+                  - emphasis [ref=e569]:
+                    - text: Your privacy is important to us. Please take a moment to review our
+                    - link "Prospect Privacy Policy" [ref=e570] [cursor=pointer]:
+                      - /url: https://unity.com/legal/global-data-privacy-notice-to-prospects
+                    - text: and
+                    - link "Applicant Privacy Policy" [ref=e571] [cursor=pointer]:
+                      - /url: https://unity.com/de/legal/global-data-privacy-notice-to-applicants
+                    - text: . Should you have any concerns about your privacy, please contact us at DPO@unity.com.
+                - paragraph [ref=e572]: "#SEN #LI-AR1"
+                - paragraph [ref=e573]:
+                  - emphasis [ref=e574]: "*Note: Certain locations require a good faith disclosure of the base salary range for the role. The actual salary for the successful candidate may differ based on location, experience, and other job-related factors."
+                - text: Gross pay salary$100,800—$155,980 USD
+              - button "Apply" [ref=e575] [cursor=pointer]:
+                - generic [ref=e576]:
+                  - img [ref=e577]
+                  - generic [ref=e579]: Apply
+                  - img [ref=e580]
+              - generic [ref=e210]:
+                - separator [ref=e212]
+                - generic [ref=e213]:
+                  - 'link "Location: Mountain View, CA, USA" [ref=e215] [cursor=pointer]':
+                    - /url: /careers/positions?location=mountain-view
+                  - 'link "Department: AI & Machine Learning" [ref=e217] [cursor=pointer]':
+                    - /url: /careers/positions?department=ai-machine-learning
+                  - 'link "Type: Full-time" [ref=e219] [cursor=pointer]':
+                    - /url: /careers/positions?type=full-time
+                  - generic [ref=e220]: "Requisition ID: JOBREQ-2616049"
+    - contentinfo [ref=e221]:
+      - button "Activate to engage with footer navigation" [ref=e222]:
+        - generic [ref=e223]:
+          - generic [ref=e224]:
+            - generic [ref=e225]:
+              - generic [ref=e226]: Language
+              - list [ref=e227]:
+                - listitem [ref=e228]:
+                  - link "English" [ref=e229] [cursor=pointer]:
+                    - /url: /en/careers/positions/7947300
+                - listitem [ref=e230]:
+                  - link "Deutsch" [ref=e231] [cursor=pointer]:
+                    - /url: /de/careers/positions/7947300
+                - listitem [ref=e232]:
+                  - link "日本語" [ref=e233] [cursor=pointer]:
+                    - /url: /ja/careers/positions/7947300
+                - listitem [ref=e234]:
+                  - link "Français" [ref=e235] [cursor=pointer]:
+                    - /url: /fr/careers/positions/7947300
+                - listitem [ref=e236]:
+                  - link "Português" [ref=e237] [cursor=pointer]:
+                    - /url: /pt/careers/positions/7947300
+                - listitem [ref=e238]:
+                  - link "中文" [ref=e239] [cursor=pointer]:
+                    - /url: /cn/careers/positions/7947300
+                - listitem [ref=e240]:
+                  - link "Español" [ref=e241] [cursor=pointer]:
+                    - /url: /es/careers/positions/7947300
+                - listitem [ref=e242]:
+                  - link "Русский" [ref=e243] [cursor=pointer]:
+                    - /url: /ru/careers/positions/7947300
+                - listitem [ref=e244]:
+                  - link "한국어" [ref=e245] [cursor=pointer]:
+                    - /url: /kr/careers/positions/7947300
+            - generic [ref=e246]:
+              - generic [ref=e247]:
+                - generic [ref=e248]: Social
+                - list [ref=e249]:
+                  - listitem [ref=e250] [cursor=pointer]:
+                    - link [ref=e251]:
+                      - /url: https://www.youtube.com/user/Unity3D
+                      - img [ref=e583]
+                  - listitem [ref=e255] [cursor=pointer]:
+                    - link [ref=e256]:
+                      - /url: https://www.linkedin.com/company/unity-technologies
+                      - img [ref=e586]
+                  - listitem [ref=e260] [cursor=pointer]:
+                    - link [ref=e261]:
+                      - /url: https://www.twitter.com/unity
+                      - img [ref=e589]
+                  - listitem [ref=e265] [cursor=pointer]:
+                    - link [ref=e266]:
+                      - /url: https://www.facebook.com/unity3d
+                      - img [ref=e592]
+                  - listitem [ref=e270] [cursor=pointer]:
+                    - link [ref=e271]:
+                      - /url: https://www.instagram.com/unitytechnologies
+                      - img [ref=e595]
+                  - listitem [ref=e275] [cursor=pointer]:
+                    - link [ref=e276]:
+                      - /url: https://www.reddit.com/r/Unity3D/
+                      - img [ref=e598]
+                  - listitem [ref=e280] [cursor=pointer]:
+                    - link [ref=e281]:
+                      - /url: https://bsky.app/profile/unity.com
+                      - img [ref=e283]
+              - generic [ref=e285]:
+                - generic [ref=e287]: Currency
+                - combobox [ref=e290]
+                - button "USD Currency" [ref=e291] [cursor=pointer]:
+                  - generic [ref=e292]: USD
+                  - img [ref=e294]
+          - generic [ref=e297]:
+            - generic [ref=e298]:
+              - generic [ref=e299]: Purchase
+              - list [ref=e300]:
+                - listitem [ref=e301]:
+                  - button "Products" [ref=e302] [cursor=pointer]:
+                    - generic [ref=e304]: Products
+                - listitem [ref=e305]:
+                  - button "Unity Ads" [ref=e306] [cursor=pointer]:
+                    - generic [ref=e308]: Unity Ads
+                - listitem [ref=e309]:
+                  - button "Unity Asset Store" [ref=e310] [cursor=pointer]:
+                    - generic [ref=e311]:
+                      - generic [ref=e312]: Unity Asset Store
+                      - button "Open in new tab" [ref=e313]:
+                        - img [ref=e314]
+                - listitem [ref=e316]:
+                  - button "Resellers" [ref=e317] [cursor=pointer]:
+                    - generic [ref=e319]: Resellers
+            - generic [ref=e320]:
+              - generic [ref=e321]: Education
+              - list [ref=e322]:
+                - listitem [ref=e323]:
+                  - button "Students" [ref=e324] [cursor=pointer]:
+                    - generic [ref=e326]: Students
+                - listitem [ref=e327]:
+                  - button "Educators" [ref=e328] [cursor=pointer]:
+                    - generic [ref=e330]: Educators
+                - listitem [ref=e331]:
+                  - button "Institutions" [ref=e332] [cursor=pointer]:
+                    - generic [ref=e334]: Institutions
+                - listitem [ref=e335]:
+                  - button "Certification" [ref=e336] [cursor=pointer]:
+                    - generic [ref=e338]: Certification
+                - listitem [ref=e339]:
+                  - button "Learn" [ref=e340] [cursor=pointer]:
+                    - generic [ref=e342]: Learn
+                - listitem [ref=e343]:
+                  - button "Skills Development Program" [ref=e344] [cursor=pointer]:
+                    - generic [ref=e346]: Skills Development Program
+            - generic [ref=e347]:
+              - generic [ref=e348]: Download
+              - list [ref=e349]:
+                - listitem [ref=e350]:
+                  - button "Unity Hub" [ref=e351] [cursor=pointer]:
+                    - generic [ref=e353]: Unity Hub
+                - listitem [ref=e354]:
+                  - button "Download Archive" [ref=e355] [cursor=pointer]:
+                    - generic [ref=e357]: Download Archive
+                - listitem [ref=e358]:
+                  - button "Beta Program" [ref=e359] [cursor=pointer]:
+                    - generic [ref=e361]: Beta Program
+            - generic [ref=e362]:
+              - generic [ref=e363]: Unity Labs
+              - list [ref=e364]:
+                - listitem [ref=e365]:
+                  - button "Labs" [ref=e366] [cursor=pointer]:
+                    - generic [ref=e368]: Labs
+                - listitem [ref=e369]:
+                  - button "Publications" [ref=e370] [cursor=pointer]:
+                    - generic [ref=e372]: Publications
+            - generic [ref=e373]:
+              - generic [ref=e374]: Resources
+              - list [ref=e375]:
+                - listitem [ref=e376]:
+                  - button "Learn platform" [ref=e377] [cursor=pointer]:
+                    - generic [ref=e379]: Learn platform
+                - listitem [ref=e380]:
+                  - button "Community" [ref=e381] [cursor=pointer]:
+                    - generic [ref=e383]: Community
+                - listitem [ref=e384]:
+                  - button "Documentation" [ref=e385] [cursor=pointer]:
+                    - generic [ref=e387]: Documentation
+                - listitem [ref=e388]:
+                  - button "Unity QA" [ref=e389] [cursor=pointer]:
+                    - generic [ref=e391]: Unity QA
+                - listitem [ref=e392]:
+                  - button "FAQ" [ref=e393] [cursor=pointer]:
+                    - generic [ref=e395]: FAQ
+                - listitem [ref=e396]:
+                  - button "Services Status" [ref=e397] [cursor=pointer]:
+                    - generic [ref=e399]: Services Status
+                - listitem [ref=e400]:
+                  - button "Case Studies" [ref=e401] [cursor=pointer]:
+                    - generic [ref=e403]: Case Studies
+                - listitem [ref=e404]:
+                  - button "Made with Unity" [ref=e405] [cursor=pointer]:
+                    - generic [ref=e407]: Made with Unity
+            - generic [ref=e408]:
+              - generic [ref=e409]: Unity
+              - list [ref=e410]:
+                - listitem [ref=e411]:
+                  - button "Our Company" [ref=e412] [cursor=pointer]:
+                    - generic [ref=e414]: Our Company
+                - listitem [ref=e415]:
+                  - button "Newsletter" [ref=e416] [cursor=pointer]:
+                    - generic [ref=e418]: Newsletter
+                - listitem [ref=e419]:
+                  - button "Blog" [ref=e420] [cursor=pointer]:
+                    - generic [ref=e422]: Blog
+                - listitem [ref=e423]:
+                  - button "Events" [ref=e424] [cursor=pointer]:
+                    - generic [ref=e426]: Events
+                - listitem [ref=e427]:
+                  - button "Careers" [ref=e428] [cursor=pointer]:
+                    - generic [ref=e430]: Careers
+                - listitem [ref=e431]:
+                  - button "Help" [ref=e432] [cursor=pointer]:
+                    - generic [ref=e434]: Help
+                - listitem [ref=e435]:
+                  - button "Press" [ref=e436] [cursor=pointer]:
+                    - generic [ref=e438]: Press
+                - listitem [ref=e439]:
+                  - button "Partners" [ref=e440] [cursor=pointer]:
+                    - generic [ref=e442]: Partners
+                - listitem [ref=e443]:
+                  - button "Investors" [ref=e444] [cursor=pointer]:
+                    - generic [ref=e446]: Investors
+                - listitem [ref=e447]:
+                  - button "Affiliates" [ref=e448] [cursor=pointer]:
+                    - generic [ref=e450]: Affiliates
+                - listitem [ref=e451]:
+                  - button "Security" [ref=e452] [cursor=pointer]:
+                    - generic [ref=e454]: Security
+                - listitem [ref=e455]:
+                  - button "Social Impact" [ref=e456] [cursor=pointer]:
+                    - generic [ref=e458]: Social Impact
+                - listitem [ref=e459]:
+                  - button "Inclusion & Diversity" [ref=e460] [cursor=pointer]:
+                    - generic [ref=e462]: Inclusion & Diversity
+                - listitem [ref=e463]:
+                  - button "Contact us" [ref=e464] [cursor=pointer]:
+                    - generic [ref=e466]: Contact us
+          - generic [ref=e467]:
+            - generic [ref=e468]: Copyright © 2025 Unity Technologies
+            - list [ref=e469]:
+              - listitem [ref=e470]:
+                - button "Legal" [ref=e471] [cursor=pointer]:
+                  - generic [ref=e473]: Legal
+              - listitem [ref=e474]:
+                - button "Privacy Policy" [ref=e475] [cursor=pointer]:
+                  - generic [ref=e477]: Privacy Policy
+              - listitem [ref=e478]:
+                - button "Cookies" [ref=e479] [cursor=pointer]:
+                  - generic [ref=e481]: Cookies
+              - listitem [ref=e482]:
+                - button "Do Not Sell or Share My Personal Information" [ref=e483] [cursor=pointer]:
+                  - generic [ref=e485]: Do Not Sell or Share My Personal Information
+              - listitem [ref=e600]:
+                - generic [ref=e601]:
+                  - img [ref=e602]
+                  - button "Your Privacy Choices (Cookie Settings)" [ref=e614] [cursor=pointer]
+            - paragraph [ref=e488]:
+              - text: "\"Unity\", Unity logos, and other Unity trademarks are trademarks or registered trademarks of Unity Technologies or its affiliates in the U.S. and elsewhere ("
+              - link "more info here" [ref=e489] [cursor=pointer]:
+                - /url: https://unity.com/legal/trademarks
+              - text: ). Other names or brands are trademarks of their respective owners.
+  - alert [ref=e615]

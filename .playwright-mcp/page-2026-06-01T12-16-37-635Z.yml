@@ -1,0 +1,119 @@
+- generic [active] [ref=e1]:
+  - dialog "cookieconsent" [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: 🍪
+      - generic [ref=e6]:
+        - button "Deny" [ref=e7] [cursor=pointer]
+        - button "Accept" [ref=e8] [cursor=pointer]
+      - heading "Privacy Notice" [level=4] [ref=e9]
+      - paragraph [ref=e10]:
+        - text: This website uses cookies to improve your web experience. By clicking Accept, you agree to the use of cookies.
+        - link "Cookie Policy" [ref=e11] [cursor=pointer]:
+          - /url: https://www.employinc.com/cookie-policy/
+  - link "Palantir Technologies logo" [ref=e14] [cursor=pointer]:
+    - /url: https://jobs.lever.co/palantir
+    - img "Palantir Technologies logo" [ref=e15]
+  - generic [ref=e17]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - heading "Software Engineer, Internship - Infrastructure" [level=2] [ref=e21]
+        - generic [ref=e22]:
+          - generic [ref=e23]: Palo Alto, CA
+          - generic [ref=e24]: Dev /
+          - generic [ref=e25]: Internship /
+          - generic [ref=e26]: On-site
+      - link "Apply" [ref=e28] [cursor=pointer]:
+        - /url: https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4/apply
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - strong [ref=e32]: A World-Changing Company
+        - generic [ref=e34]: Palantir builds the world’s leading software for data-driven decisions and operations. By bringing the right data to the people who need it, our platforms empower our partners to develop lifesaving drugs, forecast supply chain disruptions, locate missing children, and more.
+        - strong [ref=e37]: The Role
+        - generic [ref=e39]: Are you passionate about engineering quality, performance, and increasing the impact of engineers around you?
+        - generic [ref=e41]: Software Engineers at Palantir build software at scale to transform how organizations around the world use data. As an intern within Palantir’s Foundations organization, you’ll have the opportunity to grow more quickly than you ever imagined, as you build the shared infrastructure that underpins the Palantir Foundry, Palantir Gotham, and Palantir Apollo platforms, and drive investments to improve the velocity and quality of our engineering.
+        - generic [ref=e43]: "Teams within Palantir’s Foundations organization are made up of a small number of engineers, each focused on one of four major categories of our infrastructure:"
+        - generic [ref=e45]:
+          - text: •
+          - strong [ref=e46]: "Backend Infrastructure:"
+          - text: "Maximizes the productivity of our backend developers and ensures Palantir’s platforms have performant and consistent RESTful services. Think: making the “easy way” the “right way” when developing backend services, including designing infrastructure to build hundreds of micro-service repos performantly, or to ensure we keep reliable audit logs of everything users do in our platforms."
+        - generic [ref=e47]:
+          - text: •
+          - strong [ref=e48]: "Developer Infrastructure:"
+          - text: Operates the systems and services that underpin all aspects of our developer ecosystem, including off-the-shelf tooling like GitHub and custom tooling for managing automated changes across hundreds of repositories.
+        - generic [ref=e49]:
+          - text: •
+          - strong [ref=e50]: "Frontend Infrastructure:"
+          - text: "Maximizes frontend developer productivity across the entire frontend development stack, from the developer experience in the IDE to the final user experience in the browser. Think: the core infrastructure required to develop and serve our frontends (including features flags, internationalization, and commit previews), performant build tooling for millions of lines of TypeScript, and the Blueprint"
+          - link "open source UI framework" [ref=e51] [cursor=pointer]:
+            - /url: https://blueprintjs.com/
+          - text: .
+        - generic [ref=e52]:
+          - text: •
+          - strong [ref=e53]: "Storage Infrastructure:"
+          - text: Develops Palantir’s database and search systems, which includes supporting storage technologies across cloud, on-premise, and classified or secure environments. This includes evolving our existing technologies to support ever-increasing data scale and latency requirements, and designing the next evolution of our database offering to provide step-change improvements in particular workflows.
+        - strong [ref=e56]: Core Responsibilities
+        - generic [ref=e58]: As a Software Engineering Intern in Foundations, your projects may include building features to improve the developer experience for other Palantir engineers, or improving the scalability and reliability of Palantir’s platforms.
+        - generic [ref=e60]: You’ll be involved throughout the product lifecycle, from idea generation and design, to execution and rollout, all while being paired with a mentor dedicated to your growth and success. You'll collaborate closely with technical and non-technical counterparts to understand our developers' and customers' problems and build infrastructure to tackle them.
+        - strong [ref=e63]: Technologies We Use
+        - generic [ref=e65]: "It doesn’t matter what languages you know when you join us, but it does matter that you can write clean, effective code and learn new languages quickly. Our software is constantly evolving, so we need engineers who can do the same. Alongside peers that bring diverse experience - whether you’re a former university TA, switched to CS recently, or are a hackathon enthusiast — you'll build your skills to apply the best technology to solve a given problem. Right now, we use:"
+        - generic [ref=e67]: • Varying languages, including Java and Go for backend and TypeScript for frontend
+        - generic [ref=e68]: • Open-source technologies like Cassandra, Spark, Elasticsearch, React, and Redux
+        - generic [ref=e69]: • Industry-standard build tooling, including Gradle, CircleCI, and GitHub
+      - generic [ref=e71]:
+        - heading "What We Value" [level=3] [ref=e72]
+        - list [ref=e75]:
+          - listitem [ref=e76]: Passion for helping other developers build better applications.
+          - listitem [ref=e77]: Empathy for the impact your changes will have on the workflows and productivity of developers and end users.
+          - listitem [ref=e78]: Ability to communicate and collaborate with a variety of individuals, including engineers, users and non-technical team members.
+          - listitem [ref=e79]: Willingness to learn and make decisions independently, and the ability to ask questions when needed.
+          - listitem [ref=e80]: Active US Security clearance, or eligibility and willingness to obtain a US Security clearance.
+      - generic [ref=e82]:
+        - heading "What We Require" [level=3] [ref=e83]
+        - list [ref=e86]:
+          - listitem [ref=e87]: Engineering background in fields such as Computer Science, Mathematics, Software Engineering, or Physics.
+          - listitem [ref=e88]: Familiarity with data structures, storage systems, cloud infrastructure, front-end frameworks, and other technical tools.
+          - listitem [ref=e89]: Experience coding in programming languages, such as Java, C++, Python, TypeScript, JavaScript, or similar languages.
+          - listitem [ref=e90]: Must be planning on graduating in 2027. This should be your final internship before graduating.
+      - generic [ref=e92]:
+        - heading "To apply, please submit the following:" [level=3] [ref=e93]
+        - list [ref=e96]:
+          - listitem [ref=e97]: An updated resume / CV - please do so in PDF format.
+          - listitem [ref=e98]: Thoughtful responses to our application questions.
+      - generic [ref=e99]:
+        - strong [ref=e101]: Salary
+        - generic [ref=e103]: The estimated salary range for this position is estimated to be $10,500/month. Further note that total compensation for this position will be determined by each individual’s relevant qualifications, work experience, skills, and other factors. This estimate excludes the value of any benefits offered; and the potential future value of any long-term incentives.
+        - strong [ref=e106]: Life at Palantir
+        - generic [ref=e108]:
+          - text: We want every Palantirian to achieve their best outcomes, that’s why we celebrate individuals’ strengths, skills, and interests, from your first interview to your longterm growth, rather than rely on traditional career ladders. Paying attention to the needs of our community enables us to optimize our opportunities to grow and helps ensure many pathways to success at Palantir. Promoting health and well-being across all areas of Palantirians’ lives is just one of the ways we’re investing in our community. Learn more at
+          - link "Life at Palantir" [ref=e109] [cursor=pointer]:
+            - /url: https://www.palantir.com/careers/life-at-palantir/
+          - text: and note that our offerings may vary by region.
+        - generic [ref=e111]: In keeping consistent with Palantir’s values and culture, we believe employees are “better together” and in-person work affords the opportunity for more creative outcomes. Therefore, we encourage employees to work from our offices to foster connectivity and innovation. Many teams do offer hybrid options (WFH a day or two a week), allowing our employees to strike the right trade-off for their personal productivity. Based on business need, there are a few roles that allow for “Remote” work on an exceptional basis. If you are applying for one of these roles, you must work from the state in which you are employed. If the posting is specified as Onsite, you are required to work from an office.
+        - generic [ref=e113]:
+          - text: If you want to empower the world's most important institutions, you belong here. Palantir values excellence regardless of background. We are proud to be an Equal Opportunity Employer for all, including but not limited to Veterans and those with disabilities. Palantir is committed to making the application and hiring process accessible to everyone and will provide a reasonable accommodation for those living with a disability. If you need an accommodation for the application or hiring process
+          - emphasis [ref=e114]: ","
+          - text: please
+          - link "reach out" [ref=e115] [cursor=pointer]:
+            - /url: mailto:accommodations@palantir.com
+          - text: and let us know how we can help.
+        - generic [ref=e117]:
+          - emphasis [ref=e118]:
+            - text: Please note that you will never be asked to submit a payment or share financial information to participate in our interview process. If you suspect that you've been contacted by a scammer, we recommend you cease all communication with the individual and consider reporting them to the relevant authorities, such as the US
+            - link "FBI Internet Crime Complaint Center (IC3)" [ref=e119] [cursor=pointer]:
+              - /url: https://www.ic3.gov/
+            - text: .
+          - emphasis [ref=e120]:
+            - text: If you would like to understand more about how your personal data will be processed by Palantir, please see our
+            - link "Privacy Policy" [ref=e121] [cursor=pointer]:
+              - /url: https://www.palantir.com/privacy-and-security/candidate-privacy-notice/
+            - text: .
+      - link "Apply" [ref=e123] [cursor=pointer]:
+        - /url: https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4/apply
+  - generic [ref=e125]:
+    - paragraph [ref=e126]:
+      - link "Palantir Technologies Home Page" [ref=e127] [cursor=pointer]:
+        - /url: https://www.palantir.com/
+    - link "Jobs powered by Lever logo" [ref=e128] [cursor=pointer]:
+      - /url: https://www.lever.co/job-seeker-support/
+      - generic [ref=e129]: Jobs powered by
+      - img "Lever logo" [ref=e130]

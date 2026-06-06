@@ -1,0 +1,53 @@
+[    2022ms] [LOG] Page authentication status: false @ https://www.amazon.jobs/en/jobs/3119044/software-development-engineer-2026:72
+[    2023ms] [LOG] Internal user status: false @ https://www.amazon.jobs/en/jobs/3119044/software-development-engineer-2026:73
+[    2188ms] [ERROR] Loading the script 'https://bat.bing.com/bat.js' violates the following Content Security Policy directive: "script-src-elem 'self' 'unsafe-inline' apply.talentbrew.io assets.adobedtm.com bs.serving-sys.com d1fc8wv8zag5ca.cloudfront.net d1o95ve0lr2m33.cloudfront.net d1t40axu4ik42k.cloudfront.net googleadservices.com images-na.ssl-images-amazon.com secure-ds.serving-sys.com snap.licdn.com static.amazon.jobs static-gamma.amazon.jobs www.googletagmanager.com www.youtube.com midway-auth.amazon.com connect.facebook.net googleads.g.doubleclick.net ava.hirise.amazon.dev". The action has been blocked. @ https://www.googletagmanager.com/gtm.js?id=GTM-WJSMBWKS:218
+[    2228ms] [LOG] {
+	"eventData": {},
+	"job": {
+		"category": "Software Development",
+		"countryCode": "POL",
+		"division": "studentprograms",
+		"id": "3119044",
+		"jobLocation": "single",
+		"jobFindingMethod": " ",
+		"title": "Software Development Engineer – 2026  ",
+		"relatedJobId": []
+	},
+	"page": {
+		"pageInfo": {
+			"countryLanguage": "en",
+			"pageName": "Amazon.jobs | Job Details Page",
+			"pageType": "",
+			"advertisingCookieID": "27720fb4-f67d-445d-87f6-cc912d5a354d",
+			"analyticsCookieID": "2c2ca2fa-d102-4ef4-ad65-97b0abdbdb68",
+			"siteSection": "amazon jobs",
+			"tabName": "",
+			"userID": "",
+			"userActionStoreId": "2c2ca2fa-d102-4ef4-ad65-97b0abdbdb68",
+			"peopleSoftId": "",
+			"userType": "guest",
+			"userAuthMode": ""
+		},
+		"experiment": {
+			"experimentDetails": null
+		}
+	}
+} @ https://d1o95ve0lr2m33.cloudfront.net/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js:7
+[    2703ms] [LOG] ChatWidget Web Component bundle loaded successfully. Use <chat-widget></chat-widget> in your HTML. @ https://ava.hirise.amazon.dev/assets/webcomponent/chat-widget.iife.js:37
+[    2703ms] [LOG] ChatWidget loaded @ https://www.amazon.jobs/en/jobs/3119044/software-development-engineer-2026:77
+[    2755ms] Uncaught Error: YouTube player element ID required.
+    at X (https://www.youtube.com/s/player/9fc68080/www-widgetapi.vflset/www-widgetapi.js:192:189)
+    at e (https://static.amazon.jobs/assets/analytics-4ef66cbf66a0cce4067e9dfda8dba43236897e8c1bcd56875fb9b1ca1a1c4a09.js:12:19244)
+    at <anonymous> (https://static.amazon.jobs/assets/analytics-4ef66cbf66a0cce4067e9dfda8dba43236897e8c1bcd56875fb9b1ca1a1c4a09.js:12:19212)
+    at <anonymous> (https://static.amazon.jobs/assets/application-98d4a1694aae9d7edfa93218419514991e682aa41d8e42483bd277ec3c3145b5.js:27:15248)
+    at map (https://static.amazon.jobs/assets/application-98d4a1694aae9d7edfa93218419514991e682aa41d8e42483bd277ec3c3145b5.js:27:17964)
+    at map (https://static.amazon.jobs/assets/application-98d4a1694aae9d7edfa93218419514991e682aa41d8e42483bd277ec3c3145b5.js:27:15216)
+    at window.onYouTubeIframeAPIReady (https://static.amazon.jobs/assets/analytics-4ef66cbf66a0cce4067e9dfda8dba43236897e8c1bcd56875fb9b1ca1a1c4a09.js:12:19197)
+    at t.onYouTubeIframeAPIReady (https://www.googletagmanager.com/gtag/js?id=G-XB330LEGLS&cx=c&gtm=4e65r2:808:201)
+    at <anonymous> (https://www.youtube.com/s/player/9fc68080/www-widgetapi.vflset/www-widgetapi.js:231:152)
+    at <anonymous> (https://www.youtube.com/s/player/9fc68080/www-widgetapi.vflset/www-widgetapi.js:231:202)
+[    2818ms] [LOG] [RUM] Initialization complete @ https://ava.hirise.amazon.dev/assets/webcomponent/chat-widget.iife.js:37
+[   10307ms] [WARNING] The resource https://static.amazon.jobs/assets/bootstrap-alpha5-1af4aa065b2c6a512b7e6cec4359c03f7c6870ad089cf5e06a9bcd67facf059c.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.jobs/en/jobs/3119044/software-development-engineer-2026:0
+[   15262ms] [WARNING] The resource https://static.amazon.jobs/assets/bootstrap-alpha5-1af4aa065b2c6a512b7e6cec4359c03f7c6870ad089cf5e06a9bcd67facf059c.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.jobs/en/jobs/3119044/software-development-engineer-2026:0
+[   20319ms] [WARNING] The resource https://static.amazon.jobs/assets/bootstrap-alpha5-1af4aa065b2c6a512b7e6cec4359c03f7c6870ad089cf5e06a9bcd67facf059c.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.jobs/en/jobs/3119044/software-development-engineer-2026:0
+[   25150ms] [WARNING] The resource https://static.amazon.jobs/assets/bootstrap-alpha5-1af4aa065b2c6a512b7e6cec4359c03f7c6870ad089cf5e06a9bcd67facf059c.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.jobs/en/jobs/3119044/software-development-engineer-2026:0

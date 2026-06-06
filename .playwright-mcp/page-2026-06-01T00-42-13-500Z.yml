@@ -1,0 +1,637 @@
+- generic [ref=e1]:
+  - iframe [ref=e2]:
+    - dialog "Privacy Consent Banner" [ref=f56e5]:
+      - generic [ref=f56e6]:
+        - button "Close" [ref=f56e9] [cursor=pointer]
+        - generic [ref=f56e13]:
+          - text: We use cookies to provide, improve, protect and promote our services. Visit our
+          - link "Privacy Policy" [ref=f56e14] [cursor=pointer]:
+            - /url: "#privacy-page"
+          - text: and
+          - link "Privacy Policy FAQs" [ref=f56e15] [cursor=pointer]:
+            - /url: "#privacy-policy-faq"
+          - text: to learn more. You can manage your personal preferences, including your ‘Do not sell or share my personal data to third parties’ setting using the “Customize cookies” button below.
+        - generic [ref=f56e18]:
+          - button "Customize cookies" [ref=f56e20] [cursor=pointer]:
+            - generic [ref=f56e21]: Customize cookies
+          - generic [ref=f56e22]:
+            - button "Decline" [ref=f56e24] [cursor=pointer]:
+              - generic [ref=f56e25]: Decline
+            - button "Accept All" [ref=f56e27] [cursor=pointer]:
+              - generic [ref=f56e28]: Accept All
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e7]:
+    - banner:
+      - generic [ref=e10]:
+        - navigation "Main menu toggle" [ref=e11]:
+          - button "Toggle navigation" [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+        - link "Go to Dropbox Careers homepage" [ref=e16] [cursor=pointer]:
+          - /url: /en/
+          - img "Go to Dropbox Careers homepage" [ref=e17]
+        - generic [ref=e18]:
+          - button "English" [ref=e20] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e23]: EN
+          - link [ref=e25] [cursor=pointer]:
+            - /url: /en/jobs/saved-jobs/
+            - img [ref=e26]
+            - status [ref=e28]:
+              - text: "0"
+              - generic [ref=e29]: Jobs that caught your eye
+      - region [ref=e30]:
+        - navigation [ref=e31]:
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - link [ref=e34] [cursor=pointer]:
+                - /url: /en/jobs/
+                - generic [ref=e35]:
+                  - text: Jobs
+                  - img [ref=e36]
+            - listitem [ref=e38]:
+              - link [ref=e39] [cursor=pointer]:
+                - /url: /en/inside-dropbox/
+                - generic [ref=e40]:
+                  - text: Inside Dropbox
+                  - img [ref=e41]
+            - listitem [ref=e43]:
+              - button [ref=e44] [cursor=pointer]:
+                - generic [ref=e45]:
+                  - text: Teams
+                  - img [ref=e46]
+            - listitem [ref=e48]:
+              - link [ref=e49] [cursor=pointer]:
+                - /url: /en/virtual-first/
+                - generic [ref=e50]:
+                  - text: Virtual First
+                  - img [ref=e51]
+            - listitem [ref=e53]:
+              - link [ref=e54] [cursor=pointer]:
+                - /url: /en/whats-new/
+                - generic [ref=e55]:
+                  - text: What's new
+                  - img [ref=e56]
+            - listitem [ref=e58]:
+              - link [ref=e59] [cursor=pointer]:
+                - /url: /en/how-we-hire/
+                - generic [ref=e60]:
+                  - text: How we hire
+                  - img [ref=e61]
+            - listitem [ref=e63]:
+              - link [ref=e64] [cursor=pointer]:
+                - /url: /en/emerging-talent/
+                - generic [ref=e65]:
+                  - text: Emerging Talent
+                  - img [ref=e66]
+            - listitem [ref=e68]:
+              - link [ref=e69] [cursor=pointer]:
+                - /url: /en/events/
+                - generic [ref=e70]:
+                  - text: Events
+                  - img [ref=e71]
+    - main [ref=e74]:
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - img [ref=e80]
+              - text: Open Role
+            - heading "Infrastructure Software Engineer" [level=1] [ref=e82]
+            - list [ref=e83]:
+              - listitem [ref=e84]:
+                - img [ref=e85]
+                - link "Remote - Poland" [ref=e87] [cursor=pointer]:
+                  - /url: /en/locations/poland/
+              - listitem [ref=e88]: Remote
+              - listitem [ref=e89]:
+                - link "Engineering" [ref=e90] [cursor=pointer]:
+                  - /url: /en/teams/engineering/
+              - listitem [ref=e91]: Full Time
+          - generic [ref=e92]:
+            - article [ref=e93]:
+              - heading "Role Description" [level=3] [ref=e94]
+              - paragraph [ref=e95]: As an Infrastructure Software Engineer, your role will be crucial in shaping and constructing the robust systems that not only support our current flagship products but also lay the groundwork for the next wave of engineering innovations. From optimizing user experiences across various projects to ensuring seamless scalability and data integrity, you'll be at the forefront of shaping the technological backbone of our platform.
+              - paragraph [ref=e96]: Collaborating closely with cross-functional teams, you'll leverage your expertise to tackle audacious challenges and push the boundaries of what's possible. Your contributions will directly impact millions of users, as every line of code you write furthers our mission to revolutionize the way people work and collaborate.
+              - paragraph [ref=e97]: Join us in redefining the future, where your passion for building scalable, reliable systems will drive meaningful change on a global scale.
+              - paragraph [ref=e98]:
+                - text: Our Engineering Career Framework is
+                - link "viewable by anyone outside the company" [ref=e99] [cursor=pointer]:
+                  - /url: https://dropbox.github.io/dbx-career-framework/
+                - text: and describes what’s expected for our engineers at each of our career levels. Check out our blog post on this topic and more
+                - link "here" [ref=e100] [cursor=pointer]:
+                  - /url: https://dropbox.tech/culture/sharing-our-engineering-career-framework-with-the-world
+                - text: .
+              - heading "Responsibilities" [level=3] [ref=e101]
+              - list [ref=e102]:
+                - listitem [ref=e103]: • Build infrastructure capable of managing metadata for hundreds of billions of files, handling hundreds of petabytes of user data, and facilitating millions of concurrent connections.
+                - listitem [ref=e104]: • Assist in expanding Dropbox's role as the data-fabric, linking hundreds of millions of applications, devices, and services worldwide, while spearheading efforts to improve interoperability and adaptability across various ecosystems.
+                - listitem [ref=e105]: • Measure and optimize Dropbox's analytics platform to maintain its status as one of the most advanced in the industry for extracting meaningful insights from vast data volumes.
+                - listitem [ref=e106]: • Collaborate with cross-functional teams to innovate and implement solutions that enhance the performance, reliability, and security of Dropbox's infrastructure, ensuring a seamless experience for users worldwide.
+              - paragraph [ref=e107]: On-call work may be necessary occasionally to help address bugs, outages, or other operational issues, with the goal of maintaining a stable and high-quality experience for our customers.
+              - heading "Requirements" [level=3] [ref=e108]
+              - list [ref=e109]:
+                - listitem [ref=e110]: • BS, MS, or PhD in Computer Science or related technical field involving coding (e.g., physics or mathematics), or equivalent technical experience
+                - listitem [ref=e111]: • 2+ years of professional software development experience
+                - listitem [ref=e112]: • Demonstrated experience in building and managing large-scale, multi-threaded, and geographically distributed backend systems
+                - listitem [ref=e113]: • Proficient in programming and debugging across a range of languages such as Python, Go, C/C++, or Java
+                - listitem [ref=e114]: • Experience working with operating system internals, filesystems, databases, networks, and compilers
+                - listitem [ref=e115]: • Ability to independently execute tasks at hand
+              - heading "Preferred Qualifications" [level=3] [ref=e116]
+              - list [ref=e117]:
+                - listitem [ref=e118]: • Familiarity with Semaphores and Mutexes
+              - heading "Compensation" [level=3] [ref=e119]
+              - paragraph [ref=e120]: Poland Pay Range
+              - paragraph [ref=e121]: 212 500 zł—287 500 zł PLN
+              - paragraph [ref=e122]:
+                - text: Dropbox applies increased tax deductible costs to remuneration earned by certain qualifying employees (to the extent an employee will be involved in the creation of the software as an “author”) for the transfer of copyrights, in accordance with the relevant provisions of the Personal Income Tax Act.
+                - text: The range(s) listed above is the expected annual salary/OTE (On-Target Earnings) for this role, subject to change. Please note, OTE are for sales roles only.
+                - text: Salary/OTE is just one component of Dropbox’s total rewards package. All regular employees are also eligible for the corporate bonus program or a sales incentive (target included in OTE) as well as stock in the form of Restricted Stock Units (RSUs).
+                - text: Dropbox is a
+                - link "Virtual First" [ref=e123] [cursor=pointer]:
+                  - /url: /en/virtual-first/
+                - text: company and is open to hiring candidates in all authorized locations.
+              - paragraph [ref=e124]:
+                - text: Read more about our benefits
+                - link "here" [ref=e125] [cursor=pointer]:
+                  - /url: /en/poland/
+                - text: .
+              - heading "Company Description" [level=3] [ref=e126]
+              - paragraph [ref=e127]: Dropbox isn’t just a workplace—it’s a living lab for designing a more enlightened way of working. We’re a global community of bold visionaries and resourceful doers shaping the future of Dropbox and, in turn, the future of work. Our Virtual First model combines the autonomy of a distributed workplace with the power of human connection, creating space for meaningful work and lasting relationships. With a startup mindset and enterprise-level opportunities, we expect Dropbox employees to think critically, stay curious, and use modern tools, including AI, to improve how work gets done. Here, you can be who you are and grow into who you’re meant to be. You own your impact, helping make work more intuitive, joyful, and human for yourself and hundreds of millions of people worldwide. If you’re ready to push boundaries and challenge yourself, Dropbox is ready for you.
+              - heading "Team Description" [level=3] [ref=e128]
+              - paragraph [ref=e129]: The Dropbox Engineering Team develops the technology, platforms, and products that create more enlightened ways of working for hundreds of millions of people. Customers rely on Dropbox to manage, share, and collaborate on content seamlessly—our engineering makes that easier and more intuitive than ever before.Our platform features a robust systems software layer that stores and processes exabytes of data, and a suite of growing services that enhance core products like our sharing and sync engine. We’re also driving innovation with new offerings such as Dash, our AI-powered knowledge management engine. Our infrastructure spans high-performance servers and cutting-edge components across multiple data centers worldwide, ensuring reliability, speed, and scalability at a global scale. We think like a startup but build for an enterprise, exploring new possibilities that transform how people work. If you're excited about turning complex technical challenges into intuitive solutions at scale, join our Engineering team.
+              - heading "Virtual First" [level=3] [ref=e130]:
+                - strong [ref=e131]: Virtual First
+              - paragraph [ref=e132]: Dropbox’s Virtual First way of working is designed to help people do their best work with flexibility, autonomy, and connection. Day to day, teams work remotely with nonlinear schedules and core collaboration hours that support deep focus and individual working styles. We prioritize asynchronous communication to improve clarity, respect deep work time, and reduce unnecessary meetings. While remote work is the primary experience for our employees, we also prioritize intentional, in-person connection. We bring teams together through regular team gatherings, on-demand workspaces, and Dropbox Neighborhood events in order to strengthen team cohesion, foster creativity, and enhance momentum. Virtual First is built to provide the same access to opportunity, growth, and impact for everyone, regardless of location.
+              - paragraph [ref=e133]: This role requires travel to offsites and various other team gatherings (approximately 5-10% of the year or 2-3 days per quarter). We provide advance notice when possible and encourage candidates to discuss any accommodation needs during the interview process.
+              - paragraph [ref=e134]:
+                - text: Dropbox supports responsible use of AI for preparation, but misrepresentation of skills or experience is not permitted. See our
+                - link "AI Principles" [ref=e135] [cursor=pointer]:
+                  - /url: https://www.dropbox.com/ai-principles
+                - text: .
+                - text: Dropbox is an equal opportunity employer. We are a welcoming place for everyone, and we do our best to make sure all people feel supported and connected at work.
+            - button "Read More" [ref=e136] [cursor=pointer]:
+              - generic [ref=e137]: Read More
+            - generic [ref=e138]:
+              - heading "Similar Jobs" [level=2] [ref=e139]
+              - generic [ref=e141]:
+                - heading "Senior Infrastructure Software Engineer" [level=3] [ref=e142]:
+                  - link "Senior Infrastructure Software Engineer" [ref=e143] [cursor=pointer]:
+                    - /url: /en/jobs/6333181/senior-infrastructure-software-engineer/
+                - button "Save Senior Infrastructure Software Engineer" [ref=e146] [cursor=pointer]:
+                  - img [ref=e147]
+                  - generic [ref=e149]: Save
+                - generic [ref=e151]:
+                  - img [ref=e152]
+                  - text: Remote - Poland
+              - generic [ref=e155]:
+                - heading "Senior Data Engineer, AI and Systems Engineering" [level=3] [ref=e156]:
+                  - link "Senior Data Engineer, AI and Systems Engineering" [ref=e157] [cursor=pointer]:
+                    - /url: /en/jobs/7872745/senior-data-engineer-ai-and-systems-engineering/
+                - button "Save Senior Data Engineer, AI and Systems Engineering" [ref=e160] [cursor=pointer]:
+                  - img [ref=e161]
+                  - generic [ref=e163]: Save
+                - generic [ref=e165]:
+                  - img [ref=e166]
+                  - text: Remote - Poland
+              - generic [ref=e169]:
+                - heading "Infrastructure Software Engineer" [level=3] [ref=e170]:
+                  - link "Infrastructure Software Engineer" [ref=e171] [cursor=pointer]:
+                    - /url: /en/jobs/7758123/infrastructure-software-engineer/
+                - button "Save Infrastructure Software Engineer" [ref=e174] [cursor=pointer]:
+                  - img [ref=e175]
+                  - generic [ref=e177]: Save
+                - generic [ref=e179]:
+                  - img [ref=e180]
+                  - text: Remote - Mexico
+        - complementary [ref=e182]:
+          - img "Deiparine Danielle 255 1062 Retouched 4 1" [ref=e184]
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - button "Save Infrastructure Software Engineer" [ref=e188] [cursor=pointer]:
+                - img [ref=e189]
+                - generic [ref=e191]: Save
+              - button "Open sharing options" [ref=e192] [cursor=pointer]:
+                - img [ref=e193]
+                - generic [ref=e195]: Open sharing options
+            - link "Apply Now" [ref=e196] [cursor=pointer]:
+              - /url: /en/jobs/apply/?id=7752395
+              - text: Apply Now
+              - img [ref=e197]
+      - generic [ref=e201]:
+        - generic [ref=e202]:
+          - heading "Meet the Dropbox Engineering team" [level=2] [ref=e203]:
+            - generic [ref=e204]:
+              - generic [ref=e205]: Meet
+              - generic [ref=e206]: the
+            - generic [ref=e208]: Dropbox
+            - generic [ref=e210]: Engineering
+            - generic [ref=e212]: team
+          - paragraph [ref=e214]: Focus areas include machine learning, data engineering, frontend and backend development, mobile, site reliability, infrastructure, and technical program management
+          - link "Explore the team" [ref=e215] [cursor=pointer]:
+            - /url: /en/teams/engineering/
+        - img "Hack Week 23 2" [ref=e218]
+      - generic [ref=e221]:
+        - generic [ref=e222]:
+          - heading "Poland" [level=2] [ref=e223]:
+            - generic [ref=e225]: Poland
+          - link "Explore the location" [ref=e226] [cursor=pointer]:
+            - /url: /en/locations/poland/
+        - img "Mexico OYI (2)" [ref=e229]
+      - generic [ref=e231]:
+        - region "Testimonials" [ref=e232]:
+          - region "Testimonials carousel" [ref=e233]:
+            - generic [ref=e234]:
+              - generic [ref=e235]:
+                - group "Slide 1 of 5" [ref=e236]:
+                  - figure [ref=e239]:
+                    - blockquote [ref=e240]:
+                      - paragraph [ref=e241]:
+                        - generic [ref=e242]: I
+                        - generic [ref=e243]: feel
+                        - generic [ref=e244]: trusted
+                        - generic [ref=e245]: at
+                        - generic [ref=e246]: Dropbox.
+                        - generic [ref=e247]: Here,
+                        - generic [ref=e248]: I’m
+                        - generic [ref=e249]: free
+                        - generic [ref=e250]: to
+                        - generic [ref=e251]: make
+                        - generic [ref=e252]: decisions,
+                        - generic [ref=e253]: own
+                        - generic [ref=e254]: my
+                        - generic [ref=e255]: work
+                        - generic [ref=e256]: end-to-end,
+                        - generic [ref=e257]: and
+                        - generic [ref=e258]: contribute
+                        - generic [ref=e259]: to
+                        - generic [ref=e260]: the
+                        - generic [ref=e261]: company
+                        - generic [ref=e262]: beyond
+                        - generic [ref=e263]: my
+                        - generic [ref=e264]: role.
+                    - generic [ref=e265]:
+                      - generic [ref=e266]: Ragul, Tech Lead
+                      - img "Dropbox logo" [ref=e269]
+                - group "Slide 2 of 5" [ref=e270]:
+                  - figure [ref=e273]:
+                    - blockquote [ref=e274]:
+                      - paragraph [ref=e275]:
+                        - generic [ref=e276]: Dropbox
+                        - generic [ref=e277]: has
+                        - generic [ref=e278]: transformed
+                        - generic [ref=e279]: my
+                        - generic [ref=e280]: career,
+                        - generic [ref=e281]: and
+                        - generic [ref=e282]: I
+                        - generic [ref=e283]: feel
+                        - generic [ref=e284]: empowered
+                        - generic [ref=e285]: to
+                        - generic [ref=e286]: make
+                        - generic [ref=e287]: an
+                        - generic [ref=e288]: impact
+                        - generic [ref=e289]: every
+                        - generic [ref=e290]: single
+                        - generic [ref=e291]: day.
+                        - generic [ref=e292]: I
+                        - generic [ref=e293]: love
+                        - generic [ref=e294]: working
+                        - generic [ref=e295]: with
+                        - generic [ref=e296]: exceptional
+                        - generic [ref=e297]: people
+                        - generic [ref=e298]: in
+                        - generic [ref=e299]: an
+                        - generic [ref=e300]: environment
+                        - generic [ref=e301]: that
+                        - generic [ref=e302]: supports
+                        - generic [ref=e303]: growth,
+                        - generic [ref=e304]: innovation,
+                        - generic [ref=e305]: and
+                        - generic [ref=e306]: disruption.
+                    - generic [ref=e307]:
+                      - generic [ref=e308]: Rachel, Security Engineer
+                      - img "Dropbox logo" [ref=e311]
+                - group "Slide 3 of 5" [ref=e312]:
+                  - figure [ref=e315]:
+                    - blockquote [ref=e316]:
+                      - paragraph [ref=e317]:
+                        - generic [ref=e318]: Every
+                        - generic [ref=e319]: day
+                        - generic [ref=e320]: at
+                        - generic [ref=e321]: Dropbox
+                        - generic [ref=e322]: brings
+                        - generic [ref=e323]: new
+                        - generic [ref=e324]: opportunities
+                        - generic [ref=e325]: to
+                        - generic [ref=e326]: push
+                        - generic [ref=e327]: "myself:"
+                        - generic [ref=e328]: to
+                        - generic [ref=e329]: try
+                        - generic [ref=e330]: something
+                        - generic [ref=e331]: different
+                        - generic [ref=e332]: and
+                        - generic [ref=e333]: grow
+                        - generic [ref=e334]: my
+                        - generic [ref=e335]: skillset.
+                        - generic [ref=e336]: I’m
+                        - generic [ref=e337]: encouraged
+                        - generic [ref=e338]: at
+                        - generic [ref=e339]: every
+                        - generic [ref=e340]: step.
+                    - generic [ref=e341]:
+                      - generic [ref=e342]: RiAnica, Senior Web Producer
+                      - img "Dropbox logo" [ref=e345]
+                - group "Slide 4 of 5" [ref=e346]:
+                  - figure [ref=e349]:
+                    - blockquote [ref=e350]:
+                      - paragraph [ref=e351]:
+                        - generic [ref=e352]: I
+                        - generic [ref=e353]: know
+                        - generic [ref=e354]: I’m
+                        - generic [ref=e355]: making
+                        - generic [ref=e356]: an
+                        - generic [ref=e357]: impact
+                        - generic [ref=e358]: when
+                        - generic [ref=e359]: our
+                        - generic [ref=e360]: products
+                        - generic [ref=e361]: make
+                        - generic [ref=e362]: users’
+                        - generic [ref=e363]: lives
+                        - generic [ref=e364]: easier.
+                    - generic [ref=e365]:
+                      - generic [ref=e366]: Maciej, Software Engineer
+                      - img "Dropbox logo" [ref=e369]
+                - group "Slide 5 of 5" [ref=e370]:
+                  - figure [ref=e373]:
+                    - blockquote [ref=e374]:
+                      - paragraph [ref=e375]:
+                        - generic [ref=e376]: Everyone
+                        - generic [ref=e377]: I
+                        - generic [ref=e378]: met
+                        - generic [ref=e379]: during
+                        - generic [ref=e380]: the
+                        - generic [ref=e381]: interview
+                        - generic [ref=e382]: process
+                        - generic [ref=e383]: was
+                        - generic [ref=e384]: working
+                        - generic [ref=e385]: "on"
+                        - generic [ref=e386]: solving
+                        - generic [ref=e387]: real
+                        - generic [ref=e388]: problems.
+                        - generic [ref=e389]: That’s
+                        - generic [ref=e390]: what
+                        - generic [ref=e391]: attracted
+                        - generic [ref=e392]: me
+                        - generic [ref=e393]: to
+                        - generic [ref=e394]: Dropbox.
+                    - generic [ref=e395]:
+                      - generic [ref=e396]: Hannah, People Analytics Senior Manager
+                      - img "Dropbox logo" [ref=e399]
+              - generic [ref=e406]:
+                - button "Previous slide" [disabled]:
+                  - img
+                - button "Next slide" [ref=e407] [cursor=pointer]:
+                  - img [ref=e408]
+              - generic: Slide 1 of 5
+        - generic [ref=e413]:
+          - heading "Virtual First isn't just a policy" [level=2] [ref=e414]
+          - paragraph [ref=e416]:
+            - generic [ref=e417]: Virtual
+            - generic [ref=e418]: First
+            - generic [ref=e419]: defines
+            - generic [ref=e420]: how
+            - generic [ref=e421]: we
+            - generic [ref=e422]: work
+            - generic [ref=e423]: and
+            - generic [ref=e424]: what
+            - generic [ref=e425]: we
+            - generic [ref=e426]: create.
+            - generic [ref=e427]: By
+            - generic [ref=e428]: experiencing
+            - generic [ref=e429]: distributed
+            - generic [ref=e430]: work
+            - generic [ref=e431]: firsthand,
+            - generic [ref=e432]: we
+            - generic [ref=e433]: know
+            - generic [ref=e434]: how
+            - generic [ref=e435]: to
+            - generic [ref=e436]: make
+            - generic [ref=e437]: it
+            - generic [ref=e438]: more
+            - generic [ref=e439]: intuitive
+            - generic [ref=e440]: and
+            - generic [ref=e441]: human.
+          - link "Discover our approach" [ref=e443] [cursor=pointer]:
+            - /url: /en/virtual-first/
+        - generic [ref=e446]:
+          - generic [ref=e447]:
+            - heading "Committed to your growth" [level=2] [ref=e448]
+            - paragraph [ref=e450]: Dropbox is a global community where you can own your impact. From day one, you’re trusted to experiment boldly, sharpen your craft, and grow with the support of world-class teammates. With our start-up mindset and enterprise-level opportunities, you can be yourself while unlocking your potential.
+            - link "Look inside Dropbox" [ref=e451] [cursor=pointer]:
+              - /url: /en/inside-dropbox/
+          - 'link "Play video: Committed to your growth" [ref=e454] [cursor=pointer]':
+            - /url: https://www.youtube-nocookie.com/embed/YS46WpES2Dc?modestbranding=1&rel=0
+            - img "Hero-Thumbnail" [ref=e456]
+            - generic [ref=e457]: Play video
+        - generic [ref=e459]:
+          - generic [ref=e460]:
+            - heading "Related Posts" [level=2] [ref=e464]
+            - link "Discover all stories" [ref=e466] [cursor=pointer]:
+              - /url: /en/our-blog/
+          - generic [ref=e467]:
+            - article [ref=e468]:
+              - generic [ref=e469]:
+                - link "Pawel-LikeACyclist" [ref=e471] [cursor=pointer]:
+                  - /url: /en/our-blog/employee-stories/built-for-the-long-ride-lessons-from-cycling-and-engineering/
+                  - img "Pawel-LikeACyclist" [ref=e473]
+                - generic:
+                  - 'heading "Built for the long ride: lessons from cycling and engineering" [level=2] [ref=e474]':
+                    - 'link "Built for the long ride: lessons from cycling and engineering" [ref=e475] [cursor=pointer]':
+                      - /url: /en/our-blog/employee-stories/built-for-the-long-ride-lessons-from-cycling-and-engineering/
+                  - generic [ref=e477]: 1 Minute read
+            - article [ref=e478]:
+              - generic [ref=e479]:
+                - link "Pawel 1 1" [ref=e481] [cursor=pointer]:
+                  - /url: /en/our-blog/employee-stories/the-impact-of-dropboxs-engineering-and-community-on-my-career-growth/
+                  - img "Pawel 1 1" [ref=e483]
+                - generic [ref=e484]:
+                  - heading "The impact of Dropbox's engineering and community on my career growth" [level=2] [ref=e485]:
+                    - link "The impact of Dropbox's engineering and community on my career growth" [ref=e486] [cursor=pointer]:
+                      - /url: /en/our-blog/employee-stories/the-impact-of-dropboxs-engineering-and-community-on-my-career-growth/
+                  - generic [ref=e488]: 1 Minute read
+            - article [ref=e489]:
+              - generic [ref=e490]:
+                - link "Karol 1 1" [ref=e492] [cursor=pointer]:
+                  - /url: /en/our-blog/employee-stories/enhancing-impact-growth-on-our-poland-engineering-team/
+                  - img "Karol 1 1" [ref=e494]
+                - generic [ref=e495]:
+                  - heading "Enhancing impact & growth on our Poland engineering team" [level=2] [ref=e496]:
+                    - link "Enhancing impact & growth on our Poland engineering team" [ref=e497] [cursor=pointer]:
+                      - /url: /en/our-blog/employee-stories/enhancing-impact-growth-on-our-poland-engineering-team/
+                  - generic [ref=e499]: 1 Minute read
+        - generic [ref=e503]:
+          - heading "Stay connected" [level=2] [ref=e504]:
+            - generic [ref=e506]: Stay
+            - generic [ref=e508]: connected
+          - paragraph [ref=e509]: Join our Talent Community today. Be the first to know about new opportunities and get a behind-the-scenes look at Dropbox.
+          - link "Sign up" [ref=e510] [cursor=pointer]:
+            - /url: /en/talent-community/
+    - contentinfo [ref=e511]:
+      - generic [ref=e512]:
+        - generic [ref=e513]:
+          - link "Back to top" [ref=e514] [cursor=pointer]:
+            - /url: "#content"
+            - img [ref=e515]
+            - generic [ref=e517]: Back to top
+          - generic [ref=e518]:
+            - generic [ref=e519]:
+              - heading "Careers" [level=2] [ref=e520]
+              - list [ref=e521]:
+                - listitem [ref=e522]:
+                  - link "Open roles" [ref=e523] [cursor=pointer]:
+                    - /url: /en/jobs/
+                - listitem [ref=e524]:
+                  - link "Inside Dropbox" [ref=e525] [cursor=pointer]:
+                    - /url: /en/inside-dropbox/
+                - listitem [ref=e526]:
+                  - link "Teams" [ref=e527] [cursor=pointer]:
+                    - /url: /en/teams/
+                - listitem [ref=e528]:
+                  - link "Virtual First" [ref=e529] [cursor=pointer]:
+                    - /url: /en/virtual-first/
+                - listitem [ref=e530]:
+                  - link "How we hire" [ref=e531] [cursor=pointer]:
+                    - /url: /en/how-we-hire/
+                - listitem [ref=e532]:
+                  - link "Emerging Talent" [ref=e533] [cursor=pointer]:
+                    - /url: /en/emerging-talent/
+            - generic [ref=e534]:
+              - heading "Resources" [level=2] [ref=e535]
+              - list [ref=e536]:
+                - listitem [ref=e537]:
+                  - link "Blog" [ref=e538] [cursor=pointer]:
+                    - /url: /en/our-blog/
+                - listitem [ref=e539]:
+                  - link "Events" [ref=e540] [cursor=pointer]:
+                    - /url: /en/events/
+                - listitem [ref=e541]:
+                  - link "AI principles (Opens In new window)" [ref=e542] [cursor=pointer]:
+                    - /url: https://www.dropbox.com/ai-principles
+                    - text: AI principles
+                - listitem [ref=e543]:
+                  - link "Our impact (Opens In new window)" [ref=e544] [cursor=pointer]:
+                    - /url: https://www.dropbox.com/impact
+                    - text: Our impact
+                - listitem [ref=e545]:
+                  - link "Dropbox Foundation (Opens In new window)" [ref=e546] [cursor=pointer]:
+                    - /url: https://www.dropbox.foundation
+                    - text: Dropbox Foundation
+                - listitem [ref=e547]:
+                  - link "Investor relations (Opens In new window)" [ref=e548] [cursor=pointer]:
+                    - /url: https://dropbox.gcs-web.com/
+                    - text: Investor relations
+            - generic [ref=e549]:
+              - heading "Products" [level=2] [ref=e550]
+              - list [ref=e551]:
+                - listitem [ref=e552]:
+                  - link "Dash- NEW! (Opens In new window)" [ref=e553] [cursor=pointer]:
+                    - /url: https://dash.dropbox.com/?_gl=1*18m851m*_ga*MTUxMDY0NzU2My4xNzMyMTE5NTkx*_ga_Y268KZNQF3*czE3NTg3NTczMTckbzIwNSRnMSR0MTc1ODc1Nzk0OSRqNTckbDAkaDA.
+                    - text: Dash- NEW!
+                - listitem [ref=e554]:
+                  - link "Reclaim.ai (Opens In new window)" [ref=e555] [cursor=pointer]:
+                    - /url: https://app.reclaim.ai/signup?utm_medium=referral&utm_source=dbx-footer-referral&utm_campaign=dbx-footer-signup&utm_term=dbx-footer
+                    - text: Reclaim.ai
+                - listitem [ref=e556]:
+                  - link "Dropbox Sign (Opens In new window)" [ref=e557] [cursor=pointer]:
+                    - /url: https://sign.dropbox.com/?_gl=1*1lueb6t*_ga*MTUxMDY0NzU2My4xNzMyMTE5NTkx*_ga_Y268KZNQF3*czE3NTg3NTczMTckbzIwNSRnMSR0MTc1ODc1Nzk0OSRqNTckbDAkaDA.
+                    - text: Dropbox Sign
+                - listitem [ref=e558]:
+                  - link "DocSend (Opens In new window)" [ref=e559] [cursor=pointer]:
+                    - /url: https://www.docsend.com/?utm_medium=Referral&utm_source=Dropbox%20Web%20Referral&utm_campaign=dbx-footer
+                    - text: DocSend
+                - listitem [ref=e560]:
+                  - link "Plus (Opens In new window)" [ref=e561] [cursor=pointer]:
+                    - /url: https://www.dropbox.com/plus
+                    - text: Plus
+                - listitem [ref=e562]:
+                  - link "Professional (Opens In new window)" [ref=e563] [cursor=pointer]:
+                    - /url: https://www.dropbox.com/pro
+                    - text: Professional
+                - listitem [ref=e564]:
+                  - link "Business (Opens In new window)" [ref=e565] [cursor=pointer]:
+                    - /url: https://www.dropbox.com/business
+                    - text: Business
+                - listitem [ref=e566]:
+                  - link "Enterprise (Opens In new window)" [ref=e567] [cursor=pointer]:
+                    - /url: https://www.dropbox.com/enterprise
+                    - text: Enterprise
+            - generic [ref=e568]:
+              - heading "Updates" [level=2] [ref=e569]
+              - list [ref=e570]:
+                - listitem [ref=e571]:
+                  - link "What's new" [ref=e572] [cursor=pointer]:
+                    - /url: /en/whats-new/
+                - listitem [ref=e573]:
+                  - link "Fall '25 release (Opens In new window)" [ref=e574] [cursor=pointer]:
+                    - /url: https://www.dropbox.com/product-updates
+                    - text: Fall '25 release
+                - listitem [ref=e575]:
+                  - link "Spring ‘25 release (Opens In new window)" [ref=e576] [cursor=pointer]:
+                    - /url: https://www.dropbox.com/product-updates?_gl=1*of7t49*_ga*MTUxMDY0NzU2My4xNzMyMTE5NTkx*_ga_Y268KZNQF3*czE3NTg3NTczMTckbzIwNSRnMSR0MTc1ODc1Nzk0OSRqNTckbDAkaDA.
+                    - text: Spring ‘25 release
+                - listitem [ref=e577]:
+                  - link "Fall '24 release (Opens In new window)" [ref=e578] [cursor=pointer]:
+                    - /url: https://www.dropbox.com/product-updates/october-2024
+                    - text: Fall '24 release
+                - listitem [ref=e579]:
+                  - link "Summer '24 release (Opens In new window)" [ref=e580] [cursor=pointer]:
+                    - /url: https://www.dropbox.com/product-updates/july-2024
+                    - text: Summer '24 release
+                - listitem [ref=e581]:
+                  - link "Spring '24 release (Opens In new window)" [ref=e582] [cursor=pointer]:
+                    - /url: https://www.dropbox.com/product-updates/april-2024
+                    - text: Spring '24 release
+            - generic [ref=e584]:
+              - heading "Socials" [level=2] [ref=e585]
+              - list [ref=e586]:
+                - listitem [ref=e587]:
+                  - link "X (Opens In new window)" [ref=e588] [cursor=pointer]:
+                    - /url: https://twitter.com/Dropbox
+                    - img [ref=e590]
+                    - generic [ref=e592]: X
+                - listitem [ref=e593]:
+                  - link "LinkedIn (Opens In new window)" [ref=e594] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/dropbox/
+                    - img [ref=e596]
+                    - generic [ref=e598]: LinkedIn
+                - listitem [ref=e599]:
+                  - link "YouTube (Opens In new window)" [ref=e600] [cursor=pointer]:
+                    - /url: https://www.youtube.com/playlist?list=PLr5Dz0J1etmobKP_vW1TtXAGaXptUZ2vP
+                    - img [ref=e602]
+                    - generic [ref=e604]: YouTube
+        - generic [ref=e606]:
+          - paragraph [ref=e608]: © Dropbox 2026, all rights reserved.
+          - paragraph [ref=e610]:
+            - text: Website by
+            - link "Happydance" [ref=e611] [cursor=pointer]:
+              - /url: https://www.happydance.love/
+  - generic [ref=e614]:
+    - text: For a personalized experience, let’s start with your
+    - paragraph [ref=e615]: ZIP Code
+    - generic [ref=e616]:
+      - group "Enter your ZIP code" [ref=e617]:
+        - generic [ref=e618]: Enter your ZIP code
+        - generic [ref=e619]:
+          - generic [ref=e620]: Digit 1
+          - textbox "Digit 1" [active] [ref=e621]
+          - generic [ref=e622]: Digit 2
+          - textbox "Digit 2" [ref=e623]
+          - generic [ref=e624]: Digit 3
+          - textbox "Digit 3" [ref=e625]
+          - generic [ref=e626]: Digit 4
+          - textbox "Digit 4" [ref=e627]
+          - generic [ref=e628]: Digit 5
+          - textbox "Digit 5" [ref=e629]
+      - generic [ref=e630]:
+        - button "Let's go" [ref=e631] [cursor=pointer]
+        - button "Skip" [ref=e632] [cursor=pointer]

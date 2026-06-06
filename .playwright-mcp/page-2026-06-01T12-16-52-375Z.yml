@@ -1,0 +1,99 @@
+- generic [active] [ref=e1]:
+  - dialog "cookieconsent" [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: 🍪
+      - generic [ref=e6]:
+        - button "Deny" [ref=e7] [cursor=pointer]
+        - button "Accept" [ref=e8] [cursor=pointer]
+      - heading "Privacy Notice" [level=4] [ref=e9]
+      - paragraph [ref=e10]:
+        - text: This website uses cookies to improve your web experience. By clicking Accept, you agree to the use of cookies.
+        - link "Cookie Policy" [ref=e11] [cursor=pointer]:
+          - /url: https://www.employinc.com/cookie-policy/
+  - link "Palantir Technologies logo" [ref=e14] [cursor=pointer]:
+    - /url: https://jobs.lever.co/palantir
+    - img "Palantir Technologies logo" [ref=e15]
+  - generic [ref=e17]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - heading "Software Engineer, Internship" [level=2] [ref=e21]
+        - generic [ref=e22]:
+          - generic [ref=e23]: New York, NY
+          - generic [ref=e24]: Dev /
+          - generic [ref=e25]: Internship /
+          - generic [ref=e26]: On-site
+      - link "Apply" [ref=e28] [cursor=pointer]:
+        - /url: https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d/apply
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - strong [ref=e32]: A World-Changing Company
+        - generic [ref=e34]: Palantir builds the world’s leading software for data-driven decisions and operations. By bringing the right data to the people who need it, our platforms empower our partners to develop lifesaving drugs, forecast supply chain disruptions, locate missing children, and more.
+        - strong [ref=e37]: The Role
+        - generic [ref=e39]: "Software Engineers at Palantir build software at scale to transform how organizations around the world use data. As a Software Engineer Intern, you’ll have an opportunity to grow more quickly than you ever envisioned, as you contribute high-quality code directly to Palantir Gotham, Palantir Foundry, or Palantir Apollo: products that are deployed at some of the most important institutions across the public and private sectors. You'll create features used by research scientists, aerospace engineers, intelligence analysts, and economic forecasters, in countries around the world. Palantir's Product Development organization is made up of small teams of Software Engineers, each focusing on a specific aspect of a product. For example, you might join a team that builds a Foundry front-end application, or a component of the Gotham release infrastructure. We encourage communication and collaboration among teams to share context, skills, and experience, so you'll learn about many different aspects of each product."
+        - strong [ref=e42]: Core Responsibilities
+        - generic [ref=e44]: As a Software Engineer, you are involved throughout the product lifecycle - from idea generation, design, and prototyping to execution and shipping while also being paired with a mentor dedicated to your growth and success. You'll collaborate closely with technical and non-technical counterparts to understand our customers' problems and build products that tackle them. One of the most effective ways to understand what our users need is to meet them. You may receive an opportunity to tour the assembly line at an auto-manufacturer or join a counter-terror analyst at their desk to really understand their mission and difficulties.
+        - strong [ref=e47]: "SWE principles include:"
+        - generic [ref=e49]: "• Ownership: We see projects through from beginning to end in spite of obstacles we may encounter."
+        - generic [ref=e50]: "• Collaboration: We work internally with people from a variety of backgrounds — such as other Software Engineers, Product Managers, Designers and Product Reliability Engineers. We also partner with our business development teams (Forward Deployed Engineers, Deployment Strategists) in order to understand and solve our customers' problems."
+        - generic [ref=e51]: "• Trust: We trust each other to effectively handle time and priorities, and don't micromanage. We want people to have the space to think for themselves, while feeling supported by their team."
+        - strong [ref=e54]: Technologies We Use
+        - generic [ref=e56]: "It doesn’t matter what languages you know when you join us, but it does matter that you can write clean, effective code and learn new languages quickly. Our software is constantly evolving, so we need engineers who can do the same. Alongside peers that bring diverse experience - whether you’re a former university TA, switched to CS recently, or are a hackathon enthusiast — you'll build your skills to apply the best technology to solve a given problem. Right now, we use:"
+        - generic [ref=e58]: • Varying languages, including Java and Go for backend and Typescript for frontend
+        - generic [ref=e59]: • Open-source technologies like Cassandra, Spark, Elasticsearch, React, and Redux
+        - generic [ref=e60]: • Industry-standard build tooling, including Gradle and GitHub
+      - generic [ref=e62]:
+        - heading "What We Value" [level=3] [ref=e63]
+        - list [ref=e66]:
+          - listitem [ref=e67]: Ability to communicate and collaborate with a variety of individuals, including engineers, users and non-technical team members.
+          - listitem [ref=e68]: Willingness to learn and make decisions independently, and the ability to ask questions when needed.
+          - listitem [ref=e69]: Active US Security clearance, or eligibility and willingness to obtain a US Security clearance.
+      - generic [ref=e71]:
+        - heading "What We Require" [level=3] [ref=e72]
+        - list [ref=e75]:
+          - listitem [ref=e76]: Engineering background in fields such as Computer Science, Mathematics, Software Engineering, and Physics.
+          - listitem [ref=e77]: Familiarity with data structures, storage systems, cloud infrastructure, front-end frameworks, and other technical tools.
+          - listitem [ref=e78]: Experience coding in programming languages, such as Java, C++, Python, JavaScript, or similar languages.
+          - listitem [ref=e79]: Must be planning on graduating in 2027. This should be your final internship before graduating.
+      - generic [ref=e81]:
+        - heading "To apply, please submit the following:" [level=3] [ref=e82]
+        - list [ref=e85]:
+          - listitem [ref=e86]: An updated resume / CV - please do so in PDF format.
+          - listitem [ref=e87]: Thoughtful responses to our application questions.
+      - generic [ref=e88]:
+        - strong [ref=e90]: Salary
+        - generic [ref=e92]: The estimated salary range for this position is estimated to be $10,500/month. Further note that total compensation for this position will be determined by each individual’s relevant qualifications, work experience, skills, and other factors. This estimate excludes the value of any benefits offered; and the potential future value of any long-term incentives.
+        - strong [ref=e95]: Life at Palantir
+        - generic [ref=e97]:
+          - text: We want every Palantirian to achieve their best outcomes, that’s why we celebrate individuals’ strengths, skills, and interests, from your first interview to your longterm growth, rather than rely on traditional career ladders. Paying attention to the needs of our community enables us to optimize our opportunities to grow and helps ensure many pathways to success at Palantir. Promoting health and well-being across all areas of Palantirians’ lives is just one of the ways we’re investing in our community. Learn more at
+          - link "Life at Palantir" [ref=e98] [cursor=pointer]:
+            - /url: https://www.palantir.com/careers/life-at-palantir/
+          - text: and note that our offerings may vary by region.
+        - generic [ref=e100]: In keeping consistent with Palantir’s values and culture, we believe employees are “better together” and in-person work affords the opportunity for more creative outcomes. Therefore, we encourage employees to work from our offices to foster connectivity and innovation. Many teams do offer hybrid options (WFH a day or two a week), allowing our employees to strike the right trade-off for their personal productivity. Based on business need, there are a few roles that allow for “Remote” work on an exceptional basis. If you are applying for one of these roles, you must work from the state in which you are employed. If the posting is specified as Onsite, you are required to work from an office.
+        - generic [ref=e102]:
+          - text: If you want to empower the world's most important institutions, you belong here. Palantir values excellence regardless of background. We are proud to be an Equal Opportunity Employer for all, including but not limited to Veterans and those with disabilities. Palantir is committed to making the application and hiring process accessible to everyone and will provide a reasonable accommodation for those living with a disability. If you need an accommodation for the application or hiring process
+          - emphasis [ref=e103]: ","
+          - text: please
+          - link "reach out" [ref=e104] [cursor=pointer]:
+            - /url: mailto:accommodations@palantir.com
+          - text: and let us know how we can help.
+        - generic [ref=e106]:
+          - emphasis [ref=e107]:
+            - text: Please note that you will never be asked to submit a payment or share financial information to participate in our interview process. If you suspect that you've been contacted by a scammer, we recommend you cease all communication with the individual and consider reporting them to the relevant authorities, such as the US
+            - link "FBI Internet Crime Complaint Center (IC3)" [ref=e108] [cursor=pointer]:
+              - /url: https://www.ic3.gov/
+            - text: .
+          - emphasis [ref=e109]:
+            - text: If you would like to understand more about how your personal data will be processed by Palantir, please see our
+            - link "Privacy Policy" [ref=e110] [cursor=pointer]:
+              - /url: https://www.palantir.com/privacy-and-security/candidate-privacy-notice/
+            - text: .
+      - link "Apply" [ref=e112] [cursor=pointer]:
+        - /url: https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d/apply
+  - generic [ref=e114]:
+    - paragraph [ref=e115]:
+      - link "Palantir Technologies Home Page" [ref=e116] [cursor=pointer]:
+        - /url: https://www.palantir.com/
+    - link "Jobs powered by Lever logo" [ref=e117] [cursor=pointer]:
+      - /url: https://www.lever.co/job-seeker-support/
+      - generic [ref=e118]: Jobs powered by
+      - img "Lever logo" [ref=e119]

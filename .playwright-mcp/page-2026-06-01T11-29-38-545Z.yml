@@ -1,0 +1,385 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - button "Main menu" [ref=e5] [cursor=pointer]:
+          - img [ref=e6]
+        - link "Careers" [ref=e10] [cursor=pointer]:
+          - /url: /about/careers/applications/
+          - generic [ref=e12]: Careers
+      - generic [ref=e13]:
+        - link "Skip navigation links" [ref=e14]:
+          - generic: Skip navigation links
+        - generic [ref=e17]:
+          - navigation "Candidate Portal Left Navigation" [ref=e21]:
+            - menubar [ref=e23]:
+              - generic [ref=e24]:
+                - menuitem "Home navigation link" [ref=e25] [cursor=pointer]:
+                  - menuitem [ref=e27]:
+                    - generic [ref=e28]:
+                      - generic [ref=e29]:
+                        - generic [ref=e34]: home
+                        - generic [ref=e36]: Home
+                      - generic [ref=e38]: Home
+                - menuitem "Jobs navigation item" [ref=e39] [cursor=pointer]:
+                  - menuitem [ref=e41]:
+                    - generic [ref=e42]:
+                      - generic [ref=e43]:
+                        - generic [ref=e48]: work_outline
+                        - generic [ref=e50]: Jobs
+                      - generic [ref=e52]: Jobs
+                - menuitem "Students navigation item" [ref=e53] [cursor=pointer]:
+                  - menuitem [ref=e55]:
+                    - generic [ref=e56]:
+                      - generic [ref=e57]:
+                        - generic [ref=e62]: noogler_hat
+                        - generic [ref=e64]: Students
+                      - generic [ref=e66]: Students
+                - menuitem "How we work navigation item" [ref=e67] [cursor=pointer]:
+                  - menuitem [ref=e69]:
+                    - generic [ref=e70]:
+                      - generic [ref=e71]:
+                        - generic [ref=e76]: google
+                        - generic [ref=e78]: How we work
+                      - generic [ref=e80]: How we work
+                - menuitem "How we hire navigation item" [ref=e81] [cursor=pointer]:
+                  - menuitem [ref=e83]:
+                    - generic [ref=e84]:
+                      - generic [ref=e85]:
+                        - generic [ref=e90]: handyman
+                        - generic [ref=e92]: How we hire
+                      - generic [ref=e94]: How we hire
+                - menuitem "Your career navigation item" [ref=e95] [cursor=pointer]:
+                  - menuitem [ref=e97]:
+                    - generic [ref=e98]:
+                      - generic [ref=e99]:
+                        - generic [ref=e104]: person_outline
+                        - generic [ref=e106]: Your career
+                      - generic [ref=e108]: Your career
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e116] [cursor=pointer]:
+                - generic [ref=e117]: help_outline
+                - link "Help link" [ref=e118]:
+                  - /url: https://support.google.com/googlecareers
+              - tooltip [ref=e119]: Help link
+            - generic [ref=e120]:
+              - button "Send feedback" [ref=e121] [cursor=pointer]:
+                - generic [ref=e122]: feedback
+              - tooltip [ref=e123]: Send feedback
+      - generic [ref=e125]:
+        - button "Google apps" [ref=e129] [cursor=pointer]:
+          - img [ref=e130]
+        - link "Sign in" [ref=e133] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Fabout%2Fcareers%2Fapplications%2Fjobs%2Fresults%2F%3Fq%3Dsoftware%2Bengineer%2Bnew%2Bgrad%2Bintern%26location%3DUnited%2BStates&followup=https%3A%2F%2Fwww.google.com%2Fabout%2Fcareers%2Fapplications%2Fjobs%2Fresults%2F%3Fq%3Dsoftware%2Bengineer%2Bnew%2Bgrad%2Bintern%26location%3DUnited%2BStates&ec=GAZA6QE
+  - generic [ref=e141]:
+    - heading "Search Jobs" [level=1]
+    - generic [ref=e143]:
+      - generic [ref=e145]:
+        - heading "Search sidebar" [level=2]
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - generic [ref=e148]: 5 jobs matched
+            - button "Clear filters" [ref=e150]:
+              - generic [ref=e153]: Clear filters
+          - generic:
+            - grid "tags chipset"
+          - generic [ref=e158]:
+            - generic:
+              - generic:
+                - generic: What do you want to do?
+            - combobox "What do you want to do?" [ref=e159]: software engineer new grad intern
+          - generic "Job filters" [ref=e160]:
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - heading "Locations" [level=3] [ref=e164]
+                - button "Locations filter options" [expanded] [ref=e166] [cursor=pointer]:
+                  - generic [ref=e167]: expand_less
+              - region "Locations filter options" [ref=e168]:
+                - generic [ref=e169]:
+                  - generic [ref=e171]:
+                    - grid [ref=e172]:
+                      - row "United States Remove chip United States" [ref=e173]:
+                        - gridcell "United States" [ref=e174]:
+                          - generic [ref=e175]: United States
+                        - gridcell "Remove chip United States" [ref=e176]:
+                          - generic [ref=e177]:
+                            - button "Remove chip United States" [ref=e178] [cursor=pointer]:
+                              - img [ref=e181]
+                            - tooltip [ref=e183]: Remove
+                    - generic [ref=e186]:
+                      - generic:
+                        - generic:
+                          - generic: Which location(s) do you prefer?
+                      - generic: search
+                      - combobox "Which location(s) do you prefer working out of?" [ref=e187]
+                    - generic [ref=e189]: 1 / 4Locations
+                  - generic [ref=e190]:
+                    - generic [ref=e191]:
+                      - generic [ref=e192] [cursor=pointer]:
+                        - checkbox "Remote eligible" [ref=e193]
+                        - generic:
+                          - img
+                      - generic [ref=e194]: Remote eligible
+                    - img "Learn more about remote eligibility" [ref=e196] [cursor=pointer]:
+                      - generic [ref=e197]: info_outline
+            - generic [ref=e199]:
+              - heading "Experience" [level=3] [ref=e201]
+              - button "Experience filter options" [ref=e203] [cursor=pointer]:
+                - generic [ref=e204]: expand_more
+            - generic [ref=e206]:
+              - heading "Skills & qualifications" [level=3] [ref=e208]
+              - button "Skills & qualifications filter options" [ref=e210] [cursor=pointer]:
+                - generic [ref=e211]: expand_more
+            - generic [ref=e213]:
+              - heading "Degree" [level=3] [ref=e215]
+              - button "Degree filter options" [ref=e217] [cursor=pointer]:
+                - generic [ref=e218]: expand_more
+            - generic [ref=e220]:
+              - heading "Job types" [level=3] [ref=e222]
+              - button "Job types filter options" [ref=e224] [cursor=pointer]:
+                - generic [ref=e225]: expand_more
+            - generic [ref=e227]:
+              - heading "Organizations" [level=3] [ref=e229]
+              - button "Organizations filter options" [ref=e231] [cursor=pointer]:
+                - generic [ref=e232]: expand_more
+            - generic [ref=e234]:
+              - heading "Sort by" [level=3] [ref=e236]
+              - button "Sort jobs by date or relevance" [ref=e238] [cursor=pointer]:
+                - generic [ref=e239]: expand_more
+      - generic [ref=e240]:
+        - main [ref=e241]:
+          - generic [ref=e242]:
+            - heading "Jobs search results" [level=2]
+            - generic [ref=e244]:
+              - list [ref=e246]:
+                - listitem [ref=e247]:
+                  - generic [ref=e249]:
+                    - generic [ref=e251]:
+                      - heading "Student Researcher, BS/MS, Winter/Summer 2026" [level=3] [ref=e254]
+                      - generic [ref=e256]:
+                        - generic [ref=e257]:
+                          - generic [ref=e258]: corporate_fare
+                          - generic [ref=e259]: Google
+                        - generic [ref=e260]:
+                          - generic [ref=e261]: place
+                          - generic [ref=e262]: Mountain View, CA, USA
+                          - generic [ref=e263]: ; Ann Arbor, MI, USA
+                          - generic [ref=e264]: ; +17 more
+                        - generic [ref=e265]:
+                          - generic [ref=e266]: bar_chart
+                          - generic [ref=e267]: Intern & Apprentice
+                      - generic [ref=e268]:
+                        - heading "Minimum qualifications" [level=4] [ref=e269]
+                        - list [ref=e270]:
+                          - listitem [ref=e271]: Currently enrolled in a Bachelor's or Master’s degree in Computer Science, Linguistics, Statistics, Biostatistics, Applied Mathematics, Operations Research, Economics, Natural Sciences, or related technical field.
+                          - listitem [ref=e272]: Experience in one area of computer science (e.g., Natural Language Understanding, Human Computer Interactions, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Quantum Information Science, Data Science, Software Engineering, or similar areas).
+                      - generic [ref=e274]:
+                        - generic [ref=e276]: Learn more
+                        - link "Learn more about Student Researcher, BS/MS, Winter/Summer 2026" [ref=e277] [cursor=pointer]:
+                          - /url: jobs/results/140245524367188678-student-researcher-bsms-wintersummer-2026?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Student Researcher, BS/MS, Winter/Summer 2026" [ref=e282] [cursor=pointer]:
+                      - generic [ref=e283]: share
+                - listitem [ref=e284]:
+                  - generic [ref=e286]:
+                    - generic [ref=e288]:
+                      - heading "Student Researcher, PhD, Winter/Summer 2026" [level=3] [ref=e291]
+                      - generic [ref=e293]:
+                        - generic [ref=e294]:
+                          - generic [ref=e295]: corporate_fare
+                          - generic [ref=e296]: Google
+                        - generic [ref=e297]:
+                          - generic [ref=e298]: place
+                          - generic [ref=e299]: Mountain View, CA, USA
+                          - generic [ref=e300]: ; Ann Arbor, MI, USA
+                          - generic [ref=e301]: ; +17 more
+                        - generic [ref=e302]:
+                          - generic [ref=e303]: bar_chart
+                          - generic [ref=e304]: Intern & Apprentice
+                      - generic [ref=e305]:
+                        - heading "Minimum qualifications" [level=4] [ref=e306]
+                        - list [ref=e307]:
+                          - listitem [ref=e308]: Currently enrolled in a PhD degree in Computer Science, Linguistics, Statistics, Biostatistics, Applied Mathematics, Operations Research, Economics, Natural Sciences, or related technical field.
+                          - listitem [ref=e309]: Experience in one area of computer science (e.g., Natural Language Understanding, Human Computer Interactions, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Quantum Information Science, Data Science, Software Engineering, or similar areas).
+                      - generic [ref=e311]:
+                        - generic [ref=e313]: Learn more
+                        - link "Learn more about Student Researcher, PhD, Winter/Summer 2026" [ref=e314] [cursor=pointer]:
+                          - /url: jobs/results/138166347879064262-student-researcher-phd-wintersummer-2026?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Student Researcher, PhD, Winter/Summer 2026" [ref=e319] [cursor=pointer]:
+                      - generic [ref=e320]: share
+                - listitem [ref=e321]:
+                  - generic [ref=e323]:
+                    - generic [ref=e325]:
+                      - heading "Hardware Architecture Modeling Engineer, PhD, University Graduate" [level=3] [ref=e328]
+                      - generic [ref=e330]:
+                        - generic [ref=e331]:
+                          - generic [ref=e332]: corporate_fare
+                          - generic [ref=e333]: Google
+                        - generic [ref=e334]:
+                          - generic [ref=e335]: place
+                          - generic [ref=e336]: Sunnyvale, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e340]:
+                          - generic [ref=e344]: bar_chart
+                          - generic [ref=e345]: Mid
+                      - generic [ref=e346]:
+                        - heading "Minimum qualifications" [level=4] [ref=e347]
+                        - list [ref=e348]:
+                          - listitem [ref=e349]: PhD degree in Electrical Engineering, Computer Engineering, Computer Science, a related field, or equivalent practical experience
+                          - listitem [ref=e350]: Experience in any one domain of computer engineering or silicon engineering through internships, academic research, or publications (e.g., co-design, digital design, architecture).
+                          - listitem [ref=e351]: Experience programming in C++.
+                      - generic [ref=e353]:
+                        - generic [ref=e355]: Learn more
+                        - link "Learn more about Hardware Architecture Modeling Engineer, PhD, University Graduate" [ref=e356] [cursor=pointer]:
+                          - /url: jobs/results/74084359799218886-hardware-architecture-modeling-engineer-phd-university-graduate?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Hardware Architecture Modeling Engineer, PhD, University Graduate" [ref=e361] [cursor=pointer]:
+                      - generic [ref=e362]: share
+                - listitem [ref=e363]:
+                  - generic [ref=e365]:
+                    - generic [ref=e367]:
+                      - heading "RTL Design Engineer, TPU and ML, PhD Graduate" [level=3] [ref=e370]
+                      - generic [ref=e372]:
+                        - generic [ref=e373]:
+                          - generic [ref=e374]: corporate_fare
+                          - generic [ref=e375]: Google
+                        - generic [ref=e376]:
+                          - generic [ref=e377]: place
+                          - generic [ref=e378]: Sunnyvale, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e382]:
+                          - generic [ref=e386]: bar_chart
+                          - generic [ref=e387]: Mid
+                      - generic [ref=e388]:
+                        - heading "Minimum qualifications" [level=4] [ref=e389]
+                        - list [ref=e390]:
+                          - listitem [ref=e391]:
+                            - generic [ref=e393]: PhD in Electrical Engineering, Computer Engineering, Computer Science, a related field, or equivalent practical experience.
+                          - listitem [ref=e394]: Experience in any one domain of silicon engineering through internships, academic research, or publications (e.g., digital design basics, including synchronous and asynchronous logic, state machines, or bus protocols).
+                          - listitem [ref=e395]: Experience in a scripting language such as Python or Perl.
+                          - listitem [ref=e396]: Experience in Verilog or SystemVerilog.
+                      - generic [ref=e398]:
+                        - generic [ref=e400]: Learn more
+                        - link "Learn more about RTL Design Engineer, TPU and ML, PhD Graduate" [ref=e401] [cursor=pointer]:
+                          - /url: jobs/results/82341646221353670-rtl-design-engineer-tpu-and-ml-phd-graduate?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share RTL Design Engineer, TPU and ML, PhD Graduate" [ref=e406] [cursor=pointer]:
+                      - generic [ref=e407]: share
+                - listitem [ref=e408]:
+                  - generic [ref=e410]:
+                    - generic [ref=e412]:
+                      - heading "Network Operations Residency Program, University Graduate, August 2026 Start" [level=3] [ref=e415]
+                      - generic [ref=e417]:
+                        - generic [ref=e418]:
+                          - generic [ref=e419]: corporate_fare
+                          - generic [ref=e420]: Google
+                        - generic [ref=e421]:
+                          - generic [ref=e422]: place
+                          - generic [ref=e423]: Atlanta, GA, USA
+                        - img "Early, Learn more about experience filters." [ref=e427]:
+                          - generic [ref=e431]: bar_chart
+                          - generic [ref=e432]: Early
+                      - generic [ref=e433]:
+                        - heading "Minimum qualifications" [level=4] [ref=e434]
+                        - list [ref=e435]:
+                          - listitem [ref=e436]: Bachelor's degree in Telecommunications, Electrical Engineering, Computer Engineering, or a related field, or equivalent practical experience.
+                          - listitem [ref=e437]: Internship experience in network engineering, data center, system administration, or another technical capacity.
+                          - listitem [ref=e438]: Experience working with networking fundamentals (e.g., TCP/IP, ARP, IP Tables, routing) or Unix systems administration, including coding (e.g., Java, C/C++) or scripting in shell or Python.
+                      - generic [ref=e440]:
+                        - generic [ref=e442]: Learn more
+                        - link "Learn more about Network Operations Residency Program, University Graduate, August 2026 Start" [ref=e443] [cursor=pointer]:
+                          - /url: jobs/results/118981017938600646-network-operations-residency-program-university-graduate-august-2026-start?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Network Operations Residency Program, University Graduate, August 2026 Start" [ref=e448] [cursor=pointer]:
+                      - generic [ref=e449]: share
+              - status [ref=e455]:
+                - generic [ref=e456]: Showing 1 to 5 of 5 rows
+                - generic [ref=e457]: 1‑5 of 5
+        - contentinfo [ref=e459]:
+          - generic [ref=e461]:
+            - generic [ref=e462]:
+              - heading "Follow Life at Google on" [level=2] [ref=e463]
+              - list [ref=e464]:
+                - listitem [ref=e465]:
+                  - link "View our Instagram feed (Opens in a new tab)" [ref=e466] [cursor=pointer]:
+                    - /url: https://www.instagram.com/lifeatgoogle/
+                - listitem [ref=e471]:
+                  - link "View our Twitter feed (Opens in a new tab)" [ref=e472] [cursor=pointer]:
+                    - /url: https://twitter.com/lifeatgoogle
+                - listitem [ref=e475]:
+                  - link "View our YouTube channel (Opens in a new tab)" [ref=e476] [cursor=pointer]:
+                    - /url: https://www.youtube.com/lifeatgoogle
+                - listitem [ref=e479]:
+                  - link "View LinkedIn (Opens in a new tab)" [ref=e480] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/google/jobs/
+                - listitem [ref=e483]:
+                  - link "View our Facebook (Opens in a new tab)" [ref=e484] [cursor=pointer]:
+                    - /url: https://www.facebook.com/lifeatgoogle/
+            - generic [ref=e489]:
+              - generic [ref=e490]:
+                - heading "More about us" [level=2] [ref=e491]
+                - generic [ref=e492]:
+                  - link "About us (opens in a new tab)" [ref=e493] [cursor=pointer]:
+                    - /url: https://about.google/
+                    - text: About us
+                    - generic [ref=e495]: open_in_new
+                  - link "Contact us (opens in a new tab)" [ref=e496] [cursor=pointer]:
+                    - /url: https://about.google/contact-google/
+                    - text: Contact us
+                    - generic [ref=e498]: open_in_new
+                  - link "Press (opens in a new tab)" [ref=e499] [cursor=pointer]:
+                    - /url: https://blog.google/press/
+                    - text: Press
+                    - generic [ref=e501]: open_in_new
+              - generic [ref=e502]:
+                - heading "Related Information" [level=2] [ref=e503]
+                - generic [ref=e504]:
+                  - link "Investor relations (opens in a new tab)" [ref=e505] [cursor=pointer]:
+                    - /url: https://abc.xyz/investor/
+                    - text: Investor relations
+                    - generic [ref=e507]: open_in_new
+                  - link "Blog (opens in a new tab)" [ref=e508] [cursor=pointer]:
+                    - /url: https://blog.google/
+                    - text: Blog
+                    - generic [ref=e510]: open_in_new
+              - generic [ref=e511]:
+                - heading "Equal Opportunity" [level=2] [ref=e512]
+                - paragraph [ref=e513]:
+                  - text: Google is proud to be an equal opportunity and affirmative action employer. We are committed to building a workforce that is representative of the users we serve, creating a culture of belonging, and providing an equal employment opportunity regardless of race, creed, color, religion, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition (including breastfeeding), expecting or parents-to-be, criminal histories consistent with legal requirements, or any other basis protected by law. See also
+                  - link "Google's EEO Policy" [ref=e514] [cursor=pointer]:
+                    - /url: https://www.google.com/about/careers/applications/eeo/
+                  - text: ","
+                  - 'link "Know your rights: workplace discrimination is illegal" [ref=e515] [cursor=pointer]':
+                    - /url: https://careers.google.com/jobs/dist/legal/EEOC_KnowYourRights_10_20.pdf
+                  - text: ","
+                  - link "Belonging at Google" [ref=e516] [cursor=pointer]:
+                    - /url: https://about.google/belonging/
+                  - text: ", and"
+                  - link "How we hire" [ref=e517] [cursor=pointer]:
+                    - /url: https://careers.google.com/how-we-hire/
+                  - text: .
+            - generic [ref=e518]:
+              - link "google.com (Opens in a new tab)" [ref=e520] [cursor=pointer]:
+                - /url: https://www.google.com/
+                - img "Google" [ref=e521]
+              - generic [ref=e522]:
+                - generic [ref=e523]:
+                  - link "Privacy (opens in a new tab)" [ref=e525] [cursor=pointer]:
+                    - /url: https://policies.google.com/privacy
+                    - text: Privacy
+                    - generic [ref=e527]: open_in_new
+                  - link "Applicant & Candidate Privacy (opens in a new tab)" [ref=e529] [cursor=pointer]:
+                    - /url: ./privacy-policy
+                    - text: Applicant & Candidate Privacy
+                    - generic [ref=e531]: open_in_new
+                  - link "Terms (opens in a new tab)" [ref=e533] [cursor=pointer]:
+                    - /url: https://policies.google.com/terms
+                    - text: Terms
+                    - generic [ref=e535]: open_in_new
+                - generic [ref=e536]:
+                  - link "Help (opens in a new tab)" [ref=e537] [cursor=pointer]:
+                    - /url: https://support.google.com/googlecareers/#topic=6095159
+                    - generic [ref=e539]: help
+                    - text: Help
+                    - generic [ref=e541]: open_in_new
+                  - combobox "Select language" [ref=e545] [cursor=pointer]:
+                    - generic: language
+                    - generic:
+                      - generic: English
+                    - generic:
+                      - img

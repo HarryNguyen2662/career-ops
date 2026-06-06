@@ -1,0 +1,595 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Pinterest Careers Careers" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "Pinterest Careers" [ref=e8]
+        - paragraph [ref=e9]: Careers
+      - navigation [ref=e11]:
+        - list [ref=e13]:
+          - listitem [ref=e14]:
+            - link "Jobs" [ref=e15] [cursor=pointer]:
+              - /url: /jobs/
+          - listitem [ref=e16]:
+            - button "Locations" [ref=e17] [cursor=pointer]
+          - listitem [ref=e18]:
+            - button "Departments" [ref=e19] [cursor=pointer]
+          - listitem [ref=e20]:
+            - button "Early Career" [ref=e21] [cursor=pointer]
+          - listitem [ref=e22]:
+            - button "Inside Pinterest" [ref=e23] [cursor=pointer]
+          - listitem [ref=e24]:
+            - button "Candidate Hub" [ref=e25] [cursor=pointer]
+          - listitem [ref=e26]:
+            - link [ref=e27] [cursor=pointer]:
+              - /url: /jobs/saved-jobs/
+              - img [ref=e28]
+              - status [ref=e30]: Saved Jobs
+          - listitem [ref=e31]:
+            - link "Join Talent Community" [ref=e32] [cursor=pointer]:
+              - /url: /join/
+  - button "[Open search bar]" [ref=e33] [cursor=pointer]:
+    - generic [ref=e34]: "[Open search bar]"
+    - img [ref=e35]
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - generic [ref=e41]: "Keywords:"
+      - searchbox "Keywords:" [ref=e43]
+    - generic [ref=e44]:
+      - generic [ref=e45]: "Location:"
+      - combobox "Location:" [ref=e47]:
+        - option "Locations" [selected]
+        - option "Amsterdam"
+        - option "Chicago"
+        - option "Dublin"
+        - option "London"
+        - option "Los Angeles"
+        - option "New York"
+        - option "Palo Alo"
+        - option "Palo Alto"
+        - option "Remote"
+        - option "San Francisco"
+        - option "San Fransisco"
+        - option "São Paulo"
+        - option "Seattle"
+        - option "Singapore"
+        - option "Sydney"
+        - option "Tokyo"
+        - option "Toronto"
+        - option "US"
+    - button "Search" [ref=e49] [cursor=pointer]:
+      - generic [ref=e50]: Search
+      - img [ref=e51]
+  - main [ref=e53]:
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - button "Save Software Engineer II, Backend" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+          - generic [ref=e62]: Save
+        - heading "Software Engineer II, Backend" [level=1] [ref=e63]
+        - list [ref=e64]:
+          - listitem [ref=e65]:
+            - link "San Francisco" [ref=e66] [cursor=pointer]:
+              - /url: /jobs/?location=San%20Francisco
+            - text: /
+            - link "Seattle" [ref=e67] [cursor=pointer]:
+              - /url: /jobs/?location=Seattle
+          - listitem [ref=e68]:
+            - link "Engineering" [ref=e69] [cursor=pointer]:
+              - /url: /departments/engineering/
+          - listitem [ref=e70]: Regular
+      - img "a screenshot of a social media post" [ref=e73]
+    - generic [ref=e76]:
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - paragraph [ref=e80]: Share
+          - list [ref=e81]:
+            - listitem [ref=e82]:
+              - link "Facebook" [ref=e83] [cursor=pointer]:
+                - /url: https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.pinterestcareers.com%2fjobs%2f4813946%2fsoftware-engineer-ii-backend%2f
+                - img [ref=e84]
+            - listitem [ref=e86]:
+              - link "Twitter" [ref=e87] [cursor=pointer]:
+                - /url: https://twitter.com/intent/tweet?url=https%3a%2f%2fwww.pinterestcareers.com%2fjobs%2f4813946%2fsoftware-engineer-ii-backend%2f&text=Software%20Engineer%20II%2C%20Backend&via=pinterest
+                - img [ref=e88]
+            - listitem [ref=e90]:
+              - link "LinkedIn" [ref=e91] [cursor=pointer]:
+                - /url: https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fwww.pinterestcareers.com%2fjobs%2f4813946%2fsoftware-engineer-ii-backend%2f
+                - img [ref=e92]
+        - link "Apply Now" [ref=e94] [cursor=pointer]:
+          - /url: "#apply-now"
+      - article [ref=e95]:
+        - heading "Description" [level=2] [ref=e96]
+        - generic [ref=e97]:
+          - paragraph [ref=e98]:
+            - strong [ref=e99]: "About Pinterest:"
+          - paragraph [ref=e100]: Millions of people around the world come to our platform to find creative ideas, dream about new possibilities and plan for memories that will last a lifetime. At Pinterest, we’re on a mission to bring everyone the inspiration to create a life they love, and that starts with the people behind the product.
+          - paragraph [ref=e101]:
+            - text: Discover a career where you ignite innovation for millions, transform passion into growth opportunities, celebrate each other’s unique experiences and embrace the
+            - link "flexibility" [ref=e102] [cursor=pointer]:
+              - /url: https://www.pinterestcareers.com/our-life/pinflex/
+            - text: to do your best work. Creating a career you love? It’s Possible.
+          - paragraph [ref=e103]: At Pinterest, AI isn't just a feature, it's a powerful partner that augments our creativity and amplifies our impact, and we’re looking for candidates who are excited to be a part of that. To get a complete picture of your experience and abilities, we’ll explore your foundational skills and how you collaborate with AI.
+          - paragraph [ref=e104]:
+            - text: Through our interview process, what matters most is that you can always explain your approach, showing us not just what you know, but how you think. You can read more about our AI interview philosophy and how we use AI in our recruiting process
+            - link "here" [ref=e105] [cursor=pointer]:
+              - /url: https://www.pinterestcareers.com/our-philosophy-on-ai-in-hiring/
+            - text: .
+        - paragraph [ref=e106]: We are looking for inquisitive, well-rounded Backend engineers to join our Core, Monetization, and Tech Foundations engineering teams. Working closely with product managers, designers, data scientists, and backend engineers, you’ll play an important role in enabling the newest technologies and experiences as we scale and evolve. You will build robust frameworks & features. You will accelerate velocity for one of the world’s largest public cloud workloads. You will empower both developers and Pinners alike. You’ll have the opportunity to find creative solutions to thought-provoking problems. Even better, because we covet the kind of courageous thinking that’s required in order for big bets and smart risks to pay off, you’ll be invited to create and drive new initiatives, seeing them from inception through to technical design, implementation, and release.
+        - paragraph [ref=e107]:
+          - strong [ref=e108]: "What you’ll do:"
+        - list [ref=e109]:
+          - listitem [ref=e110]: • Build out the backend for Pinner-facing features to power the future of inspiration on Pinterest
+          - listitem [ref=e111]: • Contribute to and lead each step of the product development process, from ideation to implementation to release; from rapidly prototyping, running A/B tests, to architecting and building solutions that can scale to support millions of users
+          - listitem [ref=e112]: • Partner with design, product, and backend teams to build end-to-end functionality
+          - listitem [ref=e113]: • Put on your Pinner hat to suggest new product ideas and features
+          - listitem [ref=e114]: • Employ automated testing to build features with a high degree of technical quality, taking responsibility for the components and features you develop
+          - listitem [ref=e115]: • Grow as an engineer by working with world-class peers on varied and high impact projects
+          - listitem [ref=e116]: • Design, develop, and operate large scale, distributed systems and networks
+          - listitem [ref=e117]: • Work with Engineering customers to understand new requirements and address them in a scalable and efficient manner
+          - listitem [ref=e118]: • Actively work to improve the developer process and experience in all phases from coding to operation
+          - listitem [ref=e119]: • Use AI to accelerate team execution, system design, and decision-making, applying sound judgment to validate outputs and ensure correctness and quality.
+          - listitem [ref=e120]: • Use AI for faster execution (draft, prototype, outline)
+          - listitem [ref=e121]: • explore more options (iterate, compare approaches)
+          - listitem [ref=e122]: • synthesize information (summarize, distill themes)
+          - listitem [ref=e123]: • automate repeatable tasks (documentation, reporting, QA checks)
+        - paragraph [ref=e124]:
+          - strong [ref=e125]: "What we’re looking for:"
+        - list [ref=e126]:
+          - listitem [ref=e127]: • BS (or higher) degree in Computer Science, or a related field.
+          - listitem [ref=e128]: • 2+ years of industry backend development experience, building consumer or business facing products
+          - listitem [ref=e129]: • Proficiency in common backend tech stacks for RESTful API, storage, caching and data processing
+          - listitem [ref=e130]: • Experience building & operating large scale distributed systems and/or networks. Bonus points if you enjoy deploying and operating large scale workloads on a public cloud footprint
+          - listitem [ref=e131]: • Experience in Python, Java, C++, or Go or another language and a willingness to learn
+          - listitem [ref=e132]: • Experience in following best practices in writing reliable and maintainable code that may be used by many other engineers
+          - listitem [ref=e133]: • Ability to keep up-to-date with new technologies to understand what should be incorporated
+          - listitem [ref=e134]: "• AI expectations:"
+          - list [ref=e135]:
+            - listitem [ref=e136]: • Demonstrated ability to use AI to improve speed and quality in your day-to-day workflow for relevant outputs.
+            - listitem [ref=e137]: • Strong track record of critical evaluation and verification of AI-assisted work (e.g., testing, source-checking, data validation, peer review).
+            - listitem [ref=e138]: "• High integrity and ownership: you protect sensitive data, avoid over-reliance on AI, and remain accountable for final decisions and deliverables."
+            - listitem [ref=e139]: • Example:“Demonstrated experience using AI to accelerate customer/data analysis, with a clear approach to validating accuracy and quality.”
+        - paragraph [ref=e140]:
+          - strong [ref=e141]: Relocation Statement
+          - text: ":"
+        - list [ref=e142]:
+          - listitem [ref=e143]:
+            - text: • This position is not eligible for relocation assistance. Visit our
+            - link "PinFlex" [ref=e144] [cursor=pointer]:
+              - /url: https://www.pinterestcareers.com/pinflex/
+            - text: page to learn more about our working model.
+        - paragraph [ref=e145]:
+          - strong [ref=e146]: In-Office Requirement Statement
+          - text: ":"
+        - list [ref=e147]:
+          - listitem [ref=e148]: • We recognize that the ideal environment for work is situational and may differ across departments. What this looks like day-to-day can vary based on the needs of each organization or role. This role will need to be in the office for in-person collaboration 1-2 times every 6-months and therefore can be situated anywhere in the country.
+        - paragraph [ref=e149]: "#LI-CL5"
+        - paragraph [ref=e150]: "#LI-REMOTE"
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - paragraph [ref=e154]: At Pinterest we believe the workplace should be equitable, inclusive, and inspiring for every employee. In an effort to provide greater transparency, we are sharing the base salary range for this position. The position is also eligible for equity. Final salary is based on a number of factors including location, travel, relevant prior experience, or particular skills and expertise.
+            - paragraph [ref=e155]:
+              - emphasis [ref=e156]:
+                - text: Information regarding the culture at Pinterest and benefits available for this position can be found
+                - link "here" [ref=e157] [cursor=pointer]:
+                  - /url: https://www.pinterestcareers.com/pinterest-life/
+                - text: .
+          - generic [ref=e158]: US based applicants only
+          - generic [ref=e159]: $118,938—$244,872 USD
+        - generic [ref=e160]:
+          - paragraph [ref=e161]:
+            - strong [ref=e162]: "Our Commitment to Inclusion:"
+          - generic [ref=e163]:
+            - text: Pinterest is an equal opportunity employer and makes employment decisions on the basis of merit. We want to have the best qualified people in every job. All qualified applicants will receive consideration for employment without regard to race, color, ancestry, national origin, religion or religious creed, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, age, marital status, status as a protected veteran, physical or mental disability, medical condition, genetic information or characteristics (or those of a family member) or any other consideration made unlawful by applicable federal, state or local laws. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. If you require a medical or religious accommodation during the job application process, please complete
+            - link "this form" [ref=e164] [cursor=pointer]:
+              - /url: https://forms.gle/sS24D4WboEKUZMQK6
+            - text: for support.
+        - iframe [ref=e170]:
+          - main [ref=f62e2]:
+            - generic [ref=f62e3]:
+              - img "Pinterest Logo" [ref=f62e5]
+              - separator [ref=f62e6]
+              - generic [ref=f62e7]:
+                - generic [ref=f62e9]:
+                  - heading "Apply for this job" [level=2] [ref=f62e11]
+                  - generic [ref=f62e12]:
+                    - paragraph [ref=f62e14]: "*"
+                    - paragraph [ref=f62e15]: indicates a required field
+                - generic [ref=f62e16]:
+                  - generic [ref=f62e17]:
+                    - generic [ref=f62e20]:
+                      - generic [ref=f62e21]: First Name*
+                      - textbox "First Name" [ref=f62e22]
+                    - generic [ref=f62e25]:
+                      - generic [ref=f62e26]: Last Name*
+                      - textbox "Last Name" [ref=f62e27]
+                    - generic [ref=f62e30]:
+                      - generic [ref=f62e31]: Email*
+                      - textbox "Email" [ref=f62e32]
+                    - group "Phone" [ref=f62e34]:
+                      - generic [ref=f62e35]: Phone
+                      - generic [ref=f62e38]:
+                        - generic [ref=f62e39]: Country
+                        - generic [ref=f62e40]:
+                          - log [ref=f62e42]
+                          - generic [ref=f62e44]:
+                            - combobox "Country" [ref=f62e47]
+                            - button "Toggle flyout" [ref=f62e49] [cursor=pointer]:
+                              - img [ref=f62e50]
+                      - generic [ref=f62e54]:
+                        - generic [ref=f62e55]: Phone
+                        - textbox "Phone" [ref=f62e56]
+                    - group "Resume/CV*" [ref=f62e58]:
+                      - generic [ref=f62e59]: Resume/CV*
+                      - generic [ref=f62e61]:
+                        - generic [ref=f62e63]:
+                          - button "Attach" [ref=f62e64] [cursor=pointer]
+                          - generic [ref=f62e65]: Attach
+                          - button "Attach" [ref=f62e66]
+                        - button "Dropbox" [ref=f62e68] [cursor=pointer]
+                        - generic [ref=f62e70]:
+                          - button "Enter manually" [ref=f62e71] [cursor=pointer]
+                          - generic [ref=f62e72]: Enter manually
+                        - paragraph [ref=f62e73]: "Accepted file types: pdf, doc, docx, txt, rtf"
+                    - group "Cover Letter" [ref=f62e75]:
+                      - generic [ref=f62e76]: Cover Letter
+                      - generic [ref=f62e78]:
+                        - generic [ref=f62e80]:
+                          - button "Attach" [ref=f62e81] [cursor=pointer]
+                          - generic [ref=f62e82]: Attach
+                          - button "Attach" [ref=f62e83]
+                        - button "Dropbox" [ref=f62e85] [cursor=pointer]
+                        - generic [ref=f62e87]:
+                          - button "Enter manually" [ref=f62e88] [cursor=pointer]
+                          - generic [ref=f62e89]: Enter manually
+                        - paragraph [ref=f62e90]: "Accepted file types: pdf, doc, docx, txt, rtf"
+                  - generic [ref=f62e91]:
+                    - separator [ref=f62e92]
+                    - generic [ref=f62e95]:
+                      - generic [ref=f62e96]: LinkedIn Profile
+                      - textbox "LinkedIn Profile" [ref=f62e97]
+                    - generic [ref=f62e100]:
+                      - generic [ref=f62e101]: Website
+                      - textbox "Website" [ref=f62e102]
+                    - generic [ref=f62e105]:
+                      - generic [ref=f62e106]: "Work Experience: Current/Previous Employer"
+                      - 'textbox "Work Experience: Current/Previous Employer" [ref=f62e107]'
+                    - generic [ref=f62e110]:
+                      - generic [ref=f62e111]: "Education: Last University Attended"
+                      - 'textbox "Education: Last University Attended" [ref=f62e112]'
+                    - generic [ref=f62e115]:
+                      - generic [ref=f62e116]: How did you first hear about this opportunity?
+                      - generic [ref=f62e117]:
+                        - log [ref=f62e119]
+                        - generic [ref=f62e121]:
+                          - generic [ref=f62e122]:
+                            - generic [ref=f62e123]: Select...
+                            - combobox "How did you first hear about this opportunity?" [ref=f62e125]
+                          - button "Toggle flyout" [ref=f62e127] [cursor=pointer]:
+                            - img [ref=f62e128]
+                    - generic [ref=f62e132]:
+                      - generic [ref=f62e133]: Are you currently authorized to work for Pinterest in the country in which you are applying for a position? *
+                      - generic [ref=f62e134]:
+                        - log [ref=f62e136]
+                        - generic [ref=f62e138]:
+                          - generic [ref=f62e139]:
+                            - generic [ref=f62e140]: Select...
+                            - combobox "Are you currently authorized to work for Pinterest in the country in which you are applying for a position?" [ref=f62e142]
+                          - button "Toggle flyout" [ref=f62e144] [cursor=pointer]:
+                            - img [ref=f62e145]
+                        - textbox
+                    - generic [ref=f62e149]:
+                      - generic [ref=f62e150]: What U.S State do you currently reside in? *
+                      - generic [ref=f62e151]:
+                        - log [ref=f62e153]
+                        - generic [ref=f62e155]:
+                          - generic [ref=f62e156]:
+                            - generic [ref=f62e157]: Select...
+                            - combobox "What U.S State do you currently reside in?" [ref=f62e159]
+                          - button "Toggle flyout" [ref=f62e161] [cursor=pointer]:
+                            - img [ref=f62e162]
+                        - textbox
+                    - generic [ref=f62e166]:
+                      - generic [ref=f62e167]: Will you require our assistance with work authorization now or in the future?*
+                      - generic [ref=f62e168]:
+                        - log [ref=f62e170]
+                        - generic [ref=f62e172]:
+                          - generic [ref=f62e173]:
+                            - generic [ref=f62e174]: Select...
+                            - combobox "Will you require our assistance with work authorization now or in the future?" [ref=f62e176]
+                          - button "Toggle flyout" [ref=f62e178] [cursor=pointer]:
+                            - img [ref=f62e179]
+                        - textbox
+                  - separator [ref=f62e181]
+                  - generic [ref=f62e182]:
+                    - heading "US Standard Question Set w/ OFCCP" [level=3] [ref=f62e183]
+                    - generic [ref=f62e185]:
+                      - paragraph [ref=f62e186]: Individuals seeking employment at this company are considered without regards to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, gender identity, sexual orientation, or any other protected characteristic. You are being given the opportunity to provide the following information in order to help us better understand the demographics of our applicant pools.
+                      - paragraph [ref=f62e187]: Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a separate confidential file that will only be accessed by those working on inclusion efforts at Pinterest.
+                      - paragraph [ref=f62e188]
+                      - heading "We’re looking for all kinds of people." [level=4] [ref=f62e189]:
+                        - strong [ref=f62e190]: We’re looking for all kinds of people.
+                      - paragraph [ref=f62e191]: To build an app that’s used and loved by people all around the world, we need a team with all kinds of different perspectives, experiences and backgrounds.
+                      - paragraph [ref=f62e192]: "To put it legally: Pinterest is an equal opportunity employer and makes employment decisions on the basis of merit. We want to have the best qualified people in every job. Pinterest policy prohibits unlawful discrimination based on race, color, religion or religious creed, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, age, marital status, status as a protected veteran, physical or mental disability, medical condition, genetic information or characteristics (or those of a family member), or any other consideration made unlawful by applicable federal, state, or local laws. It also prohibits discrimination based on a perception that anyone has any of those characteristics, or is associated with a person who has or is perceived as having any of those characteristics. All such discrimination is unlawful. Pinterest is committed to compliance with all applicable laws providing equal opportunity employment opportunities. This commitment applies to all persons involved in the operations of Pinterest and prohibits unlawful discrimination by any employee of Pinterest."
+                      - paragraph [ref=f62e193]:
+                        - generic [ref=f62e194]:
+                          - text: Pinterest is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If you require a medical or religious accommodation during the job application process, please complete
+                          - link "this form" [ref=f62e195] [cursor=pointer]:
+                            - /url: https://forms.gle/sS24D4WboEKUZMQK6
+                          - text: for support.
+                      - paragraph [ref=f62e196]: Pinterest will consider qualified applicants with arrest and conviction records for positions in accordance with the San Francisco Fair Chance Ordinance, the Los Angeles Fair Chance Ordinance, and other applicable state or local laws.
+                      - paragraph [ref=f62e197]:
+                        - text: Pinterest also participates in the E-Verify program in certain locations, as required by law. See
+                        - link "https://www.e-verify.gov/sites/default/files/everify/posters/EVerifyParticipationPoster.pdf" [ref=f62e198] [cursor=pointer]:
+                          - /url: https://www.e-verify.gov/sites/default/files/everify/posters/EVerifyParticipationPoster.pdf
+                        - text: and
+                        - link "https://www.e-verify.gov/sites/default/files/everify/posters/IER_RighttoWorkPoster.pdf" [ref=f62e199] [cursor=pointer]:
+                          - /url: https://www.e-verify.gov/sites/default/files/everify/posters/IER_RighttoWorkPoster.pdf
+                      - paragraph [ref=f62e200]: "-----------------------------------------------------------------------------------------------------------------------------"
+                      - heading "Veteran Status" [level=3] [ref=f62e201]:
+                        - strong [ref=f62e202]: Veteran Status
+                      - paragraph [ref=f62e203]:
+                        - strong [ref=f62e204]: Why Are You Being Asked to Complete This Form?
+                      - paragraph [ref=f62e205]: This employer is a Government contractor subject to the Vietnam Era Veterans' Readjustment Assistance Act of 1974, as amended by the Jobs for Veterans Act of 2002, 38 U.S.C. 4212 (VEVRAA). VEVRAA requires Government contractors to take affirmative action to employ and advance in employment protected veterans. To help us measure the effectiveness of our outreach and recruitment efforts of veterans, we are asking you to tell us if you are a veteran covered by VEVRAA. Completing this form is completely voluntary, but we hope you fill it out. Any answer you give will be kept private and will not be used against you in any way.
+                      - paragraph [ref=f62e206]:
+                        - generic [ref=f62e207]:
+                          - text: For more information about this form or the equal employment obligations of Federal contractors, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at
+                          - link "www.dol.gov/ofccp" [ref=f62e208] [cursor=pointer]:
+                            - /url: http://www.dol.gov/ofccp
+                          - text: .
+                      - heading "How Do You Know If You Are a Veteran Protected by VEVRAA?" [level=4] [ref=f62e209]:
+                        - strong [ref=f62e210]: How Do You Know If You Are a Veteran Protected by VEVRAA?
+                      - paragraph [ref=f62e211]: Contrary to the name, VEVRAA does not just cover Vietnam Era veterans. It covers several categories of veterans from World War II, the Korean conflict, the Vietnam era, and the Persian Gulf War which is defined as occurring from August 2, 1990 to the present.
+                      - paragraph [ref=f62e212]:
+                        - text: If you believe you belong to any of the categories of protected veterans please indicate by checking the appropriate box below. The categories are defined on the next page and explained further in an “
+                        - link "Am I a Protected Veteran?" [ref=f62e213] [cursor=pointer]:
+                          - /url: https://www.dol.gov/agencies/ofccp/veterans/protected-veterans
+                        - text: ” infographic provided by OFCCP.
+                      - paragraph [ref=f62e214]
+                      - heading "Disability Status" [level=3] [ref=f62e215]:
+                        - strong [ref=f62e216]: Disability Status
+                      - paragraph [ref=f62e217]: Form CC-305
+                      - paragraph [ref=f62e218]: OMB Control Number 1250-0005
+                      - paragraph [ref=f62e219]: Expires 05/31/2026
+                      - paragraph [ref=f62e220]:
+                        - strong [ref=f62e221]: Why are you being asked to complete these questions?
+                      - paragraph [ref=f62e222]: We are a federal contractor or subcontractor required by law to provide equal employment
+                      - paragraph [ref=f62e223]:
+                        - text: opportunity to qualified people with disabilities. We are also required to measure our progress toward having at least 7% of our workforce be individuals with disabilities. To do this, we must ask applicants and employees if they have a disability or have ever had a disability. Because a person may become disabled at any time, we ask all of our employees to update their information at least every five years. Identifying yourself as an individual with a disability is voluntary, and we hope that you will choose to do so. Your answer will be maintained confidentially and not be seen by selecting officials or anyone else involved in making personnel decisions. Completing the form will not negatively impact you in any way, regardless of whether you have self-identified in the past. For more information about this form or the equal employment obligations of federal contractors under Section 503 of the Rehabilitation Act, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at
+                        - link "www.dol.gov/ofccp" [ref=f62e224] [cursor=pointer]:
+                          - /url: http://www.dol.gov/ofccp
+                        - text: .
+                      - paragraph [ref=f62e225]:
+                        - strong [ref=f62e226]: How do you know if you have a disability?
+                      - paragraph [ref=f62e227]: "You are considered to have a disability if you have a physical or mental impairment or medical condition that substantially limits a major life activity, or if you have a history or record of such an impairment or medical condition. Disabilities include, but are not limited to:"
+                      - list [ref=f62e228]:
+                        - listitem [ref=f62e229]: "Autoimmune disorder, for example: lupus, fibromyalgia, rheumatoid arthritis, or HIV/AIDS"
+                        - listitem [ref=f62e230]: "Nervous system condition, for example: migraine headaches, Parkinson’s disease, or Multiple sclerosis (MS)"
+                        - listitem [ref=f62e231]: "Psychiatric condition, for example: bipolar disorder, schizophrenia, PTSD, or major depression"
+                        - listitem [ref=f62e232]: "Gastrointestinal disorders, for example: Crohn's Disease, or irritable bowel syndrome"
+                        - listitem [ref=f62e233]: Depression or anxiety
+                        - listitem [ref=f62e234]: Blind or low vision
+                        - listitem [ref=f62e235]: Diabetes
+                        - listitem [ref=f62e236]: Cancer
+                        - listitem [ref=f62e237]: Epilepsy
+                        - listitem [ref=f62e238]: Cardiovascular or heart disease
+                        - listitem [ref=f62e239]: Celiac disease
+                        - listitem [ref=f62e240]: Intellectual disability
+                        - listitem [ref=f62e241]: Cerebral palsy
+                      - paragraph [ref=f62e242]:
+                        - generic [ref=f62e243]: "PUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete."
+                    - generic [ref=f62e245]:
+                      - generic [ref=f62e246]: Gender*
+                      - generic [ref=f62e247]:
+                        - log [ref=f62e249]
+                        - generic [ref=f62e251]:
+                          - generic [ref=f62e252]:
+                            - generic [ref=f62e253]: Select...
+                            - combobox "Gender" [ref=f62e255]
+                          - button "Toggle flyout" [ref=f62e257] [cursor=pointer]:
+                            - img [ref=f62e258]
+                        - textbox
+                    - generic [ref=f62e261]:
+                      - generic [ref=f62e262]: Race/Ethnicity*
+                      - generic [ref=f62e263]:
+                        - log [ref=f62e265]
+                        - generic [ref=f62e267]:
+                          - generic [ref=f62e268]:
+                            - generic [ref=f62e269]: Select...
+                            - combobox "Race/Ethnicity" [ref=f62e271]
+                          - button "Toggle flyout" [ref=f62e273] [cursor=pointer]:
+                            - img [ref=f62e274]
+                        - textbox
+                    - generic [ref=f62e277]:
+                      - generic [ref=f62e278]: Veteran Status*
+                      - generic [ref=f62e279]:
+                        - log [ref=f62e281]
+                        - generic [ref=f62e283]:
+                          - generic [ref=f62e284]:
+                            - generic [ref=f62e285]: Select...
+                            - combobox "Veteran Status" [ref=f62e287]
+                          - button "Toggle flyout" [ref=f62e289] [cursor=pointer]:
+                            - img [ref=f62e290]
+                        - textbox
+                    - generic [ref=f62e293]:
+                      - generic [ref=f62e294]: Disability Status*
+                      - generic [ref=f62e295]:
+                        - log [ref=f62e297]
+                        - generic [ref=f62e299]:
+                          - generic [ref=f62e300]:
+                            - generic [ref=f62e301]: Select...
+                            - combobox "Disability Status" [ref=f62e303]
+                          - button "Toggle flyout" [ref=f62e305] [cursor=pointer]:
+                            - img [ref=f62e306]
+                        - textbox
+                  - button "Submit application" [ref=f62e309] [cursor=pointer]
+    - generic [ref=e171]:
+      - generic [ref=e174]:
+        - img "a person with tattoos on their arm" [ref=e177]
+        - generic [ref=e178]:
+          - heading "Engineering" [level=2] [ref=e179]
+          - paragraph [ref=e180]:
+            - link "Learn more" [ref=e181] [cursor=pointer]:
+              - /url: /departments/engineering/
+      - generic [ref=e183]:
+        - generic [ref=e185]:
+          - heading "Similar Jobs" [level=2] [ref=e186]
+          - paragraph [ref=e187]: "Here is a selection of our related job opportunities:"
+        - generic [ref=e188]:
+          - generic [ref=e191]:
+            - generic [ref=e193]:
+              - heading "Sr. Machine Learning Engineer, Core Engineering" [level=3] [ref=e194]:
+                - link "Sr. Machine Learning Engineer, Core Engineering" [ref=e195] [cursor=pointer]:
+                  - /url: /jobs/6121464/sr-machine-learning-engineer-core-engineering/?gh_jid=6121464
+              - button "Save Sr. Machine Learning Engineer, Core Engineering" [ref=e197] [cursor=pointer]:
+                - img [ref=e198]
+                - generic [ref=e200]: Save
+              - list [ref=e201]:
+                - listitem [ref=e202]: San Francisco + 2 other locations
+                - listitem [ref=e203]: Engineering
+            - generic [ref=e205]:
+              - heading "Staff Software Engineer, Ads Measurement Signal" [level=3] [ref=e206]:
+                - link "Staff Software Engineer, Ads Measurement Signal" [ref=e207] [cursor=pointer]:
+                  - /url: /jobs/7494904/staff-software-engineer-ads-measurement-signal/?gh_jid=7494904
+              - button "Save Staff Software Engineer, Ads Measurement Signal" [ref=e209] [cursor=pointer]:
+                - img [ref=e210]
+                - generic [ref=e212]: Save
+              - list [ref=e213]:
+                - listitem [ref=e214]: Seattle + 1 other locations
+                - listitem [ref=e215]: Engineering
+            - generic [ref=e217]:
+              - heading "Sr. Engineering Manager, CAMP" [level=3] [ref=e218]:
+                - link "Sr. Engineering Manager, CAMP" [ref=e219] [cursor=pointer]:
+                  - /url: /jobs/7680804/sr-engineering-manager-camp/?gh_jid=7680804
+              - button "Save Sr. Engineering Manager, CAMP" [ref=e221] [cursor=pointer]:
+                - img [ref=e222]
+                - generic [ref=e224]: Save
+              - list [ref=e225]:
+                - listitem [ref=e226]: San Francisco + 2 other locations
+                - listitem [ref=e227]: Engineering
+          - link "See all jobs" [ref=e230] [cursor=pointer]:
+            - /url: /jobs/
+      - generic [ref=e232]:
+        - button "Back to top" [ref=e233] [cursor=pointer]:
+          - img [ref=e235]
+          - text: Back to top
+        - generic [ref=e239]:
+          - img "two women standing in a room" [ref=e241]
+          - generic [ref=e242]:
+            - heading "Join our talent community" [level=2] [ref=e243]
+            - paragraph [ref=e244]: Whether you apply to a role today or in the future, stay up-to-date on Pinterest news, events and job openings by signing up for our Talent Community. We’ll send you newsletters you won’t want to miss.
+            - link "Join" [ref=e245] [cursor=pointer]:
+              - /url: /join/
+  - contentinfo [ref=e246]:
+    - generic [ref=e248]:
+      - img "Pinterest Careers" [ref=e250]
+      - list [ref=e252]:
+        - listitem [ref=e253]:
+          - link "About Pinterest (Opens In new window)" [ref=e254] [cursor=pointer]:
+            - /url: https://newsroom.pinterest.com/company/
+            - text: About Pinterest
+        - listitem [ref=e255]:
+          - link "Help Center (Opens In new window)" [ref=e256] [cursor=pointer]:
+            - /url: https://help.pinterest.com/
+            - text: Help Center
+        - listitem [ref=e257]:
+          - link "Newsroom (Opens In new window)" [ref=e258] [cursor=pointer]:
+            - /url: https://newsroom.pinterest.com/
+            - text: Newsroom
+        - listitem [ref=e259]:
+          - link "Businesses (Opens In new window)" [ref=e260] [cursor=pointer]:
+            - /url: https://business.pinterest.com/
+            - text: Businesses
+        - listitem [ref=e261]:
+          - link "Developers (Opens In new window)" [ref=e262] [cursor=pointer]:
+            - /url: https://developers.pinterest.com/
+            - text: Developers
+        - listitem [ref=e263]:
+          - link "Investors (Opens In new window)" [ref=e264] [cursor=pointer]:
+            - /url: https://investor.pinterestinc.com/
+            - text: Investors
+        - listitem [ref=e265]:
+          - link "Engineering Blog (Opens In new window)" [ref=e266] [cursor=pointer]:
+            - /url: https://medium.com/pinterest-engineering
+            - text: Engineering Blog
+        - listitem [ref=e267]:
+          - link "Pinterest Labs (Opens In new window)" [ref=e268] [cursor=pointer]:
+            - /url: https://www.pinterestlabs.com/
+            - text: Pinterest Labs
+        - listitem [ref=e269]:
+          - link "Copyright & Trademark (Opens In new window)" [ref=e270] [cursor=pointer]:
+            - /url: https://policy.pinterest.com/copyright
+            - text: Copyright & Trademark
+        - listitem [ref=e271]:
+          - link "Terms of service (Opens In new window)" [ref=e272] [cursor=pointer]:
+            - /url: https://policy.pinterest.com/terms-of-service
+            - text: Terms of service
+        - listitem [ref=e273]:
+          - link "Privacy policy (Opens In new window)" [ref=e274] [cursor=pointer]:
+            - /url: https://policy.pinterest.com/privacy-policy
+            - text: Privacy policy
+        - listitem [ref=e275]:
+          - link "Personalized ads (Opens In new window)" [ref=e276] [cursor=pointer]:
+            - /url: https://help.pinterest.com/articles/personalized-ads-pinterest
+            - text: Personalized ads
+        - listitem [ref=e277]:
+          - link "AI Hiring Philosophy" [ref=e278] [cursor=pointer]:
+            - /url: /candidate-hub/our-philosophy-on-ai-in-hiring/
+        - listitem [ref=e279]:
+          - link "Candidate Privacy Notice" [ref=e280] [cursor=pointer]:
+            - /url: /pinterest-candidate-global-privacy-notice/
+        - listitem [ref=e281]:
+          - link "Protecting our job seekers" [ref=e282] [cursor=pointer]:
+            - /url: /a-note-to-protect-our-job-seekers/
+      - generic [ref=e283]:
+        - list [ref=e285]:
+          - listitem [ref=e286]:
+            - link "Twitter (Opens In new window)" [ref=e287] [cursor=pointer]:
+              - /url: https://twitter.com/pinterest
+              - img [ref=e288]
+          - listitem [ref=e290]:
+            - link "Facebook (Opens In new window)" [ref=e291] [cursor=pointer]:
+              - /url: https://www.facebook.com/pinterest/
+              - img [ref=e292]
+          - listitem [ref=e294]:
+            - link "LinkedIn (Opens In new window)" [ref=e295] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/pinterest/
+              - img [ref=e296]
+          - listitem [ref=e298]:
+            - link "Instagram (Opens In new window)" [ref=e299] [cursor=pointer]:
+              - /url: https://www.instagram.com/lifeatpinterest/
+              - img [ref=e300]
+        - list [ref=e303]:
+          - listitem [ref=e304]:
+            - link "Sitemap" [ref=e305] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e306]:
+            - text: /
+            - link "Cookie declaration (Opens In new window)" [ref=e307] [cursor=pointer]:
+              - /url: https://policy.pinterest.com/en-gb/cookies
+              - text: Cookie declaration
+        - generic [ref=e308]:
+          - strong [ref=e310]: We’re looking for all kinds of people.
+          - generic [ref=e311]:
+            - text: Pinterest is an equal opportunity employer and makes employment decisions on the basis of merit. We want to have the best qualified people in every job. All qualified applicants will receive consideration for employment without regard to race, color, ancestry, national origin, religion or religious creed, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, age, marital status, status as a protected veteran, physical or mental disability, medical condition, genetic information or characteristics (or those of a family member) or any other consideration made unlawful by applicable federal, state or local laws. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See the
+            - strong [ref=e312]:
+              - link "Pinterest EEO Policy Statement" [ref=e313] [cursor=pointer]:
+                - /url: /were-looking-for-all-kinds-of-people/
+            - text: for more information regarding U.S. roles. If you require medical or religious accommodation during the job application process, please complete
+            - link "this form" [ref=e314] [cursor=pointer]:
+              - /url: https://forms.gle/sS24D4WboEKUZMQK6
+            - text: for support.
+          - paragraph [ref=e315]: © Pinterest 2026, all rights reserved.
+          - paragraph [ref=e316]: Careers website powered by Happydance.
+  - generic [ref=e319]:
+    - paragraph [ref=e320]: We care about your privacy
+    - generic [ref=e321]:
+      - paragraph [ref=e322]: By clicking "Accept All", you agree to the storing of cookies on your device to give you the most optimal experience using our website. We may also use cookies to enhance performance, analyse site usage and to personalise your experience.
+      - generic [ref=e323]:
+        - link "Manage Preferences" [ref=e325] [cursor=pointer]:
+          - /url: /cookies/#cookieprefs
+        - generic [ref=e326]:
+          - button "Accept All" [ref=e327] [cursor=pointer]
+          - button "Essential Only" [ref=e328] [cursor=pointer]

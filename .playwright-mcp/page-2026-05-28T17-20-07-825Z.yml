@@ -1,0 +1,351 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "Back to jobs" [ref=e5] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/warp?gh_src=4qxzq4jk4us
+          - img [ref=e6]
+          - text: Back to jobs
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - heading "Software Engineer" [level=1] [ref=e11]
+            - generic [ref=e12]:
+              - img [ref=e13]
+              - generic [ref=e15]: Remote - New York - San Francisco
+          - button "Apply" [ref=e16] [cursor=pointer]
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - paragraph [ref=e19]:
+              - strong [ref=e20]: "Warp: We're Building the Platform for Agentic Development"
+            - paragraph [ref=e21]: "Warp began with the vision of reimagining one of the fundamental dev tools — the terminal — to make it more usable and powerful for all developers. As AI has advanced, Warp has evolved beyond its terminal roots into a full agentic development environment: a workbench for dispatching agents to code, deploy, and debug production software."
+            - paragraph [ref=e22]: "Today, we have two products: Warp, the agentic development environment born out of the terminal, and Oz, our orchestration platform for running hundreds of cloud agents in parallel. With both products, we’re creating the scaffolding for developers to build their own workflows for working with agents."
+            - paragraph [ref=e23]: In Warp, seamlessly switch between running commands, launching agents, and iterating on code with agents— eliminating the need to jump between a terminal and an IDE. It all works with our built-in SOTA agent or top agents like Claude Code, Codex, Gemini CLI, and OpenCode. In Oz, build custom agents that are triggered programmatically, tracked centrally, and are shared across full teams to run agents across organizations without compromising security or reliability. Continue cloud agent runs that were triggered by Oz locally in Warp or on the web with one click.
+            - paragraph [ref=e24]: With over 750k active developers at companies including Docker, Ramp, Peloton, and over half of the Fortune 500 and revenue that grew over 44x last year, Warp is one of the fastest-growing startups in the AI development space.
+            - paragraph [ref=e25]: "Our mission has remained the same even as AI has advanced: to empower developers to ship better software more quickly, freeing them to focus on the creative and rewarding aspects of their work. If you want to help define what development looks like in the agentic era at a company where your work reaches hundreds of thousands of engineers every day, we'd love to have you."
+          - generic [ref=e26]:
+            - paragraph [ref=e27]:
+              - strong [ref=e28]: As a Software Engineer, you will…
+            - list [ref=e29]:
+              - listitem [ref=e30]: Participate in all aspects of software development activities, including design, coding, code review, unit/integration testing, bug fixing, and code/API documentation.
+              - listitem [ref=e31]: Collaborate closely with the rest of engineering and other stakeholders from our growth, marketing, and product teams to plan features and build a high-quality product that elevates the productivity of all developers.
+              - listitem [ref=e32]: Improve Warp's performance and reliability by building new features or polishing existing product parts.
+              - listitem [ref=e33]: Prototype ideas and concepts to get quick feedback from internal and external users
+              - listitem [ref=e34]: Work across the entire technical stack to ensure users have the most efficient and delightful Warp experience. The features you develop will span all aspects of the user experience, making you an expert on their needs.
+              - listitem [ref=e35]: Be a mentor and provide thoughtful feedback to your peers, and build strong personal connections with your teammates!
+            - paragraph [ref=e36]:
+              - strong [ref=e37]: You may be a good fit if...
+            - list [ref=e38]:
+              - listitem [ref=e39]: You are passionate about helping developers get more done — would jump at the chance to work on this particular product
+              - listitem [ref=e40]: You have amazing engineering chops, but are also product- and user-focused
+              - listitem [ref=e41]: You have great communication and collaboration skills
+              - listitem [ref=e42]: You’re sensitive to developers’ needs, and can develop warm relationships with developers
+              - listitem [ref=e43]: "Bonus:"
+              - list [ref=e44]:
+                - listitem [ref=e45]: Building native apps in Rust or WASM
+                - listitem [ref=e46]: Shell or Linux-programming
+                - listitem [ref=e47]: Server-side programming in go
+                - listitem [ref=e48]: OpenGL, WebG, or other graphics programming
+            - paragraph [ref=e49]: At Warp, we are dedicated to building a diverse, inclusive, and authentic workplace. So if you’re excited about this role, but your past experience doesn’t align perfectly with every qualification in this job description – we encourage you to apply anyways! We are a community of curious learners, and most of us are learning some skills for the first time (like our engineers learning to program Warp in Rust). You might be just the right candidate for this or other roles.
+            - paragraph [ref=e50]:
+              - generic [ref=e51]:
+                - text: "If you're feeling playful, try out our optional hiring challenge and submit your answers with your application:"
+                - link "https://github.com/warpdotdev/hiring-challenge" [ref=e52] [cursor=pointer]:
+                  - /url: https://github.com/warpdotdev/hiring-challenge
+            - paragraph [ref=e53]:
+              - strong [ref=e54]: Salary Transparency
+            - paragraph [ref=e55]: Warp operates from a place of high trust and transparency around compensation. We state the pay range that best aligns with our understanding of the market and the needs for the open role.
+            - paragraph [ref=e56]: When we find the right person, we try to put our best foot forward with an offer that excites you. We consider your skills, the level of experience you bring, and what similar jobs in the market pay, all while ensuring equal pay for equal work at Warp.
+            - paragraph [ref=e57]: "Total compensation at Warp consists of: (1) a market-competitive base salary, (2) a generous benefits package, and (3) meaningful equity."
+            - paragraph [ref=e58]:
+              - strong [ref=e59]: The budgeted compensation amount for this role is targeted at
+              - strong [ref=e60]: $165,000 to $260,000
+              - strong [ref=e61]: .
+            - paragraph [ref=e62]:
+              - emphasis [ref=e63]: Exact compensation will vary based on skills and experience.
+            - paragraph [ref=e64]: In addition to salary, all employees receive further compensation in the form of equity in the company. This is a meaningful stock option grant with a four-year vesting period and one-year cliff. Your equity is where most of the significant upside potential is. Comparing startup equity is always a bit tricky, so we’re happy to walk you through different valuation scenarios at the offer stage in order to help paint a clearer picture of the upside.
+            - paragraph [ref=e65]:
+              - strong [ref=e66]: What we offer
+            - list [ref=e67]:
+              - listitem [ref=e68]: Competitive salary, generous benefits, and meaningful equity
+              - listitem [ref=e69]: 100% coverage on medical, dental, and vision benefits for employees (80% coverage for dependents)
+              - listitem [ref=e70]: A flexible remote-first culture, with optional office spaces in NYC and SF for folks who want to work together IRL
+              - listitem [ref=e71]: Pre-tax FSA and Health Savings Plans
+              - listitem [ref=e72]: Pre-tax Commuter Benefit
+              - listitem [ref=e73]: 12 company holidays, 20 days of Paid Time Off, and unlimited sick time
+              - listitem [ref=e74]: 16 weeks of paid Parental Leave for both birthing and non-birthing parents
+              - listitem [ref=e75]: Twice-a-year all company retreats in awesome locations
+              - listitem [ref=e76]: A monthly gym and internet stipend
+              - listitem [ref=e77]: A company-sponsored 401(k) through Vestwell
+              - listitem [ref=e78]: A complimentary OneMedical membership
+            - paragraph [ref=e79]:
+              - emphasis [ref=e80]: Individuals seeking employment at Warp are considered without regard to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, gender identity, or sexual orientation.
+          - generic [ref=e81]:
+            - paragraph [ref=e82]:
+              - strong [ref=e83]: About Warp
+            - paragraph [ref=e84]: We are a company run by product-first builders, building a core product for all developers. We are committed to understanding our users deeply. We will ultimately build the best product and business if that team includes developers and designers from a wide range of backgrounds. The early team comes from Google, Dropbox, Gem, LinkedIn, and Facebook. We are looking for passionate individuals to join us and help bring Warp to the world.
+            - paragraph [ref=e85]:
+              - text: We value honesty, humility, and pragmatism, and our core product principle is focusing on the user. If you’re interested in learning more about our company values and
+              - generic [ref=e86]:
+                - generic [ref=e87]:
+                  - text: the culture of our engineering team, please take a look at our internal
+                  - link "'How We Work'" [ref=e88] [cursor=pointer]:
+                    - /url: http://warp.dev/how-we-work
+                - text: guide.
+            - paragraph [ref=e89]:
+              - text: We’re very fortunate to be backed by a great group of venture capital firms. In August 2023, we announced a $50M Series B funding round ($73M total raised), led by Sequoia Capital.
+              - generic [ref=e90]:
+                - text: Our other investors include Google Ventures, Neo, and Box Group. We are also backed by a network of passionate angels, including Dylan Field (Co-Founder and CEO,
+                - link "Figma" [ref=e91] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/pulse/why-im-leading-warps-series-dylan-field/
+                - text: ), Elad Gil (early investor in Airbnb, Pinterest, Stripe, and Square), Jeff Weiner (Executive Chairman and Ex-CEO, LinkedIn), Marc Benioff (Founder and CEO, Salesforce), and Sam Altman (Co-Founder & CEO, OpenAI).
+            - paragraph [ref=e92]:
+              - strong [ref=e93]: The Product
+            - paragraph [ref=e94]:
+              - text: Here's our
+              - link "latest demo" [ref=e95] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=k9BRhSbVSpI
+              - text: showing some of our current features…
+            - paragraph [ref=e96]:
+              - iframe [ref=e97]:
+                - generic [active] [ref=f1e1]:
+                  - generic "YouTube Video Player" [ref=f1e3]
+                  - generic [ref=f1e5]:
+                    - generic:
+                      - generic:
+                        - button "Play video" [ref=f1e10] [cursor=pointer]
+                        - button "Hide player controls" [ref=f1e12] [cursor=pointer]
+                        - generic [ref=f1e14]:
+                          - generic [ref=f1e19]:
+                            - generic [ref=f1e20]:
+                              - 'link "Introducing Warp 2.0: The Agentic Development Environment" [ref=f1e21] [cursor=pointer]':
+                                - /url: https://www.youtube.com/watch?v=k9BRhSbVSpI
+                              - link "Warp" [ref=f1e22] [cursor=pointer]:
+                                - /url: /channel/UCKONdcQCTP3aozARj1ntKhw
+                                - generic [ref=f1e23]: Warp
+                            - generic [ref=f1e24]:
+                              - button [ref=f1e25] [cursor=pointer]
+                              - generic [ref=f1e27]:
+                                - generic: Warp
+                                - generic: 111K subscribers
+                          - generic [ref=f1e28]:
+                            - button "Share" [ref=f1e31] [cursor=pointer]:
+                              - generic [ref=f1e35]:
+                                - img
+                            - link "Watch on YouTube" [ref=f1e42] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=k9BRhSbVSpI
+                              - generic [ref=f1e45]:
+                                - text: Watch on
+                                - img [ref=f1e47]:
+                                  - generic [ref=f1e49]:
+                                    - img
+        - generic [ref=e98]:
+          - img [ref=e99]
+          - generic [ref=e101]:
+            - paragraph [ref=e102]: Create a Job Alert
+            - paragraph [ref=e103]: Interested in building your career at Warp? Get future opportunities sent straight to your email.
+            - link "Create alert" [ref=e104] [cursor=pointer]:
+              - /url: https://my.greenhouse.io/users/sign_in?job_board=warp&source=job_alert_post
+      - separator [ref=e105]
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - generic [ref=e108]:
+            - heading "Apply for this job" [level=2] [ref=e110]
+            - generic [ref=e111]:
+              - paragraph [ref=e113]: "*"
+              - paragraph [ref=e114]: indicates a required field
+          - button "Autofill with MyGreenhouse" [ref=e117] [cursor=pointer]
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - generic [ref=e122]:
+              - generic [ref=e123]: First Name*
+              - textbox "First Name" [ref=e124]
+            - generic [ref=e127]:
+              - generic [ref=e128]: Last Name*
+              - textbox "Last Name" [ref=e129]
+            - generic [ref=e132]:
+              - generic [ref=e133]: Email*
+              - textbox "Email" [ref=e134]
+            - group "Phone" [ref=e136]:
+              - generic [ref=e137]: Phone
+              - generic [ref=e140]:
+                - generic [ref=e141]: Country
+                - generic [ref=e142]:
+                  - log [ref=e144]
+                  - generic [ref=e146]:
+                    - combobox "Country" [ref=e149]
+                    - button "Toggle flyout" [ref=e151] [cursor=pointer]:
+                      - img [ref=e152]
+              - generic [ref=e156]:
+                - generic [ref=e157]: Phone
+                - textbox "Phone" [ref=e159]
+            - group "Resume/CV*" [ref=e161]:
+              - generic [ref=e162]: Resume/CV*
+              - generic [ref=e164]:
+                - generic [ref=e166]:
+                  - button "Attach" [ref=e167] [cursor=pointer]
+                  - generic [ref=e168]: Attach
+                  - button "Attach" [ref=e169]
+                - button "Dropbox" [ref=e171] [cursor=pointer]
+                - button "Google Drive" [ref=e173] [cursor=pointer]
+                - generic [ref=e175]:
+                  - button "Enter manually" [ref=e176] [cursor=pointer]
+                  - generic [ref=e177]: Enter manually
+                - paragraph [ref=e178]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=e179]:
+            - separator [ref=e180]
+            - generic [ref=e183]:
+              - generic [ref=e184]: LinkedIn Profile*
+              - textbox "LinkedIn Profile" [ref=e185]
+            - generic [ref=e188]:
+              - generic [ref=e189]: Website
+              - textbox "Website" [ref=e190]
+            - generic [ref=e191]:
+              - generic [ref=e193]:
+                - generic [ref=e194]: If hired by Warp, will you be based in the U.S. or Canada?*
+                - generic [ref=e195]:
+                  - log [ref=e197]
+                  - generic [ref=e199]:
+                    - generic [ref=e200]:
+                      - generic [ref=e201]: Select...
+                      - combobox "If hired by Warp, will you be based in the U.S. or Canada?" [ref=e203]
+                    - button "Toggle flyout" [ref=e205] [cursor=pointer]:
+                      - img [ref=e206]
+                  - textbox
+              - paragraph [ref=e210]: Warp is currently only able to support employees who are living in the U.S. or Canada at the moment.
+            - generic [ref=e213]:
+              - generic [ref=e214]: Do you have permanent authorization to work for Warp in the U.S. or Canada?*
+              - generic [ref=e215]:
+                - log [ref=e217]
+                - generic [ref=e219]:
+                  - generic [ref=e220]:
+                    - generic [ref=e221]: Select...
+                    - combobox "Do you have permanent authorization to work for Warp in the U.S. or Canada?" [ref=e223]
+                  - button "Toggle flyout" [ref=e225] [cursor=pointer]:
+                    - img [ref=e226]
+                - textbox
+            - generic [ref=e228]:
+              - generic [ref=e230]:
+                - generic [ref=e231]: Do you require work authorization?*
+                - textbox "Do you require work authorization?" [ref=e232]
+              - paragraph [ref=e235]: Please provide additional context, if applicable.
+            - generic [ref=e236]:
+              - generic [ref=e238]:
+                - generic [ref=e239]: "Application Challenge: Security Code (format: ABC-123-XYZ)"
+                - 'textbox "Application Challenge: Security Code (format: ABC-123-XYZ)" [ref=e240]'
+              - paragraph [ref=e243]: Part 1 of your answer to the optional programming challenge for your application to Warp's Software Engineer role.
+            - generic [ref=e244]:
+              - generic [ref=e246]:
+                - generic [ref=e247]: "Application Challenge: Link to Warp Shared Block containing the command"
+                - 'textbox "Application Challenge: Link to Warp Shared Block containing the command" [ref=e248]'
+              - paragraph [ref=e251]: Part 2 of your answer to the optional programming challenge for your application to Warp's Software Engineer role.
+          - generic [ref=e252]:
+            - separator [ref=e253]
+            - generic [ref=e254]:
+              - heading "Voluntary Self-Identification" [level=2] [ref=e255]
+              - paragraph [ref=e256]: For government reporting purposes, we ask candidates to respond to the below self-identification survey. Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a confidential file.
+              - paragraph [ref=e257]: As set forth in Warp’s Equal Employment Opportunity policy, we do not discriminate on the basis of any protected group status under any applicable law.
+            - generic [ref=e260]:
+              - generic [ref=e261]: Gender
+              - generic [ref=e262]:
+                - log [ref=e264]
+                - generic [ref=e266]:
+                  - generic [ref=e267]:
+                    - generic [ref=e268]: Select...
+                    - combobox "Gender" [ref=e270]
+                  - button "Toggle flyout" [ref=e272] [cursor=pointer]:
+                    - img [ref=e273]
+            - generic [ref=e275]:
+              - generic [ref=e277]:
+                - generic [ref=e278]: Are you Hispanic/Latino?
+                - generic [ref=e279]:
+                  - log [ref=e281]
+                  - generic [ref=e283]:
+                    - generic [ref=e284]:
+                      - generic [ref=e285]: Select...
+                      - combobox "Are you Hispanic/Latino?" [ref=e287]
+                    - button "Toggle flyout" [ref=e289] [cursor=pointer]:
+                      - img [ref=e290]
+              - link "Race & Ethnicity Definitions" [ref=e292] [cursor=pointer]:
+                - /url: https://job-boards.cdn.greenhouse.io/docs/2023/RaceEthnicityDefinitions.pdf
+            - generic [ref=e293]:
+              - paragraph [ref=e294]: "If you believe you belong to any of the categories of protected veterans listed below, please indicate by making the appropriate selection. As a government contractor subject to the Vietnam Era Veterans Readjustment Assistance Act (VEVRAA), we request this information in order to measure the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. Classification of protected categories is as follows:"
+              - paragraph [ref=e295]: "A \"disabled veteran\" is one of the following: a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or a person who was discharged or released from active duty because of a service-connected disability."
+              - paragraph [ref=e296]: A "recently separated veteran" means any veteran during the three-year period beginning on the date of such veteran's discharge or release from active duty in the U.S. military, ground, naval, or air service.
+              - paragraph [ref=e297]: An "active duty wartime or campaign badge veteran" means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.
+              - paragraph [ref=e298]: An "Armed forces service medal veteran" means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.
+            - generic [ref=e301]:
+              - generic [ref=e302]: Veteran Status
+              - generic [ref=e303]:
+                - log [ref=e305]
+                - generic [ref=e307]:
+                  - generic [ref=e308]:
+                    - generic [ref=e309]: Select...
+                    - combobox "Veteran Status" [ref=e311]
+                  - button "Toggle flyout" [ref=e313] [cursor=pointer]:
+                    - img [ref=e314]
+            - separator [ref=e316]
+            - generic [ref=e317]:
+              - heading "Voluntary Self-Identification of Disability" [level=2] [ref=e318]
+              - generic [ref=e319]:
+                - generic [ref=e320]:
+                  - generic [ref=e321]: Form CC-305
+                  - generic [ref=e322]: Page 1 of 1
+                - generic [ref=e323]:
+                  - generic [ref=e324]: OMB Control Number 1250-0005
+                  - generic [ref=e325]: Expires 04/30/2026
+              - strong [ref=e326]: Why are you being asked to complete this form?
+              - paragraph [ref=e327]: We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
+              - paragraph [ref=e328]:
+                - text: Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at
+                - link "www.dol.gov/ofccp" [ref=e329] [cursor=pointer]:
+                  - /url: https://www.dol.gov/ofccp
+                - text: .
+              - strong [ref=e330]: How do you know if you have a disability?
+              - paragraph [ref=e331]:
+                - text: A disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability.
+                - strong [ref=e332]: "Disabilities include, but are not limited to:"
+              - list [ref=e333]:
+                - listitem [ref=e334]: Alcohol or other substance use disorder (not currently using drugs illegally)
+                - listitem [ref=e335]: Autoimmune disorder, for example, lupus, fibromyalgia, rheumatoid arthritis, HIV/AIDS
+                - listitem [ref=e336]: Blind or low vision
+                - listitem [ref=e337]: Cancer (past or present)
+                - listitem [ref=e338]: Cardiovascular or heart disease
+                - listitem [ref=e339]: Celiac disease
+                - listitem [ref=e340]: Cerebral palsy
+                - listitem [ref=e341]: Deaf or serious difficulty hearing
+                - listitem [ref=e342]: Diabetes
+                - listitem [ref=e343]: Disfigurement, for example, disfigurement caused by burns, wounds, accidents, or congenital disorders
+                - listitem [ref=e344]: Epilepsy or other seizure disorder
+                - listitem [ref=e345]: Gastrointestinal disorders, for example, Crohn's Disease, irritable bowel syndrome
+                - listitem [ref=e346]: Intellectual or developmental disability
+                - listitem [ref=e347]: Mental health conditions, for example, depression, bipolar disorder, anxiety disorder, schizophrenia, PTSD
+                - listitem [ref=e348]: Missing limbs or partially missing limbs
+                - listitem [ref=e349]: Mobility impairment, benefiting from the use of a wheelchair, scooter, walker, leg brace(s) and/or other supports
+                - listitem [ref=e350]: Nervous system condition, for example, migraine headaches, Parkinson’s disease, multiple sclerosis (MS)
+                - listitem [ref=e351]: Neurodivergence, for example, attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, dyslexia, dyspraxia, other learning disabilities
+                - listitem [ref=e352]: Partial or complete paralysis (any cause)
+                - listitem [ref=e353]: Pulmonary or respiratory conditions, for example, tuberculosis, asthma, emphysema
+                - listitem [ref=e354]: Short stature (dwarfism)
+                - listitem [ref=e355]: Traumatic brain injury
+            - generic [ref=e358]:
+              - generic [ref=e359]: Disability Status
+              - generic [ref=e360]:
+                - log [ref=e362]
+                - generic [ref=e364]:
+                  - generic [ref=e365]:
+                    - generic [ref=e366]: Select...
+                    - combobox "Disability Status" [ref=e368]
+                  - button "Toggle flyout" [ref=e370] [cursor=pointer]:
+                    - img [ref=e371]
+            - paragraph [ref=e374]: "PUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete."
+          - button "Submit application" [ref=e376] [cursor=pointer]
+  - contentinfo [ref=e377]:
+    - generic [ref=e378]:
+      - paragraph [ref=e379]: Powered by
+      - link "Greenhouse logo" [ref=e380] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=e381]
+  - iframe [ref=e395]:
+    - generic [ref=f2e6]:
+      - text: protected by
+      - strong [ref=f2e7]: reCAPTCHA

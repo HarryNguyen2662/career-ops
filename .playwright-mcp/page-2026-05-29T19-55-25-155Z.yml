@@ -1,0 +1,387 @@
+- generic [ref=e2]:
+  - list [ref=e4]:
+    - listitem [ref=e5]:
+      - link "Valon Tech" [ref=e6] [cursor=pointer]:
+        - /url: https://www.valon.ai
+        - img "Valon Tech" [ref=e7]
+    - listitem [ref=e8]:
+      - link "Back to Valon Tech’s Job Listings" [ref=e9] [cursor=pointer]:
+        - /url: /valon
+        - img [ref=e10]
+    - listitem
+  - generic [ref=e12]:
+    - heading "Software Engineer" [level=1] [ref=e14]
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - heading "Location" [level=2] [ref=e18]
+          - paragraph [ref=e19]: New York; Remote; San Francisco
+        - generic [ref=e20]:
+          - heading "Employment Type" [level=2] [ref=e21]
+          - paragraph [ref=e22]: Full time
+        - generic [ref=e23]:
+          - heading "Location Type" [level=2] [ref=e24]
+          - paragraph [ref=e25]: On-site
+        - generic [ref=e26]:
+          - heading "Department" [level=2] [ref=e27]
+          - paragraph [ref=e28]:
+            - generic [ref=e29]: Engineering
+        - generic [ref=e30]:
+          - heading "Compensation" [level=2] [ref=e31]
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - generic [ref=e34]: $170K – $200K • Offers Equity
+      - generic [ref=e35]:
+        - tablist [ref=e36]:
+          - tab "Overview" [ref=e37] [cursor=pointer]
+          - tab "Application" [selected] [ref=e38] [cursor=pointer]
+        - tabpanel "Application" [ref=e40]:
+          - generic [ref=e41]:
+            - button "Choose File" [ref=e42]
+            - generic [ref=e44]:
+              - generic [ref=e45]:
+                - img [ref=e47]
+                - heading "Autofill from resume" [level=3] [ref=e49]
+              - paragraph [ref=e50]: Upload your resume here to autofill key application fields.
+              - button "Upload file" [ref=e52] [cursor=pointer]
+          - generic [ref=e54]:
+            - generic [ref=e55]:
+              - generic [ref=e56]: Full Name*
+              - textbox "Full Name*" [ref=e58] [cursor=pointer]:
+                - /placeholder: Type here...
+            - generic [ref=e59]:
+              - generic [ref=e60]: Email*
+              - textbox "Email*" [ref=e62] [cursor=pointer]:
+                - /placeholder: hello@example.com...
+            - generic [ref=e63]:
+              - generic [ref=e64]: Phone*
+              - textbox "Phone*" [ref=e65] [cursor=pointer]:
+                - /placeholder: 1-415-555-1234...
+            - generic [ref=e66]:
+              - generic [ref=e67]: Resume*
+              - button "Resume*" [ref=e68]
+              - generic [ref=e69]:
+                - button "Upload File" [ref=e70] [cursor=pointer]:
+                  - img [ref=e71]
+                  - generic [ref=e73]: Upload File
+                - paragraph [ref=e74]: or drag and drop here
+            - generic [ref=e75]:
+              - generic [ref=e76]: LinkedIn Profile*
+              - textbox "LinkedIn Profile*" [ref=e78] [cursor=pointer]:
+                - /placeholder: Type here...
+            - generic [ref=e79]:
+              - generic [ref=e80]: Website
+              - textbox "Website" [ref=e82] [cursor=pointer]:
+                - /placeholder: Type here...
+            - generic [ref=e83]:
+              - generic [ref=e84]: If you were referred to this role by a Valon Employee, please write their name below.
+              - textbox "If you were referred to this role by a Valon Employee, please write their name below." [ref=e86] [cursor=pointer]:
+                - /placeholder: Type here...
+            - generic [ref=e87]:
+              - generic [ref=e88]: Are you authorized to work for any employer in the United States of America?*
+              - generic [ref=e89]:
+                - button "Yes" [ref=e90] [cursor=pointer]
+                - button "No" [ref=e91] [cursor=pointer]
+            - generic [ref=e92]:
+              - generic [ref=e93]: Do you now, or will you at any point in the future, require sponsorship?*
+              - generic [ref=e94]:
+                - button "Yes" [ref=e95] [cursor=pointer]
+                - button "No" [ref=e96] [cursor=pointer]
+          - generic [ref=e97]:
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - heading "Diversity Survey" [level=2] [ref=e101]
+                - paragraph [ref=e103]:
+                  - emphasis [ref=e104]: This optional survey helps us evaluate our diversity and inclusion efforts. Participation is voluntary and refusal to submit the survey will not affect your job application. The answers to these questions are not seen on an individualized basis and your submission will only be used to assess our diversity and inclusion efforts.
+              - group [ref=e106]:
+                - generic [ref=e107]: What is your current age?
+                - generic [ref=e108]:
+                  - radio "Under 30" [ref=e111] [cursor=pointer]
+                  - generic [ref=e112]: Under 30
+                - generic [ref=e113]:
+                  - radio "30-39" [ref=e116] [cursor=pointer]
+                  - generic [ref=e117]: 30-39
+                - generic [ref=e118]:
+                  - radio "40-49" [ref=e121] [cursor=pointer]
+                  - generic [ref=e122]: 40-49
+                - generic [ref=e123]:
+                  - radio "50-59" [ref=e126] [cursor=pointer]
+                  - generic [ref=e127]: 50-59
+                - generic [ref=e128]:
+                  - radio "60 or older" [ref=e131] [cursor=pointer]
+                  - generic [ref=e132]: 60 or older
+                - generic [ref=e133]:
+                  - radio "I prefer not to answer" [ref=e136] [cursor=pointer]
+                  - generic [ref=e137]: I prefer not to answer
+              - group [ref=e139]:
+                - generic [ref=e140]: What is your gender identity?
+                - generic [ref=e141]:
+                  - radio "Man" [ref=e144] [cursor=pointer]
+                  - generic [ref=e145]: Man
+                - generic [ref=e146]:
+                  - radio "Woman" [ref=e149] [cursor=pointer]
+                  - generic [ref=e150]: Woman
+                - generic [ref=e151]:
+                  - radio "Non-Binary" [ref=e154] [cursor=pointer]
+                  - generic [ref=e155]: Non-Binary
+                - generic [ref=e156]:
+                  - radio "Another Gender Identity" [ref=e159] [cursor=pointer]
+                  - generic [ref=e160]: Another Gender Identity
+                - generic [ref=e161]:
+                  - radio "I prefer not to answer" [ref=e164] [cursor=pointer]
+                  - generic [ref=e165]: I prefer not to answer
+              - group [ref=e167]:
+                - generic [ref=e168]: Do you identify as transgender?
+                - generic [ref=e169]:
+                  - radio "Yes" [ref=e172] [cursor=pointer]
+                  - generic [ref=e173]: "Yes"
+                - generic [ref=e174]:
+                  - radio "No" [ref=e177] [cursor=pointer]
+                  - generic [ref=e178]: "No"
+                - generic [ref=e179]:
+                  - radio "I prefer not to answer" [ref=e182] [cursor=pointer]
+                  - generic [ref=e183]: I prefer not to answer
+              - group [ref=e185]:
+                - generic [ref=e186]: How do you identify your sexual orientation? Please select all that apply.
+                - generic [ref=e187]:
+                  - generic [ref=e188] [cursor=pointer]:
+                    - img [ref=e189]
+                    - checkbox "Bisexual" [ref=e191]
+                  - generic [ref=e192]: Bisexual
+                - generic [ref=e193]:
+                  - generic [ref=e194] [cursor=pointer]:
+                    - img [ref=e195]
+                    - checkbox "Lesbian" [ref=e197]
+                  - generic [ref=e198]: Lesbian
+                - generic [ref=e199]:
+                  - generic [ref=e200] [cursor=pointer]:
+                    - img [ref=e201]
+                    - checkbox "Gay" [ref=e203]
+                  - generic [ref=e204]: Gay
+                - generic [ref=e205]:
+                  - generic [ref=e206] [cursor=pointer]:
+                    - img [ref=e207]
+                    - checkbox "Queer" [ref=e209]
+                  - generic [ref=e210]: Queer
+                - generic [ref=e211]:
+                  - generic [ref=e212] [cursor=pointer]:
+                    - img [ref=e213]
+                    - checkbox "Heterosexual / straight" [ref=e215]
+                  - generic [ref=e216]: Heterosexual / straight
+                - generic [ref=e217]:
+                  - generic [ref=e218] [cursor=pointer]:
+                    - img [ref=e219]
+                    - checkbox "Other" [ref=e221]
+                  - generic [ref=e222]: Other
+                - generic [ref=e223]:
+                  - generic [ref=e224] [cursor=pointer]:
+                    - img [ref=e225]
+                    - checkbox "I prefer not to answer" [ref=e227]
+                  - generic [ref=e228]: I prefer not to answer
+              - group [ref=e230]:
+                - generic [ref=e231]: Which ethnicity(ies) do you identify with? Please select all that apply.
+                - generic [ref=e232]:
+                  - generic [ref=e233] [cursor=pointer]:
+                    - img [ref=e234]
+                    - checkbox "Asian or Asian American" [ref=e236]
+                  - generic [ref=e237]: Asian or Asian American
+                - generic [ref=e238]:
+                  - generic [ref=e239] [cursor=pointer]:
+                    - img [ref=e240]
+                    - checkbox "Black or African American" [ref=e242]
+                  - generic [ref=e243]: Black or African American
+                - generic [ref=e244]:
+                  - generic [ref=e245] [cursor=pointer]:
+                    - img [ref=e246]
+                    - checkbox "Hispanic or Latine" [ref=e248]
+                  - generic [ref=e249]: Hispanic or Latine
+                - generic [ref=e250]:
+                  - generic [ref=e251] [cursor=pointer]:
+                    - img [ref=e252]
+                    - checkbox "Indigenous or Native American" [ref=e254]
+                  - generic [ref=e255]: Indigenous or Native American
+                - generic [ref=e256]:
+                  - generic [ref=e257] [cursor=pointer]:
+                    - img [ref=e258]
+                    - checkbox "Native Hawaiian or Other Pacific Islander" [ref=e260]
+                  - generic [ref=e261]: Native Hawaiian or Other Pacific Islander
+                - generic [ref=e262]:
+                  - generic [ref=e263] [cursor=pointer]:
+                    - img [ref=e264]
+                    - checkbox "White" [ref=e266]
+                  - generic [ref=e267]: White
+                - generic [ref=e268]:
+                  - generic [ref=e269] [cursor=pointer]:
+                    - img [ref=e270]
+                    - checkbox "Other" [ref=e272]
+                  - generic [ref=e273]: Other
+                - generic [ref=e274]:
+                  - generic [ref=e275] [cursor=pointer]:
+                    - img [ref=e276]
+                    - checkbox "I prefer not to answer" [ref=e278]
+                  - generic [ref=e279]: I prefer not to answer
+              - group [ref=e281]:
+                - generic [ref=e282]: Which of the following communities do you belong to? Please select all that apply.
+                - generic [ref=e283]:
+                  - generic [ref=e284] [cursor=pointer]:
+                    - img [ref=e285]
+                    - checkbox "Person with disability" [ref=e287]
+                  - generic [ref=e288]: Person with disability
+                - generic [ref=e289]:
+                  - generic [ref=e290] [cursor=pointer]:
+                    - img [ref=e291]
+                    - checkbox "Neurodiverse" [ref=e293]
+                  - generic [ref=e294]: Neurodiverse
+                - generic [ref=e295]:
+                  - generic [ref=e296] [cursor=pointer]:
+                    - img [ref=e297]
+                    - checkbox "Veteran" [ref=e299]
+                  - generic [ref=e300]: Veteran
+                - generic [ref=e301]:
+                  - generic [ref=e302] [cursor=pointer]:
+                    - img [ref=e303]
+                    - checkbox "Parent" [ref=e305]
+                  - generic [ref=e306]: Parent
+                - generic [ref=e307]:
+                  - generic [ref=e308] [cursor=pointer]:
+                    - img [ref=e309]
+                    - checkbox "Refugee or immigrant" [ref=e311]
+                  - generic [ref=e312]: Refugee or immigrant
+                - generic [ref=e313]:
+                  - generic [ref=e314] [cursor=pointer]:
+                    - img [ref=e315]
+                    - checkbox "None of the above" [ref=e317]
+                  - generic [ref=e318]: None of the above
+                - generic [ref=e319]:
+                  - generic [ref=e320] [cursor=pointer]:
+                    - img [ref=e321]
+                    - checkbox "I prefer not to answer" [ref=e323]
+                  - generic [ref=e324]: I prefer not to answer
+            - generic [ref=e325]:
+              - generic [ref=e326]:
+                - generic [ref=e328]:
+                  - paragraph [ref=e329]:
+                    - strong [ref=e330]: U.S. EQUAL EMPLOYMENT OPPORTUNITY INFORMATION
+                    - text: (Completion is voluntary and will not subject you to adverse treatment)
+                  - paragraph [ref=e331]
+                  - paragraph [ref=e332]: Valon Tech provides equal employment opportunities to applicants and employees without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status, or disability.
+                  - paragraph [ref=e333]
+                  - paragraph [ref=e334]: We invite all applicants to voluntarily self-identify their race, ethnicity, and gender. Submission of the information on this form is strictly voluntary and refusal to provide it will not subject you to any adverse treatment. Information obtained will be retained in a confidential file and separate from personnel records. This information may only be used in accordance with the provision of applicable federal laws, executive orders, and regulations. If you want more information about any of the sections, please check with a company representative.
+                - group [ref=e336]:
+                  - generic [ref=e337]: Gender
+                  - paragraph [ref=e339]: Input gender
+                  - generic [ref=e340]:
+                    - radio "Male" [ref=e343] [cursor=pointer]
+                    - generic [ref=e344]: Male
+                  - generic [ref=e345]:
+                    - radio "Female" [ref=e348] [cursor=pointer]
+                    - generic [ref=e349]: Female
+                  - generic [ref=e350]:
+                    - radio "Decline to self-identify" [ref=e353] [cursor=pointer]
+                    - generic [ref=e354]: Decline to self-identify
+                - group [ref=e356]:
+                  - generic [ref=e357]: Race
+                  - generic [ref=e358]:
+                    - list [ref=e359]:
+                      - listitem [ref=e360]:
+                        - paragraph [ref=e361]:
+                          - strong [ref=e362]: Hispanic or Latino
+                          - text: "- A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin regardless of race."
+                    - list [ref=e363]:
+                      - listitem [ref=e364]:
+                        - paragraph [ref=e365]:
+                          - strong [ref=e366]: White
+                          - text: (Not Hispanic or Latino) - A person having origins in any of the original peoples of Europe, the Middle East, or North Africa.
+                      - listitem [ref=e367]:
+                        - paragraph [ref=e368]:
+                          - strong [ref=e369]: Black or African American
+                          - text: (Not Hispanic or Latino) - A person having origins in any of the black racial groups of Africa.
+                      - listitem [ref=e370]:
+                        - paragraph [ref=e371]:
+                          - strong [ref=e372]: Native Hawaiian or Other Pacific Islander
+                          - text: (Not Hispanic or Latino) - A person having origins in any of the peoples of Hawaii, Guam, Samoa, or other Pacific Islands.
+                      - listitem [ref=e373]:
+                        - paragraph [ref=e374]:
+                          - strong [ref=e375]: Asian
+                          - text: (Not Hispanic or Latino) - A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian Subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam.
+                      - listitem [ref=e376]:
+                        - paragraph [ref=e377]:
+                          - strong [ref=e378]: American Indian or Alaska Native
+                          - text: (Not Hispanic or Latino) - A person having origins in any of the original peoples of North and South America (including Central America), and who maintain tribal affiliation or community attachment.
+                      - listitem [ref=e379]:
+                        - paragraph [ref=e380]:
+                          - strong [ref=e381]: Two or More Races
+                          - text: (Not Hispanic or Latino) - All persons who identify with more than one of the above five races.
+                  - generic [ref=e382]:
+                    - radio "Hispanic or Latino" [ref=e385] [cursor=pointer]
+                    - generic [ref=e386]: Hispanic or Latino
+                  - generic [ref=e387]:
+                    - radio "White (Not Hispanic or Latino)" [ref=e390] [cursor=pointer]
+                    - generic [ref=e391]: White (Not Hispanic or Latino)
+                  - generic [ref=e392]:
+                    - radio "Black or African American (Not Hispanic or Latino)" [ref=e395] [cursor=pointer]
+                    - generic [ref=e396]: Black or African American (Not Hispanic or Latino)
+                  - generic [ref=e397]:
+                    - radio "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)" [ref=e400] [cursor=pointer]
+                    - generic [ref=e401]: Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)
+                  - generic [ref=e402]:
+                    - radio "Asian (Not Hispanic or Latino)" [ref=e405] [cursor=pointer]
+                    - generic [ref=e406]: Asian (Not Hispanic or Latino)
+                  - generic [ref=e407]:
+                    - radio "American Indian or Alaska Native (Not Hispanic or Latino)" [ref=e410] [cursor=pointer]
+                    - generic [ref=e411]: American Indian or Alaska Native (Not Hispanic or Latino)
+                  - generic [ref=e412]:
+                    - radio "Two or More Races (Not Hispanic or Latino)" [ref=e415] [cursor=pointer]
+                    - generic [ref=e416]: Two or More Races (Not Hispanic or Latino)
+                  - generic [ref=e417]:
+                    - radio "Decline to self-identify" [ref=e420] [cursor=pointer]
+                    - generic [ref=e421]: Decline to self-identify
+              - generic [ref=e422]:
+                - generic [ref=e424]:
+                  - paragraph [ref=e425]:
+                    - strong [ref=e426]: SELF-IDENTIFICATION OF VETERAN STATUS
+                    - text: (Completion is voluntary and will not subject you to adverse treatment)
+                  - paragraph [ref=e427]: If you believe that you belong to any of the following categories of protected veterans, please indicate by making the appropriate selection
+                  - list [ref=e428]:
+                    - listitem [ref=e429]:
+                      - paragraph [ref=e430]:
+                        - strong [ref=e431]: Disabled veteran
+                        - text: – A veteran who served on active duty in the U.S. military and is entitled to disability compensation (or who but for the receipt of military retired pay would be entitled to disability compensation) under laws administered by the Secretary of Veterans Affairs, or was discharged or released from active duty because of a service-connected disability
+                    - listitem [ref=e432]:
+                      - paragraph [ref=e433]:
+                        - strong [ref=e434]: Recently separated veteran
+                        - text: – A veteran separated during the three-year period beginning on the date of the veteran's discharge or release from active duty in the U.S military, ground, naval, or air service
+                    - listitem [ref=e435]:
+                      - paragraph [ref=e436]:
+                        - strong [ref=e437]: Active duty wartime or campaign badge veteran
+                        - text: – A veteran who served on active duty in the U.S. military during a war, or in a campaign or expedition for which a campaign badge was authorized under the laws administered by the Department of Defense
+                    - listitem [ref=e438]:
+                      - paragraph [ref=e439]:
+                        - strong [ref=e440]: Armed forces service medal veteran
+                        - text: "- Armed forces service medal veteran – A veteran who, while serving on active duty in the U.S. military ground, naval, or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985 (61 Fed. Reg. 1209)."
+                - group [ref=e442]:
+                  - generic [ref=e443]: Veteran Status
+                  - generic [ref=e444]:
+                    - radio "I identify as one or more of the classifications of protected veteran listed above" [ref=e447] [cursor=pointer]
+                    - generic [ref=e448]: I identify as one or more of the classifications of protected veteran listed above
+                  - generic [ref=e449]:
+                    - radio "I am not a protected veteran" [ref=e452] [cursor=pointer]
+                    - generic [ref=e453]: I am not a protected veteran
+                  - generic [ref=e454]:
+                    - radio "I decline to self-identify for protected veteran status" [ref=e457] [cursor=pointer]
+                    - generic [ref=e458]: I decline to self-identify for protected veteran status
+          - button "Submit Application" [ref=e459] [cursor=pointer]:
+            - text: Submit Application
+            - img [ref=e460]
+  - contentinfo [ref=e462]:
+    - link "Learn more about Ashby" [ref=e463] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=e464]: Powered by
+      - img "Ashby" [ref=e465]
+    - paragraph [ref=e471]:
+      - link "Privacy Policy" [ref=e472] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=e473] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=e474] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

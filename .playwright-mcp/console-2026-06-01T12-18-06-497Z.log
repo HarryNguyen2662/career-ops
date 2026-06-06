@@ -1,0 +1,4 @@
+[     229ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://jobs.netflix.com/search?q=software+engineer+new+grad:0
+[     474ms] [LOG] x: Setting ambient Color to:  undefined @ https://jobs.netflix.com/_next/static/chunks/03k0_nub65s~w.js:0
+[    2230ms] [LOG] 1: Setting ambient Color to:  Red @ https://jobs.netflix.com/_next/static/chunks/03k0_nub65s~w.js:0
+[    5231ms] [WARNING] The resource https://jobs.netflix.com/_next/static/chunks/0k-nlq_~pf5kv.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://jobs.netflix.com/search?q=software+engineer+new+grad:0

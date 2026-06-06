@@ -1,0 +1,7 @@
+[    5505ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://my.greenhouse.io/users/self?job_post_id=4675862005:0
+[    5513ms] UnauthorizedError: Unauthorized: User is not logged in.
+    at Gs.fetchProfile (https://job-boards.cdn.greenhouse.io/assets/entry.client-DJvenSzz.js:61:71218)
+[   14741ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://my.greenhouse.io/users/self?job_post_id=4675862005:0
+[   14764ms] UnauthorizedError: Unauthorized: User is not logged in.
+    at Gs.fetchProfile (https://job-boards.cdn.greenhouse.io/assets/entry.client-DJvenSzz.js:61:71218)
+    at async We (https://job-boards.cdn.greenhouse.io/assets/entry.client-DJvenSzz.js:61:95997)

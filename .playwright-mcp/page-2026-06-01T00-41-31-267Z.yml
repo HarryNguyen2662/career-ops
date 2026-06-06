@@ -1,0 +1,250 @@
+- generic [ref=e4]:
+  - img "Block logo" [ref=e7]
+  - generic [ref=e10]:
+    - navigation "Main navigation" [ref=e11]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - link "visit home page" [ref=e17] [cursor=pointer]:
+            - /url: /
+            - img [ref=e19]
+          - list [ref=e30]:
+            - listitem [ref=e31]:
+              - button "News" [ref=e32] [cursor=pointer]:
+                - generic [ref=e33]: News
+                - img [ref=e35]
+            - listitem [ref=e37]:
+              - button "Impact" [ref=e38] [cursor=pointer]:
+                - generic [ref=e39]: Impact
+                - img [ref=e41]
+            - listitem [ref=e43]:
+              - link "AI" [ref=e44] [cursor=pointer]:
+                - /url: /ai
+                - generic [ref=e45]: AI
+            - listitem [ref=e46]:
+              - link "Open Source" [ref=e47] [cursor=pointer]:
+                - /url: https://opensource.block.xyz/
+                - generic [ref=e48]: Open Source
+            - listitem [ref=e49]:
+              - link "Bitcoin" [ref=e50] [cursor=pointer]:
+                - /url: /bitcoin
+                - generic [ref=e51]: Bitcoin
+            - listitem [ref=e52]:
+              - button "Careers" [ref=e53] [cursor=pointer]:
+                - generic [ref=e54]: Careers
+                - img [ref=e56]
+            - listitem [ref=e58]:
+              - link "Builder Fellowship" [ref=e59] [cursor=pointer]:
+                - /url: /builder-fellowship
+                - generic [ref=e60]: Builder Fellowship
+            - listitem [ref=e61]:
+              - link "Investors" [ref=e62] [cursor=pointer]:
+                - /url: https://investors.block.xyz/
+                - generic [ref=e63]: Investors
+        - button "Open search modal" [ref=e65] [cursor=pointer]:
+          - img [ref=e67]
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - link "SEE ALL JOBS" [ref=e75] [cursor=pointer]:
+              - /url: /careers/jobs
+              - img [ref=e76]
+              - generic [ref=e78]: SEE ALL JOBS
+            - text: ;
+          - img "cashapp" [ref=e81]
+          - generic [ref=e83]:
+            - heading "Software Engineer, Cash App Banking" [level=1] [ref=e84]:
+              - generic [ref=e85]: Software Engineer, Cash App Banking
+            - button "Apply" [ref=e87] [cursor=pointer]:
+              - generic [ref=e89]:
+                - text: Apply
+                - img [ref=e91]
+          - generic [ref=e95]:
+            - generic [ref=e98]: Bay Area, CA, US
+            - generic [ref=e101]: "Req ID: R0006384"
+            - generic [ref=e104]: "Posted Date: 04/30/26"
+        - generic [ref=e106]:
+          - tablist "Job application tabs" [ref=e110]:
+            - tab "Job Details" [selected] [ref=e111] [cursor=pointer]:
+              - generic [ref=e112]: Job Details
+            - tab "Apply" [ref=e113] [cursor=pointer]:
+              - generic [ref=e114]: Apply
+          - tabpanel [ref=e116]:
+            - generic [ref=e117]:
+              - paragraph [ref=e118]: It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.
+              - paragraph [ref=e119]
+              - paragraph [ref=e120]: Today, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.
+              - heading "The Role" [level=3] [ref=e121]
+              - paragraph [ref=e122]: At Cash App, we strive to build the best consumer financial products in the world. The Cash App Banking team aspires to make Cash App the primary place for our customers to store, manage, and move money across all their banking needs. We achieve this by providing various offerings including a range of deposit and transfer options, savings and automation tools, and a suite of benefits for Banking customers, all while ensuring a fast and reliable experience.
+              - paragraph [ref=e123]
+              - paragraph [ref=e124]: As a software engineer on the Cash App Banking server engineering team, you will design, develop, and deliver new banking experiences, through close collaboration across teams and disciplines. The things that you build will create significant impact at scale and will fundamentally change the consumer banking landscape as we know it today.
+              - heading "You Will" [level=3] [ref=e125]
+              - list [ref=e126]:
+                - listitem [ref=e127]: Partner closely with your team to design, develop, test, ship, and maintain customer-facing features
+                - listitem [ref=e128]: Participate in critical technical discussions and play an active role as a reviewer of design documents and code changes
+                - listitem [ref=e129]: Design and implement systems to work within our microservice and event-driven architectures
+                - listitem [ref=e130]: Hold your teammates and yourself to high engineering standards
+                - listitem [ref=e131]: Apply an AI-first mindset using tools to improve development speed and quality, continuously experimenting with emerging approaches
+              - heading "You Have" [level=3] [ref=e132]
+              - list [ref=e133]:
+                - listitem [ref=e134]: 5+ years of software development or equivalent experience
+                - listitem [ref=e135]: Drive to find flaws in a system with many moving parts and take whatever steps are necessary to fix them
+                - listitem [ref=e136]: A growth mindset and an appetite in solving open-ended and ambiguous problems
+                - listitem [ref=e137]: Strong communication and collaboration skills
+                - listitem [ref=e138]: Bachelor's Degree or Diploma in Computer Science, Computer Engineering, Software Engineering, or equivalent experience
+              - heading "Technologies We Use and Teach" [level=3] [ref=e139]
+              - list [ref=e140]:
+                - listitem [ref=e141]: Java, Kotlin
+                - listitem [ref=e142]: AWS
+                - listitem [ref=e143]: HTTP, JSON, gRPC, Protocol Buffers
+                - listitem [ref=e144]: OkHttp, Jetty, JUnit, Guice
+                - listitem [ref=e145]: Hibernate, MySQL, DynamoDB
+                - listitem [ref=e146]: Kafka, events, microservices
+                - listitem [ref=e147]: DataDog, Prometheus, SignalFx
+              - paragraph [ref=e148]:
+                - text: We’re working to build a more inclusive economy where our customers have equal access to opportunity, and we strive to live by these same values in building our workplace. Block is an equal opportunity employer evaluating all employees and job applicants without regard to identity or any legally protected class. We will consider qualified applicants with arrest or conviction records for employment in accordance with state and local laws and “fair chance” ordinances. We believe in being fair, and are committed to an inclusive interview experience, including providing reasonable accommodations to disabled applicants throughout the recruitment process. We encourage applicants to share any needed accommodations with their recruiter, who will treat these requests as confidentially as possible.
+                - strong [ref=e149]: Want to learn more about what we’re doing to build a workplace that is fair and square? Check out our
+                - link "I+D page" [ref=e150] [cursor=pointer]:
+                  - /url: https://block.xyz/news/inclusion
+                - text: .
+              - paragraph [ref=e151]: While there is no specific deadline to apply for this role, U.S. roles are typically open for an average of 55 days before being filled by a successful candidate. Please refer to the date listed at the top of this job page for when this role was first posted.
+              - generic [ref=e152]:
+                - generic [ref=e153]:
+                  - generic [ref=e154]:
+                    - paragraph [ref=e155]
+                    - paragraph [ref=e156]: Block takes a market-based approach to pay, and pay may vary depending on your location. U.S. locations are categorized into one of four zones based on a cost of labor index for that geographic area. The successful candidate’s starting pay will be determined based on job-related skills, experience, qualifications, work location, and market conditions. These ranges may be modified in the future.
+                    - paragraph [ref=e157]:
+                      - text: To find a location’s zone designation, please refer to this
+                      - link "resource" [ref=e158] [cursor=pointer]:
+                        - /url: https://block.xyz/documents/salaryzones.pdf
+                      - text: . If a location of interest is not listed, please speak with a recruiter for additional information.
+                    - paragraph [ref=e159]
+                  - generic [ref=e160]: "Zone A:"
+                  - generic [ref=e161]: $180,000—$270,000 USD
+                - generic [ref=e162]:
+                  - generic [ref=e163]: "Zone B:"
+                  - generic [ref=e164]: $171,000—$256,600 USD
+                - generic [ref=e165]:
+                  - generic [ref=e166]: "Zone C:"
+                  - generic [ref=e167]: $162,000—$243,000 USD
+                - generic [ref=e168]:
+                  - generic [ref=e169]: "Zone D:"
+                  - generic [ref=e170]: $153,000—$229,600 USD
+              - generic [ref=e171]:
+                - paragraph [ref=e172]:
+                  - strong [ref=e173]: Application Guidelines
+                - paragraph [ref=e174]: Candidates may submit up to 9 active applications within a 60-day period. Reapplications to the same role are accepted 90 days after a previous application has been reviewed.
+                - paragraph [ref=e175]:
+                  - strong [ref=e176]: Use of AI in Our Hiring Process
+                - paragraph [ref=e177]: We may use automated AI tools to evaluate job applications for efficiency and consistency. These tools comply with local regulations, including bias audits, and we handle all personal data in accordance with state and local privacy laws.
+                - paragraph [ref=e178]:
+                  - text: Contact us
+                  - link "here" [ref=e179] [cursor=pointer]:
+                    - /url: https://privacy.block.xyz/privacyportal/form
+                  - text: with hiring practice or data usage questions.
+                - paragraph [ref=e180]:
+                  - emphasis [ref=e181]: "Every benefit we offer is designed with one goal: empowering you to do the best work of your career while building the life you want. Remote work, medical insurance, flexible time off, retirement savings plans, and modern family planning are just some of our offering."
+                  - emphasis [ref=e182]:
+                    - link "Check out our other benefits at Block." [ref=e183] [cursor=pointer]:
+                      - /url: https://block.xyz/employee-benefits
+                - paragraph [ref=e184]:
+                  - emphasis [ref=e185]:
+                    - text: "Block, Inc. (NYSE: XYZ) builds technology to increase access to the global economy. Each of our brands unlocks different aspects of the economy for more people."
+                    - strong [ref=e186]: Square
+                    - text: makes commerce and financial services accessible to sellers.
+                    - strong [ref=e187]: Cash App
+                    - text: is the easy way to spend, send, and store money.
+                    - strong [ref=e188]: Afterpay
+                    - text: is transforming the way customers manage their spending over time.
+                    - strong [ref=e189]: TIDAL
+                    - text: is a music platform that empowers artists to thrive as entrepreneurs.
+                    - strong [ref=e190]: Bitkey
+                    - text: is a simple self-custody wallet built for bitcoin.
+                    - strong [ref=e191]: Proto
+                    - text: is a suite of bitcoin mining products and services. Together, we’re helping build a financial system that is open to everyone.
+                - paragraph [ref=e192]:
+                  - link "Privacy Policy" [ref=e193] [cursor=pointer]:
+                    - /url: https://block.xyz/en/legal/applicant-privacy-notice
+            - generic [ref=e196]:
+              - button "Apply" [ref=e198] [cursor=pointer]:
+                - generic [ref=e200]:
+                  - text: Apply
+                  - img [ref=e202]
+              - link "See all jobs" [ref=e205] [cursor=pointer]:
+                - /url: /careers/jobs
+                - generic [ref=e206]: See all jobs
+      - contentinfo [ref=e208]:
+        - generic [ref=e211]:
+          - link "visit home page" [ref=e215] [cursor=pointer]:
+            - /url: /
+            - img [ref=e217]
+          - generic [ref=e230]:
+            - generic [ref=e232]: Company
+            - generic [ref=e234]:
+              - link "News" [ref=e235] [cursor=pointer]:
+                - /url: /news
+                - generic [ref=e236]: News
+              - link "Impact" [ref=e237] [cursor=pointer]:
+                - /url: https://block.xyz/impact
+                - generic [ref=e238]: Impact
+              - link "AI" [ref=e239] [cursor=pointer]:
+                - /url: /ai
+                - generic [ref=e240]: AI
+              - link "Open Source" [ref=e241] [cursor=pointer]:
+                - /url: https://opensource.block.xyz/
+                - generic [ref=e242]: Open Source
+              - link "Bitcoin" [ref=e243] [cursor=pointer]:
+                - /url: https://block.xyz/bitcoin
+                - generic [ref=e244]: Bitcoin
+              - link "Careers" [ref=e245] [cursor=pointer]:
+                - /url: /careers/jobs
+                - generic [ref=e246]: Careers
+              - link "BUILDER FELLOWSHIP" [ref=e247] [cursor=pointer]:
+                - /url: /builder-fellowship
+                - generic [ref=e248]: BUILDER FELLOWSHIP
+              - link "Investors" [ref=e249] [cursor=pointer]:
+                - /url: https://investors.block.xyz/overview/default.aspx
+                - generic [ref=e250]: Investors
+              - link "Media Kit" [ref=e251] [cursor=pointer]:
+                - /url: https://block.xyz/mediakit
+                - generic [ref=e252]: Media Kit
+              - link "Legal" [ref=e253] [cursor=pointer]:
+                - /url: https://block.xyz/legal
+                - generic [ref=e254]: Legal
+              - link "Privacy" [ref=e255] [cursor=pointer]:
+                - /url: https://block.xyz/legal/privacy-notice
+                - generic [ref=e256]: Privacy
+          - generic [ref=e259]:
+            - generic [ref=e261]: Brands
+            - generic [ref=e263]:
+              - link "Square" [ref=e264] [cursor=pointer]:
+                - /url: https://squareup.com
+                - generic [ref=e265]: Square
+              - link "Cash App" [ref=e266] [cursor=pointer]:
+                - /url: https://cash.app
+                - generic [ref=e267]: Cash App
+              - link "Afterpay" [ref=e268] [cursor=pointer]:
+                - /url: https://afterpay.com
+                - generic [ref=e269]: Afterpay
+              - link "TIDAL" [ref=e270] [cursor=pointer]:
+                - /url: https://tidal.com
+                - generic [ref=e271]: TIDAL
+              - link "Bitkey" [ref=e272] [cursor=pointer]:
+                - /url: https://bitkey.world
+                - generic [ref=e273]: Bitkey
+              - link "Proto" [ref=e274] [cursor=pointer]:
+                - /url: https://proto.xyz
+                - generic [ref=e275]: Proto
+          - generic [ref=e278]:
+            - generic [ref=e280]: Social
+            - generic [ref=e282]:
+              - link "LinkedIn" [ref=e283] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/joinblock
+                - generic [ref=e284]: LinkedIn
+              - link "Instagram" [ref=e285] [cursor=pointer]:
+                - /url: https://www.instagram.com/block.xyz
+                - generic [ref=e286]: Instagram
+              - link "X" [ref=e287] [cursor=pointer]:
+                - /url: https://x.com/blocks
+                - generic [ref=e288]: X
+          - generic [ref=e290]: © 2026 Block, Inc. BLOCK and the Block Logo are trademarks of Block, Inc.

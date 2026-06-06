@@ -1,0 +1,160 @@
+- generic [ref=e2]:
+  - list [ref=e4]:
+    - listitem [ref=e5]:
+      - link "Replit" [ref=e6] [cursor=pointer]:
+        - /url: http://replit.com
+        - img "Replit" [ref=e7]
+    - listitem [ref=e8]:
+      - link "Back to Replit’s Job Listings" [ref=e9] [cursor=pointer]:
+        - /url: /replit?utm_source=1Zx6V2PngV
+        - img [ref=e10]
+    - listitem
+  - generic [ref=e12]:
+    - heading "Software Engineering Intern (Summer 2026)" [level=1] [ref=e14]
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - heading "Location" [level=2] [ref=e18]
+          - paragraph [ref=e19]: Foster City, CA
+        - generic [ref=e20]:
+          - heading "Employment Type" [level=2] [ref=e21]
+          - paragraph [ref=e22]: Intern
+        - generic [ref=e23]:
+          - heading "Location Type" [level=2] [ref=e24]
+          - paragraph [ref=e25]: Hybrid
+        - generic [ref=e26]:
+          - heading "Department" [level=2] [ref=e27]
+          - paragraph [ref=e28]:
+            - generic [ref=e29]: Engineering ›
+            - generic [ref=e30]: Early Career
+      - generic [ref=e31]:
+        - tablist [ref=e32]:
+          - tab "Overview" [selected] [ref=e33] [cursor=pointer]
+          - tab "Application" [ref=e34] [cursor=pointer]
+        - tabpanel "Overview" [ref=e36]:
+          - generic [ref=e37]:
+            - paragraph [ref=e38]: Replit is the agentic software creation platform that enables anyone to build applications using natural language. With millions of users worldwide, Replit is democratizing software development by removing traditional barriers to application creation.
+            - paragraph [ref=e39]
+            - paragraph [ref=e40]:
+              - strong [ref=e41]: "About the role:"
+            - paragraph [ref=e42]: Join our engineering team for a 12-week paid internship where you'll work alongside world-class engineers, designers, and product managers to build the future of software creation. You'll contribute to real features that impact millions of developers worldwide, from our AI-powered development environment to the infrastructure that makes lightning-fast collaboration possible.
+            - paragraph [ref=e43]
+            - paragraph [ref=e44]: This isn't just about learning—you'll ship meaningful code that helps democratize software creation. Whether you're optimizing our cloud infrastructure, building intuitive developer tools, or enhancing our AI agents, your work will directly empower creators around the globe.
+            - paragraph [ref=e45]
+            - paragraph [ref=e46]:
+              - strong [ref=e47]: "You will:"
+            - list [ref=e48]:
+              - listitem [ref=e49]:
+                - paragraph [ref=e50]: Ship real features to millions of developers using Replit's platform
+              - listitem [ref=e51]:
+                - paragraph [ref=e52]: Collaborate cross-functionally with engineers, designers, product managers, and AI researchers
+              - listitem [ref=e53]:
+                - paragraph [ref=e54]: Build and optimize developer experiences that make coding accessible to everyone
+              - listitem [ref=e55]:
+                - paragraph [ref=e56]: Work on cutting-edge AI tools and infrastructure that power the next generation of software creation
+              - listitem [ref=e57]:
+                - paragraph [ref=e58]: Learn from the best in an environment where your ideas are heard and often implemented
+            - paragraph [ref=e59]
+            - paragraph [ref=e60]:
+              - strong [ref=e61]: "Required skills and experience:"
+            - list [ref=e62]:
+              - listitem [ref=e63]:
+                - paragraph [ref=e64]: Currently pursuing a Bachelor's, Master's, or PhD in Computer Science, Computer Engineering, or related technical field
+              - listitem [ref=e65]:
+                - paragraph [ref=e66]: Have at least one semester of schooling remaining after the internship completion
+              - listitem [ref=e67]:
+                - paragraph [ref=e68]: Proficient in at least one programming language and comfortable with full stack development
+              - listitem [ref=e69]:
+                - paragraph [ref=e70]: Passionate about developer tools, AI, or making technology more accessible
+              - listitem [ref=e71]:
+                - paragraph [ref=e72]: Thrive in fast-paced environments where you can move quickly and adapt to changing priorities
+            - paragraph [ref=e73]
+            - paragraph [ref=e74]:
+              - strong [ref=e75]: What we value
+              - text: ":"
+            - list [ref=e76]:
+              - listitem [ref=e77]:
+                - paragraph [ref=e78]: "Problem-solving mindset: Ability to approach complex operational challenges systematically and devise effective solutions"
+              - listitem [ref=e79]:
+                - paragraph [ref=e80]: "Self-directed and autonomous: Capable of working independently while collaborating effectively with cross-functional teams"
+              - listitem [ref=e81]:
+                - paragraph [ref=e82]: "Strong communication skills: Ability to explain complex technical concepts to both technical and non-technical audiences"
+              - listitem [ref=e83]:
+                - paragraph [ref=e84]: "Continuous learning: Passion for staying current with industry best practices and new technologies"
+              - listitem [ref=e85]:
+                - paragraph [ref=e86]: "Focus on automation: Strong belief in automating repetitive tasks and building self-healing systems"
+            - paragraph [ref=e87]
+            - paragraph [ref=e88]:
+              - strong [ref=e89]: "Full-Time Employee Benefits Include:"
+            - paragraph [ref=e90]: 💰 Competitive Salary & Equity
+            - paragraph [ref=e91]:
+              - text: 💹 401(k) Program with a 4% match (
+              - emphasis [ref=e92]: US Only
+              - text: )
+            - paragraph [ref=e93]: ⚕️ Health, Dental, Vision and Life Insurance
+            - paragraph [ref=e94]: 🩼 Short Term and Long Term Disability
+            - paragraph [ref=e95]: 🚼 Paid Parental, Medical, Caregiver Leave
+            - paragraph [ref=e96]: 🏝 Flexible Time Off (FTO) + Holidays
+            - paragraph [ref=e97]:
+              - text: 🚗 Commuter Benefits (
+              - emphasis [ref=e98]: In-Office Only
+              - text: )
+            - paragraph [ref=e99]: 📱 Monthly Wellness Stipend
+            - paragraph [ref=e100]: 🧑‍💻 Autonomous Work Environment
+            - paragraph [ref=e101]:
+              - text: 🖥 In Office Set-Up Reimbursement (
+              - emphasis [ref=e102]: In-Office Only
+              - text: )
+            - paragraph [ref=e103]: 🚀 Quarterly Team Gatherings
+            - paragraph [ref=e104]:
+              - text: ☕ In Office Amenities (
+              - emphasis [ref=e105]: In-Office Only
+              - text: )
+            - paragraph [ref=e106]
+            - paragraph [ref=e107]:
+              - strong [ref=e108]: Want to learn more about what we are up to?
+            - list [ref=e109]:
+              - listitem [ref=e110]:
+                - paragraph [ref=e111]:
+                  - link "Meet the Replit Agent" [ref=e112] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=IYiVPrxY8-Y
+              - listitem [ref=e113]:
+                - paragraph [ref=e114]:
+                  - 'link "Replit: Make an app for that" [ref=e115] [cursor=pointer]':
+                    - /url: https://www.youtube.com/watch?v=4zd9hzngFwY
+              - listitem [ref=e116]:
+                - paragraph [ref=e117]:
+                  - link "Replit Blog" [ref=e118] [cursor=pointer]:
+                    - /url: https://blog.replit.com/
+              - listitem [ref=e119]:
+                - paragraph [ref=e120]:
+                  - link "Amjad TED Talk" [ref=e121] [cursor=pointer]:
+                    - /url: https://youtu.be/kCudFI4tcpg?si=l4ViCejV_f2RZkDi
+            - paragraph [ref=e122]:
+              - strong [ref=e123]: Interviewing + Culture at Replit
+            - list [ref=e124]:
+              - listitem [ref=e125]:
+                - paragraph [ref=e126]:
+                  - link "Operating Principles" [ref=e127] [cursor=pointer]:
+                    - /url: https://blog.replit.com/operating-principles
+              - listitem [ref=e128]:
+                - paragraph [ref=e129]:
+                  - link "Reasons not to work at Replit" [ref=e130] [cursor=pointer]:
+                    - /url: https://blog.replit.com/reasons-not-to-join-replit
+            - paragraph [ref=e131]
+            - paragraph [ref=e132]: To achieve our mission of making programming more accessible around the world, we need our team to be representative of the world. We welcome your unique perspective and experiences in shaping this product. We encourage people from all kinds of backgrounds to apply, including and especially candidates from underrepresented and non-traditional backgrounds.
+          - link "Apply for this Job" [ref=e133] [cursor=pointer]:
+            - /url: /replit/12737078-74c7-4e63-98a7-5e8da1e9deb1/application?utm_source=1Zx6V2PngV
+            - button "Apply for this Job" [ref=e134]
+  - contentinfo [ref=e135]:
+    - link "Learn more about Ashby" [ref=e136] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=e137]: Powered by
+      - img "Ashby" [ref=e138]
+    - paragraph [ref=e144]:
+      - link "Privacy Policy" [ref=e145] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=e146] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=e147] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

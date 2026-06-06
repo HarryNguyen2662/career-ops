@@ -1,0 +1,135 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - navigation "main navigation" [ref=e8]:
+      - link "Skip to main content" [ref=e9] [cursor=pointer]:
+        - /url: "#main-container"
+      - link "Company logo" [ref=e10] [cursor=pointer]:
+        - /url: http://netflix.eightfold.ai/careers
+        - img "Company logo" [ref=e11]
+      - generic [ref=e13]:
+        - link "CAREERS" [ref=e14] [cursor=pointer]:
+          - /url: https://jobs.netflix.com/
+        - link "LOCATIONS" [ref=e15] [cursor=pointer]:
+          - /url: https://jobs.netflix.com/locations
+        - button "ONLY AT NETFLIX" [ref=e17] [cursor=pointer]:
+          - generic [ref=e19]: ONLY AT NETFLIX
+        - link "NETFLIX HOUSE" [ref=e22] [cursor=pointer]:
+          - /url: https://apply.netflixhouse.com/careers
+    - main [ref=e23]:
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e30]:
+            - generic [ref=e31]:
+              - generic [ref=e32]: software engineer new grad
+              - generic [ref=e33]:
+                - combobox "Search jobs by keyword" [ref=e35]
+                - generic [ref=e37]: 
+            - generic "Clear value" [ref=e38] [cursor=pointer]:
+              - button "Clear search" [ref=e39]: x
+          - generic [ref=e43]:
+            - generic [ref=e44]: City, state, zip code or "remote"
+            - generic [ref=e45]:
+              - combobox "City, state, zip code or \"remote\"" [ref=e47]
+              - generic [ref=e49]: 
+          - generic [ref=e51]:
+            - button "Go" [ref=e53] [cursor=pointer]
+            - button "Advanced Options " [ref=e56] [cursor=pointer]:
+              - text: Advanced Options
+              - generic [ref=e57]: 
+        - 'button "Sort by: Relevance " [ref=e61] [cursor=pointer]':
+          - generic [ref=e62]: "Sort by: Relevance"
+          - generic [ref=e63]: 
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - button [ref=e72] [cursor=pointer]:
+            - generic [ref=e73]:
+              - img [ref=e75]
+              - status [ref=e78]:
+                - generic [ref=e79]:
+                  - strong [ref=e80]: 129 open jobs.
+                  - text: Use your resume/CV to get matched with the right job.
+                - generic [ref=e81]: Upload your resume/CV
+          - generic [ref=e82] [cursor=pointer]: 
+        - generic [ref=e86]:
+          - generic [ref=e88]:
+            - generic [ref=e89]: Selecting an option from the list below will update the main content
+            - list [ref=e91]:
+              - button "Software Engineer L4/L5, Model Serving Systems, Machine Learning Platform" [ref=e92] [cursor=pointer]:
+                - generic [ref=e94]: Software Engineer L4/L5, Model Serving Systems, Machine Learning Platform
+                - paragraph [ref=e95]:
+                  - generic [ref=e96]: 
+                  - text: USA - Remote
+                - generic [ref=e98]: Data & Insights
+              - button "Software Engineer L4/L5 - Data and Feature Infrastructure, Machine Learning Platform" [ref=e101] [cursor=pointer]:
+                - generic [ref=e103]: Software Engineer L4/L5 - Data and Feature Infrastructure, Machine Learning Platform
+                - paragraph [ref=e104]:
+                  - generic [ref=e105]: 
+                  - text: USA - Remote
+                - generic [ref=e107]: Data & Insights
+              - button "Software Engineer 4 - Ads Pricing & Packaging" [ref=e110] [cursor=pointer]:
+                - generic [ref=e112]: Software Engineer 4 - Ads Pricing & Packaging
+                - paragraph [ref=e113]:
+                  - generic [ref=e114]: 
+                  - text: New York, New York, United States of America and 3 more
+                - generic [ref=e116]: Engineering
+              - button "Software Engineer 5 - Ads Audience Activation" [ref=e117] [cursor=pointer]:
+                - generic [ref=e119]: Software Engineer 5 - Ads Audience Activation
+                - paragraph [ref=e120]:
+                  - generic [ref=e121]: 
+                  - text: New York, New York, United States of America and 3 more
+                - generic [ref=e123]: Engineering
+              - button "Software Engineer 5 - Ads Signals Conversion API" [ref=e124] [cursor=pointer]:
+                - generic [ref=e126]: Software Engineer 5 - Ads Signals Conversion API
+                - paragraph [ref=e127]:
+                  - generic [ref=e128]: 
+                  - text: New York, New York, United States of America and 3 more
+                - generic [ref=e130]: Engineering
+              - button "Software Engineer 5 - Ads Identity Graph" [ref=e131] [cursor=pointer]:
+                - generic [ref=e133]: Software Engineer 5 - Ads Identity Graph
+                - paragraph [ref=e134]:
+                  - generic [ref=e135]: 
+                  - text: New York, New York, United States of America and 3 more
+                - generic [ref=e137]: Engineering
+              - button "Software Engineer 5 - Ads Member Experience" [ref=e138] [cursor=pointer]:
+                - generic [ref=e140]: Software Engineer 5 - Ads Member Experience
+                - paragraph [ref=e141]:
+                  - generic [ref=e142]: 
+                  - text: New York, New York, United States of America and 1 more
+                - generic [ref=e144]: Engineering
+              - button "Software Engineer 5 - Live Ads Management" [ref=e145] [cursor=pointer]:
+                - generic [ref=e147]: Software Engineer 5 - Live Ads Management
+                - paragraph [ref=e148]:
+                  - generic [ref=e149]: 
+                  - text: Los Gatos, California, United States of America and 1 more
+                - generic [ref=e151]: Engineering
+              - button "Software Engineer 6 - Ads Pricing & Packaging" [ref=e152] [cursor=pointer]:
+                - generic [ref=e154]: Software Engineer 6 - Ads Pricing & Packaging
+                - paragraph [ref=e155]:
+                  - generic [ref=e156]: 
+                  - text: Los Gatos, California, United States of America and 1 more
+                - generic [ref=e158]: Engineering
+              - button "Software Engineer 5 - Ads Engineering" [ref=e159] [cursor=pointer]:
+                - generic [ref=e161]: Software Engineer 5 - Ads Engineering
+                - paragraph [ref=e162]:
+                  - generic [ref=e163]: 
+                  - text: Los Gatos, California, United States of America and 3 more
+                - generic [ref=e165]: Engineering
+            - button "Show More Positions" [ref=e169] [cursor=pointer]
+          - generic [ref=e176]: The job you are looking for may have closed.
+  - generic [ref=e178]:
+    - link [ref=e180] [cursor=pointer]:
+      - /url: ""
+      - img [ref=e181]
+    - generic [ref=e182]:
+      - link "Netflix House" [ref=e183] [cursor=pointer]:
+        - /url: https://apply.netflixhouse.com/careers
+      - link "About Us" [ref=e184] [cursor=pointer]:
+        - /url: https://about.netflix.com/en
+      - link "Privacy" [ref=e185] [cursor=pointer]:
+        - /url: https://jobs.netflix.com/candidate-privacy
+      - link "Cookie Preferences" [ref=e186] [cursor=pointer]:
+        - /url: "#"
+  - iframe [ref=e189]:
+    - generic [ref=f33e6]:
+      - text: protected by
+      - strong [ref=f33e7]: reCAPTCHA

@@ -1,0 +1,705 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - paragraph [ref=e7]:
+          - link "DoorDash" [ref=e8] [cursor=pointer]:
+            - /url: https://careersatdoordash.com/
+            - img "DoorDash" [ref=e9]
+        - navigation "Main Navigation" [ref=e10]:
+          - list "submenu" [ref=e12]:
+            - listitem [ref=e13]:
+              - link "Mission & Values" [ref=e14] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/mission-and-values/
+            - listitem [ref=e15]:
+              - link "Working at DoorDash" [ref=e16] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/working-at-doordash/
+            - listitem [ref=e17]:
+              - link "Belonging" [ref=e18] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/belonging/
+            - listitem [ref=e19]:
+              - link "Blogs" [ref=e20] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/blog/
+            - listitem [ref=e21]:
+              - link "Career Areas" [ref=e22] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/career-areas/
+            - listitem [ref=e23]:
+              - link "Engineering" [ref=e24] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/career-areas/engineering/
+            - listitem [ref=e25]:
+              - link "SevenRooms" [ref=e26] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/career-areas/sevenrooms/
+            - listitem [ref=e27]:
+              - link "Search Jobs" [ref=e28] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/job-search/
+    - generic [ref=e29]:
+      - generic [ref=e33]:
+        - paragraph [ref=e34]: Job Search
+        - heading "Outdo yourself – and then do it again" [level=1] [ref=e36]:
+          - text: Outdo yourself
+          - text: – and then do it again
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - textbox "Search Keyword" [ref=e40]
+          - textbox "Search Location" [ref=e41]
+          - button [ref=e42] [cursor=pointer]:
+            - img [ref=e43]
+        - generic:
+          - generic [ref=e46]:
+            - heading "Function" [level=5] [ref=e48]
+            - generic [ref=e50]:
+              - generic [ref=e51] [cursor=pointer]: Fulfillment
+              - generic [ref=e52] [cursor=pointer]: Product Management
+              - generic [ref=e53] [cursor=pointer]: Software Engineering
+              - generic [ref=e54] [cursor=pointer]: Machine Learning Engineering
+              - generic [ref=e55] [cursor=pointer]: Technical Program Management
+              - generic [ref=e56] [cursor=pointer]: Labs QA Engineering
+              - generic [ref=e57] [cursor=pointer]: Data Engineering
+              - generic [ref=e58] [cursor=pointer]: Data Science
+              - generic [ref=e59] [cursor=pointer]: Food Service
+              - generic [ref=e60] [cursor=pointer]: Labs Operations
+              - generic [ref=e61] [cursor=pointer]: Customer Support
+              - generic [ref=e62] [cursor=pointer]: FP&A
+              - generic [ref=e63] [cursor=pointer]: Research & Design
+              - generic [ref=e64] [cursor=pointer]: Business Systems Analyst
+              - generic [ref=e65] [cursor=pointer]: Trust & Safety
+              - generic [ref=e66] [cursor=pointer]: Strategy & Operations
+              - generic [ref=e67] [cursor=pointer]: Merchant Services
+              - generic [ref=e68] [cursor=pointer]: Enterprise Ad Sales
+              - generic [ref=e69] [cursor=pointer]: Sales Emerging Business
+              - generic [ref=e70] [cursor=pointer]: Merchant Partner
+              - generic [ref=e71] [cursor=pointer]: Hardware Engineering
+              - generic [ref=e72] [cursor=pointer]: Enterprise Sales
+              - generic [ref=e73] [cursor=pointer]: SMB Account Management
+              - generic [ref=e74] [cursor=pointer]: Enterprise Account Management
+              - generic [ref=e75] [cursor=pointer]: Customer Experience
+              - generic [ref=e76] [cursor=pointer]: Sales Operations
+              - generic [ref=e77] [cursor=pointer]: Internal Audit
+              - generic [ref=e78] [cursor=pointer]: Talent Acquisition
+              - generic [ref=e79] [cursor=pointer]: SMB Sales
+              - generic [ref=e80] [cursor=pointer]: SMB Inside Sales
+              - generic [ref=e81] [cursor=pointer]: EA/Administrative
+              - generic [ref=e82] [cursor=pointer]: Growth Marketing
+              - generic [ref=e83] [cursor=pointer]: Sales Development
+              - generic [ref=e84] [cursor=pointer]: Brand Marketing
+              - generic [ref=e85] [cursor=pointer]: Accounting Support
+              - generic [ref=e86] [cursor=pointer]: Physical Security
+              - generic [ref=e87] [cursor=pointer]: Solutions Architect
+              - generic [ref=e88] [cursor=pointer]: People Technology
+              - generic [ref=e89] [cursor=pointer]: Security Governance Risk & Compliance
+              - generic [ref=e90] [cursor=pointer]: Sales Engineering
+              - generic [ref=e91] [cursor=pointer]: Autonomy Engineering
+              - generic [ref=e92] [cursor=pointer]: Business Development
+              - generic [ref=e93] [cursor=pointer]: IT Project Management
+              - generic [ref=e94] [cursor=pointer]: Sales Emerging Business Account Management
+              - generic [ref=e95] [cursor=pointer]: Communications
+              - generic [ref=e96] [cursor=pointer]: Learning & Development
+              - generic [ref=e97] [cursor=pointer]: Enterprise Software Engineering
+              - generic [ref=e98] [cursor=pointer]: Security Engineering
+              - generic [ref=e99] [cursor=pointer]: Corporate Counsel
+              - generic [ref=e100] [cursor=pointer]: People Specialist
+              - generic [ref=e101] [cursor=pointer]: Paralegal
+              - generic [ref=e102] [cursor=pointer]: Operational Excellence
+              - generic [ref=e103] [cursor=pointer]: Project Management
+              - generic [ref=e104] [cursor=pointer]: IT Infrastructure
+              - generic [ref=e105] [cursor=pointer]: Facilities Team
+              - generic [ref=e106] [cursor=pointer]: Policy & Government Relations
+              - generic [ref=e107] [cursor=pointer]: Service Operations
+              - generic [ref=e108] [cursor=pointer]: Business Intelligence
+              - generic [ref=e109] [cursor=pointer]: Economic Research
+              - generic [ref=e110] [cursor=pointer]: Compensation
+              - generic [ref=e111] [cursor=pointer]: Workforce Planning
+              - generic [ref=e112] [cursor=pointer]: Legal Operations
+              - generic [ref=e113] [cursor=pointer]: People Business Partner
+          - generic [ref=e115]:
+            - heading "Department" [level=5] [ref=e117]
+            - generic [ref=e119]:
+              - generic [ref=e120] [cursor=pointer]: DashMart
+              - generic [ref=e121] [cursor=pointer]: Product
+              - generic [ref=e122] [cursor=pointer]: Engineering
+              - generic [ref=e123] [cursor=pointer]: DoorDash Labs
+              - generic [ref=e124] [cursor=pointer]: Analytics & Data Science
+              - generic [ref=e125] [cursor=pointer]: Kitchens
+              - generic [ref=e126] [cursor=pointer]: Customer Experience, Strategy and Operations
+              - generic [ref=e127] [cursor=pointer]: Finance
+              - generic [ref=e128] [cursor=pointer]: Design
+              - generic [ref=e129] [cursor=pointer]: Sales Strategy
+              - generic [ref=e130] [cursor=pointer]: Support Operations
+              - generic [ref=e131] [cursor=pointer]: Trust & Safety
+              - generic [ref=e132] [cursor=pointer]: Strategy & Operations
+              - generic [ref=e133] [cursor=pointer]: Operations
+              - generic [ref=e134] [cursor=pointer]: Enterprise Sales
+              - generic [ref=e135] [cursor=pointer]: Merchant Strategy & Operations
+              - generic [ref=e136] [cursor=pointer]: DoorDash for Business
+              - generic [ref=e137] [cursor=pointer]: Sales Operations
+              - generic [ref=e138] [cursor=pointer]: Inside Post Sale
+              - generic [ref=e139] [cursor=pointer]: Accounting
+              - generic [ref=e140] [cursor=pointer]: Recruiting
+              - generic [ref=e141] [cursor=pointer]: Ads & Promotions
+              - generic [ref=e142] [cursor=pointer]: Outside Sales
+              - generic [ref=e143] [cursor=pointer]: Inside Pre-Sales
+              - generic [ref=e144] [cursor=pointer]: Account Management
+              - generic [ref=e145] [cursor=pointer]: New Business Verticals
+              - generic [ref=e146] [cursor=pointer]: Marketing
+              - generic [ref=e147] [cursor=pointer]: Business Development
+              - generic [ref=e148] [cursor=pointer]: DoorDash Drive
+              - generic [ref=e149] [cursor=pointer]: Workplace, Real Estate, & Security
+              - generic [ref=e150] [cursor=pointer]: People
+              - generic [ref=e151] [cursor=pointer]: Legal
+              - generic [ref=e152] [cursor=pointer]: Communications
+              - generic [ref=e153] [cursor=pointer]: Marketplace Operations
+              - generic [ref=e154] [cursor=pointer]: Platform Operations
+              - generic [ref=e155] [cursor=pointer]: Product Operations
+              - generic [ref=e156] [cursor=pointer]: Global Support and Integrity Operations
+              - generic [ref=e157] [cursor=pointer]: IT
+              - generic [ref=e158] [cursor=pointer]: Merchant Operations
+              - generic [ref=e159] [cursor=pointer]: Administrative
+              - generic [ref=e160] [cursor=pointer]: Public Policy
+              - generic [ref=e161] [cursor=pointer]: Compensation
+          - generic [ref=e163]:
+            - heading "Intern & Entry-Level" [level=5] [ref=e165]
+            - generic [ref=e168] [cursor=pointer]: Toggle
+        - generic [ref=e170]:
+          - button "Expand Filter Options" [ref=e171] [cursor=pointer]:
+            - generic [ref=e172]: Expand
+            - generic [ref=e173]: Filter Options
+          - link "Reset All Filters" [ref=e175] [cursor=pointer]:
+            - /url: https://careersatdoordash.com/job-search
+      - generic [ref=e177]:
+        - paragraph [ref=e179]: 1 – 25 of 707
+        - generic [ref=e180]:
+          - generic [ref=e181]:
+            - generic [ref=e182]:
+              - generic [ref=e183]:
+                - link "Associate Manager, Partner Integrations" [ref=e185] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/associate-manager-partner-integrations/7963190
+                - generic [ref=e186]: "Job ID: 3457354"
+              - generic [ref=e187]:
+                - generic [ref=e188]: Location
+                - generic [ref=e189]: New York, NY; San Francisco, CA; Atlanta, GA; Washington, DC; Phoenix, AZ; Denver, CO
+              - generic [ref=e191]:
+                - generic [ref=e193]:
+                  - generic [ref=e194]: Department
+                  - generic [ref=e195]: Merchant Strategy & Operations
+                - generic [ref=e197]:
+                  - generic [ref=e198]: Function
+                  - generic [ref=e199]: Strategy & Operations
+              - link "View Job" [ref=e201] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/associate-manager-partner-integrations/7963190
+                - text: View Job
+            - generic [ref=e202]:
+              - generic [ref=e203]:
+                - link "Shift Lead - St. Paul" [ref=e205] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/shift-lead---st-paul/7968806
+                - generic [ref=e206]: "Job ID: 2778943"
+              - generic [ref=e207]:
+                - generic [ref=e208]: Location
+                - generic [ref=e209]: St Paul, MN
+              - generic [ref=e211]:
+                - generic [ref=e213]:
+                  - generic [ref=e214]: Department
+                  - generic [ref=e215]: DashMart
+                - generic [ref=e217]:
+                  - generic [ref=e218]: Function
+                  - generic [ref=e219]: Fulfillment
+              - link "View Job" [ref=e221] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/shift-lead---st-paul/7968806
+                - text: View Job
+            - generic [ref=e222]:
+              - generic [ref=e223]:
+                - link "Operations Specialist, Commercial Operations Specialist" [ref=e225] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/operations-specialist-commercial-operations-specialist/7967497
+                - generic [ref=e226]: "Job ID: 3458729"
+              - generic [ref=e227]:
+                - generic [ref=e228]: Location
+                - generic [ref=e229]: Concord, CA
+              - generic [ref=e231]:
+                - generic [ref=e233]:
+                  - generic [ref=e234]: Department
+                  - generic [ref=e235]: DoorDash Labs
+                - generic [ref=e237]:
+                  - generic [ref=e238]: Function
+                  - generic [ref=e239]: Labs Operations
+              - link "View Job" [ref=e241] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/operations-specialist-commercial-operations-specialist/7967497
+                - text: View Job
+            - generic [ref=e242]:
+              - generic [ref=e243]:
+                - link "Associate Manager, Sales Planning & Strategy, DoorDash for Business" [ref=e245] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/associate-manager-sales-planning-strategy-doordash-for-business/7962075
+                - generic [ref=e246]: "Job ID: 3456953"
+              - generic [ref=e247]:
+                - generic [ref=e248]: Location
+                - generic [ref=e249]: New York, NY
+              - generic [ref=e251]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Department
+                  - generic [ref=e255]: DoorDash for Business
+                - generic [ref=e257]:
+                  - generic [ref=e258]: Function
+                  - generic [ref=e259]: Sales Operations
+              - link "View Job" [ref=e261] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/associate-manager-sales-planning-strategy-doordash-for-business/7962075
+                - text: View Job
+            - generic [ref=e262]:
+              - generic [ref=e263]:
+                - link "Senior Account Executive" [ref=e265] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/senior-account-executive/7967906
+                - generic [ref=e266]: "Job ID: 3426216"
+              - generic [ref=e267]:
+                - generic [ref=e268]: Location
+                - generic [ref=e269]: Houston, TX
+              - generic [ref=e271]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Department
+                  - generic [ref=e275]: Outside Sales
+                - generic [ref=e277]:
+                  - generic [ref=e278]: Function
+                  - generic [ref=e279]: Sales Emerging Business
+              - link "View Job" [ref=e281] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/senior-account-executive/7967906
+                - text: View Job
+            - generic [ref=e282]:
+              - generic [ref=e283]:
+                - link "LOPOP Support Representative" [ref=e285] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/lopop-support-representative/7967737
+                - generic [ref=e286]: "Job ID: 3356887"
+              - generic [ref=e287]:
+                - generic [ref=e288]: Location
+                - generic [ref=e289]: Mexico City, Mexico
+              - generic [ref=e291]:
+                - generic [ref=e293]:
+                  - generic [ref=e294]: Department
+                  - generic [ref=e295]: Support Operations
+                - generic [ref=e297]:
+                  - generic [ref=e298]: Function
+                  - generic [ref=e299]: Customer Support
+              - link "View Job" [ref=e301] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/lopop-support-representative/7967737
+                - text: View Job
+            - generic [ref=e302]:
+              - generic [ref=e303]:
+                - link "Staff Machine Learning Engineer, Fulfillment Planning" [ref=e305] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/staff-machine-learning-engineer-fulfillment-planning/7962110
+                - generic [ref=e306]: "Job ID: 2728442"
+              - generic [ref=e307]:
+                - generic [ref=e308]: Location
+                - generic [ref=e309]: San Francisco, CA; Sunnyvale, CA
+              - generic [ref=e311]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Department
+                  - generic [ref=e315]: Engineering
+                - generic [ref=e317]:
+                  - generic [ref=e318]: Function
+                  - generic [ref=e319]: Machine Learning Engineering
+              - link "View Job" [ref=e321] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/staff-machine-learning-engineer-fulfillment-planning/7962110
+                - text: View Job
+            - generic [ref=e322]:
+              - generic [ref=e323]:
+                - link "Senior Associate, Consumer Integrated Marketing - Local Marketing, Top SMBs" [ref=e325] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/senior-associate-consumer-integrated-marketing---local-marketing-top-smbs/7958931
+                - generic [ref=e326]: "Job ID: 3455621"
+              - generic [ref=e327]:
+                - generic [ref=e328]: Location
+                - generic [ref=e329]: New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Sunnyvale, CA; Chicago, IL; Austin, TX; Denver, CO; Atlanta, GA; Miami, FL; Boston, MA; Washington D.C
+              - generic [ref=e331]:
+                - generic [ref=e333]:
+                  - generic [ref=e334]: Department
+                  - generic [ref=e335]: Marketing
+                - generic [ref=e337]:
+                  - generic [ref=e338]: Function
+                  - generic [ref=e339]: Growth Marketing
+              - link "View Job" [ref=e341] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/senior-associate-consumer-integrated-marketing---local-marketing-top-smbs/7958931
+                - text: View Job
+            - generic [ref=e342]:
+              - generic [ref=e343]:
+                - link "Associate Manager, Consumer Integrated Marketing - New Verticals Habituation" [ref=e345] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/associate-manager-consumer-integrated-marketing---new-verticals-habituation/7958799
+                - generic [ref=e346]: "Job ID: 3455564"
+              - generic [ref=e347]:
+                - generic [ref=e348]: Location
+                - generic [ref=e349]: New York, NY; San Francisco, CA; Chicago, IL; Denver, CO; Boston, MA; Austin, TX; Atlanta, GA; Miami, FL; Seattle, WA; Washington D.C.; United States - Remote
+              - generic [ref=e351]:
+                - generic [ref=e353]:
+                  - generic [ref=e354]: Department
+                  - generic [ref=e355]: Marketing
+                - generic [ref=e357]:
+                  - generic [ref=e358]: Function
+                  - generic [ref=e359]: Growth Marketing
+              - link "View Job" [ref=e361] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/associate-manager-consumer-integrated-marketing---new-verticals-habituation/7958799
+                - text: View Job
+            - generic [ref=e362]:
+              - generic [ref=e363]:
+                - link "Operations Manager - Toronto" [ref=e365] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/operations-manager---toronto/7958743
+                - generic [ref=e366]: "Job ID: 3455544"
+              - generic [ref=e367]:
+                - generic [ref=e368]: Location
+                - generic [ref=e369]: Toronto, ON
+              - generic [ref=e371]:
+                - generic [ref=e373]:
+                  - generic [ref=e374]: Department
+                  - generic [ref=e375]: DashMart
+                - generic [ref=e377]:
+                  - generic [ref=e378]: Function
+                  - generic [ref=e379]: Fulfillment
+              - link "View Job" [ref=e381] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/operations-manager---toronto/7958743
+                - text: View Job
+            - generic [ref=e382]:
+              - generic [ref=e383]:
+                - link "Account Manager, Restaurants" [ref=e385] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/account-manager-restaurants/7960863
+                - generic [ref=e386]: "Job ID: 3316762"
+              - generic [ref=e387]:
+                - generic [ref=e388]: Location
+                - generic [ref=e389]: Los Angeles, CA
+              - generic [ref=e391]:
+                - generic [ref=e393]:
+                  - generic [ref=e394]: Department
+                  - generic [ref=e395]: Inside Post Sale
+                - generic [ref=e397]:
+                  - generic [ref=e398]: Function
+                  - generic [ref=e399]: SMB Account Management
+              - link "View Job" [ref=e401] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/account-manager-restaurants/7960863
+                - text: View Job
+            - generic [ref=e402]:
+              - generic [ref=e403]:
+                - link "Senior Implementation Partner, In-Store" [ref=e405] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/senior-implementation-partner-in-store/7964074
+                - generic [ref=e406]: "Job ID: 3323840"
+              - generic [ref=e407]:
+                - generic [ref=e408]: Location
+                - generic [ref=e409]: Atlanta, GA; New York, NY; San Francisco, CA; Los Angeles, CA; Chicago, IL
+              - generic [ref=e411]:
+                - generic [ref=e413]:
+                  - generic [ref=e414]: Department
+                  - generic [ref=e415]: Sales Operations
+                - generic [ref=e417]:
+                  - generic [ref=e418]: Function
+                  - generic [ref=e419]: Sales Engineering
+              - link "View Job" [ref=e421] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/senior-implementation-partner-in-store/7964074
+                - text: View Job
+            - generic [ref=e422]:
+              - generic [ref=e423]:
+                - link "DashMart Variable Schedule Team Member" [ref=e425] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/dashmart-variable-schedule-team-member/7766386
+                - generic [ref=e426]: "Job ID: 3306311"
+              - generic [ref=e427]:
+                - generic [ref=e428]: Location
+                - generic [ref=e429]: Phoenix, AZ
+              - generic [ref=e431]:
+                - generic [ref=e433]:
+                  - generic [ref=e434]: Department
+                  - generic [ref=e435]: DashMart
+                - generic [ref=e437]:
+                  - generic [ref=e438]: Function
+                  - generic [ref=e439]: Fulfillment
+              - link "View Job" [ref=e441] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/dashmart-variable-schedule-team-member/7766386
+                - text: View Job
+            - generic [ref=e442]:
+              - generic [ref=e443]:
+                - link "Engineering Manager, Advertiser Experience" [ref=e445] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/engineering-manager-advertiser-experience/7963175
+                - generic [ref=e446]: "Job ID: 2728459"
+              - generic [ref=e447]:
+                - generic [ref=e448]: Location
+                - generic [ref=e449]: New York, NY
+              - generic [ref=e451]:
+                - generic [ref=e453]:
+                  - generic [ref=e454]: Department
+                  - generic [ref=e455]: Engineering
+                - generic [ref=e457]:
+                  - generic [ref=e458]: Function
+                  - generic [ref=e459]: Software Engineering
+              - link "View Job" [ref=e461] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/engineering-manager-advertiser-experience/7963175
+                - text: View Job
+            - generic [ref=e462]:
+              - generic [ref=e463]:
+                - link "Site Manager" [ref=e465] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/site-manager/7960785
+                - generic [ref=e466]: "Job ID: 3456485"
+              - generic [ref=e467]:
+                - generic [ref=e468]: Location
+                - generic [ref=e469]: Pittsburgh, PA
+              - generic [ref=e471]:
+                - generic [ref=e473]:
+                  - generic [ref=e474]: Department
+                  - generic [ref=e475]: DashMart
+                - generic [ref=e477]:
+                  - generic [ref=e478]: Function
+                  - generic [ref=e479]: Fulfillment
+              - link "View Job" [ref=e481] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/site-manager/7960785
+                - text: View Job
+            - generic [ref=e482]:
+              - generic [ref=e483]:
+                - link "Account Manager, Restaurants" [ref=e485] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/account-manager-restaurants/7958977
+                - generic [ref=e486]: "Job ID: 3316762"
+              - generic [ref=e487]:
+                - generic [ref=e488]: Location
+                - generic [ref=e489]: Boston, MA
+              - generic [ref=e491]:
+                - generic [ref=e493]:
+                  - generic [ref=e494]: Department
+                  - generic [ref=e495]: Inside Post Sale
+                - generic [ref=e497]:
+                  - generic [ref=e498]: Function
+                  - generic [ref=e499]: SMB Account Management
+              - link "View Job" [ref=e501] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/account-manager-restaurants/7958977
+                - text: View Job
+            - generic [ref=e502]:
+              - generic [ref=e503]:
+                - link "Manager, Dasher & Logistics Strategy & Operations" [ref=e505] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/manager-dasher-logistics-strategy-operations/7958787
+                - generic [ref=e506]: "Job ID: 3455563"
+              - generic [ref=e507]:
+                - generic [ref=e508]: Location
+                - generic [ref=e509]: New York, NY; Austin, TX; Washington D.C.; San Francisco, CA; Sunnyvale, CA; Seattle, WA; Los Angeles, CA; Chicago, IL
+              - generic [ref=e511]:
+                - generic [ref=e513]:
+                  - generic [ref=e514]: Department
+                  - generic [ref=e515]: Strategy & Operations
+                - generic [ref=e517]:
+                  - generic [ref=e518]: Function
+                  - generic [ref=e519]: Strategy & Operations
+              - link "View Job" [ref=e521] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/manager-dasher-logistics-strategy-operations/7958787
+                - text: View Job
+            - generic [ref=e522]:
+              - generic [ref=e523]:
+                - link "Associate Manager, Marketplace - Restaurant Growth Strategy & Operations" [ref=e525] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/associate-manager-marketplace---restaurant-growth-strategy-operations/7961650
+                - generic [ref=e526]: "Job ID: 3334458"
+              - generic [ref=e527]:
+                - generic [ref=e528]: Location
+                - generic [ref=e529]: New York, NY
+              - generic [ref=e531]:
+                - generic [ref=e533]:
+                  - generic [ref=e534]: Department
+                  - generic [ref=e535]: Strategy & Operations
+                - generic [ref=e537]:
+                  - generic [ref=e538]: Function
+                  - generic [ref=e539]: Strategy & Operations
+              - link "View Job" [ref=e541] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/associate-manager-marketplace---restaurant-growth-strategy-operations/7961650
+                - text: View Job
+            - generic [ref=e542]:
+              - generic [ref=e543]:
+                - link "Senior People Transformation Strategist" [ref=e545] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/senior-people-transformation-strategist/7961072
+                - generic [ref=e546]: "Job ID: 3406989"
+              - generic [ref=e547]:
+                - generic [ref=e548]: Location
+                - generic [ref=e549]: New York, NY; Boston, MA; Washington D.C.; Philadelphia, PA; Miami, FL; Atlanta, GA; United States - Remote
+              - generic [ref=e551]:
+                - generic [ref=e553]:
+                  - generic [ref=e554]: Department
+                  - generic [ref=e555]: People
+                - generic [ref=e557]:
+                  - generic [ref=e558]: Function
+                  - generic [ref=e559]: People Specialist
+              - link "View Job" [ref=e561] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/senior-people-transformation-strategist/7961072
+                - text: View Job
+            - generic [ref=e562]:
+              - generic [ref=e563]:
+                - link "Sales Development Representative - San Francisco" [ref=e565] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/sales-development-representative---san-francisco/7960964
+                - generic [ref=e566]: "Job ID: 3326789"
+              - generic [ref=e567]:
+                - generic [ref=e568]: Location
+                - generic [ref=e569]: San Francisco, CA
+              - generic [ref=e571]:
+                - generic [ref=e573]:
+                  - generic [ref=e574]: Department
+                  - generic [ref=e575]: Inside Pre-Sales
+                - generic [ref=e577]:
+                  - generic [ref=e578]: Function
+                  - generic [ref=e579]: Sales Development
+              - link "View Job" [ref=e581] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/sales-development-representative---san-francisco/7960964
+                - text: View Job
+            - generic [ref=e582]:
+              - generic [ref=e583]:
+                - link "Sales Development Representative - New York" [ref=e585] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/sales-development-representative---new-york/7960959
+                - generic [ref=e586]: "Job ID: 3326789"
+              - generic [ref=e587]:
+                - generic [ref=e588]: Location
+                - generic [ref=e589]: New York, NY
+              - generic [ref=e591]:
+                - generic [ref=e593]:
+                  - generic [ref=e594]: Department
+                  - generic [ref=e595]: Inside Pre-Sales
+                - generic [ref=e597]:
+                  - generic [ref=e598]: Function
+                  - generic [ref=e599]: Sales Development
+              - link "View Job" [ref=e601] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/sales-development-representative---new-york/7960959
+                - text: View Job
+            - generic [ref=e602]:
+              - generic [ref=e603]:
+                - link "Account Manager, Platform Innovation" [ref=e605] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/account-manager-platform-innovation/7958917
+                - generic [ref=e606]: "Job ID: 3455620"
+              - generic [ref=e607]:
+                - generic [ref=e608]: Location
+                - generic [ref=e609]: San Francisco, CA; Los Angeles, CA
+              - generic [ref=e611]:
+                - generic [ref=e613]:
+                  - generic [ref=e614]: Department
+                  - generic [ref=e615]: Platform Operations
+                - generic [ref=e617]:
+                  - generic [ref=e618]: Function
+                  - generic [ref=e619]: SMB Account Management
+              - link "View Job" [ref=e621] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/account-manager-platform-innovation/7958917
+                - text: View Job
+            - generic [ref=e622]:
+              - generic [ref=e623]:
+                - link "Senior Technical Program Manager, Tech and Insights" [ref=e625] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/senior-technical-program-manager-tech-and-insights/7959393
+                - generic [ref=e626]: "Job ID: 3406207"
+              - generic [ref=e627]:
+                - generic [ref=e628]: Location
+                - generic [ref=e629]: Minneapolis, MN; Washington D.C.; Atlanta, GA; Nashville, TN; United States - Remote
+              - generic [ref=e631]:
+                - generic [ref=e633]:
+                  - generic [ref=e634]: Department
+                  - generic [ref=e635]: People
+                - generic [ref=e637]:
+                  - generic [ref=e638]: Function
+                  - generic [ref=e639]: IT Project Management
+              - link "View Job" [ref=e641] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/senior-technical-program-manager-tech-and-insights/7959393
+                - text: View Job
+            - generic [ref=e642]:
+              - generic [ref=e643]:
+                - link "Fraud Insights Operations Analyst" [ref=e645] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/fraud-insights-operations-analyst/7958651
+                - generic [ref=e646]: "Job ID: 3455516"
+              - generic [ref=e647]:
+                - generic [ref=e648]: Location
+                - generic [ref=e649]: United States
+              - generic [ref=e651]:
+                - generic [ref=e653]:
+                  - generic [ref=e654]: Department
+                  - generic [ref=e655]: Strategy & Operations
+                - generic [ref=e657]:
+                  - generic [ref=e658]: Function
+                  - generic [ref=e659]: Trust & Safety
+              - link "View Job" [ref=e661] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/fraud-insights-operations-analyst/7958651
+                - text: View Job
+            - generic [ref=e662]:
+              - generic [ref=e663]:
+                - link "WFM Forecasting & Capacity Planning Analyst" [ref=e665] [cursor=pointer]:
+                  - /url: https://careersatdoordash.com/jobs/wfm-forecasting-capacity-planning-analyst/7958689
+                - generic [ref=e666]: "Job ID: 3446546"
+              - generic [ref=e667]:
+                - generic [ref=e668]: Location
+                - generic [ref=e669]: Mexico City, Mexico
+              - generic [ref=e671]:
+                - generic [ref=e673]:
+                  - generic [ref=e674]: Department
+                  - generic [ref=e675]: Support Operations
+                - generic [ref=e677]:
+                  - generic [ref=e678]: Function
+                  - generic [ref=e679]: Workforce Planning
+              - link "View Job" [ref=e681] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/jobs/wfm-forecasting-capacity-planning-analyst/7958689
+                - text: View Job
+          - generic [ref=e683]:
+            - generic [ref=e685] [cursor=pointer]: Previous
+            - navigation "Pagination" [ref=e686]:
+              - listitem [ref=e687]: "1"
+              - listitem [ref=e688]:
+                - generic "Page 2" [ref=e689] [cursor=pointer]: "2"
+              - listitem [ref=e690]:
+                - generic "Page 3" [ref=e691] [cursor=pointer]: "3"
+              - listitem [ref=e692]:
+                - generic "Page 4" [ref=e693] [cursor=pointer]: "4"
+              - listitem [ref=e694]:
+                - generic "Page 5" [ref=e695] [cursor=pointer]: "5"
+            - generic "Next page" [ref=e697] [cursor=pointer]: Next
+      - generic [ref=e699]:
+        - heading "Stay Connected" [level=2] [ref=e700]
+        - generic [ref=e701]:
+          - paragraph [ref=e702]: Be the first to hear about our latest job openings, recruiting events, and exciting breakthroughs.
+          - link "(Rejoignez notre French Talent Network lci)" [ref=e703] [cursor=pointer]:
+            - /url: https://www.gem.com/form?formID=2f57e8db-dcdf-47b1-a95d-94298973923a
+        - link "Join Our Talent Network" [ref=e705] [cursor=pointer]:
+          - /url: https://www.gem.com/form?formID=49e87e7d-3ed2-4d15-911c-58158e4a516e
+    - contentinfo [ref=e706]:
+      - generic [ref=e708]:
+        - link "DoorDash" [ref=e711] [cursor=pointer]:
+          - /url: ""
+          - img "DoorDash" [ref=e712]
+        - navigation "Footer Menu" [ref=e714]:
+          - list [ref=e716]:
+            - listitem [ref=e717]:
+              - link "Careers Home" [ref=e718] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e719]:
+              - link "Mission & Values" [ref=e720] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/mission-and-values/
+            - listitem [ref=e721]:
+              - link "Working at DoorDash" [ref=e722] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/working-at-doordash/
+            - listitem [ref=e723]:
+              - link "Belonging" [ref=e724] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/belonging/
+            - listitem [ref=e725]:
+              - link "Career Areas" [ref=e726] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/career-areas/
+            - listitem [ref=e727]:
+              - link "University Careers" [ref=e728] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/university-careers/
+            - listitem [ref=e729]:
+              - link "Career Blog" [ref=e730] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/blog/
+            - listitem [ref=e731]:
+              - link "Talent Network" [ref=e732] [cursor=pointer]:
+                - /url: https://www.gem.com/form?formID=49e87e7d-3ed2-4d15-911c-58158e4a516e
+            - listitem [ref=e733]:
+              - link "Search Jobs" [ref=e734] [cursor=pointer]:
+                - /url: https://careersatdoordash.com/job-search/
+        - paragraph [ref=e736]: "Statement of Non-Discrimination: In keeping with our beliefs and goals, no employee or applicant will face discrimination or harassment based on: race, color, ancestry, national origin, religion, age, gender, marital/domestic partner status, sexual orientation, gender identity or expression, disability status, or veteran status. Above and beyond discrimination and harassment based on “protected categories,” we also strive to prevent other subtler forms of inappropriate behavior (i.e., stereotyping) from ever gaining a foothold in our office. Whether blatant or hidden, barriers to success have no place at DoorDash. We value a diverse workforce – people who identify as women, nonbinary or gender non-conforming, LGBTQIA+, American Indian or Native Alaskan, Black or African American, Hispanic or Latinx, Native Hawaiian or Other Pacific Islander, differently-abled, caretakers and parents, and veterans are strongly encouraged to apply. Thank you to the Level Playing Field Institute for this statement of non-discrimination."
+    - generic [ref=e739]:
+      - generic [ref=e740]:
+        - link "Terms of Service" [ref=e741] [cursor=pointer]:
+          - /url: https://help.doordash.com/consumers/s/terms-and-conditions-us?language=en_US
+        - link "Consumer Privacy" [ref=e742] [cursor=pointer]:
+          - /url: https://help.doordash.com/consumers/s/privacy-policy-us?language=en_US
+        - link "Applicant Privacy Notice" [ref=e743] [cursor=pointer]:
+          - /url: https://help.doordash.com/legal/document?type=ax-privacy-notice&region=US&locale=en-US
+        - paragraph [ref=e744]: © 2026 DoorDash
+      - generic [ref=e745]:
+        - link [ref=e746] [cursor=pointer]:
+          - /url: https://twitter.com/doordash?lang=en
+          - img [ref=e747]
+        - link [ref=e749] [cursor=pointer]:
+          - /url: https://www.facebook.com/DoorDash/
+          - img [ref=e750]
+        - link [ref=e752] [cursor=pointer]:
+          - /url: https://www.instagram.com/doordash/?hl=en
+          - img [ref=e753]
+        - link [ref=e755] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/doordash/
+          - img [ref=e756]
+        - link [ref=e758] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCXQ7Gzszfuw84cEWGpKlFiQ
+          - img [ref=e759]
+  - 'complementary "Language selected: English"'

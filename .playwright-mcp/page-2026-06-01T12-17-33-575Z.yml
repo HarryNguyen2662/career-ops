@@ -1,0 +1,315 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-1780316251"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - navigation [ref=e8]:
+        - generic [ref=e9]:
+          - button "menu" [ref=e10] [cursor=pointer]
+          - link "Amazon Jobs home page" [ref=e12] [cursor=pointer]:
+            - /url: /en
+            - generic [ref=e14]: Amazon Jobs home page
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - combobox "Search for jobs by title or keyword" [ref=e21]
+            - generic [ref=e23]:
+              - text: h
+              - combobox "search job by location" [ref=e25]
+          - button "Search jobs" [ref=e26] [cursor=pointer]
+        - menu [ref=e30] [cursor=pointer]: My career
+      - generic: h
+      - generic [ref=e31]:
+        - generic [ref=e35]:
+          - generic [ref=e37]:
+            - heading "Software Development Engineer – 2026" [level=1] [ref=e38]
+            - paragraph [ref=e40]: "Job ID: 3119044 | AMZN Dev Cntr Poland sp. z.o.o - C35"
+          - link "Apply now for Software Development Engineer – 2026" [ref=e43] [cursor=pointer]:
+            - /url: https://www.amazon.jobs/applicant/jobs/3119044/apply
+            - text: Apply now
+        - generic [ref=e45]:
+          - generic [ref=e47]:
+            - generic [ref=e48]:
+              - iframe [ref=e50]:
+                - generic [active] [ref=f19e1]:
+                  - generic "YouTube Video Player" [ref=f19e3]
+                  - generic [ref=f19e5]:
+                    - generic:
+                      - generic:
+                        - button "Play video" [ref=f19e10] [cursor=pointer]:
+                          - generic [ref=f19e13]:
+                            - img
+                        - button "Hide player controls" [ref=f19e14] [cursor=pointer]
+                        - generic [ref=f19e16]:
+                          - generic [ref=f19e21]:
+                            - generic [ref=f19e22]:
+                              - link "Amazon Software Development Engineers – Student Hires Around the World" [ref=f19e23] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=BVpkY1H-0qE
+                              - link "Inside Amazon" [ref=f19e24] [cursor=pointer]:
+                                - /url: /channel/UCfMZivQCMFckB1b9O0NuG7Q
+                                - generic [ref=f19e25]: Inside Amazon
+                            - generic [ref=f19e26]:
+                              - button "thumbnail-image" [ref=f19e27] [cursor=pointer]:
+                                - img "thumbnail-image" [ref=f19e28]
+                              - generic [ref=f19e30]:
+                                - generic: Inside Amazon
+                                - generic: 105K subscribers
+                          - generic [ref=f19e31]:
+                            - button "Copy link" [ref=f19e34] [cursor=pointer]:
+                              - generic [ref=f19e38]:
+                                - img
+                            - link "Watch on YouTube" [ref=f19e45] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=BVpkY1H-0qE
+                              - generic [ref=f19e48]:
+                                - text: Watch on
+                                - img [ref=f19e50]:
+                                  - generic [ref=f19e52]:
+                                    - img
+              - link "View transcript" [ref=e52] [cursor=pointer]:
+                - /url: https://m.media-amazon.com/images/G/01/sp/CMS/student-programs-sde-transcript.docx
+            - generic [ref=e53]:
+              - heading "Description" [level=2] [ref=e54]
+              - paragraph [ref=e55]:
+                - text: Do you want to solve real customer problems through innovative technology? Do you enjoy working on scalable services in a collaborative team environment? Do you want to see your code directly impact millions of customers worldwide?
+                - text: At Amazon, we hire the best minds in technology to innovate and build on behalf of our customers. Customer obsession is part of our company DNA, which has made us one of the world's most beloved brands.
+                - text: Our Software Development Engineers (SDEs) use modern technology to solve complex problems while seeing their work's impact first-hand. The challenges SDEs solve at Amazon are meaningful and influence millions of customers, sellers, and products globally. We seek individuals passionate about creating new products, features, and services while managing ambiguity in an environment where development cycles are measured in weeks, not years.
+                - text: At Amazon, we believe in ownership at every level. As an SDE-I, you'll own the entire lifecycle of your code - from design through deployment and ongoing operations. This ownership mindset, combined with our commitment to operational excellence, ensures we deliver the highest quality solutions for our customers.
+                - text: We're looking for curious minds who think big and want to define tomorrow's technology. At Amazon, you'll grow into the high-impact engineer you know you can be, supported by a culture of learning and mentorship. Every day brings exciting new challenges and opportunities for personal growth.
+                - text: The base pay salary for this position is listed below. As a total compensation company, Amazon's package may include further pay components such as a sign on bonus and the eligibility to participate in a restricted stock unit scheme operated independently by Amazon.com Inc. in USA. Your recruiting team will share final base pay and any applicable total compensation elements depending on skills and requirements.
+                - text: Company discretionary, supplementary benefits apply subject to further terms, including pension plans, health insurance, life and disability insurance, business travel insurance, MultiSport card, discounts for meals at the company’s canteen, employee discount code and program (EDC/Extras), and the Employee Assistance Program (private and confidential counselling and referral service to support health and well-being).
+                - text: The base pay for this position is PLN 15,000 monthly.
+                - text: Key job responsibilities
+                - text: "- Collaborate and communicate effectively with experienced cross-disciplinary Amazonians to design, build, and operate innovative products and services that delight our customers, while participating in technical discussions to drive solutions forward"
+                - text: "- Design and develop scalable solutions using cloud-native architectures and microservices in a large distributed computing environment"
+                - text: "- Participate in code reviews and contribute to technical documentation"
+                - text: "- Build and maintain resilient distributed systems that are scalable, fault-tolerant, and cost-effective"
+                - text: "- Leverage and contribute to the development of GenAI and AI-powered tools to enhance development productivity while staying current with emerging technologies"
+                - text: "- Write clean, maintainable code following best practices and design patterns"
+                - text: "- Work in an agile environment practicing CI/CD principles while participating in operational responsibilities including on-call duties"
+                - text: "- Demonstrate operational excellence through monitoring, troubleshooting, and resolving production issues"
+            - generic [ref=e56]:
+              - heading "Basic Qualifications" [level=2] [ref=e57]
+              - paragraph [ref=e58]:
+                - text: "- Education Requirements (must meet one): Currently enrolled in Bachelor's degree or above in Computer Science, Computer Engineering, Data Science, Information Systems, or related STEM fields OR Completed Bachelor's or Graduate degree in specified fields"
+                - text: "- Expected graduation between October 2025 - September 2026, OR graduated within the last 24 months"
+                - text: "- Demonstrated experience with at least one general-purpose programming language such as Java, Python, C++, C#, Go, Rust, or TypeScript"
+                - text: "- Demonstrated experience one or more of the following: Data structures implementation, Basic algorithm development, Object-oriented design principles"
+            - generic [ref=e59]:
+              - heading "Preferred Qualifications" [level=2] [ref=e60]
+              - paragraph [ref=e61]:
+                - text: "- Previous technical internship(s) or demonstrated project experience"
+                - text: "- Experience with one or more of the following: AI tools for development productivity, Cloud platforms (preferably AWS), Database systems (SQL and NoSQL), Contributing to open-source projects, Version control systems, Debugging and troubleshooting complex systems"
+                - text: "- Strong problem-solving and analytical skills"
+                - text: "- Excellent written and verbal communication skills"
+                - text: "- Demonstrated ability to learn and adapt to new technologies quickly"
+                - text: "- Basic understanding of software development lifecycle (SDLC)"
+                - text: Amazon is an equal opportunities employer. We believe passionately that employing a diverse workforce is central to our success. We make recruiting decisions based on your experience and skills. We value your passion to discover, invent, simplify and build. Protecting your privacy and the security of your data is a longstanding top priority for Amazon. Please consult our Privacy Notice (
+                - link "https://www.amazon.jobs/en/privacy_page" [ref=e62] [cursor=pointer]:
+                  - /url: https://www.amazon.jobs/en/privacy_page
+                - text: ) to know more about how we collect, use and transfer the personal data of our candidates.
+                - text: Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit
+                - link "https://amazon.jobs/content/en/how-we-hire/accommodations" [ref=e63] [cursor=pointer]:
+                  - /url: https://amazon.jobs/content/en/how-we-hire/accommodations
+                - text: for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - heading "Job details" [level=2] [ref=e68]
+              - list [ref=e69]:
+                - listitem [ref=e70]:
+                  - generic [ref=e71]:
+                    - img "location"
+                    - list [ref=e72]:
+                      - listitem [ref=e73]: POL, Gdansk
+                - listitem [ref=e74]:
+                  - generic [ref=e75]:
+                    - img "team"
+                    - list [ref=e76]:
+                      - link "Team Jobs for grads" [ref=e77] [cursor=pointer]:
+                        - /url: /en/teams/jobs-for-grads
+                        - text: Jobs for grads
+                - listitem [ref=e78]:
+                  - generic [ref=e79]:
+                    - img "category"
+                    - list [ref=e80]:
+                      - link "Job category Software Development" [ref=e81] [cursor=pointer]:
+                        - /url: /en/job_categories/software-development
+                        - text: Software Development
+            - generic [ref=e85]:
+              - heading "Recommended jobs" [level=2] [ref=e86]
+              - paragraph [ref=e87]: "Based on your recent activity, you may be interested in:"
+              - list [ref=e88]:
+                - listitem [ref=e89]:
+                  - link "Software Development Engineer – 2026" [ref=e90] [cursor=pointer]:
+                    - /url: /en/jobs/3175845/software-development-engineer-2026
+                  - generic [ref=e91]: "Location: ES, Community of Madrid, Madrid"
+                  - generic [ref=e92]:
+                    - generic [ref=e93]: "Posted: February 6, 2026"
+                    - text: (Updated 6 days ago)
+                - listitem [ref=e94]:
+                  - link "Software Development Engineer – 2026" [ref=e95] [cursor=pointer]:
+                    - /url: /en/jobs/3119226/software-development-engineer-2026
+                  - generic [ref=e96]: "Location: RO, Iasi"
+                  - generic [ref=e97]:
+                    - generic [ref=e98]: "Posted: October 31, 2025"
+                    - text: (Updated 7 months ago)
+                - listitem [ref=e99]:
+                  - link "Graduate Area/Shift Manager - Trento" [ref=e100] [cursor=pointer]:
+                    - /url: /en/jobs/3053445/graduate-area-shift-manager-trento
+                  - generic [ref=e101]: "Location: IT, Trentino-Alto Adige, Trento"
+                  - generic [ref=e102]: (Updated 27 days ago)
+                - listitem [ref=e103]:
+                  - link "UX Researcher Intern" [ref=e104] [cursor=pointer]:
+                    - /url: /en/jobs/10390972/ux-researcher-intern
+                  - generic [ref=e105]: "Location: ES, Community of Madrid, Madrid"
+                  - generic [ref=e106]:
+                    - generic [ref=e107]: "Posted: April 14, 2026"
+                    - text: (Updated about 1 month ago)
+                - listitem [ref=e108]:
+                  - link "Software Dev Engineer Machine Learning" [ref=e109] [cursor=pointer]:
+                    - /url: /en/jobs/10405578/software-dev-engineer-machine-learning
+                  - generic [ref=e110]: "Location: ES, Community of Madrid, Madrid"
+                  - generic [ref=e111]: (Updated about 1 month ago)
+            - generic [ref=e113]:
+              - heading "Share this job" [level=2] [ref=e116]
+              - list [ref=e118]:
+                - listitem [ref=e119]:
+                  - link "Share with facebook" [ref=e120] [cursor=pointer]:
+                    - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.amazon.jobs%2Fen%2Fjobs%2F3119044%2Fsoftware-development-engineer-2026
+                    - text: b
+                - listitem [ref=e121]:
+                  - link "Share with linkedin" [ref=e122] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.amazon.jobs%2Fen%2Fjobs%2F3119044%2Fsoftware-development-engineer-2026&title=Software%20Development%20Engineer%20%E2%80%93%202026%20%20&summary=Do%20you%20want%20to%20solve%20real%20customer%20problems%20through%20innovative%20technology%3F%20Do%20you%20enjoy%20working%20on%20scalable%20services%20in%20a%20collaborative%20team%20environment%3F%20Do%20you%20want%20to%20see%20your%20code%20directly%20impact%20millions%20of%20customers%20worldwide%3F%20%3Cbr%2F%3E%3Cbr%2F%3EAt...
+                    - text: d
+                - listitem [ref=e123]:
+                  - link "Share with twitter" [ref=e124] [cursor=pointer]:
+                    - /url: https://twitter.com/intent/tweet?text=https%3A%2F%2Fwww.amazon.jobs%2Fen%2Fjobs%2F3119044
+                    - text: j
+                - listitem [ref=e125]:
+                  - link "Share with email" [ref=e126] [cursor=pointer]:
+                    - /url: mailto:?body=https%3A%2F%2Fwww.amazon.jobs%2Fen%2Fjobs%2F3119044&subject=Take%20a%20look%20at%20this%20job
+                    - text: l
+                - listitem [ref=e127]:
+                  - link "Print this job" [ref=e128] [cursor=pointer]:
+                    - /url: "#"
+                    - text: m
+    - generic [ref=e129]:
+      - generic [ref=e132]:
+        - generic [ref=e133]: JOIN US ON
+        - list [ref=e134]:
+          - listitem [ref=e135]:
+            - link "Join us on facebook" [ref=e136] [cursor=pointer]:
+              - /url: https://www.facebook.com/InsideAmazon/?Amazon.jobs=footer
+              - text: b
+          - listitem [ref=e137]:
+            - link "Join us on linkedin" [ref=e138] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/amazon?Amazon.jobs=footer
+              - text: d
+          - listitem [ref=e139]:
+            - link "Join us on instagram" [ref=e140] [cursor=pointer]:
+              - /url: https://www.instagram.com/insideamazon/?Amazon.jobs=footer
+              - text: c
+          - listitem [ref=e141]:
+            - link "Join us on twitter" [ref=e142] [cursor=pointer]:
+              - /url: https://twitter.com/amazonnews?Amazon.jobs=footer
+              - text: j
+        - generic [ref=e143]:
+          - generic [ref=e144]: DOWNLOAD OUR APP
+          - list [ref=e145]:
+            - listitem [ref=e146]:
+              - link "Download Amazon A to Z from App Store" [ref=e147] [cursor=pointer]:
+                - /url: https://apple.co/4mW6qxK
+                - img [ref=e148]
+            - listitem [ref=e149]:
+              - link "Download Amazon A to Z from Google Play" [ref=e150] [cursor=pointer]:
+                - /url: https://bit.ly/46JGIYu
+                - img [ref=e151]
+      - generic [ref=e155]:
+        - generic [ref=e156]:
+          - text: Find Careers
+          - list [ref=e157]:
+            - listitem [ref=e158]:
+              - link "Job Categories" [ref=e159] [cursor=pointer]:
+                - /url: /content/en/job-categories
+            - listitem [ref=e160]:
+              - link "Teams" [ref=e161] [cursor=pointer]:
+                - /url: /content/en/teams
+            - listitem [ref=e162]:
+              - link "Locations" [ref=e163] [cursor=pointer]:
+                - /url: /content/en/locations
+            - listitem [ref=e164]:
+              - link "Military careers" [ref=e165] [cursor=pointer]:
+                - /url: /content/en/career-programs/military
+            - listitem [ref=e166]:
+              - link "Hourly" [ref=e167] [cursor=pointer]:
+                - /url: /content/en/hourly
+        - generic [ref=e168]:
+          - text: Working At Amazon
+          - list [ref=e169]:
+            - listitem [ref=e170]:
+              - link "Culture" [ref=e171] [cursor=pointer]:
+                - /url: /content/en/our-workplace
+            - listitem [ref=e172]:
+              - link "Benefits" [ref=e173] [cursor=pointer]:
+                - /url: /content/en/benefits
+            - listitem [ref=e174]:
+              - link "Amazon Newsletter" [ref=e175] [cursor=pointer]:
+                - /url: https://email.aboutamazon.com/l/637851/2020-10-29/pd87g?utm_campaign=newslettersubscribers&utm_content=amazonnewssignup&utm_medium=amazonjobs&utm_source=footer
+            - listitem [ref=e176]:
+              - link "Inclusive experiences" [ref=e177] [cursor=pointer]:
+                - /url: /content/en/our-workplace/inclusive-experiences
+            - listitem [ref=e178]:
+              - link "Leadership Principles" [ref=e179] [cursor=pointer]:
+                - /url: /content/en/our-workplace/leadership-principles
+        - generic [ref=e180]:
+          - text: Help
+          - list [ref=e181]:
+            - listitem [ref=e182]:
+              - link "FAQ" [ref=e183] [cursor=pointer]:
+                - /url: /content/en/faq
+            - listitem [ref=e184]:
+              - link "How We Hire" [ref=e185] [cursor=pointer]:
+                - /url: /content/en/how-we-hire#onlineapp
+            - listitem [ref=e186]:
+              - link "Application status" [ref=e187] [cursor=pointer]:
+                - /url: https://www.amazon.jobs/applicant/check_application_status
+            - listitem [ref=e188]:
+              - link "Accommodations" [ref=e189] [cursor=pointer]:
+                - /url: /content/en/how-we-hire/accommodations
+            - listitem [ref=e190]:
+              - link "Legal disclosures and notices" [ref=e191] [cursor=pointer]:
+                - /url: /content/en/legal-disclosures-and-notices
+        - combobox "English" [ref=e197] [cursor=pointer]: English
+      - generic [ref=e199]:
+        - generic [ref=e201]:
+          - generic [ref=e202]: Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.
+          - generic [ref=e203]:
+            - link "Privacy and Data" [ref=e204] [cursor=pointer]:
+              - /url: /en/privacy_page
+            - link "Impressum" [ref=e205] [cursor=pointer]:
+              - /url: /en/impressum
+          - generic [ref=e206]: © 1996-2026, Amazon.com, Inc. or its affiliates
+        - generic [ref=e207]:
+          - generic [ref=e208]:
+            - heading "Notice of Right to Opt-Out Sharing" [level=3] [ref=e210]
+            - paragraph [ref=e211]:
+              - text: Amazon Jobs uses cookies and similar tools such as pixels (collectively, “cookies”) for advertising purposes. The cookies collect and share information about you with third-parties to serve you with relevant advertisements and job recommendations based on your interactions with Amazon Jobs and third-party sites. California residents may exercise their right to opt-out of the sharing of information for advertising purposes by clicking toggling the buttons below. You can also manage your cookie preferences through the
+              - link "Cookie Preference Center" [ref=e212] [cursor=pointer]:
+                - /url: /cookies
+              - text: .
+            - paragraph [ref=e213]:
+              - text: For more information about how we use cookies and information of how we collect cookies, please visit our
+              - link "Candidate Cookie Notice" [ref=e214] [cursor=pointer]:
+                - /url: /privacy_page?region_id=region_us&notice_id=us-cookies-notice-english
+              - text: and
+              - link "Candidate Privacy Notice" [ref=e215] [cursor=pointer]:
+                - /url: /privacy_page?region_id=region_us&notice_id=us-privacy-english
+              - text: and the
+              - link "California supplement notice" [ref=e216] [cursor=pointer]:
+                - /url: /privacy_page?region_id=region_california&notice_id=california-privacy-english
+              - text: .
+          - list [ref=e218]:
+            - listitem [ref=e219]:
+              - button "Accept" [ref=e220] [cursor=pointer]: Accept all
+            - listitem [ref=e221]:
+              - button "Reject" [ref=e222] [cursor=pointer]: Reject all
+            - listitem [ref=e223]:
+              - button "Customize" [ref=e224] [cursor=pointer]: Customize cookies

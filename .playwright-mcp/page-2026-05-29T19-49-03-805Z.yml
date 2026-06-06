@@ -1,0 +1,90 @@
+- generic [ref=e2]:
+  - list [ref=e4]:
+    - listitem [ref=e5]:
+      - link "Artie" [ref=e202] [cursor=pointer]:
+        - /url: https://artie.com
+        - img "Artie" [ref=e203]
+    - listitem [ref=e8]:
+      - link "Back to Artie’s Job Listings" [ref=e204] [cursor=pointer]:
+        - /url: /artie
+        - img [ref=e10]
+    - listitem
+  - generic [ref=e12]:
+    - heading "Software Engineer" [level=1] [ref=e205]
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - heading "Location" [level=2] [ref=e206]
+          - paragraph [ref=e19]: San Francisco
+        - generic [ref=e20]:
+          - heading "Employment Type" [level=2] [ref=e207]
+          - paragraph [ref=e22]: Full time
+        - generic [ref=e23]:
+          - heading "Location Type" [level=2] [ref=e208]
+          - paragraph [ref=e25]: On-site
+        - generic [ref=e26]:
+          - heading "Department" [level=2] [ref=e209]
+          - paragraph [ref=e28]: Engineering
+        - generic [ref=e29]:
+          - heading "Compensation" [level=2] [ref=e210]
+          - list [ref=e31]:
+            - listitem [ref=e32]:
+              - generic [ref=e33]: $150K – $300K
+      - generic [ref=e34]:
+        - tablist [ref=e35]:
+          - tab "Overview" [ref=e211] [cursor=pointer]
+          - tab "Application" [selected] [ref=e212] [cursor=pointer]
+        - tabpanel "Application" [ref=e116]:
+          - generic [ref=e117]:
+            - button "Choose File" [ref=e213]
+            - generic [ref=e120]:
+              - generic [ref=e121]:
+                - img [ref=e123]
+                - heading "Autofill from resume" [level=3] [ref=e214]
+              - paragraph [ref=e126]: Upload your resume here to autofill key application fields.
+              - button "Upload file" [ref=e215] [cursor=pointer]
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - generic [ref=e132]: Name*
+              - textbox "Name*" [ref=e216] [cursor=pointer]:
+                - /placeholder: Type here...
+                - text: Harry Nguyen
+            - generic [ref=e135]:
+              - generic [ref=e136]: Email*
+              - textbox "Email*" [ref=e217] [cursor=pointer]:
+                - /placeholder: hello@example.com...
+                - text: harrynguyenswe@gmail.com
+            - generic [ref=e139]:
+              - generic [ref=e140]: Phone Number*
+              - textbox "Phone Number*" [ref=e218] [cursor=pointer]:
+                - /placeholder: 1-415-555-1234...
+                - text: +1 470-667-9000
+            - generic [ref=e142]:
+              - generic [ref=e143]: Location*
+              - generic [ref=e144]:
+                - combobox "Start typing..." [active] [ref=e145] [cursor=pointer]: Atlanta, Georgia, United States
+                - button [ref=e146] [cursor=pointer]:
+                  - img [ref=e147]
+            - generic [ref=e149]:
+              - generic [ref=e150]: Resume*
+              - button "Resume*" [ref=e219]
+              - generic [ref=e152]:
+                - button "Upload File" [ref=e220] [cursor=pointer]:
+                  - img [ref=e154]
+                  - generic [ref=e156]: Upload File
+                - paragraph [ref=e157]: or drag and drop here
+          - button "Submit Application" [ref=e221] [cursor=pointer]:
+            - text: Submit Application
+            - img [ref=e159]
+  - contentinfo [ref=e103]:
+    - link "Learn more about Ashby" [ref=e222] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=e105]: Powered by
+      - img "Ashby" [ref=e223]
+    - paragraph [ref=e112]:
+      - link "Privacy Policy" [ref=e224] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=e225] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=e226] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

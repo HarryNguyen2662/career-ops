@@ -1,0 +1,409 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - link "Everpure Logo" [ref=e5] [cursor=pointer]:
+      - /url: https://www.purestorage.com/company/careers/opportunities.html
+      - img "Everpure Logo" [ref=e6]
+    - generic [ref=e7]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - heading "Software Engineer Grad" [level=1] [ref=e11]
+          - generic [ref=e12]:
+            - img [ref=e13]
+            - generic [ref=e15]: Santa Clara, California
+        - button "Apply" [ref=e16] [cursor=pointer]: Join Us
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - paragraph [ref=e19]: We’re in an unbelievably exciting area of tech and are fundamentally reshaping the data storage industry. Here, you lead with innovative thinking, grow along with us, and join the smartest team in the industry.
+          - paragraph [ref=e20]: This type of work—work that changes the world—is what the tech industry was founded on. So, if you're ready to seize the endless opportunities and leave your mark, come join us.
+        - generic [ref=e21]:
+          - paragraph [ref=e22]:
+            - strong [ref=e23]: THE ROLE
+          - paragraph [ref=e24]: As a Software Engineer Grad, you will be part of a team that's building the future of data storage and management. You’ll apply your foundational knowledge to tackle challenging, real-world problems from low-level hardware to large-scale cloud systems. This role is a unique opportunity to directly contribute to mission-critical features that ensure our customers have a seamless, high-performance, and reliable data experience.
+          - paragraph [ref=e25]:
+            - strong [ref=e26]: WHAT YOU'LL DO
+          - list [ref=e27]:
+            - listitem [ref=e28]:
+              - strong [ref=e29]: "Contribute to core product development:"
+              - text: Take ownership of key tasks within the software development lifecycle, from ideation and design to implementation and testing.
+            - listitem [ref=e30]:
+              - strong [ref=e31]: "Innovate and solve complex problems:"
+              - text: Research and develop solutions for challenges related to data efficiency, such as optimizing data deduplication and reclamation, or improving replication across wide-area networks.
+            - listitem [ref=e32]:
+              - strong [ref=e33]: "Enhance system performance and scalability:"
+              - text: Work on projects that improve the performance of our software, ensuring it scales effectively with ever-increasing data volumes and hardware capabilities.
+            - listitem [ref=e34]:
+              - strong [ref=e35]: "Collaborate across teams:"
+              - text: Partner with senior engineers and cross-functional teams to integrate new features and maintain a high standard of code quality through extensive automated testing.
+            - listitem [ref=e36]: We are primarily an in-office environment and therefore, you will be expected to work from the Santa Clara, CA office in compliance with Everpure's policies, unless you are on PTO, or work travel, or other approved leave
+          - paragraph [ref=e37]:
+            - strong [ref=e38]: WHAT YOU BRING
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - strong [ref=e41]: "Strong computer science fundamentals:"
+              - text: A solid understanding of data structures, algorithms, concurrency, and design principles. You can apply these concepts to solve practical engineering problems.
+            - listitem [ref=e42]:
+              - strong [ref=e43]: "Proficiency in C++:"
+              - text: You're comfortable writing clean, efficient, and well-structured code in C++.
+            - listitem [ref=e44]:
+              - strong [ref=e45]: "Problem-solving aptitude:"
+              - text: A proactive and self-motivated approach to identifying and solving complex problems with a focus on delivering high-quality, impactful results.
+            - listitem [ref=e46]:
+              - strong [ref=e47]: "Collaboration and communication skills:"
+              - text: The ability to articulate complex technical ideas clearly and work effectively in a team-based, open office environment.
+          - paragraph [ref=e48]: "#LI-ONSITE"
+        - generic [ref=e50]:
+          - generic [ref=e53]:
+            - paragraph [ref=e54]
+            - paragraph [ref=e55]:
+              - emphasis [ref=e56]: Salary ranges are determined based on role, level and location. For positions open to candidates in multiple geographical locations, the base salary range is reflective of the labor market across the applicable locations.
+            - paragraph [ref=e57]:
+              - emphasis [ref=e58]: This role may be eligible for incentive pay and/or equity.
+            - paragraph [ref=e59]:
+              - emphasis [ref=e60]: There is no application deadline and we accept applications on an ongoing basis until the job is filled.
+          - paragraph [ref=e61]: "The annual base salary range is:"
+          - paragraph [ref=e62]: $119,000 - $179,000 USD
+        - generic [ref=e63]:
+          - paragraph [ref=e64]:
+            - strong [ref=e65]: "WHAT YOU CAN EXPECT FROM US:"
+          - list [ref=e66]:
+            - listitem [ref=e67]:
+              - strong [ref=e68]: Innovation
+              - text: ": We celebrate those who think critically, like a challenge, and aspire to be trailblazers."
+            - listitem [ref=e69]:
+              - strong [ref=e70]: Growth
+              - text: ": We give you the space and support to grow along with us and to contribute to something meaningful. We have been named Fortune's Best Workplaces in Technology™, Fortune's Best Workplaces in the Bay Area™, and certified as a Great Place to Work®!"
+            - listitem [ref=e71]:
+              - strong [ref=e72]: Team
+              - text: ": We build each other up and set aside ego for the greater good."
+          - paragraph [ref=e73]:
+            - text: And because we understand the value of bringing your full and best self to work, we offer a variety of perks to manage a healthy balance, including flexible time off, wellness resources, and company-sponsored team events. Check out
+            - link "purebenefits.com" [ref=e74] [cursor=pointer]:
+              - /url: http://purebenefits.com
+            - text: for more information.
+          - paragraph [ref=e75]:
+            - strong [ref=e76]: "ACCOMMODATIONS AND ACCESSIBILITY:"
+          - paragraph [ref=e77]:
+            - text: Candidates with disabilities may request accommodations for all aspects of our hiring process. For more on this, contact us at
+            - link "TA-Ops@purestorage.com" [ref=e78] [cursor=pointer]:
+              - /url: mailto:TA-Ops@purestorage.com
+            - text: if you’re invited to an interview.
+          - paragraph [ref=e79]:
+            - strong [ref=e80]: "OUR COMMITMENT TO A STRONG AND INCLUSIVE TEAM:"
+          - paragraph [ref=e81]: We’re forging a future where everyone finds their rightful place and where every voice matters. Where uniqueness isn’t just accepted but embraced. That’s why we are committed to fostering the growth and development of every person, cultivating a sense of community through our Employee Resource Groups and advocating for inclusive leadership.
+          - paragraph [ref=e82]: Everpure is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or any other characteristic legally protected by the laws of the jurisdiction in which you are being considered for hire.
+          - paragraph [ref=e83]:
+            - strong [ref=e84]: Join us and bring your best.
+          - paragraph [ref=e85]:
+            - strong [ref=e86]: Bring your bold.
+          - paragraph [ref=e87]:
+            - strong [ref=e88]: Pure and simple.
+      - generic [ref=e89]:
+        - img [ref=e90]
+        - generic [ref=e92]:
+          - paragraph [ref=e93]: Create a Job Alert
+          - paragraph [ref=e94]: Interested in building your career at Everpure? Get future opportunities sent straight to your email.
+          - button "Create alert" [ref=e95] [cursor=pointer]
+    - separator [ref=e96]
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - heading "Apply for this job" [level=2] [ref=e101]
+          - generic [ref=e102]:
+            - paragraph [ref=e104]: "*"
+            - paragraph [ref=e105]: indicates a required field
+        - button "Quick Apply with MyGreenhouse" [ref=e108] [cursor=pointer]
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - generic [ref=e113]:
+            - generic [ref=e114]: First Name*
+            - textbox "First Name" [ref=e115]
+          - generic [ref=e118]:
+            - generic [ref=e119]: Last Name*
+            - textbox "Last Name" [ref=e120]
+          - generic [ref=e123]:
+            - generic [ref=e124]: Preferred First Name
+            - textbox "Preferred First Name" [ref=e125]
+          - generic [ref=e128]:
+            - generic [ref=e129]: Email*
+            - textbox "Email" [ref=e130]
+          - group "Phone" [ref=e132]:
+            - generic [ref=e133]: Phone
+            - generic [ref=e136]:
+              - generic [ref=e137]: Country*
+              - generic [ref=e138]:
+                - log [ref=e140]
+                - generic [ref=e142]:
+                  - combobox "Country" [ref=e145]
+                  - button "Toggle flyout" [ref=e147] [cursor=pointer]:
+                    - img [ref=e148]
+                - textbox
+            - generic [ref=e152]:
+              - generic [ref=e153]: Phone*
+              - textbox "Phone" [ref=e154]
+          - generic [ref=e155]:
+            - generic [ref=e157]:
+              - generic [ref=e158]: Location (City)*
+              - generic [ref=e159]:
+                - log [ref=e161]
+                - combobox "Location (City)" [ref=e166]
+                - textbox
+            - button "Locate me" [ref=e167] [cursor=pointer]
+          - group "Resume/CV*" [ref=e169]:
+            - generic [ref=e170]: Resume/CV*
+            - generic [ref=e172]:
+              - generic [ref=e174]:
+                - button "Attach" [ref=e175] [cursor=pointer]
+                - generic [ref=e176]: Attach
+                - button "Attach" [ref=e177]
+              - button "Dropbox" [ref=e179] [cursor=pointer]
+              - generic [ref=e181]:
+                - button "Enter manually" [ref=e182] [cursor=pointer]
+                - generic [ref=e183]: Enter manually
+              - paragraph [ref=e184]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - group "Cover Letter" [ref=e186]:
+            - generic [ref=e187]: Cover Letter
+            - generic [ref=e189]:
+              - generic [ref=e191]:
+                - button "Attach" [ref=e192] [cursor=pointer]
+                - generic [ref=e193]: Attach
+                - button "Attach" [ref=e194]
+              - button "Dropbox" [ref=e196] [cursor=pointer]
+              - generic [ref=e198]:
+                - button "Enter manually" [ref=e199] [cursor=pointer]
+                - generic [ref=e200]: Enter manually
+              - paragraph [ref=e201]: "Accepted file types: pdf, doc, docx, txt, rtf"
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - separator [ref=e204]
+            - paragraph [ref=e206]: Education
+            - generic [ref=e208]:
+              - generic [ref=e209]: School
+              - generic [ref=e210]:
+                - log [ref=e212]
+                - generic [ref=e214]:
+                  - generic [ref=e215]:
+                    - generic [ref=e216]: Select...
+                    - combobox "School" [ref=e218]
+                  - button "Toggle flyout" [ref=e220] [cursor=pointer]:
+                    - img [ref=e221]
+            - generic [ref=e224]:
+              - generic [ref=e225]: Degree
+              - generic [ref=e226]:
+                - log [ref=e228]
+                - generic [ref=e230]:
+                  - generic [ref=e231]:
+                    - generic [ref=e232]: Select...
+                    - combobox "Degree" [ref=e234]
+                  - button "Toggle flyout" [ref=e236] [cursor=pointer]:
+                    - img [ref=e237]
+            - generic [ref=e240]:
+              - generic [ref=e241]: Discipline
+              - generic [ref=e242]:
+                - log [ref=e244]
+                - generic [ref=e246]:
+                  - generic [ref=e247]:
+                    - generic [ref=e248]: Select...
+                    - combobox "Discipline" [ref=e250]
+                  - button "Toggle flyout" [ref=e252] [cursor=pointer]:
+                    - img [ref=e253]
+            - generic [ref=e255]:
+              - generic [ref=e256]:
+                - generic [ref=e258]:
+                  - generic [ref=e259]: Start date month
+                  - generic [ref=e260]:
+                    - log [ref=e262]
+                    - generic [ref=e264]:
+                      - generic [ref=e265]:
+                        - generic [ref=e266]: Select...
+                        - combobox "Start date month" [ref=e268]
+                      - button "Toggle flyout" [ref=e270] [cursor=pointer]:
+                        - img [ref=e271]
+                - generic [ref=e274]:
+                  - generic [ref=e275]: Start date year
+                  - spinbutton "Start date year" [ref=e276]
+              - generic [ref=e277]:
+                - generic [ref=e279]:
+                  - generic [ref=e280]: End date month*
+                  - generic [ref=e281]:
+                    - log [ref=e283]
+                    - generic [ref=e285]:
+                      - generic [ref=e286]:
+                        - generic [ref=e287]: Select...
+                        - combobox "End date month" [ref=e289]
+                      - button "Toggle flyout" [ref=e291] [cursor=pointer]:
+                        - img [ref=e292]
+                    - textbox
+                - generic [ref=e295]:
+                  - generic [ref=e296]: End date year*
+                  - spinbutton "End date year" [ref=e297]
+          - button "Add another" [ref=e298] [cursor=pointer]
+        - generic [ref=e299]:
+          - separator [ref=e300]
+          - generic [ref=e303]:
+            - generic [ref=e304]: LinkedIn Profile
+            - textbox "LinkedIn Profile" [ref=e305]
+          - generic [ref=e308]:
+            - generic [ref=e309]: How did you hear about this job?
+            - textbox "How did you hear about this job?" [ref=e310]
+          - generic [ref=e311]:
+            - group "Personal Information Policy *" [ref=e312]:
+              - generic [ref=e313]: Personal Information Policy *
+              - generic [ref=e314]:
+                - checkbox "Acknowledge/Confirm" [ref=e316]
+                - generic [ref=e317]: Acknowledge/Confirm
+            - paragraph [ref=e320]:
+              - text: Wonder how or why Everpure collects or uses any information you provide? Check out our
+              - link "Applicant & Candidate Personal Information Protection Notice" [ref=e321] [cursor=pointer]:
+                - /url: https://www.purestorage.com/content/dam/purestorage/pdf/legal/applicant-candidate-personal-info-privacy-notice.pdf
+              - text: .
+          - generic [ref=e324]:
+            - generic [ref=e325]: Have you previously worked for Everpure?*
+            - generic [ref=e326]:
+              - log [ref=e328]
+              - generic [ref=e330]:
+                - generic [ref=e331]:
+                  - generic [ref=e332]: Select...
+                  - combobox "Have you previously worked for Everpure?" [ref=e334]
+                - button "Toggle flyout" [ref=e336] [cursor=pointer]:
+                  - img [ref=e337]
+              - textbox
+          - generic [ref=e339]:
+            - generic [ref=e341]:
+              - generic [ref=e342]: Does the deemed export rule affect your employment by Everpure?*
+              - generic [ref=e343]:
+                - log [ref=e345]
+                - generic [ref=e347]:
+                  - generic [ref=e348]:
+                    - generic [ref=e349]: Select...
+                    - combobox "Does the deemed export rule affect your employment by Everpure?" [ref=e351]
+                  - button "Toggle flyout" [ref=e353] [cursor=pointer]:
+                    - img [ref=e354]
+                - textbox
+            - paragraph [ref=e358]:
+              - text: US export law restricts Everpure from employing citizens of sanctioned nations (such as Syria, Cuba, Iran, and North Korea
+              - link "FULL LIST" [ref=e359] [cursor=pointer]:
+                - /url: https://www.bis.doc.gov/index.php/policy-guidance/country-guidance/sanctioned-destinations
+              - text: ) who do not hold a second nationality or permanent residence in a non-sanctioned nation. Does this rule affect your employment by Everpure?
+          - generic [ref=e362]:
+            - generic [ref=e363]: Will you now or in the future require sponsorship for employment visa status?*
+            - generic [ref=e364]:
+              - log [ref=e366]
+              - generic [ref=e368]:
+                - generic [ref=e369]:
+                  - generic [ref=e370]: Select...
+                  - combobox "Will you now or in the future require sponsorship for employment visa status?" [ref=e372]
+                - button "Toggle flyout" [ref=e374] [cursor=pointer]:
+                  - img [ref=e375]
+              - textbox
+          - generic [ref=e379]:
+            - generic [ref=e380]: This position will be assigned to the Santa Clara, CA office and employees are expected to work each work day during a normal business week. Are you able to work in-person from this location if selected?*
+            - generic [ref=e381]:
+              - log [ref=e383]
+              - generic [ref=e385]:
+                - generic [ref=e386]:
+                  - generic [ref=e387]: Select...
+                  - combobox "This position will be assigned to the Santa Clara, CA office and employees are expected to work each work day during a normal business week. Are you able to work in-person from this location if selected?" [ref=e389]
+                - button "Toggle flyout" [ref=e391] [cursor=pointer]:
+                  - img [ref=e392]
+              - textbox
+        - generic [ref=e394]:
+          - separator [ref=e395]
+          - generic [ref=e396]:
+            - heading "Voluntary Self-Identification" [level=2] [ref=e397]
+            - paragraph [ref=e398]: For government reporting purposes, we ask candidates to respond to the below self-identification survey. Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a confidential file.
+            - paragraph [ref=e399]: As set forth in Everpure’s Equal Employment Opportunity policy, we do not discriminate on the basis of any protected group status under any applicable law.
+          - generic [ref=e402]:
+            - generic [ref=e403]: Gender
+            - generic [ref=e404]:
+              - log [ref=e406]
+              - generic [ref=e408]:
+                - generic [ref=e409]:
+                  - generic [ref=e410]: Select...
+                  - combobox "Gender" [ref=e412]
+                - button "Toggle flyout" [ref=e414] [cursor=pointer]:
+                  - img [ref=e415]
+          - generic [ref=e417]:
+            - generic [ref=e419]:
+              - generic [ref=e420]: Are you Hispanic/Latino?
+              - generic [ref=e421]:
+                - log [ref=e423]
+                - generic [ref=e425]:
+                  - generic [ref=e426]:
+                    - generic [ref=e427]: Select...
+                    - combobox "Are you Hispanic/Latino?" [ref=e429]
+                  - button "Toggle flyout" [ref=e431] [cursor=pointer]:
+                    - img [ref=e432]
+            - link "Race & Ethnicity Definitions" [ref=e434] [cursor=pointer]:
+              - /url: https://job-boards.cdn.greenhouse.io/docs/2023/RaceEthnicityDefinitions.pdf
+          - generic [ref=e435]:
+            - paragraph [ref=e436]: "If you believe you belong to any of the categories of protected veterans listed below, please indicate by making the appropriate selection. As a government contractor subject to the Vietnam Era Veterans Readjustment Assistance Act (VEVRAA), we request this information in order to measure the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. Classification of protected categories is as follows:"
+            - paragraph [ref=e437]: "A \"disabled veteran\" is one of the following: a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or a person who was discharged or released from active duty because of a service-connected disability."
+            - paragraph [ref=e438]: A "recently separated veteran" means any veteran during the three-year period beginning on the date of such veteran's discharge or release from active duty in the U.S. military, ground, naval, or air service.
+            - paragraph [ref=e439]: An "active duty wartime or campaign badge veteran" means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.
+            - paragraph [ref=e440]: An "Armed forces service medal veteran" means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.
+          - generic [ref=e443]:
+            - generic [ref=e444]: Veteran Status
+            - generic [ref=e445]:
+              - log [ref=e447]
+              - generic [ref=e449]:
+                - generic [ref=e450]:
+                  - generic [ref=e451]: Select...
+                  - combobox "Veteran Status" [ref=e453]
+                - button "Toggle flyout" [ref=e455] [cursor=pointer]:
+                  - img [ref=e456]
+          - separator [ref=e458]
+          - generic [ref=e459]:
+            - heading "Voluntary Self-Identification of Disability" [level=2] [ref=e460]
+            - generic [ref=e461]:
+              - generic [ref=e462]:
+                - generic [ref=e463]: Form CC-305
+                - generic [ref=e464]: Page 1 of 1
+              - generic [ref=e465]:
+                - generic [ref=e466]: OMB Control Number 1250-0005
+                - generic [ref=e467]: Expires 04/30/2026
+            - strong [ref=e468]: Why are you being asked to complete this form?
+            - paragraph [ref=e469]: We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
+            - paragraph [ref=e470]:
+              - text: Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at
+              - link "www.dol.gov/ofccp" [ref=e471] [cursor=pointer]:
+                - /url: https://www.dol.gov/ofccp
+              - text: .
+            - strong [ref=e472]: How do you know if you have a disability?
+            - paragraph [ref=e473]:
+              - text: A disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability.
+              - strong [ref=e474]: "Disabilities include, but are not limited to:"
+            - list [ref=e475]:
+              - listitem [ref=e476]: Alcohol or other substance use disorder (not currently using drugs illegally)
+              - listitem [ref=e477]: Autoimmune disorder, for example, lupus, fibromyalgia, rheumatoid arthritis, HIV/AIDS
+              - listitem [ref=e478]: Blind or low vision
+              - listitem [ref=e479]: Cancer (past or present)
+              - listitem [ref=e480]: Cardiovascular or heart disease
+              - listitem [ref=e481]: Celiac disease
+              - listitem [ref=e482]: Cerebral palsy
+              - listitem [ref=e483]: Deaf or serious difficulty hearing
+              - listitem [ref=e484]: Diabetes
+              - listitem [ref=e485]: Disfigurement, for example, disfigurement caused by burns, wounds, accidents, or congenital disorders
+              - listitem [ref=e486]: Epilepsy or other seizure disorder
+              - listitem [ref=e487]: Gastrointestinal disorders, for example, Crohn's Disease, irritable bowel syndrome
+              - listitem [ref=e488]: Intellectual or developmental disability
+              - listitem [ref=e489]: Mental health conditions, for example, depression, bipolar disorder, anxiety disorder, schizophrenia, PTSD
+              - listitem [ref=e490]: Missing limbs or partially missing limbs
+              - listitem [ref=e491]: Mobility impairment, benefiting from the use of a wheelchair, scooter, walker, leg brace(s) and/or other supports
+              - listitem [ref=e492]: Nervous system condition, for example, migraine headaches, Parkinson’s disease, multiple sclerosis (MS)
+              - listitem [ref=e493]: Neurodivergence, for example, attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, dyslexia, dyspraxia, other learning disabilities
+              - listitem [ref=e494]: Partial or complete paralysis (any cause)
+              - listitem [ref=e495]: Pulmonary or respiratory conditions, for example, tuberculosis, asthma, emphysema
+              - listitem [ref=e496]: Short stature (dwarfism)
+              - listitem [ref=e497]: Traumatic brain injury
+          - generic [ref=e500]:
+            - generic [ref=e501]: Disability Status
+            - generic [ref=e502]:
+              - log [ref=e504]
+              - generic [ref=e506]:
+                - generic [ref=e507]:
+                  - generic [ref=e508]: Select...
+                  - combobox "Disability Status" [ref=e510]
+                - button "Toggle flyout" [ref=e512] [cursor=pointer]:
+                  - img [ref=e513]
+          - paragraph [ref=e516]: "PUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete."
+        - button "Submit application" [ref=e518] [cursor=pointer]

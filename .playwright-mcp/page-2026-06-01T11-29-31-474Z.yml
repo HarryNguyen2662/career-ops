@@ -1,0 +1,435 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - img [ref=e6]
+    - paragraph [ref=e8]: The job you are looking for is no longer open.
+  - main [ref=e9]:
+    - generic [ref=e10]:
+      - link "Sigma Computing Logo" [ref=e12] [cursor=pointer]:
+        - /url: https://www.sigmacomputing.com/
+        - img "Sigma Computing Logo" [ref=e13]
+      - heading "Current openings at Sigma Computing" [level=1] [ref=e14]
+      - generic [ref=e16]:
+        - img [ref=e17]
+        - generic [ref=e19]:
+          - paragraph [ref=e20]: Create a Job Alert
+          - paragraph [ref=e21]: Level-up your career by having opportunities at Sigma Computing sent directly to your inbox.
+          - link "Create alert" [ref=e22] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=sigmacomputing&source=job_alert_board
+      - generic [ref=e23]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: Search
+          - textbox "Search" [ref=e28]
+        - generic [ref=e29]:
+          - heading "67 jobs" [level=2] [ref=e30]
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - heading "Customer Success" [level=3] [ref=e33]
+              - table [ref=e35]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e36]:
+                      - paragraph [ref=e37]: Job
+                - rowgroup [ref=e38]:
+                  - row "Commercial Customer Success Manager San Francisco, CA" [ref=e39]:
+                    - cell "Commercial Customer Success Manager San Francisco, CA" [ref=e40]:
+                      - link "Commercial Customer Success Manager San Francisco, CA" [ref=e41] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7714446003
+                        - paragraph [ref=e42]: Commercial Customer Success Manager
+                        - paragraph [ref=e43]: San Francisco, CA
+                  - row "Enterprise Customer Success Manager New York City, NY" [ref=e44]:
+                    - cell "Enterprise Customer Success Manager New York City, NY" [ref=e45]:
+                      - link "Enterprise Customer Success Manager New York City, NY" [ref=e46] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747554003
+                        - paragraph [ref=e47]: Enterprise Customer Success Manager
+                        - paragraph [ref=e48]: New York City, NY
+                  - row "Enterprise Customer Success Manager Remote, Texas" [ref=e49]:
+                    - cell "Enterprise Customer Success Manager Remote, Texas" [ref=e50]:
+                      - link "Enterprise Customer Success Manager Remote, Texas" [ref=e51] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747555003
+                        - paragraph [ref=e52]: Enterprise Customer Success Manager
+                        - paragraph [ref=e53]: Remote, Texas
+            - generic [ref=e54]:
+              - heading "Design" [level=3] [ref=e55]
+              - table [ref=e57]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e58]:
+                      - paragraph [ref=e59]: Job
+                - rowgroup [ref=e60]:
+                  - row "Senior Product Designer, AI San Francisco, CA" [ref=e61]:
+                    - cell "Senior Product Designer, AI San Francisco, CA" [ref=e62]:
+                      - link "Senior Product Designer, AI San Francisco, CA" [ref=e63] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747569003
+                        - paragraph [ref=e64]: Senior Product Designer, AI
+                        - paragraph [ref=e65]: San Francisco, CA
+            - generic [ref=e66]:
+              - heading "Engineering" [level=3] [ref=e67]
+              - table [ref=e69]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e70]:
+                      - paragraph [ref=e71]: Job
+                - rowgroup [ref=e72]:
+                  - row "Engineering Manager San Francisco, CA" [ref=e73]:
+                    - cell "Engineering Manager San Francisco, CA" [ref=e74]:
+                      - link "Engineering Manager San Francisco, CA" [ref=e75] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747545003
+                        - paragraph [ref=e76]: Engineering Manager
+                        - paragraph [ref=e77]: San Francisco, CA
+                  - row "Senior AI/ML Engineer New York City, NY" [ref=e78]:
+                    - cell "Senior AI/ML Engineer New York City, NY" [ref=e79]:
+                      - link "Senior AI/ML Engineer New York City, NY" [ref=e80] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747540003
+                        - paragraph [ref=e81]: Senior AI/ML Engineer
+                        - paragraph [ref=e82]: New York City, NY
+                  - row "Senior AI/ML Engineer San Francisco, CA" [ref=e83]:
+                    - cell "Senior AI/ML Engineer San Francisco, CA" [ref=e84]:
+                      - link "Senior AI/ML Engineer San Francisco, CA" [ref=e85] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747538003
+                        - paragraph [ref=e86]: Senior AI/ML Engineer
+                        - paragraph [ref=e87]: San Francisco, CA
+                  - row "Senior Software Engineer - Backend San Francisco, CA" [ref=e88]:
+                    - cell "Senior Software Engineer - Backend San Francisco, CA" [ref=e89]:
+                      - link "Senior Software Engineer - Backend San Francisco, CA" [ref=e90] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747573003
+                        - paragraph [ref=e91]: Senior Software Engineer - Backend
+                        - paragraph [ref=e92]: San Francisco, CA
+                  - row "Senior Software Engineer - Backend New York City, NY" [ref=e93]:
+                    - cell "Senior Software Engineer - Backend New York City, NY" [ref=e94]:
+                      - link "Senior Software Engineer - Backend New York City, NY" [ref=e95] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747577003
+                        - paragraph [ref=e96]: Senior Software Engineer - Backend
+                        - paragraph [ref=e97]: New York City, NY
+                  - row "Senior Software Engineer - Frontend New York City, NY" [ref=e98]:
+                    - cell "Senior Software Engineer - Frontend New York City, NY" [ref=e99]:
+                      - link "Senior Software Engineer - Frontend New York City, NY" [ref=e100] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7714490003
+                        - paragraph [ref=e101]: Senior Software Engineer - Frontend
+                        - paragraph [ref=e102]: New York City, NY
+                  - row "Senior Software Engineer - Frontend San Francisco, CA" [ref=e103]:
+                    - cell "Senior Software Engineer - Frontend San Francisco, CA" [ref=e104]:
+                      - link "Senior Software Engineer - Frontend San Francisco, CA" [ref=e105] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747579003
+                        - paragraph [ref=e106]: Senior Software Engineer - Frontend
+                        - paragraph [ref=e107]: San Francisco, CA
+                  - row "Senior Software Engineer - Fullstack San Francisco, CA" [ref=e108]:
+                    - cell "Senior Software Engineer - Fullstack San Francisco, CA" [ref=e109]:
+                      - link "Senior Software Engineer - Fullstack San Francisco, CA" [ref=e110] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747581003
+                        - paragraph [ref=e111]: Senior Software Engineer - Fullstack
+                        - paragraph [ref=e112]: San Francisco, CA
+                  - row "Senior Software Engineer - Fullstack New York City, NY" [ref=e113]:
+                    - cell "Senior Software Engineer - Fullstack New York City, NY" [ref=e114]:
+                      - link "Senior Software Engineer - Fullstack New York City, NY" [ref=e115] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747583003
+                        - paragraph [ref=e116]: Senior Software Engineer - Fullstack
+                        - paragraph [ref=e117]: New York City, NY
+                  - row "Senior Software Engineer - Observability and Reliability San Francisco, CA" [ref=e118]:
+                    - cell "Senior Software Engineer - Observability and Reliability San Francisco, CA" [ref=e119]:
+                      - link "Senior Software Engineer - Observability and Reliability San Francisco, CA" [ref=e120] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747585003
+                        - paragraph [ref=e121]: Senior Software Engineer - Observability and Reliability
+                        - paragraph [ref=e122]: San Francisco, CA
+                  - row "Senior Software Engineer - Observability and Reliability New York City, NY" [ref=e123]:
+                    - cell "Senior Software Engineer - Observability and Reliability New York City, NY" [ref=e124]:
+                      - link "Senior Software Engineer - Observability and Reliability New York City, NY" [ref=e125] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747586003
+                        - paragraph [ref=e126]: Senior Software Engineer - Observability and Reliability
+                        - paragraph [ref=e127]: New York City, NY
+                  - row "Software Engineer - Compiler San Francisco, CA" [ref=e128]:
+                    - cell "Software Engineer - Compiler San Francisco, CA" [ref=e129]:
+                      - link "Software Engineer - Compiler San Francisco, CA" [ref=e130] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7729929003
+                        - paragraph [ref=e131]: Software Engineer - Compiler
+                        - paragraph [ref=e132]: San Francisco, CA
+                  - row "Software Engineer - Compiler New York City, NY" [ref=e133]:
+                    - cell "Software Engineer - Compiler New York City, NY" [ref=e134]:
+                      - link "Software Engineer - Compiler New York City, NY" [ref=e135] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7729930003
+                        - paragraph [ref=e136]: Software Engineer - Compiler
+                        - paragraph [ref=e137]: New York City, NY
+                  - row "Software Engineer (New Grad Program) San Francisco, CA and New York City, NY" [ref=e138]:
+                    - cell "Software Engineer (New Grad Program) San Francisco, CA and New York City, NY" [ref=e139]:
+                      - link "Software Engineer (New Grad Program) San Francisco, CA and New York City, NY" [ref=e140] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7690411003
+                        - paragraph [ref=e141]: Software Engineer (New Grad Program)
+                        - paragraph [ref=e142]: San Francisco, CA and New York City, NY
+                  - row "Software Engineer - SDET San francisco, CA" [ref=e143]:
+                    - cell "Software Engineer - SDET San francisco, CA" [ref=e144]:
+                      - link "Software Engineer - SDET San francisco, CA" [ref=e145] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7729923003
+                        - paragraph [ref=e146]: Software Engineer - SDET
+                        - paragraph [ref=e147]: San francisco, CA
+                  - row "Staff AI/ML Engineer San Francisco, CA" [ref=e148]:
+                    - cell "Staff AI/ML Engineer San Francisco, CA" [ref=e149]:
+                      - link "Staff AI/ML Engineer San Francisco, CA" [ref=e150] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7737009003
+                        - paragraph [ref=e151]: Staff AI/ML Engineer
+                        - paragraph [ref=e152]: San Francisco, CA
+                  - row "Staff AI/ML Engineer New York City, NY" [ref=e153]:
+                    - cell "Staff AI/ML Engineer New York City, NY" [ref=e154]:
+                      - link "Staff AI/ML Engineer New York City, NY" [ref=e155] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747539003
+                        - paragraph [ref=e156]: Staff AI/ML Engineer
+                        - paragraph [ref=e157]: New York City, NY
+                  - row "Staff Software Engineer - Backend San Francisco, CA" [ref=e158]:
+                    - cell "Staff Software Engineer - Backend San Francisco, CA" [ref=e159]:
+                      - link "Staff Software Engineer - Backend San Francisco, CA" [ref=e160] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747574003
+                        - paragraph [ref=e161]: Staff Software Engineer - Backend
+                        - paragraph [ref=e162]: San Francisco, CA
+                  - row "Staff Software Engineer - Backend New York City, NY" [ref=e163]:
+                    - cell "Staff Software Engineer - Backend New York City, NY" [ref=e164]:
+                      - link "Staff Software Engineer - Backend New York City, NY" [ref=e165] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747578003
+                        - paragraph [ref=e166]: Staff Software Engineer - Backend
+                        - paragraph [ref=e167]: New York City, NY
+                  - row "Staff Software Engineer - Frontend New York City, NY" [ref=e168]:
+                    - cell "Staff Software Engineer - Frontend New York City, NY" [ref=e169]:
+                      - link "Staff Software Engineer - Frontend New York City, NY" [ref=e170] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7714491003
+                        - paragraph [ref=e171]: Staff Software Engineer - Frontend
+                        - paragraph [ref=e172]: New York City, NY
+                  - row "Staff Software Engineer - Frontend San Francisco, CA" [ref=e173]:
+                    - cell "Staff Software Engineer - Frontend San Francisco, CA" [ref=e174]:
+                      - link "Staff Software Engineer - Frontend San Francisco, CA" [ref=e175] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747580003
+                        - paragraph [ref=e176]: Staff Software Engineer - Frontend
+                        - paragraph [ref=e177]: San Francisco, CA
+                  - row "Staff Software Engineer - Fullstack San Francisco, CA" [ref=e178]:
+                    - cell "Staff Software Engineer - Fullstack San Francisco, CA" [ref=e179]:
+                      - link "Staff Software Engineer - Fullstack San Francisco, CA" [ref=e180] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747582003
+                        - paragraph [ref=e181]: Staff Software Engineer - Fullstack
+                        - paragraph [ref=e182]: San Francisco, CA
+                  - row "Staff Software Engineer - Fullstack New York City, NY" [ref=e183]:
+                    - cell "Staff Software Engineer - Fullstack New York City, NY" [ref=e184]:
+                      - link "Staff Software Engineer - Fullstack New York City, NY" [ref=e185] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747584003
+                        - paragraph [ref=e186]: Staff Software Engineer - Fullstack
+                        - paragraph [ref=e187]: New York City, NY
+            - generic [ref=e188]:
+              - paragraph [ref=e190]: General and Administrative
+              - heading "Legal" [level=3] [ref=e191]
+              - table [ref=e193]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e194]:
+                      - paragraph [ref=e195]: Job
+                - rowgroup [ref=e196]:
+                  - row "Commercial Paralegal - Contracts Manager San Francisco, CA" [ref=e197]:
+                    - cell "Commercial Paralegal - Contracts Manager San Francisco, CA" [ref=e198]:
+                      - link "Commercial Paralegal - Contracts Manager San Francisco, CA" [ref=e199] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7729884003
+                        - paragraph [ref=e200]: Commercial Paralegal - Contracts Manager
+                        - paragraph [ref=e201]: San Francisco, CA
+                  - row "Commercial Paralegal - Contracts Manager New York City, NY" [ref=e202]:
+                    - cell "Commercial Paralegal - Contracts Manager New York City, NY" [ref=e203]:
+                      - link "Commercial Paralegal - Contracts Manager New York City, NY" [ref=e204] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747616003
+                        - paragraph [ref=e205]: Commercial Paralegal - Contracts Manager
+                        - paragraph [ref=e206]: New York City, NY
+                  - row "Corporate Counsel - Commercial San Francisco, CA" [ref=e207]:
+                    - cell "Corporate Counsel - Commercial San Francisco, CA" [ref=e208]:
+                      - link "Corporate Counsel - Commercial San Francisco, CA" [ref=e209] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747542003
+                        - paragraph [ref=e210]: Corporate Counsel - Commercial
+                        - paragraph [ref=e211]: San Francisco, CA
+                  - row "Governance, Risk & Compliance (GRC) Manager San francisco, CA" [ref=e212]:
+                    - cell "Governance, Risk & Compliance (GRC) Manager San francisco, CA" [ref=e213]:
+                      - link "Governance, Risk & Compliance (GRC) Manager San francisco, CA" [ref=e214] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747559003
+                        - paragraph [ref=e215]: Governance, Risk & Compliance (GRC) Manager
+                        - paragraph [ref=e216]: San francisco, CA
+                  - row "Governance, Risk & Compliance (GRC) Manager New York City, NY" [ref=e217]:
+                    - cell "Governance, Risk & Compliance (GRC) Manager New York City, NY" [ref=e218]:
+                      - link "Governance, Risk & Compliance (GRC) Manager New York City, NY" [ref=e219] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747560003
+                        - paragraph [ref=e220]: Governance, Risk & Compliance (GRC) Manager
+                        - paragraph [ref=e221]: New York City, NY
+            - generic [ref=e222]:
+              - paragraph [ref=e224]: General and Administrative
+              - heading "Operations" [level=3] [ref=e225]
+              - table [ref=e227]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e228]:
+                      - paragraph [ref=e229]: Job
+                - rowgroup [ref=e230]:
+                  - row "Director, GTM Architecture New York City, NY" [ref=e231]:
+                    - cell "Director, GTM Architecture New York City, NY" [ref=e232]:
+                      - link "Director, GTM Architecture New York City, NY" [ref=e233] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747544003
+                        - paragraph [ref=e234]: Director, GTM Architecture
+                        - paragraph [ref=e235]: New York City, NY
+                  - row "Director, GTM Architecture San Francisco, CA" [ref=e236]:
+                    - cell "Director, GTM Architecture San Francisco, CA" [ref=e237]:
+                      - link "Director, GTM Architecture San Francisco, CA" [ref=e238] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747548003
+                        - paragraph [ref=e239]: Director, GTM Architecture
+                        - paragraph [ref=e240]: San Francisco, CA
+            - generic [ref=e241]:
+              - paragraph [ref=e243]: General and Administrative / People
+              - heading "Recruiting" [level=3] [ref=e244]
+              - table [ref=e246]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e247]:
+                      - paragraph [ref=e248]: Job
+                - rowgroup [ref=e249]:
+                  - row "GTM Sales Sourcer San Francisco, CA" [ref=e250]:
+                    - cell "GTM Sales Sourcer San Francisco, CA" [ref=e251]:
+                      - link "GTM Sales Sourcer San Francisco, CA" [ref=e252] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747562003
+                        - paragraph [ref=e253]: GTM Sales Sourcer
+                        - paragraph [ref=e254]: San Francisco, CA
+                  - row "Technical Recruiter San Francisco, CA" [ref=e255]:
+                    - cell "Technical Recruiter San Francisco, CA" [ref=e256]:
+                      - link "Technical Recruiter San Francisco, CA" [ref=e257] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747587003
+                        - paragraph [ref=e258]: Technical Recruiter
+                        - paragraph [ref=e259]: San Francisco, CA
+                  - row "Technical Recruiter New New York City, NY" [ref=e260]:
+                    - cell "Technical Recruiter New New York City, NY" [ref=e261]:
+                      - link "Technical Recruiter New New York City, NY" [ref=e262] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7749789003
+                        - paragraph [ref=e263]:
+                          - text: Technical Recruiter
+                          - generic [ref=e265]: New
+                        - paragraph [ref=e266]: New York City, NY
+                  - row "Technical Sourcer San Francisco, CA" [ref=e267]:
+                    - cell "Technical Sourcer San Francisco, CA" [ref=e268]:
+                      - link "Technical Sourcer San Francisco, CA" [ref=e269] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747588003
+                        - paragraph [ref=e270]: Technical Sourcer
+                        - paragraph [ref=e271]: San Francisco, CA
+            - generic [ref=e272]:
+              - heading "Marketing" [level=3] [ref=e273]
+              - table [ref=e275]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e276]:
+                      - paragraph [ref=e277]: Job
+                - rowgroup [ref=e278]:
+                  - row "Marketing Productivity Engineer San Francisco, CA" [ref=e279]:
+                    - cell "Marketing Productivity Engineer San Francisco, CA" [ref=e280]:
+                      - link "Marketing Productivity Engineer San Francisco, CA" [ref=e281] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747563003
+                        - paragraph [ref=e282]: Marketing Productivity Engineer
+                        - paragraph [ref=e283]: San Francisco, CA
+            - generic [ref=e284]:
+              - heading "Partnerships" [level=3] [ref=e285]
+              - table [ref=e287]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e288]:
+                      - paragraph [ref=e289]: Job
+                - rowgroup [ref=e290]:
+                  - row "Director of Strategic Partnerships, Snowflake San Francisco, CA" [ref=e291]:
+                    - cell "Director of Strategic Partnerships, Snowflake San Francisco, CA" [ref=e292]:
+                      - link "Director of Strategic Partnerships, Snowflake San Francisco, CA" [ref=e293] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7729888003
+                        - paragraph [ref=e294]: Director of Strategic Partnerships, Snowflake
+                        - paragraph [ref=e295]: San Francisco, CA
+                  - row "Director of Strategic Partnerships, Snowflake New York City, NY" [ref=e296]:
+                    - cell "Director of Strategic Partnerships, Snowflake New York City, NY" [ref=e297]:
+                      - link "Director of Strategic Partnerships, Snowflake New York City, NY" [ref=e298] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7729889003
+                        - paragraph [ref=e299]: Director of Strategic Partnerships, Snowflake
+                        - paragraph [ref=e300]: New York City, NY
+                  - row "Partner Operations Senior Engineer San Francisco, CA" [ref=e301]:
+                    - cell "Partner Operations Senior Engineer San Francisco, CA" [ref=e302]:
+                      - link "Partner Operations Senior Engineer San Francisco, CA" [ref=e303] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7730529003
+                        - paragraph [ref=e304]: Partner Operations Senior Engineer
+                        - paragraph [ref=e305]: San Francisco, CA
+                  - row "Senior Partner Engineer, Databricks Alliance San Francisco, CA" [ref=e306]:
+                    - cell "Senior Partner Engineer, Databricks Alliance San Francisco, CA" [ref=e307]:
+                      - link "Senior Partner Engineer, Databricks Alliance San Francisco, CA" [ref=e308] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7721534003
+                        - paragraph [ref=e309]: Senior Partner Engineer, Databricks Alliance
+                        - paragraph [ref=e310]: San Francisco, CA
+            - generic [ref=e311]:
+              - heading "Product" [level=3] [ref=e312]
+              - table [ref=e314]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e315]:
+                      - paragraph [ref=e316]: Job
+                - rowgroup [ref=e317]:
+                  - row "Senior Product Manager, Platform Performance & Infrastructure San Francisco, CA" [ref=e318]:
+                    - cell "Senior Product Manager, Platform Performance & Infrastructure San Francisco, CA" [ref=e319]:
+                      - link "Senior Product Manager, Platform Performance & Infrastructure San Francisco, CA" [ref=e320] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7747570003
+                        - paragraph [ref=e321]: Senior Product Manager, Platform Performance & Infrastructure
+                        - paragraph [ref=e322]: San Francisco, CA
+            - generic [ref=e323]:
+              - paragraph [ref=e325]: Sales Org
+              - heading "BDR" [level=3] [ref=e326]
+              - table [ref=e328]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e329]:
+                      - paragraph [ref=e330]: Job
+                - rowgroup [ref=e331]:
+                  - row "Business Development Representative New York City, NY" [ref=e332]:
+                    - cell "Business Development Representative New York City, NY" [ref=e333]:
+                      - link "Business Development Representative New York City, NY" [ref=e334] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7714476003
+                        - paragraph [ref=e335]: Business Development Representative
+                        - paragraph [ref=e336]: New York City, NY
+                  - row "Business Development Representative San Francisco, CA" [ref=e337]:
+                    - cell "Business Development Representative San Francisco, CA" [ref=e338]:
+                      - link "Business Development Representative San Francisco, CA" [ref=e339] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7714498003
+                        - paragraph [ref=e340]: Business Development Representative
+                        - paragraph [ref=e341]: San Francisco, CA
+                  - row "Business Development Representative - EMEA London, UK" [ref=e342]:
+                    - cell "Business Development Representative - EMEA London, UK" [ref=e343]:
+                      - link "Business Development Representative - EMEA London, UK" [ref=e344] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7714453003
+                        - paragraph [ref=e345]: Business Development Representative - EMEA
+                        - paragraph [ref=e346]: London, UK
+            - generic [ref=e347]:
+              - paragraph [ref=e349]: Sales Org
+              - heading "Sales" [level=3] [ref=e350]
+              - table [ref=e352]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e353]:
+                      - paragraph [ref=e354]: Job
+                - rowgroup [ref=e355]:
+                  - row "Commercial Account Executive (CAE) San Francisco, CA" [ref=e356]:
+                    - cell "Commercial Account Executive (CAE) San Francisco, CA" [ref=e357]:
+                      - link "Commercial Account Executive (CAE) San Francisco, CA" [ref=e358] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7714444003
+                        - paragraph [ref=e359]: Commercial Account Executive (CAE)
+                        - paragraph [ref=e360]: San Francisco, CA
+                  - row "Commercial Account Executive (CAE) Manager - EMEA London, UK" [ref=e361]:
+                    - cell "Commercial Account Executive (CAE) Manager - EMEA London, UK" [ref=e362]:
+                      - link "Commercial Account Executive (CAE) Manager - EMEA London, UK" [ref=e363] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7714441003
+                        - paragraph [ref=e364]: Commercial Account Executive (CAE) Manager - EMEA
+                        - paragraph [ref=e365]: London, UK
+                  - row "Commercial Account Executive (NYC) New York City, NY" [ref=e366]:
+                    - cell "Commercial Account Executive (NYC) New York City, NY" [ref=e367]:
+                      - link "Commercial Account Executive (NYC) New York City, NY" [ref=e368] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/sigmacomputing/jobs/7714443003
+                        - paragraph [ref=e369]: Commercial Account Executive (NYC)
+                        - paragraph [ref=e370]: New York City, NY
+          - navigation "Pagination" [ref=e372]:
+            - button "Previous page" [disabled] [ref=e373]:
+              - img [ref=e374]
+            - list [ref=e376]:
+              - listitem [ref=e377]:
+                - button "Go to page 1": "1"
+              - listitem [ref=e378]:
+                - button "Go to page 2" [ref=e379] [cursor=pointer]: "2"
+            - button "Next page" [ref=e380] [cursor=pointer]:
+              - img [ref=e381]
+  - contentinfo [ref=e383]:
+    - generic [ref=e384]:
+      - paragraph [ref=e385]: Powered by
+      - link "Greenhouse logo" [ref=e386] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=e387]

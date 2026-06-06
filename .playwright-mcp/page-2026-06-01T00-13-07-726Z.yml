@@ -1,0 +1,408 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - img [ref=e6]
+    - paragraph [ref=e8]: The job you are looking for is no longer open.
+  - main [ref=e9]:
+    - generic [ref=e10]:
+      - link "Affirm Logo" [ref=e12] [cursor=pointer]:
+        - /url: https://www.affirm.com/careers
+        - img "Affirm Logo" [ref=e13]
+      - heading "Current openings at Affirm" [level=1] [ref=e14]
+      - paragraph [ref=e19]: At Affirm, we believe that the financial industry works better for everyone when it’s fair, honest, and inclusive. We help people pay over time for almost anything—with no late fees or surprises. Through advanced technology and analytics that look beyond FICO, we’re able to serve a much broader population than other lenders.
+      - generic [ref=e20]:
+        - img [ref=e21]
+        - generic [ref=e23]:
+          - paragraph [ref=e24]: Create a Job Alert
+          - paragraph [ref=e25]: Level-up your career by having opportunities at Affirm sent directly to your inbox.
+          - link "Create alert" [ref=e26] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=affirm&source=job_alert_board
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e30]:
+            - generic [ref=e31]: Search
+            - textbox "Search" [ref=e32]
+          - generic [ref=e34]:
+            - generic [ref=e35]: Department
+            - generic [ref=e36]:
+              - log [ref=e38]
+              - generic [ref=e40]:
+                - generic [ref=e41]:
+                  - generic [ref=e42]: Select...
+                  - combobox "Department" [ref=e44]
+                - button "Toggle flyout" [ref=e46] [cursor=pointer]:
+                  - img [ref=e47]
+          - generic [ref=e50]:
+            - generic [ref=e51]: Office
+            - generic [ref=e52]:
+              - log [ref=e54]
+              - generic [ref=e56]:
+                - generic [ref=e57]:
+                  - generic [ref=e58]: Select...
+                  - combobox "Office" [ref=e60]
+                - button "Toggle flyout" [ref=e62] [cursor=pointer]:
+                  - img [ref=e63]
+        - generic [ref=e65]:
+          - heading "167 jobs" [level=2] [ref=e66]
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - paragraph [ref=e70]: Affirm / Capital (Function)
+              - heading "Capital" [level=3] [ref=e71]
+              - table [ref=e73]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e74]:
+                      - paragraph [ref=e75]: Job
+                - rowgroup [ref=e76]:
+                  - row "Capital Markets Manager Remote US" [ref=e77]:
+                    - cell "Capital Markets Manager Remote US" [ref=e78]:
+                      - link "Capital Markets Manager Remote US" [ref=e79] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7543849003
+                        - paragraph [ref=e80]: Capital Markets Manager
+                        - paragraph [ref=e81]: Remote US
+            - generic [ref=e82]:
+              - paragraph [ref=e84]: Affirm / Engineering
+              - heading "Checkout" [level=3] [ref=e85]
+              - table [ref=e87]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e88]:
+                      - paragraph [ref=e89]: Job
+                - rowgroup [ref=e90]:
+                  - row "Machine Learning Engineer II New Remote US" [ref=e91]:
+                    - cell "Machine Learning Engineer II New Remote US" [ref=e92]:
+                      - link "Machine Learning Engineer II New Remote US" [ref=e93] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7719651003
+                        - paragraph [ref=e94]:
+                          - text: Machine Learning Engineer II
+                          - generic [ref=e96]: New
+                        - paragraph [ref=e97]: Remote US
+                  - row "Machine Learning Engineer II New Remote Canada" [ref=e98]:
+                    - cell "Machine Learning Engineer II New Remote Canada" [ref=e99]:
+                      - link "Machine Learning Engineer II New Remote Canada" [ref=e100] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7719653003
+                        - paragraph [ref=e101]:
+                          - text: Machine Learning Engineer II
+                          - generic [ref=e103]: New
+                        - paragraph [ref=e104]: Remote Canada
+                  - row "Machine Learning Engineer II (Fraud) Remote Canada" [ref=e105]:
+                    - cell "Machine Learning Engineer II (Fraud) Remote Canada" [ref=e106]:
+                      - link "Machine Learning Engineer II (Fraud) Remote Canada" [ref=e107] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7695818003
+                        - paragraph [ref=e108]: Machine Learning Engineer II (Fraud)
+                        - paragraph [ref=e109]: Remote Canada
+                  - row "Manager, Machine Learning Engineering (Fraud) Remote US" [ref=e110]:
+                    - cell "Manager, Machine Learning Engineering (Fraud) Remote US" [ref=e111]:
+                      - link "Manager, Machine Learning Engineering (Fraud) Remote US" [ref=e112] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7710178003
+                        - paragraph [ref=e113]: Manager, Machine Learning Engineering (Fraud)
+                        - paragraph [ref=e114]: Remote US
+                  - row "Manager, Machine Learning Engineering (Fraud) Remote Canada" [ref=e115]:
+                    - cell "Manager, Machine Learning Engineering (Fraud) Remote Canada" [ref=e116]:
+                      - link "Manager, Machine Learning Engineering (Fraud) Remote Canada" [ref=e117] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7710180003
+                        - paragraph [ref=e118]: Manager, Machine Learning Engineering (Fraud)
+                        - paragraph [ref=e119]: Remote Canada
+                  - row "Manager, Machine Learning Engineering (Underwriting) Remote US" [ref=e120]:
+                    - cell "Manager, Machine Learning Engineering (Underwriting) Remote US" [ref=e121]:
+                      - link "Manager, Machine Learning Engineering (Underwriting) Remote US" [ref=e122] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7723636003
+                        - paragraph [ref=e123]: Manager, Machine Learning Engineering (Underwriting)
+                        - paragraph [ref=e124]: Remote US
+                  - row "Manager, Machine Learning Engineering (Underwriting) Remote Canada" [ref=e125]:
+                    - cell "Manager, Machine Learning Engineering (Underwriting) Remote Canada" [ref=e126]:
+                      - link "Manager, Machine Learning Engineering (Underwriting) Remote Canada" [ref=e127] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7723638003
+                        - paragraph [ref=e128]: Manager, Machine Learning Engineering (Underwriting)
+                        - paragraph [ref=e129]: Remote Canada
+                  - row "Senior Engineering Manager, Machine Learning Platform Remote US" [ref=e130]:
+                    - cell "Senior Engineering Manager, Machine Learning Platform Remote US" [ref=e131]:
+                      - link "Senior Engineering Manager, Machine Learning Platform Remote US" [ref=e132] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7705033003
+                        - paragraph [ref=e133]: Senior Engineering Manager, Machine Learning Platform
+                        - paragraph [ref=e134]: Remote US
+                  - row "Senior Engineering Manager, Machine Learning Platform Remote Canada" [ref=e135]:
+                    - cell "Senior Engineering Manager, Machine Learning Platform Remote Canada" [ref=e136]:
+                      - link "Senior Engineering Manager, Machine Learning Platform Remote Canada" [ref=e137] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7705035003
+                        - paragraph [ref=e138]: Senior Engineering Manager, Machine Learning Platform
+                        - paragraph [ref=e139]: Remote Canada
+                  - row "Senior Machine Learning Engineer (Fraud) Remote Canada" [ref=e140]:
+                    - cell "Senior Machine Learning Engineer (Fraud) Remote Canada" [ref=e141]:
+                      - link "Senior Machine Learning Engineer (Fraud) Remote Canada" [ref=e142] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7696276003
+                        - paragraph [ref=e143]: Senior Machine Learning Engineer (Fraud)
+                        - paragraph [ref=e144]: Remote Canada
+                  - row "Senior Software Engineer, Backend (Merchant Advocacy) Remote US" [ref=e145]:
+                    - cell "Senior Software Engineer, Backend (Merchant Advocacy) Remote US" [ref=e146]:
+                      - link "Senior Software Engineer, Backend (Merchant Advocacy) Remote US" [ref=e147] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7636414003
+                        - paragraph [ref=e148]: Senior Software Engineer, Backend (Merchant Advocacy)
+                        - paragraph [ref=e149]: Remote US
+                  - row "Senior Software Engineer, Backend (Merchant Advocacy) Remote Canada" [ref=e150]:
+                    - cell "Senior Software Engineer, Backend (Merchant Advocacy) Remote Canada" [ref=e151]:
+                      - link "Senior Software Engineer, Backend (Merchant Advocacy) Remote Canada" [ref=e152] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7636416003
+                        - paragraph [ref=e153]: Senior Software Engineer, Backend (Merchant Advocacy)
+                        - paragraph [ref=e154]: Remote Canada
+                  - row "Senior Software Engineer, Backend (Merchant Data Platform EU) Remote Poland" [ref=e155]:
+                    - cell "Senior Software Engineer, Backend (Merchant Data Platform EU) Remote Poland" [ref=e156]:
+                      - link "Senior Software Engineer, Backend (Merchant Data Platform EU) Remote Poland" [ref=e157] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7651523003
+                        - paragraph [ref=e158]: Senior Software Engineer, Backend (Merchant Data Platform EU)
+                        - paragraph [ref=e159]: Remote Poland
+                  - row "Senior Software Engineer, Backend (Merchant Data Platform EU) Remote Spain" [ref=e160]:
+                    - cell "Senior Software Engineer, Backend (Merchant Data Platform EU) Remote Spain" [ref=e161]:
+                      - link "Senior Software Engineer, Backend (Merchant Data Platform EU) Remote Spain" [ref=e162] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7651525003
+                        - paragraph [ref=e163]: Senior Software Engineer, Backend (Merchant Data Platform EU)
+                        - paragraph [ref=e164]: Remote Spain
+                  - row "Senior Software Engineer, Full-Stack (Trust & Safety) Remote Canada" [ref=e165]:
+                    - cell "Senior Software Engineer, Full-Stack (Trust & Safety) Remote Canada" [ref=e166]:
+                      - link "Senior Software Engineer, Full-Stack (Trust & Safety) Remote Canada" [ref=e167] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7624374003
+                        - paragraph [ref=e168]: Senior Software Engineer, Full-Stack (Trust & Safety)
+                        - paragraph [ref=e169]: Remote Canada
+                  - row "Senior Software Engineer, Full Stack (Zero to One Labs) Remote US" [ref=e170]:
+                    - cell "Senior Software Engineer, Full Stack (Zero to One Labs) Remote US" [ref=e171]:
+                      - link "Senior Software Engineer, Full Stack (Zero to One Labs) Remote US" [ref=e172] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7686804003
+                        - paragraph [ref=e173]: Senior Software Engineer, Full Stack (Zero to One Labs)
+                        - paragraph [ref=e174]: Remote US
+                  - row "Senior Staff Machine Learning Engineer, (Machine Learning) Remote US" [ref=e175]:
+                    - cell "Senior Staff Machine Learning Engineer, (Machine Learning) Remote US" [ref=e176]:
+                      - link "Senior Staff Machine Learning Engineer, (Machine Learning) Remote US" [ref=e177] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7550522003
+                        - paragraph [ref=e178]: Senior Staff Machine Learning Engineer, (Machine Learning)
+                        - paragraph [ref=e179]: Remote US
+                  - row "Senior Staff Machine Learning Engineer, (Machine Learning) Remote Canada" [ref=e180]:
+                    - cell "Senior Staff Machine Learning Engineer, (Machine Learning) Remote Canada" [ref=e181]:
+                      - link "Senior Staff Machine Learning Engineer, (Machine Learning) Remote Canada" [ref=e182] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7550524003
+                        - paragraph [ref=e183]: Senior Staff Machine Learning Engineer, (Machine Learning)
+                        - paragraph [ref=e184]: Remote Canada
+                  - row "Software Engineer, Early Career San Francisco, California, United States" [ref=e185]:
+                    - cell "Software Engineer, Early Career San Francisco, California, United States" [ref=e186]:
+                      - link "Software Engineer, Early Career San Francisco, California, United States" [ref=e187] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7485068003
+                        - paragraph [ref=e188]: Software Engineer, Early Career
+                        - paragraph [ref=e189]: San Francisco, California, United States
+                  - row "Software Engineer II, Backend (Identity Decisioning) Remote US" [ref=e190]:
+                    - cell "Software Engineer II, Backend (Identity Decisioning) Remote US" [ref=e191]:
+                      - link "Software Engineer II, Backend (Identity Decisioning) Remote US" [ref=e192] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7543978003
+                        - paragraph [ref=e193]: Software Engineer II, Backend (Identity Decisioning)
+                        - paragraph [ref=e194]: Remote US
+                  - row "Software Engineer II, Backend (Identity Decisioning) Remote Canada" [ref=e195]:
+                    - cell "Software Engineer II, Backend (Identity Decisioning) Remote Canada" [ref=e196]:
+                      - link "Software Engineer II, Backend (Identity Decisioning) Remote Canada" [ref=e197] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7543980003
+                        - paragraph [ref=e198]: Software Engineer II, Backend (Identity Decisioning)
+                        - paragraph [ref=e199]: Remote Canada
+                  - row "Software Engineer II, Backend (Merchant Advocacy) Remote US" [ref=e200]:
+                    - cell "Software Engineer II, Backend (Merchant Advocacy) Remote US" [ref=e201]:
+                      - link "Software Engineer II, Backend (Merchant Advocacy) Remote US" [ref=e202] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7708925003
+                        - paragraph [ref=e203]: Software Engineer II, Backend (Merchant Advocacy)
+                        - paragraph [ref=e204]: Remote US
+                  - row "Software Engineer II, Backend (Merchant Advocacy) Remote Canada" [ref=e205]:
+                    - cell "Software Engineer II, Backend (Merchant Advocacy) Remote Canada" [ref=e206]:
+                      - link "Software Engineer II, Backend (Merchant Advocacy) Remote Canada" [ref=e207] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7708927003
+                        - paragraph [ref=e208]: Software Engineer II, Backend (Merchant Advocacy)
+                        - paragraph [ref=e209]: Remote Canada
+                  - row "Software Engineer II, Backend (Merchant Data Platform EU) Remote Poland" [ref=e210]:
+                    - cell "Software Engineer II, Backend (Merchant Data Platform EU) Remote Poland" [ref=e211]:
+                      - link "Software Engineer II, Backend (Merchant Data Platform EU) Remote Poland" [ref=e212] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7709632003
+                        - paragraph [ref=e213]: Software Engineer II, Backend (Merchant Data Platform EU)
+                        - paragraph [ref=e214]: Remote Poland
+                  - row "Software Engineer II, Backend (PMI Integrations) Remote Canada" [ref=e215]:
+                    - cell "Software Engineer II, Backend (PMI Integrations) Remote Canada" [ref=e216]:
+                      - link "Software Engineer II, Backend (PMI Integrations) Remote Canada" [ref=e217] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7590373003
+                        - paragraph [ref=e218]: Software Engineer II, Backend (PMI Integrations)
+                        - paragraph [ref=e219]: Remote Canada
+                  - row "Software Engineer II, Frontend (Purchasing Integrations) Remote US" [ref=e220]:
+                    - cell "Software Engineer II, Frontend (Purchasing Integrations) Remote US" [ref=e221]:
+                      - link "Software Engineer II, Frontend (Purchasing Integrations) Remote US" [ref=e222] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7687973003
+                        - paragraph [ref=e223]: Software Engineer II, Frontend (Purchasing Integrations)
+                        - paragraph [ref=e224]: Remote US
+                  - row "Software Engineer II, Machine Learning (Feature Platform) Remote US" [ref=e225]:
+                    - cell "Software Engineer II, Machine Learning (Feature Platform) Remote US" [ref=e226]:
+                      - link "Software Engineer II, Machine Learning (Feature Platform) Remote US" [ref=e227] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7694294003
+                        - paragraph [ref=e228]: Software Engineer II, Machine Learning (Feature Platform)
+                        - paragraph [ref=e229]: Remote US
+                  - row "Software Engineer II, Machine Learning (Feature Platform) Remote Canada" [ref=e230]:
+                    - cell "Software Engineer II, Machine Learning (Feature Platform) Remote Canada" [ref=e231]:
+                      - link "Software Engineer II, Machine Learning (Feature Platform) Remote Canada" [ref=e232] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7694296003
+                        - paragraph [ref=e233]: Software Engineer II, Machine Learning (Feature Platform)
+                        - paragraph [ref=e234]: Remote Canada
+                  - row "Software Engineering Apprentice, Full-Stack Remote US" [ref=e235]:
+                    - cell "Software Engineering Apprentice, Full-Stack Remote US" [ref=e236]:
+                      - link "Software Engineering Apprentice, Full-Stack Remote US" [ref=e237] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7647925003
+                        - paragraph [ref=e238]: Software Engineering Apprentice, Full-Stack
+                        - paragraph [ref=e239]: Remote US
+            - generic [ref=e240]:
+              - paragraph [ref=e242]: Affirm / Engineering
+              - heading "Consumer Engineering" [level=3] [ref=e243]
+              - table [ref=e245]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e246]:
+                      - paragraph [ref=e247]: Job
+                - rowgroup [ref=e248]:
+                  - row "Manager, Software Engineering (Card Platform) New Remote US" [ref=e249]:
+                    - cell "Manager, Software Engineering (Card Platform) New Remote US" [ref=e250]:
+                      - link "Manager, Software Engineering (Card Platform) New Remote US" [ref=e251] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7742412003
+                        - paragraph [ref=e252]:
+                          - text: Manager, Software Engineering (Card Platform)
+                          - generic [ref=e254]: New
+                        - paragraph [ref=e255]: Remote US
+                  - row "Senior Software Engineer, Backend (Growth Platform) Remote Canada" [ref=e256]:
+                    - cell "Senior Software Engineer, Backend (Growth Platform) Remote Canada" [ref=e257]:
+                      - link "Senior Software Engineer, Backend (Growth Platform) Remote Canada" [ref=e258] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7491437003
+                        - paragraph [ref=e259]: Senior Software Engineer, Backend (Growth Platform)
+                        - paragraph [ref=e260]: Remote Canada
+                  - row "Senior Software Engineer, Fullstack (Consumer Engineering) Remote US" [ref=e261]:
+                    - cell "Senior Software Engineer, Fullstack (Consumer Engineering) Remote US" [ref=e262]:
+                      - link "Senior Software Engineer, Fullstack (Consumer Engineering) Remote US" [ref=e263] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7663434003
+                        - paragraph [ref=e264]: Senior Software Engineer, Fullstack (Consumer Engineering)
+                        - paragraph [ref=e265]: Remote US
+                  - row "Senior Software Engineer, Fullstack (Consumer Engineering) Remote Canada" [ref=e266]:
+                    - cell "Senior Software Engineer, Fullstack (Consumer Engineering) Remote Canada" [ref=e267]:
+                      - link "Senior Software Engineer, Fullstack (Consumer Engineering) Remote Canada" [ref=e268] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7663436003
+                        - paragraph [ref=e269]: Senior Software Engineer, Fullstack (Consumer Engineering)
+                        - paragraph [ref=e270]: Remote Canada
+                  - row "Senior Staff Software Engineer, Consumer Engineering (Web Infra) Remote US" [ref=e271]:
+                    - cell "Senior Staff Software Engineer, Consumer Engineering (Web Infra) Remote US" [ref=e272]:
+                      - link "Senior Staff Software Engineer, Consumer Engineering (Web Infra) Remote US" [ref=e273] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7710976003
+                        - paragraph [ref=e274]: Senior Staff Software Engineer, Consumer Engineering (Web Infra)
+                        - paragraph [ref=e275]: Remote US
+                  - row "Senior Staff Software Engineer, Consumer Engineering (Web Infra) Remote Canada" [ref=e276]:
+                    - cell "Senior Staff Software Engineer, Consumer Engineering (Web Infra) Remote Canada" [ref=e277]:
+                      - link "Senior Staff Software Engineer, Consumer Engineering (Web Infra) Remote Canada" [ref=e278] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7710978003
+                        - paragraph [ref=e279]: Senior Staff Software Engineer, Consumer Engineering (Web Infra)
+                        - paragraph [ref=e280]: Remote Canada
+                  - row "Software Engineer I, Full-Stack (Home and Search Experience) Remote US" [ref=e281]:
+                    - cell "Software Engineer I, Full-Stack (Home and Search Experience) Remote US" [ref=e282]:
+                      - link "Software Engineer I, Full-Stack (Home and Search Experience) Remote US" [ref=e283] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7685236003
+                        - paragraph [ref=e284]: Software Engineer I, Full-Stack (Home and Search Experience)
+                        - paragraph [ref=e285]: Remote US
+                  - row "Software Engineer II, Full-Stack (Card Acquisition) Remote Canada" [ref=e286]:
+                    - cell "Software Engineer II, Full-Stack (Card Acquisition) Remote Canada" [ref=e287]:
+                      - link "Software Engineer II, Full-Stack (Card Acquisition) Remote Canada" [ref=e288] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7618869003
+                        - paragraph [ref=e289]: Software Engineer II, Full-Stack (Card Acquisition)
+                        - paragraph [ref=e290]: Remote Canada
+                  - row "Software Engineer II, Full-Stack (Marketplace Performance) Remote Canada" [ref=e291]:
+                    - cell "Software Engineer II, Full-Stack (Marketplace Performance) Remote Canada" [ref=e292]:
+                      - link "Software Engineer II, Full-Stack (Marketplace Performance) Remote Canada" [ref=e293] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7678887003
+                        - paragraph [ref=e294]: Software Engineer II, Full-Stack (Marketplace Performance)
+                        - paragraph [ref=e295]: Remote Canada
+                  - row "Staff Software Engineer Remote Spain" [ref=e296]:
+                    - cell "Staff Software Engineer Remote Spain" [ref=e297]:
+                      - link "Staff Software Engineer Remote Spain" [ref=e298] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7609694003
+                        - paragraph [ref=e299]: Staff Software Engineer
+                        - paragraph [ref=e300]: Remote Spain
+                  - row "Staff Software Engineer Remote Poland" [ref=e301]:
+                    - cell "Staff Software Engineer Remote Poland" [ref=e302]:
+                      - link "Staff Software Engineer Remote Poland" [ref=e303] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7609696003
+                        - paragraph [ref=e304]: Staff Software Engineer
+                        - paragraph [ref=e305]: Remote Poland
+                  - row "Staff Software Engineer Remote Poland" [ref=e306]:
+                    - cell "Staff Software Engineer Remote Poland" [ref=e307]:
+                      - link "Staff Software Engineer Remote Poland" [ref=e308] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7617857003
+                        - paragraph [ref=e309]: Staff Software Engineer
+                        - paragraph [ref=e310]: Remote Poland
+                  - row "Staff Software Engineer Remote Spain" [ref=e311]:
+                    - cell "Staff Software Engineer Remote Spain" [ref=e312]:
+                      - link "Staff Software Engineer Remote Spain" [ref=e313] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7617859003
+                        - paragraph [ref=e314]: Staff Software Engineer
+                        - paragraph [ref=e315]: Remote Spain
+            - generic [ref=e316]:
+              - paragraph [ref=e318]: Affirm / Engineering
+              - heading "Financial Platforms - Engineering" [level=3] [ref=e319]
+              - table [ref=e321]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e322]:
+                      - paragraph [ref=e323]: Job
+                - rowgroup [ref=e324]:
+                  - row "Director, Software Engineering (Loans Lifecycle) Remote Canada" [ref=e325]:
+                    - cell "Director, Software Engineering (Loans Lifecycle) Remote Canada" [ref=e326]:
+                      - link "Director, Software Engineering (Loans Lifecycle) Remote Canada" [ref=e327] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7705605003
+                        - paragraph [ref=e328]: Director, Software Engineering (Loans Lifecycle)
+                        - paragraph [ref=e329]: Remote Canada
+                  - row "Director, Software Engineering (Loans Lifecycle) Remote US" [ref=e330]:
+                    - cell "Director, Software Engineering (Loans Lifecycle) Remote US" [ref=e331]:
+                      - link "Director, Software Engineering (Loans Lifecycle) Remote US" [ref=e332] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7705604003
+                        - paragraph [ref=e333]: Director, Software Engineering (Loans Lifecycle)
+                        - paragraph [ref=e334]: Remote US
+                  - row "Senior Software Engineer, Backend (Payments) Remote UK" [ref=e335]:
+                    - cell "Senior Software Engineer, Backend (Payments) Remote UK" [ref=e336]:
+                      - link "Senior Software Engineer, Backend (Payments) Remote UK" [ref=e337] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7737155003
+                        - paragraph [ref=e338]: Senior Software Engineer, Backend (Payments)
+                        - paragraph [ref=e339]: Remote UK
+                  - row "Senior Software Engineer, Fullstack (Servicing International) Remote Spain" [ref=e340]:
+                    - cell "Senior Software Engineer, Fullstack (Servicing International) Remote Spain" [ref=e341]:
+                      - link "Senior Software Engineer, Fullstack (Servicing International) Remote Spain" [ref=e342] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7118739003
+                        - paragraph [ref=e343]: Senior Software Engineer, Fullstack (Servicing International)
+                        - paragraph [ref=e344]: Remote Spain
+                  - row "Senior Software Engineer, Fullstack (Servicing International) Remote Poland" [ref=e345]:
+                    - cell "Senior Software Engineer, Fullstack (Servicing International) Remote Poland" [ref=e346]:
+                      - link "Senior Software Engineer, Fullstack (Servicing International) Remote Poland" [ref=e347] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/7118737003
+                        - paragraph [ref=e348]: Senior Software Engineer, Fullstack (Servicing International)
+                        - paragraph [ref=e349]: Remote Poland
+                  - row "Senior Software engineer (Furnishing Platform) Remote Poland" [ref=e350]:
+                    - cell "Senior Software engineer (Furnishing Platform) Remote Poland" [ref=e351]:
+                      - link "Senior Software engineer (Furnishing Platform) Remote Poland" [ref=e352] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/6922638003
+                        - paragraph [ref=e353]: Senior Software engineer (Furnishing Platform)
+                        - paragraph [ref=e354]: Remote Poland
+                  - row "Senior Software engineer (Furnishing Platform) Remote Spain" [ref=e355]:
+                    - cell "Senior Software engineer (Furnishing Platform) Remote Spain" [ref=e356]:
+                      - link "Senior Software engineer (Furnishing Platform) Remote Spain" [ref=e357] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/affirm/jobs/6922636003
+                        - paragraph [ref=e358]: Senior Software engineer (Furnishing Platform)
+                        - paragraph [ref=e359]: Remote Spain
+          - navigation "Pagination" [ref=e361]:
+            - button "Previous page" [disabled] [ref=e362]:
+              - img [ref=e363]
+            - list [ref=e365]:
+              - listitem [ref=e366]:
+                - button "Go to page 1": "1"
+              - listitem [ref=e367]:
+                - button "Go to page 2" [ref=e368] [cursor=pointer]: "2"
+              - listitem [ref=e369]:
+                - button "Go to page 3" [ref=e370] [cursor=pointer]: "3"
+              - listitem [ref=e371]:
+                - button "Go to page 4" [ref=e372] [cursor=pointer]: "4"
+            - button "Next page" [ref=e373] [cursor=pointer]:
+              - img [ref=e374]
+  - contentinfo [ref=e376]:
+    - generic [ref=e377]:
+      - paragraph [ref=e378]: Powered by
+      - link "Greenhouse logo" [ref=e379] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=e380]

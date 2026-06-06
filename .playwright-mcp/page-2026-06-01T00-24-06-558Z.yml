@@ -1,0 +1,240 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - img [ref=e6]
+    - paragraph [ref=e8]: The job you are looking for is no longer open.
+  - main [ref=e9]:
+    - generic [ref=e10]:
+      - link "Galileo Financial Technologies Logo" [ref=e12] [cursor=pointer]:
+        - /url: https://www.galileo-ft.com/
+        - img "Galileo Financial Technologies Logo" [ref=e13]
+      - heading "Current openings at Galileo Financial Technologies" [level=1] [ref=e14]
+      - generic [ref=e16]:
+        - img [ref=e17]
+        - generic [ref=e19]:
+          - paragraph [ref=e20]: Create a Job Alert
+          - paragraph [ref=e21]: Level-up your career by having opportunities at Galileo Financial Technologies sent directly to your inbox.
+          - link "Create alert" [ref=e22] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=galileofinancialtechnologies&source=job_alert_board
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e26]:
+            - generic [ref=e27]: Search
+            - textbox "Search" [ref=e28]
+          - generic [ref=e30]:
+            - generic [ref=e31]: Department
+            - generic [ref=e32]:
+              - log [ref=e34]
+              - generic [ref=e36]:
+                - generic [ref=e37]:
+                  - generic [ref=e38]: Select...
+                  - combobox "Department" [ref=e40]
+                - button "Toggle flyout" [ref=e42] [cursor=pointer]:
+                  - img [ref=e43]
+        - generic [ref=e45]:
+          - heading "23 jobs" [level=2] [ref=e46]
+          - generic [ref=e47]:
+            - generic [ref=e48]:
+              - paragraph [ref=e50]: Business Unit
+              - heading "BUL" [level=3] [ref=e51]
+              - table [ref=e53]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e54]:
+                      - paragraph [ref=e55]: Job
+                - rowgroup [ref=e56]:
+                  - row "Bank Teller, Golden Pacific Bank, Live Oak Live Oak, CA" [ref=e57]:
+                    - cell "Bank Teller, Golden Pacific Bank, Live Oak Live Oak, CA" [ref=e58]:
+                      - link "Bank Teller, Golden Pacific Bank, Live Oak Live Oak, CA" [ref=e59] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7732518003
+                        - paragraph [ref=e60]: Bank Teller, Golden Pacific Bank, Live Oak
+                        - paragraph [ref=e61]: Live Oak, CA
+            - generic [ref=e62]:
+              - heading "Engineering" [level=3] [ref=e63]
+              - table [ref=e65]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e66]:
+                      - paragraph [ref=e67]: Job
+                - rowgroup [ref=e68]:
+                  - row "Engineering Manager Switzerland - Lucerne" [ref=e69]:
+                    - cell "Engineering Manager Switzerland - Lucerne" [ref=e70]:
+                      - link "Engineering Manager Switzerland - Lucerne" [ref=e71] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7641299003
+                        - paragraph [ref=e72]: Engineering Manager
+                        - paragraph [ref=e73]: Switzerland - Lucerne
+                  - row "Senior Staff Software Engineer CA- San Francisco / UT- Sandy / WA- Seattle / NY- New York City / FL- Jacksonville / DE- Greenville / MT- Helena" [ref=e74]:
+                    - cell "Senior Staff Software Engineer CA- San Francisco / UT- Sandy / WA- Seattle / NY- New York City / FL- Jacksonville / DE- Greenville / MT- Helena" [ref=e75]:
+                      - link "Senior Staff Software Engineer CA- San Francisco / UT- Sandy / WA- Seattle / NY- New York City / FL- Jacksonville / DE- Greenville / MT- Helena" [ref=e76] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7540809003
+                        - paragraph [ref=e77]: Senior Staff Software Engineer
+                        - paragraph [ref=e78]: CA- San Francisco / UT- Sandy / WA- Seattle / NY- New York City / FL- Jacksonville / DE- Greenville / MT- Helena
+                  - row "Senior Staff Software Engineer NY - New York City" [ref=e79]:
+                    - cell "Senior Staff Software Engineer NY - New York City" [ref=e80]:
+                      - link "Senior Staff Software Engineer NY - New York City" [ref=e81] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7646519003
+                        - paragraph [ref=e82]: Senior Staff Software Engineer
+                        - paragraph [ref=e83]: NY - New York City
+                  - row "Senior Staff Software Engineer CA- San Francisco / UT- Sandy / WA- Seattle / NY- New York City / FL- Jacksonville / DE- Greenville / MT- Helena" [ref=e84]:
+                    - cell "Senior Staff Software Engineer CA- San Francisco / UT- Sandy / WA- Seattle / NY- New York City / FL- Jacksonville / DE- Greenville / MT- Helena" [ref=e85]:
+                      - link "Senior Staff Software Engineer CA- San Francisco / UT- Sandy / WA- Seattle / NY- New York City / FL- Jacksonville / DE- Greenville / MT- Helena" [ref=e86] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7732309003
+                        - paragraph [ref=e87]: Senior Staff Software Engineer
+                        - paragraph [ref=e88]: CA- San Francisco / UT- Sandy / WA- Seattle / NY- New York City / FL- Jacksonville / DE- Greenville / MT- Helena
+                  - row "Senior Support Engineer UT- Sandy" [ref=e89]:
+                    - cell "Senior Support Engineer UT- Sandy" [ref=e90]:
+                      - link "Senior Support Engineer UT- Sandy" [ref=e91] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7586601003
+                        - paragraph [ref=e92]: Senior Support Engineer
+                        - paragraph [ref=e93]: UT- Sandy
+                  - row "Staff Fullstack Software Engineer Switzerland - Lucerne" [ref=e94]:
+                    - cell "Staff Fullstack Software Engineer Switzerland - Lucerne" [ref=e95]:
+                      - link "Staff Fullstack Software Engineer Switzerland - Lucerne" [ref=e96] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7641295003
+                        - paragraph [ref=e97]: Staff Fullstack Software Engineer
+                        - paragraph [ref=e98]: Switzerland - Lucerne
+                  - row "Staff Software Engineer CA- San Francisco / UT- Sandy / WA- Seattle / NY- New York City / FL- Jacksonville / DE- Greenville / MT- Helena" [ref=e99]:
+                    - cell "Staff Software Engineer CA- San Francisco / UT- Sandy / WA- Seattle / NY- New York City / FL- Jacksonville / DE- Greenville / MT- Helena" [ref=e100]:
+                      - link "Staff Software Engineer CA- San Francisco / UT- Sandy / WA- Seattle / NY- New York City / FL- Jacksonville / DE- Greenville / MT- Helena" [ref=e101] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7626672003
+                        - paragraph [ref=e102]: Staff Software Engineer
+                        - paragraph [ref=e103]: CA- San Francisco / UT- Sandy / WA- Seattle / NY- New York City / FL- Jacksonville / DE- Greenville / MT- Helena
+            - generic [ref=e104]:
+              - paragraph [ref=e106]: Engineering
+              - heading "Platform Infrastructure" [level=3] [ref=e107]
+              - table [ref=e109]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e110]:
+                      - paragraph [ref=e111]: Job
+                - rowgroup [ref=e112]:
+                  - row "Principal Engineer Switzerland - Lucerne" [ref=e113]:
+                    - cell "Principal Engineer Switzerland - Lucerne" [ref=e114]:
+                      - link "Principal Engineer Switzerland - Lucerne" [ref=e115] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7641291003
+                        - paragraph [ref=e116]: Principal Engineer
+                        - paragraph [ref=e117]: Switzerland - Lucerne
+                  - row "Principal Engineer, Cyberbank Core Buenos Aires, Argentina; Montevideo, Uruguay" [ref=e118]:
+                    - cell "Principal Engineer, Cyberbank Core Buenos Aires, Argentina; Montevideo, Uruguay" [ref=e119]:
+                      - link "Principal Engineer, Cyberbank Core Buenos Aires, Argentina; Montevideo, Uruguay" [ref=e120] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7692769003
+                        - paragraph [ref=e121]: Principal Engineer, Cyberbank Core
+                        - paragraph [ref=e122]: Buenos Aires, Argentina; Montevideo, Uruguay
+                  - row "Senior Manager, Engineering Cyberbank Core Uruguay" [ref=e123]:
+                    - cell "Senior Manager, Engineering Cyberbank Core Uruguay" [ref=e124]:
+                      - link "Senior Manager, Engineering Cyberbank Core Uruguay" [ref=e125] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7611640003
+                        - paragraph [ref=e126]: Senior Manager, Engineering Cyberbank Core
+                        - paragraph [ref=e127]: Uruguay
+                  - row "Senior Manager, Engineering Cyberbank Core Buenos Aires, Argentina" [ref=e128]:
+                    - cell "Senior Manager, Engineering Cyberbank Core Buenos Aires, Argentina" [ref=e129]:
+                      - link "Senior Manager, Engineering Cyberbank Core Buenos Aires, Argentina" [ref=e130] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7611636003
+                        - paragraph [ref=e131]: Senior Manager, Engineering Cyberbank Core
+                        - paragraph [ref=e132]: Buenos Aires, Argentina
+                  - row "Senior Product Manager Cyberbank Core New York City, NY; Jacksonville, FL" [ref=e133]:
+                    - cell "Senior Product Manager Cyberbank Core New York City, NY; Jacksonville, FL" [ref=e134]:
+                      - link "Senior Product Manager Cyberbank Core New York City, NY; Jacksonville, FL" [ref=e135] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7692288003
+                        - paragraph [ref=e136]: Senior Product Manager Cyberbank Core
+                        - paragraph [ref=e137]: New York City, NY; Jacksonville, FL
+                  - row "Staff Software Engineer, Core API San Francisco, CA; Seattle, WA; Salt Lake City, UT; Jacksonville, FL; New York City, NY" [ref=e138]:
+                    - cell "Staff Software Engineer, Core API San Francisco, CA; Seattle, WA; Salt Lake City, UT; Jacksonville, FL; New York City, NY" [ref=e139]:
+                      - link "Staff Software Engineer, Core API San Francisco, CA; Seattle, WA; Salt Lake City, UT; Jacksonville, FL; New York City, NY" [ref=e140] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7709664003
+                        - paragraph [ref=e141]: Staff Software Engineer, Core API
+                        - paragraph [ref=e142]: San Francisco, CA; Seattle, WA; Salt Lake City, UT; Jacksonville, FL; New York City, NY
+            - generic [ref=e143]:
+              - paragraph [ref=e145]: Home Loans
+              - heading "Home Loans Ops Production" [level=3] [ref=e146]
+              - table [ref=e148]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e149]:
+                      - paragraph [ref=e150]: Job
+                - rowgroup [ref=e151]:
+                  - row "Senior Manager, Underwriting Frisco, Texas" [ref=e152]:
+                    - cell "Senior Manager, Underwriting Frisco, Texas" [ref=e153]:
+                      - link "Senior Manager, Underwriting Frisco, Texas" [ref=e154] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7691467003
+                        - paragraph [ref=e155]: Senior Manager, Underwriting
+                        - paragraph [ref=e156]: Frisco, Texas
+            - generic [ref=e157]:
+              - paragraph [ref=e159]: Operations
+              - heading "G&A Shared Service Center" [level=3] [ref=e160]
+              - table [ref=e162]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e163]:
+                      - paragraph [ref=e164]: Job
+                - rowgroup [ref=e165]:
+                  - row "Tax Accounting Analyst Buenos Aires, Argentina" [ref=e166]:
+                    - cell "Tax Accounting Analyst Buenos Aires, Argentina" [ref=e167]:
+                      - link "Tax Accounting Analyst Buenos Aires, Argentina" [ref=e168] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7680639003
+                        - paragraph [ref=e169]: Tax Accounting Analyst
+                        - paragraph [ref=e170]: Buenos Aires, Argentina
+            - generic [ref=e171]:
+              - paragraph [ref=e173]: Operations
+              - heading "Ops PMO" [level=3] [ref=e174]
+              - table [ref=e176]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e177]:
+                      - paragraph [ref=e178]: Job
+                - rowgroup [ref=e179]:
+                  - row "Platform Operations Analyst UT - Cottonwood Heights - FL Jacksonville" [ref=e180]:
+                    - cell "Platform Operations Analyst UT - Cottonwood Heights - FL Jacksonville" [ref=e181]:
+                      - link "Platform Operations Analyst UT - Cottonwood Heights - FL Jacksonville" [ref=e182] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7702208003
+                        - paragraph [ref=e183]: Platform Operations Analyst
+                        - paragraph [ref=e184]: UT - Cottonwood Heights - FL Jacksonville
+            - generic [ref=e185]:
+              - heading "Product" [level=3] [ref=e186]
+              - table [ref=e188]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e189]:
+                      - paragraph [ref=e190]: Job
+                - rowgroup [ref=e191]:
+                  - row "Senior Software Engineer Ecuador" [ref=e192]:
+                    - cell "Senior Software Engineer Ecuador" [ref=e193]:
+                      - link "Senior Software Engineer Ecuador" [ref=e194] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7724742003
+                        - paragraph [ref=e195]: Senior Software Engineer
+                        - paragraph [ref=e196]: Ecuador
+                  - row "Senior Software Engineer Brasil" [ref=e197]:
+                    - cell "Senior Software Engineer Brasil" [ref=e198]:
+                      - link "Senior Software Engineer Brasil" [ref=e199] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7724746003
+                        - paragraph [ref=e200]: Senior Software Engineer
+                        - paragraph [ref=e201]: Brasil
+                  - row "Senior Software Engineer Costa Rica" [ref=e202]:
+                    - cell "Senior Software Engineer Costa Rica" [ref=e203]:
+                      - link "Senior Software Engineer Costa Rica" [ref=e204] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7724749003
+                        - paragraph [ref=e205]: Senior Software Engineer
+                        - paragraph [ref=e206]: Costa Rica
+                  - row "Senior Software Engineer Argentina" [ref=e207]:
+                    - cell "Senior Software Engineer Argentina" [ref=e208]:
+                      - link "Senior Software Engineer Argentina" [ref=e209] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7720777003
+                        - paragraph [ref=e210]: Senior Software Engineer
+                        - paragraph [ref=e211]: Argentina
+                  - row "Senior Software Engineer Chile" [ref=e212]:
+                    - cell "Senior Software Engineer Chile" [ref=e213]:
+                      - link "Senior Software Engineer Chile" [ref=e214] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7724743003
+                        - paragraph [ref=e215]: Senior Software Engineer
+                        - paragraph [ref=e216]: Chile
+                  - row "Senior Software Engineer Uruguay" [ref=e217]:
+                    - cell "Senior Software Engineer Uruguay" [ref=e218]:
+                      - link "Senior Software Engineer Uruguay" [ref=e219] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/galileofinancialtechnologies/jobs/7724757003
+                        - paragraph [ref=e220]: Senior Software Engineer
+                        - paragraph [ref=e221]: Uruguay
+  - contentinfo [ref=e222]:
+    - generic [ref=e223]:
+      - paragraph [ref=e224]: Powered by
+      - link "Greenhouse logo" [ref=e225] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=e226]

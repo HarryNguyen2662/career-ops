@@ -1,0 +1,575 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - img "IMC Logo" [ref=e5]
+      - generic [ref=e6]:
+        - link "Back to jobs" [ref=e7] [cursor=pointer]:
+          - /url: https://job-boards.eu.greenhouse.io/imc
+          - img [ref=e8]
+          - text: Back to jobs
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - heading "Software Engineer, Early Career" [level=1] [ref=e13]
+            - generic [ref=e14]:
+              - img [ref=e15]
+              - generic [ref=e17]: Chicago, United States
+          - button "Apply" [ref=e18] [cursor=pointer]
+        - generic [ref=e19]:
+          - generic [ref=e24]:
+            - paragraph [ref=e25]: Having the best technology drives our business. As a Software Engineer at IMC, you will drive the development of our cutting-edge trading algorithms. You will be responsible for spotting new opportunities, solving problems and developing innovative technologies. Software development here is innovative, pragmatic and fun, even as complexity grows.
+            - paragraph [ref=e26]
+            - paragraph [ref=e27]:
+              - strong [ref=e28]: "Your Core Responsibilities:"
+            - list [ref=e29]:
+              - listitem [ref=e30]: Build and maintain our trading platform and software stack
+              - listitem [ref=e31]: Bring our trading strategies and technology platform to the next level
+              - listitem [ref=e32]: Collaborate with Traders, Quant Researchers and other Engineers both locally and globally
+              - listitem [ref=e33]: Develop expertise within the entire software development lifecycle
+              - listitem [ref=e34]: Learn new technologies and programming languages in a dynamic environment
+            - paragraph [ref=e35]
+            - paragraph [ref=e36]:
+              - strong [ref=e37]: "Your Skills and Experience:"
+            - list [ref=e38]:
+              - listitem [ref=e39]: 1-3 years of full-time professional work experience post-graduation
+              - listitem [ref=e40]: BA/BSc/MA/MSc in Engineering, Computer Science or related degree
+              - listitem [ref=e41]: Must have strong knowledge of algorithms and data structures
+              - listitem [ref=e42]: Proficiency in a programming language is required (Java or C++ preferred)
+              - listitem [ref=e43]: Strong analytical skills and interest in solving complex problems programmatically
+              - listitem [ref=e44]: Desire to interact and work closely with non-engineers in a dynamic environment
+              - listitem [ref=e45]: Interest in the financial markets; previous knowledge is NOT required
+            - paragraph [ref=e46]:
+              - text: The Base Salary range for the role is included below. Base salary is only one component of total compensation; all full-time, permanent positions are eligible for a discretionary bonus and benefits, including paid leave and insurance. Please visit
+              - link "Benefits - US | IMC Trading" [ref=e47] [cursor=pointer]:
+                - /url: https://www.imc.com/us/careers/benefits
+              - text: for more comprehensive information.
+            - paragraph [ref=e48]: "Base Salary: $200,000"
+            - paragraph [ref=e49]
+            - paragraph [ref=e50]: "#LI-DNP"
+          - generic [ref=e51]:
+            - paragraph [ref=e52]:
+              - strong [ref=e53]: About Us
+            - paragraph [ref=e54]: IMC is a global trading firm powered by a cutting-edge research environment and a world-class technology backbone. Since 1989, we’ve been a stabilizing force in financial markets, providing essential liquidity upon which market participants depend. Across our offices in the US, Europe, Asia Pacific, and India, our talented quant researchers, engineers, traders, and business operations professionals are united by our uniquely collaborative, high-performance culture, and our commitment to giving back. From entering dynamic new markets to embracing disruptive technologies, and from developing an innovative research environment to diversifying our trading strategies, we dare to continuously innovate and collaborate to succeed.
+            - paragraph [ref=e55]
+        - generic [ref=e56]:
+          - img [ref=e57]
+          - generic [ref=e59]:
+            - paragraph [ref=e60]: Create a Job Alert
+            - paragraph [ref=e61]: Interested in building your career at IMC? Get future opportunities sent straight to your email.
+            - link "Create alert" [ref=e62] [cursor=pointer]:
+              - /url: https://my.greenhouse.io/users/sign_in?job_board=imc&source=job_alert_post
+      - separator [ref=e63]
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - heading "Apply for this job" [level=2] [ref=e68]
+            - generic [ref=e69]:
+              - paragraph [ref=e71]: "*"
+              - paragraph [ref=e72]: indicates a required field
+          - button "Quick Apply with MyGreenhouse" [ref=e75] [cursor=pointer]
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e80]:
+              - generic [ref=e81]: First Name*
+              - textbox "First Name" [ref=e82]: Harry
+            - generic [ref=e85]:
+              - generic [ref=e86]: Last Name*
+              - textbox "Last Name" [ref=e87]: Nguyen
+            - generic [ref=e90]:
+              - generic [ref=e91]: Email*
+              - textbox "Email" [ref=e92]: harrynguyenswe@gmail.com
+            - group "Phone" [ref=e94]:
+              - generic [ref=e95]: Phone
+              - generic [ref=e98]:
+                - generic [ref=e99]: Country*
+                - generic [ref=e100]:
+                  - log [ref=e102]: United States +1, 1 of 244.244 results available.Use Up and Down to choose options, press Enter to select the currently focused option, press Escape to exit the menu, press Tab to select the option and exit the menu.
+                  - generic [ref=e104]:
+                    - combobox "Country" [expanded] [active] [ref=e107]
+                    - button "Toggle flyout" [ref=e109] [cursor=pointer]:
+                      - img [ref=e110]
+                  - listbox [ref=e454]:
+                    - option "United States +1" [ref=e455]: United States +1
+                    - option "Afghanistan +93" [ref=e457]: Afghanistan +93
+                    - option "Åland Islands +358" [ref=e459]: Åland Islands +358
+                    - option "Albania +355" [ref=e461]: Albania +355
+                    - option "Algeria +213" [ref=e463]: Algeria +213
+                    - option "American Samoa +1" [ref=e465]: American Samoa +1
+                    - option "Andorra +376" [ref=e467]: Andorra +376
+                    - option "Angola +244" [ref=e469]: Angola +244
+                    - option "Anguilla +1" [ref=e471]: Anguilla +1
+                    - option "Antigua & Barbuda +1" [ref=e473]: Antigua & Barbuda +1
+                    - option "Argentina +54" [ref=e475]: Argentina +54
+                    - option "Armenia +374" [ref=e477]: Armenia +374
+                    - option "Aruba +297" [ref=e479]: Aruba +297
+                    - option "Ascension Island +247" [ref=e481]: Ascension Island +247
+                    - option "Australia +61" [ref=e483]: Australia +61
+                    - option "Austria +43" [ref=e485]: Austria +43
+                    - option "Azerbaijan +994" [ref=e487]: Azerbaijan +994
+                    - option "Bahamas +1" [ref=e489]: Bahamas +1
+                    - option "Bahrain +973" [ref=e491]: Bahrain +973
+                    - option "Bangladesh +880" [ref=e493]: Bangladesh +880
+                    - option "Barbados +1" [ref=e495]: Barbados +1
+                    - option "Belarus +375" [ref=e497]: Belarus +375
+                    - option "Belgium +32" [ref=e499]: Belgium +32
+                    - option "Belize +501" [ref=e501]: Belize +501
+                    - option "Benin +229" [ref=e503]: Benin +229
+                    - option "Bermuda +1" [ref=e505]: Bermuda +1
+                    - option "Bhutan +975" [ref=e507]: Bhutan +975
+                    - option "Bolivia +591" [ref=e509]: Bolivia +591
+                    - option "Bosnia & Herzegovina +387" [ref=e511]: Bosnia & Herzegovina +387
+                    - option "Botswana +267" [ref=e513]: Botswana +267
+                    - option "Brazil +55" [ref=e515]: Brazil +55
+                    - option "British Indian Ocean Territory +246" [ref=e517]: British Indian Ocean Territory +246
+                    - option "British Virgin Islands +1" [ref=e519]: British Virgin Islands +1
+                    - option "Brunei +673" [ref=e521]: Brunei +673
+                    - option "Bulgaria +359" [ref=e523]: Bulgaria +359
+                    - option "Burkina Faso +226" [ref=e525]: Burkina Faso +226
+                    - option "Burundi +257" [ref=e527]: Burundi +257
+                    - option "Cambodia +855" [ref=e529]: Cambodia +855
+                    - option "Cameroon +237" [ref=e531]: Cameroon +237
+                    - option "Canada +1" [ref=e533]: Canada +1
+                    - option "Cape Verde +238" [ref=e535]: Cape Verde +238
+                    - option "Caribbean Netherlands +599" [ref=e537]: Caribbean Netherlands +599
+                    - option "Cayman Islands +1" [ref=e539]: Cayman Islands +1
+                    - option "Central African Republic +236" [ref=e541]: Central African Republic +236
+                    - option "Chad +235" [ref=e543]: Chad +235
+                    - option "Chile +56" [ref=e545]: Chile +56
+                    - option "China +86" [ref=e547]: China +86
+                    - option "Christmas Island +61" [ref=e549]: Christmas Island +61
+                    - option "Cocos (Keeling) Islands +61" [ref=e551]: Cocos (Keeling) Islands +61
+                    - option "Colombia +57" [ref=e553]: Colombia +57
+                    - option "Comoros +269" [ref=e555]: Comoros +269
+                    - option "Congo - Brazzaville +242" [ref=e557]: Congo - Brazzaville +242
+                    - option "Congo - Kinshasa +243" [ref=e559]: Congo - Kinshasa +243
+                    - option "Cook Islands +682" [ref=e561]: Cook Islands +682
+                    - option "Costa Rica +506" [ref=e563]: Costa Rica +506
+                    - option "Côte d’Ivoire +225" [ref=e565]: Côte d’Ivoire +225
+                    - option "Croatia +385" [ref=e567]: Croatia +385
+                    - option "Cuba +53" [ref=e569]: Cuba +53
+                    - option "Curaçao +599" [ref=e571]: Curaçao +599
+                    - option "Cyprus +357" [ref=e573]: Cyprus +357
+                    - option "Czechia +420" [ref=e575]: Czechia +420
+                    - option "Denmark +45" [ref=e577]: Denmark +45
+                    - option "Djibouti +253" [ref=e579]: Djibouti +253
+                    - option "Dominica +1" [ref=e581]: Dominica +1
+                    - option "Dominican Republic +1" [ref=e583]: Dominican Republic +1
+                    - option "Ecuador +593" [ref=e585]: Ecuador +593
+                    - option "Egypt +20" [ref=e587]: Egypt +20
+                    - option "El Salvador +503" [ref=e589]: El Salvador +503
+                    - option "Equatorial Guinea +240" [ref=e591]: Equatorial Guinea +240
+                    - option "Eritrea +291" [ref=e593]: Eritrea +291
+                    - option "Estonia +372" [ref=e595]: Estonia +372
+                    - option "Eswatini +268" [ref=e597]: Eswatini +268
+                    - option "Ethiopia +251" [ref=e599]: Ethiopia +251
+                    - option "Falkland Islands +500" [ref=e601]: Falkland Islands +500
+                    - option "Faroe Islands +298" [ref=e603]: Faroe Islands +298
+                    - option "Fiji +679" [ref=e605]: Fiji +679
+                    - option "Finland +358" [ref=e607]: Finland +358
+                    - option "France +33" [ref=e609]: France +33
+                    - option "French Guiana +594" [ref=e611]: French Guiana +594
+                    - option "French Polynesia +689" [ref=e613]: French Polynesia +689
+                    - option "Gabon +241" [ref=e615]: Gabon +241
+                    - option "Gambia +220" [ref=e617]: Gambia +220
+                    - option "Georgia +995" [ref=e619]: Georgia +995
+                    - option "Germany +49" [ref=e621]: Germany +49
+                    - option "Ghana +233" [ref=e623]: Ghana +233
+                    - option "Gibraltar +350" [ref=e625]: Gibraltar +350
+                    - option "Greece +30" [ref=e627]: Greece +30
+                    - option "Greenland +299" [ref=e629]: Greenland +299
+                    - option "Grenada +1" [ref=e631]: Grenada +1
+                    - option "Guadeloupe +590" [ref=e633]: Guadeloupe +590
+                    - option "Guam +1" [ref=e635]: Guam +1
+                    - option "Guatemala +502" [ref=e637]: Guatemala +502
+                    - option "Guernsey +44" [ref=e639]: Guernsey +44
+                    - option "Guinea +224" [ref=e641]: Guinea +224
+                    - option "Guinea-Bissau +245" [ref=e643]: Guinea-Bissau +245
+                    - option "Guyana +592" [ref=e645]: Guyana +592
+                    - option "Haiti +509" [ref=e647]: Haiti +509
+                    - option "Honduras +504" [ref=e649]: Honduras +504
+                    - option "Hong Kong SAR China +852" [ref=e651]: Hong Kong SAR China +852
+                    - option "Hungary +36" [ref=e653]: Hungary +36
+                    - option "Iceland +354" [ref=e655]: Iceland +354
+                    - option "India +91" [ref=e657]: India +91
+                    - option "Indonesia +62" [ref=e659]: Indonesia +62
+                    - option "Iran +98" [ref=e661]: Iran +98
+                    - option "Iraq +964" [ref=e663]: Iraq +964
+                    - option "Ireland +353" [ref=e665]: Ireland +353
+                    - option "Isle of Man +44" [ref=e667]: Isle of Man +44
+                    - option "Israel +972" [ref=e669]: Israel +972
+                    - option "Italy +39" [ref=e671]: Italy +39
+                    - option "Jamaica +1" [ref=e673]: Jamaica +1
+                    - option "Japan +81" [ref=e675]: Japan +81
+                    - option "Jersey +44" [ref=e677]: Jersey +44
+                    - option "Jordan +962" [ref=e679]: Jordan +962
+                    - option "Kazakhstan +7" [ref=e681]: Kazakhstan +7
+                    - option "Kenya +254" [ref=e683]: Kenya +254
+                    - option "Kiribati +686" [ref=e685]: Kiribati +686
+                    - option "Kosovo +383" [ref=e687]: Kosovo +383
+                    - option "Kuwait +965" [ref=e689]: Kuwait +965
+                    - option "Kyrgyzstan +996" [ref=e691]: Kyrgyzstan +996
+                    - option "Laos +856" [ref=e693]: Laos +856
+                    - option "Latvia +371" [ref=e695]: Latvia +371
+                    - option "Lebanon +961" [ref=e697]: Lebanon +961
+                    - option "Lesotho +266" [ref=e699]: Lesotho +266
+                    - option "Liberia +231" [ref=e701]: Liberia +231
+                    - option "Libya +218" [ref=e703]: Libya +218
+                    - option "Liechtenstein +423" [ref=e705]: Liechtenstein +423
+                    - option "Lithuania +370" [ref=e707]: Lithuania +370
+                    - option "Luxembourg +352" [ref=e709]: Luxembourg +352
+                    - option "Macao SAR China +853" [ref=e711]: Macao SAR China +853
+                    - option "Madagascar +261" [ref=e713]: Madagascar +261
+                    - option "Malawi +265" [ref=e715]: Malawi +265
+                    - option "Malaysia +60" [ref=e717]: Malaysia +60
+                    - option "Maldives +960" [ref=e719]: Maldives +960
+                    - option "Mali +223" [ref=e721]: Mali +223
+                    - option "Malta +356" [ref=e723]: Malta +356
+                    - option "Marshall Islands +692" [ref=e725]: Marshall Islands +692
+                    - option "Martinique +596" [ref=e727]: Martinique +596
+                    - option "Mauritania +222" [ref=e729]: Mauritania +222
+                    - option "Mauritius +230" [ref=e731]: Mauritius +230
+                    - option "Mayotte +262" [ref=e733]: Mayotte +262
+                    - option "Mexico +52" [ref=e735]: Mexico +52
+                    - option "Micronesia +691" [ref=e737]: Micronesia +691
+                    - option "Moldova +373" [ref=e739]: Moldova +373
+                    - option "Monaco +377" [ref=e741]: Monaco +377
+                    - option "Mongolia +976" [ref=e743]: Mongolia +976
+                    - option "Montenegro +382" [ref=e745]: Montenegro +382
+                    - option "Montserrat +1" [ref=e747]: Montserrat +1
+                    - option "Morocco +212" [ref=e749]: Morocco +212
+                    - option "Mozambique +258" [ref=e751]: Mozambique +258
+                    - option "Myanmar (Burma) +95" [ref=e753]: Myanmar (Burma) +95
+                    - option "Namibia +264" [ref=e755]: Namibia +264
+                    - option "Nauru +674" [ref=e757]: Nauru +674
+                    - option "Nepal +977" [ref=e759]: Nepal +977
+                    - option "Netherlands +31" [ref=e761]: Netherlands +31
+                    - option "New Caledonia +687" [ref=e763]: New Caledonia +687
+                    - option "New Zealand +64" [ref=e765]: New Zealand +64
+                    - option "Nicaragua +505" [ref=e767]: Nicaragua +505
+                    - option "Niger +227" [ref=e769]: Niger +227
+                    - option "Nigeria +234" [ref=e771]: Nigeria +234
+                    - option "Niue +683" [ref=e773]: Niue +683
+                    - option "Norfolk Island +672" [ref=e775]: Norfolk Island +672
+                    - option "North Korea +850" [ref=e777]: North Korea +850
+                    - option "North Macedonia +389" [ref=e779]: North Macedonia +389
+                    - option "Northern Mariana Islands +1" [ref=e781]: Northern Mariana Islands +1
+                    - option "Norway +47" [ref=e783]: Norway +47
+                    - option "Oman +968" [ref=e785]: Oman +968
+                    - option "Pakistan +92" [ref=e787]: Pakistan +92
+                    - option "Palau +680" [ref=e789]: Palau +680
+                    - option "Palestinian Territories +970" [ref=e791]: Palestinian Territories +970
+                    - option "Panama +507" [ref=e793]: Panama +507
+                    - option "Papua New Guinea +675" [ref=e795]: Papua New Guinea +675
+                    - option "Paraguay +595" [ref=e797]: Paraguay +595
+                    - option "Peru +51" [ref=e799]: Peru +51
+                    - option "Philippines +63" [ref=e801]: Philippines +63
+                    - option "Poland +48" [ref=e803]: Poland +48
+                    - option "Portugal +351" [ref=e805]: Portugal +351
+                    - option "Puerto Rico +1" [ref=e807]: Puerto Rico +1
+                    - option "Qatar +974" [ref=e809]: Qatar +974
+                    - option "Réunion +262" [ref=e811]: Réunion +262
+                    - option "Romania +40" [ref=e813]: Romania +40
+                    - option "Russia +7" [ref=e815]: Russia +7
+                    - option "Rwanda +250" [ref=e817]: Rwanda +250
+                    - option "Samoa +685" [ref=e819]: Samoa +685
+                    - option "San Marino +378" [ref=e821]: San Marino +378
+                    - option "São Tomé & Príncipe +239" [ref=e823]: São Tomé & Príncipe +239
+                    - option "Saudi Arabia +966" [ref=e825]: Saudi Arabia +966
+                    - option "Senegal +221" [ref=e827]: Senegal +221
+                    - option "Serbia +381" [ref=e829]: Serbia +381
+                    - option "Seychelles +248" [ref=e831]: Seychelles +248
+                    - option "Sierra Leone +232" [ref=e833]: Sierra Leone +232
+                    - option "Singapore +65" [ref=e835]: Singapore +65
+                    - option "Sint Maarten +1" [ref=e837]: Sint Maarten +1
+                    - option "Slovakia +421" [ref=e839]: Slovakia +421
+                    - option "Slovenia +386" [ref=e841]: Slovenia +386
+                    - option "Solomon Islands +677" [ref=e843]: Solomon Islands +677
+                    - option "Somalia +252" [ref=e845]: Somalia +252
+                    - option "South Africa +27" [ref=e847]: South Africa +27
+                    - option "South Korea +82" [ref=e849]: South Korea +82
+                    - option "South Sudan +211" [ref=e851]: South Sudan +211
+                    - option "Spain +34" [ref=e853]: Spain +34
+                    - option "Sri Lanka +94" [ref=e855]: Sri Lanka +94
+                    - option "St. Barthélemy +590" [ref=e857]: St. Barthélemy +590
+                    - option "St. Helena +290" [ref=e859]: St. Helena +290
+                    - option "St. Kitts & Nevis +1" [ref=e861]: St. Kitts & Nevis +1
+                    - option "St. Lucia +1" [ref=e863]: St. Lucia +1
+                    - option "St. Martin +590" [ref=e865]: St. Martin +590
+                    - option "St. Pierre & Miquelon +508" [ref=e867]: St. Pierre & Miquelon +508
+                    - option "St. Vincent & Grenadines +1" [ref=e869]: St. Vincent & Grenadines +1
+                    - option "Sudan +249" [ref=e871]: Sudan +249
+                    - option "Suriname +597" [ref=e873]: Suriname +597
+                    - option "Svalbard & Jan Mayen +47" [ref=e875]: Svalbard & Jan Mayen +47
+                    - option "Sweden +46" [ref=e877]: Sweden +46
+                    - option "Switzerland +41" [ref=e879]: Switzerland +41
+                    - option "Syria +963" [ref=e881]: Syria +963
+                    - option "Taiwan +886" [ref=e883]: Taiwan +886
+                    - option "Tajikistan +992" [ref=e885]: Tajikistan +992
+                    - option "Tanzania +255" [ref=e887]: Tanzania +255
+                    - option "Thailand +66" [ref=e889]: Thailand +66
+                    - option "Timor-Leste +670" [ref=e891]: Timor-Leste +670
+                    - option "Togo +228" [ref=e893]: Togo +228
+                    - option "Tokelau +690" [ref=e895]: Tokelau +690
+                    - option "Tonga +676" [ref=e897]: Tonga +676
+                    - option "Trinidad & Tobago +1" [ref=e899]: Trinidad & Tobago +1
+                    - option "Tunisia +216" [ref=e901]: Tunisia +216
+                    - option "Turkey +90" [ref=e903]: Turkey +90
+                    - option "Turkmenistan +993" [ref=e905]: Turkmenistan +993
+                    - option "Turks & Caicos Islands +1" [ref=e907]: Turks & Caicos Islands +1
+                    - option "Tuvalu +688" [ref=e909]: Tuvalu +688
+                    - option "U.S. Virgin Islands +1" [ref=e911]: U.S. Virgin Islands +1
+                    - option "Uganda +256" [ref=e913]: Uganda +256
+                    - option "Ukraine +380" [ref=e915]: Ukraine +380
+                    - option "United Arab Emirates +971" [ref=e917]: United Arab Emirates +971
+                    - option "United Kingdom +44" [ref=e919]: United Kingdom +44
+                    - option "Uruguay +598" [ref=e921]: Uruguay +598
+                    - option "Uzbekistan +998" [ref=e923]: Uzbekistan +998
+                    - option "Vanuatu +678" [ref=e925]: Vanuatu +678
+                    - option "Vatican City +39" [ref=e927]: Vatican City +39
+                    - option "Venezuela +58" [ref=e929]: Venezuela +58
+                    - option "Vietnam +84" [ref=e931]: Vietnam +84
+                    - option "Wallis & Futuna +681" [ref=e933]: Wallis & Futuna +681
+                    - option "Western Sahara +212" [ref=e935]: Western Sahara +212
+                    - option "Yemen +967" [ref=e937]: Yemen +967
+                    - option "Zambia +260" [ref=e939]: Zambia +260
+                    - option "Zimbabwe +263" [ref=e941]: Zimbabwe +263
+                  - textbox
+              - generic [ref=e114]:
+                - generic [ref=e115]: Phone*
+                - textbox "Phone" [ref=e117]
+            - generic [ref=e118]:
+              - generic [ref=e120]:
+                - generic [ref=e121]: Location (City)*
+                - generic [ref=e122]:
+                  - log [ref=e124]
+                  - combobox "Location (City)" [ref=e129]
+                  - textbox
+              - button "Locate me" [ref=e130] [cursor=pointer]
+            - group "Resume/CV*" [ref=e132]:
+              - generic [ref=e133]: Resume/CV*
+              - generic [ref=e135]:
+                - generic [ref=e137]:
+                  - button "Attach" [ref=e138] [cursor=pointer]
+                  - generic [ref=e139]: Attach
+                  - button "Attach" [ref=e140]
+                - button "Dropbox" [ref=e142] [cursor=pointer]
+                - generic [ref=e144]:
+                  - button "Enter manually" [ref=e145] [cursor=pointer]
+                  - generic [ref=e146]: Enter manually
+                - paragraph [ref=e147]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - separator [ref=e150]
+              - paragraph [ref=e152]: Employment
+              - generic [ref=e154]:
+                - generic [ref=e155]: Company name*
+                - textbox "Company name" [ref=e156]
+              - generic [ref=e158]:
+                - generic [ref=e159]: Title*
+                - textbox "Title" [ref=e160]
+              - generic [ref=e161]:
+                - generic [ref=e163]:
+                  - generic [ref=e164]: Start date month*
+                  - generic [ref=e165]:
+                    - log [ref=e167]
+                    - generic [ref=e169]:
+                      - generic [ref=e170]:
+                        - generic [ref=e171]: Select...
+                        - combobox "Start date month" [ref=e173]
+                      - button "Toggle flyout" [ref=e175] [cursor=pointer]:
+                        - img [ref=e176]
+                    - textbox
+                - generic [ref=e179]:
+                  - generic [ref=e180]: Start date year*
+                  - textbox "Start date year" [ref=e181]
+              - generic [ref=e182]:
+                - generic [ref=e184]:
+                  - generic [ref=e185]: End date month*
+                  - generic [ref=e186]:
+                    - log [ref=e188]
+                    - generic [ref=e190]:
+                      - generic [ref=e191]:
+                        - generic [ref=e192]: Select...
+                        - combobox "End date month" [ref=e194]
+                      - button "Toggle flyout" [ref=e196] [cursor=pointer]:
+                        - img [ref=e197]
+                    - textbox
+                - generic [ref=e200]:
+                  - generic [ref=e201]: End date year*
+                  - textbox "End date year" [ref=e202]
+                - generic [ref=e204]:
+                  - checkbox "Current role" [ref=e206]
+                  - generic [ref=e207]: Current role
+            - button "Add another" [ref=e208] [cursor=pointer]
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - separator [ref=e211]
+              - paragraph [ref=e213]: Education
+              - generic [ref=e215]:
+                - generic [ref=e216]: School*
+                - generic [ref=e217]:
+                  - log [ref=e219]
+                  - generic [ref=e221]:
+                    - generic [ref=e222]:
+                      - generic [ref=e223]: Select...
+                      - combobox "School" [ref=e225]
+                    - button "Toggle flyout" [ref=e227] [cursor=pointer]:
+                      - img [ref=e228]
+                  - textbox
+              - generic [ref=e231]:
+                - generic [ref=e232]: Degree*
+                - generic [ref=e233]:
+                  - log [ref=e235]
+                  - generic [ref=e237]:
+                    - generic [ref=e238]:
+                      - generic [ref=e239]: Select...
+                      - combobox "Degree" [ref=e241]
+                    - button "Toggle flyout" [ref=e243] [cursor=pointer]:
+                      - img [ref=e244]
+                  - textbox
+              - generic [ref=e247]:
+                - generic [ref=e248]: Discipline*
+                - generic [ref=e249]:
+                  - log [ref=e251]
+                  - generic [ref=e253]:
+                    - generic [ref=e254]:
+                      - generic [ref=e255]: Select...
+                      - combobox "Discipline" [ref=e257]
+                    - button "Toggle flyout" [ref=e259] [cursor=pointer]:
+                      - img [ref=e260]
+                  - textbox
+              - generic [ref=e262]:
+                - generic [ref=e265]:
+                  - generic [ref=e266]: Start date year*
+                  - spinbutton "Start date year" [ref=e267]
+                - generic [ref=e270]:
+                  - generic [ref=e271]: End date year*
+                  - spinbutton "End date year" [ref=e272]
+            - button "Add another" [ref=e273] [cursor=pointer]
+          - generic [ref=e274]:
+            - separator [ref=e275]
+            - generic [ref=e278]:
+              - generic [ref=e279]: Will you require immigration sponsorship to begin working for IMC?*
+              - generic [ref=e280]:
+                - log [ref=e282]
+                - generic [ref=e284]:
+                  - generic [ref=e285]:
+                    - generic [ref=e286]: Select...
+                    - combobox "Will you require immigration sponsorship to begin working for IMC?" [ref=e288]
+                  - button "Toggle flyout" [ref=e290] [cursor=pointer]:
+                    - img [ref=e291]
+                - textbox
+            - generic [ref=e295]:
+              - generic [ref=e296]: Will you require immigration sponsorship in the future to continue working for IMC? *
+              - generic [ref=e297]:
+                - log [ref=e299]
+                - generic [ref=e301]:
+                  - generic [ref=e302]:
+                    - generic [ref=e303]: Select...
+                    - combobox "Will you require immigration sponsorship in the future to continue working for IMC?" [ref=e305]
+                  - button "Toggle flyout" [ref=e307] [cursor=pointer]:
+                    - img [ref=e308]
+                - textbox
+            - generic [ref=e312]:
+              - generic [ref=e313]: Please confirm the education section includes all degrees earned (e.g., bachelor’s, master’s, etc), not only your most advanced degree.*
+              - generic [ref=e314]:
+                - log [ref=e316]
+                - generic [ref=e318]:
+                  - generic [ref=e319]:
+                    - generic [ref=e320]: Select...
+                    - combobox "Please confirm the education section includes all degrees earned (e.g., bachelor’s, master’s, etc), not only your most advanced degree." [ref=e322]
+                  - button "Toggle flyout" [ref=e324] [cursor=pointer]:
+                    - img [ref=e325]
+                - textbox
+            - generic [ref=e329]:
+              - generic [ref=e330]: Do you currently have any offers? *
+              - generic [ref=e331]:
+                - log [ref=e333]
+                - generic [ref=e335]:
+                  - generic [ref=e336]:
+                    - generic [ref=e337]: Select...
+                    - combobox "Do you currently have any offers?" [ref=e339]
+                  - button "Toggle flyout" [ref=e341] [cursor=pointer]:
+                    - img [ref=e342]
+                - textbox
+            - generic [ref=e346]:
+              - generic [ref=e347]: If you answered "Yes" above, please specify relevant details (company name, job title, deadline date). If you answered "No", please feel free to write N/A.*
+              - textbox "If you answered \"Yes\" above, please specify relevant details (company name, job title, deadline date). If you answered \"No\", please feel free to write N/A." [ref=e348]
+            - 'group "Please indicate which of the following programming languages you are proficient in (select all that apply): *" [ref=e350]':
+              - generic [ref=e351]: "Please indicate which of the following programming languages you are proficient in (select all that apply): *"
+              - generic [ref=e352]:
+                - checkbox "Java" [ref=e354]
+                - generic [ref=e355]: Java
+              - generic [ref=e356]:
+                - checkbox "C++" [ref=e358]
+                - generic [ref=e359]: C++
+              - generic [ref=e360]:
+                - checkbox "Python" [ref=e362]
+                - generic [ref=e363]: Python
+              - generic [ref=e364]:
+                - checkbox "None of the above" [ref=e366]
+                - generic [ref=e367]: None of the above
+            - generic [ref=e368]:
+              - generic [ref=e370]:
+                - generic [ref=e371]: Privacy Statement*
+                - generic [ref=e372]:
+                  - log [ref=e374]
+                  - generic [ref=e376]:
+                    - generic [ref=e377]:
+                      - generic [ref=e378]: Select...
+                      - combobox "Privacy Statement" [ref=e380]
+                    - button "Toggle flyout" [ref=e382] [cursor=pointer]:
+                      - img [ref=e383]
+                  - textbox
+              - paragraph [ref=e387]:
+                - text: Please read the terms and conditions of the
+                - link "IMC Privacy Statement" [ref=e388] [cursor=pointer]:
+                  - /url: https://www.imc.com/eu/privacy-statement/
+                - text: .
+            - generic [ref=e389]:
+              - generic [ref=e391]:
+                - generic [ref=e392]: Interview Code of Conduct *
+                - generic [ref=e393]:
+                  - log [ref=e395]
+                  - generic [ref=e397]:
+                    - generic [ref=e398]:
+                      - generic [ref=e399]: Select...
+                      - combobox "Interview Code of Conduct" [ref=e401]
+                    - button "Toggle flyout" [ref=e403] [cursor=pointer]:
+                      - img [ref=e404]
+                  - textbox
+              - paragraph [ref=e408]:
+                - text: Please review and agree to the
+                - link "IMC Interview Code of Conduct" [ref=e409] [cursor=pointer]:
+                  - /url: https://www.imc.com/us/careers/code-of-conduct
+                - text: before submitting your application.
+          - separator [ref=e410]
+          - generic [ref=e411]:
+            - heading "IMC US Voluntary Disclosure" [level=3] [ref=e412]
+            - generic [ref=e414]:
+              - paragraph
+              - paragraph [ref=e415]: IMC is an equal opportunity employer. IMC prohibits discrimination of any type and affords equal employment opportunities to applicants without regard to race, color, religion, sex, pregnancy, sexual orientation, gender identity and expression, national origin, age, disability, military or veteran status, status as a victim of domestic violence, and/or any other categories protected by applicable federal, state or local law. Completion of this section is voluntary and will not affect your opportunity for employment or the terms or conditions of your employment. The data collected from these questions will be stored separately from your individual application and will be kept confidential.
+            - generic [ref=e417]:
+              - generic [ref=e418]: What is your gender/gender identity?
+              - generic [ref=e419]:
+                - log [ref=e421]
+                - generic [ref=e423]:
+                  - generic [ref=e424]:
+                    - generic [ref=e425]: Select...
+                    - combobox "What is your gender/gender identity?" [ref=e427]
+                  - button "Toggle flyout" [ref=e429] [cursor=pointer]:
+                    - img [ref=e430]
+            - generic [ref=e433]:
+              - generic [ref=e434]: What is your Race/Ethnicity?
+              - generic [ref=e435]:
+                - log [ref=e437]
+                - generic [ref=e439]:
+                  - generic [ref=e440]:
+                    - generic [ref=e441]: Select...
+                    - combobox "What is your Race/Ethnicity?" [ref=e443]
+                  - button "Toggle flyout" [ref=e445] [cursor=pointer]:
+                    - img [ref=e446]
+          - button "Submit application" [ref=e449] [cursor=pointer]
+  - iframe [ref=e452]:
+    - generic [ref=f2e6]:
+      - text: protected by
+      - strong [ref=f2e7]: reCAPTCHA

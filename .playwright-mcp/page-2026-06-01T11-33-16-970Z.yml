@@ -1,0 +1,449 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - generic [ref=e2]:
+      - link "Skip to main content":
+        - /url: "#main"
+      - generic [ref=e4]:
+        - link "OpenAI Home" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e7]
+        - generic [ref=e9]:
+          - navigation "Main Navigation" [ref=e11]:
+            - list [ref=e12]:
+              - listitem [ref=e13]:
+                - link "Research" [ref=e14] [cursor=pointer]:
+                  - /url: /research/index/
+                  - generic [ref=e16]: Research
+                - button "Research menu"
+              - listitem [ref=e17]:
+                - button "Products" [ref=e18] [cursor=pointer]:
+                  - generic [ref=e20]: Products
+                - button "Products menu"
+              - listitem [ref=e21]:
+                - link "Business" [ref=e22] [cursor=pointer]:
+                  - /url: /business/
+                  - generic [ref=e24]: Business
+                - button "Business menu"
+              - listitem [ref=e25]:
+                - link "Developers" [ref=e26] [cursor=pointer]:
+                  - /url: /api/
+                  - generic [ref=e28]: Developers
+                - button "Developers menu"
+              - listitem [ref=e29]:
+                - link "Company" [ref=e30] [cursor=pointer]:
+                  - /url: /about/
+                  - generic [ref=e32]: Company
+                - button "Company menu"
+              - listitem [ref=e33]:
+                - link "Foundation (opens in a new window)" [ref=e34] [cursor=pointer]:
+                  - /url: https://openaifoundation.org
+                  - generic [ref=e36]: Foundation
+                  - generic [ref=e37]: (opens in a new window)
+          - generic [ref=e39]:
+            - button "Open Search" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+            - button "Close Search" [ref=e44] [cursor=pointer]:
+              - img [ref=e45]
+          - generic [ref=e48]:
+            - button "Log in" [ref=e49] [cursor=pointer]:
+              - text: Log in
+              - img [ref=e50]
+            - link "Try ChatGPT (opens in a new window)" [ref=e52] [cursor=pointer]:
+              - /url: https://chatgpt.com/
+              - text: Try ChatGPT
+              - img [ref=e53]
+              - generic [ref=e55]: (opens in a new window)
+  - generic [ref=e56]:
+    - main [ref=e57]:
+      - generic [ref=e58]: OpenAI
+      - generic [ref=e59]:
+        - generic [ref=e64]:
+          - paragraph [ref=e65]: Company
+          - heading "Develop safe, beneficial AI systems" [level=1] [ref=e66]
+          - paragraph [ref=e68]: We’re looking for curious minds from a wide range of disciplines and backgrounds.
+          - link "View open roles" [ref=e71] [cursor=pointer]:
+            - /url: /careers/search/
+        - heading "AI must be advanced with knowledge of and respect for humanity’s full spectrum of experiences and perspectives." [level=3] [ref=e75]
+        - generic [ref=e77]:
+          - paragraph [ref=e78]:
+            - generic [ref=e79]: "Values:"
+            - text: These values define what we consider to be the most important things. They guide our decision-making. We believe that channeling these values is the most promising way to achieve our mission.
+          - list [ref=e80]:
+            - listitem [ref=e81]:
+              - generic [ref=e82]: Humanity first.
+              - text: Working at OpenAI means being part of a team that is passionate about benefitting people and society through our work. We build AI to elevate humanity.
+            - listitem [ref=e83]:
+              - generic [ref=e84]: Act with humility.
+              - text: Humility reminds us to recognize the limits of our own knowledge and to remain open to new ideas, perspectives, and the possibility of being wrong. This mindset influences our iterative approach to deployment, and the reintegration of feedback into our research.
+            - listitem [ref=e85]:
+              - generic [ref=e86]: Feel the AGI.
+              - text: AGI will be powerful in an unprecedented way, with potential for upside and downside. Building it requires rigor and discipline, boundless imagination, and a deep sense of responsibility. We approach research and product development with respect for the transformative technology we are helping create, and the coupled benefits, changes, and risks that come along with it.
+            - listitem [ref=e87]:
+              - generic [ref=e88]: Ship joy.
+              - text: Through our research we develop products that can transform how people live their lives. Our technology reflects an internal culture of optimism for the future and stewardship of our mission.
+        - generic [ref=e90]:
+          - paragraph [ref=e91]:
+            - generic [ref=e92]: "Operating Principles:"
+            - text: These principles define how we work together. They are important for establishing our operating culture.
+          - list [ref=e93]:
+            - listitem [ref=e94]:
+              - generic [ref=e95]: Find a way.
+              - text: We believe in finding a way to do the things that matter. We give agency to individuals and teams to find an approach that works. Ideas come from anywhere, regardless of title or tenure.
+            - listitem [ref=e96]:
+              - generic [ref=e97]: Creativity over control.
+              - text: We look to find creative solutions, even if sometimes imperfect, over rigidity and control. Our approach to solving problems is based on best principles (first principles and best practices).
+            - listitem [ref=e98]:
+              - generic [ref=e99]: Update quickly.
+              - text: We come in with a hypothesis and are willing to change our approach as we receive new information. We seek truth and adapt knowing that flexibility is key to progress on the path to AGI.
+            - listitem [ref=e100]:
+              - generic [ref=e101]: Intense focus.
+              - text: We are hard workers who are here to make an impact on the world. This intensity and resilience are pivotal to the mission, while clarity and focus enable us to make hard decisions.
+        - img "Careers > Media > Image > AI Company photo" [ref=e109]
+        - generic [ref=e110]:
+          - generic [ref=e113]:
+            - heading "Benefits" [level=3] [ref=e114]
+            - paragraph [ref=e116]: Well-being centers everyday life. Our benefits package provides comprehensive support as you handle what matters today and confidently plan for your future.
+          - generic [ref=e118]:
+            - generic [ref=e119]:
+              - heading "For employees" [level=4] [ref=e121]
+              - generic [ref=e122]:
+                - list [ref=e123]:
+                  - listitem [ref=e124]:
+                    - img [ref=e125]
+                    - paragraph [ref=e127]: Competitive health and well-being benefits tailored to your location
+                  - listitem [ref=e128]:
+                    - img [ref=e129]
+                    - paragraph [ref=e131]: Mental healthcare support and services
+                  - listitem [ref=e132]:
+                    - img [ref=e133]
+                    - paragraph [ref=e135]: Global business travel insurance for you and any dependents traveling with you
+                  - listitem [ref=e136]:
+                    - img [ref=e137]
+                    - paragraph [ref=e139]: Company sponsored retirement plan
+                  - listitem [ref=e140]:
+                    - img [ref=e141]
+                    - paragraph [ref=e143]: Domestic conference budget for each employee
+                - paragraph
+            - generic [ref=e144]:
+              - heading "Life & family" [level=4] [ref=e146]
+              - generic [ref=e147]:
+                - list [ref=e148]:
+                  - listitem [ref=e149]:
+                    - img [ref=e150]
+                    - paragraph [ref=e152]: 24-week paid birth-parent leave, WFH for up to 4 weeks after leave
+                  - listitem [ref=e153]:
+                    - img [ref=e154]
+                    - paragraph [ref=e156]: 20-week paid parental leave, WFH for up to 4 weeks after leave
+                  - listitem [ref=e157]:
+                    - img [ref=e158]
+                    - paragraph [ref=e160]: Life and AD&D insurance
+                  - listitem [ref=e161]:
+                    - img [ref=e162]
+                    - paragraph [ref=e164]: Fertility treatment and family planning coverage
+                  - listitem [ref=e165]:
+                    - img [ref=e166]
+                    - paragraph [ref=e168]: Generous paid time off to recharge, care for yourself and loved ones, and handle life’s moments
+                - paragraph
+            - generic [ref=e169]:
+              - heading "Culture & development" [level=4] [ref=e171]
+              - generic [ref=e172]:
+                - list [ref=e173]:
+                  - listitem [ref=e174]:
+                    - img [ref=e175]
+                    - paragraph [ref=e177]: Annual learning & development stipend
+                  - listitem [ref=e178]:
+                    - img [ref=e179]
+                    - paragraph [ref=e181]: Employee resource groups
+                  - listitem [ref=e182]:
+                    - img [ref=e183]
+                    - paragraph [ref=e185]: Team-driven celebrations and events
+                  - listitem [ref=e186]:
+                    - img [ref=e187]
+                    - paragraph [ref=e189]: Daily breakfast, lunch, and dinner
+                  - listitem [ref=e190]:
+                    - img [ref=e191]
+                    - paragraph [ref=e193]: 6 coaching sessions, for you and your dependents.
+                - paragraph
+        - generic [ref=e199]:
+          - heading "Featured roles" [level=2] [ref=e200]
+          - paragraph [ref=e202]: We’re always seeking talented individuals to join our team.
+          - link "View open roles" [ref=e205] [cursor=pointer]:
+            - /url: /careers/search/
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - heading "OpenAI Residency" [level=3] [ref=e218]
+            - paragraph [ref=e220]: OpenAI Residency is a six-month program which offers a pathway to a full-time role at OpenAI for researchers and engineers who don’t currently focus on artificial intelligence.
+            - link "Find out more" [ref=e222] [cursor=pointer]:
+              - /url: /residency/
+          - img "Two people sitting on a couch by a sunny window, looking at each other as they talk and smile" [ref=e230]
+        - generic [ref=e234]:
+          - generic [ref=e235]:
+            - heading "Emerging talent" [level=3] [ref=e236]
+            - paragraph [ref=e238]: Join us in building safe, beneficial AI for everyone. We welcome curious, driven people early in their professional journey through internships, residencies, and full-time roles.
+            - link "Find out more" [ref=e240] [cursor=pointer]:
+              - /url: /careers/emerging-talent/
+          - img "Three people standing in conversation by a large window inside an office space, holding coffee cups and wearing casual clothing with ID badges." [ref=e248]
+        - generic [ref=e250]:
+          - blockquote [ref=e251]: “My colleagues recognize the importance of what they’re building and genuinely care about the outcomes in ways that surpass previous technological breakthroughs.”
+          - generic [ref=e252]: Anna Makanju, Public Policy at OpenAI
+        - generic [ref=e253]:
+          - heading "Resources" [level=2] [ref=e256]
+          - generic [ref=e259]:
+            - generic [ref=e261]:
+              - img "OpenAI Charter" [ref=e267]
+              - link "Charter - Company - Apr 9, 2018" [ref=e268] [cursor=pointer]:
+                - /url: /charter/
+                - generic [ref=e269]:
+                  - paragraph [ref=e271]: Charter
+                  - paragraph [ref=e272]:
+                    - generic [ref=e273]: Company
+            - generic [ref=e275]:
+              - img "OpenAI interview guide > Cover Image" [ref=e281]
+              - link "Interview guide - Careers - Feb 4, 2020" [ref=e282] [cursor=pointer]:
+                - /url: /interview-guide/
+                - generic [ref=e283]:
+                  - paragraph [ref=e285]: Interview guide
+                  - paragraph [ref=e286]:
+                    - generic [ref=e287]: Careers
+            - generic [ref=e289]:
+              - img "A textural blurred image of a red flower." [ref=e295]
+              - link "Building dynamic teams - Company" [ref=e296] [cursor=pointer]:
+                - /url: /building-dynamic-teams/
+                - generic [ref=e297]:
+                  - paragraph [ref=e299]: Building dynamic teams
+                  - paragraph [ref=e300]:
+                    - generic [ref=e301]: Company
+        - generic [ref=e304]:
+          - heading "Shape the future of technology" [level=2] [ref=e305]
+          - link "View open roles" [ref=e308] [cursor=pointer]:
+            - /url: /careers/search/
+    - contentinfo [ref=e309]:
+      - generic [ref=e311]:
+        - generic [ref=e312]:
+          - generic [ref=e313]:
+            - heading "Our Research" [level=2] [ref=e314]
+            - list [ref=e315]:
+              - listitem [ref=e316]:
+                - link "Research Index" [ref=e317] [cursor=pointer]:
+                  - /url: /research/index/
+              - listitem [ref=e318]:
+                - link "Research Overview" [ref=e319] [cursor=pointer]:
+                  - /url: /research/
+              - listitem [ref=e320]:
+                - link "Research Residency" [ref=e321] [cursor=pointer]:
+                  - /url: /residency/
+              - listitem [ref=e322]:
+                - link "Economic Research" [ref=e323] [cursor=pointer]:
+                  - /url: /signals/
+          - generic [ref=e324]:
+            - heading "Latest Advancements" [level=2] [ref=e325]
+            - list [ref=e326]:
+              - listitem [ref=e327]:
+                - link "GPT-5.5" [ref=e328] [cursor=pointer]:
+                  - /url: /index/introducing-gpt-5-5/
+              - listitem [ref=e329]:
+                - link "GPT-5.4" [ref=e330] [cursor=pointer]:
+                  - /url: /index/introducing-gpt-5-4/
+              - listitem [ref=e331]:
+                - link "GPT-5.3 Instant" [ref=e332] [cursor=pointer]:
+                  - /url: /index/gpt-5-3-instant/
+              - listitem [ref=e333]:
+                - link "GPT-5.3-Codex" [ref=e334] [cursor=pointer]:
+                  - /url: /index/introducing-gpt-5-3-codex/
+          - generic [ref=e335]:
+            - heading "Safety" [level=2] [ref=e336]
+            - list [ref=e337]:
+              - listitem [ref=e338]:
+                - link "Safety Approach" [ref=e339] [cursor=pointer]:
+                  - /url: /safety/
+              - listitem [ref=e340]:
+                - link "Security & Privacy" [ref=e341] [cursor=pointer]:
+                  - /url: /security-and-privacy/
+              - listitem [ref=e342]:
+                - link "Trust & Transparency" [ref=e343] [cursor=pointer]:
+                  - /url: /trust-and-transparency/
+        - generic [ref=e344]:
+          - generic [ref=e345]:
+            - heading "ChatGPT" [level=2] [ref=e346]
+            - list [ref=e347]:
+              - listitem [ref=e348]:
+                - link "Explore ChatGPT (opens in a new window)" [ref=e349] [cursor=pointer]:
+                  - /url: https://chatgpt.com/overview
+                  - text: Explore ChatGPT
+                  - img [ref=e350]
+                  - generic [ref=e352]: (opens in a new window)
+              - listitem [ref=e353]:
+                - link "Business" [ref=e354] [cursor=pointer]:
+                  - /url: https://chatgpt.com/business/business-plan
+              - listitem [ref=e355]:
+                - link "Enterprise" [ref=e356] [cursor=pointer]:
+                  - /url: https://chatgpt.com/business/enterprise
+              - listitem [ref=e357]:
+                - link "Education" [ref=e358] [cursor=pointer]:
+                  - /url: https://chatgpt.com/business/education
+              - listitem [ref=e359]:
+                - link "Pricing (opens in a new window)" [ref=e360] [cursor=pointer]:
+                  - /url: https://chatgpt.com/pricing
+                  - text: Pricing
+                  - img [ref=e361]
+                  - generic [ref=e363]: (opens in a new window)
+              - listitem [ref=e364]:
+                - link "Download (opens in a new window)" [ref=e365] [cursor=pointer]:
+                  - /url: https://chatgpt.com/download
+                  - text: Download
+                  - img [ref=e366]
+                  - generic [ref=e368]: (opens in a new window)
+          - generic [ref=e369]:
+            - heading "API Platform" [level=2] [ref=e370]
+            - list [ref=e371]:
+              - listitem [ref=e372]:
+                - link "Platform Overview" [ref=e373] [cursor=pointer]:
+                  - /url: /api/
+              - listitem [ref=e374]:
+                - link "Pricing" [ref=e375] [cursor=pointer]:
+                  - /url: /api/pricing/
+              - listitem [ref=e376]:
+                - link "API log in (opens in a new window)" [ref=e377] [cursor=pointer]:
+                  - /url: https://platform.openai.com/login
+                  - text: API log in
+                  - img [ref=e378]
+                  - generic [ref=e380]: (opens in a new window)
+              - listitem [ref=e381]:
+                - link "Documentation (opens in a new window)" [ref=e382] [cursor=pointer]:
+                  - /url: https://developers.openai.com/api/docs
+                  - text: Documentation
+                  - img [ref=e383]
+                  - generic [ref=e385]: (opens in a new window)
+              - listitem [ref=e386]:
+                - link "Developer Forum (opens in a new window)" [ref=e387] [cursor=pointer]:
+                  - /url: https://community.openai.com/
+                  - text: Developer Forum
+                  - img [ref=e388]
+                  - generic [ref=e390]: (opens in a new window)
+        - generic [ref=e391]:
+          - generic [ref=e392]:
+            - heading "For Business" [level=2] [ref=e393]
+            - list [ref=e394]:
+              - listitem [ref=e395]:
+                - link "Business Overview" [ref=e396] [cursor=pointer]:
+                  - /url: /business/
+              - listitem [ref=e397]:
+                - link "Solutions" [ref=e398] [cursor=pointer]:
+                  - /url: /solutions/
+              - listitem [ref=e399]:
+                - link "Contact Sales" [ref=e400] [cursor=pointer]:
+                  - /url: /contact-sales/
+          - generic [ref=e401]:
+            - heading "Company" [level=2] [ref=e402]
+            - list [ref=e403]:
+              - listitem [ref=e404]:
+                - link "About Us" [ref=e405] [cursor=pointer]:
+                  - /url: /about/
+              - listitem [ref=e406]:
+                - link "Our Charter" [ref=e407] [cursor=pointer]:
+                  - /url: /charter/
+              - listitem [ref=e408]:
+                - link "Foundation (opens in a new window)" [ref=e409] [cursor=pointer]:
+                  - /url: https://openaifoundation.org
+                  - text: Foundation
+                  - img [ref=e410]
+                  - generic [ref=e412]: (opens in a new window)
+              - listitem [ref=e413]:
+                - link "Careers" [ref=e414] [cursor=pointer]:
+                  - /url: /careers/
+              - listitem [ref=e415]:
+                - link "Brand" [ref=e416] [cursor=pointer]:
+                  - /url: /brand/
+          - generic [ref=e417]:
+            - heading "Support" [level=2] [ref=e418]
+            - list [ref=e419]:
+              - listitem [ref=e420]:
+                - link "Help Center (opens in a new window)" [ref=e421] [cursor=pointer]:
+                  - /url: https://help.openai.com/
+                  - text: Help Center
+                  - img [ref=e422]
+                  - generic [ref=e424]: (opens in a new window)
+        - generic [ref=e425]:
+          - generic [ref=e426]:
+            - heading "More" [level=2] [ref=e427]
+            - list [ref=e428]:
+              - listitem [ref=e429]:
+                - link "News" [ref=e430] [cursor=pointer]:
+                  - /url: /news/
+              - listitem [ref=e431]:
+                - link "Stories" [ref=e432] [cursor=pointer]:
+                  - /url: /stories/
+              - listitem [ref=e433]:
+                - link "Academy" [ref=e434] [cursor=pointer]:
+                  - /url: /academy/
+              - listitem [ref=e435]:
+                - link "Livestreams" [ref=e436] [cursor=pointer]:
+                  - /url: /live/
+              - listitem [ref=e437]:
+                - link "Podcast" [ref=e438] [cursor=pointer]:
+                  - /url: /podcast/
+              - listitem [ref=e439]:
+                - link "RSS" [ref=e440] [cursor=pointer]:
+                  - /url: https://openai.com/news/rss.xml
+          - generic [ref=e441]:
+            - heading "Terms & Policies" [level=2] [ref=e442]
+            - list [ref=e443]:
+              - listitem [ref=e444]:
+                - link "Terms of Use" [ref=e445] [cursor=pointer]:
+                  - /url: /policies/terms-of-use/
+              - listitem [ref=e446]:
+                - link "Privacy Policy" [ref=e447] [cursor=pointer]:
+                  - /url: /policies/privacy-policy/
+              - listitem [ref=e448]:
+                - link "Other Policies" [ref=e449] [cursor=pointer]:
+                  - /url: /policies/
+      - generic [ref=e450]:
+        - generic [ref=e451]:
+          - link "X" [ref=e452] [cursor=pointer]:
+            - /url: https://x.com/OpenAI
+            - img [ref=e453]
+            - generic [ref=e455]: (opens in a new window)
+          - link "YouTube" [ref=e456] [cursor=pointer]:
+            - /url: https://www.youtube.com/OpenAI
+            - img [ref=e457]
+            - generic [ref=e459]: (opens in a new window)
+          - link "LinkedIn" [ref=e460] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/openai
+            - img [ref=e461]
+            - generic [ref=e463]: (opens in a new window)
+          - link "GitHub" [ref=e464] [cursor=pointer]:
+            - /url: https://github.com/openai
+            - img [ref=e465]
+            - generic [ref=e467]: (opens in a new window)
+          - link "Instagram" [ref=e468] [cursor=pointer]:
+            - /url: https://www.instagram.com/openai/
+            - img [ref=e469]
+            - generic [ref=e471]: (opens in a new window)
+          - link "TikTok" [ref=e472] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@openai
+            - img [ref=e473]
+            - generic [ref=e475]: (opens in a new window)
+          - link "Discord" [ref=e476] [cursor=pointer]:
+            - /url: https://discord.gg/openai
+            - img [ref=e477]
+            - generic [ref=e479]: (opens in a new window)
+        - generic [ref=e480]:
+          - generic [ref=e481]: OpenAI © 2015–2026
+          - button "Your privacy choices" [ref=e482] [cursor=pointer]:
+            - text: Your privacy choices
+            - img [ref=e483]
+        - generic [ref=e488]:
+          - button "Change language" [ref=e489] [cursor=pointer]:
+            - generic [ref=e490]:
+              - img [ref=e491]
+              - generic [ref=e494]:
+                - text: English
+                - generic [ref=e495]: United States
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                    - textbox "Search locales by name or region":
+                      - /placeholder: Search

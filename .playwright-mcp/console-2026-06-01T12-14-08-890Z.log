@@ -1,0 +1,12 @@
+[    1762ms] [WARNING] Failed parsing 'srcset' attribute value since it has an unknown descriptor. @ :0
+[    1762ms] [WARNING] Dropped srcset candidate "/content/dam/microsoftcareersvnext/en/images/clickablecards-3-1-/CELA" @ :0
+[    1762ms] [WARNING] Failed parsing 'srcset' attribute value since it has an unknown descriptor. @ :0
+[    1762ms] [WARNING] Dropped srcset candidate "/content/dam/microsoftcareersvnext/en/images/clickablecards-3-1-/CELA" @ :0
+[    2556ms] [LOG] i18next: languageChanged en_us @ https://cdn.careers.microsoft.com/aem/main.b1fb98162c4cd0025016.js:64
+[    2556ms] [LOG] i18next: initialized {debug: true, initImmediate: true, ns: Array(1), defaultNS: Array(1), fallbackLng: Array(1)} @ https://cdn.careers.microsoft.com/aem/main.b1fb98162c4cd0025016.js:64
+[    2571ms] [LOG] i18next: languageChanged en_us @ https://cdn.careers.microsoft.com/aem/main.b1fb98162c4cd0025016.js:64
+[    2571ms] [LOG] i18next: languageChanged en_us @ https://cdn.careers.microsoft.com/aem/main.b1fb98162c4cd0025016.js:64
+[    2635ms] [WARNING] WARNING: OfficeBrowserFeedback is no longer supporting the host application setting the styles for the surveys. 
+			Please use the default styling. @ https://cdn.careers.microsoft.com/static/scripts/officebrowserfeedback_floodgate.min.js:1
+[    5715ms] [WARNING] Some icons were re-registered. Applications should only call registerIcons for any given icon once. Redefining what an icon is may have unintended consequences. Duplicates include: 
+GlobalNavButton, ChevronDown, ChevronUp, Edit, Add, Cancel, More, Settings, Mail, Filter (+ 1791 more) @ https://res.cdn.office.net/admincenter/admin-main/2026.5.26.1/ocv-inapp-feedback.en.bundle.js:269

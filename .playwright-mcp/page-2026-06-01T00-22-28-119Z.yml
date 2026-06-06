@@ -1,0 +1,389 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - img "OKX Logo" [ref=e5]
+      - heading "Current openings at OKX" [level=1] [ref=e6]
+      - generic [ref=e10]:
+        - paragraph [ref=e11]: OKX is a world-leading digital asset exchange, providing advanced financial services to traders worldwide leveraging blockchain technology.
+        - paragraph [ref=e12]: Our platform offers spot & derivatives trading helping traders optimize their strategy. It provides a safe, reliable and stable environment for digital assets trading via web interface and mobile app by adopting GSLB, and distributed server clusters.
+        - paragraph [ref=e13]: We believe blockchain technology will eliminate barriers to transactions, increase the efficiency of transactions across society, and eventually have a significant impact on the global economy. We strive to achieve something that changes the world and never stop to innovate and improve on our customer experience.
+        - generic [ref=e14]:
+          - generic [ref=e15]: "Notice: All official OKX vacancies are published on this job board."
+          - generic [ref=e16]: While roles may appear on selected third-party platforms from time to time, information on other sites may be inaccurate or outdated.
+          - strong [ref=e17]:
+            - generic [ref=e18]: If in doubt, please apply directly through our official careers website.
+      - generic [ref=e19]:
+        - img [ref=e20]
+        - generic [ref=e22]:
+          - paragraph [ref=e23]: Create a Job Alert
+          - paragraph [ref=e24]: Level-up your career by having opportunities at OKX sent directly to your inbox.
+          - link "Create alert" [ref=e25] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=OKX&source=job_alert_board
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e29]:
+            - generic [ref=e30]: Search
+            - textbox "Search" [ref=e31]
+          - generic [ref=e33]:
+            - generic [ref=e34]: Department
+            - generic [ref=e35]:
+              - log [ref=e37]
+              - generic [ref=e39]:
+                - generic [ref=e40]:
+                  - generic [ref=e41]: Select...
+                  - combobox "Department" [ref=e43]
+                - button "Toggle flyout" [ref=e45] [cursor=pointer]:
+                  - img [ref=e46]
+          - generic [ref=e49]:
+            - generic [ref=e50]: Office
+            - generic [ref=e51]:
+              - log [ref=e53]
+              - generic [ref=e55]:
+                - generic [ref=e56]:
+                  - generic [ref=e57]: Select...
+                  - combobox "Office" [ref=e59]
+                - button "Toggle flyout" [ref=e61] [cursor=pointer]:
+                  - img [ref=e62]
+        - generic [ref=e64]:
+          - heading "253 jobs" [level=2] [ref=e65]
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - heading "AI-Native Product & Engineering Center" [level=3] [ref=e68]
+              - table [ref=e70]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e71]:
+                      - paragraph [ref=e72]: Job
+                - rowgroup [ref=e73]:
+                  - row "Frontend Business Engineering Director APAC" [ref=e74]:
+                    - cell "Frontend Business Engineering Director APAC" [ref=e75]:
+                      - link "Frontend Business Engineering Director APAC" [ref=e76] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7683432003
+                        - paragraph [ref=e77]: Frontend Business Engineering Director
+                        - paragraph [ref=e78]: APAC
+            - generic [ref=e79]:
+              - paragraph [ref=e81]: AI-Native Product & Engineering Center
+              - heading "Engineering" [level=3] [ref=e82]
+              - table [ref=e84]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader "Job" [ref=e85]:
+                      - paragraph [ref=e86]: Job
+                - rowgroup [ref=e87]:
+                  - row "AI Agent Product Expert (Middleware) Hong Kong, Hong Kong SAR" [ref=e88]:
+                    - cell "AI Agent Product Expert (Middleware) Hong Kong, Hong Kong SAR" [ref=e89]:
+                      - link "AI Agent Product Expert (Middleware) Hong Kong, Hong Kong SAR" [ref=e90] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7731745003
+                        - paragraph [ref=e91]: AI Agent Product Expert (Middleware)
+                        - paragraph [ref=e92]: Hong Kong, Hong Kong SAR
+                  - row "AI Agent Security Research Engineer APAC; Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e93]:
+                    - cell "AI Agent Security Research Engineer APAC; Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e94]:
+                      - link "AI Agent Security Research Engineer APAC; Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e95] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7650023003
+                        - paragraph [ref=e96]: AI Agent Security Research Engineer
+                        - paragraph [ref=e97]: APAC; Hong Kong, Hong Kong SAR; Singapore, Singapore
+                  - row "AI Native Platform Architect Hong Kong, Hong Kong SAR" [ref=e98]:
+                    - cell "AI Native Platform Architect Hong Kong, Hong Kong SAR" [ref=e99]:
+                      - link "AI Native Platform Architect Hong Kong, Hong Kong SAR" [ref=e100] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7702525003
+                        - paragraph [ref=e101]: AI Native Platform Architect
+                        - paragraph [ref=e102]: Hong Kong, Hong Kong SAR
+                  - row "Android Developer Singapore, Singapore" [ref=e103]:
+                    - cell "Android Developer Singapore, Singapore" [ref=e104]:
+                      - link "Android Developer Singapore, Singapore" [ref=e105] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/5578341003
+                        - paragraph [ref=e106]: Android Developer
+                        - paragraph [ref=e107]: Singapore, Singapore
+                  - row "Business Engineer Singapore, Singapore" [ref=e108]:
+                    - cell "Business Engineer Singapore, Singapore" [ref=e109]:
+                      - link "Business Engineer Singapore, Singapore" [ref=e110] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7722895003
+                        - paragraph [ref=e111]: Business Engineer
+                        - paragraph [ref=e112]: Singapore, Singapore
+                  - row "Business Engineer, Trading San Jose, California, United States; United States (US)" [ref=e113]:
+                    - cell "Business Engineer, Trading San Jose, California, United States; United States (US)" [ref=e114]:
+                      - link "Business Engineer, Trading San Jose, California, United States; United States (US)" [ref=e115] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7724268003
+                        - paragraph [ref=e116]: Business Engineer, Trading
+                        - paragraph [ref=e117]: San Jose, California, United States; United States (US)
+                  - row "Data Engineering Director APAC" [ref=e118]:
+                    - cell "Data Engineering Director APAC" [ref=e119]:
+                      - link "Data Engineering Director APAC" [ref=e120] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7693151003
+                        - paragraph [ref=e121]: Data Engineering Director
+                        - paragraph [ref=e122]: APAC
+                  - row "Engineering Director, Frontend Singapore, Singapore" [ref=e123]:
+                    - cell "Engineering Director, Frontend Singapore, Singapore" [ref=e124]:
+                      - link "Engineering Director, Frontend Singapore, Singapore" [ref=e125] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7687329003
+                        - paragraph [ref=e126]: Engineering Director, Frontend
+                        - paragraph [ref=e127]: Singapore, Singapore
+                  - row "Engineering Director, Frontend Business Lead Singapore, Singapore" [ref=e128]:
+                    - cell "Engineering Director, Frontend Business Lead Singapore, Singapore" [ref=e129]:
+                      - link "Engineering Director, Frontend Business Lead Singapore, Singapore" [ref=e130] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7687326003
+                        - paragraph [ref=e131]: Engineering Director, Frontend Business Lead
+                        - paragraph [ref=e132]: Singapore, Singapore
+                  - row "Engineering Director (Java), Trading Services APAC" [ref=e133]:
+                    - cell "Engineering Director (Java), Trading Services APAC" [ref=e134]:
+                      - link "Engineering Director (Java), Trading Services APAC" [ref=e135] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7673170003
+                        - paragraph [ref=e136]: Engineering Director (Java), Trading Services
+                        - paragraph [ref=e137]: APAC
+                  - row "Engineering Director - Mobile [iOS/Android] Singapore, Singapore" [ref=e138]:
+                    - cell "Engineering Director - Mobile [iOS/Android] Singapore, Singapore" [ref=e139]:
+                      - link "Engineering Director - Mobile [iOS/Android] Singapore, Singapore" [ref=e140] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/6311451003
+                        - paragraph [ref=e141]: Engineering Director - Mobile [iOS/Android]
+                        - paragraph [ref=e142]: Singapore, Singapore
+                  - row "Engineering Director - Mobile (Performance Lab & Foundation) Singapore, Singapore" [ref=e143]:
+                    - cell "Engineering Director - Mobile (Performance Lab & Foundation) Singapore, Singapore" [ref=e144]:
+                      - link "Engineering Director - Mobile (Performance Lab & Foundation) Singapore, Singapore" [ref=e145] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/5890862003
+                        - paragraph [ref=e146]: Engineering Director - Mobile (Performance Lab & Foundation)
+                        - paragraph [ref=e147]: Singapore, Singapore
+                  - row "Expert Application Security Engineer (iOS) Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e148]:
+                    - cell "Expert Application Security Engineer (iOS) Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e149]:
+                      - link "Expert Application Security Engineer (iOS) Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e150] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/5958660003
+                        - paragraph [ref=e151]: Expert Application Security Engineer (iOS)
+                        - paragraph [ref=e152]: Hong Kong, Hong Kong SAR; Singapore, Singapore
+                  - row "Frontend Business Lead Hong Kong, Hong Kong SAR" [ref=e153]:
+                    - cell "Frontend Business Lead Hong Kong, Hong Kong SAR" [ref=e154]:
+                      - link "Frontend Business Lead Hong Kong, Hong Kong SAR" [ref=e155] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7684590003
+                        - paragraph [ref=e156]: Frontend Business Lead
+                        - paragraph [ref=e157]: Hong Kong, Hong Kong SAR
+                  - row "Frontend Business Lead APAC" [ref=e158]:
+                    - cell "Frontend Business Lead APAC" [ref=e159]:
+                      - link "Frontend Business Lead APAC" [ref=e160] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7684591003
+                        - paragraph [ref=e161]: Frontend Business Lead
+                        - paragraph [ref=e162]: APAC
+                  - row "iOS Developer Singapore, Singapore" [ref=e163]:
+                    - cell "iOS Developer Singapore, Singapore" [ref=e164]:
+                      - link "iOS Developer Singapore, Singapore" [ref=e165] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/5223985003
+                        - paragraph [ref=e166]: iOS Developer
+                        - paragraph [ref=e167]: Singapore, Singapore
+                  - row "Principal AI Engineer, AI Agent Development Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e168]:
+                    - cell "Principal AI Engineer, AI Agent Development Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e169]:
+                      - link "Principal AI Engineer, AI Agent Development Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e170] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/6690158003
+                        - paragraph [ref=e171]: Principal AI Engineer, AI Agent Development
+                        - paragraph [ref=e172]: Hong Kong, Hong Kong SAR; Singapore, Singapore
+                  - row "Principal AI Engineer, AI Agent Development San Jose, California, United States" [ref=e173]:
+                    - cell "Principal AI Engineer, AI Agent Development San Jose, California, United States" [ref=e174]:
+                      - link "Principal AI Engineer, AI Agent Development San Jose, California, United States" [ref=e175] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7650500003
+                        - paragraph [ref=e176]: Principal AI Engineer, AI Agent Development
+                        - paragraph [ref=e177]: San Jose, California, United States
+                  - row "Principal AI Engineer, AI Agent Development APAC" [ref=e178]:
+                    - cell "Principal AI Engineer, AI Agent Development APAC" [ref=e179]:
+                      - link "Principal AI Engineer, AI Agent Development APAC" [ref=e180] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7671555003
+                        - paragraph [ref=e181]: Principal AI Engineer, AI Agent Development
+                        - paragraph [ref=e182]: APAC
+                  - row "Principal AI Engineer, Chatbot Development Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e183]:
+                    - cell "Principal AI Engineer, Chatbot Development Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e184]:
+                      - link "Principal AI Engineer, Chatbot Development Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e185] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7648781003
+                        - paragraph [ref=e186]: Principal AI Engineer, Chatbot Development
+                        - paragraph [ref=e187]: Hong Kong, Hong Kong SAR; Singapore, Singapore
+                  - row "Principal AI Engineer, Chatbot Development San Jose, California, United States" [ref=e188]:
+                    - cell "Principal AI Engineer, Chatbot Development San Jose, California, United States" [ref=e189]:
+                      - link "Principal AI Engineer, Chatbot Development San Jose, California, United States" [ref=e190] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7650506003
+                        - paragraph [ref=e191]: Principal AI Engineer, Chatbot Development
+                        - paragraph [ref=e192]: San Jose, California, United States
+                  - row "Principal AIgorithm Engineer, Search and Recommendation Singapore, Singapore" [ref=e193]:
+                    - cell "Principal AIgorithm Engineer, Search and Recommendation Singapore, Singapore" [ref=e194]:
+                      - link "Principal AIgorithm Engineer, Search and Recommendation Singapore, Singapore" [ref=e195] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7687308003
+                        - paragraph [ref=e196]: Principal AIgorithm Engineer, Search and Recommendation
+                        - paragraph [ref=e197]: Singapore, Singapore
+                  - row "Principal Engineer, Agent Infrastructure & Memory Architecture Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e198]:
+                    - cell "Principal Engineer, Agent Infrastructure & Memory Architecture Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e199]:
+                      - link "Principal Engineer, Agent Infrastructure & Memory Architecture Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e200] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7648794003
+                        - paragraph [ref=e201]: Principal Engineer, Agent Infrastructure & Memory Architecture
+                        - paragraph [ref=e202]: Hong Kong, Hong Kong SAR; Singapore, Singapore
+                  - row "Principal Engineer, Agent Infrastructure & Memory Architecture San Jose, California, United States" [ref=e203]:
+                    - cell "Principal Engineer, Agent Infrastructure & Memory Architecture San Jose, California, United States" [ref=e204]:
+                      - link "Principal Engineer, Agent Infrastructure & Memory Architecture San Jose, California, United States" [ref=e205] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7652759003
+                        - paragraph [ref=e206]: Principal Engineer, Agent Infrastructure & Memory Architecture
+                        - paragraph [ref=e207]: San Jose, California, United States
+                  - row "Principal Engineer, Agent Infrastructure & Memory Architecture APAC" [ref=e208]:
+                    - cell "Principal Engineer, Agent Infrastructure & Memory Architecture APAC" [ref=e209]:
+                      - link "Principal Engineer, Agent Infrastructure & Memory Architecture APAC" [ref=e210] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7671576003
+                        - paragraph [ref=e211]: Principal Engineer, Agent Infrastructure & Memory Architecture
+                        - paragraph [ref=e212]: APAC
+                  - row "Principal / Staff Engineer - Compliance Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e213]:
+                    - cell "Principal / Staff Engineer - Compliance Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e214]:
+                      - link "Principal / Staff Engineer - Compliance Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e215] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7736920003
+                        - paragraph [ref=e216]: Principal / Staff Engineer - Compliance
+                        - paragraph [ref=e217]: Hong Kong, Hong Kong SAR; Singapore, Singapore
+                  - row "Principal / Staff Engineer - Compliance Hong Kong, Hong Kong SAR" [ref=e218]:
+                    - cell "Principal / Staff Engineer - Compliance Hong Kong, Hong Kong SAR" [ref=e219]:
+                      - link "Principal / Staff Engineer - Compliance Hong Kong, Hong Kong SAR" [ref=e220] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7736921003
+                        - paragraph [ref=e221]: Principal / Staff Engineer - Compliance
+                        - paragraph [ref=e222]: Hong Kong, Hong Kong SAR
+                  - row "Quant Developer (Rust), Liquidity Platform, Delta One Hong Kong, Hong Kong SAR" [ref=e223]:
+                    - cell "Quant Developer (Rust), Liquidity Platform, Delta One Hong Kong, Hong Kong SAR" [ref=e224]:
+                      - link "Quant Developer (Rust), Liquidity Platform, Delta One Hong Kong, Hong Kong SAR" [ref=e225] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7673432003
+                        - paragraph [ref=e226]: Quant Developer (Rust), Liquidity Platform, Delta One
+                        - paragraph [ref=e227]: Hong Kong, Hong Kong SAR
+                  - row "Quant Developer (Rust), Liquidity Platform, Delta One Systematic Trading Hong Kong, Hong Kong SAR" [ref=e228]:
+                    - cell "Quant Developer (Rust), Liquidity Platform, Delta One Systematic Trading Hong Kong, Hong Kong SAR" [ref=e229]:
+                      - link "Quant Developer (Rust), Liquidity Platform, Delta One Systematic Trading Hong Kong, Hong Kong SAR" [ref=e230] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7673443003
+                        - paragraph [ref=e231]: Quant Developer (Rust), Liquidity Platform, Delta One Systematic Trading
+                        - paragraph [ref=e232]: Hong Kong, Hong Kong SAR
+                  - row "Security Engineer (Data & Endpoint Security) Hong Kong, Hong Kong SAR" [ref=e233]:
+                    - cell "Security Engineer (Data & Endpoint Security) Hong Kong, Hong Kong SAR" [ref=e234]:
+                      - link "Security Engineer (Data & Endpoint Security) Hong Kong, Hong Kong SAR" [ref=e235] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7675035003
+                        - paragraph [ref=e236]: Security Engineer (Data & Endpoint Security)
+                        - paragraph [ref=e237]: Hong Kong, Hong Kong SAR
+                  - row "Senior Data Engineer Hong Kong, Hong Kong SAR" [ref=e238]:
+                    - cell "Senior Data Engineer Hong Kong, Hong Kong SAR" [ref=e239]:
+                      - link "Senior Data Engineer Hong Kong, Hong Kong SAR" [ref=e240] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7686177003
+                        - paragraph [ref=e241]: Senior Data Engineer
+                        - paragraph [ref=e242]: Hong Kong, Hong Kong SAR
+                  - row "Senior Director/ VP, AI Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e243]:
+                    - cell "Senior Director/ VP, AI Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e244]:
+                      - link "Senior Director/ VP, AI Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e245] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7709348003
+                        - paragraph [ref=e246]: Senior Director/ VP, AI
+                        - paragraph [ref=e247]: Hong Kong, Hong Kong SAR; Singapore, Singapore
+                  - row "Senior Java R&D Engineer（Token Markets Team） Hong Kong, Hong Kong SAR" [ref=e248]:
+                    - cell "Senior Java R&D Engineer（Token Markets Team） Hong Kong, Hong Kong SAR" [ref=e249]:
+                      - link "Senior Java R&D Engineer（Token Markets Team） Hong Kong, Hong Kong SAR" [ref=e250] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/6325652003
+                        - paragraph [ref=e251]: Senior Java R&D Engineer（Token Markets Team）
+                        - paragraph [ref=e252]: Hong Kong, Hong Kong SAR
+                  - row "Senior Product Manager, AI Agent Products Singapore, Singapore" [ref=e253]:
+                    - cell "Senior Product Manager, AI Agent Products Singapore, Singapore" [ref=e254]:
+                      - link "Senior Product Manager, AI Agent Products Singapore, Singapore" [ref=e255] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7699601003
+                        - paragraph [ref=e256]: Senior Product Manager, AI Agent Products
+                        - paragraph [ref=e257]: Singapore, Singapore
+                  - row "Senior Software Engineer, Rust (Cross-Platform) Singapore, Singapore" [ref=e258]:
+                    - cell "Senior Software Engineer, Rust (Cross-Platform) Singapore, Singapore" [ref=e259]:
+                      - link "Senior Software Engineer, Rust (Cross-Platform) Singapore, Singapore" [ref=e260] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7642296003
+                        - paragraph [ref=e261]: Senior Software Engineer, Rust (Cross-Platform)
+                        - paragraph [ref=e262]: Singapore, Singapore
+                  - row "Senior Staff AI Engineer, Anti-Fraud Hong Kong, Hong Kong SAR" [ref=e263]:
+                    - cell "Senior Staff AI Engineer, Anti-Fraud Hong Kong, Hong Kong SAR" [ref=e264]:
+                      - link "Senior Staff AI Engineer, Anti-Fraud Hong Kong, Hong Kong SAR" [ref=e265] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7678350003
+                        - paragraph [ref=e266]: Senior Staff AI Engineer, Anti-Fraud
+                        - paragraph [ref=e267]: Hong Kong, Hong Kong SAR
+                  - row "Senior Staff Algorithm Engineer, Recommendation APAC" [ref=e268]:
+                    - cell "Senior Staff Algorithm Engineer, Recommendation APAC" [ref=e269]:
+                      - link "Senior Staff Algorithm Engineer, Recommendation APAC" [ref=e270] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7687337003
+                        - paragraph [ref=e271]: Senior Staff Algorithm Engineer, Recommendation
+                        - paragraph [ref=e272]: APAC
+                  - row "Senior/Staff Android Developer Singapore, Singapore" [ref=e273]:
+                    - cell "Senior/Staff Android Developer Singapore, Singapore" [ref=e274]:
+                      - link "Senior/Staff Android Developer Singapore, Singapore" [ref=e275] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/6034068003
+                        - paragraph [ref=e276]: Senior/Staff Android Developer
+                        - paragraph [ref=e277]: Singapore, Singapore
+                  - row "Senior/Staff Engineer, AI Agent Development Singapore, Singapore" [ref=e278]:
+                    - cell "Senior/Staff Engineer, AI Agent Development Singapore, Singapore" [ref=e279]:
+                      - link "Senior/Staff Engineer, AI Agent Development Singapore, Singapore" [ref=e280] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7699598003
+                        - paragraph [ref=e281]: Senior/Staff Engineer, AI Agent Development
+                        - paragraph [ref=e282]: Singapore, Singapore
+                  - row "Senior Staff Engineer, AI Platform Hong Kong, Hong Kong SAR" [ref=e283]:
+                    - cell "Senior Staff Engineer, AI Platform Hong Kong, Hong Kong SAR" [ref=e284]:
+                      - link "Senior Staff Engineer, AI Platform Hong Kong, Hong Kong SAR" [ref=e285] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7678331003
+                        - paragraph [ref=e286]: Senior Staff Engineer, AI Platform
+                        - paragraph [ref=e287]: Hong Kong, Hong Kong SAR
+                  - row "Senior Staff Engineer, AI Platform and Infrastructure Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e288]:
+                    - cell "Senior Staff Engineer, AI Platform and Infrastructure Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e289]:
+                      - link "Senior Staff Engineer, AI Platform and Infrastructure Hong Kong, Hong Kong SAR; Singapore, Singapore" [ref=e290] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7477322003
+                        - paragraph [ref=e291]: Senior Staff Engineer, AI Platform and Infrastructure
+                        - paragraph [ref=e292]: Hong Kong, Hong Kong SAR; Singapore, Singapore
+                  - row "Senior/Staff Engineer, Fraud Risk Hong Kong, Hong Kong SAR" [ref=e293]:
+                    - cell "Senior/Staff Engineer, Fraud Risk Hong Kong, Hong Kong SAR" [ref=e294]:
+                      - link "Senior/Staff Engineer, Fraud Risk Hong Kong, Hong Kong SAR" [ref=e295] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7678342003
+                        - paragraph [ref=e296]: Senior/Staff Engineer, Fraud Risk
+                        - paragraph [ref=e297]: Hong Kong, Hong Kong SAR
+                  - row "Senior Staff Engineer (Java), Liquidity Platform, Cash OTC Hong Kong, Hong Kong SAR" [ref=e298]:
+                    - cell "Senior Staff Engineer (Java), Liquidity Platform, Cash OTC Hong Kong, Hong Kong SAR" [ref=e299]:
+                      - link "Senior Staff Engineer (Java), Liquidity Platform, Cash OTC Hong Kong, Hong Kong SAR" [ref=e300] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7703881003
+                        - paragraph [ref=e301]: Senior Staff Engineer (Java), Liquidity Platform, Cash OTC
+                        - paragraph [ref=e302]: Hong Kong, Hong Kong SAR
+                  - row "Senior/Staff Engineer, Liquidity Platform, Private Data Engineer Hong Kong, Hong Kong SAR" [ref=e303]:
+                    - cell "Senior/Staff Engineer, Liquidity Platform, Private Data Engineer Hong Kong, Hong Kong SAR" [ref=e304]:
+                      - link "Senior/Staff Engineer, Liquidity Platform, Private Data Engineer Hong Kong, Hong Kong SAR" [ref=e305] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7673457003
+                        - paragraph [ref=e306]: Senior/Staff Engineer, Liquidity Platform, Private Data Engineer
+                        - paragraph [ref=e307]: Hong Kong, Hong Kong SAR
+                  - row "Senior/Staff Engineer, Liquidity Platform, Strategy Service Hong Kong, Hong Kong SAR" [ref=e308]:
+                    - cell "Senior/Staff Engineer, Liquidity Platform, Strategy Service Hong Kong, Hong Kong SAR" [ref=e309]:
+                      - link "Senior/Staff Engineer, Liquidity Platform, Strategy Service Hong Kong, Hong Kong SAR" [ref=e310] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7673466003
+                        - paragraph [ref=e311]: Senior/Staff Engineer, Liquidity Platform, Strategy Service
+                        - paragraph [ref=e312]: Hong Kong, Hong Kong SAR
+                  - row "Senior/Staff Engineer, Liquidity Platform, Trading Service Hong Kong, Hong Kong SAR" [ref=e313]:
+                    - cell "Senior/Staff Engineer, Liquidity Platform, Trading Service Hong Kong, Hong Kong SAR" [ref=e314]:
+                      - link "Senior/Staff Engineer, Liquidity Platform, Trading Service Hong Kong, Hong Kong SAR" [ref=e315] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7673564003
+                        - paragraph [ref=e316]: Senior/Staff Engineer, Liquidity Platform, Trading Service
+                        - paragraph [ref=e317]: Hong Kong, Hong Kong SAR
+                  - row "Senior/Staff Frontend Engineer, Assets Hong Kong, Hong Kong SAR" [ref=e318]:
+                    - cell "Senior/Staff Frontend Engineer, Assets Hong Kong, Hong Kong SAR" [ref=e319]:
+                      - link "Senior/Staff Frontend Engineer, Assets Hong Kong, Hong Kong SAR" [ref=e320] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7731840003
+                        - paragraph [ref=e321]: Senior/Staff Frontend Engineer, Assets
+                        - paragraph [ref=e322]: Hong Kong, Hong Kong SAR
+                  - row "Senior/Staff iOS Developer Singapore, Singapore" [ref=e323]:
+                    - cell "Senior/Staff iOS Developer Singapore, Singapore" [ref=e324]:
+                      - link "Senior/Staff iOS Developer Singapore, Singapore" [ref=e325] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/6034088003
+                        - paragraph [ref=e326]: Senior/Staff iOS Developer
+                        - paragraph [ref=e327]: Singapore, Singapore
+                  - row "Senior Staff / Principal AI Engineer, Computer Vision Hong Kong, Hong Kong SAR" [ref=e328]:
+                    - cell "Senior Staff / Principal AI Engineer, Computer Vision Hong Kong, Hong Kong SAR" [ref=e329]:
+                      - link "Senior Staff / Principal AI Engineer, Computer Vision Hong Kong, Hong Kong SAR" [ref=e330] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/okx/jobs/7675050003
+                        - paragraph [ref=e331]: Senior Staff / Principal AI Engineer, Computer Vision
+                        - paragraph [ref=e332]: Hong Kong, Hong Kong SAR
+          - navigation "Pagination" [ref=e334]:
+            - button "Previous page" [disabled] [ref=e335]:
+              - img [ref=e336]
+            - list [ref=e338]:
+              - listitem [ref=e339]:
+                - button "Go to page 1": "1"
+              - listitem [ref=e340]:
+                - button "Go to page 2" [ref=e341] [cursor=pointer]: "2"
+              - listitem [ref=e342]:
+                - button "Go to page 3" [ref=e343] [cursor=pointer]: "3"
+              - listitem [ref=e344]:
+                - button "Go to page 4" [ref=e345] [cursor=pointer]: "4"
+              - listitem [ref=e346]: ...
+              - listitem [ref=e347]:
+                - button "Go to page 6" [ref=e348] [cursor=pointer]: "6"
+            - button "Next page" [ref=e349] [cursor=pointer]:
+              - img [ref=e350]
+  - contentinfo [ref=e352]:
+    - generic [ref=e353]:
+      - paragraph [ref=e354]: Powered by
+      - link "Greenhouse logo" [ref=e355] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=e356]

@@ -1,0 +1,116 @@
+- generic [ref=e2]:
+  - list [ref=e4]:
+    - listitem [ref=e5]:
+      - link "Giga" [ref=e6] [cursor=pointer]:
+        - /url: https://gigaml.com/
+        - img "Giga" [ref=e7]
+    - listitem [ref=e8]:
+      - link "Back to Giga’s Job Listings" [ref=e9] [cursor=pointer]:
+        - /url: /GigaML?utm_source=6p28rgeQLE
+        - img [ref=e10]
+    - listitem
+  - generic [ref=e12]:
+    - heading "Software Engineer I / II" [level=1] [ref=e14]
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - heading "Location" [level=2] [ref=e18]
+          - paragraph [ref=e19]: San Francisco
+        - generic [ref=e20]:
+          - heading "Employment Type" [level=2] [ref=e21]
+          - paragraph [ref=e22]: Full time
+        - generic [ref=e23]:
+          - heading "Location Type" [level=2] [ref=e24]
+          - paragraph [ref=e25]: On-site
+        - generic [ref=e26]:
+          - heading "Department" [level=2] [ref=e27]
+          - paragraph [ref=e28]: Engineering
+        - generic [ref=e29]:
+          - heading "Compensation" [level=2] [ref=e30]
+          - list [ref=e31]:
+            - listitem [ref=e32]:
+              - generic [ref=e33]: $160K – $250K • Offers Equity
+      - generic [ref=e34]:
+        - tablist [ref=e35]:
+          - tab "Overview" [ref=e36] [cursor=pointer]
+          - tab "Application" [selected] [ref=e37] [cursor=pointer]
+        - tabpanel "Application" [ref=e120]:
+          - generic [ref=e121]:
+            - button "Choose File" [ref=e122]
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - img [ref=e127]
+                - heading "Autofill from resume" [level=3] [ref=e129]
+              - paragraph [ref=e130]: Upload your resume here to autofill key application fields.
+              - button "Upload file" [ref=e132] [cursor=pointer]
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - generic [ref=e136]: Name*
+              - textbox "Name*" [ref=e138] [cursor=pointer]:
+                - /placeholder: Type here...
+                - text: Harry Nguyen
+            - generic [ref=e139]:
+              - generic [ref=e140]: Email*
+              - textbox "Email*" [ref=e142] [cursor=pointer]:
+                - /placeholder: hello@example.com...
+                - text: harrynguyenswe@gmail.com
+            - generic [ref=e143]:
+              - generic [ref=e144]: Resume*
+              - button "Resume*" [ref=e145]
+              - generic [ref=e195]:
+                - paragraph [ref=e196]:
+                  - img [ref=e197]
+                  - text: 019-giga-swe-i-ii-harry-nguyen-2026-05-29.pdf
+                - button "Delete file" [ref=e199] [cursor=pointer]:
+                  - img [ref=e200]
+              - generic [ref=e146]:
+                - button "Replace" [ref=e202] [cursor=pointer]:
+                  - generic [ref=e150]: Replace
+                - paragraph [ref=e151]: or drag and drop here
+            - generic [ref=e152]:
+              - generic [ref=e153]: Are you currently based in the United States?*
+              - generic [ref=e154]:
+                - button "Yes" [ref=e155] [cursor=pointer]
+                - button "No" [ref=e156] [cursor=pointer]
+            - generic [ref=e157]:
+              - generic [ref=e158]: Do you now, or will you ever, require employment sponsorship to work in the country where this job is located?*
+              - generic [ref=e159]:
+                - button "Yes" [ref=e160] [cursor=pointer]
+                - button "No" [ref=e161] [cursor=pointer]
+            - group [ref=e163]:
+              - generic [ref=e164]: Are you able to work in-person in San Francisco, CA, five days per week in the office?*
+              - paragraph [ref=e166]: At Giga, we believe working together in-person is a crucial part of building a generational company. Our engineering team is primarily based in San Francisco, CA, and we do not allow remote work. Does that work for you?
+              - generic [ref=e167]:
+                - radio "Yes, and I currently live in the SF Bay Area." [ref=e170] [cursor=pointer]
+                - generic [ref=e171]: Yes, and I currently live in the SF Bay Area.
+              - generic [ref=e172]:
+                - radio "Yes, and while I do not currently live in the SF Bay Area, I am open to relocation." [checked] [active] [ref=e175] [cursor=pointer]
+                - generic [ref=e176]: Yes, and while I do not currently live in the SF Bay Area, I am open to relocation.
+              - generic [ref=e177]:
+                - radio "No, I cannot work in-office." [ref=e180] [cursor=pointer]
+                - generic [ref=e181]: No, I cannot work in-office.
+            - generic [ref=e182]:
+              - generic [ref=e183]: Are you prepared to work at a startup?*
+              - paragraph [ref=e185]: Giga is trying to build a generational company, which is extremely difficult. We work long hours and have a strong performance culture. Engineers are given a lot of agency, but with that comes responsibility and pressure. Does that work for you?
+              - generic [ref=e186]:
+                - button "Yes" [ref=e187] [cursor=pointer]
+                - button "No" [ref=e188] [cursor=pointer]
+            - generic [ref=e189]:
+              - generic [ref=e190]: Anything else important for us to know?
+              - textbox "Anything else important for us to know?" [ref=e191] [cursor=pointer]:
+                - /placeholder: Type here...
+          - button "Submit Application" [ref=e192] [cursor=pointer]:
+            - text: Submit Application
+            - img [ref=e193]
+  - contentinfo [ref=e107]:
+    - link "Learn more about Ashby" [ref=e108] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=e109]: Powered by
+      - img "Ashby" [ref=e110]
+    - paragraph [ref=e116]:
+      - link "Privacy Policy" [ref=e117] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=e118] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=e119] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

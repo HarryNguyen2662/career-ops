@@ -1,0 +1,372 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "Affirm Logo" [ref=e5] [cursor=pointer]:
+        - /url: https://www.affirm.com/careers?gh_src=689c81d53us
+        - img "Affirm Logo" [ref=e6]
+      - generic [ref=e7]:
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - heading "Software Engineer I, Full-Stack (Home and Search Experience)" [level=1] [ref=e11]
+            - generic [ref=e12]:
+              - img [ref=e13]
+              - generic [ref=e15]: Remote US
+          - button "Apply" [ref=e16] [cursor=pointer]
+        - generic [ref=e17]:
+          - paragraph [ref=e19]: Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.
+          - generic [ref=e20]:
+            - paragraph [ref=e21]: The Home and Search Experience team owns the end-to-end search and discovery experience in the Affirm app, spanning user experience, application-level APIs, and the underlying search and ranking systems. Our goal is to define and deliver meaningful initiatives that improve how users discover merchants, brands, and categories, and understand and engage with their available credit.
+            - paragraph [ref=e22]: We work closely with product, data science, design, and partner engineering teams to identify opportunities, ship new features, and continuously raise the quality, reliability, and scalability of these experiences in support of Affirm’s growth.
+            - paragraph [ref=e23]: We are looking for a highly motivated Software Engineer to help define and deliver critical experiences at the heart of Affirm’s marketplace. In this role, you will own high-leverage technical and product initiatives whose outcomes directly influence user discovery, credit engagement, and the growth of Affirm’s merchant network.
+            - paragraph [ref=e24]: We are only just getting started! Come join us as we build a beloved, lasting financial services brand predicated on honesty and trust. It’s going to be an amazing ride!
+            - paragraph [ref=e25]
+            - heading "What You'll Do" [level=2] [ref=e26]
+            - list [ref=e27]:
+              - listitem [ref=e28]: With the support of your team, you will work on tasks that contribute to the team's projects and goals.
+              - listitem [ref=e29]: You will work collaboratively and proactively with your team and stakeholders, bringing them along for your work and helping to create visibility and dialog regarding the risks and trade-offs related to your work.
+              - listitem [ref=e30]: You will strike the right balance of speed and quality in your work, ensuring that we hit our business goals while protecting our systems from downtime.
+              - listitem [ref=e31]: You will contribute to a sense of community on your team by engaging in growth and development activities.
+            - heading "What We Look For" [level=2] [ref=e32]
+            - list [ref=e33]:
+              - listitem [ref=e34]: You have previous work or internship experience designing, developing and launching backend systems at scale and are experienced using one of Python or Kotlin.
+              - listitem [ref=e35]: You are familiar with the building blocks of distributed systems, and the technologies like AWS, MySQL and Kubernetes.
+              - listitem [ref=e36]: You have previous work or internship designing, developing and launching APIs at scale using languages like Python or Kotlin.
+              - listitem [ref=e37]: You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code.
+              - listitem [ref=e38]: You are comfortable navigating a large code base, debugging others' code, and providing feedback to other engineers through code reviews.
+              - listitem [ref=e39]: Your experience demonstrates that you take ownership of your growth, proactively seeking feedback from your team, your manager, and your stakeholders.
+              - listitem [ref=e40]: You have strong verbal and written communication skills that support effective collaboration with our global engineering team.
+              - listitem [ref=e41]: This position requires either equivalent practical experience or a Bachelor’s degree in a related field.
+            - paragraph [ref=e42]
+            - paragraph [ref=e43]:
+              - strong [ref=e44]: Pay Grade - J
+            - paragraph [ref=e45]:
+              - strong [ref=e46]: Equity Grade - 5
+            - paragraph [ref=e47]:
+              - text: Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills.
+              - text: Base pay is part of a total compensation package that may include equity rewards, monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents.)
+              - text: "USA base pay range (CA, WA, NY, NJ, CT) per year: $130,000 - $170,000"
+              - text: "USA base pay range (all other U.S. states) per year: $115,000 - $155,000"
+            - paragraph [ref=e48]
+            - paragraph [ref=e50]: "#LI-Remote"
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - paragraph [ref=e53]: Affirm is proud to be a remote-first company! The majority of our roles are remote and you can work almost anywhere within the country of employment. Affirmers in proximal roles have the flexibility to work remotely, but will occasionally be required to work out of their assigned Affirm office. A limited number of roles remain office-based due to the nature of their job responsibilities.
+              - paragraph [ref=e54]: "We’re extremely proud to offer competitive benefits that are anchored to our core value of people come first. Some key highlights of our benefits package include:"
+              - list [ref=e55]:
+                - listitem [ref=e56]: Health care coverage - Affirm covers all premiums for all levels of coverage for you and your dependents
+                - listitem [ref=e57]: Flexible Spending Wallets - generous stipends for spending on Technology, Food, various Lifestyle needs, and family forming expenses
+                - listitem [ref=e58]: Time off - competitive vacation and holiday schedules allowing you to take time off to rest and recharge
+                - listitem [ref=e59]: ESPP - An employee stock purchase plan enabling you to buy shares of Affirm at a discount
+              - paragraph [ref=e60]: We believe It’s On Us to provide an inclusive interview experience for all, including people with disabilities. We are happy to provide reasonable accommodations to candidates in need of individualized support during the hiring process.
+              - paragraph [ref=e61]: "[For U.S. positions that could be performed in Los Angeles or San Francisco] Pursuant to the San Francisco Fair Chance Ordinance and Los Angeles Fair Chance Initiative for Hiring Ordinance, Affirm will consider for employment qualified applicants with arrest and conviction records."
+            - paragraph [ref=e63]:
+              - text: By clicking "Submit Application," you acknowledge that you have read Affirm's
+              - link "Global Candidate Privacy Notice" [ref=e64] [cursor=pointer]:
+                - /url: https://www.affirm.com/global-candidate-privacy-notice
+              - text: and hereby freely and unambiguously give informed consent to the collection, processing, use, and storage of your personal information as described therein.
+        - generic [ref=e65]:
+          - img [ref=e66]
+          - generic [ref=e68]:
+            - paragraph [ref=e69]: Create a Job Alert
+            - paragraph [ref=e70]: Interested in building your career at Affirm? Get future opportunities sent straight to your email.
+            - link "Create alert" [ref=e71] [cursor=pointer]:
+              - /url: https://my.greenhouse.io/users/sign_in?job_board=affirm&source=job_alert_post
+      - separator [ref=e72]
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - heading "Apply for this job" [level=2] [ref=e77]
+            - generic [ref=e78]:
+              - paragraph [ref=e80]: "*"
+              - paragraph [ref=e81]: indicates a required field
+          - button "Autofill with MyGreenhouse" [ref=e84] [cursor=pointer]
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - generic [ref=e89]:
+              - generic [ref=e90]: First Name*
+              - textbox "First Name" [ref=e91]
+            - generic [ref=e94]:
+              - generic [ref=e95]: Last Name*
+              - textbox "Last Name" [ref=e96]
+            - generic [ref=e99]:
+              - generic [ref=e100]: Email*
+              - textbox "Email" [ref=e101]
+            - group "Phone" [ref=e103]:
+              - generic [ref=e104]: Phone
+              - generic [ref=e107]:
+                - generic [ref=e108]: Country*
+                - generic [ref=e109]:
+                  - log [ref=e111]
+                  - generic [ref=e113]:
+                    - combobox "Country" [ref=e116]
+                    - button "Toggle flyout" [ref=e118] [cursor=pointer]:
+                      - img [ref=e119]
+                  - textbox
+              - generic [ref=e123]:
+                - generic [ref=e124]: Phone*
+                - textbox "Phone" [ref=e126]
+            - group "Resume/CV*" [ref=e128]:
+              - generic [ref=e129]: Resume/CV*
+              - generic [ref=e131]:
+                - generic [ref=e133]:
+                  - button "Attach" [ref=e134] [cursor=pointer]
+                  - generic [ref=e135]: Attach
+                  - button "Attach" [ref=e136]
+                - button "Dropbox" [ref=e138] [cursor=pointer]
+                - button "Google Drive" [ref=e140] [cursor=pointer]
+                - generic [ref=e142]:
+                  - button "Enter manually" [ref=e143] [cursor=pointer]
+                  - generic [ref=e144]: Enter manually
+                - paragraph [ref=e145]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=e147]:
+              - generic [ref=e148]: Cover Letter
+              - generic [ref=e150]:
+                - generic [ref=e152]:
+                  - button "Attach" [ref=e153] [cursor=pointer]
+                  - generic [ref=e154]: Attach
+                  - button "Attach" [ref=e155]
+                - button "Dropbox" [ref=e157] [cursor=pointer]
+                - button "Google Drive" [ref=e159] [cursor=pointer]
+                - generic [ref=e161]:
+                  - button "Enter manually" [ref=e162] [cursor=pointer]
+                  - generic [ref=e163]: Enter manually
+                - paragraph [ref=e164]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=e165]:
+            - separator [ref=e166]
+            - generic [ref=e169]:
+              - generic [ref=e170]: LinkedIn Profile
+              - textbox "LinkedIn Profile" [ref=e171]
+            - generic [ref=e174]:
+              - generic [ref=e175]: Current Company
+              - textbox "Current Company" [ref=e176]
+            - generic [ref=e179]:
+              - generic [ref=e180]: Preferred Name*
+              - textbox "Preferred Name" [ref=e181]
+            - generic [ref=e184]:
+              - generic [ref=e185]: Name Pronunciation
+              - textbox "Name Pronunciation" [ref=e186]
+            - generic [ref=e189]:
+              - generic [ref=e190]: Pronouns *
+              - generic [ref=e191]:
+                - log [ref=e193]
+                - generic [ref=e195]:
+                  - generic [ref=e196]:
+                    - generic [ref=e197]: Select...
+                    - combobox "Pronouns" [ref=e199]
+                  - button "Toggle flyout" [ref=e201] [cursor=pointer]:
+                    - img [ref=e202]
+                - textbox
+            - generic [ref=e206]:
+              - generic [ref=e207]: Are you legally authorized to work in the United States?*
+              - generic [ref=e208]:
+                - log [ref=e210]
+                - generic [ref=e212]:
+                  - generic [ref=e213]:
+                    - generic [ref=e214]: Select...
+                    - combobox "Are you legally authorized to work in the United States?" [ref=e216]
+                  - button "Toggle flyout" [ref=e218] [cursor=pointer]:
+                    - img [ref=e219]
+                - textbox
+            - generic [ref=e223]:
+              - generic [ref=e224]: Do you now or in the future require sponsorship for employment visa status (e.g., H-1B, TN, E-3, F-1 visa status)?*
+              - generic [ref=e225]:
+                - log [ref=e227]
+                - generic [ref=e229]:
+                  - generic [ref=e230]:
+                    - generic [ref=e231]: Select...
+                    - combobox "Do you now or in the future require sponsorship for employment visa status (e.g., H-1B, TN, E-3, F-1 visa status)?" [ref=e233]
+                  - button "Toggle flyout" [ref=e235] [cursor=pointer]:
+                    - img [ref=e236]
+                - textbox
+            - generic [ref=e240]:
+              - generic [ref=e241]: Which U.S. State or Canadian Province do you reside in?*
+              - generic [ref=e242]:
+                - log [ref=e244]
+                - generic [ref=e246]:
+                  - generic [ref=e247]:
+                    - generic [ref=e248]: Select...
+                    - combobox "Which U.S. State or Canadian Province do you reside in?" [ref=e250]
+                  - button "Toggle flyout" [ref=e252] [cursor=pointer]:
+                    - img [ref=e253]
+                - textbox
+            - generic [ref=e257]:
+              - generic [ref=e258]: How did you first learn about Affirm as an employer? *
+              - generic [ref=e259]:
+                - log [ref=e261]
+                - generic [ref=e263]:
+                  - generic [ref=e264]:
+                    - generic [ref=e265]: Select...
+                    - combobox "How did you first learn about Affirm as an employer?" [ref=e267]
+                  - button "Toggle flyout" [ref=e269] [cursor=pointer]:
+                    - img [ref=e270]
+                - textbox
+            - generic [ref=e274]:
+              - generic [ref=e275]: GitHub
+              - textbox "GitHub" [ref=e276]
+            - generic [ref=e279]:
+              - generic [ref=e280]: Twitter
+              - textbox "Twitter" [ref=e281]
+            - generic [ref=e284]:
+              - generic [ref=e285]: Portfolio
+              - textbox "Portfolio" [ref=e286]
+            - generic [ref=e289]:
+              - generic [ref=e290]: Other Links
+              - textbox "Other Links" [ref=e291]
+            - generic [ref=e294]:
+              - generic [ref=e295]: Have you previously been employed at Affirm for any length of time?*
+              - generic [ref=e296]:
+                - log [ref=e298]
+                - generic [ref=e300]:
+                  - generic [ref=e301]:
+                    - generic [ref=e302]: Select...
+                    - combobox "Have you previously been employed at Affirm for any length of time?" [ref=e304]
+                  - button "Toggle flyout" [ref=e306] [cursor=pointer]:
+                    - img [ref=e307]
+                - textbox
+          - separator [ref=e309]
+          - generic [ref=e310]:
+            - heading "Demographic Survey Statement (US-based roles)" [level=3] [ref=e311]
+            - generic [ref=e313]:
+              - paragraph [ref=e314]: Affirm is dedicated to building an inclusive culture where Affirmers belong and have an equal opportunity to thrive.
+              - paragraph [ref=e315]: "To help us assess our outreach efforts, we invite candidates to voluntarily share information through a short demographic survey. This information is:"
+              - list [ref=e316]:
+                - listitem [level=1] [ref=e317]:
+                  - strong [ref=e318]: Completely optional
+                  - strong
+                - listitem [level=1] [ref=e319]:
+                  - strong [ref=e320]: Anonymized and stored in aggregate
+                  - strong
+                - listitem [level=1] [ref=e321]:
+                  - strong [ref=e322]: Not accessible to recruiters or hiring managers at the individual level
+                  - strong
+                - listitem [level=1] [ref=e323]:
+                  - strong [ref=e324]: Never used in any hiring decision
+                  - strong
+              - paragraph [ref=e325]: Your decision to provide or withhold this information will not impact your candidacy in any way.
+            - generic [ref=e327]:
+              - generic [ref=e328]: How do you identify? (gender identity)
+              - generic [ref=e329]:
+                - log [ref=e331]
+                - generic [ref=e333]:
+                  - generic [ref=e334]:
+                    - generic [ref=e335]: Select...
+                    - combobox "How do you identify? (gender identity)" [ref=e337]
+                  - button "Toggle flyout" [ref=e339] [cursor=pointer]:
+                    - img [ref=e340]
+            - generic [ref=e343]:
+              - generic [ref=e344]: How do you identify? (race/ethnicity)
+              - generic [ref=e345]:
+                - log [ref=e347]
+                - generic [ref=e349]:
+                  - generic [ref=e350]:
+                    - generic [ref=e351]: Select...
+                    - combobox "How do you identify? (race/ethnicity)" [ref=e353]
+                  - button "Toggle flyout" [ref=e355] [cursor=pointer]:
+                    - img [ref=e356]
+          - generic [ref=e358]:
+            - separator [ref=e359]
+            - generic [ref=e360]:
+              - heading "Voluntary Self-Identification" [level=2] [ref=e361]
+              - paragraph [ref=e362]: For government reporting purposes, we ask candidates to respond to the below self-identification survey. Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a confidential file.
+              - paragraph [ref=e363]: As set forth in Affirm’s Equal Employment Opportunity policy, we do not discriminate on the basis of any protected group status under any applicable law.
+            - generic [ref=e366]:
+              - generic [ref=e367]: Gender
+              - generic [ref=e368]:
+                - log [ref=e370]
+                - generic [ref=e372]:
+                  - generic [ref=e373]:
+                    - generic [ref=e374]: Select...
+                    - combobox "Gender" [ref=e376]
+                  - button "Toggle flyout" [ref=e378] [cursor=pointer]:
+                    - img [ref=e379]
+            - generic [ref=e381]:
+              - generic [ref=e383]:
+                - generic [ref=e384]: Are you Hispanic/Latino?
+                - generic [ref=e385]:
+                  - log [ref=e387]
+                  - generic [ref=e389]:
+                    - generic [ref=e390]:
+                      - generic [ref=e391]: Select...
+                      - combobox "Are you Hispanic/Latino?" [ref=e393]
+                    - button "Toggle flyout" [ref=e395] [cursor=pointer]:
+                      - img [ref=e396]
+              - link "Race & Ethnicity Definitions" [ref=e398] [cursor=pointer]:
+                - /url: https://job-boards.cdn.greenhouse.io/docs/2023/RaceEthnicityDefinitions.pdf
+            - generic [ref=e399]:
+              - paragraph [ref=e400]: "If you believe you belong to any of the categories of protected veterans listed below, please indicate by making the appropriate selection. As a government contractor subject to the Vietnam Era Veterans Readjustment Assistance Act (VEVRAA), we request this information in order to measure the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. Classification of protected categories is as follows:"
+              - paragraph [ref=e401]: "A \"disabled veteran\" is one of the following: a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or a person who was discharged or released from active duty because of a service-connected disability."
+              - paragraph [ref=e402]: A "recently separated veteran" means any veteran during the three-year period beginning on the date of such veteran's discharge or release from active duty in the U.S. military, ground, naval, or air service.
+              - paragraph [ref=e403]: An "active duty wartime or campaign badge veteran" means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.
+              - paragraph [ref=e404]: An "Armed forces service medal veteran" means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.
+            - generic [ref=e407]:
+              - generic [ref=e408]: Veteran Status
+              - generic [ref=e409]:
+                - log [ref=e411]
+                - generic [ref=e413]:
+                  - generic [ref=e414]:
+                    - generic [ref=e415]: Select...
+                    - combobox "Veteran Status" [ref=e417]
+                  - button "Toggle flyout" [ref=e419] [cursor=pointer]:
+                    - img [ref=e420]
+            - separator [ref=e422]
+            - generic [ref=e423]:
+              - heading "Voluntary Self-Identification of Disability" [level=2] [ref=e424]
+              - generic [ref=e425]:
+                - generic [ref=e426]:
+                  - generic [ref=e427]: Form CC-305
+                  - generic [ref=e428]: Page 1 of 1
+                - generic [ref=e429]:
+                  - generic [ref=e430]: OMB Control Number 1250-0005
+                  - generic [ref=e431]: Expires 04/30/2026
+              - strong [ref=e432]: Why are you being asked to complete this form?
+              - paragraph [ref=e433]: We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
+              - paragraph [ref=e434]:
+                - text: Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at
+                - link "www.dol.gov/ofccp" [ref=e435] [cursor=pointer]:
+                  - /url: https://www.dol.gov/ofccp
+                - text: .
+              - strong [ref=e436]: How do you know if you have a disability?
+              - paragraph [ref=e437]:
+                - text: A disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability.
+                - strong [ref=e438]: "Disabilities include, but are not limited to:"
+              - list [ref=e439]:
+                - listitem [ref=e440]: Alcohol or other substance use disorder (not currently using drugs illegally)
+                - listitem [ref=e441]: Autoimmune disorder, for example, lupus, fibromyalgia, rheumatoid arthritis, HIV/AIDS
+                - listitem [ref=e442]: Blind or low vision
+                - listitem [ref=e443]: Cancer (past or present)
+                - listitem [ref=e444]: Cardiovascular or heart disease
+                - listitem [ref=e445]: Celiac disease
+                - listitem [ref=e446]: Cerebral palsy
+                - listitem [ref=e447]: Deaf or serious difficulty hearing
+                - listitem [ref=e448]: Diabetes
+                - listitem [ref=e449]: Disfigurement, for example, disfigurement caused by burns, wounds, accidents, or congenital disorders
+                - listitem [ref=e450]: Epilepsy or other seizure disorder
+                - listitem [ref=e451]: Gastrointestinal disorders, for example, Crohn's Disease, irritable bowel syndrome
+                - listitem [ref=e452]: Intellectual or developmental disability
+                - listitem [ref=e453]: Mental health conditions, for example, depression, bipolar disorder, anxiety disorder, schizophrenia, PTSD
+                - listitem [ref=e454]: Missing limbs or partially missing limbs
+                - listitem [ref=e455]: Mobility impairment, benefiting from the use of a wheelchair, scooter, walker, leg brace(s) and/or other supports
+                - listitem [ref=e456]: Nervous system condition, for example, migraine headaches, Parkinson’s disease, multiple sclerosis (MS)
+                - listitem [ref=e457]: Neurodivergence, for example, attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, dyslexia, dyspraxia, other learning disabilities
+                - listitem [ref=e458]: Partial or complete paralysis (any cause)
+                - listitem [ref=e459]: Pulmonary or respiratory conditions, for example, tuberculosis, asthma, emphysema
+                - listitem [ref=e460]: Short stature (dwarfism)
+                - listitem [ref=e461]: Traumatic brain injury
+            - generic [ref=e464]:
+              - generic [ref=e465]: Disability Status
+              - generic [ref=e466]:
+                - log [ref=e468]
+                - generic [ref=e470]:
+                  - generic [ref=e471]:
+                    - generic [ref=e472]: Select...
+                    - combobox "Disability Status" [ref=e474]
+                  - button "Toggle flyout" [ref=e476] [cursor=pointer]:
+                    - img [ref=e477]
+            - paragraph [ref=e480]: "PUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete."
+          - button "Submit application" [ref=e482] [cursor=pointer]
+  - contentinfo [ref=e483]:
+    - generic [ref=e484]:
+      - paragraph [ref=e485]: Powered by
+      - link "Greenhouse logo" [ref=e486] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=e487]

@@ -1,0 +1,176 @@
+- generic [ref=e5]:
+  - link "Skip to main content" [ref=e6] [cursor=pointer]:
+    - /url: "#main"
+  - main [ref=e7]:
+    - navigation [ref=e11]:
+      - generic [ref=e12]:
+        - link "Go to Uber Careers home page" [ref=e13] [cursor=pointer]:
+          - /url: https://jobs.uber.com/en/
+          - text: Uber Careers
+        - list [ref=e14]:
+          - listitem [ref=e15]:
+            - button "Change language" [ref=e16] [cursor=pointer]:
+              - img [ref=e18]
+              - text: EN
+          - listitem [ref=e20]:
+            - button "Learn more about Uber's products" [ref=e21] [cursor=pointer]:
+              - img [ref=e23]
+              - text: Products
+          - listitem
+          - listitem [ref=e25]:
+            - link "Search jobs at Uber" [ref=e26] [cursor=pointer]:
+              - /url: https://www.uber.com/us/en/careers/list/
+              - text: Job search
+    - generic [ref=e31]:
+      - generic [ref=e33]:
+        - textbox "Search Jobs" [ref=e34]: software engineer new grad intern
+        - button [ref=e35]:
+          - img [ref=e36]
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41]: Locations
+          - generic [ref=e43]:
+            - img "search" [ref=e45] [cursor=pointer]
+            - generic [ref=e47]:
+              - combobox [ref=e49]
+              - generic [ref=e50]: All Locations
+        - generic [ref=e52]:
+          - generic [ref=e53]: Teams
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - button "Remove Engineering" [ref=e57]:
+                - generic "Engineering" [ref=e58]
+                - img [ref=e60] [cursor=pointer]
+              - combobox "Selected Engineering." [ref=e63]
+            - generic [ref=e64]:
+              - button "Clear all" [ref=e65]
+              - img [ref=e67]
+        - generic [ref=e69]:
+          - generic [ref=e70]: Sub-Teams
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - combobox [disabled] [ref=e75]
+              - generic [ref=e76]: All Sub-Teams
+            - img [ref=e78]
+        - generic [ref=e80]:
+          - generic [ref=e81]: Offerings
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - combobox [ref=e86]
+              - generic [ref=e87]: All
+            - img [ref=e89]
+      - heading "Find open roles" [level=2] [ref=e96]
+      - progressbar "loading" [ref=e100]
+    - generic [ref=e108]:
+      - generic [ref=e111]:
+        - link "Go to uber.com home" [ref=e113] [cursor=pointer]:
+          - /url: https://www.uber.com/
+          - text: Uber
+        - link "Visit Help Center" [ref=e115] [cursor=pointer]:
+          - /url: https://help.uber.com/
+          - paragraph [ref=e116]: Visit Help Center
+      - generic [ref=e119]:
+        - generic [ref=e120]:
+          - heading "Company" [level=2] [ref=e122]
+          - list [ref=e123]:
+            - listitem [ref=e124]:
+              - link "About us" [ref=e125] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/about/
+                - paragraph [ref=e126]: About us
+            - listitem [ref=e127]:
+              - link "Newsroom" [ref=e128] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/newsroom/
+                - paragraph [ref=e129]: Newsroom
+            - listitem [ref=e130]:
+              - link "Investors" [ref=e131] [cursor=pointer]:
+                - /url: https://investor.uber.com/
+                - paragraph [ref=e132]: Investors
+            - listitem [ref=e133]:
+              - link "Start job search" [ref=e134] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/careers/list/
+                - paragraph [ref=e135]: Start job search
+        - generic [ref=e136]:
+          - heading "Products" [level=2] [ref=e138]
+          - list [ref=e139]:
+            - listitem [ref=e140]:
+              - link "Ride with Uber" [ref=e141] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/ride/
+                - paragraph [ref=e142]: Ride
+            - listitem [ref=e143]:
+              - link "Drive with Uber" [ref=e144] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/drive/
+                - paragraph [ref=e145]: Drive
+            - listitem [ref=e146]:
+              - link "Deliver with Uber" [ref=e147] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/deliver/
+                - paragraph [ref=e148]: Deliver
+            - listitem [ref=e149]:
+              - link "Visit the Uber Eats website" [ref=e150] [cursor=pointer]:
+                - /url: https://www.ubereats.com/
+                - paragraph [ref=e151]: Eat
+            - listitem [ref=e152]:
+              - link "Visit the Uber for Business website" [ref=e153] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/business/
+                - paragraph [ref=e154]: Uber for Business
+            - listitem [ref=e155]:
+              - link "Visit the Uber Freight website" [ref=e156] [cursor=pointer]:
+                - /url: https://www.uberfreight.com/
+                - paragraph [ref=e157]: Uber Freight
+        - generic [ref=e158]:
+          - heading "Global citizenship" [level=2] [ref=e160]
+          - list [ref=e161]:
+            - listitem [ref=e162]:
+              - link "Learn more about safety" [ref=e163] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/safety/
+                - paragraph [ref=e164]: Safety
+            - listitem [ref=e165]:
+              - link "Learn about Uber's commitment to sustainability" [ref=e166] [cursor=pointer]:
+                - /url: https://www.uber.com/us/en/about/sustainability/
+                - paragraph [ref=e167]: Sustainability
+      - generic [ref=e169]:
+        - list [ref=e170]:
+          - listitem [ref=e171]:
+            - link "linkedin" [ref=e173] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/1815218
+              - img "linkedin" [ref=e174]
+          - listitem [ref=e176]:
+            - link "youtube" [ref=e178] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCgnxoUwDmmyzeigmmcf0hZA
+              - img "youtube" [ref=e179]
+          - listitem [ref=e181]:
+            - link "instagram" [ref=e183] [cursor=pointer]:
+              - /url: https://instagram.com/uber/
+              - img "instagram" [ref=e184]
+          - listitem [ref=e188]:
+            - link "twitter" [ref=e190] [cursor=pointer]:
+              - /url: https://twitter.com/uber
+              - img "twitter" [ref=e191]
+        - list [ref=e193]:
+          - listitem [ref=e194]:
+            - 'button "Current language: English" [ref=e195] [cursor=pointer]':
+              - img [ref=e197]
+              - text: English
+        - generic [ref=e200]:
+          - link "Visit Google Play" [ref=e201] [cursor=pointer]:
+            - /url: https://rides.sng.link/Bw5zn/vz1k?_dl=uber%3A%2F%2F&pcn=careers-footer&mvid=[marketing-visitor-id]
+            - img [ref=e202]
+          - link "Visit the App Store" [ref=e203] [cursor=pointer]:
+            - /url: https://rides.sng.link/Cw5zn/564k?_dl=uber%3A%2F%2F&_smtype=3&pcn=careers-footer&mvid=[marketing-visitor-id]
+            - img [ref=e204]
+      - generic [ref=e206]:
+        - paragraph [ref=e208]:
+          - generic [ref=e209]: © 2026
+          - text: Uber Technologies Inc.
+        - list [ref=e212]:
+          - listitem [ref=e213]:
+            - link "Learn more about Uber's privacy policy" [ref=e214] [cursor=pointer]:
+              - /url: https://www.uber.com/legal/document/?name=privacy-notice
+              - paragraph [ref=e215]: Privacy
+          - listitem [ref=e216]:
+            - link "Learn more about accessibility" [ref=e217] [cursor=pointer]:
+              - /url: https://www.uber.com/us/en/about/accessibility/
+              - paragraph [ref=e218]: Accessibility
+          - listitem [ref=e219]:
+            - link "Learn more about Uber's terms" [ref=e220] [cursor=pointer]:
+              - /url: https://www.uber.com/legal/document/?name=general-terms-of-use
+              - paragraph [ref=e221]: Terms

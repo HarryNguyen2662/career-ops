@@ -1,0 +1,8 @@
+[    1110ms] [LOG] ipGeolocation Beloit, Wisconsin, US @ https://apply.careers.microsoft.com/gen/js/pcsxPwa.ffaa90d05d9e9baf724a.js:8
+[    1115ms] [LOG] ipGeolocationLatLong 42.5649,-89.0843 @ https://apply.careers.microsoft.com/gen/js/pcsxPwa.ffaa90d05d9e9baf724a.js:8
+[    1642ms] [LOG] i18next: languageChanged en_us @ https://cdn.careers.microsoft.com/aem/main.b1fb98162c4cd0025016.js:64
+[    1642ms] [LOG] i18next: initialized {debug: true, initImmediate: true, ns: Array(1), defaultNS: Array(1), fallbackLng: Array(1)} @ https://cdn.careers.microsoft.com/aem/main.b1fb98162c4cd0025016.js:64
+[    1657ms] [LOG] i18next: languageChanged en_us @ https://cdn.careers.microsoft.com/aem/main.b1fb98162c4cd0025016.js:64
+[    1673ms] [LOG] i18next: languageChanged en_us @ https://cdn.careers.microsoft.com/aem/main.b1fb98162c4cd0025016.js:64
+[    1718ms] [WARNING] WARNING: OfficeBrowserFeedback is no longer supporting the host application setting the styles for the surveys. 
+			Please use the default styling. @ https://cdn.careers.microsoft.com/static/scripts/officebrowserfeedback_floodgate.min.js:1

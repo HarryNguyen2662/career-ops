@@ -1,0 +1,271 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - img "TiMoto logo" [ref=e6] [cursor=pointer]
+    - generic [ref=e7]:
+      - generic [ref=e8] [cursor=pointer]: Trang chủ
+      - generic [ref=e9] [cursor=pointer]: Dịch vụ
+      - generic [ref=e10] [cursor=pointer]: Về TiMoto
+      - generic [ref=e11] [cursor=pointer]: Hỗ trợ
+    - generic [ref=e12]:
+      - button "Dành cho Đại lý" [ref=e13] [cursor=pointer]
+      - button "Download Tải ứng dụng" [ref=e14] [cursor=pointer]:
+        - img "Download" [ref=e15]
+        - generic [ref=e16]: Tải ứng dụng
+  - generic [ref=e17]:
+    - generic [ref=e18]:
+      - img "Hero background 1"
+      - img "Hero background 2"
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]: Định giá xe nhanh
+        - generic [ref=e23]: bằng AI
+      - generic [ref=e24]:
+        - generic [ref=e25]: Nhanh chóng - Chính xác - Tin cậy
+        - button "Định giá xe ngay – Miễn phí" [ref=e26] [cursor=pointer]
+  - generic [ref=e31]:
+    - generic [ref=e32]:
+      - generic [ref=e33]: Đổi xe Xăng sang xe Điện
+      - generic [ref=e34]: Đừng để việc bán xe cũ làm bạn chùn bước!
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - generic [ref=e39]: "!"
+        - generic [ref=e40]: Không biết giá thực sự chiếc xe của mình?
+      - generic [ref=e41]:
+        - generic [ref=e43]: "!"
+        - generic [ref=e44]: Dành hàng giờ để tìm kênh bán tốt?
+      - generic [ref=e45]:
+        - generic [ref=e47]: "!"
+        - generic [ref=e48]: Mệt mỏi vì phải tiếp nhiều người xem?
+      - generic [ref=e49]:
+        - generic [ref=e51]: "!"
+        - generic [ref=e52]: Ngại bị ép giá, rủi ro pháp lý hoặc bị lừa?
+  - generic [ref=e54]:
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - text: TiMoto AI
+        - generic [ref=e57]: giúp bạn xử lý tất cả trong một ứng dụng
+      - img "Phone" [ref=e64]
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - generic [ref=e67]: Đơn giản - tiện lợi
+        - generic [ref=e68]: Làm ngay tại nhà với vài bước trên app. Không cần đăng tin. Không cần gặp nhiều người xem xe.
+      - generic [ref=e69]:
+        - generic [ref=e70]: Định giá hoàn toàn miễn phí
+        - generic [ref=e71]: Chỉ cần điền thông tin + quét hình ảnh xe. Không phí ẩn, không gói dịch vụ.
+      - generic [ref=e72]:
+        - generic [ref=e73]: Định giá nhanh - chuẩn
+        - generic [ref=e74]: Nhận định giá xe trong 30s sau khi quét xe, dựa trên dữ liệu thị trường thời gian thực.
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - generic [ref=e77]: Không ép giao dịch
+        - generic [ref=e78]: Không bị ép giá. Không mặc cả. Người dùng toàn quyền quyết định mua bán trên app.
+      - generic [ref=e79]:
+        - generic [ref=e80]: Hỗ trợ toàn bộ quy trình
+        - generic [ref=e81]: Thu cũ-đổi mới trong 1 giao dịch khép kín. Hỗ trợ toàn bộ thủ tục giấy tờ. Bán xe và nhận xe tại nhà.
+      - generic [ref=e82]:
+        - generic [ref=e83]: Hỗ trợ tài chính tối đa
+        - generic [ref=e84]: Nhận voucher khi bán xe cũ cho TiMoto AI và gói vay trả góp phần giá chênh lệch.
+  - generic [ref=e87]:
+    - generic [ref=e88]:
+      - generic [ref=e89]: Dịch vụ của chúng tôi
+      - generic [ref=e90]: TiMoto AI là ứng dụng định giá xe máy thông minh bằng AI, bán xe cũ - lên đời xế điện trọn gói chỉ với vài thao tác.
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]: Định giá xe bằng AI
+          - generic [ref=e95]: Nhanh - Chuẩn - Tin cậy
+          - generic [ref=e96]: Quét xe để AI tự động phân tích tình trạng xe và nhận ngay mức giá đề xuất sát với thị trường. Không cần mặc cả, không lo bị ép giá.
+        - img "Service 1" [ref=e98]
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - generic [ref=e101]: Lên đời xế điện với ưu đãi khủng
+          - generic [ref=e102]: Dễ dàng - Không lo tài chính
+          - generic [ref=e103]: Hệ thống AI tự động đưa ra những mẫu xe điện phù hợp với nhu cầu. Tiết kiệm hàng triệu đồng với ưu đãi khủng và hỗ trợ trả góp.
+        - img "Service 2" [ref=e105]
+  - generic [ref=e106]:
+    - generic [ref=e108]:
+      - img "Step background" [ref=e110]
+      - generic [ref=e111]:
+        - generic [ref=e112]: Tất cả mọi quy trình đều tối giản - tiện lợi
+        - generic [ref=e113]:
+          - generic [ref=e114]: Toàn bộ quy trình mua - bán chỉ với vài thao tác trong vài phút.
+          - generic [ref=e115]: Làm ngay tại nhà. Tất cả trong 1 ứng dụng.
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - generic [ref=e121]: Định giá xe với 3 bước đơn giản cùng TiMoto AI
+        - generic [ref=e122]: Quy trình nhanh gọn, ai cũng có thể thực hiện.
+      - generic [ref=e123]:
+        - generic [ref=e124] [cursor=pointer]:
+          - generic [ref=e125]: 1. Nhập thông tin xe
+          - generic [ref=e126]: Chọn hãng xe, dòng xe và đời xe hoặc Scan cà-vẹt xe để AI tự nhận diện thông tin.
+        - generic [ref=e127] [cursor=pointer]:
+          - generic [ref=e128]: 2. Chụp ảnh và quét xe
+          - generic [ref=e129]: Chụp 1 vòng quanh xe theo hướng dẫn để hệ thống AI đánh giá chính xác tình trạng thực tế của xe.
+        - generic [ref=e130] [cursor=pointer]:
+          - generic [ref=e131]: 3. Nhận định giá và chốt bán xe
+          - generic [ref=e132]: Nhận định giá chuẩn thị trường từ TiMoto AI. Chốt bán xe và nhận voucher khủng khi đổi sang xe điện.
+    - generic [ref=e138]:
+      - generic [ref=e139]:
+        - generic [ref=e140]: Đổi sang xế điện với ưu đãi khủng tại TiMoto AI
+        - generic [ref=e141]: Nâng cấp sang xe điện dễ dàng hơn bao giờ hết với mức trợ giá độc quyền và hỗ trợ tài chính thông minh từ TiMoto AI.
+      - generic [ref=e142]:
+        - generic [ref=e143] [cursor=pointer]:
+          - generic [ref=e144]: 1. Gợi ý xe điện thông minh
+          - generic [ref=e145]: Chat với Timoto AI để nhận được những gợi ý thông minh phù hợp nhất với nhu cầu và ngân sách của bạn.
+        - generic [ref=e146] [cursor=pointer]:
+          - generic [ref=e147]: 2. Nhận voucher khủng
+          - generic [ref=e148]: Nhận voucher giảm giá lên đến hàng triệu đồng khi bán xe cũ, đổi sang xe điện mới tại TiMoto AI, tất cả trong 1 giao dịch hoàn chỉnh.
+        - generic [ref=e149] [cursor=pointer]:
+          - generic [ref=e150]: 3. Trả 0đ khi mua xe điện
+          - generic [ref=e151]: Phần chênh lệch giá sau khi bán xe xăng và mua xế điện sẽ được hỗ trợ với các gói Mua ngay 0đ, trả góp ưu đãi (Buy Now, Pay Later).
+  - generic [ref=e154]:
+    - generic [ref=e155]: Phản hồi của Khách hàng & sự tin tưởng của các đối tác
+    - generic [ref=e156]:
+      - generic [ref=e157]:
+        - img "Honda" [ref=e158]
+        - generic [ref=e159]: Honda
+      - generic [ref=e160]:
+        - img "Yamaha" [ref=e161]
+        - generic [ref=e162]: Yamaha
+      - generic [ref=e163]:
+        - img "Suzuki" [ref=e164]
+        - generic [ref=e165]: Suzuki
+      - generic [ref=e166]:
+        - img "Piaggio" [ref=e167]
+        - generic [ref=e168]: Piaggio
+      - generic [ref=e169]:
+        - img "Vespa" [ref=e170]
+        - generic [ref=e171]: Vespa
+      - generic [ref=e172]:
+        - img "SYM" [ref=e173]
+        - generic [ref=e174]: SYM
+  - generic [ref=e175]:
+    - generic [ref=e176]:
+      - generic [ref=e177]:
+        - img "Khắc Thế" [ref=e179]
+        - generic [ref=e180]:
+          - generic [ref=e181]: Khắc Thế
+          - generic [ref=e182]: Giám đốc Công ty Xây dựng
+      - generic [ref=e184]: Định giá rất nhanh, giá đưa ra sát so với giá mình tham khảo ngoài thị trường. Dùng dễ, không bị rối.
+    - generic [ref=e185]:
+      - generic [ref=e186]:
+        - img "Vũ Duy" [ref=e188]
+        - generic [ref=e189]:
+          - generic [ref=e190]: Vũ Duy
+          - generic [ref=e191]: Giám đốc Ngân hàng
+      - generic [ref=e193]: Mình không rành về xe nhưng app hướng dẫn rất rõ. Chụp ảnh xong là có giá luôn, không mất phí.
+    - generic [ref=e194]:
+      - generic [ref=e195]:
+        - img "Đào Huy" [ref=e197]
+        - generic [ref=e198]:
+          - generic [ref=e199]: Đào Huy
+          - generic [ref=e200]: Kinh doanh tự do
+      - generic [ref=e202]: Thích nhất là không bị ép bán. Có giá tham khảo để tự quyết định, rất thoải mái, và không phải tiếp nhiều người.
+    - generic [ref=e203]:
+      - generic [ref=e204]:
+        - img "Minh Huệ" [ref=e206]
+        - generic [ref=e207]:
+          - generic [ref=e208]: Minh Huệ
+          - generic [ref=e209]: Kinh doanh Khách sạn
+      - generic [ref=e211]: Quy trình khép kín, được hỗ trợ toàn bộ thủ tục giấy tờ nên mình khá yên tâm khi bán xe.
+    - generic [ref=e212]:
+      - generic [ref=e213]:
+        - img "Hải Nam" [ref=e215]
+        - generic [ref=e216]:
+          - generic [ref=e217]: Hải Nam
+          - generic [ref=e218]: Nhân viên ngân hàng
+      - generic [ref=e220]: Có giá tham khảo rõ ràng nên mình không còn lo bị ép giá khi thương lượng với người mua.
+    - generic [ref=e221]:
+      - generic [ref=e222]:
+        - img "Lê Trí" [ref=e224]
+        - generic [ref=e225]:
+          - generic [ref=e226]: Lê Trí
+          - generic [ref=e227]: Tiến sĩ ngành Môi trường
+      - generic [ref=e229]: Ứng dụng đổi xe máy cũ lấy xe điện rất ấn tượng nhờ AI đánh giá tình trạng xe chính xác, minh bạch giá trị, giúp mua bán nhanh, yên tâm và tiết kiệm thời gian
+  - generic [ref=e232]:
+    - generic [ref=e233]: Có câu hỏi về TiMoto AI?
+    - generic [ref=e234]:
+      - img "FAQ illustration" [ref=e235]
+      - generic [ref=e236]:
+        - generic [ref=e237]:
+          - generic [ref=e238] [cursor=pointer]:
+            - generic [ref=e239]: TiMoto AI là gì?
+            - img "Collapse" [ref=e241]
+          - generic [ref=e243]: TiMoto AI là ứng dụng định giá xe máy thông minh, sử dụng AI và dữ liệu thị trường để đưa ra mức giá tham khảo sát thực tế.
+        - generic [ref=e245] [cursor=pointer]:
+          - generic [ref=e246]: TiMoto AI hoạt động như thế nào?
+          - img "Expand" [ref=e248]
+        - generic [ref=e250] [cursor=pointer]:
+          - generic [ref=e251]: Định giá trên TiMoto có mất phí không?
+          - img "Expand" [ref=e253]
+        - generic [ref=e255] [cursor=pointer]:
+          - generic [ref=e256]: Giá TiMoto đưa ra có chính xác không?
+          - img "Expand" [ref=e258]
+        - generic [ref=e260] [cursor=pointer]:
+          - generic [ref=e261]: TiMoto có ép tôi phải bán xe không?
+          - img "Expand" [ref=e263]
+        - generic [ref=e265] [cursor=pointer]:
+          - generic [ref=e266]: Thông tin xe và hình ảnh có được bảo mật không?
+          - img "Expand" [ref=e268]
+  - generic [ref=e269]:
+    - img "Download app background" [ref=e270]
+    - generic [ref=e271]:
+      - generic [ref=e272]:
+        - generic [ref=e273]:
+          - generic [ref=e274]: Tải ngay ứng dụng TiMoto
+          - generic [ref=e275]: Hãy tải TiMoto để trải nghiệm định giá xe bằng AI nhanh chóng, minh bạch và hoàn toàn miễn phí.
+        - generic [ref=e277]:
+          - generic [ref=e278]:
+            - img "QR tải TiMoto trên iOS" [ref=e279]
+            - generic [ref=e280]: iOS · App Store
+          - generic [ref=e281]:
+            - generic [ref=e282]:
+              - generic [ref=e283]: Google Play
+              - generic [ref=e284]: Sắp ra mắt
+            - generic [ref=e285]: Android
+      - img "TiMoto app preview" [ref=e287]
+  - generic [ref=e289]:
+    - generic [ref=e290]:
+      - img "TiMoto footer logo" [ref=e292]
+      - generic [ref=e293]:
+        - generic [ref=e294]:
+          - generic [ref=e295]: Thông tin liên hệ
+          - generic [ref=e296]:
+            - img "phone" [ref=e297]
+            - generic [ref=e298]: 1900 123 123
+          - generic [ref=e299]:
+            - img "email" [ref=e300]
+            - generic [ref=e301]: info@timoto.ai
+          - generic [ref=e302]:
+            - generic [ref=e303]: Nhận thông tin
+            - generic [ref=e304]:
+              - textbox "Nhập email" [ref=e307]
+              - button "Đăng ký" [ref=e308] [cursor=pointer]:
+                - generic [ref=e309]: Đăng ký
+        - generic [ref=e310]:
+          - generic [ref=e312]: Dịch vụ
+          - generic [ref=e313] [cursor=pointer]: Bán xe xăng với AI
+          - generic [ref=e314] [cursor=pointer]: Mua xe điện giá ưu đãi
+          - generic [ref=e315] [cursor=pointer]: Dịch vụ khác
+        - generic [ref=e316]:
+          - generic [ref=e318]: Thông tin chung
+          - generic [ref=e319] [cursor=pointer]: Tư vấn mua bán xe
+          - generic [ref=e320] [cursor=pointer]: Tin tức
+          - generic [ref=e321] [cursor=pointer]: Sự kiện ưu đãi
+        - generic [ref=e322]:
+          - generic [ref=e324]: Chính sách
+          - generic [ref=e325] [cursor=pointer]: Chính sách bảo mật
+          - generic [ref=e326] [cursor=pointer]: Dịch vụ hỗ trợ
+          - generic [ref=e327] [cursor=pointer]: Chính sách kiểm định
+          - generic [ref=e328] [cursor=pointer]: Quy chế hoạt động
+    - generic [ref=e330]:
+      - generic [ref=e331]:
+        - link "Mở trang Facebook TiMoto AI" [ref=e332] [cursor=pointer]:
+          - /url: https://www.facebook.com/profile.php?id=61589649598378
+          - img "Facebook" [ref=e333]
+        - img "YouTube" [ref=e334] [cursor=pointer]
+        - link "Nhắn tin với TiMoto AI trên Zalo" [ref=e335] [cursor=pointer]:
+          - /url: http://zalo.me/3630063937311348996?src=qr
+          - img "Zalo" [ref=e336]
+        - img "Instagram" [ref=e337] [cursor=pointer]
+      - generic [ref=e338]: "@ 2026 Copyright by TiMoto AI"

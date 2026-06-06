@@ -1,0 +1,334 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - img "AppLovin Logo" [ref=e5]
+    - generic [ref=e6]:
+      - link "Back to jobs" [ref=e7] [cursor=pointer]:
+        - /url: https://www.applovin.com/careers
+        - img [ref=e8]
+        - text: Back to jobs
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - heading "Backend Engineer, New Grad" [level=1] [ref=e13]
+          - generic [ref=e14]:
+            - img [ref=e15]
+            - generic [ref=e17]: Palo Alto, CA
+        - button "Apply" [ref=e18] [cursor=pointer]
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - heading "About AppLovin" [level=3] [ref=e21]:
+            - strong [ref=e23]: About AppLovin
+          - paragraph [ref=e24]:
+            - text: "AppLovin makes technologies that help businesses of every size connect to their ideal customers. The company provides end-to-end software and AI solutions for businesses to reach, monetize and grow their global audiences. For more information about AppLovin, visit:"
+            - link "www.applovin.com" [ref=e25] [cursor=pointer]:
+              - /url: http://www.applovin.com/
+            - text: .
+          - paragraph [ref=e26]: To deliver on this mission, our global team is composed of team members with life experiences, backgrounds, and perspectives that mirror our developers and customers around the world. At AppLovin, we are intentional about the team and culture we are building, seeking candidates who are outstanding in their own right and also demonstrate their support of others.
+          - paragraph [ref=e27]:
+            - text: Fortune recognizes AppLovin as one of the Best Workplaces in the Bay Area, and the company has been a Certified Great Place to Work for the last four years (2021-2024). Check out the rest of our awards
+            - link "HERE" [ref=e28] [cursor=pointer]:
+              - /url: https://www.applovin.com/jobs/
+            - text: .
+        - generic [ref=e29]:
+          - heading "A Day in the Life" [level=3] [ref=e30]
+          - paragraph [ref=e31]: As a member of our backend software engineering team, you’ll solve technical challenges, including upgrading and implementing state-of-the-art software infrastructure. The team builds a high-performance, high availability, globally distributed ecosystem platform of services that in turn provide the foundation for rapid development of novel new systems that integrate into that ecosystem and improve it
+          - paragraph [ref=e32]: Our backend systems handle billions of requests per day, and work on our mediation platform responsible for our header bidding solution, creating high-availability low-latency systems that are distributed across multiple data centers.
+          - paragraph [ref=e33]
+          - heading "The Impact You’ll Make" [level=3] [ref=e34]
+          - list [ref=e35]:
+            - listitem [ref=e36]:
+              - paragraph [ref=e37]: Design, develop, and maintain large-scale distributed systems
+            - listitem [ref=e38]:
+              - paragraph [ref=e39]: Collaborate with various engineering teams to meet a wide range of technological challenges
+            - listitem [ref=e40]:
+              - paragraph [ref=e41]: Work closely with our product team to contribute and influence the roadmap of our products and technologies
+            - listitem [ref=e42]:
+              - paragraph [ref=e43]: Influence and inspire team members
+          - paragraph [ref=e44]
+          - heading "Who You Are" [level=3] [ref=e45]
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - paragraph [ref=e48]: Have 0-2+ years of experience and a minimum of a BS and/or MS in Computer Science
+            - listitem [ref=e49]:
+              - paragraph [ref=e50]: Have excellent knowledge of computer science fundamentals including data structures, algorithms, and coding
+            - listitem [ref=e51]:
+              - paragraph [ref=e52]: Professional experience with C++ and/or Java is a plus
+            - listitem [ref=e53]:
+              - paragraph [ref=e54]: Experience independently creating and maintaining projects
+        - generic [ref=e56]:
+          - generic [ref=e59]:
+            - paragraph [ref=e60]: AppLovin provides a competitive total compensation package with a pay for performance rewards approach. Total compensation at AppLovin is based on a number of factors including market location and may vary depending on job-related knowledge, skills, and experience. Depending on the position offered, equity, and other forms of incentive compensation (as applicable) may be provided as part of a total compensation package, in addition to dental, vision, and other benefits.
+            - paragraph [ref=e61]:
+              - strong [ref=e62]: "Other Types of Pay:"
+              - text: Equity eligible
+            - paragraph [ref=e63]:
+              - strong [ref=e64]: "Health Insurance:"
+              - text: Medical, Dental, Vision, Life, Disability
+            - paragraph [ref=e65]:
+              - strong [ref=e66]: "Retirement Benefits:"
+              - text: 401(k) Retirement Plan
+            - paragraph [ref=e67]:
+              - strong [ref=e68]: "Paid Time Off:"
+              - text: Unlimited Discretionary Time Off
+            - paragraph [ref=e69]:
+              - strong [ref=e70]: "Paid Holidays:"
+              - text: 10 paid holidays per year
+            - paragraph [ref=e71]:
+              - strong [ref=e72]: "Paid Sick Leave:"
+              - text: 80 hours per year
+            - paragraph [ref=e73]:
+              - strong [ref=e74]: "Method of Application:"
+              - text: Apply online
+            - paragraph [ref=e75]:
+              - strong [ref=e76]: "Application Window:"
+              - text: The application window is expected to close within 30 days of the posting date.
+            - paragraph [ref=e77]: All questions or concerns about this posting should be directed to peopleops@applovin.com.
+          - paragraph [ref=e78]: CA Base Pay Range
+          - paragraph [ref=e79]: $124,000 - $186,000 USD
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - text: AppLovin has become aware of a scam targeting jobseekers with fake “app optimization” and similar roles. We do not ask our candidates to download apps or make any form of payment(s). AppLovin works with applicants through our Careers page and
+            - link "applovin.com" [ref=e82] [cursor=pointer]:
+              - /url: http://applovin.com/
+            - text: email addresses. If you are contacted through other unofficial channels (such as WhatsApp or Telegram) or asked to download an app or make a payment, these contacts are not legitimate. Confirm the information
+            - link "here" [ref=e83] [cursor=pointer]:
+              - /url: https://www.applovin.com/jobs
+            - text: and
+            - link "contact us" [ref=e84] [cursor=pointer]:
+              - /url: mailto:jobs@applovin.com
+            - text: directly with any questions.
+          - generic [ref=e86]:
+            - text: AppLovin is proud to be an equal opportunity employer that is committed to inclusion and diversity. All applicants will be considered for employment without attention to race, color, religion, sex, sexual orientation, gender identity, national origin, veteran or disability status, or other legally protected characteristics. Learn more about EEO rights as an applicant
+            - link "here" [ref=e87] [cursor=pointer]:
+              - /url: https://www.eeoc.gov/employers/eeo-law-poster
+            - text: .
+          - generic [ref=e89]: If you need assistance and/or a reasonable accommodation due to a disability during the application or recruiting process, please send us a request at accommodations@applovin.com.
+          - generic [ref=e91]:
+            - text: AppLovin will consider for employment all qualified applicants with criminal histories in a manner consistent with applicable law. If you’re applying for a position in California, learn more
+            - link "here" [ref=e92] [cursor=pointer]:
+              - /url: https://calcivilrights.ca.gov/fair-chance-act/
+            - text: .
+          - generic [ref=e94]: To support an efficient and fair hiring process, we may use technology-assisted tools, including artificial intelligence (AI), to help identify and evaluate candidates. All hiring decisions are ultimately made by human reviewers.
+          - separator [ref=e96]
+          - generic [ref=e97]:
+            - text: Please read our
+            - link "Global Applicant Privacy Notice" [ref=e98] [cursor=pointer]:
+              - /url: https://legal.applovin.com/global-applicant-privacy-notice/
+            - text: to learn more about how AppLovin processes your personal information.
+          - generic [ref=e103]:
+            - img "Follow Us" [ref=e104]
+            - link "LinkedIn icon" [ref=e105] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/applovin
+              - img "LinkedIn icon" [ref=e106]
+            - link "X icon" [ref=e107] [cursor=pointer]:
+              - /url: https://x.com/AppLovin
+              - img "X icon" [ref=e108]
+            - link "Instagram icon" [ref=e109] [cursor=pointer]:
+              - /url: https://www.instagram.com/applovin/
+              - img "Instagram icon" [ref=e110]
+      - generic [ref=e111]:
+        - img [ref=e112]
+        - generic [ref=e114]:
+          - paragraph [ref=e115]: Create a Job Alert
+          - paragraph [ref=e116]: Interested in building your career at AppLovin? Get future opportunities sent straight to your email.
+          - link "Create alert" [ref=e117] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=applovin&source=job_alert_post
+    - separator [ref=e118]
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - generic [ref=e121]:
+          - heading "Apply for this job" [level=2] [ref=e123]
+          - generic [ref=e124]:
+            - paragraph [ref=e126]: "*"
+            - paragraph [ref=e127]: indicates a required field
+        - button "Autofill with MyGreenhouse" [ref=e130] [cursor=pointer]
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - generic [ref=e135]:
+            - generic [ref=e136]: First Name*
+            - textbox "First Name" [ref=e137]
+          - generic [ref=e140]:
+            - generic [ref=e141]: Last Name*
+            - textbox "Last Name" [ref=e142]
+          - generic [ref=e145]:
+            - generic [ref=e146]: Email*
+            - textbox "Email" [ref=e147]
+          - group "Phone" [ref=e149]:
+            - generic [ref=e150]: Phone
+            - generic [ref=e153]:
+              - generic [ref=e154]: Country*
+              - generic [ref=e155]:
+                - log [ref=e157]
+                - generic [ref=e159]:
+                  - combobox "Country" [ref=e162]
+                  - button "Toggle flyout" [ref=e164] [cursor=pointer]:
+                    - img [ref=e165]
+                - textbox
+            - generic [ref=e169]:
+              - generic [ref=e170]: Phone*
+              - textbox "Phone" [ref=e172]
+          - group "Resume/CV*" [ref=e174]:
+            - generic [ref=e175]: Resume/CV*
+            - generic [ref=e177]:
+              - generic [ref=e179]:
+                - button "Attach" [ref=e180] [cursor=pointer]
+                - generic [ref=e181]: Attach
+                - button "Attach" [ref=e182]
+              - button "Dropbox" [ref=e184] [cursor=pointer]
+              - generic [ref=e186]:
+                - button "Enter manually" [ref=e187] [cursor=pointer]
+                - generic [ref=e188]: Enter manually
+              - paragraph [ref=e189]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - group "Cover Letter" [ref=e191]:
+            - generic [ref=e192]: Cover Letter
+            - generic [ref=e194]:
+              - generic [ref=e196]:
+                - button "Attach" [ref=e197] [cursor=pointer]
+                - generic [ref=e198]: Attach
+                - button "Attach" [ref=e199]
+              - button "Dropbox" [ref=e201] [cursor=pointer]
+              - generic [ref=e203]:
+                - button "Enter manually" [ref=e204] [cursor=pointer]
+                - generic [ref=e205]: Enter manually
+              - paragraph [ref=e206]: "Accepted file types: pdf, doc, docx, txt, rtf"
+        - generic [ref=e207]:
+          - separator [ref=e208]
+          - generic [ref=e211]:
+            - generic [ref=e212]: LinkedIn Profile*
+            - textbox "LinkedIn Profile" [ref=e213]
+          - generic [ref=e216]:
+            - generic [ref=e217]: Other website (Portfolio, GitHub, etc.)
+            - textbox "Other website (Portfolio, GitHub, etc.)" [ref=e218]
+          - generic [ref=e221]:
+            - generic [ref=e222]: Have you worked at AppLovin or any of its affiliates before?
+            - generic [ref=e223]:
+              - log [ref=e225]
+              - generic [ref=e227]:
+                - generic [ref=e228]:
+                  - generic [ref=e229]: Select...
+                  - combobox "Have you worked at AppLovin or any of its affiliates before?" [ref=e231]
+                - button "Toggle flyout" [ref=e233] [cursor=pointer]:
+                  - img [ref=e234]
+          - generic [ref=e238]:
+            - generic [ref=e239]: Are you legally authorized to work in the country in which you are applying?
+            - generic [ref=e240]:
+              - log [ref=e242]
+              - generic [ref=e244]:
+                - generic [ref=e245]:
+                  - generic [ref=e246]: Select...
+                  - combobox "Are you legally authorized to work in the country in which you are applying?" [ref=e248]
+                - button "Toggle flyout" [ref=e250] [cursor=pointer]:
+                  - img [ref=e251]
+          - generic [ref=e255]:
+            - generic [ref=e256]: Do you now or will you in the future need sponsorship for employment visa status in the country in which you are applying?
+            - generic [ref=e257]:
+              - log [ref=e259]
+              - generic [ref=e261]:
+                - generic [ref=e262]:
+                  - generic [ref=e263]: Select...
+                  - combobox "Do you now or will you in the future need sponsorship for employment visa status in the country in which you are applying?" [ref=e265]
+                - button "Toggle flyout" [ref=e267] [cursor=pointer]:
+                  - img [ref=e268]
+          - generic [ref=e272]:
+            - generic [ref=e273]: Please provide your annual gross salary expectation (in local currency and numerical format without special characters)
+            - textbox "Please provide your annual gross salary expectation (in local currency and numerical format without special characters)" [ref=e274]
+        - generic [ref=e275]:
+          - separator [ref=e276]
+          - generic [ref=e277]:
+            - heading "Voluntary Self-Identification" [level=2] [ref=e278]
+            - paragraph [ref=e279]: For government reporting purposes, we ask candidates to respond to the below self-identification survey. Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a confidential file.
+            - paragraph [ref=e280]: As set forth in AppLovin’s Equal Employment Opportunity policy, we do not discriminate on the basis of any protected group status under any applicable law.
+          - generic [ref=e283]:
+            - generic [ref=e284]: Gender
+            - generic [ref=e285]:
+              - log [ref=e287]
+              - generic [ref=e289]:
+                - generic [ref=e290]:
+                  - generic [ref=e291]: Select...
+                  - combobox "Gender" [ref=e293]
+                - button "Toggle flyout" [ref=e295] [cursor=pointer]:
+                  - img [ref=e296]
+          - generic [ref=e298]:
+            - generic [ref=e300]:
+              - generic [ref=e301]: Are you Hispanic/Latino?
+              - generic [ref=e302]:
+                - log [ref=e304]
+                - generic [ref=e306]:
+                  - generic [ref=e307]:
+                    - generic [ref=e308]: Select...
+                    - combobox "Are you Hispanic/Latino?" [ref=e310]
+                  - button "Toggle flyout" [ref=e312] [cursor=pointer]:
+                    - img [ref=e313]
+            - link "Race & Ethnicity Definitions" [ref=e315] [cursor=pointer]:
+              - /url: https://job-boards.cdn.greenhouse.io/docs/2023/RaceEthnicityDefinitions.pdf
+          - generic [ref=e316]:
+            - paragraph [ref=e317]: "If you believe you belong to any of the categories of protected veterans listed below, please indicate by making the appropriate selection. As a government contractor subject to the Vietnam Era Veterans Readjustment Assistance Act (VEVRAA), we request this information in order to measure the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. Classification of protected categories is as follows:"
+            - paragraph [ref=e318]: "A \"disabled veteran\" is one of the following: a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or a person who was discharged or released from active duty because of a service-connected disability."
+            - paragraph [ref=e319]: A "recently separated veteran" means any veteran during the three-year period beginning on the date of such veteran's discharge or release from active duty in the U.S. military, ground, naval, or air service.
+            - paragraph [ref=e320]: An "active duty wartime or campaign badge veteran" means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.
+            - paragraph [ref=e321]: An "Armed forces service medal veteran" means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.
+          - generic [ref=e324]:
+            - generic [ref=e325]: Veteran Status
+            - generic [ref=e326]:
+              - log [ref=e328]
+              - generic [ref=e330]:
+                - generic [ref=e331]:
+                  - generic [ref=e332]: Select...
+                  - combobox "Veteran Status" [ref=e334]
+                - button "Toggle flyout" [ref=e336] [cursor=pointer]:
+                  - img [ref=e337]
+          - separator [ref=e339]
+          - generic [ref=e340]:
+            - heading "Voluntary Self-Identification of Disability" [level=2] [ref=e341]
+            - generic [ref=e342]:
+              - generic [ref=e343]:
+                - generic [ref=e344]: Form CC-305
+                - generic [ref=e345]: Page 1 of 1
+              - generic [ref=e346]:
+                - generic [ref=e347]: OMB Control Number 1250-0005
+                - generic [ref=e348]: Expires 04/30/2026
+            - strong [ref=e349]: Why are you being asked to complete this form?
+            - paragraph [ref=e350]: We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
+            - paragraph [ref=e351]:
+              - text: Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at
+              - link "www.dol.gov/ofccp" [ref=e352] [cursor=pointer]:
+                - /url: https://www.dol.gov/ofccp
+              - text: .
+            - strong [ref=e353]: How do you know if you have a disability?
+            - paragraph [ref=e354]:
+              - text: A disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability.
+              - strong [ref=e355]: "Disabilities include, but are not limited to:"
+            - list [ref=e356]:
+              - listitem [ref=e357]: Alcohol or other substance use disorder (not currently using drugs illegally)
+              - listitem [ref=e358]: Autoimmune disorder, for example, lupus, fibromyalgia, rheumatoid arthritis, HIV/AIDS
+              - listitem [ref=e359]: Blind or low vision
+              - listitem [ref=e360]: Cancer (past or present)
+              - listitem [ref=e361]: Cardiovascular or heart disease
+              - listitem [ref=e362]: Celiac disease
+              - listitem [ref=e363]: Cerebral palsy
+              - listitem [ref=e364]: Deaf or serious difficulty hearing
+              - listitem [ref=e365]: Diabetes
+              - listitem [ref=e366]: Disfigurement, for example, disfigurement caused by burns, wounds, accidents, or congenital disorders
+              - listitem [ref=e367]: Epilepsy or other seizure disorder
+              - listitem [ref=e368]: Gastrointestinal disorders, for example, Crohn's Disease, irritable bowel syndrome
+              - listitem [ref=e369]: Intellectual or developmental disability
+              - listitem [ref=e370]: Mental health conditions, for example, depression, bipolar disorder, anxiety disorder, schizophrenia, PTSD
+              - listitem [ref=e371]: Missing limbs or partially missing limbs
+              - listitem [ref=e372]: Mobility impairment, benefiting from the use of a wheelchair, scooter, walker, leg brace(s) and/or other supports
+              - listitem [ref=e373]: Nervous system condition, for example, migraine headaches, Parkinson’s disease, multiple sclerosis (MS)
+              - listitem [ref=e374]: Neurodivergence, for example, attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, dyslexia, dyspraxia, other learning disabilities
+              - listitem [ref=e375]: Partial or complete paralysis (any cause)
+              - listitem [ref=e376]: Pulmonary or respiratory conditions, for example, tuberculosis, asthma, emphysema
+              - listitem [ref=e377]: Short stature (dwarfism)
+              - listitem [ref=e378]: Traumatic brain injury
+          - generic [ref=e381]:
+            - generic [ref=e382]: Disability Status
+            - generic [ref=e383]:
+              - log [ref=e385]
+              - generic [ref=e387]:
+                - generic [ref=e388]:
+                  - generic [ref=e389]: Select...
+                  - combobox "Disability Status" [ref=e391]
+                - button "Toggle flyout" [ref=e393] [cursor=pointer]:
+                  - img [ref=e394]
+          - paragraph [ref=e397]: "PUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete."
+        - button "Submit application" [ref=e399] [cursor=pointer]

@@ -1,0 +1,981 @@
+- generic [ref=e1]:
+  - navigation "Global" [ref=e3]:
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Apple" [ref=e7] [cursor=pointer]:
+          - /url: https://www.apple.com/
+          - generic:
+            - img
+          - generic: Apple
+      - listitem [ref=e8]:
+        - generic [ref=e10]:
+          - list [ref=e12]:
+            - listitem [ref=e13]:
+              - link "Store" [ref=e14] [cursor=pointer]:
+                - /url: https://www.apple.com/us/shop/goto/store
+                - generic [ref=e15]:
+                  - generic:
+                    - img
+                  - generic: Store
+            - listitem:
+              - button "Store menu":
+                - generic:
+                  - img
+          - list [ref=e17]:
+            - listitem [ref=e18]:
+              - link "Mac" [ref=e19] [cursor=pointer]:
+                - /url: https://www.apple.com/mac/
+                - generic [ref=e20]:
+                  - generic:
+                    - img
+                  - generic: Mac
+            - listitem:
+              - button "Mac menu":
+                - generic:
+                  - img
+          - list [ref=e22]:
+            - listitem [ref=e23]:
+              - link "iPad" [ref=e24] [cursor=pointer]:
+                - /url: https://www.apple.com/ipad/
+                - generic [ref=e25]:
+                  - generic:
+                    - img
+                  - generic: iPad
+            - listitem:
+              - button "iPad menu":
+                - generic:
+                  - img
+          - list [ref=e27]:
+            - listitem [ref=e28]:
+              - link "iPhone" [ref=e29] [cursor=pointer]:
+                - /url: https://www.apple.com/iphone/
+                - generic [ref=e30]:
+                  - generic:
+                    - img
+                  - generic: iPhone
+            - listitem:
+              - button "iPhone menu":
+                - generic:
+                  - img
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - link "Watch" [ref=e34] [cursor=pointer]:
+                - /url: https://www.apple.com/watch/
+                - generic [ref=e35]:
+                  - generic:
+                    - img
+                  - generic: Watch
+            - listitem:
+              - button "Watch menu":
+                - generic:
+                  - img
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - link "Vision" [ref=e39] [cursor=pointer]:
+                - /url: https://www.apple.com/apple-vision-pro/
+                - generic [ref=e40]:
+                  - generic:
+                    - img
+                  - generic: Vision
+            - listitem:
+              - button "Vision menu":
+                - generic:
+                  - img
+          - list [ref=e42]:
+            - listitem [ref=e43]:
+              - link "AirPods" [ref=e44] [cursor=pointer]:
+                - /url: https://www.apple.com/airpods/
+                - generic [ref=e45]:
+                  - generic:
+                    - img
+                  - generic: AirPods
+            - listitem:
+              - button "AirPods menu":
+                - generic:
+                  - img
+          - list [ref=e47]:
+            - listitem [ref=e48]:
+              - link "TV and Home" [ref=e49] [cursor=pointer]:
+                - /url: https://www.apple.com/tv-home/
+                - generic [ref=e50]:
+                  - generic:
+                    - img
+                  - generic: TV & Home
+            - listitem:
+              - button "TV and Home menu":
+                - generic:
+                  - img
+          - list [ref=e52]:
+            - listitem [ref=e53]:
+              - link "Entertainment" [ref=e54] [cursor=pointer]:
+                - /url: https://www.apple.com/entertainment/
+                - generic [ref=e55]:
+                  - generic:
+                    - img
+                  - generic: Entertainment
+            - listitem:
+              - button "Entertainment menu":
+                - generic:
+                  - img
+          - list [ref=e57]:
+            - listitem [ref=e58]:
+              - link "Accessories" [ref=e59] [cursor=pointer]:
+                - /url: https://www.apple.com/us/shop/goto/buy_accessories
+                - generic [ref=e60]:
+                  - generic:
+                    - img
+                  - generic: Accessories
+            - listitem:
+              - button "Accessories menu":
+                - generic:
+                  - img
+          - list [ref=e62]:
+            - listitem [ref=e63]:
+              - link "Support" [ref=e64] [cursor=pointer]:
+                - /url: https://support.apple.com/?cid=gn-ols-home-hp-tab
+                - generic [ref=e65]:
+                  - generic:
+                    - img
+                  - generic: Support
+            - listitem:
+              - button "Support menu":
+                - generic:
+                  - img
+      - listitem [ref=e66]:
+        - button "Search apple.com" [ref=e67] [cursor=pointer]:
+          - generic:
+            - img
+      - listitem [ref=e68]:
+        - button "Shopping Bag" [ref=e70] [cursor=pointer]:
+          - generic:
+            - img
+  - generic [ref=e72]:
+    - navigation [ref=e73]:
+      - generic [ref=e76]:
+        - link "Careers at Apple" [ref=e78] [cursor=pointer]:
+          - /url: https://www.apple.com/careers/us
+        - generic [ref=e79]:
+          - list [ref=e81]:
+            - listitem [ref=e82]:
+              - list [ref=e83]:
+                - listitem [ref=e84]:
+                  - link "Work at Apple" [ref=e86] [cursor=pointer]:
+                    - /url: https://www.apple.com/careers/us/work-at-apple.html
+            - listitem [ref=e87]:
+              - list [ref=e88]:
+                - listitem [ref=e89]:
+                  - link "Life at Apple" [ref=e91] [cursor=pointer]:
+                    - /url: https://www.apple.com/careers/us/life-at-apple.html
+            - listitem [ref=e92]:
+              - list [ref=e93]:
+                - listitem [ref=e94]:
+                  - link "Profile" [ref=e96] [cursor=pointer]:
+                    - /url: /app/en-us/profile/info
+            - listitem [ref=e97]:
+              - list [ref=e98]:
+                - listitem [ref=e99]:
+                  - link "Sign In" [ref=e101] [cursor=pointer]:
+                    - /url: /en-us/login
+          - link "Search" [ref=e103] [cursor=pointer]:
+            - /url: /en-us/search
+    - main [ref=e105]:
+      - generic [ref=e106]:
+        - heading "Find your perfect role." [active] [level=1] [ref=e107]
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - generic:
+              - img
+            - textbox "Search by role or keyword" [ref=e110]: software engineer intern
+            - generic [ref=e111]: To reveal list of choices, type
+            - button "Clear Field" [ref=e112] [cursor=pointer]:
+              - generic [ref=e113]: 
+          - status [ref=e114]
+        - paragraph [ref=e115]: Most corporate roles require English-language skills.
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - button "Filters" [expanded] [ref=e119] [cursor=pointer]:
+            - img [ref=e120]
+            - generic [ref=e121]: Filters
+          - generic [ref=e122]:
+            - heading "Refine by" [level=2] [ref=e123]
+            - list "Refine by" [ref=e124]:
+              - listitem [ref=e125]:
+                - heading "Location 0 Filter(s) Applied " [level=3] [ref=e126]:
+                  - button "Location 0 Filter(s) Applied " [ref=e127] [cursor=pointer]:
+                    - generic [ref=e128]:
+                      - generic [ref=e129]: Location
+                      - generic [ref=e130]: 0 Filter(s) Applied
+                    - generic [ref=e131]: 
+              - listitem [ref=e132]:
+                - heading "Keyword 0 Filter(s) Applied " [level=3] [ref=e133]:
+                  - button "Keyword 0 Filter(s) Applied " [ref=e134] [cursor=pointer]:
+                    - generic [ref=e135]:
+                      - generic [ref=e136]: Keyword
+                      - generic [ref=e137]: 0 Filter(s) Applied
+                    - generic [ref=e138]: 
+              - listitem [ref=e139]:
+                - heading "Teams 0 Filter(s) Applied " [level=3] [ref=e140]:
+                  - button "Teams 0 Filter(s) Applied " [ref=e141] [cursor=pointer]:
+                    - generic [ref=e142]:
+                      - generic [ref=e143]: Teams
+                      - generic [ref=e144]: 0 Filter(s) Applied
+                    - generic [ref=e145]: 
+              - listitem [ref=e146]:
+                - heading "Products and Services 0 Filter(s) Applied " [level=3] [ref=e147]:
+                  - button "Products and Services 0 Filter(s) Applied " [ref=e148] [cursor=pointer]:
+                    - generic [ref=e149]:
+                      - generic [ref=e150]: Products and Services
+                      - generic [ref=e151]: 0 Filter(s) Applied
+                    - generic [ref=e152]: 
+              - listitem [ref=e153]:
+                - heading "Language Skills 0 Filter(s) Applied " [level=3] [ref=e154]:
+                  - button "Language Skills 0 Filter(s) Applied " [ref=e155] [cursor=pointer]:
+                    - generic [ref=e156]:
+                      - generic [ref=e157]: Language Skills
+                      - generic [ref=e158]: 0 Filter(s) Applied
+                    - generic [ref=e159]: 
+        - generic [ref=e160]:
+          - generic [ref=e162]:
+            - button "Saved Searches" [ref=e164] [cursor=pointer]:
+              - img [ref=e166]
+              - img [ref=e167]
+            - button "Favorites" [ref=e169] [cursor=pointer]:
+              - img [ref=e171]
+              - img [ref=e172]
+            - button "Recently viewed roles" [ref=e174] [cursor=pointer]:
+              - img [ref=e176]
+              - img [ref=e177]
+          - generic [ref=e178]:
+            - generic [ref=e179]:
+              - status [ref=e180]: The page has been updated. 600+ results were found.
+              - heading "Search Results" [level=2] [ref=e181]
+              - generic [ref=e182]:
+                - status [ref=e183]: 600+ Result(s)
+                - 'button "Sort by: Newest" [ref=e185] [cursor=pointer]':
+                  - generic [ref=e186]: "Sort by:"
+                  - text: Newest
+                  - img [ref=e187]
+              - list "Job Opportunities" [ref=e188]:
+                - listitem [ref=e189]:
+                  - generic [ref=e190] [cursor=pointer]:
+                    - generic [ref=e192]:
+                      - generic [ref=e193]:
+                        - heading "IN-Operations Expert 200314033" [level=3] [ref=e194]:
+                          - link "IN-Operations Expert 200314033" [ref=e195]:
+                            - /url: /en-us/details/200314033/in-operations-expert?team=APPST
+                            - text: IN-Operations Expert 
+                        - generic [ref=e196]: Apple Retail
+                        - generic [ref=e197]: Jun 01, 2026
+                      - generic [ref=e198]:
+                        - generic [ref=e199]: Location
+                        - text: Various Locations within India
+                      - generic [ref=e200]:
+                        - generic [ref=e201]: Actions
+                        - button "Add to Favorites IN-Operations Expert 200314033" [ref=e203]:
+                          - img [ref=e204]
+                    - 'button "Role description: IN-Operations Expert" [ref=e207]': 
+                  - text:   
+                - listitem [ref=e208]:
+                  - generic [ref=e209] [cursor=pointer]:
+                    - generic [ref=e211]:
+                      - generic [ref=e212]:
+                        - heading "IN-Business Pro 200314003" [level=3] [ref=e213]:
+                          - link "IN-Business Pro 200314003" [ref=e214]:
+                            - /url: /en-us/details/200314003/in-business-pro?team=APPST
+                            - text: IN-Business Pro 
+                        - generic [ref=e215]: Apple Retail
+                        - generic [ref=e216]: Jun 01, 2026
+                      - generic [ref=e217]:
+                        - generic [ref=e218]: Location
+                        - text: Various Locations within India
+                      - generic [ref=e219]:
+                        - generic [ref=e220]: Actions
+                        - button "Add to Favorites IN-Business Pro 200314003" [ref=e222]:
+                          - img [ref=e223]
+                    - 'button "Role description: IN-Business Pro" [ref=e226]': 
+                  - text:   
+                - listitem [ref=e227]:
+                  - generic [ref=e228] [cursor=pointer]:
+                    - generic [ref=e230]:
+                      - generic [ref=e231]:
+                        - heading "IN-Technical Specialist 200314122" [level=3] [ref=e232]:
+                          - link "IN-Technical Specialist 200314122" [ref=e233]:
+                            - /url: /en-us/details/200314122/in-technical-specialist?team=APPST
+                            - text: IN-Technical Specialist 
+                        - generic [ref=e234]: Apple Retail
+                        - generic [ref=e235]: Jun 01, 2026
+                      - generic [ref=e236]:
+                        - generic [ref=e237]: Location
+                        - text: Various Locations within India
+                      - generic [ref=e238]:
+                        - generic [ref=e239]: Actions
+                        - button "Add to Favorites IN-Technical Specialist 200314122" [ref=e241]:
+                          - img [ref=e242]
+                    - 'button "Role description: IN-Technical Specialist" [ref=e245]': 
+                  - text:   
+                - listitem [ref=e246]:
+                  - generic [ref=e247] [cursor=pointer]:
+                    - generic [ref=e249]:
+                      - generic [ref=e250]:
+                        - heading "IN-Genius 200314015" [level=3] [ref=e251]:
+                          - link "IN-Genius 200314015" [ref=e252]:
+                            - /url: /en-us/details/200314015/in-genius?team=APPST
+                            - text: IN-Genius 
+                        - generic [ref=e253]: Apple Retail
+                        - generic [ref=e254]: Jun 01, 2026
+                      - generic [ref=e255]:
+                        - generic [ref=e256]: Location
+                        - text: Various Locations within India
+                      - generic [ref=e257]:
+                        - generic [ref=e258]: Actions
+                        - button "Add to Favorites IN-Genius 200314015" [ref=e260]:
+                          - img [ref=e261]
+                    - 'button "Role description: IN-Genius" [ref=e264]': 
+                  - text:   
+                - listitem [ref=e265]:
+                  - generic [ref=e266] [cursor=pointer]:
+                    - generic [ref=e268]:
+                      - generic [ref=e269]:
+                        - heading "IN-Creative 200313991" [level=3] [ref=e270]:
+                          - link "IN-Creative 200313991" [ref=e271]:
+                            - /url: /en-us/details/200313991/in-creative?team=APPST
+                            - text: IN-Creative 
+                        - generic [ref=e272]: Apple Retail
+                        - generic [ref=e273]: Jun 01, 2026
+                      - generic [ref=e274]:
+                        - generic [ref=e275]: Location
+                        - text: Various Locations within India
+                      - generic [ref=e276]:
+                        - generic [ref=e277]: Actions
+                        - button "Add to Favorites IN-Creative 200313991" [ref=e279]:
+                          - img [ref=e280]
+                    - 'button "Role description: IN-Creative" [ref=e283]': 
+                  - text:   
+                - listitem [ref=e284]:
+                  - generic [ref=e285] [cursor=pointer]:
+                    - generic [ref=e287]:
+                      - generic [ref=e288]:
+                        - heading "SA-Technical Specialist (Saudi and GCC Nationals) 200598710" [level=3] [ref=e289]:
+                          - link "SA-Technical Specialist (Saudi and GCC Nationals) 200598710" [ref=e290]:
+                            - /url: /en-us/details/200598710/sa-technical-specialist-saudi-and-gcc-nationals?team=APPST
+                            - text: SA-Technical Specialist (Saudi and GCC Nationals) 
+                        - generic [ref=e291]: Apple Retail
+                        - generic [ref=e292]: Jun 01, 2026
+                      - generic [ref=e293]:
+                        - generic [ref=e294]: Location
+                        - text: Various Locations within Saudi Arabia
+                      - generic [ref=e295]:
+                        - generic [ref=e296]: Actions
+                        - button "Add to Favorites SA-Technical Specialist (Saudi and GCC Nationals) 200598710" [ref=e298]:
+                          - img [ref=e299]
+                    - 'button "Role description: SA-Technical Specialist (Saudi and GCC Nationals)" [ref=e302]': 
+                  - text:   
+                - listitem [ref=e303]:
+                  - generic [ref=e304] [cursor=pointer]:
+                    - generic [ref=e306]:
+                      - generic [ref=e307]:
+                        - heading "SA-Business Pro (Saudi and GCC Nationals) 200598709" [level=3] [ref=e308]:
+                          - link "SA-Business Pro (Saudi and GCC Nationals) 200598709" [ref=e309]:
+                            - /url: /en-us/details/200598709/sa-business-pro-saudi-and-gcc-nationals?team=APPST
+                            - text: SA-Business Pro (Saudi and GCC Nationals) 
+                        - generic [ref=e310]: Apple Retail
+                        - generic [ref=e311]: Jun 01, 2026
+                      - generic [ref=e312]:
+                        - generic [ref=e313]: Location
+                        - text: Various Locations within Saudi Arabia
+                      - generic [ref=e314]:
+                        - generic [ref=e315]: Actions
+                        - button "Add to Favorites SA-Business Pro (Saudi and GCC Nationals) 200598709" [ref=e317]:
+                          - img [ref=e318]
+                    - 'button "Role description: SA-Business Pro (Saudi and GCC Nationals)" [ref=e321]': 
+                  - text:   
+                - listitem [ref=e322]:
+                  - generic [ref=e323] [cursor=pointer]:
+                    - generic [ref=e325]:
+                      - generic [ref=e326]:
+                        - heading "SA-Creative Pro (Saudi and GCC Nationals) 200598713" [level=3] [ref=e327]:
+                          - link "SA-Creative Pro (Saudi and GCC Nationals) 200598713" [ref=e328]:
+                            - /url: /en-us/details/200598713/sa-creative-pro-saudi-and-gcc-nationals?team=APPST
+                            - text: SA-Creative Pro (Saudi and GCC Nationals) 
+                        - generic [ref=e329]: Apple Retail
+                        - generic [ref=e330]: Jun 01, 2026
+                      - generic [ref=e331]:
+                        - generic [ref=e332]: Location
+                        - text: Various Locations within Saudi Arabia
+                      - generic [ref=e333]:
+                        - generic [ref=e334]: Actions
+                        - button "Add to Favorites SA-Creative Pro (Saudi and GCC Nationals) 200598713" [ref=e336]:
+                          - img [ref=e337]
+                    - 'button "Role description: SA-Creative Pro (Saudi and GCC Nationals)" [ref=e340]': 
+                  - text:   
+                - listitem [ref=e341]:
+                  - generic [ref=e342] [cursor=pointer]:
+                    - generic [ref=e344]:
+                      - generic [ref=e345]:
+                        - heading "SA-Genius (Saudi and GCC Nationals) 200598714" [level=3] [ref=e346]:
+                          - link "SA-Genius (Saudi and GCC Nationals) 200598714" [ref=e347]:
+                            - /url: /en-us/details/200598714/sa-genius-saudi-and-gcc-nationals?team=APPST
+                            - text: SA-Genius (Saudi and GCC Nationals) 
+                        - generic [ref=e348]: Apple Retail
+                        - generic [ref=e349]: Jun 01, 2026
+                      - generic [ref=e350]:
+                        - generic [ref=e351]: Location
+                        - text: Various Locations within Saudi Arabia
+                      - generic [ref=e352]:
+                        - generic [ref=e353]: Actions
+                        - button "Add to Favorites SA-Genius (Saudi and GCC Nationals) 200598714" [ref=e355]:
+                          - img [ref=e356]
+                    - 'button "Role description: SA-Genius (Saudi and GCC Nationals)" [ref=e359]': 
+                  - text:   
+                - listitem [ref=e360]:
+                  - generic [ref=e361] [cursor=pointer]:
+                    - generic [ref=e363]:
+                      - generic [ref=e364]:
+                        - heading "SA-Business Expert (Saudi and GCC Nationals) 200598715" [level=3] [ref=e365]:
+                          - link "SA-Business Expert (Saudi and GCC Nationals) 200598715" [ref=e366]:
+                            - /url: /en-us/details/200598715/sa-business-expert-saudi-and-gcc-nationals?team=APPST
+                            - text: SA-Business Expert (Saudi and GCC Nationals) 
+                        - generic [ref=e367]: Apple Retail
+                        - generic [ref=e368]: Jun 01, 2026
+                      - generic [ref=e369]:
+                        - generic [ref=e370]: Location
+                        - text: Various Locations within Saudi Arabia
+                      - generic [ref=e371]:
+                        - generic [ref=e372]: Actions
+                        - button "Add to Favorites SA-Business Expert (Saudi and GCC Nationals) 200598715" [ref=e374]:
+                          - img [ref=e375]
+                    - 'button "Role description: SA-Business Expert (Saudi and GCC Nationals)" [ref=e378]': 
+                  - text:   
+                - listitem [ref=e379]:
+                  - generic [ref=e380] [cursor=pointer]:
+                    - generic [ref=e382]:
+                      - generic [ref=e383]:
+                        - heading "SA-Operations Expert (Saudi and GCC Nationals) 200598717" [level=3] [ref=e384]:
+                          - link "SA-Operations Expert (Saudi and GCC Nationals) 200598717" [ref=e385]:
+                            - /url: /en-us/details/200598717/sa-operations-expert-saudi-and-gcc-nationals?team=APPST
+                            - text: SA-Operations Expert (Saudi and GCC Nationals) 
+                        - generic [ref=e386]: Apple Retail
+                        - generic [ref=e387]: Jun 01, 2026
+                      - generic [ref=e388]:
+                        - generic [ref=e389]: Location
+                        - text: Various Locations within Saudi Arabia
+                      - generic [ref=e390]:
+                        - generic [ref=e391]: Actions
+                        - button "Add to Favorites SA-Operations Expert (Saudi and GCC Nationals) 200598717" [ref=e393]:
+                          - img [ref=e394]
+                    - 'button "Role description: SA-Operations Expert (Saudi and GCC Nationals)" [ref=e397]': 
+                  - text:   
+                - listitem [ref=e398]:
+                  - generic [ref=e399] [cursor=pointer]:
+                    - generic [ref=e401]:
+                      - generic [ref=e402]:
+                        - heading "SA-Technical Expert (Saudi and GCC Nationals) 200598718" [level=3] [ref=e403]:
+                          - link "SA-Technical Expert (Saudi and GCC Nationals) 200598718" [ref=e404]:
+                            - /url: /en-us/details/200598718/sa-technical-expert-saudi-and-gcc-nationals?team=APPST
+                            - text: SA-Technical Expert (Saudi and GCC Nationals) 
+                        - generic [ref=e405]: Apple Retail
+                        - generic [ref=e406]: Jun 01, 2026
+                      - generic [ref=e407]:
+                        - generic [ref=e408]: Location
+                        - text: Various Locations within Saudi Arabia
+                      - generic [ref=e409]:
+                        - generic [ref=e410]: Actions
+                        - button "Add to Favorites SA-Technical Expert (Saudi and GCC Nationals) 200598718" [ref=e412]:
+                          - img [ref=e413]
+                    - 'button "Role description: SA-Technical Expert (Saudi and GCC Nationals)" [ref=e416]': 
+                  - text:   
+                - listitem [ref=e417]:
+                  - generic [ref=e418] [cursor=pointer]:
+                    - generic [ref=e420]:
+                      - generic [ref=e421]:
+                        - heading "JP-Technical Specialist 114438210" [level=3] [ref=e422]:
+                          - link "JP-Technical Specialist 114438210" [ref=e423]:
+                            - /url: /en-us/details/114438210/jp-technical-specialist?team=APPST
+                            - text: JP-Technical Specialist 
+                        - generic [ref=e424]: Apple Retail
+                        - generic [ref=e425]: Jun 01, 2026
+                      - generic [ref=e426]:
+                        - generic [ref=e427]: Location
+                        - text: Various Locations within Japan
+                      - generic [ref=e428]:
+                        - generic [ref=e429]: Actions
+                        - button "Add to Favorites JP-Technical Specialist 114438210" [ref=e431]:
+                          - img [ref=e432]
+                    - 'button "Role description: JP-Technical Specialist" [ref=e435]': 
+                  - text:   
+                - listitem [ref=e436]:
+                  - generic [ref=e437] [cursor=pointer]:
+                    - generic [ref=e439]:
+                      - generic [ref=e440]:
+                        - heading "JP-Operations Expert 114438102" [level=3] [ref=e441]:
+                          - link "JP-Operations Expert 114438102" [ref=e442]:
+                            - /url: /en-us/details/114438102/jp-operations-expert?team=APPST
+                            - text: JP-Operations Expert 
+                        - generic [ref=e443]: Apple Retail
+                        - generic [ref=e444]: Jun 01, 2026
+                      - generic [ref=e445]:
+                        - generic [ref=e446]: Location
+                        - text: Various Locations within Japan
+                      - generic [ref=e447]:
+                        - generic [ref=e448]: Actions
+                        - button "Add to Favorites JP-Operations Expert 114438102" [ref=e450]:
+                          - img [ref=e451]
+                    - 'button "Role description: JP-Operations Expert" [ref=e454]': 
+                  - text:   
+                - listitem [ref=e455]:
+                  - generic [ref=e456] [cursor=pointer]:
+                    - generic [ref=e458]:
+                      - generic [ref=e459]:
+                        - heading "IN-Business Expert 200313970" [level=3] [ref=e460]:
+                          - link "IN-Business Expert 200313970" [ref=e461]:
+                            - /url: /en-us/details/200313970/in-business-expert?team=APPST
+                            - text: IN-Business Expert 
+                        - generic [ref=e462]: Apple Retail
+                        - generic [ref=e463]: Jun 01, 2026
+                      - generic [ref=e464]:
+                        - generic [ref=e465]: Location
+                        - text: Various Locations within India
+                      - generic [ref=e466]:
+                        - generic [ref=e467]: Actions
+                        - button "Add to Favorites IN-Business Expert 200313970" [ref=e469]:
+                          - img [ref=e470]
+                    - 'button "Role description: IN-Business Expert" [ref=e473]': 
+                  - text:   
+                - listitem [ref=e474]:
+                  - generic [ref=e475] [cursor=pointer]:
+                    - generic [ref=e477]:
+                      - generic [ref=e478]:
+                        - heading "BE-Operations Expert 114438246" [level=3] [ref=e479]:
+                          - link "BE-Operations Expert 114438246" [ref=e480]:
+                            - /url: /en-us/details/114438246/be-operations-expert?team=APPST
+                            - text: BE-Operations Expert 
+                        - generic [ref=e481]: Apple Retail
+                        - generic [ref=e482]: Jun 01, 2026
+                      - generic [ref=e483]:
+                        - generic [ref=e484]: Location
+                        - text: Various Locations within Belgium
+                      - generic [ref=e485]:
+                        - generic [ref=e486]: Actions
+                        - button "Add to Favorites BE-Operations Expert 114438246" [ref=e488]:
+                          - img [ref=e489]
+                    - 'button "Role description: BE-Operations Expert" [ref=e492]': 
+                  - text:   
+                - listitem [ref=e493]:
+                  - generic [ref=e494] [cursor=pointer]:
+                    - generic [ref=e496]:
+                      - generic [ref=e497]:
+                        - heading "BE-Technical Specialist 114438250" [level=3] [ref=e498]:
+                          - link "BE-Technical Specialist 114438250" [ref=e499]:
+                            - /url: /en-us/details/114438250/be-technical-specialist?team=APPST
+                            - text: BE-Technical Specialist 
+                        - generic [ref=e500]: Apple Retail
+                        - generic [ref=e501]: Jun 01, 2026
+                      - generic [ref=e502]:
+                        - generic [ref=e503]: Location
+                        - text: Various Locations within Belgium
+                      - generic [ref=e504]:
+                        - generic [ref=e505]: Actions
+                        - button "Add to Favorites BE-Technical Specialist 114438250" [ref=e507]:
+                          - img [ref=e508]
+                    - 'button "Role description: BE-Technical Specialist" [ref=e511]': 
+                  - text:   
+                - listitem [ref=e512]:
+                  - generic [ref=e513] [cursor=pointer]:
+                    - generic [ref=e515]:
+                      - generic [ref=e516]:
+                        - heading "UAE-Creative 114438217" [level=3] [ref=e517]:
+                          - link "UAE-Creative 114438217" [ref=e518]:
+                            - /url: /en-us/details/114438217/uae-creative?team=APPST
+                            - text: UAE-Creative 
+                        - generic [ref=e519]: Apple Retail
+                        - generic [ref=e520]: Jun 01, 2026
+                      - generic [ref=e521]:
+                        - generic [ref=e522]: Location
+                        - text: Various Locations within United Arab Emirates
+                      - generic [ref=e523]:
+                        - generic [ref=e524]: Actions
+                        - button "Add to Favorites UAE-Creative 114438217" [ref=e526]:
+                          - img [ref=e527]
+                    - 'button "Role description: UAE-Creative" [ref=e530]': 
+                  - text:   
+                - listitem [ref=e531]:
+                  - generic [ref=e532] [cursor=pointer]:
+                    - generic [ref=e534]:
+                      - generic [ref=e535]:
+                        - heading "SE-Technical Specialist 114438205" [level=3] [ref=e536]:
+                          - link "SE-Technical Specialist 114438205" [ref=e537]:
+                            - /url: /en-us/details/114438205/se-technical-specialist?team=APPST
+                            - text: SE-Technical Specialist 
+                        - generic [ref=e538]: Apple Retail
+                        - generic [ref=e539]: Jun 01, 2026
+                      - generic [ref=e540]:
+                        - generic [ref=e541]: Location
+                        - text: Various Locations within Sweden
+                      - generic [ref=e542]:
+                        - generic [ref=e543]: Actions
+                        - button "Add to Favorites SE-Technical Specialist 114438205" [ref=e545]:
+                          - img [ref=e546]
+                    - 'button "Role description: SE-Technical Specialist" [ref=e549]': 
+                  - text:   
+                - listitem [ref=e550]:
+                  - generic [ref=e551] [cursor=pointer]:
+                    - generic [ref=e553]:
+                      - generic [ref=e554]:
+                        - 'heading "CN-Specialist: Seasonal, Full-Time or Part-Time or Intern 114438030" [level=3] [ref=e555]':
+                          - 'link "CN-Specialist: Seasonal, Full-Time or Part-Time or Intern 114438030" [ref=e556]':
+                            - /url: /en-us/details/114438030/cn-specialist-seasonal-full-time-or-part-time-or-intern?team=APPST
+                            - text: "CN-Specialist: Seasonal, Full-Time or Part-Time or Intern "
+                        - generic [ref=e557]: Apple Retail
+                        - generic [ref=e558]: Jun 01, 2026
+                      - generic [ref=e559]:
+                        - generic [ref=e560]: Location
+                        - text: Various Locations within China
+                      - generic [ref=e561]:
+                        - generic [ref=e562]: Actions
+                        - 'button "Add to Favorites CN-Specialist: Seasonal, Full-Time or Part-Time or Intern 114438030" [ref=e564]':
+                          - img [ref=e565]
+                    - 'button "Role description: CN-Specialist: Seasonal, Full-Time or Part-Time or Intern" [ref=e568]': 
+                  - text:   
+            - navigation "Results pagination" [ref=e569]:
+              - generic [ref=e570]:
+                - button "Previous Page" [disabled] [ref=e572]:
+                  - generic [ref=e573]: Previous Page
+                  - text: 
+                - generic [ref=e574]:
+                  - generic [ref=e575]: Page Number
+                  - spinbutton "Page Number" [ref=e576]: "1"
+                  - generic [ref=e578]: Page 1
+                  - generic [ref=e579]: Of
+                  - generic [ref=e580]: "311"
+                - button "Next Page" [ref=e582] [cursor=pointer]:
+                  - generic [ref=e583]: Next Page
+                  - text: 
+  - status [ref=e584]: Page 1 Of 311
+  - contentinfo "Apple Footer" [ref=e585]:
+    - generic [ref=e586]:
+      - heading "Apple Footer" [level=2] [ref=e587]
+      - generic [ref=e588]:
+        - paragraph [ref=e589]:
+          - text: Apple is an equal opportunity employer that is committed to inclusion and diversity. We seek to promote equal opportunity for all applicants without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, Veteran status, or other legally protected characteristics.
+          - link "Learn more about your EEO rights as an applicant (Opens in a new window)" [ref=e590] [cursor=pointer]:
+            - /url: https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12ScreenRdr.pdf
+            - text: Learn more about your EEO rights as an applicant
+            - generic [ref=e591]: (Opens in a new window)
+          - text: .
+        - paragraph [ref=e592]: Apple will not discriminate or retaliate against applicants who inquire about, disclose, or discuss their compensation.
+        - paragraph [ref=e593]:
+          - text: Apple participates in the E-Verify program in certain locations as required by law.
+          - link "Learn more about the E-Verify program" [ref=e594] [cursor=pointer]:
+            - /url: https://www.apple.com/careers/pdf/EverifyPosterEnglish.pdf
+          - text: .
+        - paragraph [ref=e595]:
+          - text: Apple is committed to working with and providing reasonable accommodation to applicants with physical and mental disabilities.
+          - link "Reasonable Accommodation and Drug Free Workplace policy Learn more (Opens in a new window)" [ref=e596] [cursor=pointer]:
+            - /url: https://www.apple.com/careers/us/accommodation_drugfree.html
+            - generic [ref=e597]: Reasonable Accommodation and Drug Free Workplace policy
+            - text: Learn more
+            - generic [ref=e598]: (Opens in a new window)
+          - text: .
+        - paragraph [ref=e599]:
+          - text: Apple is a drug-free workplace.
+          - link "Reasonable Accommodation and Drug Free Workplace policy Learn more (Opens in a new window)" [ref=e600] [cursor=pointer]:
+            - /url: https://www.apple.com/careers/us/accommodation_drugfree.html
+            - generic [ref=e601]: Reasonable Accommodation and Drug Free Workplace policy
+            - text: Learn more
+            - generic [ref=e602]: (Opens in a new window)
+          - text: .
+        - paragraph [ref=e603]:
+          - text: Apple will consider for employment all qualified applicants with criminal histories in a manner consistent with applicable law. If you’re applying for a position in San Francisco, review the
+          - link "San Francisco Fair Chance Ordinance guidelines (opens in a new window)" [ref=e604] [cursor=pointer]:
+            - /url: https://www.sf.gov/sites/default/files/2022-12/FCO%20poster2020_0.pdf
+            - generic [ref=e605]: San Francisco Fair Chance Ordinance
+            - text: guidelines
+            - generic [ref=e606]: (opens in a new window)
+          - text: applicable in your area.
+        - paragraph [ref=e607]: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.
+      - navigation "Breadcrumbs" [ref=e608]:
+        - link "Apple" [ref=e609] [cursor=pointer]:
+          - /url: http://www.apple.com/
+          - generic [ref=e610]: 
+          - generic [ref=e611]: Apple
+        - generic [ref=e612]:
+          - list:
+            - listitem [ref=e613]:
+              - link "Careers at Apple" [ref=e614] [cursor=pointer]:
+                - /url: /careers/us/index/index.html
+                - generic [ref=e615]: Careers at Apple
+            - listitem [ref=e616]:
+              - generic [ref=e617]: Careers at Apple
+      - navigation "Apple Directory" [ref=e618]:
+        - generic [ref=e619]:
+          - generic:
+            - heading "Shop and Learn" [level=3] [ref=e620]:
+              - generic [ref=e621]: Shop and Learn
+            - list [ref=e622]:
+              - listitem [ref=e623]:
+                - link "Store" [ref=e624] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/store
+              - listitem [ref=e625]:
+                - link "Mac" [ref=e626] [cursor=pointer]:
+                  - /url: https://www.apple.com/mac/
+              - listitem [ref=e627]:
+                - link "iPad" [ref=e628] [cursor=pointer]:
+                  - /url: https://www.apple.com/ipad/
+              - listitem [ref=e629]:
+                - link "iPhone" [ref=e630] [cursor=pointer]:
+                  - /url: https://www.apple.com/iphone/
+              - listitem [ref=e631]:
+                - link "Watch" [ref=e632] [cursor=pointer]:
+                  - /url: https://www.apple.com/watch/
+              - listitem [ref=e633]:
+                - link "Vision" [ref=e634] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-vision-pro/
+              - listitem [ref=e635]:
+                - link "AirPods" [ref=e636] [cursor=pointer]:
+                  - /url: https://www.apple.com/airpods/
+              - listitem [ref=e637]:
+                - link "TV & Home" [ref=e638] [cursor=pointer]:
+                  - /url: https://www.apple.com/tv-home/
+              - listitem [ref=e639]:
+                - link "AirTag" [ref=e640] [cursor=pointer]:
+                  - /url: https://www.apple.com/airtag/
+              - listitem [ref=e641]:
+                - link "Accessories" [ref=e642] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/buy_accessories
+              - listitem [ref=e643]:
+                - link "Gift Cards" [ref=e644] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/giftcards
+          - generic:
+            - heading "Apple Wallet" [level=3] [ref=e645]:
+              - generic [ref=e646]: Apple Wallet
+            - list [ref=e647]:
+              - listitem [ref=e648]:
+                - link "Wallet" [ref=e649] [cursor=pointer]:
+                  - /url: https://www.apple.com/wallet/
+              - listitem [ref=e650]:
+                - link "Apple Card" [ref=e651] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-card/
+              - listitem [ref=e652]:
+                - link "Apple Pay" [ref=e653] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-pay/
+              - listitem [ref=e654]:
+                - link "Apple Cash" [ref=e655] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-cash/
+        - generic [ref=e656]:
+          - generic:
+            - heading "Account" [level=3] [ref=e657]:
+              - generic [ref=e658]: Account
+            - list [ref=e659]:
+              - listitem [ref=e660]:
+                - link "Manage Your Apple Account" [ref=e661] [cursor=pointer]:
+                  - /url: https://account.apple.com/
+              - listitem [ref=e662]:
+                - link "Apple Store Account" [ref=e663] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/account
+              - listitem [ref=e664]:
+                - link "iCloud.com" [ref=e665] [cursor=pointer]:
+                  - /url: https://www.icloud.com
+          - generic:
+            - heading "Entertainment" [level=3] [ref=e666]:
+              - generic [ref=e667]: Entertainment
+            - list [ref=e668]:
+              - listitem [ref=e669]:
+                - link "Apple One" [ref=e670] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-one/
+              - listitem [ref=e671]:
+                - link "Apple TV+" [ref=e672] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-tv-plus/
+              - listitem [ref=e673]:
+                - link "Apple Music" [ref=e674] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-music/
+              - listitem [ref=e675]:
+                - link "Apple Arcade" [ref=e676] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-arcade/
+              - listitem [ref=e677]:
+                - link "Apple Fitness+" [ref=e678] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-fitness-plus/
+              - listitem [ref=e679]:
+                - link "Apple News+" [ref=e680] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-news/
+              - listitem [ref=e681]:
+                - link "Apple Podcasts" [ref=e682] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-podcasts/
+              - listitem [ref=e683]:
+                - link "Apple Books" [ref=e684] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-books/
+              - listitem [ref=e685]:
+                - link "App Store" [ref=e686] [cursor=pointer]:
+                  - /url: https://www.apple.com/app-store/
+        - generic [ref=e687]:
+          - generic:
+            - heading "Apple Store" [level=3] [ref=e688]:
+              - generic [ref=e689]: Apple Store
+            - list [ref=e690]:
+              - listitem [ref=e691]:
+                - link "Find a Store" [ref=e692] [cursor=pointer]:
+                  - /url: https://www.apple.com/retail/
+              - listitem [ref=e693]:
+                - link "Genius Bar" [ref=e694] [cursor=pointer]:
+                  - /url: https://www.apple.com/retail/geniusbar/
+              - listitem [ref=e695]:
+                - link "Today at Apple" [ref=e696] [cursor=pointer]:
+                  - /url: https://www.apple.com/today/
+              - listitem [ref=e697]:
+                - link "Group Reservations" [ref=e698] [cursor=pointer]:
+                  - /url: https://www.apple.com/today/groups/
+              - listitem [ref=e699]:
+                - link "Apple Camp" [ref=e700] [cursor=pointer]:
+                  - /url: https://www.apple.com/today/camp/
+              - listitem [ref=e701]:
+                - link "Apple Store App" [ref=e702] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/apple-store/id375380948
+              - listitem [ref=e703]:
+                - link "Certified Refurbished" [ref=e704] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/special_deals
+              - listitem [ref=e705]:
+                - link "Apple Trade In" [ref=e706] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/trade_in
+              - listitem [ref=e707]:
+                - link "Financing" [ref=e708] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/payment_plan
+              - listitem [ref=e709]:
+                - link "Carrier Deals at Apple" [ref=e710] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/buy_iphone/carrier_offers
+              - listitem [ref=e711]:
+                - link "Order Status" [ref=e712] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/order/list
+              - listitem [ref=e713]:
+                - link "Shopping Help" [ref=e714] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/help
+        - generic [ref=e715]:
+          - generic:
+            - heading "For Business" [level=3] [ref=e716]:
+              - generic [ref=e717]: For Business
+            - list [ref=e718]:
+              - listitem [ref=e719]:
+                - link "Apple and Business" [ref=e720] [cursor=pointer]:
+                  - /url: https://www.apple.com/business/
+              - listitem [ref=e721]:
+                - link "Shop for Business" [ref=e722] [cursor=pointer]:
+                  - /url: https://www.apple.com/retail/business/
+          - generic:
+            - heading "For Education" [level=3] [ref=e723]:
+              - generic [ref=e724]: For Education
+            - list [ref=e725]:
+              - listitem [ref=e726]:
+                - link "Apple and Education" [ref=e727] [cursor=pointer]:
+                  - /url: https://www.apple.com/education/
+              - listitem [ref=e728]:
+                - link "Shop for K-12" [ref=e729] [cursor=pointer]:
+                  - /url: https://www.apple.com/education/k12/how-to-buy/
+              - listitem [ref=e730]:
+                - link "Shop for College" [ref=e731] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/educationrouting
+          - generic:
+            - heading "For Healthcare" [level=3] [ref=e732]:
+              - generic [ref=e733]: For Healthcare
+            - list [ref=e734]:
+              - listitem [ref=e735]:
+                - link "Apple in Healthcare" [ref=e736] [cursor=pointer]:
+                  - /url: https://www.apple.com/healthcare/
+              - listitem [ref=e737]:
+                - link "Mac in Healthcare" [ref=e738] [cursor=pointer]:
+                  - /url: https://www.apple.com/healthcare/mac/
+              - listitem [ref=e739]:
+                - link "Health on Apple Watch" [ref=e740] [cursor=pointer]:
+                  - /url: https://www.apple.com/healthcare/apple-watch/
+              - listitem [ref=e741]:
+                - link "Health Records on iPhone and iPad" [ref=e742] [cursor=pointer]:
+                  - /url: https://www.apple.com/healthcare/health-records/
+          - generic:
+            - heading "For Government" [level=3] [ref=e743]:
+              - generic [ref=e744]: For Government
+            - list [ref=e745]:
+              - listitem [ref=e746]:
+                - link "Shop for Government" [ref=e747] [cursor=pointer]:
+                  - /url: https://www.apple.com/r/store/government/
+              - listitem [ref=e748]:
+                - link "Shop for Veterans and Military" [ref=e749] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/eppstore/veteransandmilitary
+        - generic [ref=e750]:
+          - generic:
+            - heading "Apple Values" [level=3] [ref=e751]:
+              - generic [ref=e752]: Apple Values
+            - list [ref=e753]:
+              - listitem [ref=e754]:
+                - link "Accessibility" [ref=e755] [cursor=pointer]:
+                  - /url: https://www.apple.com/accessibility/
+              - listitem [ref=e756]:
+                - link "Education" [ref=e757] [cursor=pointer]:
+                  - /url: https://www.apple.com/education-initiative/
+              - listitem [ref=e758]:
+                - link "Environment" [ref=e759] [cursor=pointer]:
+                  - /url: https://www.apple.com/environment/
+              - listitem [ref=e760]:
+                - link "Inclusion and Diversity" [ref=e761] [cursor=pointer]:
+                  - /url: https://www.apple.com/diversity/
+              - listitem [ref=e762]:
+                - link "Privacy" [ref=e763] [cursor=pointer]:
+                  - /url: https://www.apple.com/privacy/
+              - listitem [ref=e764]:
+                - link "Racial Equity and Justice" [ref=e765] [cursor=pointer]:
+                  - /url: https://www.apple.com/racial-equity-justice-initiative/
+              - listitem [ref=e766]:
+                - link "Supply Chain" [ref=e767] [cursor=pointer]:
+                  - /url: https://www.apple.com/supply-chain/
+          - generic:
+            - heading "About Apple" [level=3] [ref=e768]:
+              - generic [ref=e769]: About Apple
+            - list [ref=e770]:
+              - listitem [ref=e771]:
+                - link "Newsroom" [ref=e772] [cursor=pointer]:
+                  - /url: https://www.apple.com/newsroom/
+              - listitem [ref=e773]:
+                - link "Apple Leadership" [ref=e774] [cursor=pointer]:
+                  - /url: https://www.apple.com/leadership/
+              - listitem [ref=e775]:
+                - link "Career Opportunities" [ref=e776] [cursor=pointer]:
+                  - /url: https://www.apple.com/careers/us/
+              - listitem [ref=e777]:
+                - link "Investors" [ref=e778] [cursor=pointer]:
+                  - /url: https://investor.apple.com/
+              - listitem [ref=e779]:
+                - link "Ethics & Compliance" [ref=e780] [cursor=pointer]:
+                  - /url: https://www.apple.com/compliance/
+              - listitem [ref=e781]:
+                - link "Events" [ref=e782] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-events/
+              - listitem [ref=e783]:
+                - link "Contact Apple" [ref=e784] [cursor=pointer]:
+                  - /url: https://www.apple.com/contact/
+      - generic [ref=e785]:
+        - generic [ref=e786]:
+          - text: "More ways to shop:"
+          - link "Find an Apple Store" [ref=e787] [cursor=pointer]:
+            - /url: https://www.apple.com/retail/
+          - text: or
+          - link "other retailer" [ref=e788] [cursor=pointer]:
+            - /url: https://locate.apple.com/
+          - text: near you.
+          - generic [ref=e789]: Or call 1-800-MY-APPLE.
+        - link "United States. Choose your country or region" [ref=e791] [cursor=pointer]:
+          - /url: /careers/choose-country-region.html
+          - text: United States
+        - generic [ref=e792]:
+          - generic [ref=e793]: Copyright © 2025 Apple Inc. All rights reserved.
+          - list [ref=e794]:
+            - listitem [ref=e795]:
+              - link "Privacy Policy" [ref=e796] [cursor=pointer]:
+                - /url: https://www.apple.com/legal/privacy/
+            - listitem [ref=e797]:
+              - link "Terms of Use" [ref=e798] [cursor=pointer]:
+                - /url: https://www.apple.com/legal/internet-services/terms/site.html
+            - listitem [ref=e799]:
+              - link "Sales and Refunds" [ref=e800] [cursor=pointer]:
+                - /url: https://www.apple.com/us/shop/goto/help/sales_refunds
+            - listitem [ref=e801]:
+              - link "Legal" [ref=e802] [cursor=pointer]:
+                - /url: https://www.apple.com/legal/
+            - listitem [ref=e803]:
+              - link "Site Map" [ref=e804] [cursor=pointer]:
+                - /url: https://www.apple.com/sitemap/

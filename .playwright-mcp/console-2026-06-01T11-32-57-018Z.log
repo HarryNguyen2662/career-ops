@@ -1,0 +1,14 @@
+[     715ms] [LOG] triggered mutation custom_scripts @ https://explore.jobs.netflix.net/careers?query=software+engineer+new+grad&pid=790298871993&domain=netflix.com&sort_by=relevance:36
+[    1604ms] [WARNING] quill Overwriting ui/icons with {align: Object, background: <svg viewbox="0 0 18 18"> <g class="ql-fill ql-col…troke x1=11.63 x2=6.38 y1=11 y2=11></line> </svg>, blockquote: <svg viewbox="0 0 18 18"> <rect class="ql-fill ql-…ql-stroke" d=M14,8c0,4.031-3,5-3,5></path> </svg>, bold: <svg viewbox="0 0 18 18"> <path class=ql-stroke d=…4H5a0,0,0,0,1,0,0V9A0,0,0,0,1,5,9Z></path> </svg>, clean: <svg class="" viewbox="0 0 18 18"> <line class=ql-…t=1 rx=0.5 ry=0.5 width=7 x=2 y=14></rect> </svg>} @ webpack://Quill/./core/logger.js?:6
+[    1740ms] [LOG] found EF footer, removing @ https://explore.jobs.netflix.net/careers?query=software+engineer+new+grad&pid=790298871993&domain=netflix.com&sort_by=relevance:36
+[    1743ms] [LOG] attempting to fix bold @ :0
+[    1769ms] [LOG] found cards on DOM load @ https://explore.jobs.netflix.net/careers?query=software+engineer+new+grad&pid=790298871993&domain=netflix.com&sort_by=relevance:36
+[    1789ms] [LOG] CSS applied successfully @ :0
+[    1821ms] [LOG] starting safari fix @ :0
+[    1821ms] [LOG] User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 @ :4
+[    1821ms] [LOG] isSafari: false @ :5
+[    1822ms] [LOG] body: JSHandle@node @ :6
+[    1822ms] [LOG] ❌ Failed to add class @ :12
+[    1913ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://ipapi.co/json/:0
+[    2087ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://explore.jobs.netflix.net/placeHolderToBlockLoad:0
+[    4774ms] [LOG] Inject images start @ :0

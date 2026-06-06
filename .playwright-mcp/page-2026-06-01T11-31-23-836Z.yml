@@ -1,0 +1,377 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - link "Skip to main content" [ref=e6] [cursor=pointer]:
+      - /url: javascript:void(0)
+    - banner [ref=e7]:
+      - generic [ref=e9]:
+        - text:  
+        - link "Microsoft" [ref=e10] [cursor=pointer]:
+          - /url: https://www.microsoft.com
+          - img [ref=e11]
+          - generic [ref=e12]: Microsoft
+        - text:  
+        - link "Careers" [ref=e14] [cursor=pointer]:
+          - /url: https://careers.microsoft.com/v2/global/en/home.html
+          - generic [ref=e15]: Careers
+        - navigation "Contextual menu" [ref=e16]:
+          - list [ref=e17]:
+            - listitem [ref=e18]:
+              - link "Locations" [ref=e19] [cursor=pointer]:
+                - /url: https://careers.microsoft.com/v2/global/en/locations.html
+            - listitem [ref=e20]:
+              - link "Professions" [ref=e21] [cursor=pointer]:
+                - /url: https://careers.microsoft.com/v2/global/en/professions.html
+            - listitem [ref=e22]:
+              - button "Programs " [ref=e24] [cursor=pointer]
+            - listitem [ref=e25]:
+              - button "Life at Microsoft " [ref=e27] [cursor=pointer]
+            - listitem [ref=e28]:
+              - link "Hiring tips" [ref=e29] [cursor=pointer]:
+                - /url: https://careers.microsoft.com/v2/global/en/hiring-tips.html
+            - text: 
+            - listitem [ref=e30]:
+              - link "Join talent network" [ref=e31] [cursor=pointer]:
+                - /url: https://apply.careers.microsoft.com/careers/join
+        - generic [ref=e32]:
+          - text:  
+          - link "Search jobs" [ref=e35] [cursor=pointer]: 
+          - link "Sign in" [ref=e37] [cursor=pointer]:
+            - generic [ref=e38]: Sign in
+  - main [ref=e40]:
+    - generic [ref=e44]:
+      - heading "Microsoft Aspire" [level=1] [ref=e49]
+      - generic [ref=e55]:
+        - list [ref=e57]:
+          - listitem [ref=e58]:
+            - 'heading "From Campus to Career: The Microsoft Aspire Experience" [level=3] [ref=e59]'
+            - generic [ref=e60]:
+              - paragraph [ref=e61]: Are you ready to take the first steps into your career and put your talents to work in the real world? Do you want to play a vital part in the business success of a high-tech global leader? Would you like to experience an inspiring world class program? If so, then the Microsoft Aspire Experience is for you.
+              - paragraph [ref=e62]: Microsoft Aspire is a 1+ year learning and development journey designed for new full-time employees from undergraduate, graduate, MBA, PhD, MSSA, or LEAP backgrounds once you’ve started in your role at Microsoft. This global program, where enrollment is automatic once you are hired and start at Microsoft from a qualifying program, is designed to help you kick start your career at Microsoft, offering unique programs and events designed to accelerate your growth, build your network, and discover opportunities.
+              - paragraph [ref=e63]: We understand the importance of working in a role where your talents will shine, your interests will grow, and your passions will inspire your peers. Join us and begin your Microsoft journey today.
+        - img "Photo of Microsoft employee working on laptop" [ref=e68]
+      - generic [ref=e71]:
+        - heading "Explore career opportunities" [level=2] [ref=e72]
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - generic [ref=e76]:
+                - heading "Principal Software Engineer" [level=3] [ref=e78]
+                - generic [ref=e79]:
+                  - generic [ref=e80]:
+                    - img "Update time" [ref=e81]
+                    - generic [ref=e82]: 1 month ago
+                  - generic [ref=e83]:
+                    - img "Location" [ref=e84]
+                    - generic [ref=e85]: United States, Washington, Redmond
+                  - generic [ref=e86]:
+                    - img "Work site" [ref=e87]
+                    - generic [ref=e88]: 3 days / week in-office
+              - paragraph [ref=e90]: "We are looking for a Prinicpal Software Engineer for the Policy &amp; Configuration team owns the deployment control plane for Microsoft Threat Protection. It controls how every security service deploys across regions and sovereign clouds. The team is replacing a legacy configuration system with .NET Aspire and encoding deployment rules, data-residency constraints, and compliance policies into the toolchain as Roslyn analyzers, CI gates, and typed annotations. The compiler catches what used to break at deploy time. Half the work is architecture. half is cross-org advocacy with partner platform teams. Everything the tool does gets pushed upstream into Azure and .NET. Small team. High leverage. Responsibilities This role is for an Principal Software Engineer who wants to define how deployment configuration works across a platform, not just build what's asked. Responsibilities include: Design the migration path from a legacy deployment SDK to .NET Aspire. Define the publishing hooks, plan the incremental cutover, and solve the coexistence problems that come from running old and new systems side by side in production. Drive adoption across organizational boundaries. Work directly with Azure platform and .NET partner teams to push deployment capabilities upstream. The goal is getting the right primitives into the infrastructure so the team stops maintaining what should be a platform feature. Encode compliance and deployment standards into the toolchain. Data-residency rules, security policies, and configuration constraints that replace tribal knowledge with .NET analyzers, CI gates, and typed annotations. What was once a wiki becomes a compiler check. Own architecture decisions for the deployment configuration domain. Evaluate build-vs-contribute upstream tradeoffs, lead design reviews, and set the technical direction. Shape the developer experience so service teams deploy through standard .NET code. No specialized SDKs. No deployment-specific tooling to learn. The ordinary path is the correct path. Build machine-readable interfaces - MCP servers, structured APIs - so AI agents and human engineers work against the same deployment control plane Qualifications Required/Minimum Qualifications: Bachelor's Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience. Software Engineering IC5 - The typical base pay range for this role across the U.S. is USD $139,900 - $274,800 per year. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $188,000 - $304,200 per year. Certain roles may be eligible for benefits and other compensation. Find additional benefits and pay information here: https://careers.microsoft.com/us/en/us-corporate-pay This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled. Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process, read more about requesting accommodations."
+            - link "See details" [ref=e91] [cursor=pointer]:
+              - /url: https://apply.careers.microsoft.com/careers/job/1970393556861046?hl=en
+              - generic [ref=e92]: See details
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - generic [ref=e95]:
+                - heading "Cloud Solution Architect - Cybersecurity (Identity) - CTJ - Poly" [level=3] [ref=e97]
+                - generic [ref=e98]:
+                  - generic [ref=e99]:
+                    - img "Update time" [ref=e100]
+                    - generic [ref=e101]: 5 days ago
+                  - generic [ref=e102]:
+                    - img "Location" [ref=e103]
+                    - generic [ref=e104]: United States, District of Columbia, Washington D.C.
+                  - generic [ref=e105]:
+                    - img "Work site" [ref=e106]
+                    - generic [ref=e107]: 3 days / week in-office
+              - paragraph [ref=e109]: "Microsoft Federal delivers a single unified organization centered around our customer. This organization is a first-of-its-kind for Microsoft, bringing together expertise, knowledge, and insights across our teams. All critical customer functions are brought under the same organizational umbrella, bringing the breadth and depth of our expertise into laser focus on serving the U.S. Federal Government. We are committed to empowering our teams, building upon our strategic investments, and delivering the technology to achieve federal missions. As our customers pursue their work, from defending the nation, to serving its people in challenging times, they look to Microsoft to help them innovate, and they expect end-to-end engagement tailored to their needs. We aspire to... · Deliver the best technology to enable mission-critical work · Support fast-paced innovation with the U.S Federal Government · Drive focused, thoughtful, end-to-end delivery tailored to unique customer needs · Continuously advance security processes within our long-standing engagement approach · Develop products with inclusivity and accessibility at the core What Joining The Microsoft Team Means Microsoft is on a mission to empower every person and every organization on the planet to achieve more, and security, data protection, and privacy are vital pillars in our mission. Our culture is centered on embracing a growth mindset, a theme of inspiring excellence, and encouraging our diverse teams and leaders to bring their best each day. In doing so, we create life-changing innovations that impact billions of lives around the world. You can help us to achieve our mission. Microsoft continues to invest over $20B over the next 5 years in cybersecurity, including providing our customers with services and solutions that integrate across the ecosystem by connecting all your identities, endpoints, apps, emails, docs and clouds to help you close critical gaps in coverage, reduce risk, and save costs with a streamlined security portfolio. Customer Success: Microsoft aspires to help our customers achieve their own digital transformation, leveraging the power of Microsoft Cloud solutions and support offerings. To this end, Microsoft invests in a dedicated Customer Success team that will help Microsoft customers successfully realize their business outcomes. Security Solution Area: Microsoft aspires to help our customers achieve their secure digital transformation, leveraging the power of Microsoft Cloud security solutions and support offerings. We are looking for a highly motivated and passionate Cloud Solution Architect - Cybersecurity (Identity) with a focus on Identity and Access Management (IAM) to drive customer transformation on the Microsoft Cloud platform. This is a customer-facing technical role responsible for leading Identity engagements, owning the technical relationship with customers, and delivering secure Identity architectures that enable Zero Trust and mission success. Responsibilities Microsoft Federal is looking for individuals passionate about driving security solutions and outcomes that enable mission-critical work for the U.S. Federal Government. The speed of technology is fast; the speed of security is even faster – candidates must be interested in maintaining technical expertise supported by many skilling resources provided by Microsoft to invest in your growth. Ideal candidates for this role will meet the following. Identity Architecture &amp; Delivery · Lead Identity and Access Management (IAM) engagements, serving as the primary technical authority for Identity solutions · Lead the administration, maintenance, and troubleshooting of enterprise identity systems, including: o Microsoft Active Directory o Microsoft Identity Manager (MIM/FIM) o Active Directory Federation Services (AD FS) · Assist with hybrid identity and modernization initiatives involving: o Active Directory and Microsoft Entra ID integration o MFA and Conditional Access implementations o Privileged access management concepts like least privilege · Apply Zero Trust principles to Identity and Access Management operations · Identity and remediate identity-related security risks and operational issues · Support compliance, audit and security review activities related to identity systems · Collaborate with: o Security, Apps, and Infrastructure Microsoft partners o Account teams and engineering · Act as Voice of the Customer, providing feedback to influence product direction and remove blockers · Build technical credibility and trusted advisor relationships with customers Travel is an integral part of this position. You should be willing to travel as is demanded by the needs of our customers and our business. This position requires approximately 25% overnight travel if you reside or are willing to relocate within commuting distance to the work. This position may require up to 75% overnight travel if you are not within commuting distance to work. Qualifications Required Qualifications Bachelor's Degree in Computer Science, Information Technology, Engineering, Business, Liberal Arts, or related field AND 2+ years experience in cloud/infrastructure technologies, information technology (IT) consulting/support, systems administration, network operations, software development/support, technology solutions, practice development, architecture, and/or consulting OR equivalent experience. Other Requirements Security Clearance Requirements: Candidates must be able to meet Microsoft, customer and/or government security screening requirements are required for this role. These requirements include, but are not limited to the following specialized security screenings: • The successful candidate must have an active U.S. Government Top Secret Clearance with access to Sensitive Compartmented Information (SCI) based on a Single Scope Background Investigation (SSBI) with Polygraph. Ability to meet Microsoft, customer and/or government security screening requirements are required pre-offer and post-hire for this role. Failure to maintain or obtain the appropriate U.S. Government clearance and/or customer screening requirements may result in employment action up to and including termination. • Clearance Verification: This position requires successful verification of the stated security clearance to meet federal government customer requirements. You will be asked to provide clearance verification information prior to an offer of employment. • Microsoft Cloud Background Check: This position will be required to pass the Microsoft Cloud background check upon hire/transfer and every two years thereafter. • Citizenship &amp; Citizenship Verification: This position requires verification of U.S. citizenship due to citizenship-based legal restrictions. Specifically, this position supports United States federal, state, and/or local United States government agency customer and is subject to certain citizenship-based restrictions where required or permitted by applicable law. To meet this legal requirement, citizenship will be verified via a valid passport, or other approved documents, or verified US government Clearance Preferred Qualifications Bachelor’s Degree in Computer Science, Information Technology, Engineering, Business, Liberal Arts, or related field AND 3+ years experience in cloud/infrastructure technologies, information technology (IT) consulting/support, systems administration, network operations, software development/support, technology solutions, practice development, architecture, and/or consulting OR equivalent experience. Experience designing or implementing: On-premises identity technologies, including: o Microsoft Active Directory Domain Services (AD DS) o Group Policy administration o Active Directory Federation Services (AD FS) o Microsoft Identity Manager (MIM) o Public Key Infrastructure (PKI) Experience supporting identity operations in regulated, disconnected, or highly secure environments is preferred. Exposure to modern identity and security concepts, including: o Microsoft Entra ID o Hybrid identity (Active Directory + Entra ID) o Multi-factor authentication (MFA) o Conditional Access o Privileged Identity Management (PIM) Understanding of Zero Trust security principles, including: o Identity as a security control plane o Least privilege access o Strong authentication and continuous verification Exposure to: o Identity Governance and access reviews o Role-based access control (RBAC) o Application and Workload Identities Demonstrated interest in growing technical expertise in modern identity security technologies, including Microsoft Entra and cloud-based identity architectures. Familiarity with U.S. Federal identity and security requirements (e.g., ICAM, E-ICAM, Zero Trust guidance) Microsoft Certifications Preferred: o SC-300: Identity and Access Administrator o SC-100: Cybersecurity Architect Cloud Solution Architecture IC3 - The typical base pay range for this role across the U.S. is USD $86,100 - $169,800 per year. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $113,300 - $187,400 per year. Certain roles may be eligible for benefits and other compensation. Find additional benefits and pay information here: https://careers.microsoft.com/us/en/us-corporate-pay This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled. Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process, read more about requesting accommodations."
+            - link "See details" [ref=e110] [cursor=pointer]:
+              - /url: https://apply.careers.microsoft.com/careers/job/1970393556867080?hl=en
+              - generic [ref=e111]: See details
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - generic [ref=e114]:
+                - heading "Human Resources Director, Labor Relations" [level=3] [ref=e116]
+                - generic [ref=e117]:
+                  - generic [ref=e118]:
+                    - img "Update time" [ref=e119]
+                    - generic [ref=e120]: 12 days ago
+                  - generic [ref=e121]:
+                    - img "Location" [ref=e122]
+                    - generic [ref=e123]: United States, Washington, Redmond +1 more
+                  - generic [ref=e124]:
+                    - img "Work site" [ref=e125]
+                    - generic [ref=e126]: 3 days / week in-office
+              - paragraph [ref=e128]: "At Xbox, we aspire to bring the joy and community of gaming to everyone on the planet. We deliver on that vision by putting players at the center, enabling you to play the games you want, with the people you want, anywhere you want. The Human Resources (HR) Director, Labor Relations, serves as the senior labor relations leader for Xbox and other divisions in the U.S., with accountability for influencing and executing labor relations strategy across unionized environments. This role work closely with critical stakeholders to develop the operating model, standards, and escalation framework for labor relations, ensuring consistent application of Microsoft’s Labor Principles while enabling business agility and innovation. Partnering closely with business leaders, Legal, and the Chief Labor Negotiator, this role influences business decisions that impact union-represented employees, anticipates labor risk, and leads complex, high-visibility labor engagement. The Director builds and leads a high-performing labor relations team, develops enterprise labor capability, and cultivates trusted, long-term relationships with union leadership grounded in transparency, respect, and accountability. As a member of the HR team, you will have the opportunity to further advance the success of a very dynamic and strategic organization. Microsoft is on a mission to empower every person and every organization on the planet to achieve more. Our culture is centered on embracing a growth mindset, a theme of inspiring excellence, and encouraging teams and leaders to bring their best each day. In doing so, we create life-changing innovations that impact billions of lives around the world. Within HR at Microsoft, our mission is to empower the people who empower the planet. You can help us achieve our mission. Responsibilities Supports and drives the labor relations strategy for Xbox (U.S.), aligned to Microsoft’s Labor Principles and broader HR strategy. Partners to build the labor relations operating model, including escalation paths, decision rights, and standards for engagement with union partners. Anticipates labor relations trends, legislative shifts, and organizing risk; proactively shapes business strategy and mitigation plans. Leads and develops a team of labor relations professionals, setting clear expectations for quality, consistency, and risk management. Oversees and coaches the team in resolving very high-complexity, high-risk labor disputes and grievances, serving as escalation point for critical cases. Builds a Labor Relations Community of Practice, enabling knowledge sharing, early risk detection, and consistent execution across regions. Creates a robust training program to support the education of business leaders on managing in a union environment. Drives manager and executive capability through scalable training, executive coaching, and labor readiness programs. Serves as a liaison with HR Legal and other critical partners to set parameters for collective bargaining negotiations and arbitration strategy, assess risk and set enterprise negotiation parameters. Leverages stakeholder partners to influence policy and decision making based upon observed trends. Ensures consistent interpretation and administration of collective bargaining agreements across the organization Serves as a trusted advisor to senior and executive leaders, influencing decisions with significant labor, reputational, or regulatory impact. Guides leaders through high-stakes labor moments (e.g., organizing activity, strikes, major negotiations, restructures). May serve as a subject matter expert on Labor Relations-related topics both within teams and for other teams (e.g., Human Resources [HR] Consulting, HR Business Partnership [HRBP], HR Leadership, management). Consults with colleagues and/or management as deemed appropriate. Maintains a feedback loop with HR Legal for any business decisions that may impact union represented employees. Qualifications Required Qualifications Bachelor's Degree in Business, Labor Relations, Human Resources, Law, or related field AND 9+ years experience in in human resources operations, labor relations, mediation, collective bargaining, employee relations-related roles or related field; OR Master's Degree in Business, Labor Relations, Human Resources, Law, or related field AND 6+ years experience in human resources operations, labor relations, mediation, collective bargaining, employee relations-related roles or related field human resources operations, labor relations or related field; OR equivalent experience. Preferred Qualification Bachelor's Degree in Business, Labor Relations, Human Resources, Law, or related field AND 15+ years experience in in human resources operations, labor relations, mediation, collective bargaining, employee relations-related roles or related field; OR Master's Degree in Business, Labor Relations, Human Resources, Law, or related field AND 12+ years experience in human resources operations, labor relations, mediation, collective bargaining, employee relations-related roles or related field human resources operations, labor relations or related field; OR equivalent experience. 5+ years people management experience. Society for Human Resource Management Certified Professional (SHRM-CP) or Human Resource Certification Institute (HRCI) Professional in Human Resources (PHR) certification. Experience leading labor relations strategy within a large, matrixed, global organization. Demonstrated ability to influence executive decision-making in high-risk labor environments. Experience leading teams through complex labor transformations or first-contract negotiations. Labor Relations M6 - The typical base pay range for this role across the U.S. is USD $130,900 - $277,200 per year. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $165,600 - $303,600 per year. Certain roles may be eligible for benefits and other compensation. Find additional benefits and pay information here: https://careers.microsoft.com/us/en/us-corporate-pay This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled. Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process, read more about requesting accommodations."
+            - link "See details" [ref=e129] [cursor=pointer]:
+              - /url: https://apply.careers.microsoft.com/careers/job/1970393556858770?hl=en
+              - generic [ref=e130]: See details
+          - generic [ref=e132]:
+            - heading "+1 opening" [level=3] [ref=e133]
+            - link "Search for similar jobs" [ref=e134] [cursor=pointer]:
+              - /url: https://apply.careers.microsoft.com/careers?hl=en
+              - text: Search for similar jobs
+      - generic [ref=e141]:
+        - generic [ref=e144]:
+          - iframe [ref=e145]:
+            - generic [active] [ref=f19e1]:
+              - generic "YouTube Video Player" [ref=f19e3]
+              - generic [ref=f19e5]:
+                - generic:
+                  - generic:
+                    - button "Play video" [ref=f19e10] [cursor=pointer]
+                    - button "Hide player controls" [ref=f19e12] [cursor=pointer]
+                    - generic [ref=f19e14]:
+                      - generic [ref=f19e19]:
+                        - generic [ref=f19e20]:
+                          - link "Microsoft Aspire Experience" [ref=f19e21] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=QkwNywIGC1g
+                          - link "Working at Microsoft" [ref=f19e22] [cursor=pointer]:
+                            - /url: /channel/UCRuPqly_xBRdFRb9wr1m2mQ
+                            - generic [ref=f19e23]: Working at Microsoft
+                        - generic [ref=f19e24]:
+                          - button [ref=f19e25] [cursor=pointer]
+                          - generic [ref=f19e27]:
+                            - generic: Working at Microsoft
+                            - generic: 31.7K subscribers
+                      - generic [ref=f19e28]:
+                        - button "Copy link" [ref=f19e31] [cursor=pointer]:
+                          - generic [ref=f19e35]:
+                            - img
+                        - link "Watch on YouTube" [ref=f19e42] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=QkwNywIGC1g
+                          - generic [ref=f19e45]:
+                            - text: Watch on
+                            - img [ref=f19e47]:
+                              - generic [ref=f19e49]:
+                                - img
+          - button "Microsoft Aspire Experience video" [ref=e146] [cursor=pointer]
+        - list [ref=e148]:
+          - listitem [ref=e149]:
+            - heading "Start strong. Grow bold. Discover Aspire." [level=3] [ref=e150]
+            - generic [ref=e151]:
+              - paragraph [ref=e152]: You’re stepping into the professional world—and we’re here to help you thrive. The Microsoft Aspire Experience is dedicated to recent early in career (e.g., undergraduate, masters, PhD, MSSA, or LEAP) hires who are beginning to establish their careers.
+              - paragraph [ref=e153]: The Microsoft Aspire Experience is a 1+ year journey designed to accelerate your growth through immersive learning, mentorship, and community-building events. You will strengthen your ability to adapt, think critically, and collaborate with confidence. You’ll gain exposure to different teams, build lasting connections, and develop the tools to shape your future at Microsoft and beyond. Whether you're discovering your strengths or defining your path, Aspire is your launchpad to grow with purpose.
+      - generic [ref=e156]:
+        - heading "Aspire Experience essentials for undergrads" [level=2] [ref=e157]
+        - generic [ref=e158]:
+          - list [ref=e161]:
+            - listitem [ref=e162]:
+              - generic [ref=e163]:
+                - separator [ref=e164]
+                - button "Overview" [expanded] [ref=e165] [cursor=pointer]
+            - listitem [ref=e166]:
+              - button "Qualifications" [ref=e168] [cursor=pointer]
+            - listitem [ref=e169]:
+              - button "What to expect" [ref=e171] [cursor=pointer]
+          - list [ref=e174]:
+            - listitem [ref=e175]:
+              - generic [ref=e176]:
+                - paragraph [ref=e177]: We believe that Microsoft is a place for exploration, creativity, innovation, and professional growth. Once you’re ready to launch your career at Microsoft, we’re ready to empower you to achieve more.
+                - paragraph [ref=e178]
+                - paragraph [ref=e179]: Qualifying global early in career, interns, MSSA, and LEAP hires, regardless of role or title, will be part of a rich, 1+ year learning and development journey called the Microsoft Aspire Experience with unique programming exclusively curated and designed to meet you where you are and will help guide you towards the career of your dreams.
+            - listitem
+            - listitem
+          - list [ref=e182]:
+            - listitem [ref=e183]:
+              - img "Employees working together" [ref=e186]
+            - listitem
+            - listitem
+      - generic [ref=e192]:
+        - generic [ref=e195]:
+          - iframe [ref=e196]:
+            - generic [active] [ref=f21e1]:
+              - generic "YouTube Video Player" [ref=f21e3]
+              - generic [ref=f21e5]:
+                - generic:
+                  - generic:
+                    - button "Play video" [ref=f21e10] [cursor=pointer]
+                    - button "Hide player controls" [ref=f21e12] [cursor=pointer]
+                    - generic [ref=f21e14]:
+                      - generic [ref=f21e19]:
+                        - generic [ref=f21e20]:
+                          - link "Microsoft Aspire MBA Experience" [ref=f21e21] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=2LBjOkIgq80
+                          - link "Working at Microsoft" [ref=f21e22] [cursor=pointer]:
+                            - /url: /channel/UCRuPqly_xBRdFRb9wr1m2mQ
+                            - generic [ref=f21e23]: Working at Microsoft
+                        - generic [ref=f21e24]:
+                          - button [ref=f21e25] [cursor=pointer]
+                          - generic [ref=f21e27]:
+                            - generic: Working at Microsoft
+                            - generic: 31.7K subscribers
+                      - generic [ref=f21e28]:
+                        - button "Copy link" [ref=f21e31] [cursor=pointer]:
+                          - generic [ref=f21e35]:
+                            - img
+                        - link "Watch on YouTube" [ref=f21e42] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2LBjOkIgq80
+                          - generic [ref=f21e45]:
+                            - text: Watch on
+                            - img [ref=f21e47]:
+                              - generic [ref=f21e49]:
+                                - img
+          - button "Microsoft Aspire MBA Experience video" [ref=e197] [cursor=pointer]
+        - list [ref=e199]:
+          - listitem [ref=e200]:
+            - heading "Step into the Aspire MBA experience" [level=3] [ref=e201]
+            - generic [ref=e202]:
+              - paragraph [ref=e203]: You’ve invested in your education—now it’s time to amplify your influence. The Microsoft Aspire MBA Experience is a 1+ year global development program tailored for MBA hires ready to lead with clarity, drive innovation, and make strategic decisions that matter.
+              - paragraph [ref=e204]: This experience deepens your understanding of Microsoft’s business and culture while sharpening your ability to lead through complexity, think on a scale, and inspire others. With access to executive leadership, high-impact projects, and a powerful peer network, Aspire MBA empowers you to accelerate your career and shape what’s next.
+      - generic [ref=e207]:
+        - heading "Microsoft Aspire MBA Experience" [level=2] [ref=e208]
+        - generic [ref=e209]:
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - generic [ref=e214]:
+                - separator [ref=e215]
+                - button "Overview" [expanded] [ref=e216] [cursor=pointer]
+            - listitem [ref=e217]:
+              - button "Qualifications" [ref=e219] [cursor=pointer]
+            - listitem [ref=e220]:
+              - button "What to expect" [ref=e222] [cursor=pointer]
+          - list [ref=e225]:
+            - listitem [ref=e226]:
+              - generic [ref=e227]:
+                - paragraph [ref=e228]: We believe in empowering bold thinkers to achieve more—through curiosity, originality, forward-thinking, and meaningful growth.
+                - paragraph [ref=e229]
+                - paragraph [ref=e230]: The Microsoft Aspire MBA Experience is a 1+ year global development journey designed exclusively for qualifying MBA hires. No matter your role or title, you’ll be part of a thoughtfully curated experience tailored to meet you where you are in your leadership journey—equipping you with the tools, insights, and connections to accelerate your impact.
+                - paragraph [ref=e231]
+                - paragraph [ref=e232]: Through immersive learning, strategic exposure, and a powerful peer network, Aspire MBA empowers you to lead with purpose and navigate complexity. Make your ambition count – at Microsoft and beyond.
+            - listitem
+            - listitem
+          - list [ref=e235]:
+            - listitem [ref=e236]:
+              - img "Photo of Microsoft Employees" [ref=e239]
+            - listitem
+            - listitem
+      - generic [ref=e243]:
+        - heading "Featured Roles" [level=2] [ref=e244]
+        - generic [ref=e246]:
+          - generic [ref=e247]:
+            - button "Previous Slide" [ref=e248] [cursor=pointer]: ❮
+            - list [ref=e249]:
+              - listitem [ref=e250]:
+                - generic [ref=e251]:
+                  - img "Photo of Microsoft employee at computer" [ref=e255]
+                  - generic [ref=e256]:
+                    - heading "Software Engineer" [level=3] [ref=e257]
+                    - paragraph [ref=e259]: A Software Engineer at Microsoft is responsible for designing, developing, and maintaining software applications that meet the needs of customers and the business. They are expected to have a deep understanding of software engineering principles and practices, and to collaborate effectively with cross-functional teams to deliver high-quality software solutions. This role involves continuous learning and adaptation to new technologies and methodologies to ensure the software remains innovative and competitive. Additionally, Software Engineers at Microsoft play a key role in troubleshooting and resolving technical issues to ensure the smooth operation of software products.
+            - button "Next Slide" [ref=e260] [cursor=pointer]: ❯
+          - generic [ref=e261]:
+            - button "Software Engineer current slide 1 of 7" [ref=e262] [cursor=pointer]
+            - button "Product Manager slide 2 of 7" [ref=e263] [cursor=pointer]
+            - button "Program Manager slide 3 of 7" [ref=e264] [cursor=pointer]
+            - button "Product Marketing Manager slide 4 of 7" [ref=e265] [cursor=pointer]
+            - button "Technical Support slide 5 of 7" [ref=e266] [cursor=pointer]
+            - button "Data & Applied Scientist slide 6 of 7" [ref=e267] [cursor=pointer]
+            - button "Customer Success slide 7 of 7" [ref=e268] [cursor=pointer]
+      - generic [ref=e276]:
+        - heading "Life at Microsoft" [level=2] [ref=e277]
+        - list [ref=e279]:
+          - listitem [ref=e280]:
+            - generic "Clickable Card Early in Profession" [ref=e281] [cursor=pointer]:
+              - generic [ref=e282]:
+                - generic:
+                  - generic "Photo of two students working together" [ref=e283]:
+                    - img "Photo of two students working together" [ref=e285]
+                  - generic [ref=e286]:
+                    - heading "Early in Profession" [level=3] [ref=e287]
+                    - paragraph [ref=e289]: Our early in profession experience is a launchpad for dreamers and doers. Every opportunity — whether you are coming from school, a bootcamp, are self taught, or making a career pivot — is an invitation to explore the frontiers of technology and leadership.
+          - listitem [ref=e290]
+          - listitem [ref=e291]:
+            - generic "Clickable Card Benefits" [ref=e292] [cursor=pointer]:
+              - generic [ref=e293]:
+                - generic:
+                  - generic "Photo of woman with pet dog" [ref=e294]:
+                    - img "Photo of woman with pet dog" [ref=e296]
+                  - generic [ref=e297]:
+                    - heading "Benefits" [level=3] [ref=e298]
+                    - paragraph [ref=e300]: Explore Microsoft’s world-class benefits designed to help you and your family live well.
+          - listitem [ref=e301]
+          - listitem [ref=e302]:
+            - generic "Clickable Card Culture" [ref=e303] [cursor=pointer]:
+              - generic [ref=e304]:
+                - generic:
+                  - generic "Photo of 2 women working togethter on laptops" [ref=e305]:
+                    - img "Photo of 2 women working togethter on laptops" [ref=e307]
+                  - generic [ref=e308]:
+                    - heading "Culture" [level=3] [ref=e309]
+                    - paragraph [ref=e311]: We will only achieve our mission if we live our culture, which starts with applying a growth mindset.
+          - listitem [ref=e312]
+          - listitem [ref=e313]:
+            - generic "Clickable Card Diversity and inclusion" [ref=e314] [cursor=pointer]:
+              - generic [ref=e315]:
+                - generic:
+                  - generic "Photo of woman doing sign language" [ref=e316]:
+                    - img "Photo of woman doing sign language" [ref=e318]
+                  - generic [ref=e319]:
+                    - heading "Diversity and inclusion" [level=3]
+                    - generic:
+                      - paragraph: We are committed to celebrating the diversity around us and its power to drive us forward together.
+          - listitem [ref=e320]
+          - listitem [ref=e321]:
+            - generic "Clickable Card Hiring Tips" [ref=e322] [cursor=pointer]:
+              - generic [ref=e323]:
+                - generic:
+                  - generic "Photo of man doing Teams call on laptop" [ref=e324]:
+                    - img "Photo of man doing Teams call on laptop" [ref=e326]
+                  - generic [ref=e327]:
+                    - heading "Hiring Tips" [level=3]
+                    - generic:
+                      - paragraph: Explore resources to help you prepare—Microsoft is here to support your interview journey.
+          - listitem [ref=e328]
+  - button "Feedback" [ref=e329] [cursor=pointer]:
+    - generic [ref=e330]:
+      - img [ref=e331]
+      - generic [ref=e333]: Feedback
+  - contentinfo [ref=e335]:
+    - generic [ref=e336]:
+      - generic [ref=e337]:
+        - generic [ref=e338]:
+          - generic [ref=e339]: 
+          - generic [ref=e340]:
+            - link "English" [disabled]
+            - text: "|"
+          - link "FR - Canada" [ref=e342] [cursor=pointer]
+        - generic [ref=e344]:
+          - link "Support" [ref=e346] [cursor=pointer]:
+            - /url: https://apply.careers.microsoft.com/careers/forms/create?templateId=yx2LlRBJ7wq&fullPageResponse=1&hl=en-US
+          - link "Accessibility" [ref=e348] [cursor=pointer]:
+            - /url: https://careers.microsoft.com/v2/global/en/accessibility.html
+          - link "Microsoft Data Privacy Notice" [ref=e350] [cursor=pointer]:
+            - /url: http://go.microsoft.com/fwlink/?LinkId=518021
+          - link "Transparency FAQ" [ref=e352] [cursor=pointer]:
+            - /url: https://careers.microsoft.com/v2/global/en/transparency.html
+          - link "Legal policies" [ref=e354] [cursor=pointer]:
+            - /url: https://careers.microsoft.com/v2/global/en/legal-policies.html
+          - link "Contractor roles" [ref=e356] [cursor=pointer]:
+            - /url: https://careers.microsoft.com/v2/global/en/contractor-roles.html
+      - generic [ref=e357]:
+        - link "Facebook" [ref=e359] [cursor=pointer]:
+          - /url: https://www.facebook.com/MicrosoftLife
+          - img [ref=e361]
+        - link "Linkedin" [ref=e364] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/microsoft
+          - img [ref=e366]
+        - link "Instagram" [ref=e371] [cursor=pointer]:
+          - /url: https://www.instagram.com/microsoftlife
+          - img [ref=e373]
+        - link "x" [ref=e381] [cursor=pointer]:
+          - /url: https://x.com/microsoft
+          - img [ref=e383]
+    - generic [ref=e388]:
+      - generic [ref=e389]:
+        - img [ref=e390]
+        - link "Your Privacy Choices" [ref=e395] [cursor=pointer]:
+          - /url: https://aka.ms/yourcaliforniaprivacychoices
+      - link "Consumer Health Privacy" [ref=e396] [cursor=pointer]:
+        - /url: https://go.microsoft.com/fwlink/?linkid=2259814
+      - link "Privacy" [ref=e397] [cursor=pointer]:
+        - /url: https://go.microsoft.com/fwlink/?LinkId=521839
+      - link "Trademarks" [ref=e398] [cursor=pointer]:
+        - /url: https://go.microsoft.com/fwlink/?linkid=2196228
+      - link "Terms of use" [ref=e399] [cursor=pointer]:
+        - /url: https://go.microsoft.com/fwlink/?LinkID=206977
+      - generic [ref=e400]: © Microsoft 2026
+  - img [ref=e402]

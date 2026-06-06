@@ -1,0 +1,68 @@
+- generic [ref=e2]:
+  - list [ref=e7]:
+    - listitem [ref=e8]:
+      - link "Convex" [ref=e9] [cursor=pointer]:
+        - /url: https://convex.dev
+        - img "Convex" [ref=e10]
+    - listitem [ref=e11]:
+      - link "Back to Convex’s Job Listings" [ref=e12] [cursor=pointer]:
+        - /url: /convex-dev
+        - img [ref=e13]
+    - listitem
+  - generic [ref=e15]:
+    - heading "Software Engineer, AI" [level=1] [ref=e17]
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - heading "Location" [level=2] [ref=e21]
+          - paragraph [ref=e22]: San Francisco
+        - generic [ref=e23]:
+          - heading "Employment Type" [level=2] [ref=e24]
+          - paragraph [ref=e25]: Full time
+        - generic [ref=e26]:
+          - heading "Department" [level=2] [ref=e27]
+          - paragraph [ref=e28]: Engineering
+      - generic [ref=e29]:
+        - tablist [ref=e30]:
+          - tab "Overview" [ref=e31] [cursor=pointer]
+          - tab "Application" [selected] [ref=e32] [cursor=pointer]
+        - tabpanel "Application" [ref=e118]:
+          - generic [ref=e120]:
+            - generic [ref=e121]:
+              - generic [ref=e122]: Name*
+              - textbox "Name*" [ref=e124] [cursor=pointer]:
+                - /placeholder: Type here...
+                - text: Harry Nguyen
+            - generic [ref=e125]:
+              - generic [ref=e126]: Email*
+              - textbox "Email*" [ref=e128] [cursor=pointer]:
+                - /placeholder: hello@example.com...
+                - text: harrynguyenswe@gmail.com
+            - generic [ref=e129]:
+              - generic [ref=e130]: Resume*
+              - button "Resume*" [ref=e131]
+              - generic [ref=e141]:
+                - paragraph [ref=e142]:
+                  - img [ref=e143]
+                  - text: 023-convex-swe-ai-harry-nguyen-2026-05-29.pdf
+                - button "Delete file" [ref=e145] [cursor=pointer]:
+                  - img [ref=e146]
+              - generic [ref=e132]:
+                - button "Replace" [ref=e148] [cursor=pointer]:
+                  - generic [ref=e136]: Replace
+                - paragraph [ref=e137]: or drag and drop here
+          - button "Submit Application" [ref=e138] [cursor=pointer]:
+            - text: Submit Application
+            - img [ref=e139]
+  - contentinfo [ref=e105]:
+    - link "Learn more about Ashby" [ref=e106] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=e107]: Powered by
+      - img "Ashby" [ref=e108]
+    - paragraph [ref=e114]:
+      - link "Privacy Policy" [ref=e115] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=e116] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=e117] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

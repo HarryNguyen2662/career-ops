@@ -1,0 +1,227 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - heading "Software Engineer" [level=1] [ref=e8]
+          - generic [ref=e9]:
+            - img [ref=e10]
+            - generic [ref=e12]: New York, New York, United States
+        - button "Apply" [ref=e13] [cursor=pointer]
+      - generic [ref=e15]:
+        - heading "About the Program" [level=3] [ref=e16]
+        - paragraph [ref=e17]: Our goal is to give you a real sense of what it’s like to work at Jane Street full time. Over the course of your internship, you will explore ways to approach and solve exciting problems within your field of interest through fun and challenging classes, interactive sessions, and group discussions — and then you will have the chance to put those lessons to practical use.
+        - paragraph [ref=e18]: As an intern, you are paired with full-time employees who act as mentors, collaborating with you on real-world projects we actually need done. When you’re not working on your project, you will have plenty of time to use our office amenities, physical and virtual educational resources, attend guest speakers and social events, and engage with the parts of our work that excite you the most.
+        - paragraph [ref=e19]: If you’ve never thought about a career in finance, you’re in good company. Many of us were in the same position before working here. If you have a curious mind, a collaborative spirit, and a passion for solving interesting problems, we have a feeling you’ll fit right in.
+        - paragraph [ref=e20]:
+          - text: Learn more about Jane Street’s
+          - link "internship program" [ref=e21] [cursor=pointer]:
+            - /url: https://www.janestreet.com/join-jane-street/internships/
+          - text: here.
+        - heading "About the Position" [level=3] [ref=e22]
+        - paragraph [ref=e23]: As a Software Engineering intern, you’ll learn how we use OCaml (our primary development language) in our day to day work, and gain exposure to the libraries and tools that are foundational to our internal systems. Some teams also use Python, so depending on the project, you might do some work with Python as well.
+        - paragraph [ref=e24]: During the internship, you'll be closely mentored by full-time software engineers. Mentors design intern projects based on their team's current needs and are heavily invested in helping interns build maintainable, high-quality software that is intended to reach production. The projects you will work on are as varied and diverse as those full-timers work on, covering a wide range of problems, from high performance trading systems to programming language design and everything in between.
+        - paragraph [ref=e25]:
+          - text: If you’d like to learn more, you can read about our
+          - link "interview" [ref=e26] [cursor=pointer]:
+            - /url: https://www.janestreet.com/preparing-for-a-software-engineering-interview/
+          - text: and
+          - link "team placement" [ref=e27] [cursor=pointer]:
+            - /url: https://blog.janestreet.com/project-pairing/#fn:1
+          - text: processes and get a sense of what our
+          - link "most recent intern projects" [ref=e28] [cursor=pointer]:
+            - /url: https://blog.janestreet.com/tag/internship/
+          - text: looked like!
+        - heading "About You" [level=3] [ref=e29]
+        - paragraph [ref=e30]:
+          - text: We
+          - emphasis [ref=e31]: don’t
+          - text: "expect you to have a background in finance, OCaml, functional programming, or any other specific field—we’re looking for smart people who enjoy solving interesting problems. We’re more interested in how you think and learn than what you currently know. You should be:"
+        - list [ref=e32]:
+          - listitem [ref=e33]: A top-notch programmer with a love for technology
+          - listitem [ref=e34]: Intellectually curious, collaborative, and eager to learn
+          - listitem [ref=e35]: Humble and unafraid to ask questions and admit mistakes
+          - listitem [ref=e36]: Must be enrolled in a co-op program at your university
+        - paragraph [ref=e37]:
+          - emphasis [ref=e38]: If you're a recruiting agency and want to partner with us, please reach out to agency-partnerships@janestreet.com.
+    - separator [ref=e39]
+    - generic [ref=e40]:
+      - generic [ref=e42]:
+        - heading "Apply for this job" [level=2] [ref=e44]
+        - generic [ref=e45]:
+          - paragraph [ref=e47]: "*"
+          - paragraph [ref=e48]: indicates a required field
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - generic [ref=e53]:
+            - generic [ref=e54]: First Name*
+            - textbox "First Name" [ref=e55]
+          - generic [ref=e58]:
+            - generic [ref=e59]: Last Name*
+            - textbox "Last Name" [ref=e60]
+          - generic [ref=e63]:
+            - generic [ref=e64]: Preferred First Name
+            - textbox "Preferred First Name" [ref=e65]
+          - generic [ref=e68]:
+            - generic [ref=e69]: Email*
+            - textbox "Email" [ref=e70]
+          - group "Phone" [ref=e72]:
+            - generic [ref=e73]: Phone
+            - generic [ref=e76]:
+              - generic [ref=e77]: Country*
+              - generic [ref=e78]:
+                - log [ref=e80]
+                - generic [ref=e82]:
+                  - combobox "Country" [ref=e85]
+                  - button "Toggle flyout" [ref=e87] [cursor=pointer]:
+                    - img [ref=e88]
+                - textbox
+            - generic [ref=e92]:
+              - generic [ref=e93]: Phone*
+              - textbox "Phone" [ref=e95]
+          - group "Resume/CV*" [ref=e97]:
+            - generic [ref=e98]: Resume/CV*
+            - generic [ref=e100]:
+              - generic [ref=e102]:
+                - button "Attach" [ref=e103] [cursor=pointer]
+                - generic [ref=e104]: Attach
+                - button "Attach" [ref=e105]
+              - button "Dropbox" [ref=e107] [cursor=pointer]
+              - generic [ref=e109]:
+                - button "Enter manually" [ref=e110] [cursor=pointer]
+                - generic [ref=e111]: Enter manually
+              - paragraph [ref=e112]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - group "Cover Letter" [ref=e114]:
+            - generic [ref=e115]: Cover Letter
+            - generic [ref=e117]:
+              - generic [ref=e119]:
+                - button "Attach" [ref=e120] [cursor=pointer]
+                - generic [ref=e121]: Attach
+                - button "Attach" [ref=e122]
+              - button "Dropbox" [ref=e124] [cursor=pointer]
+              - generic [ref=e126]:
+                - button "Enter manually" [ref=e127] [cursor=pointer]
+                - generic [ref=e128]: Enter manually
+              - paragraph [ref=e129]: "Accepted file types: pdf, doc, docx, txt, rtf"
+        - generic [ref=e130]:
+          - separator [ref=e131]
+          - generic [ref=e134]:
+            - generic [ref=e135]: How did you hear about us?*
+            - generic [ref=e136]:
+              - log [ref=e138]
+              - generic [ref=e140]:
+                - generic [ref=e141]:
+                  - generic [ref=e142]: Select...
+                  - combobox "How did you hear about us?" [ref=e144]
+                - button "Toggle flyout" [ref=e146] [cursor=pointer]:
+                  - img [ref=e147]
+              - textbox
+          - generic [ref=e151]:
+            - generic [ref=e152]: Additional information (for source)
+            - textbox "Additional information (for source)" [ref=e153]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Have you interviewed with Jane Street before?*
+            - generic [ref=e158]:
+              - log [ref=e160]
+              - generic [ref=e162]:
+                - generic [ref=e163]:
+                  - generic [ref=e164]: Select...
+                  - combobox "Have you interviewed with Jane Street before?" [ref=e166]
+                - button "Toggle flyout" [ref=e168] [cursor=pointer]:
+                  - img [ref=e169]
+              - textbox
+          - generic [ref=e173]:
+            - generic [ref=e174]: Pronouns
+            - textbox "Pronouns" [ref=e175]
+          - generic [ref=e178]:
+            - generic [ref=e179]: Are you currently a student?*
+            - generic [ref=e180]:
+              - log [ref=e182]
+              - generic [ref=e184]:
+                - generic [ref=e185]:
+                  - generic [ref=e186]: Select...
+                  - combobox "Are you currently a student?" [ref=e188]
+                - button "Toggle flyout" [ref=e190] [cursor=pointer]:
+                  - img [ref=e191]
+              - textbox
+          - generic [ref=e195]:
+            - generic [ref=e196]: Enter your college/university
+            - textbox "Enter your college/university" [ref=e197]
+          - generic [ref=e200]:
+            - generic [ref=e201]: Major/Field of study
+            - textbox "Major/Field of study" [ref=e202]
+          - generic [ref=e203]:
+            - generic [ref=e205]:
+              - generic [ref=e206]: Extra
+              - textbox "Extra" [ref=e207]
+            - paragraph [ref=e210]:
+              - text: Why you’re interested in Jane Street
+              - text: How you heard about us
+              - text: If you have a job now, why you’re looking for a new one
+          - generic [ref=e213]:
+            - generic [ref=e214]: Year you expect to begin full time employment
+            - textbox "Year you expect to begin full time employment" [ref=e215]
+          - generic [ref=e218]:
+            - generic [ref=e219]: What is your current education level?
+            - generic [ref=e220]:
+              - log [ref=e222]
+              - generic [ref=e224]:
+                - generic [ref=e225]:
+                  - generic [ref=e226]: Select...
+                  - combobox "What is your current education level?" [ref=e228]
+                - button "Toggle flyout" [ref=e230] [cursor=pointer]:
+                  - img [ref=e231]
+          - generic [ref=e235]:
+            - generic [ref=e236]: What year did you graduate high school?
+            - textbox "What year did you graduate high school?" [ref=e237]
+          - generic [ref=e240]:
+            - generic [ref=e241]: LinkedIn profile
+            - textbox "LinkedIn profile" [ref=e242]
+          - generic [ref=e245]:
+            - generic [ref=e246]: Website UID
+            - textbox "Website UID" [ref=e247]
+          - generic [ref=e250]:
+            - generic [ref=e251]: Who is your current employer/position?
+            - textbox "Who is your current employer/position?" [ref=e252]
+          - group "Languages Spoken" [ref=e254]:
+            - generic [ref=e255]: Languages Spoken
+            - generic [ref=e256]:
+              - checkbox "Spanish" [ref=e258]
+              - generic [ref=e259]: Spanish
+            - generic [ref=e260]:
+              - checkbox "Portuguese" [ref=e262]
+              - generic [ref=e263]: Portuguese
+            - generic [ref=e264]:
+              - checkbox "French" [ref=e266]
+              - generic [ref=e267]: French
+            - generic [ref=e268]:
+              - checkbox "Italian" [ref=e270]
+              - generic [ref=e271]: Italian
+            - generic [ref=e272]:
+              - checkbox "German" [ref=e274]
+              - generic [ref=e275]: German
+            - generic [ref=e276]:
+              - checkbox "Japanese" [ref=e278]
+              - generic [ref=e279]: Japanese
+            - generic [ref=e280]:
+              - checkbox "Korean" [ref=e282]
+              - generic [ref=e283]: Korean
+            - generic [ref=e284]:
+              - checkbox "Bahasa Indonesian" [ref=e286]
+              - generic [ref=e287]: Bahasa Indonesian
+            - generic [ref=e288]:
+              - checkbox "Mandarin" [ref=e290]
+              - generic [ref=e291]: Mandarin
+            - generic [ref=e292]:
+              - checkbox "Hindi" [ref=e294]
+              - generic [ref=e295]: Hindi
+            - generic [ref=e296]:
+              - checkbox "Other" [ref=e298]
+              - generic [ref=e299]: Other
+          - generic [ref=e302]:
+            - generic [ref=e303]: Additional Information For Languages
+            - textbox "Additional Information For Languages" [ref=e304]
+          - generic [ref=e307]:
+            - generic [ref=e308]: University Email Address
+            - textbox "University Email Address" [ref=e309]
+        - button "Submit application" [ref=e311] [cursor=pointer]

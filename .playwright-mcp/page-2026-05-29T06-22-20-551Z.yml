@@ -1,0 +1,402 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - img [ref=e6]
+        - generic [ref=e8]:
+          - paragraph [ref=e9]: Create a Job Alert
+          - paragraph [ref=e10]: Interested in building your career at The Trade Desk? Get future opportunities sent straight to your email.
+          - link "Create alert" [ref=e11] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=thetradedesk&source=job_alert_post
+      - separator [ref=e12]
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - heading "Apply for this job" [level=2] [ref=e17]
+            - generic [ref=e18]:
+              - paragraph [ref=e20]: "*"
+              - paragraph [ref=e21]: indicates a required field
+          - button "Quick Apply with MyGreenhouse" [ref=e24] [cursor=pointer]
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e29]:
+              - generic [ref=e30]: First Name*
+              - textbox "First Name" [ref=e31]: Harry
+            - generic [ref=e34]:
+              - generic [ref=e35]: Last Name*
+              - textbox "Last Name" [ref=e36]: Nguyen
+            - generic [ref=e39]:
+              - generic [ref=e40]: Email*
+              - textbox "Email" [ref=e41]: harrynguyenswe@gmail.com
+            - group "Phone" [ref=e43]:
+              - generic [ref=e44]: Phone
+              - generic [ref=e47]:
+                - generic [ref=e48]: Country*
+                - generic [ref=e49]:
+                  - log [ref=e51]
+                  - generic [ref=e53]:
+                    - generic [ref=e54]:
+                      - generic [ref=e1070]: "+1"
+                      - combobox "Country" [ref=e56]
+                    - button "Toggle flyout" [ref=e58] [cursor=pointer]:
+                      - img [ref=e59]
+              - generic [ref=e63]:
+                - generic [ref=e64]: Phone*
+                - textbox "Phone" [ref=e66]: (470) 667-9000
+            - group "Resume/CV*" [ref=e68]:
+              - generic [ref=e69]: Resume/CV*
+              - generic [ref=e1071]:
+                - img [ref=e1072]
+                - paragraph [ref=e1076]: 020-thetradedesk-harry-nguyen-2026-05-29.pdf
+                - button "Remove file" [ref=e1077] [cursor=pointer]:
+                  - img [ref=e1078]
+          - generic [ref=e82]:
+            - separator [ref=e83]
+            - generic [ref=e86]:
+              - generic [ref=e87]: Are you open to relocation?
+              - generic [ref=e88]:
+                - log [ref=e90]
+                - generic [ref=e92]:
+                  - generic [ref=e93]:
+                    - generic [ref=e1084]: "Yes"
+                    - combobox "Are you open to relocation?" [ref=e96]
+                  - generic [ref=e97]:
+                    - button "Clear selections" [ref=e1086] [cursor=pointer]:
+                      - img [ref=e1087]
+                    - button "Toggle flyout" [ref=e98] [cursor=pointer]:
+                      - img [ref=e99]
+            - generic [ref=e103]:
+              - generic [ref=e104]: Are you eligible to work in the country you are applying?*
+              - generic [ref=e105]:
+                - log [ref=e107]
+                - generic [ref=e109]:
+                  - generic [ref=e110]:
+                    - generic [ref=e1093]: "Yes"
+                    - combobox "Are you eligible to work in the country you are applying?" [ref=e113]
+                  - generic [ref=e114]:
+                    - button "Clear selections" [ref=e1095] [cursor=pointer]:
+                      - img [ref=e1096]
+                    - button "Toggle flyout" [ref=e115] [cursor=pointer]:
+                      - img [ref=e116]
+            - generic [ref=e120]:
+              - generic [ref=e121]: Will you now or in the future require visa sponsorship?*
+              - generic [ref=e122]:
+                - log [ref=e124]
+                - generic [ref=e126]:
+                  - generic [ref=e127]:
+                    - generic [ref=e1102]: "Yes"
+                    - combobox "Will you now or in the future require visa sponsorship?" [ref=e130]
+                  - generic [ref=e131]:
+                    - button "Clear selections" [ref=e1104] [cursor=pointer]:
+                      - img [ref=e1105]
+                    - button "Toggle flyout" [ref=e132] [cursor=pointer]:
+                      - img [ref=e133]
+            - generic [ref=e137]:
+              - generic [ref=e138]: Are you at least 18 years old?*
+              - generic [ref=e139]:
+                - log [ref=e141]
+                - generic [ref=e143]:
+                  - generic [ref=e144]:
+                    - generic [ref=e1111]: "Yes"
+                    - combobox "Are you at least 18 years old?" [ref=e147]
+                  - generic [ref=e148]:
+                    - button "Clear selections" [ref=e1113] [cursor=pointer]:
+                      - img [ref=e1114]
+                    - button "Toggle flyout" [ref=e149] [cursor=pointer]:
+                      - img [ref=e150]
+            - generic [ref=e154]:
+              - generic [ref=e155]: Do you have a Bachelor's degree (U.S. or foreign equivalent) in Computer Science, Computer Engineering or related field?*
+              - generic [ref=e156]:
+                - log [ref=e158]
+                - generic [ref=e160]:
+                  - generic [ref=e161]:
+                    - generic [ref=e1120]: "No"
+                    - combobox "Do you have a Bachelor's degree (U.S. or foreign equivalent) in Computer Science, Computer Engineering or related field?" [ref=e164]
+                  - generic [ref=e165]:
+                    - button "Clear selections" [ref=e1122] [cursor=pointer]:
+                      - img [ref=e1123]
+                    - button "Toggle flyout" [ref=e166] [cursor=pointer]:
+                      - img [ref=e167]
+            - generic [ref=e171]:
+              - generic [ref=e172]: "Do you have working knowledge in at least one of the following programming languages: Java, Scala or Python?*"
+              - generic [ref=e173]:
+                - log [ref=e175]
+                - generic [ref=e177]:
+                  - generic [ref=e178]:
+                    - generic [ref=e1129]: "Yes"
+                    - 'combobox "Do you have working knowledge in at least one of the following programming languages: Java, Scala or Python?" [ref=e181]'
+                  - generic [ref=e182]:
+                    - button "Clear selections" [ref=e1131] [cursor=pointer]:
+                      - img [ref=e1132]
+                    - button "Toggle flyout" [ref=e183] [cursor=pointer]:
+                      - img [ref=e184]
+            - generic [ref=e188]:
+              - generic [ref=e189]: Do you have experience with container orchestration platforms, including Kubernetes, and containerization technologies, including Docker?*
+              - generic [ref=e190]:
+                - log [ref=e192]
+                - generic [ref=e194]:
+                  - generic [ref=e195]:
+                    - generic [ref=e1138]: "Yes"
+                    - combobox "Do you have experience with container orchestration platforms, including Kubernetes, and containerization technologies, including Docker?" [ref=e198]
+                  - generic [ref=e199]:
+                    - button "Clear selections" [ref=e1140] [cursor=pointer]:
+                      - img [ref=e1141]
+                    - button "Toggle flyout" [ref=e200] [cursor=pointer]:
+                      - img [ref=e201]
+            - generic [ref=e205]:
+              - generic [ref=e206]: Do you have experience in designing and validating API contracts and service interfaces, including REST, RPC, or asynchronous messaging patterns?*
+              - generic [ref=e207]:
+                - log [ref=e209]
+                - generic [ref=e211]:
+                  - generic [ref=e212]:
+                    - generic [ref=e1147]: "Yes"
+                    - combobox "Do you have experience in designing and validating API contracts and service interfaces, including REST, RPC, or asynchronous messaging patterns?" [ref=e215]
+                  - generic [ref=e216]:
+                    - button "Clear selections" [ref=e1149] [cursor=pointer]:
+                      - img [ref=e1150]
+                    - button "Toggle flyout" [ref=e217] [cursor=pointer]:
+                      - img [ref=e218]
+            - generic [ref=e222]:
+              - generic [ref=e223]: Do you have experience with implementing CI/CD workflows, including Gitlab CI, and automate builds, testing and controlled deployments?*
+              - generic [ref=e224]:
+                - log [ref=e226]
+                - generic [ref=e228]:
+                  - generic [ref=e229]:
+                    - generic [ref=e1156]: "Yes"
+                    - combobox "Do you have experience with implementing CI/CD workflows, including Gitlab CI, and automate builds, testing and controlled deployments?" [ref=e232]
+                  - generic [ref=e233]:
+                    - button "Clear selections" [ref=e1158] [cursor=pointer]:
+                      - img [ref=e1159]
+                    - button "Toggle flyout" [ref=e234] [cursor=pointer]:
+                      - img [ref=e235]
+            - generic [ref=e239]:
+              - generic [ref=e240]: Do you have experience with observability practices, including metrics, structured logging, or distributed tracing instrumentation?*
+              - generic [ref=e241]:
+                - log [ref=e243]
+                - generic [ref=e245]:
+                  - generic [ref=e246]:
+                    - generic [ref=e1165]: "Yes"
+                    - combobox "Do you have experience with observability practices, including metrics, structured logging, or distributed tracing instrumentation?" [ref=e249]
+                  - generic [ref=e250]:
+                    - button "Clear selections" [ref=e1167] [cursor=pointer]:
+                      - img [ref=e1168]
+                    - button "Toggle flyout" [ref=e251] [cursor=pointer]:
+                      - img [ref=e252]
+            - generic [ref=e256]:
+              - generic [ref=e257]: Do you have experience with diagnosing and debugging software issues using logs, system metrics, or profiling tools?*
+              - generic [ref=e258]:
+                - log [ref=e260]
+                - generic [ref=e262]:
+                  - generic [ref=e263]:
+                    - generic [ref=e1174]: "Yes"
+                    - combobox "Do you have experience with diagnosing and debugging software issues using logs, system metrics, or profiling tools?" [ref=e266]
+                  - generic [ref=e267]:
+                    - button "Clear selections" [ref=e1176] [cursor=pointer]:
+                      - img [ref=e1177]
+                    - button "Toggle flyout" [ref=e268] [cursor=pointer]:
+                      - img [ref=e269]
+          - separator [ref=e271]
+          - generic [ref=e272]:
+            - heading "U.S. Voluntary Race/Gender, Veteran, and Disability Self-Identification" [level=3] [ref=e273]
+            - generic [ref=e275]:
+              - generic "Page 1" [ref=e276]:
+                - paragraph [ref=e279]:
+                  - strong [ref=e281]: Voluntary Race/Gender Self-Identification
+              - paragraph [ref=e282]: The Trade Desk is subject to Executive Order 11246, which requires government contractors to ensure nondiscrimination and take affirmative action in employment to employ and advance qualified individuals without regard to sex, gender identity, sexual orientation, race, color, religious creed, and national origin. As a government contractor, we are required to report certain data regarding our applicants and employees to the government.
+              - generic "Page 1" [ref=e283]:
+                - paragraph [ref=e286]: In order to comply with these requirements, we are required to ask you if you want to provide information regarding your gender, race, and ethnicity. In answering the questions regarding your race/ethnicity, please use the race/ethnicity definitions established by the federal government listed below. Submission of this information is voluntary, and failure to provide it will not subject you to any adverse treatment. The information provided will be maintained confidentially and used only in ways that are consistent with applicable law. Your cooperation is appreciated.
+              - generic "Page 1" [ref=e287]:
+                - generic "Page 1" [ref=e290]:
+                  - generic "Page 1" [ref=e291]:
+                    - table [ref=e294]:
+                      - rowgroup [ref=e298]:
+                        - row "Ethnicity and Race Categories Descriptions" [ref=e299]:
+                          - cell "Ethnicity and Race Categories" [ref=e300]:
+                            - generic "Page 1" [ref=e303]:
+                              - paragraph [ref=e306]:
+                                - strong [ref=e307]: Ethnicity and Race Categories
+                          - cell "Descriptions" [ref=e308]:
+                            - generic "Page 1" [ref=e311]:
+                              - paragraph [ref=e314]:
+                                - strong [ref=e315]: Descriptions
+                        - row "Hispanic or Latino A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin regardless of race." [ref=e316]:
+                          - cell "Hispanic or Latino" [ref=e317]:
+                            - generic "Page 1" [ref=e320]:
+                              - paragraph [ref=e323]: Hispanic or Latino
+                          - cell "A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin regardless of race." [ref=e324]:
+                            - generic "Page 1" [ref=e327]:
+                              - paragraph [ref=e330]: A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin regardless of race.
+                        - row "White (Not Hispanic or Latino) A person having origins in any of the original peoples of Europe, the Middle East, or North Africa." [ref=e331]:
+                          - cell "White (Not Hispanic or Latino)" [ref=e332]:
+                            - generic "Page 1" [ref=e335]:
+                              - paragraph [ref=e338]: White (Not Hispanic or Latino)
+                          - cell "A person having origins in any of the original peoples of Europe, the Middle East, or North Africa." [ref=e339]:
+                            - generic "Page 1" [ref=e342]:
+                              - paragraph [ref=e345]: A person having origins in any of the original peoples of Europe, the Middle East, or North Africa.
+                        - row "Black or African-American (Not Hispanic or Latino) A person having origins in any of the black racial groups of Africa." [ref=e346]:
+                          - cell "Black or African-American (Not Hispanic or Latino)" [ref=e347]:
+                            - generic "Page 1" [ref=e350]:
+                              - paragraph [ref=e353]: Black or African-American (Not Hispanic or Latino)
+                          - cell "A person having origins in any of the black racial groups of Africa." [ref=e354]:
+                            - generic "Page 1" [ref=e357]:
+                              - paragraph [ref=e360]: A person having origins in any of the black racial groups of Africa.
+                        - row "Asian (Not Hispanic or Latino) A person with origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam." [ref=e361]:
+                          - cell "Asian (Not Hispanic or Latino)" [ref=e362]:
+                            - generic "Page 1" [ref=e365]:
+                              - paragraph [ref=e369]: Asian (Not Hispanic or Latino)
+                          - cell "A person with origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam." [ref=e370]:
+                            - generic "Page 1" [ref=e373]:
+                              - paragraph [ref=e377]: A person with origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam.
+                        - row "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino) A person having origins in any of the peoples of Hawaii, Guam, Samoa, or other Pacific Islands." [ref=e378]:
+                          - cell "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)" [ref=e379]:
+                            - generic "Page 1" [ref=e382]:
+                              - paragraph [ref=e386]: Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)
+                          - cell "A person having origins in any of the peoples of Hawaii, Guam, Samoa, or other Pacific Islands." [ref=e387]:
+                            - generic "Page 1" [ref=e390]:
+                              - paragraph [ref=e394]: A person having origins in any of the peoples of Hawaii, Guam, Samoa, or other Pacific Islands.
+                        - row "American Indian or Alaskan Native (Not Hispanic or Latino) A person having origins in any of the original peoples of North and South America (including Central America), and who maintain tribal affiliation or community attachment." [ref=e395]:
+                          - cell "American Indian or Alaskan Native (Not Hispanic or Latino)" [ref=e396]:
+                            - generic "Page 2" [ref=e399]:
+                              - paragraph [ref=e403]:
+                                - text: American Indian or Alaskan Native
+                                - text: (Not Hispanic or Latino)
+                          - cell "A person having origins in any of the original peoples of North and South America (including Central America), and who maintain tribal affiliation or community attachment." [ref=e404]:
+                            - generic "Page 2" [ref=e407]:
+                              - paragraph [ref=e411]: A person having origins in any of the original peoples of North and South America (including Central America), and who maintain tribal affiliation or community attachment.
+                        - row "Two or More Races (Not Hispanic or Latino) All persons who identify with more than one of the above five races." [ref=e412]:
+                          - cell "Two or More Races (Not Hispanic or Latino)" [ref=e413]:
+                            - generic "Page 2" [ref=e416]:
+                              - paragraph [ref=e419]: Two or More Races (Not Hispanic or Latino)
+                          - cell "All persons who identify with more than one of the above five races." [ref=e420]:
+                            - generic "Page 2" [ref=e423]:
+                              - paragraph [ref=e426]: All persons who identify with more than one of the above five races.
+                    - generic "Page 2" [ref=e427]:
+                      - generic [ref=e429]:
+                        - paragraph [ref=e430]: The Trade Desk is an equal opportunity corporation and does not discriminate on the basis of sex, gender identity, sexual orientation, race, color, religious creed, national origin, physical or mental disability, protected Veteran status, or any other characteristic protected by law with regard to any employment practices, including recruitment, advertising, job application procedures, hiring, and/or other terms, conditions, or privileges of employment, provided the individual is qualified, with or without reasonable accommodations, to perform the essential functions of the job.
+                        - paragraph [ref=e431]:
+                          - strong [ref=e433]: Voluntary Veteran Self-Identification
+                        - paragraph [ref=e434]:
+                          - emphasis [ref=e435]: Why are you being asked to provide this information?
+                        - generic "Page 1" [ref=e436]:
+                          - generic [ref=e438]:
+                            - paragraph [ref=e439]: The Trade Desk is a Government contractor subject to the Vietnam Era Veterans’ Readjustment Assistance Act of 1974, as amended (VEVRAA) which requires government contractors to take affirmative action to employ and advance in employment protected veterans. To help us measure the effectiveness of our outreach and recruitment efforts of veterans, we are asking you to tell us if you are a veteran covered by VEVRAA.
+                            - paragraph [ref=e440]: We hope you will share this information with us, but submission of this information is voluntary and refusal to provide it will not subject you to any adverse treatment. The information provided will be maintained confidentially and used only in ways that are consistent with VEVRAA.
+                            - generic "Page 1" [ref=e441]:
+                              - generic [ref=e443]:
+                                - paragraph [ref=e444]:
+                                  - emphasis [ref=e445]: How Do You Know If You Are a Veteran Protected by VEVRAA?
+                                - generic "Page 1" [ref=e446]:
+                                  - generic [ref=e448]:
+                                    - paragraph [ref=e449]: Contrary to the name, VEVRAA does not just cover Vietnam Era veterans. It covers several categories of veterans from World War II, the Korean conflict, the Vietnam era, and the Persian Gulf War which is defined as occurring from August 2, 1990 to the present. For more information, see the definitions below.
+                                    - generic "Page 1" [ref=e450]:
+                                      - paragraph [ref=e453]:
+                                        - emphasis [ref=e454]: What Categories of Veterans are “Protected” by VEVRAA?
+                                    - generic "Page 2" [ref=e455]:
+                                      - generic [ref=e457]:
+                                        - paragraph [ref=e458]: "The law defines protected veterans using four categories: (1) disabled Veteran; (2) recently separated Veteran; (3) Active duty wartime or campaign badge Veteran; and (4) Armed Forces service medal Veteran."
+                                        - list [ref=e459]:
+                                          - listitem [ref=e460]:
+                                            - text: "A “disabled Veteran” is one of the following:"
+                                            - list [ref=e461]:
+                                              - listitem [ref=e462]: A Veteran of the U.S. military, ground, naval, or air service who is entitled to compensation (or who, but for the receipt of military retired pay, would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or
+                                              - listitem [ref=e463]: A person who was discharged or released from active duty because of a service- connected disability
+                                          - listitem [ref=e464]: A “recently separated Veteran” means any Veteran during the three-year period beginning on the date of such Veteran's discharge or release from active duty in the U.S. military, ground, naval, or air service
+                                          - listitem [ref=e465]: An “active duty wartime or campaign badge Veteran” means a Veteran who served on active duty in the U.S. military, ground, naval, or air service during a period of war outlined in 38 YSC Section 101, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense
+                                          - listitem [ref=e466]: An “Armed Forces service medal Veteran” means a Veteran who, while serving on active duty in the U.S. military, ground, naval, or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985
+                                        - paragraph [ref=e467]:
+                                          - strong [ref=e468]: Voluntary Self-Identification of Disability
+                                        - paragraph [ref=e469]:
+                                          - text: Please review Form CC-305 at this
+                                          - link "link" [ref=e470] [cursor=pointer]:
+                                            - /url: https://www.dol.gov/sites/dolgov/files/OFCCP/regs/compliance/sec503/Self_ID_Forms/503Self-IDForm-04262023.pdf
+                                          - text: for more details before providing your information below.
+            - generic [ref=e472]:
+              - generic [ref=e473]: Indicate Gender:*
+              - generic [ref=e474]:
+                - log [ref=e476]
+                - generic [ref=e478]:
+                  - generic [ref=e479]:
+                    - generic [ref=e1184]: Male
+                    - combobox "Indicate Gender:" [ref=e482]
+                  - generic [ref=e483]:
+                    - button "Clear selections" [ref=e1186] [cursor=pointer]:
+                      - img [ref=e1187]
+                    - button "Toggle flyout" [ref=e484] [cursor=pointer]:
+                      - img [ref=e485]
+            - generic [ref=e488]:
+              - generic [ref=e489]: Indicate Ethnic group:*
+              - generic [ref=e490]:
+                - log [ref=e492]
+                - generic [ref=e494]:
+                  - generic [ref=e495]:
+                    - generic [ref=e1194]:
+                      - generic [ref=e1195]: Not Hispanic or Latino
+                      - button "Remove Not Hispanic or Latino" [ref=e1196] [cursor=pointer]:
+                        - button "Remove selection" [ref=e1197]:
+                          - img [ref=e1198]
+                    - combobox "Indicate Ethnic group:" [ref=e498]
+                  - generic [ref=e499]:
+                    - button "Clear selections" [ref=e1201] [cursor=pointer]:
+                      - img [ref=e1202]
+                    - button "Toggle flyout" [ref=e500] [cursor=pointer]:
+                      - img [ref=e501]
+            - generic [ref=e504]:
+              - generic [ref=e505]: Indicate your Race:*
+              - generic [ref=e506]:
+                - log [ref=e508]
+                - generic [ref=e510]:
+                  - generic [ref=e511]:
+                    - generic [ref=e1213]:
+                      - generic [ref=e1214]: Asian (Not Hispanic or Latino)
+                      - button "Remove Asian (Not Hispanic or Latino)" [ref=e1215] [cursor=pointer]:
+                        - button "Remove selection" [ref=e1216]:
+                          - img [ref=e1217]
+                    - combobox "Indicate your Race:" [ref=e514]
+                  - generic [ref=e515]:
+                    - button "Clear selections" [ref=e1220] [cursor=pointer]:
+                      - img [ref=e1221]
+                    - button "Toggle flyout" [ref=e516] [cursor=pointer]:
+                      - img [ref=e517]
+            - generic [ref=e520]:
+              - generic [ref=e521]: If you believe you belong to any of the categories of protected Veterans, please indicate by checking the appropriate box below.*
+              - generic [ref=e522]:
+                - log [ref=e524]
+                - generic [ref=e526]:
+                  - generic [ref=e527]:
+                    - generic [ref=e1228]: I am not a protected Veteran.
+                    - combobox "If you believe you belong to any of the categories of protected Veterans, please indicate by checking the appropriate box below." [ref=e530]
+                  - generic [ref=e531]:
+                    - button "Clear selections" [ref=e1230] [cursor=pointer]:
+                      - img [ref=e1231]
+                    - button "Toggle flyout" [ref=e532] [cursor=pointer]:
+                      - img [ref=e533]
+            - generic [ref=e536]:
+              - generic [ref=e537]: Please review Form CC-305 at the link above before checking one of the boxes below.*
+              - generic [ref=e538]:
+                - log [ref=e540]
+                - generic [ref=e542]:
+                  - generic [ref=e543]:
+                    - generic [ref=e1238]: No, I do not have a disability and have not had one in the past.
+                    - combobox "Please review Form CC-305 at the link above before checking one of the boxes below." [ref=e546]
+                  - generic [ref=e547]:
+                    - button "Clear selections" [ref=e1240] [cursor=pointer]:
+                      - img [ref=e1241]
+                    - button "Toggle flyout" [ref=e548] [cursor=pointer]:
+                      - img [ref=e549]
+          - separator [ref=e551]
+          - generic [ref=e553]:
+            - generic [ref=e554]:
+              - checkbox "By checking this box, I consent to The Trade Desk collecting, storing, and processing my responses to the demographic data surveys above.*" [checked] [active] [ref=e555]
+              - img
+            - generic [ref=e556]: By checking this box, I consent to The Trade Desk collecting, storing, and processing my responses to the demographic data surveys above.*
+          - button "Submit application" [ref=e558] [cursor=pointer]
+  - contentinfo [ref=e559]:
+    - generic [ref=e560]:
+      - paragraph [ref=e561]: Powered by
+      - link "Greenhouse logo" [ref=e562] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=e563]
+  - iframe [ref=e577]:
+    - generic [ref=f1e6]:
+      - text: protected by
+      - strong [ref=f1e7]: reCAPTCHA

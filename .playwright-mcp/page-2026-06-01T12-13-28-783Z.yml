@@ -1,0 +1,811 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - button "Main menu" [ref=e5] [cursor=pointer]:
+          - img [ref=e6]
+        - link "Careers" [ref=e10] [cursor=pointer]:
+          - /url: /about/careers/applications/
+          - generic [ref=e12]: Careers
+      - generic [ref=e13]:
+        - link "Skip navigation links" [ref=e14]:
+          - generic: Skip navigation links
+        - generic [ref=e17]:
+          - navigation "Candidate Portal Left Navigation" [ref=e21]:
+            - menubar [ref=e23]:
+              - generic [ref=e24]:
+                - menuitem "Home navigation link" [ref=e25] [cursor=pointer]:
+                  - menuitem [ref=e27]:
+                    - generic [ref=e28]:
+                      - generic [ref=e29]:
+                        - generic [ref=e34]: home
+                        - generic [ref=e36]: Home
+                      - generic [ref=e38]: Home
+                - menuitem "Jobs navigation item" [ref=e39] [cursor=pointer]:
+                  - menuitem [ref=e41]:
+                    - generic [ref=e42]:
+                      - generic [ref=e43]:
+                        - generic [ref=e48]: work_outline
+                        - generic [ref=e50]: Jobs
+                      - generic [ref=e52]: Jobs
+                - menuitem "Students navigation item" [ref=e53] [cursor=pointer]:
+                  - menuitem [ref=e55]:
+                    - generic [ref=e56]:
+                      - generic [ref=e57]:
+                        - generic [ref=e62]: noogler_hat
+                        - generic [ref=e64]: Students
+                      - generic [ref=e66]: Students
+                - menuitem "How we work navigation item" [ref=e67] [cursor=pointer]:
+                  - menuitem [ref=e69]:
+                    - generic [ref=e70]:
+                      - generic [ref=e71]:
+                        - generic [ref=e76]: google
+                        - generic [ref=e78]: How we work
+                      - generic [ref=e80]: How we work
+                - menuitem "How we hire navigation item" [ref=e81] [cursor=pointer]:
+                  - menuitem [ref=e83]:
+                    - generic [ref=e84]:
+                      - generic [ref=e85]:
+                        - generic [ref=e90]: handyman
+                        - generic [ref=e92]: How we hire
+                      - generic [ref=e94]: How we hire
+                - menuitem "Your career navigation item" [ref=e95] [cursor=pointer]:
+                  - menuitem [ref=e97]:
+                    - generic [ref=e98]:
+                      - generic [ref=e99]:
+                        - generic [ref=e104]: person_outline
+                        - generic [ref=e106]: Your career
+                      - generic [ref=e108]: Your career
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e116] [cursor=pointer]:
+                - generic [ref=e117]: help_outline
+                - link "Help link" [ref=e118]:
+                  - /url: https://support.google.com/googlecareers
+              - tooltip [ref=e119]: Help link
+            - generic [ref=e120]:
+              - button "Send feedback" [ref=e121] [cursor=pointer]:
+                - generic [ref=e122]: feedback
+              - tooltip [ref=e123]: Send feedback
+      - generic [ref=e125]:
+        - button "Google apps" [ref=e129] [cursor=pointer]:
+          - img [ref=e130]
+        - link "Sign in" [ref=e133] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Fabout%2Fcareers%2Fapplications%2Fjobs%2Fresults%2F%3Fq%3Dsoftware%2Bengineer%2Bnew%2Bgrad%2Bintern%26location%3DUnited%2BStates&followup=https%3A%2F%2Fwww.google.com%2Fabout%2Fcareers%2Fapplications%2Fjobs%2Fresults%2F%3Fq%3Dsoftware%2Bengineer%2Bnew%2Bgrad%2Bintern%26location%3DUnited%2BStates&ec=GAZA6QE
+  - generic [ref=e141]:
+    - heading "Search Jobs" [level=1]
+    - generic [ref=e143]:
+      - generic [ref=e145]:
+        - heading "Search sidebar" [level=2]
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - generic [ref=e148]: 439 jobs matched
+            - button "Clear filters" [ref=e150]:
+              - generic [ref=e153]: Clear filters
+          - generic:
+            - grid "tags chipset"
+          - generic [ref=e158]:
+            - generic:
+              - generic:
+                - generic: What do you want to do?
+            - combobox "What do you want to do?" [ref=e159]: software engineer new grad intern
+          - generic "Job filters" [ref=e160]:
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - heading "Locations" [level=3] [ref=e164]
+                - button "Locations filter options" [expanded] [ref=e166] [cursor=pointer]:
+                  - generic [ref=e167]: expand_less
+              - region "Locations filter options" [ref=e168]:
+                - generic [ref=e169]:
+                  - generic [ref=e171]:
+                    - grid [ref=e172]:
+                      - row "United States Remove chip United States" [ref=e173]:
+                        - gridcell "United States" [ref=e174]:
+                          - generic [ref=e175]: United States
+                        - gridcell "Remove chip United States" [ref=e176]:
+                          - generic [ref=e177]:
+                            - button "Remove chip United States" [ref=e178] [cursor=pointer]:
+                              - img [ref=e181]
+                            - tooltip [ref=e183]: Remove
+                    - generic [ref=e186]:
+                      - generic:
+                        - generic:
+                          - generic: Which location(s) do you prefer?
+                      - generic: search
+                      - combobox "Which location(s) do you prefer working out of?" [ref=e187]
+                    - generic [ref=e189]: 1 / 4Locations
+                  - generic [ref=e190]:
+                    - generic [ref=e191]:
+                      - generic [ref=e192] [cursor=pointer]:
+                        - checkbox "Remote eligible" [ref=e193]
+                        - generic:
+                          - img
+                      - generic [ref=e194]: Remote eligible
+                    - img "Learn more about remote eligibility" [ref=e196] [cursor=pointer]:
+                      - generic [ref=e197]: info_outline
+            - generic [ref=e199]:
+              - heading "Experience" [level=3] [ref=e201]
+              - button "Experience filter options" [ref=e203] [cursor=pointer]:
+                - generic [ref=e204]: expand_more
+            - generic [ref=e206]:
+              - heading "Skills & qualifications" [level=3] [ref=e208]
+              - button "Skills & qualifications filter options" [ref=e210] [cursor=pointer]:
+                - generic [ref=e211]: expand_more
+            - generic [ref=e213]:
+              - heading "Degree" [level=3] [ref=e215]
+              - button "Degree filter options" [ref=e217] [cursor=pointer]:
+                - generic [ref=e218]: expand_more
+            - generic [ref=e220]:
+              - heading "Job types" [level=3] [ref=e222]
+              - button "Job types filter options" [ref=e224] [cursor=pointer]:
+                - generic [ref=e225]: expand_more
+            - generic [ref=e227]:
+              - heading "Organizations" [level=3] [ref=e229]
+              - button "Organizations filter options" [ref=e231] [cursor=pointer]:
+                - generic [ref=e232]: expand_more
+            - generic [ref=e234]:
+              - heading "Sort by" [level=3] [ref=e236]
+              - button "Sort jobs by date or relevance" [ref=e238] [cursor=pointer]:
+                - generic [ref=e239]: expand_more
+      - generic [ref=e240]:
+        - main [ref=e241]:
+          - generic [ref=e242]:
+            - heading "Jobs search results" [level=2]
+            - generic [ref=e244]:
+              - list [ref=e246]:
+                - listitem [ref=e247]:
+                  - generic [ref=e249]:
+                    - generic [ref=e251]:
+                      - heading "Staff Software Engineer, Gemini Evals, GenAI, DeepMind" [level=3] [ref=e254]
+                      - generic [ref=e256]:
+                        - generic [ref=e257]:
+                          - generic [ref=e258]: corporate_fare
+                          - generic [ref=e259]: DeepMind
+                        - generic [ref=e260]:
+                          - generic [ref=e261]: place
+                          - generic [ref=e262]: Mountain View, CA, USA
+                          - generic [ref=e263]: ; New York, NY, USA
+                      - generic [ref=e264]:
+                        - heading "Minimum qualifications" [level=4] [ref=e265]
+                        - list [ref=e266]:
+                          - listitem [ref=e267]: Bachelor’s degree in Computer Science, Electrical Engineering, or a related technical field or equivalent practical experience.
+                          - listitem [ref=e268]: 8 years of experience in software development.
+                      - generic [ref=e270]:
+                        - generic [ref=e272]: Learn more
+                        - link "Learn more about Staff Software Engineer, Gemini Evals, GenAI, DeepMind" [ref=e273] [cursor=pointer]:
+                          - /url: jobs/results/131830237238305478-staff-software-engineer-gemini-evals-genai-deepmind?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Staff Software Engineer, Gemini Evals, GenAI, DeepMind" [ref=e278] [cursor=pointer]:
+                      - generic [ref=e279]: share
+                - listitem [ref=e280]:
+                  - generic [ref=e282]:
+                    - generic [ref=e284]:
+                      - heading "Software Engineer, Robin Core Experience on iOS, DeepMind" [level=3] [ref=e287]
+                      - generic [ref=e289]:
+                        - generic [ref=e290]:
+                          - generic [ref=e291]: corporate_fare
+                          - generic [ref=e292]: DeepMind
+                        - generic [ref=e293]:
+                          - generic [ref=e294]: place
+                          - generic [ref=e295]: Mountain View, CA, USA
+                          - generic [ref=e296]: ; New York, NY, USA
+                      - generic [ref=e297]:
+                        - heading "Minimum qualifications" [level=4] [ref=e298]
+                        - list [ref=e299]:
+                          - listitem [ref=e300]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e301]: 5 years of experience programming in Objective-C or Swift.
+                          - listitem [ref=e302]: 3 years of experience with iOS application development.
+                          - listitem [ref=e303]: 3 years of experience testing, maintaining, or launching software products, and 1 year of experience with software design and architecture.
+                      - generic [ref=e305]:
+                        - generic [ref=e307]: Learn more
+                        - link "Learn more about Software Engineer, Robin Core Experience on iOS, DeepMind" [ref=e308] [cursor=pointer]:
+                          - /url: jobs/results/118901307640554182-software-engineer-robin-core-experience-on-ios-deepmind?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Software Engineer, Robin Core Experience on iOS, DeepMind" [ref=e313] [cursor=pointer]:
+                      - generic [ref=e314]: share
+                - listitem [ref=e315]:
+                  - generic [ref=e317]:
+                    - generic [ref=e319]:
+                      - heading "Software Engineer III, Full Stack" [level=3] [ref=e322]
+                      - generic [ref=e324]:
+                        - generic [ref=e325]:
+                          - generic [ref=e326]: corporate_fare
+                          - generic [ref=e327]: Google
+                        - generic [ref=e328]:
+                          - generic [ref=e329]: place
+                          - generic [ref=e330]: New York, NY, USA
+                        - img "Mid, Learn more about experience filters." [ref=e334]:
+                          - generic [ref=e338]: bar_chart
+                          - generic [ref=e339]: Mid
+                      - generic [ref=e340]:
+                        - heading "Minimum qualifications" [level=4] [ref=e341]
+                        - list [ref=e342]:
+                          - listitem [ref=e343]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=e344]: 2 years of experience programming in C++, Python, or Java.
+                          - listitem [ref=e345]: 2 years of experience programming in JavaScript or TypeScript.
+                          - listitem [ref=e346]: 2 years of experience with front-end frameworks, full-stack development, or API development.
+                      - generic [ref=e348]:
+                        - generic [ref=e350]: Learn more
+                        - link "Learn more about Software Engineer III, Full Stack" [ref=e351] [cursor=pointer]:
+                          - /url: jobs/results/76448332615951046-software-engineer-iii-full-stack?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Software Engineer III, Full Stack" [ref=e356] [cursor=pointer]:
+                      - generic [ref=e357]: share
+                - listitem [ref=e358]:
+                  - generic [ref=e360]:
+                    - generic [ref=e362]:
+                      - heading "Software Engineer III, AI/ML GenAI, Google Cloud Compute Infrastructure" [level=3] [ref=e365]
+                      - generic [ref=e367]:
+                        - generic [ref=e368]:
+                          - generic [ref=e369]: corporate_fare
+                          - generic [ref=e370]: Google
+                        - generic [ref=e371]:
+                          - generic [ref=e372]: place
+                          - generic [ref=e373]: Sunnyvale, CA, USA
+                          - generic [ref=e374]: ; Kirkland, WA, USA
+                          - generic [ref=e375]: ; +4 more
+                        - img "Mid, Learn more about experience filters." [ref=e379]:
+                          - generic [ref=e383]: bar_chart
+                          - generic [ref=e384]: Mid
+                      - generic [ref=e385]:
+                        - heading "Minimum qualifications" [level=4] [ref=e386]
+                        - list [ref=e387]:
+                          - listitem [ref=e388]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e389]: 2 years of experience programming in Python or C++.
+                          - listitem [ref=e390]: 1 year of experience with ML infrastructure (e.g., model deployment, model evaluation, optimization, data processing, debugging).
+                          - listitem [ref=e391]: Experience with core GenAI concepts (Large Language Models, Multi-Modal, Large Vision Models).
+                          - listitem [ref=e392]: Experience with text, image, video, or audio generation.
+                      - generic [ref=e394]:
+                        - generic [ref=e396]: Learn more
+                        - link "Learn more about Software Engineer III, AI/ML GenAI, Google Cloud Compute Infrastructure" [ref=e397] [cursor=pointer]:
+                          - /url: jobs/results/102078010936435398-software-engineer-iii-aiml-genai-google-cloud-compute-infrastructure?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Software Engineer III, AI/ML GenAI, Google Cloud Compute Infrastructure" [ref=e402] [cursor=pointer]:
+                      - generic [ref=e403]: share
+                - listitem [ref=e404]:
+                  - generic [ref=e406]:
+                    - generic [ref=e408]:
+                      - heading "Software Engineer III" [level=3] [ref=e411]
+                      - generic [ref=e413]:
+                        - generic [ref=e414]:
+                          - generic [ref=e415]: corporate_fare
+                          - generic [ref=e416]: Google
+                        - generic [ref=e417]:
+                          - generic [ref=e418]: place
+                          - generic [ref=e419]: New York, NY, USA
+                        - img "Mid, Learn more about experience filters." [ref=e423]:
+                          - generic [ref=e427]: bar_chart
+                          - generic [ref=e428]: Mid
+                      - generic [ref=e429]:
+                        - heading "Minimum qualifications" [level=4] [ref=e430]
+                        - list [ref=e431]:
+                          - listitem [ref=e432]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=e433]: 2 years of experience programming in C++, Python, or Java.
+                      - generic [ref=e435]:
+                        - generic [ref=e437]: Learn more
+                        - link "Learn more about Software Engineer III" [ref=e438] [cursor=pointer]:
+                          - /url: jobs/results/96420342859211462-software-engineer-iii?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Software Engineer III" [ref=e443] [cursor=pointer]:
+                      - generic [ref=e444]: share
+                - listitem [ref=e445]:
+                  - generic [ref=e447]:
+                    - generic [ref=e449]:
+                      - heading "Software Engineer III, AI/ML GenAI, Google Ads" [level=3] [ref=e452]
+                      - generic [ref=e454]:
+                        - generic [ref=e455]:
+                          - generic [ref=e456]: corporate_fare
+                          - generic [ref=e457]: Google
+                        - generic [ref=e458]:
+                          - generic [ref=e459]: place
+                          - generic [ref=e460]: Mountain View, CA, USA
+                          - generic [ref=e461]: ; New York, NY, USA
+                          - generic [ref=e462]: ; +1 more
+                        - img "Mid, Learn more about experience filters." [ref=e466]:
+                          - generic [ref=e470]: bar_chart
+                          - generic [ref=e471]: Mid
+                      - generic [ref=e472]:
+                        - heading "Minimum qualifications" [level=4] [ref=e473]
+                        - list [ref=e474]:
+                          - listitem [ref=e475]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e476]: 2 years of experience programming in Python or C++.
+                          - listitem [ref=e477]: 1 year of experience with ML infrastructure (e.g., model deployment, model evaluation, optimization, data processing, debugging).
+                          - listitem [ref=e478]: Experience with core GenAI concepts (LLM, Multi-Modal, Large Vision Models) and experience with text, image, video, or audio generation.
+                      - generic [ref=e480]:
+                        - generic [ref=e482]: Learn more
+                        - link "Learn more about Software Engineer III, AI/ML GenAI, Google Ads" [ref=e483] [cursor=pointer]:
+                          - /url: jobs/results/84649560856502982-software-engineer-iii-aiml-genai-google-ads?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Software Engineer III, AI/ML GenAI, Google Ads" [ref=e488] [cursor=pointer]:
+                      - generic [ref=e489]: share
+                - listitem [ref=e490]:
+                  - generic [ref=e492]:
+                    - generic [ref=e494]:
+                      - heading "Student Researcher, BS/MS, Winter/Summer 2026" [level=3] [ref=e497]
+                      - generic [ref=e499]:
+                        - generic [ref=e500]:
+                          - generic [ref=e501]: corporate_fare
+                          - generic [ref=e502]: Google
+                        - generic [ref=e503]:
+                          - generic [ref=e504]: place
+                          - generic [ref=e505]: Mountain View, CA, USA
+                          - generic [ref=e506]: ; Ann Arbor, MI, USA
+                          - generic [ref=e507]: ; +17 more
+                        - generic [ref=e508]:
+                          - generic [ref=e509]: bar_chart
+                          - generic [ref=e510]: Intern & Apprentice
+                      - generic [ref=e511]:
+                        - heading "Minimum qualifications" [level=4] [ref=e512]
+                        - list [ref=e513]:
+                          - listitem [ref=e514]: Currently enrolled in a Bachelor's or Master’s degree in Computer Science, Linguistics, Statistics, Biostatistics, Applied Mathematics, Operations Research, Economics, Natural Sciences, or related technical field.
+                          - listitem [ref=e515]: Experience in one area of computer science (e.g., Natural Language Understanding, Human Computer Interactions, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Quantum Information Science, Data Science, Software Engineering, or similar areas).
+                      - generic [ref=e517]:
+                        - generic [ref=e519]: Learn more
+                        - link "Learn more about Student Researcher, BS/MS, Winter/Summer 2026" [ref=e520] [cursor=pointer]:
+                          - /url: jobs/results/140245524367188678-student-researcher-bsms-wintersummer-2026?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Student Researcher, BS/MS, Winter/Summer 2026" [ref=e525] [cursor=pointer]:
+                      - generic [ref=e526]: share
+                - listitem [ref=e527]:
+                  - generic [ref=e529]:
+                    - generic [ref=e531]:
+                      - heading "Student Researcher, PhD, Winter/Summer 2026" [level=3] [ref=e534]
+                      - generic [ref=e536]:
+                        - generic [ref=e537]:
+                          - generic [ref=e538]: corporate_fare
+                          - generic [ref=e539]: Google
+                        - generic [ref=e540]:
+                          - generic [ref=e541]: place
+                          - generic [ref=e542]: Mountain View, CA, USA
+                          - generic [ref=e543]: ; Ann Arbor, MI, USA
+                          - generic [ref=e544]: ; +17 more
+                        - generic [ref=e545]:
+                          - generic [ref=e546]: bar_chart
+                          - generic [ref=e547]: Intern & Apprentice
+                      - generic [ref=e548]:
+                        - heading "Minimum qualifications" [level=4] [ref=e549]
+                        - list [ref=e550]:
+                          - listitem [ref=e551]: Currently enrolled in a PhD degree in Computer Science, Linguistics, Statistics, Biostatistics, Applied Mathematics, Operations Research, Economics, Natural Sciences, or related technical field.
+                          - listitem [ref=e552]: Experience in one area of computer science (e.g., Natural Language Understanding, Human Computer Interactions, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Quantum Information Science, Data Science, Software Engineering, or similar areas).
+                      - generic [ref=e554]:
+                        - generic [ref=e556]: Learn more
+                        - link "Learn more about Student Researcher, PhD, Winter/Summer 2026" [ref=e557] [cursor=pointer]:
+                          - /url: jobs/results/138166347879064262-student-researcher-phd-wintersummer-2026?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Student Researcher, PhD, Winter/Summer 2026" [ref=e562] [cursor=pointer]:
+                      - generic [ref=e563]: share
+                - listitem [ref=e564]:
+                  - generic [ref=e566]:
+                    - generic [ref=e568]:
+                      - heading "Software Engineer III, Infrastructure, Google Cloud Platforms" [level=3] [ref=e571]
+                      - generic [ref=e573]:
+                        - generic [ref=e574]:
+                          - generic [ref=e575]: corporate_fare
+                          - generic [ref=e576]: Google
+                        - generic [ref=e577]:
+                          - generic [ref=e578]: place
+                          - generic [ref=e579]: Sunnyvale, CA, USA
+                          - generic [ref=e580]: ; Cambridge, MA, USA
+                          - generic [ref=e581]: ; +2 more
+                        - img "Mid, Learn more about experience filters." [ref=e585]:
+                          - generic [ref=e589]: bar_chart
+                          - generic [ref=e590]: Mid
+                      - generic [ref=e591]:
+                        - heading "Minimum qualifications" [level=4] [ref=e592]
+                        - list [ref=e593]:
+                          - listitem [ref=e594]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e595]: 2 years of experience programming in C++ or Go.
+                          - listitem [ref=e596]: 2 years of experience with developing large-scale infrastructure, distributed systems or networks, or experience with compute technologies, storage or hardware architecture.
+                      - generic [ref=e598]:
+                        - generic [ref=e600]: Learn more
+                        - link "Learn more about Software Engineer III, Infrastructure, Google Cloud Platforms" [ref=e601] [cursor=pointer]:
+                          - /url: jobs/results/79605303951139526-software-engineer-iii-infrastructure-google-cloud-platforms?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Software Engineer III, Infrastructure, Google Cloud Platforms" [ref=e606] [cursor=pointer]:
+                      - generic [ref=e607]: share
+                - listitem [ref=e608]:
+                  - generic [ref=e610]:
+                    - generic [ref=e612]:
+                      - heading "Senior Software Engineer, AI/ML GenAI, Google Workspace" [level=3] [ref=e615]
+                      - generic [ref=e617]:
+                        - generic [ref=e618]:
+                          - generic [ref=e619]: corporate_fare
+                          - generic [ref=e620]: Google
+                        - generic [ref=e621]:
+                          - generic [ref=e622]: place
+                          - generic [ref=e623]: Sunnyvale, CA, USA
+                          - generic [ref=e624]: ; Mountain View, CA, USA
+                          - generic [ref=e625]: ; +1 more
+                        - img "Mid, Learn more about experience filters." [ref=e629]:
+                          - generic [ref=e633]: bar_chart
+                          - generic [ref=e634]: Mid
+                      - generic [ref=e635]:
+                        - heading "Minimum qualifications" [level=4] [ref=e636]
+                        - list [ref=e637]:
+                          - listitem [ref=e638]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e639]: 5 years of experience programming in Python or C++.
+                          - listitem [ref=e640]: 3 years of experience testing, maintaining, or launching software products, and 1 year of experience with software design and architecture.
+                          - listitem [ref=e641]: 3 years of experience with ML infrastructure (e.g., model deployment, model evaluation, optimization, data processing, debugging).
+                          - listitem [ref=e642]: 1 year of experience with state of the art GenAI techniques (e.g., LLMs, Multi-Modal, Large Vision Models) or with GenAI-related concepts (language modeling, computer vision).
+                      - generic [ref=e644]:
+                        - generic [ref=e646]: Learn more
+                        - link "Learn more about Senior Software Engineer, AI/ML GenAI, Google Workspace" [ref=e647] [cursor=pointer]:
+                          - /url: jobs/results/129380148985111238-senior-software-engineer-aiml-genai-google-workspace?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Senior Software Engineer, AI/ML GenAI, Google Workspace" [ref=e652] [cursor=pointer]:
+                      - generic [ref=e653]: share
+                - listitem [ref=e654]:
+                  - generic [ref=e656]:
+                    - generic [ref=e658]:
+                      - heading "Senior Software Engineer" [level=3] [ref=e661]
+                      - generic [ref=e663]:
+                        - generic [ref=e664]:
+                          - generic [ref=e665]: corporate_fare
+                          - generic [ref=e666]: Google
+                        - generic [ref=e667]:
+                          - generic [ref=e668]: place
+                          - generic [ref=e669]: New York, NY, USA
+                        - img "Mid, Learn more about experience filters." [ref=e673]:
+                          - generic [ref=e677]: bar_chart
+                          - generic [ref=e678]: Mid
+                      - generic [ref=e679]:
+                        - heading "Minimum qualifications" [level=4] [ref=e680]
+                        - list [ref=e681]:
+                          - listitem [ref=e682]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=e683]: 5 years of experience in object-oriented programming with Java, C++ or Python.
+                          - listitem [ref=e684]: 3 years of experience testing, maintaining, or launching software products.
+                          - listitem [ref=e685]: 1 year of experience with software design and architecture.
+                      - generic [ref=e687]:
+                        - generic [ref=e689]: Learn more
+                        - link "Learn more about Senior Software Engineer" [ref=e690] [cursor=pointer]:
+                          - /url: jobs/results/90472878306140870-senior-software-engineer?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Senior Software Engineer" [ref=e695] [cursor=pointer]:
+                      - generic [ref=e696]: share
+                - listitem [ref=e697]:
+                  - generic [ref=e699]:
+                    - generic [ref=e701]:
+                      - heading "Senior Software Engineer, Full Stack" [level=3] [ref=e704]
+                      - generic [ref=e706]:
+                        - generic [ref=e707]:
+                          - generic [ref=e708]: corporate_fare
+                          - generic [ref=e709]: Google
+                        - generic [ref=e710]:
+                          - generic [ref=e711]: place
+                          - generic [ref=e712]: New York, NY, USA
+                        - img "Mid, Learn more about experience filters." [ref=e716]:
+                          - generic [ref=e720]: bar_chart
+                          - generic [ref=e721]: Mid
+                      - generic [ref=e722]:
+                        - heading "Minimum qualifications" [level=4] [ref=e723]
+                        - list [ref=e724]:
+                          - listitem [ref=e725]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=e726]: 5 years of experience in object-oriented programming with Java, C++ or Python.
+                          - listitem [ref=e727]: 5 years of experience programming in JavaScript or TypeScript.
+                          - listitem [ref=e728]: 5 years of experience with front-end frameworks, full-stack development, or API development.
+                          - listitem [ref=e729]: 3 years of experience testing, maintaining, or launching software products.
+                          - listitem [ref=e730]: 1 year of experience with software design and architecture.
+                      - generic [ref=e732]:
+                        - generic [ref=e734]: Learn more
+                        - link "Learn more about Senior Software Engineer, Full Stack" [ref=e735] [cursor=pointer]:
+                          - /url: jobs/results/115646197024072390-senior-software-engineer-full-stack?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Senior Software Engineer, Full Stack" [ref=e740] [cursor=pointer]:
+                      - generic [ref=e741]: share
+                - listitem [ref=e742]:
+                  - generic [ref=e744]:
+                    - generic [ref=e746]:
+                      - heading "Software Engineer III, Performance, AI and Infrastructure" [level=3] [ref=e749]
+                      - generic [ref=e751]:
+                        - generic [ref=e752]:
+                          - generic [ref=e753]: corporate_fare
+                          - generic [ref=e754]: Google
+                        - generic [ref=e755]:
+                          - generic [ref=e756]: place
+                          - generic [ref=e757]: Sunnyvale, CA, USA
+                          - generic [ref=e758]: ; New York, NY, USA
+                        - img "Mid, Learn more about experience filters." [ref=e762]:
+                          - generic [ref=e766]: bar_chart
+                          - generic [ref=e767]: Mid
+                      - generic [ref=e768]:
+                        - heading "Minimum qualifications" [level=4] [ref=e769]
+                        - list [ref=e770]:
+                          - listitem [ref=e771]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e772]: 2 years of experience programming in C++ or Python.
+                          - listitem [ref=e773]: 2 years of experience with performance, large scale systems data analysis, visualization tools, or debugging.
+                      - generic [ref=e775]:
+                        - generic [ref=e777]: Learn more
+                        - link "Learn more about Software Engineer III, Performance, AI and Infrastructure" [ref=e778] [cursor=pointer]:
+                          - /url: jobs/results/115945541212218054-software-engineer-iii-performance-ai-and-infrastructure?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Software Engineer III, Performance, AI and Infrastructure" [ref=e783] [cursor=pointer]:
+                      - generic [ref=e784]: share
+                - listitem [ref=e785]:
+                  - generic [ref=e787]:
+                    - generic [ref=e789]:
+                      - heading "Software Engineer III, Infrastructure, Google Cloud Security and Privacy" [level=3] [ref=e792]
+                      - generic [ref=e794]:
+                        - generic [ref=e795]:
+                          - generic [ref=e796]: corporate_fare
+                          - generic [ref=e797]: Google
+                        - generic [ref=e798]:
+                          - generic [ref=e799]: place
+                          - generic [ref=e800]: Sunnyvale, CA, USA
+                          - generic [ref=e801]: ; New York, NY, USA
+                          - generic [ref=e802]: ; +1 more
+                        - img "Mid, Learn more about experience filters." [ref=e806]:
+                          - generic [ref=e810]: bar_chart
+                          - generic [ref=e811]: Mid
+                      - generic [ref=e812]:
+                        - heading "Minimum qualifications" [level=4] [ref=e813]
+                        - list [ref=e814]:
+                          - listitem [ref=e815]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e816]: 2 years of experience programming in C++, Python or Go.
+                          - listitem [ref=e817]: 2 years of experience with developing large - scale infrastructure, distributed systems or networks, or experience with compute technologies, storage or hardware architecture.
+                      - generic [ref=e819]:
+                        - generic [ref=e821]: Learn more
+                        - link "Learn more about Software Engineer III, Infrastructure, Google Cloud Security and Privacy" [ref=e822] [cursor=pointer]:
+                          - /url: jobs/results/139439628514927302-software-engineer-iii-infrastructure-google-cloud-security-and-privacy?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Software Engineer III, Infrastructure, Google Cloud Security and Privacy" [ref=e827] [cursor=pointer]:
+                      - generic [ref=e828]: share
+                - listitem [ref=e829]:
+                  - generic [ref=e831]:
+                    - generic [ref=e833]:
+                      - heading "Senior Software Engineer, Labs" [level=3] [ref=e836]
+                      - generic [ref=e838]:
+                        - generic [ref=e839]:
+                          - generic [ref=e840]: corporate_fare
+                          - generic [ref=e841]: Google
+                        - generic [ref=e842]:
+                          - generic [ref=e843]: place
+                          - generic [ref=e844]: Mountain View, CA, USA
+                          - generic [ref=e845]: ; New York, NY, USA
+                        - img "Mid, Learn more about experience filters." [ref=e849]:
+                          - generic [ref=e853]: bar_chart
+                          - generic [ref=e854]: Mid
+                      - generic [ref=e855]:
+                        - heading "Minimum qualifications" [level=4] [ref=e856]
+                        - list [ref=e857]:
+                          - listitem [ref=e858]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e859]: 5 years of experience programming in C++, Java or Python.
+                          - listitem [ref=e860]: 3 years of experience testing, maintaining, or launching software products.
+                          - listitem [ref=e861]: 1 year of experience with software design and architecture.
+                      - generic [ref=e863]:
+                        - generic [ref=e865]: Learn more
+                        - link "Learn more about Senior Software Engineer, Labs" [ref=e866] [cursor=pointer]:
+                          - /url: jobs/results/82591555067486918-senior-software-engineer-labs?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Senior Software Engineer, Labs" [ref=e871] [cursor=pointer]:
+                      - generic [ref=e872]: share
+                - listitem [ref=e873]:
+                  - generic [ref=e875]:
+                    - generic [ref=e877]:
+                      - heading "Senior Software Engineer, AI/ML GenAI, Google Workspace" [level=3] [ref=e880]
+                      - generic [ref=e882]:
+                        - generic [ref=e883]:
+                          - generic [ref=e884]: corporate_fare
+                          - generic [ref=e885]: Google
+                        - generic [ref=e886]:
+                          - generic [ref=e887]: place
+                          - generic [ref=e888]: New York, NY, USA
+                        - img "Mid, Learn more about experience filters." [ref=e892]:
+                          - generic [ref=e896]: bar_chart
+                          - generic [ref=e897]: Mid
+                      - generic [ref=e898]:
+                        - heading "Minimum qualifications" [level=4] [ref=e899]
+                        - list [ref=e900]:
+                          - listitem [ref=e901]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e902]: 5 years of experience programming in Python or C++.
+                          - listitem [ref=e903]: 3 years of experience testing, maintaining, or launching software products, and 1 year of experience with software design and architecture.
+                          - listitem [ref=e904]: 3 years of experience with ML infrastructure (e.g., model deployment, model evaluation, optimization, data processing, debugging).
+                          - listitem [ref=e905]: 1 year of experience with state of the art GenAI techniques (e.g., LLMs, multi-modal, large vision models) or with GenAI-related concepts (language modeling, computer vision).
+                      - generic [ref=e907]:
+                        - generic [ref=e909]: Learn more
+                        - link "Learn more about Senior Software Engineer, AI/ML GenAI, Google Workspace" [ref=e910] [cursor=pointer]:
+                          - /url: jobs/results/109314525903102662-senior-software-engineer-aiml-genai-google-workspace?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Senior Software Engineer, AI/ML GenAI, Google Workspace" [ref=e915] [cursor=pointer]:
+                      - generic [ref=e916]: share
+                - listitem [ref=e917]:
+                  - generic [ref=e919]:
+                    - generic [ref=e921]:
+                      - heading "Software Engineer, PhD, Early Career, Embedded Systems and Firmware, 2026 Start" [level=3] [ref=e924]
+                      - generic [ref=e926]:
+                        - generic [ref=e927]:
+                          - generic [ref=e928]: corporate_fare
+                          - generic [ref=e929]: Google
+                        - generic [ref=e930]:
+                          - generic [ref=e931]: place
+                          - generic [ref=e932]: Sunnyvale, CA, USA
+                          - generic [ref=e933]: ; Atlanta, GA, USA
+                          - generic [ref=e934]: ; +7 more
+                        - img "Mid, Learn more about experience filters." [ref=e938]:
+                          - generic [ref=e942]: bar_chart
+                          - generic [ref=e943]: Mid
+                      - generic [ref=e944]:
+                        - heading "Minimum qualifications" [level=4] [ref=e945]
+                        - list [ref=e946]:
+                          - listitem [ref=e947]: PhD degree in Computer Science, or a related field, or equivalent practical experience.
+                          - listitem [ref=e948]:
+                            - generic [ref=e950]: Experience in embedded systems/firmware design.
+                          - listitem [ref=e951]:
+                            - generic [ref=e954]: Experience coding in C or C++.
+                      - generic [ref=e956]:
+                        - generic [ref=e958]: Learn more
+                        - link "Learn more about Software Engineer, PhD, Early Career, Embedded Systems and Firmware, 2026 Start" [ref=e959] [cursor=pointer]:
+                          - /url: jobs/results/96957711316329158-software-engineer-phd-early-career-embedded-systems-and-firmware-2026-start?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Software Engineer, PhD, Early Career, Embedded Systems and Firmware, 2026 Start" [ref=e964] [cursor=pointer]:
+                      - generic [ref=e965]: share
+                - listitem [ref=e966]:
+                  - generic [ref=e968]:
+                    - generic [ref=e970]:
+                      - heading "Software Engineer, PhD, Early Career, AI/Machine Learning, 2026 Start" [level=3] [ref=e973]
+                      - generic [ref=e975]:
+                        - generic [ref=e976]:
+                          - generic [ref=e977]: corporate_fare
+                          - generic [ref=e978]: Google
+                        - generic [ref=e979]:
+                          - generic [ref=e980]: place
+                          - generic [ref=e981]: Sunnyvale, CA, USA
+                          - generic [ref=e982]: ; Atlanta, GA, USA
+                          - generic [ref=e983]: ; +8 more
+                        - img "Mid, Learn more about experience filters." [ref=e987]:
+                          - generic [ref=e991]: bar_chart
+                          - generic [ref=e992]: Mid
+                      - generic [ref=e993]:
+                        - heading "Minimum qualifications" [level=4] [ref=e994]
+                        - list [ref=e995]:
+                          - listitem [ref=e996]: PhD degree in Computer Science, ML/AI, or a related field, or equivalent practical experience.
+                          - listitem [ref=e997]: "Experience coding in one of the following programming languages including but not limited to: Python, C, C++, Java, JavaScript or Golang."
+                          - listitem [ref=e998]:
+                            - generic [ref=e1000]: Experience in Machine Learning or Artificial Intelligence.
+                      - generic [ref=e1002]:
+                        - generic [ref=e1004]: Learn more
+                        - link "Learn more about Software Engineer, PhD, Early Career, AI/Machine Learning, 2026 Start" [ref=e1005] [cursor=pointer]:
+                          - /url: jobs/results/122258040807137990-software-engineer-phd-early-career-aimachine-learning-2026-start?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Software Engineer, PhD, Early Career, AI/Machine Learning, 2026 Start" [ref=e1010] [cursor=pointer]:
+                      - generic [ref=e1011]: share
+                - listitem [ref=e1012]:
+                  - generic [ref=e1014]:
+                    - generic [ref=e1016]:
+                      - heading "Software Engineer, PhD, Early Career, Infrastructure, 2026 Start" [level=3] [ref=e1019]
+                      - generic [ref=e1021]:
+                        - generic [ref=e1022]:
+                          - generic [ref=e1023]: corporate_fare
+                          - generic [ref=e1024]: Google
+                        - generic [ref=e1025]:
+                          - generic [ref=e1026]: place
+                          - generic [ref=e1027]: Sunnyvale, CA, USA
+                          - generic [ref=e1028]: ; Atlanta, GA, USA
+                          - generic [ref=e1029]: ; +10 more
+                        - img "Mid, Learn more about experience filters." [ref=e1033]:
+                          - generic [ref=e1037]: bar_chart
+                          - generic [ref=e1038]: Mid
+                      - generic [ref=e1039]:
+                        - heading "Minimum qualifications" [level=4] [ref=e1040]
+                        - list [ref=e1041]:
+                          - listitem [ref=e1042]:
+                            - generic [ref=e1044]: PhD degree in Computer Science, or a related field, or equivalent practical experience.
+                          - listitem [ref=e1045]: "Experience coding in one of the following programming languages including but not limited to: C, C++, Python Java or Golang."
+                          - listitem [ref=e1046]: "Experience in one or more of the following: architecting or developing distributed systems, concurrency, multi-threading, or synchronization."
+                      - generic [ref=e1048]:
+                        - generic [ref=e1050]: Learn more
+                        - link "Learn more about Software Engineer, PhD, Early Career, Infrastructure, 2026 Start" [ref=e1051] [cursor=pointer]:
+                          - /url: jobs/results/88714689822761670-software-engineer-phd-early-career-infrastructure-2026-start?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Software Engineer, PhD, Early Career, Infrastructure, 2026 Start" [ref=e1056] [cursor=pointer]:
+                      - generic [ref=e1057]: share
+                - listitem [ref=e1058]:
+                  - generic [ref=e1060]:
+                    - generic [ref=e1062]:
+                      - heading "Software Engineer, Cloud CISO Security Engineering" [level=3] [ref=e1065]
+                      - generic [ref=e1067]:
+                        - generic [ref=e1068]:
+                          - generic [ref=e1069]: corporate_fare
+                          - generic [ref=e1070]: Google
+                        - generic [ref=e1071]:
+                          - generic [ref=e1072]: place
+                          - generic [ref=e1073]: Sunnyvale, CA, USA
+                          - generic [ref=e1074]: ; Kirkland, WA, USA
+                          - generic [ref=e1075]: ; +4 more
+                        - img "Mid, Learn more about experience filters." [ref=e1079]:
+                          - generic [ref=e1083]: bar_chart
+                          - generic [ref=e1084]: Mid
+                      - generic [ref=e1085]:
+                        - heading "Minimum qualifications" [level=4] [ref=e1086]
+                        - list [ref=e1087]:
+                          - listitem [ref=e1088]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e1089]: 2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree.
+                          - listitem [ref=e1090]: 2 years of experience building software for data privacy or security (e.g., identity and access management).
+                          - listitem [ref=e1091]: Experience with generative AI, generative AI agent, software architecture.
+                      - generic [ref=e1093]:
+                        - generic [ref=e1095]: Learn more
+                        - link "Learn more about Software Engineer, Cloud CISO Security Engineering" [ref=e1096] [cursor=pointer]:
+                          - /url: jobs/results/119262273871979206-software-engineer-cloud-ciso-security-engineering?q=software+engineer+new+grad+intern&location=United+States
+                    - button "Share Software Engineer, Cloud CISO Security Engineering" [ref=e1101] [cursor=pointer]:
+                      - generic [ref=e1102]: share
+              - generic [ref=e1107]:
+                - status [ref=e1108]:
+                  - generic [ref=e1109]: Showing 1 to 20 of 439 rows
+                  - generic [ref=e1110]: 1‑20 of 439
+                - generic [ref=e1111] [cursor=pointer]:
+                  - generic [ref=e1112]: navigate_next
+                  - link "Go to next page" [ref=e1113]:
+                    - /url: https://www.google.com/about/careers/applications/jobs/results/?q=software%20engineer%20new%20grad%20intern&location=United%20States&page=2
+        - contentinfo [ref=e1115]:
+          - generic [ref=e1117]:
+            - generic [ref=e1118]:
+              - heading "Follow Life at Google on" [level=2] [ref=e1119]
+              - list [ref=e1120]:
+                - listitem [ref=e1121]:
+                  - link "View our Instagram feed (Opens in a new tab)" [ref=e1122] [cursor=pointer]:
+                    - /url: https://www.instagram.com/lifeatgoogle/
+                - listitem [ref=e1127]:
+                  - link "View our Twitter feed (Opens in a new tab)" [ref=e1128] [cursor=pointer]:
+                    - /url: https://twitter.com/lifeatgoogle
+                - listitem [ref=e1131]:
+                  - link "View our YouTube channel (Opens in a new tab)" [ref=e1132] [cursor=pointer]:
+                    - /url: https://www.youtube.com/lifeatgoogle
+                - listitem [ref=e1135]:
+                  - link "View LinkedIn (Opens in a new tab)" [ref=e1136] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/google/jobs/
+                - listitem [ref=e1139]:
+                  - link "View our Facebook (Opens in a new tab)" [ref=e1140] [cursor=pointer]:
+                    - /url: https://www.facebook.com/lifeatgoogle/
+            - generic [ref=e1145]:
+              - generic [ref=e1146]:
+                - heading "More about us" [level=2] [ref=e1147]
+                - generic [ref=e1148]:
+                  - link "About us (opens in a new tab)" [ref=e1149] [cursor=pointer]:
+                    - /url: https://about.google/
+                    - text: About us
+                    - generic [ref=e1151]: open_in_new
+                  - link "Contact us (opens in a new tab)" [ref=e1152] [cursor=pointer]:
+                    - /url: https://about.google/contact-google/
+                    - text: Contact us
+                    - generic [ref=e1154]: open_in_new
+                  - link "Press (opens in a new tab)" [ref=e1155] [cursor=pointer]:
+                    - /url: https://blog.google/press/
+                    - text: Press
+                    - generic [ref=e1157]: open_in_new
+              - generic [ref=e1158]:
+                - heading "Related Information" [level=2] [ref=e1159]
+                - generic [ref=e1160]:
+                  - link "Investor relations (opens in a new tab)" [ref=e1161] [cursor=pointer]:
+                    - /url: https://abc.xyz/investor/
+                    - text: Investor relations
+                    - generic [ref=e1163]: open_in_new
+                  - link "Blog (opens in a new tab)" [ref=e1164] [cursor=pointer]:
+                    - /url: https://blog.google/
+                    - text: Blog
+                    - generic [ref=e1166]: open_in_new
+              - generic [ref=e1167]:
+                - heading "Equal Opportunity" [level=2] [ref=e1168]
+                - paragraph [ref=e1169]:
+                  - text: Google is proud to be an equal opportunity and affirmative action employer. We are committed to building a workforce that is representative of the users we serve, creating a culture of belonging, and providing an equal employment opportunity regardless of race, creed, color, religion, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition (including breastfeeding), expecting or parents-to-be, criminal histories consistent with legal requirements, or any other basis protected by law. See also
+                  - link "Google's EEO Policy" [ref=e1170] [cursor=pointer]:
+                    - /url: https://www.google.com/about/careers/applications/eeo/
+                  - text: ","
+                  - 'link "Know your rights: workplace discrimination is illegal" [ref=e1171] [cursor=pointer]':
+                    - /url: https://careers.google.com/jobs/dist/legal/EEOC_KnowYourRights_10_20.pdf
+                  - text: ","
+                  - link "Belonging at Google" [ref=e1172] [cursor=pointer]:
+                    - /url: https://about.google/belonging/
+                  - text: ", and"
+                  - link "How we hire" [ref=e1173] [cursor=pointer]:
+                    - /url: https://careers.google.com/how-we-hire/
+                  - text: .
+            - generic [ref=e1174]:
+              - link "google.com (Opens in a new tab)" [ref=e1176] [cursor=pointer]:
+                - /url: https://www.google.com/
+                - img "Google" [ref=e1177]
+              - generic [ref=e1178]:
+                - generic [ref=e1179]:
+                  - link "Privacy (opens in a new tab)" [ref=e1181] [cursor=pointer]:
+                    - /url: https://policies.google.com/privacy
+                    - text: Privacy
+                    - generic [ref=e1183]: open_in_new
+                  - link "Applicant & Candidate Privacy (opens in a new tab)" [ref=e1185] [cursor=pointer]:
+                    - /url: ./privacy-policy
+                    - text: Applicant & Candidate Privacy
+                    - generic [ref=e1187]: open_in_new
+                  - link "Terms (opens in a new tab)" [ref=e1189] [cursor=pointer]:
+                    - /url: https://policies.google.com/terms
+                    - text: Terms
+                    - generic [ref=e1191]: open_in_new
+                - generic [ref=e1192]:
+                  - link "Help (opens in a new tab)" [ref=e1193] [cursor=pointer]:
+                    - /url: https://support.google.com/googlecareers/#topic=6095159
+                    - generic [ref=e1195]: help
+                    - text: Help
+                    - generic [ref=e1197]: open_in_new
+                  - combobox "Select language" [ref=e1201] [cursor=pointer]:
+                    - generic: language
+                    - generic:
+                      - generic: English
+                    - generic:
+                      - img

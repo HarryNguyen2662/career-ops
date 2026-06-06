@@ -1,0 +1,274 @@
+- generic [active] [ref=e1]:
+  - img "Banner" [ref=e3]
+  - main [ref=e4]:
+    - generic [ref=e5]:
+      - link "Flexport Logo" [ref=e7] [cursor=pointer]:
+        - /url: https://boards.greenhouse.io/flexport
+        - img "Flexport Logo" [ref=e8]
+      - generic [ref=e9]:
+        - link "Back to jobs" [ref=e10] [cursor=pointer]:
+          - /url: https://www.flexport.com/careers/jobs/
+          - img [ref=e11]
+          - text: Back to jobs
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - heading "Software Engineer II, Autonomous Freight Systems" [level=1] [ref=e16]
+            - generic [ref=e17]:
+              - img [ref=e18]
+              - generic [ref=e20]: San Francisco, California, United States
+          - button "Apply" [ref=e21] [cursor=pointer]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - heading "About Flexport:" [level=2] [ref=e24]:
+              - strong [ref=e25]: "About Flexport:"
+            - paragraph [ref=e26]: At Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise across 112 countries a year.
+            - paragraph [ref=e27]: The recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people. Ready to tackle global challenges that impact business, society, and the environment? Come join us.
+          - generic [ref=e28]:
+            - heading "The Opportunity" [level=3] [ref=e29]:
+              - strong [ref=e30]: The Opportunity
+            - paragraph [ref=e31]: Join a new engineering team in San Francisco building Flexport’s client-facing rates platform and self-serve freight booking experience from the ground up. You will work alongside experienced engineers and have direct ownership of features that move the company from an assisted-sales model to a tech-run one for the long tail of our client base.
+            - paragraph [ref=e32]: "This team owns two of the highest-leverage surfaces in the Client App: how clients see pricing and how they book without manual intervention. Rates sit at the center of every freight decision, and you will build the systems that power rate visibility, quoting, and pricing intelligence across ocean, air, and trucking. You will also help build the infrastructure that integrates AI-powered automation into the booking flow. This is a rare opportunity to build the \"front door\" of an $8.6 trillion industry, turning the complexity of global trade into a seamless digital experience for thousands of shippers."
+            - heading "You Will" [level=3] [ref=e33]:
+              - strong [ref=e34]: You Will
+            - list [ref=e35]:
+              - listitem [ref=e36]: Design, develop, test, deploy, and maintain systems within a microservices architecture that power rate visibility and autonomous booking.
+              - listitem [ref=e37]: "Own the entire lifecycle of a feature: from database schema design and scalable backend APIs to building the React-based frontend applications our customers use."
+              - listitem [ref=e38]: Support the integration of AI models and automated workflows to make the pricing and booking experience increasingly intelligent.
+              - listitem [ref=e39]: Collaborate with engineering, product, and design to translate complex business problems into elegant, production-ready technical solutions.
+              - listitem [ref=e40]: Contribute to code reviews to maintain high quality standards, share knowledge, and mentor peer engineers.
+              - listitem [ref=e41]: Build highly available, secure, and distributed systems that can scale with Flexport’s global volume.
+              - listitem [ref=e42]: Rapidly build and launch products incrementally, leveraging best practices around CI/CD and shipping to production dozens of times per day.
+              - listitem [ref=e43]: Ensure high-quality standards by incorporating metrics, monitoring, and applying learnings from post-mortems to all services.
+            - heading "You Should Have" [level=3] [ref=e44]:
+              - strong [ref=e45]: You Should Have
+            - list [ref=e46]:
+              - listitem [ref=e47]: Bachelor’s degree in Computer Science, Software Engineering, or a related field, or equivalent practical experience.
+              - listitem [ref=e48]: 3+ years of professional software engineering experience with a proven track record of shipping production-grade applications.
+              - listitem [ref=e49]:
+                - strong [ref=e50]: "Full-Stack Capability:"
+                - text: "You are comfortable owning a feature from end-to-end: working with databases, backend services (Java/Ruby), and frontend frameworks (React)."
+              - listitem [ref=e51]:
+                - strong [ref=e52]: "Technical Rigor:"
+                - text: A passion for simple, well-tested code that is easy to extend and hard to break.
+              - listitem [ref=e53]:
+                - strong [ref=e54]: "AI Familiarity:"
+                - text: Experience or interest in working with AI APIs and building software that leverages machine learning models to automate user tasks.
+              - listitem [ref=e55]: 2+ years of design and architecture knowledge as well as familiarity with object-oriented analysis and design patterns.
+              - listitem [ref=e56]: "Proficiency with modern programming languages: specifically Java, Ruby, or TypeScript."
+              - listitem [ref=e57]: Proficiency with deploying, monitoring, and maintaining production services on cloud infrastructure (AWS).
+            - heading "It’s a Plus If You Have" [level=3] [ref=e58]:
+              - strong [ref=e59]: It’s a Plus If You Have
+            - list [ref=e60]:
+              - listitem [ref=e61]: "Experience with elements of our tech stack: Java, Spring Boot, Ruby on Rails, React, AWS."
+              - listitem [ref=e62]: Experience in fintech, pricing engines, or booking systems.
+              - listitem [ref=e63]: Experience in logistics, supply chain, or freight technology.
+              - listitem [ref=e64]:
+                - strong [ref=e65]: "A bias for action:"
+                - text: When you see a problem, you fix it.
+              - listitem [ref=e66]: "Excellent written and verbal communication skills: you can convey technical ideas in common terms to business stakeholders and product managers."
+            - paragraph [ref=e67]: "#LI-onsite"
+          - generic [ref=e69]:
+            - emphasis [ref=e83]: The range displayed on each job posting reflects the minimum and maximum target for new hire base salary for the position in the posting's respective region. Our salary ranges are determined by role, level, and location. Within the range displayed, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education and / or training. Base salary is just one part of our total rewards package at Flexport, which also includes bonus, equity, and comprehensive benefit offerings such as medical, dental, and flexible time off.
+            - paragraph [ref=e84]: "The US base salary range for this position (this does not include bonus, equity and benefits):"
+            - paragraph [ref=e85]: $147,000 - $183,750 USD
+          - generic [ref=e97]:
+            - heading "Commitment to Equal Opportunity" [level=4] [ref=e98]
+            - paragraph [ref=e99]: At Flexport, our ability to fulfill our mission of making global commerce easy and accessible relies on having a diverse, dedicated and engaged workforce. All qualified applicants will receive consideration for employment regardless of race, color, religion, sex, national origin, age, physical and mental disability, health status, marital and family status, sexual orientation, gender identity and expression, military and veteran status, and any other characteristic protected by applicable law.
+            - heading "Global Data Privacy Notice for Job Candidates and Applicants" [level=4] [ref=e100]
+            - paragraph [ref=e101]:
+              - text: Depending on your location, the General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA) may regulate the way we manage the data of job applicants. By submitting your application, you are agreeing to our use and processing of your data as required. Please see our Privacy Notice available at
+              - link "www.flexport.com/privacy" [ref=e102] [cursor=pointer]:
+                - /url: http://www.flexport.com/privacy
+              - text: for additional information.
+        - generic [ref=e103]:
+          - img [ref=e104]
+          - generic [ref=e106]:
+            - paragraph [ref=e107]: Create a Job Alert
+            - paragraph [ref=e108]: Interested in building your career at Flexport? Get future opportunities sent straight to your email.
+            - link "Create alert" [ref=e109] [cursor=pointer]:
+              - /url: https://my.greenhouse.io/users/sign_in?job_board=flexport&source=job_alert_post
+      - separator [ref=e110]
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - heading "Apply for this job" [level=2] [ref=e115]
+            - generic [ref=e116]:
+              - paragraph [ref=e118]: "*"
+              - paragraph [ref=e119]: indicates a required field
+          - button "Quick Apply with MyGreenhouse" [ref=e122] [cursor=pointer]
+        - generic [ref=e123]:
+          - generic [ref=e124]:
+            - generic [ref=e127]:
+              - generic [ref=e128]: First Name*
+              - textbox "First Name" [ref=e129]
+            - generic [ref=e132]:
+              - generic [ref=e133]: Last Name*
+              - textbox "Last Name" [ref=e134]
+            - generic [ref=e137]:
+              - generic [ref=e138]: Email*
+              - textbox "Email" [ref=e139]
+            - group "Phone" [ref=e141]:
+              - generic [ref=e142]: Phone
+              - generic [ref=e145]:
+                - generic [ref=e146]: Country*
+                - generic [ref=e147]:
+                  - log [ref=e149]
+                  - generic [ref=e151]:
+                    - combobox "Country" [ref=e154]
+                    - button "Toggle flyout" [ref=e156] [cursor=pointer]:
+                      - img [ref=e157]
+                  - textbox
+              - generic [ref=e161]:
+                - generic [ref=e162]: Phone*
+                - textbox "Phone" [ref=e164]
+            - generic [ref=e165]:
+              - generic [ref=e167]:
+                - generic [ref=e168]: Location (City)*
+                - generic [ref=e169]:
+                  - log [ref=e171]
+                  - combobox "Location (City)" [ref=e176]
+                  - textbox
+              - button "Locate me" [ref=e177] [cursor=pointer]
+            - group "Resume/CV*" [ref=e179]:
+              - generic [ref=e180]: Resume/CV*
+              - generic [ref=e182]:
+                - generic [ref=e184]:
+                  - button "Attach" [ref=e185] [cursor=pointer]
+                  - generic [ref=e186]: Attach
+                  - button "Attach" [ref=e187]
+                - button "Dropbox" [ref=e189] [cursor=pointer]
+                - button "Google Drive" [ref=e191] [cursor=pointer]
+                - generic [ref=e193]:
+                  - button "Enter manually" [ref=e194] [cursor=pointer]
+                  - generic [ref=e195]: Enter manually
+                - paragraph [ref=e196]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=e197]:
+            - separator [ref=e198]
+            - generic [ref=e201]:
+              - generic [ref=e202]: Current / Most Recent Company*
+              - textbox "Current / Most Recent Company" [ref=e203]
+            - generic [ref=e206]:
+              - generic [ref=e207]: Current / Most Recent Job Title*
+              - textbox "Current / Most Recent Job Title" [ref=e208]
+            - generic [ref=e211]:
+              - generic [ref=e212]: LinkedIn Profile
+              - textbox "LinkedIn Profile" [ref=e213]
+            - generic [ref=e216]:
+              - generic [ref=e217]: How did you first hear about Flexport?*
+              - generic [ref=e218]:
+                - log [ref=e220]
+                - generic [ref=e222]:
+                  - generic [ref=e223]:
+                    - generic [ref=e224]: Select...
+                    - combobox "How did you first hear about Flexport?" [ref=e226]
+                  - button "Toggle flyout" [ref=e228] [cursor=pointer]:
+                    - img [ref=e229]
+                - textbox
+            - generic [ref=e233]:
+              - generic [ref=e234]: Will you now or in the future require Flexport to commence ("sponsor") an immigration case in order to employ you (for example, H-1B or other employment-based immigration case)? This is sometimes called "sponsorship" for an employment-based visa status.*
+              - generic [ref=e235]:
+                - log [ref=e237]
+                - generic [ref=e239]:
+                  - generic [ref=e240]:
+                    - generic [ref=e241]: Select...
+                    - combobox "Will you now or in the future require Flexport to commence (\"sponsor\") an immigration case in order to employ you (for example, H-1B or other employment-based immigration case)? This is sometimes called \"sponsorship\" for an employment-based visa status." [ref=e243]
+                  - button "Toggle flyout" [ref=e245] [cursor=pointer]:
+                    - img [ref=e246]
+                - textbox
+            - generic [ref=e250]:
+              - generic [ref=e251]: Are you authorized to work lawfully in the United States for Flexport?*
+              - generic [ref=e252]:
+                - log [ref=e254]
+                - generic [ref=e256]:
+                  - generic [ref=e257]:
+                    - generic [ref=e258]: Select...
+                    - combobox "Are you authorized to work lawfully in the United States for Flexport?" [ref=e260]
+                  - button "Toggle flyout" [ref=e262] [cursor=pointer]:
+                    - img [ref=e263]
+                - textbox
+            - generic [ref=e267]:
+              - generic [ref=e268]: Have you previously been employed by Flexport or any of its entities; or by an agency representing Flexport?*
+              - generic [ref=e269]:
+                - log [ref=e271]
+                - generic [ref=e273]:
+                  - generic [ref=e274]:
+                    - generic [ref=e275]: Select...
+                    - combobox "Have you previously been employed by Flexport or any of its entities; or by an agency representing Flexport?" [ref=e277]
+                  - button "Toggle flyout" [ref=e279] [cursor=pointer]:
+                    - img [ref=e280]
+                - textbox
+            - generic [ref=e284]:
+              - generic [ref=e285]: The position requires in person attendance 5 days per week in our San Francisco, CA office. Please confirm you can meet this requirement.*
+              - generic [ref=e286]:
+                - log [ref=e288]
+                - generic [ref=e290]:
+                  - generic [ref=e291]:
+                    - generic [ref=e292]: Select...
+                    - combobox "The position requires in person attendance 5 days per week in our San Francisco, CA office. Please confirm you can meet this requirement." [ref=e294]
+                  - button "Toggle flyout" [ref=e296] [cursor=pointer]:
+                    - img [ref=e297]
+                - textbox
+            - generic [ref=e301]:
+              - generic [ref=e302]: Please confirm you have a minimum of 2 years of professional work experience as a Software Engineer post college. *
+              - generic [ref=e303]:
+                - log [ref=e305]
+                - generic [ref=e307]:
+                  - generic [ref=e308]:
+                    - generic [ref=e309]: Select...
+                    - combobox "Please confirm you have a minimum of 2 years of professional work experience as a Software Engineer post college." [ref=e311]
+                  - button "Toggle flyout" [ref=e313] [cursor=pointer]:
+                    - img [ref=e314]
+                - textbox
+            - generic [ref=e318]:
+              - generic [ref=e319]: Our engineers often work directly with product managers and end‑users. Briefly describe a time you worked directly with product managers or end‑users to better understand business goals or user needs. What did you do, and what impact did it have on your work?*
+              - textbox "Our engineers often work directly with product managers and end‑users. Briefly describe a time you worked directly with product managers or end‑users to better understand business goals or user needs. What did you do, and what impact did it have on your work?" [ref=e320]
+            - generic [ref=e323]:
+              - generic [ref=e324]: Timeline? Other opportunities you're considering? If so, what's differentiating this role from others?*
+              - textbox "Timeline? Other opportunities you're considering? If so, what's differentiating this role from others?" [ref=e325]
+          - separator [ref=e326]
+          - generic [ref=e327]:
+            - heading "Voluntary Demographic Questions" [level=3] [ref=e328]
+            - generic [ref=e330]:
+              - paragraph [ref=e331]: At Flexport, our ability to fulfill our mission of making global commerce easy and accessible relies on having a diverse, dedicated and engaged workforce. All qualified applicants will receive consideration for employment regardless of race, color, religion, sex, national origin, age, physical and mental disability, health status, marital and family status, sexual orientation, gender identity and expression, military and veteran status, and any other characteristic protected by applicable law.
+              - paragraph [ref=e332]: Completing this survey is optional, but we hope that you will choose to answer. All responses are kept private and will not be used during the hiring process in any way.
+            - generic [ref=e334]:
+              - generic [ref=e335]: I identify my gender as
+              - generic [ref=e336]:
+                - log [ref=e338]
+                - generic [ref=e340]:
+                  - generic [ref=e341]:
+                    - generic [ref=e342]: Select...
+                    - combobox "I identify my gender as" [ref=e344]
+                  - button "Toggle flyout" [ref=e346] [cursor=pointer]:
+                    - img [ref=e347]
+            - generic [ref=e350]:
+              - generic [ref=e351]: Race
+              - generic [ref=e352]:
+                - log [ref=e354]
+                - generic [ref=e356]:
+                  - generic [ref=e357]:
+                    - generic [ref=e358]: Select...
+                    - combobox "Race" [ref=e360]
+                  - button "Toggle flyout" [ref=e362] [cursor=pointer]:
+                    - img [ref=e363]
+            - generic [ref=e366]:
+              - generic [ref=e367]: Veteran Status
+              - generic [ref=e368]:
+                - log [ref=e370]
+                - generic [ref=e372]:
+                  - generic [ref=e373]:
+                    - generic [ref=e374]: Select...
+                    - combobox "Veteran Status" [ref=e376]
+                  - button "Toggle flyout" [ref=e378] [cursor=pointer]:
+                    - img [ref=e379]
+          - button "Submit application" [ref=e382] [cursor=pointer]
+  - contentinfo [ref=e383]:
+    - generic [ref=e384]:
+      - paragraph [ref=e385]: Powered by
+      - link "Greenhouse logo" [ref=e386] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=e387]
+  - iframe [ref=e401]:
+    - generic [ref=f102e6]:
+      - text: protected by
+      - strong [ref=f102e7]: reCAPTCHA

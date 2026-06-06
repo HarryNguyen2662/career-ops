@@ -1,0 +1,935 @@
+- generic [ref=e1]:
+  - navigation "Global" [ref=e3]:
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Apple" [ref=e7] [cursor=pointer]:
+          - /url: https://www.apple.com/
+          - generic:
+            - img
+          - generic: Apple
+      - listitem [ref=e8]:
+        - generic [ref=e10]:
+          - link "Store" [ref=e12] [cursor=pointer]:
+            - /url: https://www.apple.com/us/shop/goto/store
+            - generic [ref=e13]:
+              - generic:
+                - img
+              - generic: Store
+          - link "Mac" [ref=e15] [cursor=pointer]:
+            - /url: https://www.apple.com/mac/
+            - generic [ref=e16]:
+              - generic:
+                - img
+              - generic: Mac
+          - link "iPad" [ref=e18] [cursor=pointer]:
+            - /url: https://www.apple.com/ipad/
+            - generic [ref=e19]:
+              - generic:
+                - img
+              - generic: iPad
+          - link "iPhone" [ref=e21] [cursor=pointer]:
+            - /url: https://www.apple.com/iphone/
+            - generic [ref=e22]:
+              - generic:
+                - img
+              - generic: iPhone
+          - link "Watch" [ref=e24] [cursor=pointer]:
+            - /url: https://www.apple.com/watch/
+            - generic [ref=e25]:
+              - generic:
+                - img
+              - generic: Watch
+          - link "Vision" [ref=e27] [cursor=pointer]:
+            - /url: https://www.apple.com/apple-vision-pro/
+            - generic [ref=e28]:
+              - generic:
+                - img
+              - generic: Vision
+          - link "AirPods" [ref=e30] [cursor=pointer]:
+            - /url: https://www.apple.com/airpods/
+            - generic [ref=e31]:
+              - generic:
+                - img
+              - generic: AirPods
+          - link "TV and Home" [ref=e33] [cursor=pointer]:
+            - /url: https://www.apple.com/tv-home/
+            - generic [ref=e34]:
+              - generic:
+                - img
+              - generic: TV & Home
+          - link "Entertainment" [ref=e36] [cursor=pointer]:
+            - /url: https://www.apple.com/entertainment/
+            - generic [ref=e37]:
+              - generic:
+                - img
+              - generic: Entertainment
+          - link "Accessories" [ref=e39] [cursor=pointer]:
+            - /url: https://www.apple.com/us/shop/goto/buy_accessories
+            - generic [ref=e40]:
+              - generic:
+                - img
+              - generic: Accessories
+          - link "Support" [ref=e42] [cursor=pointer]:
+            - /url: https://support.apple.com/?cid=gn-ols-home-hp-tab
+            - generic [ref=e43]:
+              - generic:
+                - img
+              - generic: Support
+      - listitem [ref=e44]:
+        - button "Search apple.com" [ref=e45] [cursor=pointer]:
+          - generic:
+            - img
+      - listitem [ref=e46]:
+        - button "Shopping Bag" [ref=e48] [cursor=pointer]:
+          - generic:
+            - img
+  - generic [ref=e50]:
+    - navigation [ref=e51]:
+      - generic [ref=e54]:
+        - link "Careers at Apple" [ref=e56] [cursor=pointer]:
+          - /url: https://www.apple.com/careers/us
+        - generic [ref=e57]:
+          - list [ref=e59]:
+            - listitem [ref=e60]:
+              - list [ref=e61]:
+                - listitem [ref=e62]:
+                  - link "Work at Apple" [ref=e64] [cursor=pointer]:
+                    - /url: https://www.apple.com/careers/us/work-at-apple.html
+            - listitem [ref=e65]:
+              - list [ref=e66]:
+                - listitem [ref=e67]:
+                  - link "Life at Apple" [ref=e69] [cursor=pointer]:
+                    - /url: https://www.apple.com/careers/us/life-at-apple.html
+            - listitem [ref=e70]:
+              - list [ref=e71]:
+                - listitem [ref=e72]:
+                  - link "Profile" [ref=e74] [cursor=pointer]:
+                    - /url: /app/en-us/profile/info
+            - listitem [ref=e75]:
+              - list [ref=e76]:
+                - listitem [ref=e77]:
+                  - link "Sign In" [ref=e79] [cursor=pointer]:
+                    - /url: /en-us/login
+          - link "Search" [ref=e81] [cursor=pointer]:
+            - /url: /en-us/search
+    - main [ref=e83]:
+      - generic [ref=e84]:
+        - heading "Find your perfect role." [active] [level=1] [ref=e85]
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic:
+              - img
+            - textbox "Search by role or keyword" [ref=e88]: software engineer intern
+            - generic [ref=e89]: To reveal list of choices, type
+            - button "Clear Field" [ref=e90] [cursor=pointer]:
+              - generic [ref=e91]: 
+          - status [ref=e92]
+        - paragraph [ref=e93]: Most corporate roles require English-language skills.
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - button "Filters" [expanded] [ref=e97] [cursor=pointer]:
+              - img [ref=e98]
+              - generic [ref=e99]: Filters
+            - button "Clear all selected Filters" [ref=e100] [cursor=pointer]: Clear all
+          - generic [ref=e101]:
+            - heading "Refine by" [level=2] [ref=e102]
+            - list "Refine by" [ref=e103]:
+              - listitem [ref=e104]:
+                - heading "Location 1 Filter(s) Applied " [level=3] [ref=e105]:
+                  - button "Location 1 Filter(s) Applied " [ref=e106] [cursor=pointer]:
+                    - generic [ref=e107]:
+                      - generic [ref=e108]: Location
+                      - generic [ref=e109]: "1"
+                      - generic [ref=e110]: 1 Filter(s) Applied
+                    - generic [ref=e111]: 
+                - text: 
+              - listitem [ref=e112]:
+                - heading "Keyword 0 Filter(s) Applied " [level=3] [ref=e113]:
+                  - button "Keyword 0 Filter(s) Applied " [ref=e114] [cursor=pointer]:
+                    - generic [ref=e115]:
+                      - generic [ref=e116]: Keyword
+                      - generic [ref=e117]: 0 Filter(s) Applied
+                    - generic [ref=e118]: 
+              - listitem [ref=e119]:
+                - heading "Teams 0 Filter(s) Applied " [level=3] [ref=e120]:
+                  - button "Teams 0 Filter(s) Applied " [ref=e121] [cursor=pointer]:
+                    - generic [ref=e122]:
+                      - generic [ref=e123]: Teams
+                      - generic [ref=e124]: 0 Filter(s) Applied
+                    - generic [ref=e125]: 
+              - listitem [ref=e126]:
+                - heading "Products and Services 0 Filter(s) Applied " [level=3] [ref=e127]:
+                  - button "Products and Services 0 Filter(s) Applied " [ref=e128] [cursor=pointer]:
+                    - generic [ref=e129]:
+                      - generic [ref=e130]: Products and Services
+                      - generic [ref=e131]: 0 Filter(s) Applied
+                    - generic [ref=e132]: 
+              - listitem [ref=e133]:
+                - heading "Language Skills 0 Filter(s) Applied " [level=3] [ref=e134]:
+                  - button "Language Skills 0 Filter(s) Applied " [ref=e135] [cursor=pointer]:
+                    - generic [ref=e136]:
+                      - generic [ref=e137]: Language Skills
+                      - generic [ref=e138]: 0 Filter(s) Applied
+                    - generic [ref=e139]: 
+        - generic [ref=e140]:
+          - generic [ref=e142]:
+            - button "Saved Searches" [ref=e144] [cursor=pointer]:
+              - img [ref=e146]
+              - img [ref=e147]
+            - button "Favorites" [ref=e149] [cursor=pointer]:
+              - img [ref=e151]
+              - img [ref=e152]
+            - button "Recently viewed roles" [ref=e154] [cursor=pointer]:
+              - img [ref=e156]
+              - img [ref=e157]
+          - generic [ref=e158]:
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - generic [ref=e161]: "Searched for: \"software engineer intern\""
+                - status [ref=e162]: 1 Filter(s) Applied
+              - button "Save Search" [ref=e165] [cursor=pointer]:
+                - img [ref=e166]
+                - text: Save Search
+            - generic [ref=e167]:
+              - status [ref=e168]
+              - generic [ref=e169]:
+                - list "Filter(s) Applied" [ref=e170]:
+                  - listitem [ref=e171]:
+                    - button "Remove United States" [ref=e173] [cursor=pointer]:
+                      - generic "United States" [ref=e174]
+                      - generic [ref=e175]: 
+                - generic [ref=e176]: text
+            - generic [ref=e177]:
+              - status [ref=e178]: The page has been updated. 600+ results were found.
+              - heading "Search Results" [level=2] [ref=e179]
+              - generic [ref=e180]:
+                - status [ref=e181]: 600+ Result(s)
+                - 'button "Sort by: Newest" [ref=e183] [cursor=pointer]':
+                  - generic [ref=e184]: "Sort by:"
+                  - text: Newest
+                  - img [ref=e185]
+              - list "Job Opportunities" [ref=e186]:
+                - listitem [ref=e187]:
+                  - generic [ref=e188] [cursor=pointer]:
+                    - generic [ref=e190]:
+                      - generic [ref=e191]:
+                        - heading "Sr. Solutions Architect-Customer Systems 200663311" [level=3] [ref=e192]:
+                          - link "Sr. Solutions Architect-Customer Systems 200663311" [ref=e193]:
+                            - /url: /en-us/details/200663311-0157/sr-solutions-architect-customer-systems?team=SFTWR
+                            - text: Sr. Solutions Architect-Customer Systems 
+                        - generic [ref=e194]: Software and Services
+                        - generic [ref=e195]: May 31, 2026
+                      - generic [ref=e196]:
+                        - generic [ref=e197]: Location
+                        - text: Austin
+                      - generic [ref=e198]:
+                        - generic [ref=e199]: Actions
+                        - button "Add to Favorites Sr. Solutions Architect-Customer Systems 200663311-0157" [ref=e201]:
+                          - img [ref=e202]
+                    - 'button "Role description: Sr. Solutions Architect-Customer Systems" [ref=e205]': 
+                  - text:  
+                - listitem [ref=e206]:
+                  - generic [ref=e207] [cursor=pointer]:
+                    - generic [ref=e209]:
+                      - generic [ref=e210]:
+                        - heading "AC/DC Power Systems Technician 200664055" [level=3] [ref=e211]:
+                          - link "AC/DC Power Systems Technician 200664055" [ref=e212]:
+                            - /url: /en-us/details/200664055-3401/ac-dc-power-systems-technician?team=HRDWR
+                            - text: AC/DC Power Systems Technician 
+                        - generic [ref=e213]: Hardware
+                        - generic [ref=e214]: May 30, 2026
+                      - generic [ref=e215]:
+                        - generic [ref=e216]: Location
+                        - text: Various Locations within San Francisco Bay Area
+                      - generic [ref=e217]:
+                        - generic [ref=e218]: Actions
+                        - button "Add to Favorites AC/DC Power Systems Technician 200664055-3401" [ref=e220]:
+                          - img [ref=e221]
+                    - 'button "Role description: AC/DC Power Systems Technician" [ref=e224]': 
+                  - text:  
+                - listitem [ref=e225]:
+                  - generic [ref=e226] [cursor=pointer]:
+                    - generic [ref=e228]:
+                      - generic [ref=e229]:
+                        - heading "Software QA Engineer - Photos, Spatial Media, & Camera Apps, Vision Products Software 200665962" [level=3] [ref=e230]:
+                          - link "Software QA Engineer - Photos, Spatial Media, & Camera Apps, Vision Products Software 200665962" [ref=e231]:
+                            - /url: /en-us/details/200665962-3956/software-qa-engineer-photos-spatial-media-camera-apps-vision-products-software?team=SFTWR
+                            - text: Software QA Engineer - Photos, Spatial Media, & Camera Apps, Vision Products Software 
+                        - generic [ref=e232]: Software and Services
+                        - generic [ref=e233]: May 30, 2026
+                      - generic [ref=e234]:
+                        - generic [ref=e235]: Location
+                        - text: Sunnyvale
+                      - generic [ref=e236]:
+                        - generic [ref=e237]: Actions
+                        - button "Add to Favorites Software QA Engineer - Photos, Spatial Media, & Camera Apps, Vision Products Software 200665962-3956" [ref=e239]:
+                          - img [ref=e240]
+                    - 'button "Role description: Software QA Engineer - Photos, Spatial Media, & Camera Apps, Vision Products Software" [ref=e243]': 
+                  - text:  
+                - listitem [ref=e244]:
+                  - generic [ref=e245] [cursor=pointer]:
+                    - generic [ref=e247]:
+                      - generic [ref=e248]:
+                        - heading "AC-DC Power Design Engineer 200665945" [level=3] [ref=e249]:
+                          - link "AC-DC Power Design Engineer 200665945" [ref=e250]:
+                            - /url: /en-us/details/200665945-3749/ac-dc-power-design-engineer?team=HRDWR
+                            - text: AC-DC Power Design Engineer 
+                        - generic [ref=e251]: Hardware
+                        - generic [ref=e252]: May 29, 2026
+                      - generic [ref=e253]:
+                        - generic [ref=e254]: Location
+                        - text: San Jose
+                      - generic [ref=e255]:
+                        - generic [ref=e256]: Actions
+                        - button "Add to Favorites AC-DC Power Design Engineer 200665945-3749" [ref=e258]:
+                          - img [ref=e259]
+                    - 'button "Role description: AC-DC Power Design Engineer" [ref=e262]': 
+                  - text:  
+                - listitem [ref=e263]:
+                  - generic [ref=e264] [cursor=pointer]:
+                    - generic [ref=e266]:
+                      - generic [ref=e267]:
+                        - heading "Electrical Simulation CAE Engineer 200665579" [level=3] [ref=e268]:
+                          - link "Electrical Simulation CAE Engineer 200665579" [ref=e269]:
+                            - /url: /en-us/details/200665579-3749/electrical-simulation-cae-engineer?team=HRDWR
+                            - text: Electrical Simulation CAE Engineer 
+                        - generic [ref=e270]: Hardware
+                        - generic [ref=e271]: May 29, 2026
+                      - generic [ref=e272]:
+                        - generic [ref=e273]: Location
+                        - text: San Jose
+                      - generic [ref=e274]:
+                        - generic [ref=e275]: Actions
+                        - button "Add to Favorites Electrical Simulation CAE Engineer 200665579-3749" [ref=e277]:
+                          - img [ref=e278]
+                    - 'button "Role description: Electrical Simulation CAE Engineer" [ref=e281]': 
+                  - text:  
+                - listitem [ref=e282]:
+                  - generic [ref=e283] [cursor=pointer]:
+                    - generic [ref=e285]:
+                      - generic [ref=e286]:
+                        - heading "OS Performance Tools Engineer 200665933" [level=3] [ref=e287]:
+                          - link "OS Performance Tools Engineer 200665933" [ref=e288]:
+                            - /url: /en-us/details/200665933-0836/os-performance-tools-engineer?team=SFTWR
+                            - text: OS Performance Tools Engineer 
+                        - generic [ref=e289]: Software and Services
+                        - generic [ref=e290]: May 29, 2026
+                      - generic [ref=e291]:
+                        - generic [ref=e292]: Location
+                        - text: Cupertino
+                      - generic [ref=e293]:
+                        - generic [ref=e294]: Actions
+                        - button "Add to Favorites OS Performance Tools Engineer 200665933-0836" [ref=e296]:
+                          - img [ref=e297]
+                    - 'button "Role description: OS Performance Tools Engineer" [ref=e300]': 
+                  - text:  
+                - listitem [ref=e301]:
+                  - generic [ref=e302] [cursor=pointer]:
+                    - generic [ref=e304]:
+                      - generic [ref=e305]:
+                        - heading "Product Manager, AI Finance Transformation 200665942" [level=3] [ref=e306]:
+                          - link "Product Manager, AI Finance Transformation 200665942" [ref=e307]:
+                            - /url: /en-us/details/200665942-0836/product-manager-ai-finance-transformation?team=CORSV
+                            - text: Product Manager, AI Finance Transformation 
+                        - generic [ref=e308]: Corporate Functions
+                        - generic [ref=e309]: May 29, 2026
+                      - generic [ref=e310]:
+                        - generic [ref=e311]: Location
+                        - text: Cupertino
+                      - generic [ref=e312]:
+                        - generic [ref=e313]: Actions
+                        - button "Add to Favorites Product Manager, AI Finance Transformation 200665942-0836" [ref=e315]:
+                          - img [ref=e316]
+                    - 'button "Role description: Product Manager, AI Finance Transformation" [ref=e319]': 
+                  - text:  
+                - listitem [ref=e320]:
+                  - generic [ref=e321] [cursor=pointer]:
+                    - generic [ref=e323]:
+                      - generic [ref=e324]:
+                        - heading "Hardware Systems Integration, iPhone 200665884" [level=3] [ref=e325]:
+                          - link "Hardware Systems Integration, iPhone 200665884" [ref=e326]:
+                            - /url: /en-us/details/200665884-3543/hardware-systems-integration-iphone?team=HRDWR
+                            - text: Hardware Systems Integration, iPhone 
+                        - generic [ref=e327]: Hardware
+                        - generic [ref=e328]: May 29, 2026
+                      - generic [ref=e329]:
+                        - generic [ref=e330]: Location
+                        - text: San Diego
+                      - generic [ref=e331]:
+                        - generic [ref=e332]: Actions
+                        - button "Add to Favorites Hardware Systems Integration, iPhone 200665884-3543" [ref=e334]:
+                          - img [ref=e335]
+                    - 'button "Role description: Hardware Systems Integration, iPhone" [ref=e338]': 
+                  - text:  
+                - listitem [ref=e339]:
+                  - generic [ref=e340] [cursor=pointer]:
+                    - generic [ref=e342]:
+                      - generic [ref=e343]:
+                        - heading "PC Board Designer 200665644" [level=3] [ref=e344]:
+                          - link "PC Board Designer 200665644" [ref=e345]:
+                            - /url: /en-us/details/200665644-0157/pc-board-designer?team=HRDWR
+                            - text: PC Board Designer 
+                        - generic [ref=e346]: Hardware
+                        - generic [ref=e347]: May 29, 2026
+                      - generic [ref=e348]:
+                        - generic [ref=e349]: Location
+                        - text: Austin
+                      - generic [ref=e350]:
+                        - generic [ref=e351]: Actions
+                        - button "Add to Favorites PC Board Designer 200665644-0157" [ref=e353]:
+                          - img [ref=e354]
+                    - 'button "Role description: PC Board Designer" [ref=e357]': 
+                  - text:  
+                - listitem [ref=e358]:
+                  - generic [ref=e359] [cursor=pointer]:
+                    - generic [ref=e361]:
+                      - generic [ref=e362]:
+                        - heading "AirPods Firmware Engineer 200664813" [level=3] [ref=e363]:
+                          - link "AirPods Firmware Engineer 200664813" [ref=e364]:
+                            - /url: /en-us/details/200664813-3543/airpods-firmware-engineer?team=HRDWR
+                            - text: AirPods Firmware Engineer 
+                        - generic [ref=e365]: Hardware
+                        - generic [ref=e366]: May 29, 2026
+                      - generic [ref=e367]:
+                        - generic [ref=e368]: Location
+                        - text: San Diego
+                      - generic [ref=e369]:
+                        - generic [ref=e370]: Actions
+                        - button "Add to Favorites AirPods Firmware Engineer 200664813-3543" [ref=e372]:
+                          - img [ref=e373]
+                    - 'button "Role description: AirPods Firmware Engineer" [ref=e376]': 
+                  - text:  
+                - listitem [ref=e377]:
+                  - generic [ref=e378] [cursor=pointer]:
+                    - generic [ref=e380]:
+                      - generic [ref=e381]:
+                        - heading "Machine Learning Research Scientist - Health AIML 200665930" [level=3] [ref=e382]:
+                          - link "Machine Learning Research Scientist - Health AIML 200665930" [ref=e383]:
+                            - /url: /en-us/details/200665930-3337/machine-learning-research-scientist-health-aiml?team=MLAI
+                            - text: Machine Learning Research Scientist - Health AIML 
+                        - generic [ref=e384]: Machine Learning and AI
+                        - generic [ref=e385]: May 29, 2026
+                      - generic [ref=e386]:
+                        - generic [ref=e387]: Location
+                        - text: Seattle
+                      - generic [ref=e388]:
+                        - generic [ref=e389]: Actions
+                        - button "Add to Favorites Machine Learning Research Scientist - Health AIML 200665930-3337" [ref=e391]:
+                          - img [ref=e392]
+                    - 'button "Role description: Machine Learning Research Scientist - Health AIML" [ref=e395]': 
+                  - text:  
+                - listitem [ref=e396]:
+                  - generic [ref=e397] [cursor=pointer]:
+                    - generic [ref=e399]:
+                      - generic [ref=e400]:
+                        - heading "Business Development Manager, Apple Business Trade In 200665890" [level=3] [ref=e401]:
+                          - link "Business Development Manager, Apple Business Trade In 200665890" [ref=e402]:
+                            - /url: /en-us/details/200665890-1292/business-development-manager-apple-business-trade-in?team=SLDEV
+                            - text: Business Development Manager, Apple Business Trade In 
+                        - generic [ref=e403]: Sales and Business Development
+                        - generic [ref=e404]: May 29, 2026
+                      - generic [ref=e405]:
+                        - generic [ref=e406]: Location
+                        - text: Chicago
+                      - generic [ref=e407]:
+                        - generic [ref=e408]: Actions
+                        - button "Add to Favorites Business Development Manager, Apple Business Trade In 200665890-1292" [ref=e410]:
+                          - img [ref=e411]
+                    - 'button "Role description: Business Development Manager, Apple Business Trade In" [ref=e414]': 
+                  - text:  
+                - listitem [ref=e415]:
+                  - generic [ref=e416] [cursor=pointer]:
+                    - generic [ref=e418]:
+                      - generic [ref=e419]:
+                        - heading "Business Development Manager, Apple Business Trade In 200665890" [level=3] [ref=e420]:
+                          - link "Business Development Manager, Apple Business Trade In 200665890" [ref=e421]:
+                            - /url: /en-us/details/200665890-0157/business-development-manager-apple-business-trade-in?team=SLDEV
+                            - text: Business Development Manager, Apple Business Trade In 
+                        - generic [ref=e422]: Sales and Business Development
+                        - generic [ref=e423]: May 29, 2026
+                      - generic [ref=e424]:
+                        - generic [ref=e425]: Location
+                        - text: Austin
+                      - generic [ref=e426]:
+                        - generic [ref=e427]: Actions
+                        - button "Add to Favorites Business Development Manager, Apple Business Trade In 200665890-0157" [ref=e429]:
+                          - img [ref=e430]
+                    - 'button "Role description: Business Development Manager, Apple Business Trade In" [ref=e433]': 
+                  - text:  
+                - listitem [ref=e434]:
+                  - generic [ref=e435] [cursor=pointer]:
+                    - generic [ref=e437]:
+                      - generic [ref=e438]:
+                        - heading "Business Development Manager, Apple Business Trade In 200665890" [level=3] [ref=e439]:
+                          - link "Business Development Manager, Apple Business Trade In 200665890" [ref=e440]:
+                            - /url: /en-us/details/200665890-2459/business-development-manager-apple-business-trade-in?team=SLDEV
+                            - text: Business Development Manager, Apple Business Trade In 
+                        - generic [ref=e441]: Sales and Business Development
+                        - generic [ref=e442]: May 29, 2026
+                      - generic [ref=e443]:
+                        - generic [ref=e444]: Location
+                        - text: New York City
+                      - generic [ref=e445]:
+                        - generic [ref=e446]: Actions
+                        - button "Add to Favorites Business Development Manager, Apple Business Trade In 200665890-2459" [ref=e448]:
+                          - img [ref=e449]
+                    - 'button "Role description: Business Development Manager, Apple Business Trade In" [ref=e452]': 
+                  - text:  
+                - listitem [ref=e453]:
+                  - generic [ref=e454] [cursor=pointer]:
+                    - generic [ref=e456]:
+                      - generic [ref=e457]:
+                        - heading "Business Development Manager, Apple Business Trade In 200665890" [level=3] [ref=e458]:
+                          - link "Business Development Manager, Apple Business Trade In 200665890" [ref=e459]:
+                            - /url: /en-us/details/200665890-2605/business-development-manager-apple-business-trade-in?team=SLDEV
+                            - text: Business Development Manager, Apple Business Trade In 
+                        - generic [ref=e460]: Sales and Business Development
+                        - generic [ref=e461]: May 29, 2026
+                      - generic [ref=e462]:
+                        - generic [ref=e463]: Location
+                        - text: Los Angeles
+                      - generic [ref=e464]:
+                        - generic [ref=e465]: Actions
+                        - button "Add to Favorites Business Development Manager, Apple Business Trade In 200665890-2605" [ref=e467]:
+                          - img [ref=e468]
+                    - 'button "Role description: Business Development Manager, Apple Business Trade In" [ref=e471]': 
+                  - text:  
+                - listitem [ref=e472]:
+                  - generic [ref=e473] [cursor=pointer]:
+                    - generic [ref=e475]:
+                      - generic [ref=e476]:
+                        - heading "SW Dev Engineer -ASE -Backend 200665911" [level=3] [ref=e477]:
+                          - link "SW Dev Engineer -ASE -Backend 200665911" [ref=e478]:
+                            - /url: /en-us/details/200665911-0836/sw-dev-engineer-ase-backend?team=SFTWR
+                            - text: SW Dev Engineer -ASE -Backend 
+                        - generic [ref=e479]: Software and Services
+                        - generic [ref=e480]: May 29, 2026
+                      - generic [ref=e481]:
+                        - generic [ref=e482]: Location
+                        - text: Cupertino
+                      - generic [ref=e483]:
+                        - generic [ref=e484]: Actions
+                        - button "Add to Favorites SW Dev Engineer -ASE -Backend 200665911-0836" [ref=e486]:
+                          - img [ref=e487]
+                    - 'button "Role description: SW Dev Engineer -ASE -Backend" [ref=e490]': 
+                  - text:  
+                - listitem [ref=e491]:
+                  - generic [ref=e492] [cursor=pointer]:
+                    - generic [ref=e494]:
+                      - generic [ref=e495]:
+                        - heading "Information Security Business Partner Lead - Product Ops & Supply Chain 200665728" [level=3] [ref=e496]:
+                          - link "Information Security Business Partner Lead - Product Ops & Supply Chain 200665728" [ref=e497]:
+                            - /url: /en-us/details/200665728-3956/information-security-business-partner-lead-product-ops-supply-chain?team=OPMFG
+                            - text: Information Security Business Partner Lead - Product Ops & Supply Chain 
+                        - generic [ref=e498]: Operations and Supply Chain
+                        - generic [ref=e499]: May 29, 2026
+                      - generic [ref=e500]:
+                        - generic [ref=e501]: Location
+                        - text: Sunnyvale
+                      - generic [ref=e502]:
+                        - generic [ref=e503]: Actions
+                        - button "Add to Favorites Information Security Business Partner Lead - Product Ops & Supply Chain 200665728-3956" [ref=e505]:
+                          - img [ref=e506]
+                    - 'button "Role description: Information Security Business Partner Lead - Product Ops & Supply Chain" [ref=e509]': 
+                  - text:  
+                - listitem [ref=e510]:
+                  - generic [ref=e511] [cursor=pointer]:
+                    - generic [ref=e513]:
+                      - generic [ref=e514]:
+                        - heading "Performance & Automation Test Engineer, Creativity Apps 200665875" [level=3] [ref=e515]:
+                          - link "Performance & Automation Test Engineer, Creativity Apps 200665875" [ref=e516]:
+                            - /url: /en-us/details/200665875-0836/performance-automation-test-engineer-creativity-apps?team=SFTWR
+                            - text: Performance & Automation Test Engineer, Creativity Apps 
+                        - generic [ref=e517]: Software and Services
+                        - generic [ref=e518]: May 29, 2026
+                      - generic [ref=e519]:
+                        - generic [ref=e520]: Location
+                        - text: Cupertino
+                      - generic [ref=e521]:
+                        - generic [ref=e522]: Actions
+                        - button "Add to Favorites Performance & Automation Test Engineer, Creativity Apps 200665875-0836" [ref=e524]:
+                          - img [ref=e525]
+                    - 'button "Role description: Performance & Automation Test Engineer, Creativity Apps" [ref=e528]': 
+                  - text:  
+                - listitem [ref=e529]:
+                  - generic [ref=e530] [cursor=pointer]:
+                    - generic [ref=e532]:
+                      - generic [ref=e533]:
+                        - heading "Regional Supplier Manager - Inbound Logistics 200663931" [level=3] [ref=e534]:
+                          - link "Regional Supplier Manager - Inbound Logistics 200663931" [ref=e535]:
+                            - /url: /en-us/details/200663931-0157/regional-supplier-manager-inbound-logistics?team=OPMFG
+                            - text: Regional Supplier Manager - Inbound Logistics 
+                        - generic [ref=e536]: Operations and Supply Chain
+                        - generic [ref=e537]: May 29, 2026
+                      - generic [ref=e538]:
+                        - generic [ref=e539]: Location
+                        - text: Austin
+                      - generic [ref=e540]:
+                        - generic [ref=e541]: Actions
+                        - button "Add to Favorites Regional Supplier Manager - Inbound Logistics 200663931-0157" [ref=e543]:
+                          - img [ref=e544]
+                    - 'button "Role description: Regional Supplier Manager - Inbound Logistics" [ref=e547]': 
+                  - text:  
+                - listitem [ref=e548]:
+                  - generic [ref=e549] [cursor=pointer]:
+                    - generic [ref=e551]:
+                      - generic [ref=e552]:
+                        - heading "Financial Analyst, Operations & Engineering 200665901" [level=3] [ref=e553]:
+                          - link "Financial Analyst, Operations & Engineering 200665901" [ref=e554]:
+                            - /url: /en-us/details/200665901-0836/financial-analyst-operations-engineering?team=CORSV
+                            - text: Financial Analyst, Operations & Engineering 
+                        - generic [ref=e555]: Corporate Functions
+                        - generic [ref=e556]: May 29, 2026
+                      - generic [ref=e557]:
+                        - generic [ref=e558]: Location
+                        - text: Cupertino
+                      - generic [ref=e559]:
+                        - generic [ref=e560]: Actions
+                        - button "Add to Favorites Financial Analyst, Operations & Engineering 200665901-0836" [ref=e562]:
+                          - img [ref=e563]
+                    - 'button "Role description: Financial Analyst, Operations & Engineering" [ref=e566]': 
+                  - text:  
+            - navigation "Results pagination" [ref=e567]:
+              - generic [ref=e568]:
+                - button "Previous Page" [disabled] [ref=e570]:
+                  - generic [ref=e571]: Previous Page
+                  - text: 
+                - generic [ref=e572]:
+                  - generic [ref=e573]: Page Number
+                  - spinbutton "Page Number" [ref=e574]: "1"
+                  - generic [ref=e576]: Page 1
+                  - generic [ref=e577]: Of
+                  - generic [ref=e578]: "247"
+                - button "Next Page" [ref=e580] [cursor=pointer]:
+                  - generic [ref=e581]: Next Page
+                  - text: 
+  - status [ref=e582]: Page 1 Of 247
+  - contentinfo "Apple Footer" [ref=e583]:
+    - generic [ref=e584]:
+      - heading "Apple Footer" [level=2] [ref=e585]
+      - generic [ref=e586]:
+        - paragraph [ref=e587]:
+          - text: Apple is an equal opportunity employer that is committed to inclusion and diversity. We seek to promote equal opportunity for all applicants without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, Veteran status, or other legally protected characteristics.
+          - link "Learn more about your EEO rights as an applicant (Opens in a new window)" [ref=e588] [cursor=pointer]:
+            - /url: https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12ScreenRdr.pdf
+            - text: Learn more about your EEO rights as an applicant
+            - generic [ref=e589]: (Opens in a new window)
+          - text: .
+        - paragraph [ref=e590]: Apple will not discriminate or retaliate against applicants who inquire about, disclose, or discuss their compensation.
+        - paragraph [ref=e591]:
+          - text: Apple participates in the E-Verify program in certain locations as required by law.
+          - link "Learn more about the E-Verify program" [ref=e592] [cursor=pointer]:
+            - /url: https://www.apple.com/careers/pdf/EverifyPosterEnglish.pdf
+          - text: .
+        - paragraph [ref=e593]:
+          - text: Apple is committed to working with and providing reasonable accommodation to applicants with physical and mental disabilities.
+          - link "Reasonable Accommodation and Drug Free Workplace policy Learn more (Opens in a new window)" [ref=e594] [cursor=pointer]:
+            - /url: https://www.apple.com/careers/us/accommodation_drugfree.html
+            - generic [ref=e595]: Reasonable Accommodation and Drug Free Workplace policy
+            - text: Learn more
+            - generic [ref=e596]: (Opens in a new window)
+          - text: .
+        - paragraph [ref=e597]:
+          - text: Apple is a drug-free workplace.
+          - link "Reasonable Accommodation and Drug Free Workplace policy Learn more (Opens in a new window)" [ref=e598] [cursor=pointer]:
+            - /url: https://www.apple.com/careers/us/accommodation_drugfree.html
+            - generic [ref=e599]: Reasonable Accommodation and Drug Free Workplace policy
+            - text: Learn more
+            - generic [ref=e600]: (Opens in a new window)
+          - text: .
+        - paragraph [ref=e601]:
+          - text: Apple will consider for employment all qualified applicants with criminal histories in a manner consistent with applicable law. If you’re applying for a position in San Francisco, review the
+          - link "San Francisco Fair Chance Ordinance guidelines (opens in a new window)" [ref=e602] [cursor=pointer]:
+            - /url: https://www.sf.gov/sites/default/files/2022-12/FCO%20poster2020_0.pdf
+            - generic [ref=e603]: San Francisco Fair Chance Ordinance
+            - text: guidelines
+            - generic [ref=e604]: (opens in a new window)
+          - text: applicable in your area.
+        - paragraph [ref=e605]: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.
+      - navigation "Breadcrumbs" [ref=e606]:
+        - link "Apple" [ref=e607] [cursor=pointer]:
+          - /url: http://www.apple.com/
+          - generic [ref=e608]: 
+          - generic [ref=e609]: Apple
+        - generic [ref=e610]:
+          - list:
+            - listitem [ref=e611]:
+              - link "Careers at Apple" [ref=e612] [cursor=pointer]:
+                - /url: /careers/us/index/index.html
+                - generic [ref=e613]: Careers at Apple
+            - listitem [ref=e614]:
+              - generic [ref=e615]: Careers at Apple
+      - navigation "Apple Directory" [ref=e616]:
+        - generic [ref=e617]:
+          - generic:
+            - heading "Shop and Learn" [level=3] [ref=e618]:
+              - generic [ref=e619]: Shop and Learn
+            - list [ref=e620]:
+              - listitem [ref=e621]:
+                - link "Store" [ref=e622] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/store
+              - listitem [ref=e623]:
+                - link "Mac" [ref=e624] [cursor=pointer]:
+                  - /url: https://www.apple.com/mac/
+              - listitem [ref=e625]:
+                - link "iPad" [ref=e626] [cursor=pointer]:
+                  - /url: https://www.apple.com/ipad/
+              - listitem [ref=e627]:
+                - link "iPhone" [ref=e628] [cursor=pointer]:
+                  - /url: https://www.apple.com/iphone/
+              - listitem [ref=e629]:
+                - link "Watch" [ref=e630] [cursor=pointer]:
+                  - /url: https://www.apple.com/watch/
+              - listitem [ref=e631]:
+                - link "Vision" [ref=e632] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-vision-pro/
+              - listitem [ref=e633]:
+                - link "AirPods" [ref=e634] [cursor=pointer]:
+                  - /url: https://www.apple.com/airpods/
+              - listitem [ref=e635]:
+                - link "TV & Home" [ref=e636] [cursor=pointer]:
+                  - /url: https://www.apple.com/tv-home/
+              - listitem [ref=e637]:
+                - link "AirTag" [ref=e638] [cursor=pointer]:
+                  - /url: https://www.apple.com/airtag/
+              - listitem [ref=e639]:
+                - link "Accessories" [ref=e640] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/buy_accessories
+              - listitem [ref=e641]:
+                - link "Gift Cards" [ref=e642] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/giftcards
+          - generic:
+            - heading "Apple Wallet" [level=3] [ref=e643]:
+              - generic [ref=e644]: Apple Wallet
+            - list [ref=e645]:
+              - listitem [ref=e646]:
+                - link "Wallet" [ref=e647] [cursor=pointer]:
+                  - /url: https://www.apple.com/wallet/
+              - listitem [ref=e648]:
+                - link "Apple Card" [ref=e649] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-card/
+              - listitem [ref=e650]:
+                - link "Apple Pay" [ref=e651] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-pay/
+              - listitem [ref=e652]:
+                - link "Apple Cash" [ref=e653] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-cash/
+        - generic [ref=e654]:
+          - generic:
+            - heading "Account" [level=3] [ref=e655]:
+              - generic [ref=e656]: Account
+            - list [ref=e657]:
+              - listitem [ref=e658]:
+                - link "Manage Your Apple Account" [ref=e659] [cursor=pointer]:
+                  - /url: https://account.apple.com/
+              - listitem [ref=e660]:
+                - link "Apple Store Account" [ref=e661] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/account
+              - listitem [ref=e662]:
+                - link "iCloud.com" [ref=e663] [cursor=pointer]:
+                  - /url: https://www.icloud.com
+          - generic:
+            - heading "Entertainment" [level=3] [ref=e664]:
+              - generic [ref=e665]: Entertainment
+            - list [ref=e666]:
+              - listitem [ref=e667]:
+                - link "Apple One" [ref=e668] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-one/
+              - listitem [ref=e669]:
+                - link "Apple TV+" [ref=e670] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-tv-plus/
+              - listitem [ref=e671]:
+                - link "Apple Music" [ref=e672] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-music/
+              - listitem [ref=e673]:
+                - link "Apple Arcade" [ref=e674] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-arcade/
+              - listitem [ref=e675]:
+                - link "Apple Fitness+" [ref=e676] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-fitness-plus/
+              - listitem [ref=e677]:
+                - link "Apple News+" [ref=e678] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-news/
+              - listitem [ref=e679]:
+                - link "Apple Podcasts" [ref=e680] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-podcasts/
+              - listitem [ref=e681]:
+                - link "Apple Books" [ref=e682] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-books/
+              - listitem [ref=e683]:
+                - link "App Store" [ref=e684] [cursor=pointer]:
+                  - /url: https://www.apple.com/app-store/
+        - generic [ref=e685]:
+          - generic:
+            - heading "Apple Store" [level=3] [ref=e686]:
+              - generic [ref=e687]: Apple Store
+            - list [ref=e688]:
+              - listitem [ref=e689]:
+                - link "Find a Store" [ref=e690] [cursor=pointer]:
+                  - /url: https://www.apple.com/retail/
+              - listitem [ref=e691]:
+                - link "Genius Bar" [ref=e692] [cursor=pointer]:
+                  - /url: https://www.apple.com/retail/geniusbar/
+              - listitem [ref=e693]:
+                - link "Today at Apple" [ref=e694] [cursor=pointer]:
+                  - /url: https://www.apple.com/today/
+              - listitem [ref=e695]:
+                - link "Group Reservations" [ref=e696] [cursor=pointer]:
+                  - /url: https://www.apple.com/today/groups/
+              - listitem [ref=e697]:
+                - link "Apple Camp" [ref=e698] [cursor=pointer]:
+                  - /url: https://www.apple.com/today/camp/
+              - listitem [ref=e699]:
+                - link "Apple Store App" [ref=e700] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/apple-store/id375380948
+              - listitem [ref=e701]:
+                - link "Certified Refurbished" [ref=e702] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/special_deals
+              - listitem [ref=e703]:
+                - link "Apple Trade In" [ref=e704] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/trade_in
+              - listitem [ref=e705]:
+                - link "Financing" [ref=e706] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/payment_plan
+              - listitem [ref=e707]:
+                - link "Carrier Deals at Apple" [ref=e708] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/buy_iphone/carrier_offers
+              - listitem [ref=e709]:
+                - link "Order Status" [ref=e710] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/order/list
+              - listitem [ref=e711]:
+                - link "Shopping Help" [ref=e712] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/help
+        - generic [ref=e713]:
+          - generic:
+            - heading "For Business" [level=3] [ref=e714]:
+              - generic [ref=e715]: For Business
+            - list [ref=e716]:
+              - listitem [ref=e717]:
+                - link "Apple and Business" [ref=e718] [cursor=pointer]:
+                  - /url: https://www.apple.com/business/
+              - listitem [ref=e719]:
+                - link "Shop for Business" [ref=e720] [cursor=pointer]:
+                  - /url: https://www.apple.com/retail/business/
+          - generic:
+            - heading "For Education" [level=3] [ref=e721]:
+              - generic [ref=e722]: For Education
+            - list [ref=e723]:
+              - listitem [ref=e724]:
+                - link "Apple and Education" [ref=e725] [cursor=pointer]:
+                  - /url: https://www.apple.com/education/
+              - listitem [ref=e726]:
+                - link "Shop for K-12" [ref=e727] [cursor=pointer]:
+                  - /url: https://www.apple.com/education/k12/how-to-buy/
+              - listitem [ref=e728]:
+                - link "Shop for College" [ref=e729] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/educationrouting
+          - generic:
+            - heading "For Healthcare" [level=3] [ref=e730]:
+              - generic [ref=e731]: For Healthcare
+            - list [ref=e732]:
+              - listitem [ref=e733]:
+                - link "Apple in Healthcare" [ref=e734] [cursor=pointer]:
+                  - /url: https://www.apple.com/healthcare/
+              - listitem [ref=e735]:
+                - link "Mac in Healthcare" [ref=e736] [cursor=pointer]:
+                  - /url: https://www.apple.com/healthcare/mac/
+              - listitem [ref=e737]:
+                - link "Health on Apple Watch" [ref=e738] [cursor=pointer]:
+                  - /url: https://www.apple.com/healthcare/apple-watch/
+              - listitem [ref=e739]:
+                - link "Health Records on iPhone and iPad" [ref=e740] [cursor=pointer]:
+                  - /url: https://www.apple.com/healthcare/health-records/
+          - generic:
+            - heading "For Government" [level=3] [ref=e741]:
+              - generic [ref=e742]: For Government
+            - list [ref=e743]:
+              - listitem [ref=e744]:
+                - link "Shop for Government" [ref=e745] [cursor=pointer]:
+                  - /url: https://www.apple.com/r/store/government/
+              - listitem [ref=e746]:
+                - link "Shop for Veterans and Military" [ref=e747] [cursor=pointer]:
+                  - /url: https://www.apple.com/us/shop/goto/eppstore/veteransandmilitary
+        - generic [ref=e748]:
+          - generic:
+            - heading "Apple Values" [level=3] [ref=e749]:
+              - generic [ref=e750]: Apple Values
+            - list [ref=e751]:
+              - listitem [ref=e752]:
+                - link "Accessibility" [ref=e753] [cursor=pointer]:
+                  - /url: https://www.apple.com/accessibility/
+              - listitem [ref=e754]:
+                - link "Education" [ref=e755] [cursor=pointer]:
+                  - /url: https://www.apple.com/education-initiative/
+              - listitem [ref=e756]:
+                - link "Environment" [ref=e757] [cursor=pointer]:
+                  - /url: https://www.apple.com/environment/
+              - listitem [ref=e758]:
+                - link "Inclusion and Diversity" [ref=e759] [cursor=pointer]:
+                  - /url: https://www.apple.com/diversity/
+              - listitem [ref=e760]:
+                - link "Privacy" [ref=e761] [cursor=pointer]:
+                  - /url: https://www.apple.com/privacy/
+              - listitem [ref=e762]:
+                - link "Racial Equity and Justice" [ref=e763] [cursor=pointer]:
+                  - /url: https://www.apple.com/racial-equity-justice-initiative/
+              - listitem [ref=e764]:
+                - link "Supply Chain" [ref=e765] [cursor=pointer]:
+                  - /url: https://www.apple.com/supply-chain/
+          - generic:
+            - heading "About Apple" [level=3] [ref=e766]:
+              - generic [ref=e767]: About Apple
+            - list [ref=e768]:
+              - listitem [ref=e769]:
+                - link "Newsroom" [ref=e770] [cursor=pointer]:
+                  - /url: https://www.apple.com/newsroom/
+              - listitem [ref=e771]:
+                - link "Apple Leadership" [ref=e772] [cursor=pointer]:
+                  - /url: https://www.apple.com/leadership/
+              - listitem [ref=e773]:
+                - link "Career Opportunities" [ref=e774] [cursor=pointer]:
+                  - /url: https://www.apple.com/careers/us/
+              - listitem [ref=e775]:
+                - link "Investors" [ref=e776] [cursor=pointer]:
+                  - /url: https://investor.apple.com/
+              - listitem [ref=e777]:
+                - link "Ethics & Compliance" [ref=e778] [cursor=pointer]:
+                  - /url: https://www.apple.com/compliance/
+              - listitem [ref=e779]:
+                - link "Events" [ref=e780] [cursor=pointer]:
+                  - /url: https://www.apple.com/apple-events/
+              - listitem [ref=e781]:
+                - link "Contact Apple" [ref=e782] [cursor=pointer]:
+                  - /url: https://www.apple.com/contact/
+      - generic [ref=e783]:
+        - generic [ref=e784]:
+          - text: "More ways to shop:"
+          - link "Find an Apple Store" [ref=e785] [cursor=pointer]:
+            - /url: https://www.apple.com/retail/
+          - text: or
+          - link "other retailer" [ref=e786] [cursor=pointer]:
+            - /url: https://locate.apple.com/
+          - text: near you.
+          - generic [ref=e787]: Or call 1-800-MY-APPLE.
+        - link "United States. Choose your country or region" [ref=e789] [cursor=pointer]:
+          - /url: /careers/choose-country-region.html
+          - text: United States
+        - generic [ref=e790]:
+          - generic [ref=e791]: Copyright © 2025 Apple Inc. All rights reserved.
+          - list [ref=e792]:
+            - listitem [ref=e793]:
+              - link "Privacy Policy" [ref=e794] [cursor=pointer]:
+                - /url: https://www.apple.com/legal/privacy/
+            - listitem [ref=e795]:
+              - link "Terms of Use" [ref=e796] [cursor=pointer]:
+                - /url: https://www.apple.com/legal/internet-services/terms/site.html
+            - listitem [ref=e797]:
+              - link "Sales and Refunds" [ref=e798] [cursor=pointer]:
+                - /url: https://www.apple.com/us/shop/goto/help/sales_refunds
+            - listitem [ref=e799]:
+              - link "Legal" [ref=e800] [cursor=pointer]:
+                - /url: https://www.apple.com/legal/
+            - listitem [ref=e801]:
+              - link "Site Map" [ref=e802] [cursor=pointer]:
+                - /url: https://www.apple.com/sitemap/

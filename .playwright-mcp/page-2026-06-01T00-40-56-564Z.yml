@@ -1,0 +1,548 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img
+    - banner [ref=e4]:
+      - navigation [ref=e5]:
+        - menubar [ref=e6]:
+          - menuitem "Brex logo" [ref=e7] [cursor=pointer]:
+            - img [ref=e9]
+          - menuitem "Products" [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]: Products
+            - img [ref=e14]
+          - menuitem "Solutions" [ref=e16] [cursor=pointer]:
+            - generic [ref=e17]: Solutions
+            - img [ref=e18]
+          - menuitem "Resources" [ref=e20] [cursor=pointer]:
+            - generic [ref=e21]: Resources
+            - img [ref=e22]
+          - menuitem "Customers" [ref=e24] [cursor=pointer]
+          - menuitem "Pricing" [ref=e25] [cursor=pointer]
+        - menubar [ref=e26]:
+          - menuitem "Sign in" [ref=e27] [cursor=pointer]
+          - menuitem "See a demo" [ref=e28] [cursor=pointer]
+          - menuitem "Get started" [ref=e29] [cursor=pointer]
+    - main [ref=e30]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e35]:
+            - paragraph [ref=e36]:
+              - link "Careers" [ref=e37] [cursor=pointer]:
+                - /url: /careers/?gh_jid=8523203002#jobsBoard
+            - paragraph [ref=e38]:
+              - img [ref=e39]
+            - paragraph [ref=e41]: Software Engineer, Forward Deployed Agent Builder
+          - heading "Software Engineer, Forward Deployed Agent Builder" [level=1] [ref=e42]
+          - heading "San Francisco, California, United States" [level=4] [ref=e43]
+        - generic [ref=e44]:
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - paragraph [ref=e48]:
+                - strong [ref=e49]: Why join us
+              - paragraph [ref=e50]: Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek.
+              - paragraph [ref=e51]: Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We’re committed to building a diverse team and inclusive culture and believe your potential should only be limited by how big you can dream. We make this a reality by empowering you with the tools, resources, and support you need to grow your career.
+            - paragraph [ref=e52]:
+              - strong [ref=e53]: Engineering at Brex
+            - paragraph [ref=e54]: Engineering at Brex is about building systems that scale with speed and intention. Our teams span Software, Data, Security, and IT, and operate with high autonomy and deep collaboration. We tackle hard technical problems, own our outcomes, and push for excellence at every level — from architecture to deployment. It’s an environment where engineering is a craft, and builders become leaders.
+            - paragraph [ref=e55]:
+              - strong [ref=e56]: What you’ll do
+            - paragraph [ref=e57]: We're building AI agents to automate and augment internal functions at Brex, and we're looking for a hands-on builder to help us do it. You'll embed with teams across the company to understand how they actually work, then design, build, and ship agents that deliver real outcomes. You'll work on top of existing models and frameworks, wiring together tools, MCPs, and internal systems into agentic workflows. This is a technical role where you'll spend most of your time building, shipping, and iterating alongside the people whose work you're automating.
+            - paragraph [ref=e58]:
+              - strong [ref=e59]: Where you’ll work
+            - paragraph [ref=e60]: This role will be based in our San Francisco office. We are a hybrid environment that combines the energy and connections of being in the office with the benefits and flexibility of working from home. We currently require a minimum of three coordinated days in the office per week, Monday, Wednesday, and Thursday. As a perk, we also have up to four weeks per year of fully remote work!
+            - paragraph [ref=e61]:
+              - strong [ref=e62]: "Responsibilities:"
+            - list [ref=e63]:
+              - listitem [ref=e64]: • Embed with partner teams to deeply understand workflows, including shadowing and learning different job functions.
+              - listitem [ref=e65]: • Scope, design, and deploy agents that take over real workflows across internal orgs.
+              - listitem [ref=e66]: • Integrate agents with internal systems, APIs, and data sources.
+              - listitem [ref=e67]: • Define evaluation frameworks, success metrics, and feedback loops to measure and improve agent performance.
+              - listitem [ref=e68]: • Build shared tooling and contribute to playbooks that accelerate deployments, while owning reliability, adoption, and business impact.
+            - paragraph [ref=e69]:
+              - strong [ref=e70]: "Requirements:"
+            - list [ref=e71]:
+              - listitem [ref=e72]: • 4+ years in engineering, technical product/program management, applied AI, or a similar technical role, with a track record of shipping AI/automation systems to production.
+              - listitem [ref=e73]: • Hands-on experience building with LLMs, agent frameworks, and tool-use patterns (e.g., MCP, function calling, RAG) across the full stack (data, APIs, orchestration, product).
+              - listitem [ref=e74]: • Experience designing and optimizing SQL and/or NoSQL databases, including data modeling, query performance tuning, and schema design.
+              - listitem [ref=e75]: • Strong ability to decompose human workflows into scalable, agentic systems, grounded in a deep curiosity for how people work.
+              - listitem [ref=e76]: • High ownership and cross-functional influence, with the ability to quickly build trust across teams and seniority levels.
+            - paragraph [ref=e77]:
+              - strong [ref=e78]: Bonus points
+            - list [ref=e79]:
+              - listitem [ref=e80]: • Experience automating back-office functions rather than just customer-facing AI features.
+              - listitem [ref=e81]: • Experience with OpenClaw, Hermes, or other general-purpose agent harnesses.
+            - paragraph [ref=e82]:
+              - strong [ref=e83]: "Compensation:"
+            - paragraph [ref=e84]: The expected salary range for this role is $152,000 - $240,000. However, the starting base pay will depend on a number of factors including the candidate’s location, skills, experience, market demands, and internal pay parity. Depending on the position offered, equity and other forms of compensation may be provided as part of a total compensation package.
+            - paragraph [ref=e86]:
+              - emphasis [ref=e87]:
+                - text: Please be aware, job-seekers may be at risk of targeting by malicious actors looking for personal data. Brex recruiters will only reach out via LinkedIn or email with a
+                - link "brex.com" [ref=e88] [cursor=pointer]:
+                  - /url: http://brex.com/
+                - text: domain. Any outreach claiming to be from Brex via other sources should be ignored.
+          - iframe [ref=e91]:
+            - generic [active] [ref=f32e1]:
+              - main [ref=f32e2]:
+                - generic [ref=f32e3]:
+                  - generic [ref=f32e5]:
+                    - img [ref=f32e6]
+                    - generic [ref=f32e8]:
+                      - paragraph [ref=f32e9]: Create a Job Alert
+                      - paragraph [ref=f32e10]: Interested in building your career at Brex? Get future opportunities sent straight to your email.
+                      - link "Create alert" [ref=f32e11] [cursor=pointer]:
+                        - /url: https://my.greenhouse.io/users/sign_in?job_board=brex&source=job_alert_post
+                  - separator [ref=f32e12]
+                  - generic [ref=f32e13]:
+                    - generic [ref=f32e14]:
+                      - generic [ref=f32e15]:
+                        - heading "Apply for this job" [level=2] [ref=f32e17]
+                        - generic [ref=f32e18]:
+                          - paragraph [ref=f32e20]: "*"
+                          - paragraph [ref=f32e21]: indicates a required field
+                      - button "Quick Apply with MyGreenhouse" [ref=f32e24] [cursor=pointer]
+                    - generic [ref=f32e25]:
+                      - generic [ref=f32e26]:
+                        - generic [ref=f32e29]:
+                          - generic [ref=f32e30]: First Name*
+                          - textbox "First Name" [ref=f32e31]
+                        - generic [ref=f32e34]:
+                          - generic [ref=f32e35]: Last Name*
+                          - textbox "Last Name" [ref=f32e36]
+                        - generic [ref=f32e39]:
+                          - generic [ref=f32e40]: Preferred First Name
+                          - textbox "Preferred First Name" [ref=f32e41]
+                        - generic [ref=f32e44]:
+                          - generic [ref=f32e45]: Email*
+                          - textbox "Email" [ref=f32e46]
+                        - group "Phone" [ref=f32e48]:
+                          - generic [ref=f32e49]: Phone
+                          - generic [ref=f32e52]:
+                            - generic [ref=f32e53]: Country
+                            - generic [ref=f32e54]:
+                              - log [ref=f32e56]
+                              - generic [ref=f32e58]:
+                                - combobox "Country" [ref=f32e61]
+                                - button "Toggle flyout" [ref=f32e63] [cursor=pointer]:
+                                  - img [ref=f32e64]
+                          - generic [ref=f32e68]:
+                            - generic [ref=f32e69]: Phone
+                            - textbox "Phone" [ref=f32e71]
+                        - generic [ref=f32e72]:
+                          - generic [ref=f32e74]:
+                            - generic [ref=f32e75]: Location (City)*
+                            - generic [ref=f32e76]:
+                              - log [ref=f32e78]
+                              - combobox "Location (City)" [ref=f32e83]
+                              - textbox
+                          - button "Locate me" [ref=f32e84] [cursor=pointer]
+                        - group "Resume/CV" [ref=f32e86]:
+                          - generic [ref=f32e87]: Resume/CV
+                          - generic [ref=f32e89]:
+                            - generic [ref=f32e91]:
+                              - button "Attach" [ref=f32e92] [cursor=pointer]
+                              - generic [ref=f32e93]: Attach
+                              - button "Attach" [ref=f32e94]
+                            - button "Dropbox" [ref=f32e96] [cursor=pointer]
+                            - generic [ref=f32e98]:
+                              - button "Enter manually" [ref=f32e99] [cursor=pointer]
+                              - generic [ref=f32e100]: Enter manually
+                            - paragraph [ref=f32e101]: "Accepted file types: pdf, doc, docx, txt, rtf"
+                        - group "Cover Letter" [ref=f32e103]:
+                          - generic [ref=f32e104]: Cover Letter
+                          - generic [ref=f32e106]:
+                            - generic [ref=f32e108]:
+                              - button "Attach" [ref=f32e109] [cursor=pointer]
+                              - generic [ref=f32e110]: Attach
+                              - button "Attach" [ref=f32e111]
+                            - button "Dropbox" [ref=f32e113] [cursor=pointer]
+                            - generic [ref=f32e115]:
+                              - button "Enter manually" [ref=f32e116] [cursor=pointer]
+                              - generic [ref=f32e117]: Enter manually
+                            - paragraph [ref=f32e118]: "Accepted file types: pdf, doc, docx, txt, rtf"
+                      - generic [ref=f32e119]:
+                        - separator [ref=f32e120]
+                        - generic [ref=f32e123]:
+                          - generic [ref=f32e124]: LinkedIn Profile
+                          - textbox "LinkedIn Profile" [ref=f32e125]
+                        - generic [ref=f32e128]:
+                          - generic [ref=f32e129]: Website or GitHub
+                          - textbox "Website or GitHub" [ref=f32e130]
+                        - generic [ref=f32e133]:
+                          - generic [ref=f32e134]: What are your preferred gender pronouns? (She/Her/Hers; He/Him/His; They/Them/Theirs, etc.)
+                          - textbox "What are your preferred gender pronouns? (She/Her/Hers; He/Him/His; They/Them/Theirs, etc.)" [ref=f32e135]
+                        - generic [ref=f32e138]:
+                          - generic [ref=f32e139]: How did you hear about us?*
+                          - generic [ref=f32e140]:
+                            - log [ref=f32e142]
+                            - generic [ref=f32e144]:
+                              - generic [ref=f32e145]:
+                                - generic [ref=f32e146]: Select...
+                                - combobox "How did you hear about us?" [ref=f32e148]
+                              - button "Toggle flyout" [ref=f32e150] [cursor=pointer]:
+                                - img [ref=f32e151]
+                            - textbox
+                        - generic [ref=f32e155]:
+                          - generic [ref=f32e156]: If you heard about us through a referral, please state the Brex employee's name.
+                          - textbox "If you heard about us through a referral, please state the Brex employee's name." [ref=f32e157]
+                        - generic [ref=f32e160]:
+                          - generic [ref=f32e161]: What country are you based in?*
+                          - generic [ref=f32e162]:
+                            - log [ref=f32e164]
+                            - generic [ref=f32e166]:
+                              - generic [ref=f32e167]:
+                                - generic [ref=f32e168]: Select...
+                                - combobox "What country are you based in?" [ref=f32e170]
+                              - button "Toggle flyout" [ref=f32e172] [cursor=pointer]:
+                                - img [ref=f32e173]
+                            - textbox
+                        - generic [ref=f32e177]:
+                          - generic [ref=f32e178]: Are you authorized to work in the stated location of this role? *
+                          - generic [ref=f32e179]:
+                            - log [ref=f32e181]
+                            - generic [ref=f32e183]:
+                              - generic [ref=f32e184]:
+                                - generic [ref=f32e185]: Select...
+                                - combobox "Are you authorized to work in the stated location of this role?" [ref=f32e187]
+                              - button "Toggle flyout" [ref=f32e189] [cursor=pointer]:
+                                - img [ref=f32e190]
+                            - textbox
+                        - generic [ref=f32e194]:
+                          - generic [ref=f32e195]: If you're not authorized to work at the stated location, what sponsorship would you require for the role?
+                          - textbox "If you're not authorized to work at the stated location, what sponsorship would you require for the role?" [ref=f32e196]
+                        - generic [ref=f32e199]:
+                          - generic [ref=f32e200]: Do you currently live in, or plan to relocate to, the specified location to meet this in-office requirement?*
+                          - generic [ref=f32e201]:
+                            - log [ref=f32e203]
+                            - generic [ref=f32e205]:
+                              - generic [ref=f32e206]:
+                                - generic [ref=f32e207]: Select...
+                                - combobox "Do you currently live in, or plan to relocate to, the specified location to meet this in-office requirement?" [ref=f32e209]
+                              - button "Toggle flyout" [ref=f32e211] [cursor=pointer]:
+                                - img [ref=f32e212]
+                            - textbox
+                        - generic [ref=f32e214]:
+                          - generic [ref=f32e216]:
+                            - generic [ref=f32e217]: Do you consent to Brex processing your personal information for the purpose of assessing your candidacy for this position in accordance with Brex’s Applicant Privacy Policy?*
+                            - generic [ref=f32e218]:
+                              - log [ref=f32e220]
+                              - generic [ref=f32e222]:
+                                - generic [ref=f32e223]:
+                                  - generic [ref=f32e224]: Select...
+                                  - combobox "Do you consent to Brex processing your personal information for the purpose of assessing your candidacy for this position in accordance with Brex’s Applicant Privacy Policy?" [ref=f32e226]
+                                - button "Toggle flyout" [ref=f32e228] [cursor=pointer]:
+                                  - img [ref=f32e229]
+                              - textbox
+                          - paragraph [ref=f32e233]:
+                            - text: To read Brex's Applicant Privacy Policy, please click this link
+                            - link "here" [ref=f32e234] [cursor=pointer]:
+                              - /url: https://www.brex.com/legal/applicant-privacy-policy-global
+                            - text: .
+                        - generic [ref=f32e237]:
+                          - generic [ref=f32e238]: This role requires in-office work three days per week (Mon, Wed, Thurs). Do you acknowledge and agree to this requirement?*
+                          - generic [ref=f32e239]:
+                            - log [ref=f32e241]
+                            - generic [ref=f32e243]:
+                              - generic [ref=f32e244]:
+                                - generic [ref=f32e245]: Select...
+                                - combobox "This role requires in-office work three days per week (Mon, Wed, Thurs). Do you acknowledge and agree to this requirement?" [ref=f32e247]
+                              - button "Toggle flyout" [ref=f32e249] [cursor=pointer]:
+                                - img [ref=f32e250]
+                            - textbox
+                        - generic [ref=f32e254]:
+                          - generic [ref=f32e255]: Do you currently, or have you previously, worked at Capital One or a company acquired by Capital One as an employee, contractor, consultant, or temp? (For example Capital One Bank, N.A., Capital One Services, Inc., Chevy Chase Bank, Discover, Hibernia, ING Direct, North Fork Bank)*
+                          - generic [ref=f32e256]:
+                            - log [ref=f32e258]
+                            - generic [ref=f32e260]:
+                              - generic [ref=f32e261]:
+                                - generic [ref=f32e262]: Select...
+                                - combobox "Do you currently, or have you previously, worked at Capital One or a company acquired by Capital One as an employee, contractor, consultant, or temp? (For example Capital One Bank, N.A., Capital One Services, Inc., Chevy Chase Bank, Discover, Hibernia, ING Direct, North Fork Bank)" [ref=f32e264]
+                              - button "Toggle flyout" [ref=f32e266] [cursor=pointer]:
+                                - img [ref=f32e267]
+                            - textbox
+                        - generic [ref=f32e271]:
+                          - generic [ref=f32e272]: If you currently work, or have previously worked, at Capital One or a company acquired by Capital One, please provide your Employee ID (EID). This information is required for former/current employees.*
+                          - textbox "If you currently work, or have previously worked, at Capital One or a company acquired by Capital One, please provide your Employee ID (EID). This information is required for former/current employees." [ref=f32e273]
+                      - generic [ref=f32e274]:
+                        - separator [ref=f32e275]
+                        - generic [ref=f32e276]:
+                          - heading "Voluntary Self-Identification" [level=2] [ref=f32e277]
+                          - paragraph [ref=f32e278]: For government reporting purposes, we ask candidates to respond to the below self-identification survey. Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a confidential file.
+                          - paragraph [ref=f32e279]: As set forth in Brex’s Equal Employment Opportunity policy, we do not discriminate on the basis of any protected group status under any applicable law.
+                        - generic [ref=f32e282]:
+                          - generic [ref=f32e283]: Gender
+                          - generic [ref=f32e284]:
+                            - log [ref=f32e286]
+                            - generic [ref=f32e288]:
+                              - generic [ref=f32e289]:
+                                - generic [ref=f32e290]: Select...
+                                - combobox "Gender" [ref=f32e292]
+                              - button "Toggle flyout" [ref=f32e294] [cursor=pointer]:
+                                - img [ref=f32e295]
+                        - generic [ref=f32e297]:
+                          - generic [ref=f32e299]:
+                            - generic [ref=f32e300]: Are you Hispanic/Latino?
+                            - generic [ref=f32e301]:
+                              - log [ref=f32e303]
+                              - generic [ref=f32e305]:
+                                - generic [ref=f32e306]:
+                                  - generic [ref=f32e307]: Select...
+                                  - combobox "Are you Hispanic/Latino?" [ref=f32e309]
+                                - button "Toggle flyout" [ref=f32e311] [cursor=pointer]:
+                                  - img [ref=f32e312]
+                          - link "Race & Ethnicity Definitions" [ref=f32e314] [cursor=pointer]:
+                            - /url: https://job-boards.cdn.greenhouse.io/docs/2023/RaceEthnicityDefinitions.pdf
+                        - generic [ref=f32e315]:
+                          - paragraph [ref=f32e316]: "If you believe you belong to any of the categories of protected veterans listed below, please indicate by making the appropriate selection. As a government contractor subject to the Vietnam Era Veterans Readjustment Assistance Act (VEVRAA), we request this information in order to measure the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. Classification of protected categories is as follows:"
+                          - paragraph [ref=f32e317]: "A \"disabled veteran\" is one of the following: a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or a person who was discharged or released from active duty because of a service-connected disability."
+                          - paragraph [ref=f32e318]: A "recently separated veteran" means any veteran during the three-year period beginning on the date of such veteran's discharge or release from active duty in the U.S. military, ground, naval, or air service.
+                          - paragraph [ref=f32e319]: An "active duty wartime or campaign badge veteran" means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.
+                          - paragraph [ref=f32e320]: An "Armed forces service medal veteran" means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.
+                        - generic [ref=f32e323]:
+                          - generic [ref=f32e324]: Veteran Status
+                          - generic [ref=f32e325]:
+                            - log [ref=f32e327]
+                            - generic [ref=f32e329]:
+                              - generic [ref=f32e330]:
+                                - generic [ref=f32e331]: Select...
+                                - combobox "Veteran Status" [ref=f32e333]
+                              - button "Toggle flyout" [ref=f32e335] [cursor=pointer]:
+                                - img [ref=f32e336]
+                        - separator [ref=f32e338]
+                        - generic [ref=f32e339]:
+                          - heading "Voluntary Self-Identification of Disability" [level=2] [ref=f32e340]
+                          - generic [ref=f32e341]:
+                            - generic [ref=f32e342]:
+                              - generic [ref=f32e343]: Form CC-305
+                              - generic [ref=f32e344]: Page 1 of 1
+                            - generic [ref=f32e345]:
+                              - generic [ref=f32e346]: OMB Control Number 1250-0005
+                              - generic [ref=f32e347]: Expires 04/30/2026
+                          - strong [ref=f32e348]: Why are you being asked to complete this form?
+                          - paragraph [ref=f32e349]: We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
+                          - paragraph [ref=f32e350]:
+                            - text: Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at
+                            - link "www.dol.gov/ofccp" [ref=f32e351] [cursor=pointer]:
+                              - /url: https://www.dol.gov/ofccp
+                            - text: .
+                          - strong [ref=f32e352]: How do you know if you have a disability?
+                          - paragraph [ref=f32e353]:
+                            - text: A disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability.
+                            - strong [ref=f32e354]: "Disabilities include, but are not limited to:"
+                          - list [ref=f32e355]:
+                            - listitem [ref=f32e356]: Alcohol or other substance use disorder (not currently using drugs illegally)
+                            - listitem [ref=f32e357]: Autoimmune disorder, for example, lupus, fibromyalgia, rheumatoid arthritis, HIV/AIDS
+                            - listitem [ref=f32e358]: Blind or low vision
+                            - listitem [ref=f32e359]: Cancer (past or present)
+                            - listitem [ref=f32e360]: Cardiovascular or heart disease
+                            - listitem [ref=f32e361]: Celiac disease
+                            - listitem [ref=f32e362]: Cerebral palsy
+                            - listitem [ref=f32e363]: Deaf or serious difficulty hearing
+                            - listitem [ref=f32e364]: Diabetes
+                            - listitem [ref=f32e365]: Disfigurement, for example, disfigurement caused by burns, wounds, accidents, or congenital disorders
+                            - listitem [ref=f32e366]: Epilepsy or other seizure disorder
+                            - listitem [ref=f32e367]: Gastrointestinal disorders, for example, Crohn's Disease, irritable bowel syndrome
+                            - listitem [ref=f32e368]: Intellectual or developmental disability
+                            - listitem [ref=f32e369]: Mental health conditions, for example, depression, bipolar disorder, anxiety disorder, schizophrenia, PTSD
+                            - listitem [ref=f32e370]: Missing limbs or partially missing limbs
+                            - listitem [ref=f32e371]: Mobility impairment, benefiting from the use of a wheelchair, scooter, walker, leg brace(s) and/or other supports
+                            - listitem [ref=f32e372]: Nervous system condition, for example, migraine headaches, Parkinson’s disease, multiple sclerosis (MS)
+                            - listitem [ref=f32e373]: Neurodivergence, for example, attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, dyslexia, dyspraxia, other learning disabilities
+                            - listitem [ref=f32e374]: Partial or complete paralysis (any cause)
+                            - listitem [ref=f32e375]: Pulmonary or respiratory conditions, for example, tuberculosis, asthma, emphysema
+                            - listitem [ref=f32e376]: Short stature (dwarfism)
+                            - listitem [ref=f32e377]: Traumatic brain injury
+                        - generic [ref=f32e380]:
+                          - generic [ref=f32e381]: Disability Status
+                          - generic [ref=f32e382]:
+                            - log [ref=f32e384]
+                            - generic [ref=f32e386]:
+                              - generic [ref=f32e387]:
+                                - generic [ref=f32e388]: Select...
+                                - combobox "Disability Status" [ref=f32e390]
+                              - button "Toggle flyout" [ref=f32e392] [cursor=pointer]:
+                                - img [ref=f32e393]
+                        - paragraph [ref=f32e396]: "PUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete."
+                      - button "Submit application" [ref=f32e398] [cursor=pointer]
+              - iframe [ref=f32e401]:
+                - generic [ref=f36e6]:
+                  - text: protected by
+                  - strong [ref=f36e7]: reCAPTCHA
+    - contentinfo [ref=e93]:
+      - navigation [ref=e94]:
+        - generic [ref=e98]:
+          - list [ref=e100]:
+            - listitem [ref=e101]:
+              - link "Brex logo" [ref=e103] [cursor=pointer]:
+                - /url: /
+                - img [ref=e106]
+          - generic [ref=e109]:
+            - heading "Product" [level=2] [ref=e110]
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "Corporate card" [ref=e113] [cursor=pointer]:
+                  - /url: /product/credit-card
+              - listitem [ref=e114]:
+                - link "Business banking" [ref=e115] [cursor=pointer]:
+                  - /url: /product/business-account
+              - listitem [ref=e116]:
+                - link "Expense management" [ref=e117] [cursor=pointer]:
+                  - /url: /product/expense-management
+              - listitem [ref=e118]:
+                - link "Accounting automation" [ref=e119] [cursor=pointer]:
+                  - /url: /platform/accounting-automation
+              - listitem [ref=e120]:
+                - link "Bill pay" [ref=e121] [cursor=pointer]:
+                  - /url: /product/bill-pay
+              - listitem [ref=e122]:
+                - link "Travel" [ref=e123] [cursor=pointer]:
+                  - /url: /product/travel-expense-management
+              - listitem [ref=e124]:
+                - link "Startups" [ref=e125] [cursor=pointer]:
+                  - /url: /solutions/startups
+              - listitem [ref=e126]:
+                - link "Release notes" [ref=e127] [cursor=pointer]:
+                  - /url: /product-announcements
+          - generic [ref=e128]:
+            - heading "Platform" [level=2] [ref=e129]
+            - list [ref=e130]:
+              - listitem [ref=e131]:
+                - link "Intelligence" [ref=e132] [cursor=pointer]:
+                  - /url: /platform/intelligent-finance
+              - listitem [ref=e133]:
+                - link "Global ready" [ref=e134] [cursor=pointer]:
+                  - /url: /product/global
+              - listitem [ref=e135]:
+                - link "Native integrations" [ref=e136] [cursor=pointer]:
+                  - /url: /product/integrations
+              - listitem [ref=e137]:
+                - link "Live Budgets" [ref=e138] [cursor=pointer]:
+                  - /url: /platform/budgets
+              - listitem [ref=e139]:
+                - link "Reporting" [ref=e140] [cursor=pointer]:
+                  - /url: /platform/reporting
+              - listitem [ref=e141]:
+                - link "Mobile app" [ref=e142] [cursor=pointer]:
+                  - /url: /product/mobile
+              - listitem [ref=e143]:
+                - link "API" [ref=e144] [cursor=pointer]:
+                  - /url: /product/api
+          - generic [ref=e145]:
+            - heading "Company" [level=2] [ref=e146]
+            - list [ref=e147]:
+              - listitem [ref=e148]:
+                - link "About Brex" [ref=e149] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e150]:
+                - link "Careers" [ref=e151] [cursor=pointer]:
+                  - /url: /careers
+              - listitem [ref=e152]:
+                - link "Contact" [ref=e153] [cursor=pointer]:
+                  - /url: /contact-us
+              - listitem [ref=e154]:
+                - link "Partner portal" [ref=e155] [cursor=pointer]:
+                  - /url: /partners
+              - listitem [ref=e156]:
+                - link "Press" [ref=e157] [cursor=pointer]:
+                  - /url: /journal/press
+              - listitem [ref=e158]:
+                - link "Security" [ref=e159] [cursor=pointer]:
+                  - /url: /trust
+          - generic [ref=e160]:
+            - heading "Resources" [level=2] [ref=e161]
+            - list [ref=e162]:
+              - listitem [ref=e163]:
+                - link "Customer Hub" [ref=e164] [cursor=pointer]:
+                  - /url: /customer-hub
+              - listitem [ref=e165]:
+                - link "Help center" [ref=e166] [cursor=pointer]:
+                  - /url: /support
+              - listitem [ref=e167]:
+                - link "Resource center & blog" [ref=e168] [cursor=pointer]:
+                  - /url: /resources
+              - listitem [ref=e169]:
+                - link "Spend trends" [ref=e170] [cursor=pointer]:
+                  - /url: /spend-trends
+              - listitem [ref=e171]:
+                - link "Accounting services" [ref=e172] [cursor=pointer]:
+                  - /url: https://partners.brex.com/directory/
+              - listitem [ref=e173]:
+                - link "Status" [ref=e174] [cursor=pointer]:
+                  - /url: https://status.brex.com
+              - listitem [ref=e175]:
+                - link "Implementation services" [ref=e176] [cursor=pointer]:
+                  - /url: /professional-services
+              - listitem [ref=e177]:
+                - link "Legal" [ref=e178] [cursor=pointer]:
+                  - /url: /legal/platform-agreement
+              - listitem [ref=e179]:
+                - link "Privacy" [ref=e180] [cursor=pointer]:
+                  - /url: https://privacy.brex.com/
+              - listitem [ref=e181]:
+                - button "Your Privacy Choices" [ref=e182] [cursor=pointer]
+        - generic [ref=e186]:
+          - list [ref=e188]:
+            - listitem [ref=e189]:
+              - generic [ref=e190]:
+                - link "Facebook" [ref=e191] [cursor=pointer]:
+                  - /url: https://www.facebook.com/BrexHQ/
+                  - img [ref=e192]
+                - link "Youtube" [ref=e194] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCQQB8ThG8aBLvp50R0OcscA/
+                  - img [ref=e195]
+                - link "Instagram" [ref=e197] [cursor=pointer]:
+                  - /url: https://www.instagram.com/brexhq/
+                  - img [ref=e198]
+                - link "Linkedin" [ref=e200] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/brexhq/
+                  - img [ref=e201]
+                - link "Twitter" [ref=e203] [cursor=pointer]:
+                  - /url: https://twitter.com/brexHQ/
+                  - img [ref=e204]
+          - list [ref=e207]:
+            - listitem [ref=e208]:
+              - generic [ref=e209]:
+                - link "Download the Brex app from the Apple app store" [ref=e210] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/brex/id1472905508
+                  - img [ref=e211]
+                - link "Download the Brex app from the Google Play store" [ref=e215] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.brex.mobile&hl=en
+                  - img [ref=e216]
+        - generic [ref=e234]:
+          - paragraph [ref=e235]: Brex LLC is a wholly owned subsidiary of Capital One, N.A.
+          - paragraph [ref=e236]: Brex LLC | 650 S 500W Suite 300 | Salt Lake City, UT 84101
+          - paragraph [ref=e237]:
+            - text: The Brex business account consists of Checking, a commercial checking account provided by Column N.A., Member
+            - link "FDIC" [ref=e238] [cursor=pointer]:
+              - /url: https://www.fdic.gov/about/what-we-do
+            - text: (an unaffiliated institution), and Treasury and Vault, cash management services provided by Brex Treasury LLC, Member
+            - link "FINRA" [ref=e239] [cursor=pointer]:
+              - /url: https://brokercheck.finra.org/
+            - text: /
+            - link "SIPC" [ref=e240] [cursor=pointer]:
+              - /url: https://www.sipc.org/
+            - text: and a Capital One company.
+          - paragraph [ref=e241]:
+            - text: Securities are offered through Brex Treasury LLC. Funds in Treasury are not FDIC-insured. Funds in Vault at
+            - link "program banks" [ref=e242] [cursor=pointer]:
+              - /url: /legal/brex-cash-partner-banks
+            - text: are eligible for
+            - link "FDIC" [ref=e243] [cursor=pointer]:
+              - /url: https://www.fdic.gov/about/what-we-do
+            - text: insurance. Funds are not FDIC-insured until they arrive at program banks. Conditions apply.
+          - paragraph [ref=e244]:
+            - text: Investing in securities involves risk and loss of money. Yield and return are variable and fluctuate. Past performance is not a guarantee of future results. This is not an offer to, or implied offer, or a solicitation to, buy or sell any securities. Brex Treasury LLC does not provide legal, tax, or investment advice. The latest statement of financial condition for Brex Treasury LLC is available
+            - link "here" [ref=e245] [cursor=pointer]:
+              - /url: /statement-of-financial-condition
+            - text: . You could lose money by investing in the Fund. Although the Fund seeks to preserve the value of your investment at $1.00 per share, it cannot guarantee it will do so. An investment in the Fund is not insured or guaranteed by the FDIC or any other government agency.
+          - paragraph [ref=e246]: The Brex Mastercard® Corporate Credit Card is issued by Emigrant Bank, Fifth Third Bank N.A., or Airwallex (Netherlands) B.V. (all unaffiliated institutions), pursuant to licenses by Mastercard International Inc. Mastercard is a registered trademark, and the circles design is a trademark of Mastercard International Inc. The Brex Commercial Card is issued by Sutton Bank (an unaffiliated institution), pursuant to a license from Visa® U.S.A. Inc. Can be used where Visa® cards are accepted. No ATM access. All loans are subject to approval, including underwriting, credit, and collateral approval, as well as availability restrictions. Nothing herein should be construed as a commitment to lend.
+          - paragraph [ref=e247]:
+            - text: Certain payment services are provided by Brex Payments LLC, a
+            - link "licensed money transmitter" [ref=e248] [cursor=pointer]:
+              - /url: /legal/state-disclosures
+            - text: "(NMLS #2035354) and a Capital One company."
+          - paragraph [ref=e249]: Some Brex products have associated fees. Plans start at $0 per user, per month, and more advanced features are available for $12 per user, per month.
+  - alert [ref=e250]
+  - iframe [ref=e251]:
+    
+  - generic [ref=e252]:
+    - note "AI assistant" [ref=e253]
+    - note "After AI assistant" [ref=e254]
