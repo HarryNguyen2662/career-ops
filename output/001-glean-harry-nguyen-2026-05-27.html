@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harry Nguyen — CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../templates/fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../templates/fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 28px 36px;
+    margin: 0;
+  }
+
+  .page { width: 100%; max-width: 780px; margin: 0 auto; }
+
+  /* HEADER */
+  .header { margin-bottom: 18px; }
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    line-height: 1.1;
+  }
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px;
+    margin-bottom: 10px;
+  }
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 12px;
+    font-size: 10.5px;
+    color: #555;
+  }
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .separator { color: #ccc; }
+
+  /* SECTIONS */
+  .section { margin-bottom: 16px; }
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: hsl(187, 74%, 32%);
+    border-bottom: 1.5px solid #e2e2e2;
+    padding-bottom: 3px;
+    margin-bottom: 9px;
+  }
+
+  /* SUMMARY */
+  .summary-text { font-size: 10.5px; line-height: 1.7; color: #2f2f2f; }
+
+  /* COMPETENCIES */
+  .competencies-grid { display: flex; flex-wrap: wrap; gap: 6px; }
+  .competency-tag {
+    font-size: 9.5px;
+    font-weight: 500;
+    color: hsl(187, 74%, 28%);
+    background: hsl(187, 40%, 95%);
+    padding: 3px 9px;
+    border-radius: 3px;
+    border: 1px solid hsl(187, 40%, 88%);
+  }
+
+  /* EXPERIENCE */
+  .job { margin-bottom: 13px; }
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 1px;
+  }
+  .job-company {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+  .job-period { font-size: 10px; color: #777; white-space: nowrap; }
+  .job-role { font-size: 11px; font-weight: 600; color: #333; margin-bottom: 5px; }
+  .job ul { padding-left: 16px; margin-top: 4px; }
+  .job li { font-size: 10.5px; line-height: 1.6; color: #333; margin-bottom: 3px; }
+  .job li strong { font-weight: 600; }
+
+  /* PROJECTS */
+  .project { margin-bottom: 11px; }
+  .project-header { display: flex; align-items: baseline; gap: 8px; margin-bottom: 2px; }
+  .project-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+  .project-badge {
+    font-size: 8.5px;
+    font-weight: 500;
+    color: hsl(187, 74%, 32%);
+    background: hsl(187, 40%, 95%);
+    padding: 1px 5px;
+    border-radius: 2px;
+  }
+  .project-tech { font-size: 9.5px; color: #888; margin-bottom: 3px; }
+  .project ul { padding-left: 16px; }
+  .project li { font-size: 10.5px; line-height: 1.6; color: #333; margin-bottom: 3px; }
+  .project li strong { font-weight: 600; }
+
+  /* EDUCATION */
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .edu-title { font-weight: 600; font-size: 11px; color: #333; }
+  .edu-org { color: hsl(270, 70%, 45%); font-weight: 500; }
+  .edu-year { font-size: 10px; color: #777; white-space: nowrap; }
+  .edu-desc { font-size: 10px; color: #666; margin-top: 2px; line-height: 1.5; }
+
+  /* SKILLS */
+  .skills-table { width: 100%; border-collapse: collapse; }
+  .skills-table td { font-size: 10.5px; color: #444; padding: 2px 0; vertical-align: top; }
+  .skills-table .skill-cat { font-weight: 600; color: #333; width: 160px; white-space: nowrap; padding-right: 10px; }
+
+  /* PRINT */
+  @media print {
+    body { padding: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+
+  .avoid-break, .job, .project, .edu-item { break-inside: avoid; page-break-inside: avoid; }
+
+  a { white-space: nowrap; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header avoid-break">
+    <h1>Harry Nguyen</h1>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>+1-470-667-9000</span>
+      <span class="separator">|</span>
+      <a href="mailto:harrynguyenswe@gmail.com">harrynguyenswe@gmail.com</a>
+      <span class="separator">|</span>
+      <a href="https://linkedin.com/in/harrynguyen26">linkedin.com/in/harrynguyen26</a>
+      <span class="separator">|</span>
+      <a href="https://github.com/HarryNguyen2662">github.com/HarryNguyen2662</a>
+      <span class="separator">|</span>
+      <a href="https://timoto.ai">timoto.ai</a>
+      <span class="separator">|</span>
+      <span>Atlanta, GA (open to Bay Area relocation)</span>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">
+      CS @ Georgia State University (GPA 3.75, May 2027) — shipping distributed systems at Chrome scale and operating a production ML serving platform as sole engineer. At Google, designed a C++ IPC transport layer with Protocol Buffers serving 3B+ users (sub-50ms p99, 10K+ req/sec) and eliminated a settings-navigation bottleneck via lock-free concurrent trie search (96% latency reduction, zero regressions). At TiMoto AI, built and operate the full inference stack: vLLM with PagedAttention, gRPC inter-service layer, multi-AZ ECS Fargate — sub-50ms p99, 99.9% uptime. Targeting backend or ML infrastructure roles where system design decisions ship to enterprise scale. Case study: <a href="https://timoto.ai">timoto.ai</a>
+    </div>
+  </div>
+
+  <!-- CORE COMPETENCIES -->
+  <div class="section avoid-break">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">Distributed Systems</span>
+      <span class="competency-tag">gRPC &amp; Protocol Buffers</span>
+      <span class="competency-tag">Concurrent &amp; Lock-Free Programming</span>
+      <span class="competency-tag">ML Inference Serving</span>
+      <span class="competency-tag">vLLM · PagedAttention</span>
+      <span class="competency-tag">Cloud Infrastructure (AWS)</span>
+      <span class="competency-tag">Terraform IaC</span>
+      <span class="competency-tag">Performance Engineering</span>
+      <span class="competency-tag">Reliability &amp; Fault Tolerance</span>
+      <span class="competency-tag">Go · Python · C++</span>
+      <span class="competency-tag">Design Documents</span>
+      <span class="competency-tag">Data at Scale (PostgreSQL · Redis · DynamoDB)</span>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">Google</span>
+        <span class="job-period">May 2025 – Aug 2025</span>
+      </div>
+      <div class="job-role">Software Engineer Intern — Chrome Browser</div>
+      <ul>
+        <li>Designed <strong>C++ IPC transport layer</strong> with Protocol Buffers — selected Protobuf over custom serialization for schema evolution and cross-language compatibility; shipped to Chrome stable channel serving <strong>3B+ active users</strong> at <strong>sub-50ms p99</strong>, <strong>10K+ req/sec</strong></li>
+        <li>Profiled settings navigation as p99 bottleneck at 1,200ms; implemented <strong>lock-free concurrent trie search</strong> eliminating mutex contention — <strong>96% latency reduction</strong>, zero production regressions</li>
+        <li>Architected event-driven TypeScript/React system with observer pattern decoupling UI state propagation — accelerated feature delivery <strong>68%</strong> across <strong>25K+ lines</strong> of Chromium at <strong>95% test coverage</strong></li>
+        <li>Produced design documents and code reviews adopted into the production branch by senior Chrome engineers</li>
+      </ul>
+    </div>
+
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">Develop for Good</span>
+        <span class="job-period">May 2024 – Aug 2024</span>
+      </div>
+      <div class="job-role">Software Engineer Intern</div>
+      <ul>
+        <li>Designed stateless BaaS on AWS — selected JWT over session auth for horizontal scalability; auto-scaling policy supporting <strong>500+ concurrent users</strong>, <strong>90% deployment time reduction</strong> via CI/CD (GitHub Actions)</li>
+        <li>Diagnosed N+1 query bottleneck degrading response to 3s+ on large datasets; redesigned with PostgreSQL indexing achieving <strong>sub-100ms</strong> for 10,000+ records</li>
+      </ul>
+    </div>
+
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">CoderPush</span>
+        <span class="job-period">Sep 2023 – Dec 2023</span>
+      </div>
+      <div class="job-role">Software Engineer Intern</div>
+      <ul>
+        <li>Diagnosed DynamoDB hot-partition failure at <strong>9,000+ req/sec</strong>; redesigned partition key strategy — <strong>30% read throughput improvement</strong> under sustained concurrency</li>
+        <li>Designed idempotent payment APIs with Redis distributed caching (<strong>85% cache hit rate</strong>) and exponential backoff — enforced exactly-once semantics preventing duplicate transactions under network partitions</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section">
+    <div class="section-title">Projects</div>
+
+    <div class="project avoid-break">
+      <div class="project-header">
+        <span class="project-title">TiMoto AI — Production ML Serving Platform</span>
+        <span class="project-badge">SOLE ENGINEER · LIVE</span>
+      </div>
+      <div class="project-tech">vLLM · gRPC · Django · PostgreSQL · AWS ECS Fargate · Terraform &nbsp;|&nbsp; <a href="https://timoto.ai">timoto.ai</a></div>
+      <ul>
+        <li>Designed end-to-end AI motorcycle evaluation platform: vLLM inference engine, gRPC inter-service layer, Django REST backend, PostgreSQL, and AWS cloud infrastructure — built and operated as sole engineer</li>
+        <li>Resolved <strong>production deadlock under concurrent gRPC calls</strong> — traced root cause to shared resource acquisition in conflicting order; redesigned call sequencing — <strong>100% evaluation success rate</strong> at <strong>sub-50ms p99</strong></li>
+        <li>Selected <strong>vLLM with PagedAttention</strong> over naive inference to eliminate KV cache memory fragmentation; deployed with continuous batching — zero OOM failures at production traffic</li>
+        <li>Architected multi-AZ ECS Fargate with Terraform IaC and circuit breaker pattern — <strong>99.9% uptime</strong>, <strong>44% cost reduction</strong> to $40–60/month; auto-rollback on health check failure</li>
+      </ul>
+    </div>
+
+    <div class="project avoid-break">
+      <div class="project-header">
+        <span class="project-title">Pulumi — Open Source Contributor</span>
+      </div>
+      <div class="project-tech">Go · TypeScript · Infrastructure-as-Code &nbsp;|&nbsp; <a href="https://github.com/pulumi/pulumi">24.4K&#9733; github.com/pulumi/pulumi</a></div>
+      <ul>
+        <li>Submitted Go CLI features and bug fixes enabling multi-cloud (AWS/Azure/GCP) provisioning — under active review by core maintainers</li>
+        <li>Analyzed Raft/Paxos consensus in distributed state synchronization layer — studied linearizability guarantees and correctness under concurrent operations and partial failures</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title"><span class="edu-org">Georgia State University</span> &nbsp;·&nbsp; B.S. Computer Science</span>
+        <span class="edu-year">Expected May 2027</span>
+      </div>
+      <div class="edu-desc">
+        GPA: 3.75/4.0 &nbsp;·&nbsp; Coursework: Distributed Systems, Operating Systems, Database Systems, Computer Networks, Data Structures<br>
+        Honors: Presidential Scholarship, Anita Andrew Fellowship, Roxie Alexander Memorial Award
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section avoid-break">
+    <div class="section-title">Technical Skills</div>
+    <table class="skills-table">
+      <tr>
+        <td class="skill-cat">Distributed Systems</td>
+        <td>gRPC, Protocol Buffers, circuit breakers, exactly-once semantics, linearizability, Raft/Paxos, fault tolerance, event-driven architecture</td>
+      </tr>
+      <tr>
+        <td class="skill-cat">ML &amp; AI Infrastructure</td>
+        <td>vLLM, PagedAttention, continuous batching, LoRA/QLoRA (PEFT), DPO, PyTorch, LangChain, Ray, LLM-as-a-judge evaluation, quantization (AWQ/GPTQ)</td>
+      </tr>
+      <tr>
+        <td class="skill-cat">Languages</td>
+        <td>C++, Python, Go, TypeScript, Java, JavaScript, SQL, Bash, Rust</td>
+      </tr>
+      <tr>
+        <td class="skill-cat">Cloud &amp; Infrastructure</td>
+        <td>AWS (ECS Fargate, EC2, S3, RDS), Docker, Kubernetes, Terraform, CI/CD, GitHub Actions, GCP, Azure</td>
+      </tr>
+      <tr>
+        <td class="skill-cat">Frameworks &amp; Databases</td>
+        <td>FastAPI, Django, Node.js, React, REST APIs, PostgreSQL, Redis, MongoDB, DynamoDB</td>
+      </tr>
+    </table>
+  </div>
+
+</div>
+</body>
+</html>

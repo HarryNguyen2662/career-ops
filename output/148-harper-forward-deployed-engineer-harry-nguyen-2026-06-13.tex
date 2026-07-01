@@ -1,0 +1,153 @@
+%-------------------------
+% Resume: Harry Nguyen -- Harper Forward Deployed Engineer
+% Tailored for: Harper FDE -- business outcomes, AI automation, Python/TypeScript, fast shipping, measurable impact
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.3in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheadingShortSplit}[3]{%
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {\normalsize\textbf{#1}} \textbar{} {\normalsize #2} & {\normalsize #3} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      {\small#3} & {\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{%
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {\normalsize #1} & {\normalsize #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSkillHeading}[2]{%
+  \item\small{\textbf{#1}: #2 \vspace{-9pt}}%
+}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Harry Nguyen} \\ \vspace{1pt}
+    \small +1 470-667-9000 $|$
+    \href{mailto:nguyenharry2662@gmail.com}{\underline{nguyenharry2662@gmail.com}} $|$
+    \href{https://www.linkedin.com/in/harrynguyen26/}{\underline{linkedin.com/in/harrynguyen26}} $|$
+    \href{https://github.com/HarryNguyen2662}{\underline{github.com/HarryNguyen2662}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Georgia State University}{Expected May 2027}
+      {Bachelor of Science in Computer Science \textbf{· GPA: 3.75/4.0}}{}
+      \resumeItemListStart
+        \resumeItem{Coursework: Distributed Systems, Operating Systems, Database Systems, Computer Networks, Data Structures}
+        \resumeItem{Honors: Presidential Scholarship, Anita Andrew Fellowship, Roxie Alexander Memorial Award}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheadingShortSplit
+      {TiMoto AI}{Software Engineer}{Sep 2025 -- Present}
+        \resumeItemListStart
+          \resumeItem{Built \textbf{Agentic AI workflow automation} with \textbf{LangChain} + \textbf{LLM-as-a-judge} quality gates -- automated deployment decisions with no human in the loop; \textbf{zero production regressions}; moved from manual review to continuous automated enforcement in weeks; primary engineer on 3-person team}
+          \resumeItem{Reduced infrastructure cost by \textbf{44\%} (\$40--60/mo) -- architected \textbf{multi-AZ AWS ECS Fargate} with \textbf{Terraform IaC}, circuit breaker pattern, and auto-rollback; identified wasteful resource allocation, redesigned provisioning, measured impact; \textbf{99.9\% uptime SLO}}
+          \resumeItem{Designed \textbf{gRPC inter-service layer} (\textbf{Go}/\textbf{Python}) -- traced production deadlock causing 100\% failure rate; redesigned call sequencing; \textbf{100\% success rate} at \textbf{sub-50ms p99} within days of identifying the bottleneck}
+          \resumeItem{Deployed \textbf{vLLM with PagedAttention} -- production \textbf{LLM serving} with KV cache optimization; built \textbf{Prometheus/Grafana} + \textbf{CloudWatch} observability to track model performance vs. cost in real time; \textbf{zero OOM failures}}
+      \resumeItemListEnd
+
+    \resumeSubheadingShortSplit
+      {Google}{Software Engineer Intern -- Chrome Browser}{May 2025 -- Aug 2025}
+      \resumeItemListStart
+        \resumeItem{Eliminated 1,200ms p99 bottleneck in Chrome settings search -- profiled, identified mutex contention, implemented \textbf{lock-free concurrent trie} with \textbf{CAS operations}; \textbf{96\% latency reduction} with zero regressions; shipped to \textbf{3B+ users}; design adopted by senior Chrome engineers}
+        \resumeItem{Shipped \textbf{C++ IPC transport layer} with \textbf{Protocol Buffers} -- evaluated serialization options for memory safety, backwards-compatibility, cross-language support; \textbf{95\% test coverage}; zero production regressions at Chrome scale}
+        \resumeItem{Architected event-driven \textbf{TypeScript/React} system -- \textbf{68\% feature delivery acceleration} across \textbf{25K+ lines} of Chromium; measurable improvement to team throughput at \textbf{95\% test coverage}}
+      \resumeItemListEnd
+
+    \resumeSubheadingShortSplit
+      {Develop for Good}{Software Engineer Intern}{May 2024 -- Aug 2024}
+      \resumeItemListStart
+        \resumeItem{Cut deployment time by \textbf{90\%} via CI/CD (\textbf{GitHub Actions}) -- identified manual release bottleneck, automated the pipeline; auto-scaling BaaS on AWS supporting \textbf{500+ concurrent users}}
+        \resumeItem{Reduced API response from 3s+ to \textbf{sub-100ms} for 10,000+ records -- diagnosed N+1 query bottleneck, redesigned with \textbf{PostgreSQL composite indexing}}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Pulumi -- Open Source Contributor} $|$ \emph{Go, TypeScript, Multi-Cloud IaC}}{\href{https://github.com/pulumi/pulumi}{\underline{github.com/pulumi}}}
+      \resumeItemListStart
+        \resumeItem{Shipped \textbf{Go CLI features} for multi-cloud (AWS/Azure/GCP) provisioning -- open-source infrastructure tooling with measurable developer impact; 24.4K+ star project; prototyped and submitted in days}
+        \resumeItem{Analyzed \textbf{Raft/Paxos consensus} in distributed state synchronization -- correctness under concurrent operations and partial failures}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \resumeSkillHeading{ML \& AI Infrastructure}{\textbf{Agentic AI} (LangChain), \textbf{LLM-as-a-judge evaluation}, \textbf{Generative AI}, vLLM, PagedAttention, LLM APIs (Claude, GPT), PyTorch}
+    \resumeSkillHeading{Languages}{\textbf{Python}, Go, C++, \textbf{TypeScript}, JavaScript, Java, Rust, \textbf{SQL}, Bash}
+    \resumeSkillHeading{Frameworks \& APIs}{FastAPI, Django, \textbf{React}, Node.js, REST APIs, PostgreSQL, Redis, MongoDB, HTML/CSS}
+    \resumeSkillHeading{Cloud \& Infrastructure}{AWS (ECS Fargate, EKS, EC2, S3, RDS), GCP, Terraform, Kubernetes, Docker, CI/CD (GitHub Actions), CloudWatch, Prometheus, Grafana}
+    \resumeSkillHeading{Distributed Systems}{gRPC, Protocol Buffers, Exactly-once semantics, Circuit breakers, Multi-AZ, Fault tolerance, Event-driven architecture}
+    \resumeSkillHeading{AI Dev Tools}{\textbf{Claude Code}, \textbf{Cursor}, \textbf{GitHub Copilot}, Codex}
+  \resumeSubHeadingListEnd
+
+\end{document}

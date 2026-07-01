@@ -1,0 +1,169 @@
+%-------------------------
+% Harry Nguyen — General New Grad | Distributed Systems / Backend Infrastructure
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{amssymb}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.3in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      {\small#3} & {\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingShort}[3]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {\normalsize\textbf{#1}} \textbar{} {\normalsize #2} & {\normalsize #3} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {\normalsize #1} & {\normalsize #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Harry Nguyen} \\ \vspace{1pt}
+    \small Atlanta, GA $|$
+    +1-470-667-9000 $|$
+    \href{mailto:nguyenharry2662@gmail.com}{\underline{nguyenharry2662@gmail.com}} $|$
+    \href{https://linkedin.com/in/harrynguyen26}{\underline{linkedin.com/in/harrynguyen26}} $|$
+    \href{https://github.com/HarryNguyen2662}{\underline{github.com/HarryNguyen2662}} $|$
+    \href{https://timoto.ai}{\underline{timoto.ai}} \\ \vspace{2pt}
+    \small CS @ Georgia State (May 2027) $\cdot$ F-1 $\cdot$ OPT eligible
+\end{center}
+
+\vspace{-6pt}
+\begin{center}
+    \small \textit{New Grad Software Engineer --- distributed systems, high-performance backend, and cloud infrastructure. Shipped C++ to Chrome stable (3B+ users); sole engineer on production AWS platform at sub-50ms p99.}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Georgia State University}{Expected May 2027}
+      {Bachelor of Science in Computer Science \textbf{· GPA: 3.75/4.0}}{Atlanta, GA}
+      \resumeItemListStart
+        \resumeItem{Coursework: Distributed Systems, Operating Systems, Database Systems, Computer Networks, Data Structures \& Algorithms}
+        \resumeItem{Honors: Presidential Scholarship, Anita Andrew Fellowship, Roxie Alexander Memorial Award}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheadingShort
+      {Google}{Software Engineer Intern --- Chrome Browser}{May 2025 -- Aug 2025}
+      \resumeItemListStart
+        \resumeItem{Designed \textbf{C++ IPC transport layer} with Protocol Buffers serving \textbf{3B+ active users} at \textbf{sub-50ms p99}, \textbf{10K+ req/sec} --- selected Protobuf over custom serialization for schema evolution and cross-language compatibility; shipped to Chrome stable}
+        \resumeItem{Profiled settings navigation as p99 bottleneck at 1,200ms; implemented \textbf{lock-free concurrent trie search} eliminating mutex contention --- \textbf{96\% latency reduction}, zero production regressions}
+        \resumeItem{Architected event-driven TypeScript/React system with observer pattern across \textbf{25K+ lines} of Chromium at \textbf{95\% test coverage} --- design documents adopted into production branch by senior Chrome engineers}
+      \resumeItemListEnd
+
+    \resumeSubheadingShort
+      {Develop for Good}{Software Engineer Intern}{May 2024 -- Aug 2024}
+      \resumeItemListStart
+        \resumeItem{Designed stateless BaaS on \textbf{AWS} --- JWT over session auth for horizontal scalability; auto-scaling supporting \textbf{500+ concurrent users}, \textbf{90\% deployment time reduction} via CI/CD (GitHub Actions)}
+        \resumeItem{Diagnosed N+1 query bottleneck degrading response to 3s+; redesigned \textbf{PostgreSQL} indexing achieving \textbf{sub-100ms} for 10,000+ records}
+      \resumeItemListEnd
+
+    \resumeSubheadingShort
+      {CoderPush}{Software Engineer Intern}{Sep 2023 -- Dec 2023}
+      \resumeItemListStart
+        \resumeItem{Diagnosed \textbf{DynamoDB} hot-partition failure at \textbf{9,000+ req/sec}; redesigned partition key strategy --- \textbf{30\% read throughput improvement} under sustained concurrency}
+        \resumeItem{Designed idempotent payment APIs with \textbf{Redis} distributed caching (\textbf{85\% cache hit rate}) and exponential backoff --- enforced exactly-once semantics under network partitions}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PERSONAL PROJECTS-----------
+\section{Personal Projects}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{TiMoto AI --- ML Serving Platform} $|$ \emph{vLLM, gRPC, Django, PostgreSQL, AWS, Terraform}}{\href{https://timoto.ai}{\underline{timoto.ai}}}
+      \resumeItemListStart
+        \resumeItem{\textbf{Sole engineer} --- designed, built, and operate end-to-end platform: vLLM inference, gRPC inter-service layer, Django REST backend, PostgreSQL, and multi-AZ AWS infrastructure}
+        \resumeItem{Resolved \textbf{production deadlock under concurrent gRPC calls} --- traced circular resource acquisition; redesigned call sequencing --- \textbf{100\% success rate} at \textbf{sub-50ms p99}}
+        \resumeItem{Architected multi-AZ ECS Fargate with Terraform IaC and \textbf{circuit breaker pattern} --- \textbf{99.9\% uptime}, \textbf{44\% cost reduction}; auto-rollback on health check failure}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Pulumi --- Open Source Contributor} $|$ \emph{Go, TypeScript, IaC}}{\href{https://github.com/pulumi/pulumi}{\underline{24.4K$\bigstar$ github.com/pulumi/pulumi}}}
+      \resumeItemListStart
+        \resumeItem{Submitted Go CLI features and bug fixes enabling multi-cloud (AWS/Azure/GCP) provisioning --- under active review by core maintainers}
+        \resumeItem{Analyzed \textbf{Raft/Paxos consensus} in distributed state synchronization --- studied linearizability guarantees under concurrent operations and partial failures}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Distributed Systems}{: gRPC, Protocol Buffers, circuit breakers, exactly-once semantics, linearizability, Raft/Paxos, lock-free concurrency, event-driven architecture, fault tolerance} \\
+     \textbf{Performance Engineering}{: p99 latency profiling, mutex elimination, hot-partition diagnosis, sub-50ms SLOs, throughput optimization} \\
+     \textbf{Languages}{: C++, Python, Go, TypeScript, Java, JavaScript, SQL, Bash, Rust} \\
+     \textbf{Cloud \& Infrastructure}{: AWS (ECS Fargate, EC2, S3, RDS, DynamoDB), Docker, Kubernetes, Terraform, CI/CD, GitHub Actions} \\
+     \textbf{Frameworks \& Databases}{: Django, FastAPI, Node.js, React, REST APIs, PostgreSQL, Redis, MongoDB}
+    }}
+ \end{itemize}
+
+\end{document}

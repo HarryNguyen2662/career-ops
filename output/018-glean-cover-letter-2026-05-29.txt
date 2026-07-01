@@ -1,0 +1,22 @@
+Harry Nguyen
+harrynguyenswe@gmail.com | +1 470-667-9000 | timoto.ai | linkedin.com/in/harrynguyen26
+
+Glean — Software Engineer, Context Platform
+
+---
+
+The Context Platform role is exactly what I've been building toward: SDK and API infrastructure that other engineers and AI agents build on. That's the same discipline behind my Pulumi contributions and TiMoto's service architecture, and it's where I want to go deeper.
+
+Three things make me a fit for this team:
+
+Go SDK and API engineering. My open source work on Pulumi — a 24.4K-star IaC SDK — involved shipping Go CLI features and bug fixes that developers use across AWS, Azure, and GCP. Writing CLI-facing code for a platform others depend on taught me to treat API contracts and ergonomics as first-class concerns. That's the same discipline Glean's Context Platform needs: Go-first, developer-facing, high-correctness.
+
+Production backend systems at scale. At Google Chrome, I designed a C++ IPC transport layer with Protocol Buffers serving 3B+ active users at sub-50ms p99 — choosing Protobuf over a custom format specifically for schema evolution and cross-language compatibility, the same trade-offs that matter in REST API versioning and deprecation. At TiMoto, I traced a production gRPC deadlock to circular resource acquisition and redesigned call sequencing to reach 100% success rate at sub-50ms p99. I know what happens when platform primitives fail under concurrent load.
+
+AI infrastructure, not just AI tooling. TiMoto runs a vLLM inference stack with PagedAttention for context-aware responses — I resolved KV cache memory fragmentation under concurrent load through continuous batching and memory-aware scheduling. I use LLM-as-a-judge evaluation pipelines to benchmark outputs systematically. Glean is building the context layer that powers AI agents across enterprise tools. That's exactly the problem I've been working on in a smaller scope.
+
+I'm open to relocating to Mountain View and am targeting a May 2027 start following graduation.
+
+Looking forward to the conversation.
+
+Harry Nguyen

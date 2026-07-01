@@ -5,10 +5,6 @@ data/scan-history.tsv
 data/parser-output/**/*.json
 !data/parser-output/.gitkeep
 !data/parser-output/**/.gitkeep
-reports/*.md
-!reports/.gitkeep
-output/*
-!output/.gitkeep
 batch/logs/*
 !batch/logs/.gitkeep
 batch/batch-state.tsv

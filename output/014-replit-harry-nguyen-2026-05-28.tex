@@ -1,0 +1,163 @@
+%-------------------------
+% Harry Nguyen -- Replit Software Engineering Intern (Summer 2026)
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{amssymb}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.3in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheadingShortSplit}[3]{%
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {\normalsize\textbf{#1}} \textbar{} {\normalsize #2} & {\normalsize #3} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      {\small#3} & {\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{%
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {\normalsize #1} & {\normalsize #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSkillHeading}[2]{%
+  \item\small{\textbf{#1}: #2 \vspace{-9pt}}%
+}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Harry Nguyen} \\ \vspace{1pt}
+    \small +1 470-667-9000 $|$
+    \href{mailto:nguyenharry2662@gmail.com}{\underline{nguyenharry2662@gmail.com}} $|$
+    \href{https://www.linkedin.com/in/harrynguyen26/}{\underline{linkedin.com/in/harrynguyen26}} $|$
+    \href{https://github.com/HarryNguyen2662}{\underline{github.com/HarryNguyen2662}} $|$
+    \href{https://timoto.ai}{\underline{timoto.ai}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Georgia State University}{Expected May 2027}
+      {Bachelor of Science in Computer Science \textbf{· GPA: 3.75/4.0}}{}
+      \resumeItemListStart
+        \resumeItem{Coursework: Distributed Systems, Operating Systems, Database Systems, Computer Networks, Data Structures}
+        \resumeItem{Honors: Presidential Scholarship, Anita Andrew Fellowship, Roxie Alexander Memorial Award}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheadingShortSplit
+      {Google}{Software Engineer Intern --- Chrome Browser}{May 2025 -- Aug 2025}
+      \resumeItemListStart
+        \resumeItem{Architected event-driven \textbf{TypeScript/React} observer system decoupling UI state propagation across \textbf{25K+ lines} of Chromium at \textbf{95\% test coverage} --- accelerated feature delivery \textbf{68\%}; design documents adopted into production branch by senior Chrome engineers}
+        \resumeItem{Designed \textbf{C++ IPC transport layer} with Protocol Buffers serving \textbf{3B+ active users} at \textbf{sub-50ms p99}, \textbf{10K+ req/sec} --- selected Protobuf over custom serialization for schema evolution and zero-copy cross-process message passing}
+        \resumeItem{Profiled settings navigation as p99 bottleneck at 1,200ms; implemented \textbf{lock-free concurrent trie search} eliminating mutex contention --- \textbf{96\% latency reduction}, zero production regressions in Chrome stable channel}
+      \resumeItemListEnd
+
+    \resumeSubheadingShortSplit
+      {CoderPush}{Software Engineer Intern}{Sep 2023 -- Dec 2023}
+      \resumeItemListStart
+        \resumeItem{Diagnosed DynamoDB hot-partition failure at \textbf{9,000+ req/sec}; redesigned partition key strategy and access patterns --- \textbf{30\% read throughput improvement} under sustained high-concurrency traffic}
+        \resumeItem{Designed idempotent payment APIs with Redis distributed caching (\textbf{85\% cache hit rate}) and exponential backoff --- enforced exactly-once semantics preventing duplicate transactions under network partitions}
+      \resumeItemListEnd
+
+    \resumeSubheadingShortSplit
+      {Develop for Good}{Software Engineer Intern}{May 2024 -- Aug 2024}
+      \resumeItemListStart
+        \resumeItem{Designed stateless BaaS on AWS --- selected JWT over session auth for horizontal scalability; auto-scaling supporting \textbf{500+ concurrent users}; diagnosed N+1 query bottleneck, redesigned \textbf{PostgreSQL} indexing achieving \textbf{sub-100ms} for 10,000+ records}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PERSONAL PROJECTS-----------
+\section{Personal Projects}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{TiMoto AI -- AI Dev Platform} $|$ \emph{Python, Django, gRPC, AWS, K8s, Terraform}}{\href{https://timoto.ai}{\underline{timoto.ai}}}
+      \resumeItemListStart
+        \resumeItem{\textbf{Sole engineer} --- designed, built, and operate end-to-end AI developer platform: \textbf{vLLM} inference engine, gRPC inter-service layer, Python/Django REST backend, PostgreSQL, and multi-AZ \textbf{AWS} infrastructure with Terraform IaC}
+        \resumeItem{Resolved \textbf{production deadlock under concurrent gRPC calls} --- traced root cause to circular resource acquisition; redesigned call sequencing with explicit lock ordering --- \textbf{100\% success rate} at \textbf{sub-50ms p99}}
+        \resumeItem{Integrated vLLM with \textbf{PagedAttention} eliminating KV cache memory fragmentation --- zero OOM failures under concurrent load through continuous batching and memory-aware scheduling}
+        \resumeItem{Architected multi-AZ ECS Fargate with circuit breaker pattern and health-check-triggered auto-rollback --- \textbf{99.9\% uptime}, \textbf{44\% cost reduction} to \$40--60/month under production traffic}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Pulumi -- Open Source Contributor} $|$ \emph{Go, TypeScript, IaC}}{\href{https://github.com/pulumi/pulumi}{\underline{24.4K$\bigstar$ github.com/pulumi/pulumi}}}
+      \resumeItemListStart
+        \resumeItem{Submitted Go CLI features and bug fixes enabling multi-cloud (AWS/Azure/GCP) provisioning --- under active review by core maintainers}
+        \resumeItem{Analyzed \textbf{Raft/Paxos consensus} in distributed state synchronization layer --- studied linearizability guarantees and correctness under concurrent operations and partial failures}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+  \resumeSubHeadingListStart
+    \resumeSkillHeading{Languages}{Python, TypeScript, Go, C++, JavaScript, Rust, Java, SQL, Bash}
+    \resumeSkillHeading{Frameworks \& Databases}{Django, FastAPI, React, Node.js, REST APIs, PostgreSQL, MySQL, Redis, DynamoDB}
+    \resumeSkillHeading{ML \& AI Infrastructure}{vLLM, PagedAttention, Continuous Batching, LLM-as-a-judge evaluation, PyTorch, Ray}
+    \resumeSkillHeading{Cloud \& Infrastructure}{AWS (ECS Fargate, EC2, S3, RDS), Kubernetes, Docker, Terraform, CI/CD, GitHub Actions}
+    \resumeSkillHeading{Distributed Systems}{gRPC, Protocol Buffers, Exactly-once semantics, Circuit breakers, Raft/Paxos, Fault tolerance}
+  \resumeSubHeadingListEnd
+
+\end{document}
