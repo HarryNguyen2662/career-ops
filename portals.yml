@@ -1,0 +1,1422 @@
+# Portal Scanner Configuration — Harry Nguyen
+# Generated for new grad / intern: backend, distributed systems, ML infra, platform, SRE.
+# scan.mjs scans Greenhouse/Ashby/Lever entries only; other companies need agent scan or manual pipeline URLs.
+
+location_filter:
+  always_allow:
+    - "United States"
+    - "Atlanta"
+    - "Georgia"
+  allow:
+    - "Remote"
+    - "United States"
+    - "USA"
+    - "Atlanta"
+    - "Georgia"
+    - "Hybrid"
+    - "US"
+  block:
+    - "India"
+    - "Bengaluru"
+    - "Bangalore"
+    - "United Kingdom"
+    - "London"
+    - "Germany"
+    - "Berlin"
+    - "France"
+    - "Paris"
+    - "Singapore"
+    - "Japan"
+    - "Tokyo"
+    - "Brazil"
+    - "São Paulo"
+    - "China"
+    - "Beijing"
+    - "Shanghai"
+
+title_filter:
+  positive:
+    - "Software Engineer"
+    - "Backend Engineer"
+    - "Systems Engineer"
+    - "Platform Engineer"
+    - "Infrastructure Engineer"
+    - "Site Reliability"
+    - "SRE"
+    - "ML Engineer"
+    - "Machine Learning"
+    - "AI Engineer"
+    - "Distributed Systems"
+    - "New Grad"
+    - "University Grad"
+    - "Early Career"
+    - "Intern"
+    - "Internship"
+    - "Graduate"
+    - "University"
+    - "Entry Level"
+    - "Performance Engineer"
+    - "Cloud Engineer"
+    - "DevOps"
+    - "SWE"
+    - "C++"
+    - "Go Engineer"
+    - "Founding Engineer"
+  negative:
+    - "Senior"
+    - "Staff"
+    - ".NET"
+    - "iOS"
+    - "Android"
+    - "PHP"
+    - "Ruby on Rails"
+    - "Embedded"
+    - "Firmware"
+    - "FPGA"
+    - "ASIC"
+    - "Salesforce Admin"
+    - "SAP Consultant"
+    - "Mainframe"
+    - "COBOL"
+    - "Account Executive"
+    - "Recruiter"
+    - "Customer Success Manager"
+  seniority_boost:
+    - "New Grad"
+    - "University"
+    - "Intern"
+    - "Early Career"
+    - "Graduate"
+
+search_queries:
+  - name: Greenhouse — New Grad SWE
+    query: 'site:job-boards.greenhouse.io OR site:boards.greenhouse.io "New Grad" OR "University Grad" OR intern "Software Engineer" OR "Backend"'
+    enabled: true
+
+  - name: Ashby — New Grad SWE
+    query: 'site:jobs.ashbyhq.com "New Grad" OR intern OR "Early Career" "Software Engineer" OR "Backend" OR "Infrastructure"'
+    enabled: true
+
+  - name: Lever — New Grad SWE
+    query: 'site:jobs.lever.co "New Grad" OR intern "Software Engineer" OR "Backend" OR "Platform"'
+    enabled: true
+
+  - name: Greenhouse — ML / Infra
+    query: 'site:job-boards.greenhouse.io "ML Engineer" OR "Machine Learning Infrastructure" OR "Inference" OR "ML Platform" intern OR "New Grad"'
+    enabled: true
+
+  - name: Levels.fyi style — Big Tech new grad
+    query: '"new grad" "software engineer" 2027 OR 2026 site:careers.google.com OR site:careers.microsoft.com OR site:metacareers.com OR site:amazon.jobs'
+    enabled: true
+
+  - name: Simplify — SWE intern
+    query: '"software engineer intern" OR "swe intern" backend distributed systems'
+    enabled: true
+
+  - name: LinkedIn — Atlanta SWE new grad
+    query: 'site:linkedin.com/jobs "Software Engineer" "New Grad" Atlanta OR Remote United States'
+    enabled: true
+
+tracked_companies:
+
+  - name: 1Password
+    careers_url: https://1password.com/careers/
+    scan_method: websearch
+    scan_query: 'site:1password.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: 6Sense
+    careers_url: https://6sense.com/about-us/careers/
+    scan_method: websearch
+    scan_query: 'site:6sense.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Acorns
+    careers_url: https://www.acorns.com/careers/
+    scan_method: websearch
+    scan_query: 'site:www.acorns.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Activision Blizzard
+    careers_url: https://careers.activision.com/search-results
+    scan_method: websearch
+    scan_query: 'site:careers.activision.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Adobe
+    careers_url: https://careers.adobe.com/us/en/search-results
+    scan_method: websearch
+    scan_query: 'site:careers.adobe.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Affirm
+    careers_url: https://job-boards.greenhouse.io/affirm
+    api: https://boards-api.greenhouse.io/v1/boards/affirm/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Airbnb
+    careers_url: https://careers.airbnb.com/positions/
+    scan_method: websearch
+    scan_query: 'site:careers.airbnb.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Airtable
+    careers_url: https://job-boards.greenhouse.io/airtable
+    api: https://boards-api.greenhouse.io/v1/boards/airtable/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Akuna Capital
+    careers_url: https://akunacapital.com/careers/
+    scan_method: websearch
+    scan_query: 'site:akunacapital.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Amazon
+    careers_url: https://www.amazon.jobs/en/search
+    scan_method: websearch
+    scan_query: 'site:www.amazon.jobs "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: AMD
+    careers_url: https://careers.amd.com/careers-home/jobs
+    scan_method: websearch
+    scan_query: 'site:careers.amd.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: American Express
+    careers_url: https://aexp.eightfold.ai/careers
+    scan_method: websearch
+    scan_query: 'site:aexp.eightfold.ai "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Anduril Industries
+    careers_url: https://job-boards.greenhouse.io/andurilindustries
+    api: https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Anthropic
+    careers_url: https://job-boards.greenhouse.io/anthropic
+    api: https://boards-api.greenhouse.io/v1/boards/anthropic/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Apple
+    careers_url: https://jobs.apple.com/en-us/search
+    scan_method: websearch
+    scan_query: 'site:jobs.apple.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Asana
+    careers_url: https://job-boards.greenhouse.io/asana
+    api: https://boards-api.greenhouse.io/v1/boards/asana/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Atlassian
+    careers_url: https://www.atlassian.com/company/careers/all-jobs
+    scan_method: websearch
+    scan_query: 'site:www.atlassian.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Attentive
+    careers_url: https://www.attentive.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.attentive.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Autodesk
+    careers_url: https://autodesk.wd1.myworkdayjobs.com/Ext
+    scan_method: websearch
+    scan_query: 'site:autodesk.wd1.myworkdayjobs.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Bank of America
+    careers_url: https://careers.bankofamerica.com/en-us/search-results
+    scan_method: websearch
+    scan_query: 'site:careers.bankofamerica.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: BCG
+    careers_url: https://careers.bcg.com/global/en/search-results
+    scan_method: websearch
+    scan_query: 'site:careers.bcg.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Belvedere Trading
+    careers_url: https://www.belvederetrading.com/careers/
+    scan_method: websearch
+    scan_query: 'site:www.belvederetrading.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Benchling
+    careers_url: https://www.benchling.com/careers/
+    scan_method: websearch
+    scan_query: 'site:www.benchling.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Better
+    careers_url: https://better.com/about-us/careers
+    scan_method: websearch
+    scan_query: 'site:better.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Block
+    careers_url: https://job-boards.greenhouse.io/block
+    api: https://boards-api.greenhouse.io/v1/boards/block/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Bloomberg
+    careers_url: https://careers.bloomberg.com/job/search
+    scan_method: websearch
+    scan_query: 'site:careers.bloomberg.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Bolt
+    careers_url: https://bolt.eu/careers/
+    scan_method: websearch
+    scan_query: 'site:bolt.eu "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Booking.com
+    careers_url: https://jobs.booking.com/careers
+    scan_method: websearch
+    scan_query: 'site:jobs.booking.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Box
+    careers_url: https://www.box.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.box.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Brex
+    careers_url: https://job-boards.greenhouse.io/brex
+    api: https://boards-api.greenhouse.io/v1/boards/brex/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: ByteDance
+    careers_url: https://jobs.bytedance.com/en/position
+    scan_method: websearch
+    scan_query: 'site:jobs.bytedance.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Canva
+    careers_url: https://www.lifeatcanva.com/en/jobs/
+    scan_method: websearch
+    scan_query: 'site:www.lifeatcanva.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Capital One
+    careers_url: https://www.capitalonecareers.com/search-jobs
+    scan_method: websearch
+    scan_query: 'site:www.capitalonecareers.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Caris
+    careers_url: https://www.carislifesciences.com/careers/
+    scan_method: websearch
+    scan_query: 'site:www.carislifesciences.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Chainalysis
+    careers_url: https://www.chainalysis.com/careers/
+    scan_method: websearch
+    scan_query: 'site:www.chainalysis.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Chicago Trading Company
+    careers_url: https://www.chicagotrading.com/careers/
+    scan_method: websearch
+    scan_query: 'site:www.chicagotrading.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Chime
+    careers_url: https://job-boards.greenhouse.io/chime
+    api: https://boards-api.greenhouse.io/v1/boards/chime/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Circle
+    careers_url: https://www.circle.com/en/careers
+    scan_method: websearch
+    scan_query: 'site:www.circle.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Cisco
+    careers_url: https://careers.cisco.com/global/en/search-results
+    scan_method: websearch
+    scan_query: 'site:careers.cisco.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Citadel
+    careers_url: https://www.citadel.com/careers/open-roles/
+    scan_method: websearch
+    scan_query: 'site:www.citadel.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Citrix
+    careers_url: https://www.cloud.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.cloud.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Cityblock Health
+    careers_url: https://www.cityblock.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.cityblock.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Cloudflare
+    careers_url: https://job-boards.greenhouse.io/cloudflare
+    api: https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Cohere
+    careers_url: https://jobs.ashbyhq.com/cohere
+    notes: "Ashby API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Coinbase
+    careers_url: https://www.coinbase.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.coinbase.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Confluent
+    careers_url: https://careers.confluent.io/
+    scan_method: websearch
+    scan_query: 'site:careers.confluent.io "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Coursera
+    careers_url: https://job-boards.greenhouse.io/coursera
+    api: https://boards-api.greenhouse.io/v1/boards/coursera/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Credit Karma
+    careers_url: https://job-boards.greenhouse.io/creditkarma
+    api: https://boards-api.greenhouse.io/v1/boards/creditkarma/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Cruise
+    careers_url: https://getcruise.com/careers
+    scan_method: websearch
+    scan_query: 'site:getcruise.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: D.E. Shaw
+    careers_url: https://www.deshaw.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.deshaw.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Databricks
+    careers_url: https://job-boards.greenhouse.io/databricks
+    api: https://boards-api.greenhouse.io/v1/boards/databricks/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Datadog
+    careers_url: https://job-boards.greenhouse.io/datadog
+    api: https://boards-api.greenhouse.io/v1/boards/datadog/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Dell
+    careers_url: https://jobs.dell.com/en/search-jobs
+    scan_method: websearch
+    scan_query: 'site:jobs.dell.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Discord
+    careers_url: https://job-boards.greenhouse.io/discord
+    api: https://boards-api.greenhouse.io/v1/boards/discord/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: DocuSign
+    careers_url: https://careers.docusign.com/search-jobs
+    scan_method: websearch
+    scan_query: 'site:careers.docusign.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: DoorDash
+    careers_url: https://careers.doordash.com/
+    scan_method: websearch
+    scan_query: 'site:careers.doordash.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: DraftKings
+    careers_url: https://careers.draftkings.com/
+    scan_method: websearch
+    scan_query: 'site:careers.draftkings.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Dropbox
+    careers_url: https://job-boards.greenhouse.io/dropbox
+    api: https://boards-api.greenhouse.io/v1/boards/dropbox/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: DRW
+    careers_url: https://drw.com/work-at-drw/
+    scan_method: websearch
+    scan_query: 'site:drw.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Duolingo
+    careers_url: https://job-boards.greenhouse.io/duolingo
+    api: https://boards-api.greenhouse.io/v1/boards/duolingo/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: eBay
+    careers_url: https://jobs.ebayinc.com/us/en/search-results
+    scan_method: websearch
+    scan_query: 'site:jobs.ebayinc.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Electronic Arts (EA)
+    careers_url: https://ea.gr8people.com/jobs
+    scan_method: websearch
+    scan_query: 'site:ea.gr8people.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Epic Games
+    careers_url: https://www.epicgames.com/site/en-US/careers/jobs
+    scan_method: websearch
+    scan_query: 'site:www.epicgames.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Expedia
+    careers_url: https://careers.expediagroup.com/jobs/
+    scan_method: websearch
+    scan_query: 'site:careers.expediagroup.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Faire
+    careers_url: https://www.faire.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.faire.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Fanatics
+    careers_url: https://www.fanaticsinc.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.fanaticsinc.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Figma
+    careers_url: https://job-boards.greenhouse.io/figma
+    api: https://boards-api.greenhouse.io/v1/boards/figma/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Fireblocks
+    careers_url: https://www.fireblocks.com/careers/
+    scan_method: websearch
+    scan_query: 'site:www.fireblocks.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Flexport
+    careers_url: https://job-boards.greenhouse.io/flexport
+    api: https://boards-api.greenhouse.io/v1/boards/flexport/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Gecko Robotics
+    careers_url: https://www.geckorobotics.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.geckorobotics.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Gemini
+    careers_url: https://www.gemini.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.gemini.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: General Motors
+    careers_url: https://search-careers.gm.com/en/jobs/
+    scan_method: websearch
+    scan_query: 'site:search-careers.gm.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: GitLab
+    careers_url: https://job-boards.greenhouse.io/gitlab
+    api: https://boards-api.greenhouse.io/v1/boards/gitlab/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Goldman Sachs
+    careers_url: https://higher.gs.com/results
+    scan_method: websearch
+    scan_query: 'site:higher.gs.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: GoodLeap
+    careers_url: https://www.goodleap.com/careers/
+    scan_method: websearch
+    scan_query: 'site:www.goodleap.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Google
+    careers_url: https://careers.google.com/jobs/results/
+    scan_method: websearch
+    scan_query: 'site:careers.google.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Grammarly
+    careers_url: https://www.grammarly.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.grammarly.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Grubhub
+    careers_url: https://careers.grubhub.com/
+    scan_method: websearch
+    scan_query: 'site:careers.grubhub.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Gusto
+    careers_url: https://job-boards.greenhouse.io/gusto
+    api: https://boards-api.greenhouse.io/v1/boards/gusto/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Hewlett Packard Enterprise
+    careers_url: https://careers.hpe.com/us/en/search-results
+    scan_method: websearch
+    scan_query: 'site:careers.hpe.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Hive AI
+    careers_url: https://thehive.ai/about/careers
+    scan_method: websearch
+    scan_query: 'site:thehive.ai "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: HubSpot
+    careers_url: https://job-boards.greenhouse.io/hubspot
+    api: https://boards-api.greenhouse.io/v1/boards/hubspot/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Hudson River Trading
+    careers_url: https://www.hudsonrivertrading.com/careers/
+    scan_method: websearch
+    scan_query: 'site:www.hudsonrivertrading.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Hugging Face
+    careers_url: https://apply.workable.com/huggingface/
+    scan_method: websearch
+    scan_query: 'site:apply.workable.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Hulu
+    careers_url: https://jobs.disneycareers.com/
+    scan_method: websearch
+    scan_query: 'site:jobs.disneycareers.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: IBM
+    careers_url: https://www.ibm.com/careers/search
+    scan_method: websearch
+    scan_query: 'site:www.ibm.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: iCapital Network
+    careers_url: https://www.icapital.com/careers/
+    scan_method: websearch
+    scan_query: 'site:www.icapital.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: IMC
+    careers_url: https://www.imc.com/us/careers/
+    scan_method: websearch
+    scan_query: 'site:www.imc.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Indeed
+    careers_url: https://www.indeed.com/cmp/Indeed/jobs
+    scan_method: websearch
+    scan_query: 'site:www.indeed.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Instacart
+    careers_url: https://job-boards.greenhouse.io/instacart
+    api: https://boards-api.greenhouse.io/v1/boards/instacart/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Intel Corporation
+    careers_url: https://jobs.intel.com/en/search-jobs
+    scan_method: websearch
+    scan_query: 'site:jobs.intel.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Intuit
+    careers_url: https://jobs.intuit.com/search-jobs
+    scan_method: websearch
+    scan_query: 'site:jobs.intuit.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: IXL Learning
+    careers_url: https://www.ixl.com/company/careers
+    scan_method: websearch
+    scan_query: 'site:www.ixl.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: J.P. Morgan
+    careers_url: https://careers.jpmorgan.com/us/en/search-results
+    scan_method: websearch
+    scan_query: 'site:careers.jpmorgan.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Jane Street
+    careers_url: https://www.janestreet.com/join-jane-street/open-roles/
+    scan_method: websearch
+    scan_query: 'site:www.janestreet.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Jump Trading
+    careers_url: https://www.jumptrading.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.jumptrading.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Klarna
+    careers_url: https://www.klarna.com/careers/
+    scan_method: websearch
+    scan_query: 'site:www.klarna.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Klaviyo
+    careers_url: https://job-boards.greenhouse.io/klaviyo
+    api: https://boards-api.greenhouse.io/v1/boards/klaviyo/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Lacework
+    careers_url: https://www.fortinet.com/corporate/careers
+    scan_method: websearch
+    scan_query: 'site:www.fortinet.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: LinkedIn
+    careers_url: https://careers.linkedin.com/jobs
+    scan_method: websearch
+    scan_query: 'site:careers.linkedin.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Logitech
+    careers_url: https://jobs.logitech.com/careers
+    scan_method: websearch
+    scan_query: 'site:jobs.logitech.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Lucid Motors
+    careers_url: https://lucidmotors.com/careers
+    scan_method: websearch
+    scan_query: 'site:lucidmotors.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Lyft
+    careers_url: https://job-boards.greenhouse.io/lyft
+    api: https://boards-api.greenhouse.io/v1/boards/lyft/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Mastercard
+    careers_url: https://careers.mastercard.com/us/en/search-results
+    scan_method: websearch
+    scan_query: 'site:careers.mastercard.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: MathWorks
+    careers_url: https://www.mathworks.com/company/jobs/opportunities.html
+    scan_method: websearch
+    scan_query: 'site:www.mathworks.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: McKinsey
+    careers_url: https://www.mckinsey.com/careers/search-jobs
+    scan_method: websearch
+    scan_query: 'site:www.mckinsey.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Meta
+    careers_url: https://www.metacareers.com/jobs/
+    scan_method: websearch
+    scan_query: 'site:www.metacareers.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Microsoft
+    careers_url: https://careers.microsoft.com/us/en/search-results
+    scan_method: websearch
+    scan_query: 'site:careers.microsoft.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: MongoDB
+    careers_url: https://job-boards.greenhouse.io/mongodb
+    api: https://boards-api.greenhouse.io/v1/boards/mongodb/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Motorola Solutions
+    careers_url: https://careers.motorolasolutions.com/
+    scan_method: websearch
+    scan_query: 'site:careers.motorolasolutions.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Navan
+    careers_url: https://navan.com/careers
+    scan_method: websearch
+    scan_query: 'site:navan.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: NetApp
+    careers_url: https://careers.netapp.com/search-jobs
+    scan_method: websearch
+    scan_query: 'site:careers.netapp.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Netflix
+    careers_url: https://jobs.netflix.com/search
+    scan_method: websearch
+    scan_query: 'site:jobs.netflix.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Nintendo
+    careers_url: https://careers.nintendo.com/job-openings/
+    scan_method: websearch
+    scan_query: 'site:careers.nintendo.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Notion
+    careers_url: https://jobs.ashbyhq.com/notion
+    notes: "Ashby API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Nuro
+    careers_url: https://job-boards.greenhouse.io/nuro
+    api: https://boards-api.greenhouse.io/v1/boards/nuro/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: NVIDIA
+    careers_url: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
+    scan_method: websearch
+    scan_query: 'site:nvidia.wd5.myworkdayjobs.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Okta
+    careers_url: https://job-boards.greenhouse.io/okta
+    api: https://boards-api.greenhouse.io/v1/boards/okta/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: OpenAI
+    careers_url: https://openai.com/careers
+    scan_method: websearch
+    scan_query: 'site:openai.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: OpenSea
+    careers_url: https://opensea.io/careers
+    scan_method: websearch
+    scan_query: 'site:opensea.io "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Optiver
+    careers_url: https://optiver.com/working-at-optiver/career-opportunities/
+    scan_method: websearch
+    scan_query: 'site:optiver.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Oracle
+    careers_url: https://careers.oracle.com/en/sites/jobsearch/jobs
+    scan_method: websearch
+    scan_query: 'site:careers.oracle.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: PagerDuty
+    careers_url: https://job-boards.greenhouse.io/pagerduty
+    api: https://boards-api.greenhouse.io/v1/boards/pagerduty/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Palantir Technologies
+    careers_url: https://jobs.lever.co/palantir
+    notes: "Lever API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Palo Alto Networks
+    careers_url: https://jobs.paloaltonetworks.com/en/search-jobs
+    scan_method: websearch
+    scan_query: 'site:jobs.paloaltonetworks.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: PayPal
+    careers_url: https://paypal.eightfold.ai/careers
+    scan_method: websearch
+    scan_query: 'site:paypal.eightfold.ai "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Pinterest
+    careers_url: https://job-boards.greenhouse.io/pinterest
+    api: https://boards-api.greenhouse.io/v1/boards/pinterest/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Plaid
+    careers_url: https://plaid.com/careers/
+    scan_method: websearch
+    scan_query: 'site:plaid.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Postman
+    careers_url: https://job-boards.greenhouse.io/postman
+    api: https://boards-api.greenhouse.io/v1/boards/postman/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Qualcomm
+    careers_url: https://careers.qualcomm.com/careers-home/jobs
+    scan_method: websearch
+    scan_query: 'site:careers.qualcomm.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Qualtrics
+    careers_url: https://www.qualtrics.com/careers/us/en/search-results
+    scan_method: websearch
+    scan_query: 'site:www.qualtrics.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Quora
+    careers_url: https://www.quora.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.quora.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Ramp
+    careers_url: https://ramp.com/careers
+    scan_method: websearch
+    scan_query: 'site:ramp.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Red Hat
+    careers_url: https://redhat.wd5.myworkdayjobs.com/jobs/
+    scan_method: websearch
+    scan_query: 'site:redhat.wd5.myworkdayjobs.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Reddit
+    careers_url: https://job-boards.greenhouse.io/reddit
+    api: https://boards-api.greenhouse.io/v1/boards/reddit/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Redfin
+    careers_url: https://careers.redfin.com/us/en/search-results
+    scan_method: websearch
+    scan_query: 'site:careers.redfin.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Ripple
+    careers_url: https://ripple.com/careers/all-jobs/
+    scan_method: websearch
+    scan_query: 'site:ripple.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Rippling
+    careers_url: https://www.rippling.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.rippling.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Robinhood
+    careers_url: https://job-boards.greenhouse.io/robinhood
+    api: https://boards-api.greenhouse.io/v1/boards/robinhood/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Roblox
+    careers_url: https://job-boards.greenhouse.io/roblox
+    api: https://boards-api.greenhouse.io/v1/boards/roblox/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Rubrik
+    careers_url: https://job-boards.greenhouse.io/rubrik
+    api: https://boards-api.greenhouse.io/v1/boards/rubrik/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Salesforce
+    careers_url: https://careers.salesforce.com/en/jobs/
+    scan_method: websearch
+    scan_query: 'site:careers.salesforce.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Samsara
+    careers_url: https://job-boards.greenhouse.io/samsara
+    api: https://boards-api.greenhouse.io/v1/boards/samsara/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Samsung
+    careers_url: https://www.samsung.com/us/careers/
+    scan_method: websearch
+    scan_query: 'site:www.samsung.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: SAP
+    careers_url: https://jobs.sap.com/search/
+    scan_method: websearch
+    scan_query: 'site:jobs.sap.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Scale AI
+    careers_url: https://job-boards.greenhouse.io/scaleai
+    api: https://boards-api.greenhouse.io/v1/boards/scaleai/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Secureframe
+    careers_url: https://secureframe.com/careers
+    scan_method: websearch
+    scan_query: 'site:secureframe.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Sentry
+    careers_url: https://sentry.io/careers/
+    scan_method: websearch
+    scan_query: 'site:sentry.io "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: ServiceNow
+    careers_url: https://careers.servicenow.com/jobs/
+    scan_method: websearch
+    scan_query: 'site:careers.servicenow.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Shopify
+    careers_url: https://www.shopify.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.shopify.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Slack
+    careers_url: https://slack.com/careers
+    scan_method: websearch
+    scan_query: 'site:slack.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Snap Inc.
+    careers_url: https://careers.snap.com/jobs
+    scan_method: websearch
+    scan_query: 'site:careers.snap.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Snowflake
+    careers_url: https://careers.snowflake.com/us/en/search-results
+    scan_method: websearch
+    scan_query: 'site:careers.snowflake.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Snyk
+    careers_url: https://snyk.io/careers/
+    scan_method: websearch
+    scan_query: 'site:snyk.io "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: SoFi
+    careers_url: https://job-boards.greenhouse.io/sofi
+    api: https://boards-api.greenhouse.io/v1/boards/sofi/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Sony
+    careers_url: https://www.sonyjobs.com/search-jobs
+    scan_method: websearch
+    scan_query: 'site:www.sonyjobs.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: SpaceX
+    careers_url: https://www.spacex.com/careers/
+    scan_method: websearch
+    scan_query: 'site:www.spacex.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Splunk
+    careers_url: https://careers.cisco.com/global/en/search-results
+    scan_method: websearch
+    scan_query: 'site:careers.cisco.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Spotify
+    careers_url: https://jobs.lever.co/spotify
+    notes: "Lever API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Stripe
+    careers_url: https://job-boards.greenhouse.io/stripe
+    api: https://boards-api.greenhouse.io/v1/boards/stripe/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: SurveyMonkey
+    careers_url: https://www.momentive.ai/en/careers/
+    scan_method: websearch
+    scan_query: 'site:www.momentive.ai "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Tableau Software
+    careers_url: https://careers.salesforce.com/en/jobs/
+    scan_method: websearch
+    scan_query: 'site:careers.salesforce.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Tempus Labs
+    careers_url: https://www.tempus.com/careers/
+    scan_method: websearch
+    scan_query: 'site:www.tempus.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Tesla
+    careers_url: https://www.tesla.com/careers/search/
+    scan_method: websearch
+    scan_query: 'site:www.tesla.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: TuSimple
+    careers_url: https://www.tusimple.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.tusimple.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Twilio
+    careers_url: https://www.twilio.com/en-us/company/jobs
+    scan_method: websearch
+    scan_query: 'site:www.twilio.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Twitch
+    careers_url: https://job-boards.greenhouse.io/twitch
+    api: https://boards-api.greenhouse.io/v1/boards/twitch/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Two Sigma
+    careers_url: https://careers.twosigma.com/careers/
+    scan_method: websearch
+    scan_query: 'site:careers.twosigma.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Uber
+    careers_url: https://www.uber.com/us/en/careers/
+    scan_method: websearch
+    scan_query: 'site:www.uber.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Udemy
+    careers_url: https://job-boards.greenhouse.io/udemy
+    api: https://boards-api.greenhouse.io/v1/boards/udemy/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Unity Technologies
+    careers_url: https://job-boards.greenhouse.io/unity3d
+    api: https://boards-api.greenhouse.io/v1/boards/unity3d/jobs
+    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    enabled: true
+
+  - name: Upgrade
+    careers_url: https://www.upgrade.com/careers/
+    scan_method: websearch
+    scan_query: 'site:www.upgrade.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Veeva Systems
+    careers_url: https://careers.veeva.com/
+    scan_method: websearch
+    scan_query: 'site:careers.veeva.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Verkada
+    careers_url: https://www.verkada.com/careers/
+    scan_method: websearch
+    scan_query: 'site:www.verkada.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Vice Media
+    careers_url: https://company.vice.com/careers/
+    scan_method: websearch
+    scan_query: 'site:company.vice.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Visa
+    careers_url: https://careers.smartrecruiters.com/Visa
+    scan_method: websearch
+    scan_query: 'site:careers.smartrecruiters.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: VMware
+    careers_url: https://careers.broadcom.com/
+    scan_method: websearch
+    scan_query: 'site:careers.broadcom.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Walmart
+    careers_url: https://careers.walmart.com/
+    scan_method: websearch
+    scan_query: 'site:careers.walmart.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Wayfair
+    careers_url: https://www.wayfair.com/careers/jobs
+    scan_method: websearch
+    scan_query: 'site:www.wayfair.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Waymo
+    careers_url: https://careers.withwaymo.com/jobs/search
+    scan_method: websearch
+    scan_query: 'site:careers.withwaymo.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Wealthfront
+    careers_url: https://www.wealthfront.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.wealthfront.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: WeWork
+    careers_url: https://www.wework.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.wework.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Wish
+    careers_url: https://www.wish.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.wish.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Workato
+    careers_url: https://www.workato.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.workato.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Workday
+    careers_url: https://www.workday.com/en-us/company/careers.html
+    scan_method: websearch
+    scan_query: 'site:www.workday.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: X
+    careers_url: https://careers.twitter.com/en/roles.html
+    scan_method: websearch
+    scan_query: 'site:careers.twitter.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Yahoo
+    careers_url: https://www.yahooinc.com/careers/
+    scan_method: websearch
+    scan_query: 'site:www.yahooinc.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Yelp
+    careers_url: https://yelp.careers/us/en/
+    scan_method: websearch
+    scan_query: 'site:yelp.careers "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Yext
+    careers_url: https://www.yext.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.yext.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Zillow
+    careers_url: https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External
+    scan_method: websearch
+    scan_query: 'site:zillow.wd5.myworkdayjobs.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: ZipRecruiter
+    careers_url: https://www.ziprecruiter.com/careers
+    scan_method: websearch
+    scan_query: 'site:www.ziprecruiter.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Zoom
+    careers_url: https://careers.zoom.us/jobs/search
+    scan_method: websearch
+    scan_query: 'site:careers.zoom.us "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
+
+  - name: Square
+    careers_url: https://block.xyz/careers
+    scan_method: websearch
+    scan_query: 'site:block.xyz "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    enabled: true
