@@ -83,7 +83,7 @@
 \begin{center}
     \textbf{\Huge \scshape Harry Nguyen} \\ \vspace{1pt}
     \small +1 470-667-9000 $|$
-    \href{mailto:harrynguyenswe@gmail.com}{\underline{harrynguyenswe@gmail.com}} $|$
+    \href{mailto:nguyenharry2662@gmail.com}{\underline{nguyenharry2662@gmail.com}} $|$
     \href{https://www.linkedin.com/in/harrynguyen26/}{\underline{linkedin.com/in/harrynguyen26}} $|$
     \href{https://github.com/HarryNguyen2662}{\underline{github.com/HarryNguyen2662}}
 \end{center}
