@@ -398,7 +398,17 @@ function gitTimeoutEnvVar(args) {
 function gitIn(root, ...args) {
   const timeout = gitTimeoutMs(args);
   try {
-    return execFileSync('git', args, { cwd: root, encoding: 'utf-8', timeout }).trim();
+    // trimEnd (not trim): `git status --porcelain` lines legitimately start
+    // with a space for unstaged-only changes (code " M", " D", ...). A plain
+    // .trim() strips that leading space from the FIRST line only (String.trim
+    // trims the whole blob, not per-line), shifting gitStatusEntries()'s
+    // slice(3) by one character and corrupting that one path — e.g.
+    // " M portals.yml" → "M portals.yml" → path parses as "ortals.yml",
+    // which then silently fails every USER_PATHS/SYSTEM_PATHS prefix check
+    // for that file. Only the trailing newline execFileSync appends needs
+    // stripping; every other git output here is single-line or handled by
+    // its own caller.
+    return execFileSync('git', args, { cwd: root, encoding: 'utf-8', timeout }).trimEnd();
   } catch (err) {
     if (isTimeoutLikeError(err)) {
       throw new Error(`${describeGitCommand(args)} timed out after ${timeoutSeconds(timeout)}s. If your network is slow, retry or set ${gitTimeoutEnvVar(args)} to a larger value.`);
@@ -685,6 +695,30 @@ async function apply() {
   const local = localVersion();
   const initialStatusPaths = new Set(gitStatusEntries().map(entry => entry.path));
   const isReexec = process.env.CAREER_OPS_UPDATE_REEXEC === '1';
+
+  // Pre-flight: refuse to run if a user-layer file already has uncommitted
+  // changes. Mid-update, the SAFETY VIOLATION path (see step 4 below) reverts
+  // every successfully-checked-out SYSTEM_PATHS entry back to HEAD —
+  // including DELETING brand-new system files/directories the target release
+  // added (e.g. plugins/_engine.mjs, verify-portals.mjs, tracker-parse.mjs),
+  // since they don't exist in HEAD to revert to. That's correct behavior for
+  // changes the update itself causes, but it also fires when a user file was
+  // ALREADY dirty before the run started (e.g. an in-progress portals.yml
+  // edit), turning a harmless pre-existing edit into a confusing partial
+  // update that silently strips real system files the user never touched.
+  // Failing fast here — before any backup branch, fetch, or checkout —
+  // avoids that class of bug entirely.
+  if (!isReexec) {
+    const dirtyUserPaths = [...initialStatusPaths].filter(
+      (file) => USER_PATHS.some((userPath) => file.startsWith(userPath)),
+    );
+    if (dirtyUserPaths.length > 0) {
+      console.error('Aborting: you have uncommitted changes to user-layer file(s):');
+      for (const f of dirtyUserPaths) console.error(`  ${f}`);
+      console.error('Commit or stash these first, then re-run `node update-system.mjs apply`.');
+      process.exit(1);
+    }
+  }
 
   // Check for lock
   const lockFile = join(ROOT, '.update-lock');
