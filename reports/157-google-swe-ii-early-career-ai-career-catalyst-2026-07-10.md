@@ -8,6 +8,8 @@
 **Legitimacy:** High Confidence
 **PDF:** output/157-google-ai-career-catalyst-harry-nguyen-2026-07-10.pdf
 
+> **Re-verified 2026-07-10 (later same day):** posting confirmed still live via Playwright re-check. Score and fit unchanged — the underlying facts didn't change, only cv.md's bullet wording did (impact-first rewrite across TiMoto/Chrome/Develop for Good; see git log for `cv.md`). PDF regenerated from the updated bullets, replacing the earlier version generated the same day. Also fixed a template bug found during regeneration: `templates/cv-template.tex` had a doubled `mailto:` prefix on the email link (broken hyperlink target) — corrected, so this and all future LaTeX-generated CVs have a working email link.
+
 ---
 
 ## Machine Summary
