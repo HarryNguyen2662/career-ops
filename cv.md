@@ -110,8 +110,8 @@
           \resumeItem{Restored \textbf{100\% evaluation success rate} at \textbf{sub-50ms p99} by resolving a production \textbf{gRPC} deadlock — replaced inconsistent lock-acquisition ordering under concurrent calls with a
       single enforced sequencing rule across the inter-service layer}
           \resumeItem{Eliminated \textbf{OOM failures} under concurrent production load by replacing naive batching with a \textbf{vLLM/PagedAttention} inference engine, solving KV cache memory fragmentation for LLM serving}
-          \resumeItem{Achieved \textbf{99.9\% uptime} and cut infrastructure cost \textbf{44\%} (\$40--60/month) by architecting a multi-AZ ECS Fargate deployment with \textbf{Terraform IaC}, CloudWatch observability, and an
-       auto-rollback circuit breaker pattern}
+          \resumeItem{Prevented single-zone failures from taking production down, sustaining \textbf{99.9\% uptime} and cutting infrastructure cost \textbf{44\%} (\$40--60/month), by architecting a multi-AZ ECS Fargate
+      deployment with \textbf{Terraform IaC}, CloudWatch observability, and an auto-rollback circuit breaker pattern}
           \resumeItem{Cut mean-time-to-identify on repeat incidents \textbf{68\%} across gRPC, PostgreSQL, and ML serving layers by building a from-scratch post-mortem practice — documented runbooks for the top failure modes
       and ran a shared on-call rotation}
       \resumeItemListEnd
@@ -120,8 +120,8 @@
       {Google}{Software Engineer Intern — Chrome Browser}{May 2025 -- Aug 2025}
       \resumeItemListStart
         \resumeItem{Shipped a \textbf{C++ IPC transport layer} to Chrome's stable channel — serving \textbf{3B+ active users} at \textbf{sub-50ms p99} and \textbf{10K+ req/sec} — by choosing Protocol Buffers over custom serialization for schema evolution and cross-language compatibility}
-        \resumeItem{Cut settings-navigation p99 latency \textbf{96\%} (1,200ms down to sub-50ms) with zero production regressions by replacing a mutex-contended search path with a \textbf{lock-free concurrent trie}}
-        \resumeItem{Accelerated feature delivery \textbf{68\%} across \textbf{25K+ lines} of Chromium, at \textbf{95\% test coverage}, by architecting an event-driven TypeScript/React system that decoupled UI state propagation via the observer pattern}
+        \resumeItem{Turned a visibly sluggish settings search into an instant one for power users — \textbf{96\%} p99 latency cut (1,200ms down to sub-50ms), zero production regressions — by replacing a mutex-contended search path with a \textbf{lock-free concurrent trie}}
+        \resumeItem{Ended cross-team cascading UI bugs and accelerated feature delivery \textbf{68\%} across \textbf{25K+ lines} of Chromium, at \textbf{95\% test coverage}, by architecting an event-driven TypeScript/React system that decoupled UI state propagation via the observer pattern}
         \resumeItem{Landed production-ready changes into Chrome's codebase — reviewed and adopted by senior engineers — by delivering design docs and code reviews at \textbf{95\% test coverage} alongside the Chrome infrastructure team}
       \resumeItemListEnd
 
