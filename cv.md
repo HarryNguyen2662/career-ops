@@ -107,14 +107,13 @@
       {TiMoto AI}{Software Engineer}{Sep 2025 -- Present}
         \resumeItemListStart
           \resumeItem{Enabled a 3-person startup to run \textbf{production-grade AI infrastructure} without a dedicated platform team by owning backend, cloud infrastructure, and ML serving end-to-end as primary engineer}
-          \resumeItem{Restored \textbf{100\% evaluation success rate} at \textbf{sub-50ms p99} by resolving a production \textbf{gRPC} deadlock — traced shared resource acquisition conflicts under concurrent calls and redesigned
-      call sequencing across the inter-service layer}
-          \resumeItem{Eliminated \textbf{OOM failures} under concurrent production load by architecting a \textbf{vLLM/PagedAttention} inference engine with continuous batching, solving KV cache memory fragmentation for LLM
-       serving}
+          \resumeItem{Restored \textbf{100\% evaluation success rate} at \textbf{sub-50ms p99} by resolving a production \textbf{gRPC} deadlock — replaced inconsistent lock-acquisition ordering under concurrent calls with a
+      single enforced sequencing rule across the inter-service layer}
+          \resumeItem{Eliminated \textbf{OOM failures} under concurrent production load by replacing naive batching with a \textbf{vLLM/PagedAttention} inference engine, solving KV cache memory fragmentation for LLM serving}
           \resumeItem{Achieved \textbf{99.9\% uptime} and cut infrastructure cost \textbf{44\%} (\$40--60/month) by architecting a multi-AZ ECS Fargate deployment with \textbf{Terraform IaC}, CloudWatch observability, and an
        auto-rollback circuit breaker pattern}
-          \resumeItem{Kept distributed production systems (gRPC, PostgreSQL, ML serving) reliable through on-call ownership — root-caused incidents, then converted findings into runbooks and post-mortem fixes to prevent
-      repeat failures}
+          \resumeItem{Cut mean-time-to-identify on repeat incidents across gRPC, PostgreSQL, and ML serving layers by building a from-scratch post-mortem practice — documented runbooks for the top failure modes and ran a
+      shared on-call rotation}
       \resumeItemListEnd
 
     \resumeSubheadingShortSplit
