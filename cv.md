@@ -106,31 +106,31 @@
     \resumeSubheadingShortSplit
       {TiMoto AI}{Software Engineer}{Sep 2025 -- Present}
         \resumeItemListStart
-          \resumeItem{Led backend, cloud infrastructure, and ML serving for a 3-person engineering team — designed, deployed, and operated \textbf{distributed production systems} end-to-end}
-          \resumeItem{Designed and maintained \textbf{gRPC inter-service layer}; resolved production deadlock under concurrent calls by tracing shared resource acquisition conflicts and redesigning call sequencing —
-      \textbf{100\% evaluation success rate} at \textbf{sub-50ms p99}}
-          \resumeItem{Architected \textbf{vLLM inference engine with PagedAttention} for LLM serving — eliminated KV cache memory fragmentation under concurrent load; deployed with continuous batching achieving \textbf{zero OOM
-       failures} at production traffic}
-          \resumeItem{Architected multi-AZ ECS Fargate with \textbf{Terraform IaC}, CloudWatch observability, and circuit breaker pattern — \textbf{99.9\% uptime}, \textbf{44\% cost reduction} (\$40--60/month); auto-rollback on
-       health check failure}
-          \resumeItem{Maintained distributed production systems across gRPC, PostgreSQL, and ML serving layers — triaged and resolved incidents via root-cause analysis, documented runbooks, and applied post-mortem learnings;
-      participated in on-call rotation}
+          \resumeItem{Enabled a 3-person startup to run \textbf{production-grade AI infrastructure} without a dedicated platform team by owning backend, cloud infrastructure, and ML serving end-to-end as primary engineer}
+          \resumeItem{Restored \textbf{100\% evaluation success rate} at \textbf{sub-50ms p99} by resolving a production \textbf{gRPC} deadlock — traced shared resource acquisition conflicts under concurrent calls and redesigned
+      call sequencing across the inter-service layer}
+          \resumeItem{Eliminated \textbf{OOM failures} under concurrent production load by architecting a \textbf{vLLM/PagedAttention} inference engine with continuous batching, solving KV cache memory fragmentation for LLM
+       serving}
+          \resumeItem{Achieved \textbf{99.9\% uptime} and cut infrastructure cost \textbf{44\%} (\$40--60/month) by architecting a multi-AZ ECS Fargate deployment with \textbf{Terraform IaC}, CloudWatch observability, and an
+       auto-rollback circuit breaker pattern}
+          \resumeItem{Kept distributed production systems (gRPC, PostgreSQL, ML serving) reliable through on-call ownership — root-caused incidents, then converted findings into runbooks and post-mortem fixes to prevent
+      repeat failures}
       \resumeItemListEnd
 
     \resumeSubheadingShortSplit
       {Google}{Software Engineer Intern — Chrome Browser}{May 2025 -- Aug 2025}
       \resumeItemListStart
-        \resumeItem{Designed \textbf{C++ IPC transport layer} with Protocol Buffers — selected Protocol Buffers over custom serialization for schema evolution and cross-language compatibility; shipped to Chrome stable channel serving \textbf{3B+ active users} at \textbf{sub-50ms p99}, \textbf{10K+ req/sec}}
-        \resumeItem{Identified settings navigation as p99 bottleneck at 1,200ms; designed and implemented \textbf{lock-free concurrent trie search} eliminating mutex contention — \textbf{96\% latency reduction}, zero production regressions}
-        \resumeItem{Architected event-driven TypeScript/React system with observer pattern decoupling UI state propagation — accelerated feature delivery \textbf{68\%} across \textbf{25K+ lines} of Chromium at \textbf{95\% test coverage}}
-        \resumeItem{Collaborated with Chrome infrastructure team to deliver design documents and code reviews at \textbf{95\% test coverage}; changes adopted into production branch reviewed by senior Chrome engineers}
+        \resumeItem{Shipped a \textbf{C++ IPC transport layer} to Chrome's stable channel — serving \textbf{3B+ active users} at \textbf{sub-50ms p99} and \textbf{10K+ req/sec} — by choosing Protocol Buffers over custom serialization for schema evolution and cross-language compatibility}
+        \resumeItem{Cut settings-navigation p99 latency \textbf{96\%} (1,200ms down to sub-50ms) with zero production regressions by replacing a mutex-contended search path with a \textbf{lock-free concurrent trie}}
+        \resumeItem{Accelerated feature delivery \textbf{68\%} across \textbf{25K+ lines} of Chromium, at \textbf{95\% test coverage}, by architecting an event-driven TypeScript/React system that decoupled UI state propagation via the observer pattern}
+        \resumeItem{Landed production-ready changes into Chrome's codebase — reviewed and adopted by senior engineers — by delivering design docs and code reviews at \textbf{95\% test coverage} alongside the Chrome infrastructure team}
       \resumeItemListEnd
 
     \resumeSubheadingShortSplit
       {Develop for Good}{Software Engineer Intern}{May 2024 -- Aug 2024}
       \resumeItemListStart
-        \resumeItem{Designed stateless BaaS on Amazon Web Services (AWS) — selected JWT over session auth for horizontal scalability; auto-scaling policy supporting \textbf{500+ concurrent users}, \textbf{90\% deployment time reduction} via CI/CD (GitHub Actions)}
-        \resumeItem{Diagnosed N+1 query bottleneck degrading response to 3s+ on large datasets; redesigned with PostgreSQL indexing achieving \textbf{sub-100ms} for 10,000+ records}
+        \resumeItem{Scaled a backend to support \textbf{500+ concurrent users} and cut deployment time \textbf{90\%} by designing a stateless AWS BaaS with JWT auth and a GitHub Actions CI/CD auto-scaling policy}
+        \resumeItem{Cut API response time from 3+ seconds to \textbf{sub-100ms} on \textbf{10,000+ record} datasets by diagnosing an N+1 query bottleneck and redesigning the data layer with PostgreSQL indexing}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
