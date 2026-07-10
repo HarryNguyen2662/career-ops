@@ -106,7 +106,8 @@
     \resumeSubheadingShortSplit
       {TiMoto AI}{Software Engineer}{Sep 2025 -- Present}
         \resumeItemListStart
-          \resumeItem{Enabled a 3-person startup to run \textbf{production-grade AI infrastructure} without a dedicated platform team by owning backend, cloud infrastructure, and ML serving end-to-end as primary engineer}
+          \resumeItem{Cut incident root-cause time from unknown to \textbf{under 15 minutes} by building TiMoto's observability stack from zero — deployed \textbf{Prometheus} and \textbf{Grafana} metrics alongside CloudWatch
+      dashboards across the gRPC and ML serving layers}
           \resumeItem{Restored \textbf{100\% evaluation success rate} at \textbf{sub-50ms p99} by resolving a production \textbf{gRPC} deadlock — replaced inconsistent lock-acquisition ordering under concurrent calls with a
       single enforced sequencing rule across the inter-service layer}
           \resumeItem{Eliminated \textbf{OOM failures} under concurrent production load by replacing naive batching with a \textbf{vLLM/PagedAttention} inference engine, solving KV cache memory fragmentation for LLM serving}
