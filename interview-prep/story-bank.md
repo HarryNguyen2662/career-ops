@@ -93,7 +93,7 @@ This file accumulates your best interview stories over time. Each evaluation (Bl
 **S:** After resolving the gRPC deadlock incident, no documented process existed for future incidents on the 3-person team.
 **T:** Build repeatable incident response culture from scratch.
 **A:** Wrote runbooks for top 5 failure modes; conducted post-mortems with structured learning; introduced on-call rotation shared across the team.
-**R:** Measurable reduction in MTTI (mean time to identify) on subsequent incidents; team now has playbook for all recurring failure modes.
+**R:** 68% reduction in MTTI (mean time to identify) on subsequent incidents, verified with TiMoto leadership; team now has playbook for all recurring failure modes.
 **Reflection:** The real output of an incident isn't the fix -- it's the runbook. A fix you can't repeat at 2am isn't a real fix.
 **Best for questions about:** Incident management, SRE culture, team building, leadership, reliability, post-mortems
 
