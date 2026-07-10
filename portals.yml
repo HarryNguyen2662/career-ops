@@ -1268,7 +1268,7 @@ tracked_companies:
   - name: Unity Technologies
     careers_url: https://job-boards.greenhouse.io/unity3d
     api: https://boards-api.greenhouse.io/v1/boards/unity3d/jobs
-    notes: "Greenhouse API — scanned by scan.mjs (zero-token). NOTE (2026-07-06): this API call returned a one-off HTTP 404 during a scan; slug 'unity3d' verified still valid via WebSearch (live postings found at job-boards.greenhouse.io/unity3d/jobs/*) — likely transient, retry on next scan before assuming it's broken."
+    notes: "KNOWN ISSUE (2026-07-10): boards-api.greenhouse.io/v1/boards/unity3d/jobs consistently 404s (verify-portals.mjs: 'slug not found'), but the public board job-boards.greenhouse.io/unity3d/jobs/* is confirmed live via WebSearch — looks like Unity disabled the public API for this board while keeping the page itself up. Not a slug typo; needs Playwright against careers_url instead of the API."
     enabled: true
 
   - name: Upgrade

@@ -15,7 +15,6 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
-\input{glyphtounicode}
 
 \pagestyle{fancy}
 \fancyhf{}
