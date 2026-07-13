@@ -184,7 +184,7 @@ tracked_companies:
     careers_url: https://www.amazon.jobs/en/search
     scan_method: websearch
     scan_query: 'site:www.amazon.jobs "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
-    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API. KNOWN ISSUE (2026-07-06): search page is an SPA that doesn't populate listings via plain browser_navigate with a ?base_query= param — needs actual search-box interaction. UPDATE (2026-07-08 v1.18.0): scan.mjs now ships providers/amazon.mjs, a dedicated zero-token provider hitting amazon.jobs' own JSON search API, auto-detected from this careers_url's domain. Should cover this company without Playwright going forward — verify on next scan."
     enabled: true
 
   - name: AMD
@@ -195,10 +195,10 @@ tracked_companies:
     enabled: true
 
   - name: American Express
-    careers_url: https://aexp.eightfold.ai/careers
+    careers_url: https://jobs.americanexpress.com/tech
     scan_method: websearch
-    scan_query: 'site:aexp.eightfold.ai "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
-    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    scan_query: 'site:jobs.americanexpress.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Fixed 2026-07-06: old aexp.eightfold.ai/careers redirected to a generic marketing page, not a job board. Corrected to the dedicated tech careers page."
     enabled: true
 
   - name: Anduril Industries
@@ -217,7 +217,7 @@ tracked_companies:
     careers_url: https://jobs.apple.com/en-us/search
     scan_method: websearch
     scan_query: 'site:jobs.apple.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
-    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API. KNOWN ISSUE (2026-07-06): search param on this URL doesn't filter server-side via Playwright — page shows unrelated retail/Genius roles. Needs a manual search-term entry in the visible search box before reading listings, not just a direct navigate. No dedicated zero-token provider as of v1.18.0."
     enabled: true
 
   - name: Asana
@@ -230,7 +230,7 @@ tracked_companies:
     careers_url: https://www.atlassian.com/company/careers/all-jobs
     scan_method: websearch
     scan_query: 'site:www.atlassian.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
-    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API. KNOWN ISSUE (2026-07-06): job listing widget is JS-lazy-loaded, doesn't render into static DOM on plain browser_navigate + browser_snapshot. No public Ashby/Greenhouse/Lever board found on WebSearch — Atlassian appears to run a custom career site. No dedicated zero-token provider as of v1.18.0. Needs explicit wait-for-render or scroll-triggered load before snapshot."
     enabled: true
 
   - name: Attentive
@@ -248,10 +248,10 @@ tracked_companies:
     enabled: true
 
   - name: Bank of America
-    careers_url: https://careers.bankofamerica.com/en-us/search-results
+    careers_url: https://careers.bankofamerica.com/en-us/job-search
     scan_method: websearch
     scan_query: 'site:careers.bankofamerica.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
-    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    notes: "Fixed 2026-07-06: old /en-us/search-results path 404s. Corrected to /en-us/job-search."
     enabled: true
 
   - name: BCG
@@ -269,10 +269,10 @@ tracked_companies:
     enabled: true
 
   - name: Benchling
-    careers_url: https://www.benchling.com/careers/
+    careers_url: https://jobs.ashbyhq.com/benchling
     scan_method: websearch
-    scan_query: 'site:www.benchling.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
-    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    scan_query: 'site:jobs.ashbyhq.com/benchling "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
+    notes: "Fixed 2026-07-06: old benchling.com/careers/ page was JS-lazy-loaded with no static DOM listings. Benchling actually hosts on Ashby — verified 2026-07-06 that scan.mjs auto-detects via jobs.ashbyhq.com domain and covers zero-token (pulled 2 matching offers on first retry)."
     enabled: true
 
   - name: Better
@@ -693,9 +693,13 @@ tracked_companies:
 
   - name: IBM
     careers_url: https://www.ibm.com/careers/search
+    provider: ibm
+    ibm:
+      country: United States
+      categories: ["Software Engineering"]
     scan_method: websearch
     scan_query: 'site:www.ibm.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
-    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    notes: "Fixed 2026-07-08 v1.18.0: added dedicated providers/ibm.mjs (no domain auto-detect, needs explicit provider: ibm) — scanned zero-token now instead of Playwright/websearch."
     enabled: true
 
   - name: iCapital Network
@@ -918,7 +922,7 @@ tracked_companies:
     careers_url: https://openai.com/careers
     scan_method: websearch
     scan_query: 'site:openai.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
-    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API. KNOWN ISSUE (2026-07-06): board has 700+ listings with no New Grad/Intern/University/Entry Level title tagging — the standard title_filter can't isolate relevant roles without reviewing most listings individually. Treat as a manual/low-priority scan target."
     enabled: true
 
   - name: OpenSea
@@ -957,7 +961,7 @@ tracked_companies:
     careers_url: https://jobs.paloaltonetworks.com/en/search-jobs
     scan_method: websearch
     scan_query: 'site:jobs.paloaltonetworks.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
-    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API. KNOWN ISSUE (2026-07-06): new-grad/internship pipeline routes through an external RippleMatch link rather than exposing direct postings on this ATS — no direct new-grad SWE listings found via the main US-filtered search."
     enabled: true
 
   - name: PayPal
@@ -987,10 +991,10 @@ tracked_companies:
     enabled: true
 
   - name: Qualcomm
-    careers_url: https://careers.qualcomm.com/careers-home/jobs
+    careers_url: https://careers.qualcomm.com/careers
     scan_method: websearch
     scan_query: 'site:careers.qualcomm.com "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
-    notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
+    notes: "Fixed 2026-07-06: old /careers-home/jobs path 404s (eightfold-powered board moved). Corrected to /careers."
     enabled: true
 
   - name: Qualtrics
@@ -1264,7 +1268,7 @@ tracked_companies:
   - name: Unity Technologies
     careers_url: https://job-boards.greenhouse.io/unity3d
     api: https://boards-api.greenhouse.io/v1/boards/unity3d/jobs
-    notes: "Greenhouse API — scanned by scan.mjs (zero-token)."
+    notes: "KNOWN ISSUE (2026-07-10): boards-api.greenhouse.io/v1/boards/unity3d/jobs consistently 404s (verify-portals.mjs: 'slug not found'), but the public board job-boards.greenhouse.io/unity3d/jobs/* is confirmed live via WebSearch — looks like Unity disabled the public API for this board while keeping the page itself up. Not a slug typo; needs Playwright against careers_url instead of the API."
     enabled: true
 
   - name: Upgrade

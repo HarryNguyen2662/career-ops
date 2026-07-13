@@ -1,0 +1,164 @@
+%-------------------------
+% Career-Ops LaTeX CV Template
+% Based on: Gabriel Sison / sb2nov resume template
+% License: MIT
+%------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Random Stuff %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-7pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Commands  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-3pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubheadingContinue}[2]{
+  \vspace{-3pt}
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{0pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Heading  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+    \begin{center}
+        % NAME
+        {\Huge\scshape Harry Nguyen}
+        % SUBHEADING
+        \\ +1 470-667-9000 | Atlanta, GA\\
+        \small
+        % EMAIL
+        \href{mailto:nguyenharry2662@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{nguyenharry2662@gmail.com}} ~
+        % LINKEDIN
+        \href{https://www.linkedin.com/in/harrynguyen26/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/harrynguyen26}}  ~
+        % GITHUB
+        \href{https://github.com/HarryNguyen2662}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/HarryNguyen2662}}
+    \end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Education  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Georgia State University}{Atlanta, GA}
+      {Bachelor of Science in Computer Science, GPA: 3.75/4.0}{Expected May 2027}
+        \resumeItemListStart
+            \resumeItem{\textbf{Coursework:} Distributed Systems, Operating Systems, Database Systems, Computer Networks, Data Structures}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Experience  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {TiMoto AI}{Sep 2025 -- Present}
+      {Software Engineer}{Remote}
+      \resumeItemListStart
+            \resumeItem{Cut incident root-cause time from unknown to under 15 minutes by building TiMoto's observability stack from zero -- deployed Prometheus and Grafana metrics alongside CloudWatch dashboards across the gRPC and ML serving layers}
+            \resumeItem{Restored 100\% evaluation success rate at sub-50ms p99 by resolving a production gRPC deadlock -- replaced inconsistent lock-acquisition ordering under concurrent calls with a single enforced sequencing rule across the inter-service layer}
+            \resumeItem{Eliminated OOM failures under concurrent production load by replacing naive batching with a vLLM/PagedAttention inference engine, solving KV cache memory fragmentation for LLM serving}
+            \resumeItem{Prevented single-zone failures from taking production down, sustaining 99.9\% uptime and cutting infrastructure cost 44\% (\$40-60/month), by architecting a multi-AZ ECS Fargate deployment with Terraform IaC, CloudWatch observability, and an auto-rollback circuit breaker pattern}
+            \resumeItem{Cut mean-time-to-identify on repeat incidents 68\% across gRPC, PostgreSQL, and ML serving layers by building a from-scratch post-mortem practice -- documented runbooks for the top failure modes and ran a shared on-call rotation}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Google}{May 2025 -- Aug 2025}
+      {Software Engineer Intern -- Chrome Browser}{Mountain View, CA}
+      \resumeItemListStart
+            \resumeItem{Shipped a C++ IPC transport layer to Chrome's stable channel -- serving 3B+ active users at sub-50ms p99 and 10K+ req/sec -- by choosing Protocol Buffers over custom serialization for schema evolution and cross-language compatibility}
+            \resumeItem{Turned a visibly sluggish settings search into an instant one for power users -- 96\% p99 latency cut (1,200ms down to sub-50ms), zero production regressions -- by replacing a mutex-contended search path with a lock-free concurrent trie}
+            \resumeItem{Ended cross-team cascading UI bugs and accelerated feature delivery 68\% across 25K+ lines of Chromium, at 95\% test coverage, by architecting an event-driven TypeScript/React system that decoupled UI state propagation via the observer pattern}
+            \resumeItem{Landed production-ready changes into Chrome's codebase -- reviewed and adopted by senior engineers -- by delivering design docs and code reviews at 95\% test coverage alongside the Chrome infrastructure team}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Develop for Good}{May 2024 -- Aug 2024}
+      {Software Engineer Intern}{Remote}
+      \resumeItemListStart
+            \resumeItem{Scaled a backend to support 500+ concurrent users and cut deployment time 90\% by designing a stateless AWS BaaS with JWT auth and a GitHub Actions CI/CD auto-scaling policy}
+            \resumeItem{Cut API response time from 3+ seconds to sub-100ms on 10,000+ record datasets by diagnosing an N+1 query bottleneck and redesigning the data layer with PostgreSQL indexing}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  PROJECTS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Personal Projects}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Pulumi -- Contributor} \emph{$|$ Go, TypeScript, Infrastructure-as-Code (IaC)}}{}
+      \resumeItemListStart
+            \resumeItem{Submitted Go CLI features and bug fixes enabling multi-cloud (AWS/Azure/GCP) provisioning -- under active review by core maintainers}
+            \resumeItem{Analyzed Raft/Paxos consensus in distributed state synchronization layer -- studied linearizability guarantees and correctness under concurrent operations and partial failures}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Technical Skills  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Technical Skills}
+\vspace{-7pt}
+\begin{itemize}
+[leftmargin=0.15in, label={}]\small{\item{
+        \textbf{Distributed Systems}{: gRPC, Protocol Buffers, Circuit breakers, Exactly-once semantics, Fault tolerance, Kafka, Multi-AZ, Event-driven architecture} \\
+        \textbf{ML \& AI Infrastructure}{: vLLM, PagedAttention, Continuous Batching, LoRA/QLoRA, PyTorch, LangChain, LLM-as-a-judge evaluation} \\
+        \textbf{Languages}{: C++, Python, Go, TypeScript, Java, JavaScript, SQL, Bash, Rust} \\
+        \textbf{Cloud \& Infrastructure}{: AWS (ECS Fargate, EKS, EC2, S3, RDS), Terraform, Kubernetes, Docker, CI/CD, CloudWatch, Prometheus, Grafana, GCP} \\
+        \textbf{Frameworks \& Databases}{: Django, FastAPI, Node.js, React, REST APIs, PostgreSQL, Redis, MongoDB} \\
+        \textbf{AI Dev Tools}{: Claude Code, GitHub Copilot, Codex, Cursor} \\
+}}
+\end{itemize}
+
+\end{document}
