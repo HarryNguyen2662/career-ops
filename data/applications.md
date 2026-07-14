@@ -2,7 +2,8 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
-| 157 | 2026-07-10 | Google | Software Engineer II, Early Career, Google Cloud AI Career Catalyst Program | 4.3/5 | Evaluated | ✅ | [157](../reports/157-google-swe-ii-early-career-ai-career-catalyst-2026-07-10.md) | Rotational AI+Infra new-grad program; comp $123-175K+15% bonus+equity exceeds target; June 2027 start matches May 2027 grad exactly |
+| 158 | 2026-07-13 | Hudson River Trading | Software Engineer (C++ or Python), 2027 Grads | 4.5/5 | Evaluated | ✅ | [158](../reports/158-hudson-river-trading-2026-07-13.md) | Exceptional comp ($300K base vs $150-200K target), systems/concurrency fit from Chrome lock-free trie + C++ IPC work |
+| 157 | 2026-07-10 | Google | Software Engineer II, Early Career, Google Cloud AI Career Catalyst Program | 4.3/5 | Applied | ✅ | [157](../reports/157-google-swe-ii-early-career-ai-career-catalyst-2026-07-10.md) | Rotational AI+Infra new-grad program; comp $123-175K+15% bonus+equity exceeds target; June 2027 start matches May 2027 grad exactly; Applied via referral (Google Chrome internship connection), 2026-07-13, 1 day before 2026-07-14 application deadline |
 | 2 | 2026-05-27 | Jane Street | Software Engineer (Intern / Co-op) | 3.5/5 | Evaluated | ❌ | [002](../reports/002-jane-street-2026-05-27.md) | Historical evaluation — tracker rebuilt from reports/ 2026-07-08 |
 | 3 | 2026-05-27 | D3 | Backend Engineer, New Grad | 2.0/5 | Evaluated | ❌ | [003](../reports/003-d3-2026-05-27.md) | Historical evaluation — tracker rebuilt from reports/ 2026-07-08 |
 | 4 | 2026-05-27 | AppLovin | Backend Engineer, New Grad | 4.2/5 | Evaluated | ❌ | [004](../reports/004-applovin-2026-05-27.md) | Historical evaluation — tracker rebuilt from reports/ 2026-07-08 |

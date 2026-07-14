@@ -3,7 +3,7 @@
 import { readFile, writeFile, stat } from 'fs/promises';
 import { existsSync } from 'fs';
 import { resolve, dirname, basename, join } from 'path';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 import { tmpdir } from 'os';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -13,6 +13,7 @@ const PLACEHOLDER_RE = /\{\{[A-Z_]+\}\}/g;
 function escapeLatex(text, mode = 'text') {
   if (typeof text !== 'string') return '';
   if (mode === 'url') return text;
+  if (mode === 'bullet') return escapeLatexBullet(text);
   const out = [];
   for (const ch of text) {
     switch (ch) {
@@ -31,6 +32,17 @@ function escapeLatex(text, mode = 'text') {
     }
   }
   return out.join('');
+}
+
+// Markdown-style **bold** spans in bullet source text become \textbf{}.
+// Segments outside (and inside) bold markers still go through the normal
+// character escaping, so a highlighted metric like "**44% ($40-60/mo)**"
+// still gets its % and $ escaped.
+function escapeLatexBullet(text) {
+  const parts = text.split(/\*\*(.+?)\*\*/g);
+  return parts
+    .map((part, i) => (i % 2 === 1 ? `\\textbf{${escapeLatex(part)}}` : escapeLatex(part)))
+    .join('');
 }
 
 function sanitizeUrl(url) {
@@ -70,8 +82,8 @@ function buildExperience(entries) {
   const blocks = [];
   for (const e of entries) {
     if (!e) continue;
-    const bullets = Array.isArray(e.bullets) ? e.bullets.map(b => `            \\resumeItem{${escapeLatex(b)}}`).join('\n') : '';
-    blocks.push(`    \\resumeSubheading\n      {${escapeLatex(e.company)}}{${escapeLatex(e.dates)}}\n      {${escapeLatex(e.role)}}{${escapeLatex(e.location)}}\n      \\resumeItemListStart\n${bullets}\n      \\resumeItemListEnd`);
+    const bullets = Array.isArray(e.bullets) ? e.bullets.map(b => `            \\resumeItem{${escapeLatex(b, 'bullet')}}`).join('\n') : '';
+    blocks.push(`    \\resumeSubheadingShortSplit\n      {${escapeLatex(e.company)}}{${escapeLatex(e.role)}}{${escapeLatex(e.dates)}}\n      \\resumeItemListStart\n${bullets}\n      \\resumeItemListEnd`);
   }
   return blocks.join('\n\n');
 }
@@ -82,7 +94,7 @@ function buildProjects(entries) {
   for (const e of entries) {
     if (!e) continue;
     const context = e.context ? ` \\emph{$|$ ${escapeLatex(e.context)}}` : '';
-    const bullets = Array.isArray(e.bullets) ? e.bullets.map(b => `            \\resumeItem{${escapeLatex(b)}}`).join('\n') : '';
+    const bullets = Array.isArray(e.bullets) ? e.bullets.map(b => `            \\resumeItem{${escapeLatex(b, 'bullet')}}`).join('\n') : '';
     blocks.push(`    \\resumeProjectHeading\n      {\\textbf{${escapeLatex(e.name)}}${context}}{${escapeLatex(e.dates)}}\n      \\resumeItemListStart\n${bullets}\n      \\resumeItemListEnd`);
   }
   return blocks.join('\n\n');
@@ -334,4 +346,8 @@ async function runSelfTest() {
   process.exit(0);
 }
 
-main();
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main();
+}
+
+export { escapeLatex, sanitizeUrl, buildEducation, buildExperience, buildProjects, buildSkills };

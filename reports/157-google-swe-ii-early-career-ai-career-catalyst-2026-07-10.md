@@ -10,6 +10,8 @@
 
 > **Re-verified 2026-07-10 (later same day):** posting confirmed still live via Playwright re-check. Score and fit unchanged — the underlying facts didn't change, only cv.md's bullet wording did (impact-first rewrite across TiMoto/Chrome/Develop for Good; see git log for `cv.md`). PDF regenerated from the updated bullets, replacing the earlier version generated the same day. Also fixed a template bug found during regeneration: `templates/cv-template.tex` had a doubled `mailto:` prefix on the email link (broken hyperlink target) — corrected, so this and all future LaTeX-generated CVs have a working email link.
 
+> **Re-verified 2026-07-13:** posting confirmed still live via Playwright re-check — full JD text unchanged from the 2026-07-10 capture (same responsibilities, same $123K-$175K + 15% bonus comp, same quals). Score and fit unchanged at 4.3/5. **⚠️ Applications close 2026-07-14 — one day from this check.** No new evaluation was needed since no fact about the role changed; only `output/157-...tex/.pdf` got a formatting update this session (inline bold highlighting added to the tailored CV bullets, matching the master resume's style).
+
 ---
 
 ## Machine Summary

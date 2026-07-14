@@ -113,8 +113,7 @@
           \resumeItem{Eliminated \textbf{OOM failures} under concurrent production load by replacing naive batching with a \textbf{vLLM/PagedAttention} inference engine, solving KV cache memory fragmentation for LLM serving}
           \resumeItem{Prevented single-zone failures from taking production down, sustaining \textbf{99.9\% uptime} and cutting infrastructure cost \textbf{44\%} (\$40--60/month), by architecting a multi-AZ ECS Fargate
       deployment with \textbf{Terraform IaC}, CloudWatch observability, and an auto-rollback circuit breaker pattern}
-          \resumeItem{Cut mean-time-to-identify on repeat incidents \textbf{68\%} across gRPC, PostgreSQL, and ML serving layers by building a from-scratch post-mortem practice — documented runbooks for the top failure modes
-      and ran a shared on-call rotation}
+          \resumeItem{Cut mean-time-to-identify \textbf{68\%} by building a post-mortem practice with runbooks and a shared on-call rotation}
       \resumeItemListEnd
 
     \resumeSubheadingShortSplit
