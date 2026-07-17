@@ -3,9 +3,9 @@
 **Date:** 2026-06-02
 **URL:** https://jobs.ashbyhq.com/northslope-technologies/7ccd126f-b127-4526-87f1-57408919c30a
 **Archetype:** AI Forward Deployed (hybrid: Founding/Early-Stage)
-**Score:** 3.5/5
+**Score:** 3.5/5 (at original evaluation, 2026-06-02) — refreshed to 4.0/5 on 2026-07-14 re-analysis, see below
 **Legitimacy:** High Confidence
-**PDF:** output/030-northslope-fde-harry-nguyen-2026-06-02.pdf
+**PDF:** output/030-northslope-fde-harry-nguyen-2026-06-02.pdf (original) / output/030-northslope-fde-harry-nguyen-2026-07-14.pdf (refreshed)
 
 ---
 
@@ -181,3 +181,22 @@ The FDE role buys velocity + customer obsession + full-stack build capability. F
 ## Keywords Extracted
 
 forward deployed engineer, enterprise AI, production AI applications, end-to-end engineering, customer-embedded, business outcomes, iterative delivery, full-stack, application architecture, rapid prototyping, AI software, operationalized workflows, enterprise data, outcome ownership, mission-specific software, client implementation, hybrid in-person, new grad engineering, startup engineering, problem solving
+
+---
+
+## Re-analysis (2026-07-14)
+
+**Why:** A new, distinct Ashby posting for this same role (`80b82167-7101-4f78-9006-7755dd2ca01e`, vs. the original `7ccd126f-b127-4526-87f1-57408919c30a`) surfaced with materially different terms. cv.md has also evolved since June (impact-first bullet rewrites, verified 68% MTTI reduction). This re-analysis re-scores fit against both the refreshed JD and current cv.md. It updates this same report/tracker row rather than creating a new entry, per the "don't duplicate company+role" pipeline rule.
+
+**What changed in the JD itself:**
+- **Graduation window widened from "2025 or 2026 graduates" to "2026 or 2027 Graduates."** This directly resolves the single biggest gap flagged in the original evaluation (the "soft blocker" on Harry's May 2027 grad date being a year outside the preferred window). Harry's May 2027 graduation is now an explicit, named fit.
+- **Location narrowed to "New York"** (single location field), vs. the original listing's "New York, NY or London." The JD body text still mentions both London and NY hubs, so this reads as this specific req being NY-based rather than a substantive policy change.
+- **Compensation is not disclosed in this specific listing's structured fields** (no Compensation heading appeared, unlike the original posting's explicit $135K–$155K + equity). Given New York's pay transparency law, this is a minor omission worth noting but not a legitimacy concern on its own — treat the original $135K–$155K figure as unconfirmed-but-likely-still-representative rather than current fact.
+
+**Updated score: 4.0/5** (was 3.5/5). The graduation-year fix removes the original evaluation's primary soft blocker; remaining gaps (no direct client-facing consulting experience, visa sponsorship unconfirmed) are unchanged and still flagged, not blocking, per apply policy.
+
+**Unchanged:** Archetype (AI Forward Deployed, hybrid Founding/Early-Stage), all six STAR+R stories in Block F, the red-flag question scripts (the graduation-year script above is now moot for this specific req but still useful if Northslope raises it verbally), and Block G's legitimacy assessment (High Confidence — same company, same active hiring pattern).
+
+**Refreshed resume:** `output/030-northslope-fde-harry-nguyen-2026-07-14.pdf` — regenerated from current cv.md using the fixed LaTeX template (one-line header, bold key metrics), following this report's existing Customization Plan (Block E).
+
+**Refreshed URL:** https://jobs.ashbyhq.com/northslope-technologies/80b82167-7101-4f78-9006-7755dd2ca01e

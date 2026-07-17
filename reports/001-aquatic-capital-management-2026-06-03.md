@@ -5,7 +5,7 @@
 **Archetype:** Systems Software Engineer (HFT / Quant Infrastructure)
 **Score:** 4.5/5
 **Legitimacy:** High Confidence
-**PDF:** ❌
+**PDF:** ✅ output/001-aquatic-capital-management-harry-nguyen-2026-07-14.pdf (generated 2026-07-14 — missing at original evaluation, backfilled per Customization Plan below: leads with TiMoto gRPC deadlock fix + Google Chrome C++/IPC, Systems & Concurrency skills row, Pulumi Raft/Paxos bullet)
 
 ---
 
