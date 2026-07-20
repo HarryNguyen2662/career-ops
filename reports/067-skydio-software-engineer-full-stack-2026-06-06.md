@@ -3,9 +3,33 @@
 **Date:** 2026-06-06
 **URL:** https://www.skydio.com/jobs/067e1f47-9fba-4abf-b986-874d4d569706
 **Archetype:** Full-Stack Engineer (adjacent to Backend / Distributed Systems)
-**Score:** 3.5/5
+**Score:** 3.3/5 (adjusted down from 3.5, see re-verification below)
 **Legitimacy:** High Confidence
-**PDF:** output/067-skydio-harry-nguyen.pdf
+**PDF:** output/067-skydio-harry-nguyen-2026-07-18.pdf
+
+---
+
+## Re-verification (2026-07-18)
+
+Same posting resurfaced (identical Ashby req ID), re-checked before Harry acts on it — this report is now 6+ weeks old and never moved past `Evaluated`.
+
+- **Material change found: the experience requirement tightened.** The original JD asked for "1-3+ years of experience"; the current live posting now states a flat **"3+ years of experience building and shipping customer-facing software across the stack."** This is a real, meaningful change — Harry's ~1.5 years of combined internship + current production experience fit comfortably inside the old "1-3+ years" band but sits below a flat "3+ years" bar. **Score adjusted down from 3.5 to 3.3/5** to reflect this honestly; not treated as a blocker per house policy (never block on years-of-experience alone), but it is a materially weaker level-fit than the original evaluation found.
+- **Everything else largely unchanged:** same $110K-$180K base range, same San Mateo/Hybrid-3-days location (with relocation assistance explicitly offered), same core responsibilities and bonus qualifications (React/TypeScript, AWS/K8s/Temporal, autonomy interest).
+- **Company signals re-confirmed, still strong:** Skydio's $3.5B manufacturing expansion is still active and progressing — 113 open roles found in a fresh search, more Engineering/Technical openings than at any point in the past 12 months. No layoff or hiring-freeze signals found.
+- **CV regenerated** with the now-fixed LaTeX template (one-line header, working bold emphasis, corrected `mailto:` link): `output/067-skydio-harry-nguyen-2026-07-18.pdf`, 1 page, verified. Content follows the original Customization Plan below (React/TypeScript-forward, Chrome bullets leading).
+- **Recommendation:** Given this is already the weakest of three duplicate postings resurfaced in this session (vs. Baseten 4.5/5 and Brellium 4.0/5, both stronger matches with no new negative signal), and the experience bar just tightened against Harry specifically, this is the one worth deprioritizing relative to the other two if triaging where to focus limited application effort — still a legitimate, live opening, just a comparatively weaker fit than it was five weeks ago.
+
+## Risk Summary
+
+*(Added retroactively — this report predates the Risk Summary block becoming a standard report section.)*
+
+| Signal | Status |
+|--------|--------|
+| Posting legitimacy | ✅ High Confidence — re-verified 2026-07-18, still live, active hiring expansion confirmed |
+| Employment classification | — not evaluated |
+| Culture screen | — not evaluated (no `culture_screen.require` configured; original qualitative read found no negative signals, still holds) |
+| Interview red flags | — no interview sessions yet |
+| AI claims vs. infrastructure | — not evaluated |
 
 ---
 
@@ -189,7 +213,8 @@ report: "067"
 company: "Skydio"
 role: "Software Engineer, Full Stack"
 date: "2026-06-06"
-score: 3.5
+score: 3.3
+score_note: "Adjusted down from 3.5 on 2026-07-18 re-verification: JD experience bar tightened from 1-3+ years to a flat 3+ years"
 archetype: "Full-Stack Engineer"
 legitimacy: "High Confidence"
 location: "San Mateo, CA"
@@ -198,16 +223,16 @@ comp_range: "$110K-$180K base"
 visa_risk: "low"
 sponsorship_confirmed: true
 sponsorship_notes: "Skydio filed 21 H-1B petitions FY2025, all approved; strong track record"
-apply_recommendation: "Conditional apply — full-stack role is adjacent to Harry's primary backend/systems profile; strong React/TS Chrome evidence; comp may undershoot walk-away floor without equity; negotiate top of range"
+apply_recommendation: "Conditional apply — full-stack role is adjacent to Harry's primary backend/systems profile; strong React/TS Chrome evidence; comp may undershoot walk-away floor without equity; experience bar now 3+ years flat (was 1-3+), a weaker fit than originally assessed; negotiate top of range if pursued"
 red_flags:
   - "Comp base floor $110K well below walk-away $140K; must land at $130K+ base"
   - "Hybrid 3 days/week San Mateo requires relocation from Atlanta"
   - "Pre-IPO stock options — liquidity risk"
   - "Full-stack framing is adjacent, not primary archetype fit"
+  - "2026-07-18: experience requirement tightened to flat 3+ years (was 1-3+); Harry has ~1.5 years"
 green_flags:
   - "Skydio confirmed H-1B sponsor (21/21 approvals FY2025)"
-  - "Active $3.5B hiring expansion — real, active opening"
-  - "1-3 year exp requirement matches Harry's ~1.5 years production experience"
+  - "Active $3.5B hiring expansion — real, active opening, re-confirmed 2026-07-18 (113 open roles)"
   - "Google Chrome TypeScript/React work is direct full-stack evidence"
   - "AWS + K8s bonus qualifications covered in CV"
 ```

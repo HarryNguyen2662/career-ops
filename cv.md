@@ -111,7 +111,7 @@
           \resumeItem{Restored \textbf{100\% evaluation success rate} at \textbf{sub-50ms p99} by resolving a production \textbf{gRPC} deadlock — replaced inconsistent lock-acquisition ordering under concurrent calls with a
       single enforced sequencing rule across the inter-service layer}
           \resumeItem{Eliminated \textbf{OOM failures} under concurrent production load by replacing naive batching with a \textbf{vLLM/PagedAttention} inference engine, solving KV cache memory fragmentation for LLM serving}
-          \resumeItem{Prevented single-zone failures from taking production down, sustaining \textbf{99.9\% uptime} and cutting infrastructure cost \textbf{44\%} (\$40--60/month), by architecting a multi-AZ ECS Fargate
+          \resumeItem{Prevented single-zone failures from taking production down, sustaining \textbf{99.9\% uptime} and cutting infrastructure cost \textbf{44\%} (\$40--60/month), by migrating off \textbf{EKS} to a multi-AZ \textbf{ECS Fargate}
       deployment with \textbf{Terraform IaC}, CloudWatch observability, and an auto-rollback circuit breaker pattern}
           \resumeItem{Cut mean-time-to-identify \textbf{68\%} by building a post-mortem practice with runbooks and a shared on-call rotation}
       \resumeItemListEnd

@@ -6,6 +6,8 @@ import { resolve, dirname, basename, join } from 'path';
 import { fileURLToPath } from 'url';
 import { tmpdir } from 'os';
 import { escapeLatex, sanitizeUrl } from './lib/latex-escape.mjs';
+
+export { escapeLatex };
 import { resolveTemplate } from './cv-templates.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -32,7 +34,7 @@ function buildExperience(entries) {
   const blocks = [];
   for (const e of entries) {
     if (!e) continue;
-    const bullets = Array.isArray(e.bullets) ? e.bullets.map(b => `            \\resumeItem{${escapeLatex(b)}}`).join('\n') : '';
+    const bullets = Array.isArray(e.bullets) ? e.bullets.map(b => `            \\resumeItem{${escapeLatex(b, 'bullet')}}`).join('\n') : '';
     blocks.push(`    \\resumeSubheading\n      {${escapeLatex(e.company)}}{${escapeLatex(e.dates)}}\n      {${escapeLatex(e.role)}}{${escapeLatex(e.location)}}\n      \\resumeItemListStart\n${bullets}\n      \\resumeItemListEnd`);
   }
   return blocks.join('\n\n');
@@ -44,7 +46,7 @@ function buildProjects(entries) {
   for (const e of entries) {
     if (!e) continue;
     const context = e.context ? ` \\emph{$|$ ${escapeLatex(e.context)}}` : '';
-    const bullets = Array.isArray(e.bullets) ? e.bullets.map(b => `            \\resumeItem{${escapeLatex(b)}}`).join('\n') : '';
+    const bullets = Array.isArray(e.bullets) ? e.bullets.map(b => `            \\resumeItem{${escapeLatex(b, 'bullet')}}`).join('\n') : '';
     blocks.push(`    \\resumeProjectHeading\n      {\\textbf{${escapeLatex(e.name)}}${context}}{${escapeLatex(e.dates)}}\n      \\resumeItemListStart\n${bullets}\n      \\resumeItemListEnd`);
   }
   return blocks.join('\n\n');
@@ -314,4 +316,6 @@ async function runSelfTest() {
   process.exit(0);
 }
 
-main();
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main();
+}

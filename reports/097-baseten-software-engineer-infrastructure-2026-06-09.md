@@ -5,7 +5,30 @@
 **Archetype:** ML / AI Infrastructure Engineer + Platform / Cloud Infrastructure Engineer
 **Score:** 4.5/5
 **Legitimacy:** High Confidence
-**PDF:** output/097-baseten-software-engineer-infrastructure-harry-nguyen-2026-06-09.pdf
+**PDF:** output/097-baseten-software-engineer-infrastructure-harry-nguyen-2026-07-18.pdf
+
+---
+
+## Re-verification (2026-07-18)
+
+Same posting resurfaced (identical Ashby req ID), re-checked before Harry acts on it — this report is now 5+ weeks old and never moved past `Evaluated`.
+
+- **Still live, JD substantively unchanged:** same title, same responsibilities/requirements, same $165K-$330K + "90th percentile" comp policy. Locations expanded slightly (now also lists Montreal and Toronto alongside SF/NY/Remote).
+- **Major positive company update:** Baseten closed a **$1.5B Series F at up to $13B valuation** (led by Altimeter Capital, Conviction, and Spark Capital, co-led by Sands Capital and Wellington Management) — a huge step up from the original report's "$300M Series E" figure. Reported 20x revenue growth and 40x inference-volume growth over the past year, now processing 1B+ inference requests/day across 87 clusters on 18 clouds. Baseten is **tripling headcount this year**. No layoff or contraction signals of any kind — if anything, this strengthens the original "Apply immediately" recommendation.
+- **CV regenerated** with the now-fixed LaTeX template (one-line header, working bold emphasis, corrected `mailto:` link): `output/097-baseten-software-engineer-infrastructure-harry-nguyen-2026-07-18.pdf`, 1 page, verified. Content follows the original Customization Plan below (Python/Go-forward, vLLM/PagedAttention bullet leading) — no change to the underlying evaluation, scoring, or recommendation.
+- **Recommendation unchanged, if anything stronger: Apply immediately.** Score, archetype, and gaps below still hold as originally assessed; the funding update only reduces company-risk uncertainty further.
+
+## Risk Summary
+
+*(Added retroactively — this report predates the Risk Summary block becoming a standard report section.)*
+
+| Signal | Status |
+|--------|--------|
+| Posting legitimacy | ✅ High Confidence — see Block G below; re-verified 2026-07-18, still live, JD unchanged, company signals substantially strengthened (Series F) |
+| Employment classification | — not evaluated |
+| Culture screen | — not evaluated (no `culture_screen.require` configured; original report's qualitative read found no negative signals, since reinforced by tripling-headcount growth signal) |
+| Interview red flags | — no interview sessions yet |
+| AI claims vs. infrastructure | — not evaluated |
 
 ---
 

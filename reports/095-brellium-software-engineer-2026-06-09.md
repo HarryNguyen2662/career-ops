@@ -5,7 +5,31 @@
 **Archetype:** Agentic / Automation + Founding / Early-Stage Software Engineer
 **Score:** 4.0/5
 **Legitimacy:** High Confidence
-**PDF:** output/095-brellium-software-engineer-harry-nguyen-2026-06-09.pdf
+**PDF:** output/095-brellium-software-engineer-harry-nguyen-2026-07-17.pdf
+
+---
+
+## Re-verification (2026-07-17)
+
+Same posting resurfaced via jobright with the identical Ashby req ID — re-checked before Harry acts on it, since this report is now 5+ weeks old and never moved past `Evaluated`.
+
+- **Still live, unchanged terms:** same title, same $140K-$200K + equity comp, same JD text confirmed via a fresh page load.
+- **Company signals refreshed, no material change:** Series A confirmed at $16.7M (announced May 2025, First Round Capital/Left Lane Capital/Menlo Ventures — consistent with the original report's "$30M+ raised" figure once earlier rounds are included), 250,000+ providers served, no layoff or hiring-freeze signals found. Company health assessment is unchanged from the original evaluation.
+- **Posting longevity note (Block G addendum):** this exact req has now stayed open 5+ weeks with the same broad 0-6 year band. Not a red flag on its own — the JD is detailed, comp is disclosed, and the company shows real, verifiable traction — but worth naming as a mild "Proceed with Caution"-adjacent signal rather than staying silent on it. Overall assessment remains **High Confidence**.
+- **CV regenerated** with the now-fixed LaTeX template (one-line header, working bold emphasis, corrected `mailto:` link — three template regressions fixed earlier this session): `output/095-brellium-software-engineer-harry-nguyen-2026-07-17.pdf`, 1 page, verified. Content follows the Customization Plan below (Python/LLM-forward bullet ordering) — no change to the underlying evaluation, scoring, or recommendation.
+- **Recommendation unchanged: Apply.** Score, archetype, and gaps below still hold as originally assessed.
+
+## Risk Summary
+
+*(Added retroactively — this report predates the Risk Summary block becoming a standard report section.)*
+
+| Signal | Status |
+|--------|--------|
+| Posting legitimacy | ✅ High Confidence — see Block G below; re-verified 2026-07-17, still live with unchanged terms |
+| Employment classification | — not evaluated |
+| Culture screen | — not evaluated (no `culture_screen.require` configured; original report's qualitative read found no negative signals) |
+| Interview red flags | — no interview sessions yet |
+| AI claims vs. infrastructure | — not evaluated |
 
 ---
 
