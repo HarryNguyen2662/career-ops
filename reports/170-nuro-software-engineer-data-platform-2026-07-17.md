@@ -195,3 +195,27 @@ data platform, batch processing, streaming data, data pipelines, evaluation data
 ## Keywords extracted
 
 data platform, batch data processing, streaming data processing, data pipelines, evaluation data, training data, storage systems, dashboards, monitoring, continuous testing, large-scale distributed systems, GCP, GCS, BigQuery, PostgreSQL, data engineering, system design, framework design, data workflow orchestration, autonomous driving, ML-first, Python, C++
+
+## Re-verification + CV Rebuild (2026-09-13)
+
+Same URL resubmitted via `/career-ops` (exact Greenhouse token `7895644`). **Verdict: duplicate of this report.** No new report, no new tracker row.
+
+Playwright check 2026-09-13: **ACTIVE** — title and application form still render.
+
+**CV rebuilt** (`output/170-harry-nguyen-resume.pdf`) from current cv.md with real tailoring: TiMoto's infra/observability bullet (Prometheus/Grafana dashboards, root-cause time) moved to 1st position, since it's the closest literal match to this JD's "dashboards and reports," "continuous monitoring for data integrity" asks (Block B above). The RAG/MCP bullet (data routing to read-replicas) kept 2nd for the "storage/data pipelines" theme. Agent, vLLM, and the gRPC-eval bullet follow, since this JD has no agentic/LLM-specific language. cv.md itself is untouched. Old PDF/tex (`170-nuro-data-platform-harry-nguyen-2026-07-17.*`) deleted with explicit user confirmation. No score change (4.0/5).
+
+## Addendum 2026-10-06: checker result pasted, CV rebuilt
+
+**Duplicate:** Same Greenhouse job (token `7895644`, Software Engineer, Data Platform, Mountain View HQ) evaluated 2026-07-17; the `jr_id` is a tracking tag. No new report and no new tracker row. **The tracker shows #170 as Applied**, so this CV is only for an interview or a re-application. **Liveness:** the Greenhouse API still returns the posting (first published 2026-05-05, last updated 2026-08-26), so it is still open. Score stays 4.0/5.
+
+**Fresh CV:** `output/170-harry-nguyen-resume-2026-10-06.pdf` (1 page), built with the confirmed recipe at the 95% target. It supersedes `output/170-harry-nguyen-resume.pdf`. Numeric check against the master passes (no figure added or lost). Your checker listed 17 keywords (4 matched on the old CV): Python, C++, Large Scale Data Systems, Data Pipelines, GCP, Google Cloud Storage (GCS), BigQuery, PostgreSQL, Data Engineering, Batch Data Processing, Streaming Data Processing, Data Warehousing, Data Analytics, Distributed Data Systems, System Design, Framework Design, Data Workflow Orchestration. **Eight of the seventeen now appear on the CV**: Python, C++, Large Scale Data Systems, Data Pipelines, GCP, PostgreSQL, Distributed (Data) Systems, System Design. My own measure over the whole JD is 16 of 20 (80%).
+
+| JD phrase | CV change |
+|---|---|
+| "large-scale data", "end-to-end data pipelines", "scalable and reliable systems" | `Large-Scale Data Systems`, `Data Pipelines`, `Distributed Systems`, `System Design` lead Backend & Infra; NextStep (resumable ingestion pipeline) leads Projects |
+| "Python, C++" | Languages lead Python, C++ |
+| "continuous testing and monitoring of data pipelines" | `Observability`, `Automated Testing`; TiMoto leads with the backend, then the gRPC deadlock, then vLLM throughput |
+| "dashboards and reports" | Grafana monitoring bullet kept (EKS to Fargate); no analytics claim added |
+
+**Not on the CV, and I did not add them:** BigQuery, Google Cloud Storage, data warehousing, data workflow orchestration, data engineering as a stated skill, batch and streaming data processing, data analytics and framework design. None is on cv.md or in the skills you stated (Kafka and Spark are stated but the JD does not name them, so I left them out). **If you have used BigQuery, GCS, Airflow-style orchestration or streaming or batch pipelines, tell me and they go into Skills.** MongoDB, Prometheus and vLLM left Skills to keep one page. Gates: 1 page, 0 em dashes, 0 AI-vocabulary hits, 0 stray asterisks.
+

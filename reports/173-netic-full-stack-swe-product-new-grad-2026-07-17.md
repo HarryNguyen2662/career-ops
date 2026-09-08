@@ -194,3 +194,19 @@ full-stack, agentic products, React, TypeScript, Python, LLM APIs, embeddings, R
 ## Keywords extracted
 
 full-stack, agentic products, React, TypeScript, Python, LLM APIs, embeddings, RAG patterns, customer empathy, founder-level ownership, end-to-end delivery, data models, APIs, front-end, production quality, monitoring, AI-first, New Grad, San Francisco, on-site
+
+---
+
+## Addendum 2026-09-19: CV correction warning
+
+The CV originally built for this report (`output/173-...` or `output/174-...`, dated 2026-07-17) was made under an older cv.md. It contains content that is not on the current cv.md, including "Expected May 2027", a Coursework line, "3B+ active users", JWT auth, Kafka, LangChain, LoRA/QLoRA and PyTorch. Report body text in this file that cites those items should not be reused. If an application was submitted with that CV, be ready for interview questions on those claims, and answer only from what the current cv.md supports. A fresh CV built from the current cv.md can be generated on request.
+
+## Addendum 2026-11-02 (same requisition re-sent from Jobright; no new tracker row)
+
+**Duplicate:** Ashby id `bab5d1e5` and the same Jobright `jr_id` family as the July application. Tracker status is already **Applied** (from 2026-07-17). The posting is still listed on Netic's Ashby board (published 2026-07-16). Netic also has #174 (Agent Platform, Applied) and #573 (FDE, Evaluated, not applied).
+
+**New fact since July:** pay is now stated on the board: base $138,000 to $160,000 per year (San Francisco). The bottom is $2K under your $140K floor; the top is inside your $150K to $200K target. The JD itself is unchanged: React, TypeScript and Python, databases and cloud infrastructure, LLM APIs, embeddings or RAG as nice to have, customer empathy, founder-level ownership, start between winter 2026 and summer 2027.
+
+**Fresh CV:** `output/173-harry-nguyen-resume-2026-11-02.pdf` replaces the 2026-07-17 build, which was made from an older cv.md (see the 2026-09-19 correction above). One page, eight one-line Skills rows, no blank gap. TiMoto order: backend owned end to end, production agent, company-wide agent, vLLM, gRPC deadlock, Fargate migration. Google order: Mojo IPC, test fix, shared-state refactor, lock-free trie. NextStep before Pulumi. Skills: TypeScript and Python lead the Languages row; React, FastAPI, Full-Stack Development (stated by Harry, Skills only), PostgreSQL, pgvector; LLM APIs, Embeddings, Hybrid Retrieval (RAG); Cloud Infrastructure; Product Development, Product Ownership; Customer-Facing (stated, Skills only), Stakeholder Communication. Checks: 1 page, 0 em dashes, 0 asterisks, numeric parity with the master CV, ATS coverage 14 of 15 JD terms (93%). The only miss is Data Modeling (no direct support on cv.md).
+
+**Status guidance:** if the July CV was the one submitted, expect questions on claims that are not on the current cv.md (listed above), and answer only from what cv.md supports. Send the fresh CV to a Netic recruiter if you are in contact. Status stays Applied.

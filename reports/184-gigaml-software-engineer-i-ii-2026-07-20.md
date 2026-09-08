@@ -153,6 +153,14 @@ All six stories already exist in `interview-prep/story-bank.md` — no new stori
 
 **8. Benefits/Employment Terminology Country Mismatch:** Not flagged — location is San Francisco, US, and benefits terms (401(k)) are consistent with a US posting.
 
+## Re-verification Addendum (2026-09-28, Work at a Startup listing)
+
+The same role surfaced on YC's Work at a Startup ("Software Engineer I / II - San Francisco", Giga S23). Same title, location, and body (Atlas, Activity Stream, Dynamic knowledge, Agent memory examples; "1-3 years of professional software engineering experience") as the Ashby posting `96f0c2f8-3d97-4763-ab46-b6af6ad8b2e7` evaluated here, so this is a duplicate, not a new requisition. No new row. Status stays **Applied** (applied earlier via #019 and #184, both pointing to this Ashby ID). Do not re-apply through Work at a Startup without checking with the recruiter first; a second submission to the same req can look like noise.
+
+Updated facts from the WaaS listing: $150K-$250K (WaaS range; the Ashby band recorded above was $160K-$250K plus equity), "Will sponsor" (visa sponsorship stated), Series A of $61M with DoorDash as a named customer, stack Django, React, GCP, fine-tuned open-source LLMs. Interview process: 20-minute recruiter screen, 1.5-hour live coding round, 15-minute hiring-manager intro, full-day in-office interview. WaaS tags the role "3+ years" while the body says 1-3 years; the body is the more specific signal. Score stays 4.3/5.
+
+Fresh CV from the locked `cv.md`: `output/184-harry-nguyen-resume-2026-09-28.pdf` (1 page, no em dash), for use if the recruiter asks for an updated resume.
+
 ## Risk Summary
 
 | Signal | Status |
@@ -207,3 +215,13 @@ Software Engineer I/II, AI agents, backend, data pipelines, integrations, agent 
 ## Keywords extracted
 
 Software Engineer I/II, AI agents, backend, data pipelines, integrations, agent infrastructure, Atlas, Activity Stream, log visualization, Dynamic knowledge, Agent memory, conversation awareness, voice AI, real-time, enterprise automation, DoorDash, customer support, ownership, early-career, Series A
+
+## Addendum 2026-10-19: same Ashby posting sent again
+
+**URL:** https://jobs.ashbyhq.com/gigaml/96f0c2f8-3d97-4763-ab46-b6af6ad8b2e7 (application path and jr_id ignored). Same Ashby job id as this report and as #19; still listed on Giga's board (first published 2025-05-14), San Francisco onsite, $160K to $250K plus equity, 1 to 3 years of professional experience. **Why no new row and no new CV:** exact duplicate, and the tracker records an application followed by a rejection on 2026-09-30 for this requisition (#19 is also Applied). A resubmission of the same requisition is likely blocked or ignored, so no fresh CV was built.
+
+**Not yet evaluated on Giga's board:** Software Engineer I / II in New York (Ashby `ba9b543d-e85c-4bd1-978b-f838d7a4062f`, published 2026-02-20), which no report mentions. It is the closest alternative if you want another Giga attempt.
+
+**Same day, second send (2026-10-19):** the same Ashby posting arrived again with a Jobright checker result of 7.0 (Fair), keywords 0/0 (the checker listed no keywords for this posting). Still a duplicate of #184, already applied and rejected on 2026-09-30; nothing else changed.
+
+**Fresh CV on request (2026-10-19):** `output/184-harry-nguyen-resume-2026-10-19.pdf` (1 page), built because you asked for one even though this requisition was already applied to and rejected. Languages lead with Python, TypeScript and Go; Agentic Systems adds Agentic AI Systems beside LLM Agents, Tool Calling, MCP, Hybrid Retrieval (RAG) and Evals; Practices adds Customer-Facing and Monitoring (Grafana and Prometheus are stated). TiMoto order leads with the AI bug-fix agent, then the cross-team agent fix (knowledge base and RAG), then the backend and vLLM; NextStep above Pulumi. Numbers match the master CV exactly. Not added: agent memory and Slack integrations as named skills.

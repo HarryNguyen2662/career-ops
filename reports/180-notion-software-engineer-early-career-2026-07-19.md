@@ -209,3 +209,27 @@ early career software engineer, React, TypeScript, Node.js, Postgres, Elasticsea
 ## Keywords extracted
 
 Early career software engineer, React, TypeScript, Node.js, Postgres, Elasticsearch, AI-assisted development, Cursor, Claude Code, product features, performance, reliability, quality, internal tools, platform improvements, experiments, activation, retention, collaboration, thoughtful problem-solving, impact-driven, proactive communication, high agency
+
+---
+
+## Re-verification Addendum (2026-09-13)
+
+Same URL resubmitted via `/career-ops` (exact job ID `297b4ece-765f-4eea-b1b8-46057cb6501f`, tracking param `jr_id` stripped). **Verdict: duplicate of this report.** No new report, no new tracker row.
+
+Playwright check 2026-09-13: **ACTIVE** — title, full JD, and Apply button all render. Comp unchanged ($130,000-$150,000 for SF/NYC). Tracker status for this row is already `Applied`, so no action needed beyond confirming the posting is still live.
+
+**CV rebuilt (2026-09-13):** `output/180-harry-nguyen-resume.pdf` regenerated from current cv.md at the user's request. The 2026-07-19 PDF (`output/180-notion-harry-nguyen-2026-07-19.pdf`) is stale and carries claims since removed after verification: "Expected May 2027" (now bare "May 2027"), "3B+ active users" (now "merged into Chrome's codebase"), "$40-60/month" infra cost (now "$5K to under $3K/month"), and a "C++ IPC transport layer" framing (now the Mojo IPC interface description). The new PDF is wording-identical to cv.md (verified by diff); default bullet order already leads with TiMoto's AI/agentic work and NextStep's full-stack founder story, which fits this report's "Full-Stack Engineer (adjacent)" archetype and the AI & Automation track this pooled req could land on -- no reordering needed.
+
+## Tailoring Correction (2026-09-13, same session)
+
+The CV-rebuild note above ("default bullet order already fits... no reordering needed") was wrong — it only checked which *block* (TiMoto/Google/NextStep) led, not whether individual bullets matched this JD's specific language. Re-reading this report's own Block B/E against the live JD text, `output/180-harry-nguyen-resume.tex` now diverges from cv.md in two places (cv.md itself is untouched — these are per-application wording/order choices only):
+
+| JD phrase (from Block B/E above) | Change | Why |
+|---|---|---|
+| "Build internal tools and platform improvements that help all engineers ship quickly and safely" | TiMoto's infra/observability bullet (EKS→ECS Fargate, Prometheus/Grafana, root-cause time) moved from 5th to 3rd position | This is the most direct match to "internal tools/platform improvements for engineers," and the pooled req's Platform & Infrastructure track is one of the two strongest-fit landing spots |
+| "Stay current with AI-assisted development environments" + "internal tools... for engineers" (double match) | TiMoto's RAG/MCP bullet (retrieval over engineering docs, MCP server routing AI tools) stays 2nd | Already hits both asks directly; kept prominent rather than buried behind vLLM/gRPC bullets that are Notion-irrelevant specifics |
+| Same "internal tools" phrase, applied to the Google bullet | Reworded opening from "Rebuilt chrome://privacy-sandbox-internals..." to "Built an internal tool, chrome://privacy-sandbox-internals..." | Mirrors the JD's own words without changing the underlying fact (still the same page, same C++/IPC interface, same 200+ engineers, same 2-3hr→5min metric) |
+
+vLLM and the gRPC-deadlock-eval bullets moved to 4th/5th since neither maps to anything this specific JD asks for (no inference-serving or eval-accuracy language in the posting) — they're still present for completeness, just not leading.
+
+This is the scope of "tailor" going forward: reread the JD, reword/reorder against its own language, not just pick which block leads. See `feedback_tailoring_scope` in memory.

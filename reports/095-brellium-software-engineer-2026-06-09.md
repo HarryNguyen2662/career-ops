@@ -5,7 +5,7 @@
 **Archetype:** Agentic / Automation + Founding / Early-Stage Software Engineer
 **Score:** 4.0/5
 **Legitimacy:** High Confidence
-**PDF:** output/095-brellium-software-engineer-harry-nguyen-2026-07-17.pdf
+**PDF:** output/095-harry-nguyen-resume.pdf (regenerated 2026-09-17; see re-verification note below)
 
 ---
 
@@ -18,6 +18,16 @@ Same posting resurfaced via jobright with the identical Ashby req ID — re-chec
 - **Posting longevity note (Block G addendum):** this exact req has now stayed open 5+ weeks with the same broad 0-6 year band. Not a red flag on its own — the JD is detailed, comp is disclosed, and the company shows real, verifiable traction — but worth naming as a mild "Proceed with Caution"-adjacent signal rather than staying silent on it. Overall assessment remains **High Confidence**.
 - **CV regenerated** with the now-fixed LaTeX template (one-line header, working bold emphasis, corrected `mailto:` link — three template regressions fixed earlier this session): `output/095-brellium-software-engineer-harry-nguyen-2026-07-17.pdf`, 1 page, verified. Content follows the Customization Plan below (Python/LLM-forward bullet ordering) — no change to the underlying evaluation, scoring, or recommendation.
 - **Recommendation unchanged: Apply.** Score, archetype, and gaps below still hold as originally assessed.
+
+## Re-verification (2026-09-17)
+
+Same URL pasted a third time (this time via a `jr_id`/`fbclid`-tagged `/application` link), stripped token confirms identical job ID `8209ac68-d966-4d5f-a925-3b277f8583c3`. Re-navigated via Playwright: posting still live, same title ("Software Engineer @ Brellium"), same $140K-$200K + equity comp, same JD text (Python/TypeScript/SQL/AWS/LLMs, 0-6 years, NYC hybrid 4 days onsite), same fraudulent-job-offer warning, "Apply for this Job" button active. No new report or tracker row created.
+
+**Posting longevity update:** this exact req has now been open continuously since at least 2026-06-09 — over 3 months, up from the "5+ weeks" note made at the 2026-07-17 re-verification. Company signals remain unchanged and positive (Series A, $30M+ raised, First Round/Menlo/Left Lane backing, 250,000+ providers, no layoff signals found), so this alone is not treated as disqualifying, but it is now a more pointed Block G observation than before: a 3+ month-old req with a broad 0-6 year band can mean either genuinely high hiring volume or a slower-than-typical close rate. Worth a direct question in any recruiter call ("how long has this specific req been open, and why").
+
+Score and all other findings above stand unchanged.
+
+**CV regenerated (2026-09-17)** at Harry's request, rebuilt fresh from the current canonical `cv.md` (the 2026-07-17 version had drifted from cv.md's present bullet wording). Bullet order leads with TiMoto's agentic tool-calling bullet ("integrate modern LLMs into real-world applications") and the AWS/Terraform infra bullet ("AWS deployments"), followed by the MCP/retrieval bullet ("end-to-end data workflows") and vLLM serving bullet ("modern LLMs"); Develop for Good leads with the PostgreSQL/N+1 bullet (JD's "SQL and relational databases, comfortable owning end-to-end data workflows"). Skills reordered to bring Languages (Python, TypeScript both named directly in the JD) and Frameworks & Databases (PostgreSQL, React) ahead of Backend & Infrastructure. No new facts, metrics, or claims — reordering and skills-heading resequencing only. Verified 1 page, passed the 4-check anti-AI-signs gate. New file: `output/095-harry-nguyen-resume.pdf` (current naming convention; the 2026-06-09 and 2026-07-17 dated files are left in place as history).
 
 ## Risk Summary
 

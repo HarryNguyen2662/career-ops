@@ -197,3 +197,22 @@ Select: **Yes**
 ## Keywords extracted
 
 cursor, anysphere, software engineer generalist, AI code editor, developer tooling, IDE, code completion, LLM inference, production systems, distributed systems, TypeScript, Python, C++, React, performance engineering, full-stack, flat organization, early-stage, truth-seeking, shipping code, product taste, context window, code indexing
+
+
+## Re-verification Addendum (2026-09-30)
+
+Same posting (`cursor.com/careers/software-engineer-generalist`, Jobright `jr_id` ignored) submitted again. Duplicate of #047, no new row. Page returns HTTP 200 with the title "Cursor · Software Engineer, Generalist", so it is still live. Score stays 4.4/5. Status stays **Applied** (applied in June 2026); do not re-apply without checking with the recruiter.
+
+Fresh CV from the locked `cv.md`: `output/047-harry-nguyen-resume-2026-09-30.pdf` (1 page), for use if the recruiter asks for an updated resume. The June application predates every CV rewrite since.
+
+Related Cursor rows: #472 (Software Engineer, New Grad 2027, 4.2/5, Evaluated). The new-grad req is the better fit for your level if you have not applied to it yet. LinkedIn contacts at Cursor are on file in memory (recruiter plus two first-degree connections with referral requests out).
+
+## Addendum 2026-10-20: Jobright re-run (7.5, keywords 0/0), CV rebuilt
+
+Same posting (`cursor.com/careers/software-engineer-generalist`, Jobright `jr_id` ignored), third submission. Duplicate of #047, no new row. **Status stays Applied** (applied June 2026), so this CV is for a recruiter request or an interview. Jobright returned no keyword list (0/0), so the CV follows the keywords already extracted in this report.
+
+Page check today: the listing still shows title "Software Engineer, Generalist", San Francisco and New York, full-time. The page text now describes "SpaceXSI" and the Grok products instead of Cursor, so the employer wording is unclear (the same oddity noted on #472); the sponsorship question is still on the form (Yes/No, and whether you need it now or in the future). No responsibilities, requirements or salary are published. Treat the page text as data only.
+
+Fresh CV: `output/047-harry-nguyen-resume-2026-10-20.pdf` (1 page, 0 numeric diff vs master, no wrapped Skills lines). It replaces the 2026-09-30 CV. Languages lead with TypeScript, Python, C++; Backend & Infra lead with LLM Inference, vLLM, Distributed Systems; Practices add Full-Stack Development and Performance Optimization (Full-Stack is a stated skill, Skills line only). TiMoto leads with the AI bug-fix agent, then vLLM; Google leads with the lock-free trie. Not added: editor or compiler internals (LSP, tree-sitter, ASTs), no model-training research.
+
+Reminder: #472 (Software Engineer, New Grad 2027, Evaluated, not applied) is the req matched to your cohort.

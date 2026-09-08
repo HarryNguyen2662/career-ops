@@ -214,3 +214,54 @@ top_strengths:
   - Harry's AI + backend stack exceeds JD requirements significantly
   - Pay listed = legitimate posting signal
 ```
+
+
+---
+
+## Addendum 2026-10-18: re-posted requisition 102012325536
+
+**URL:** https://jobs.intuit.com/job/-/-/27595/102012325536 (tracking params cid, p_sid, p_uid, ss, utm, fbclid ignored). Posted 2026-10-15 per the page's JobPosting data. Jobs: Mountain View, San Diego, New York, Charlotte, **Atlanta**.
+**Why no new row:** same company and title as this row (#51, Applied); only the requisition id changed (87369448720 in June, 102012325536 now). Fresh CV built for this posting: `output/51-harry-nguyen-resume-2026-10-18.pdf`.
+
+**What changed in the JD (compared with June):**
+- Qualifications now say "completed a degree-seeking program in Computer Science or a related technical field within the last 12 months" and "less than 12 months of relevant professional work experience (not including internships)". You graduate May 2027, so the degree is not complete yet. Flag only; the earlier "new college grad" wording did not state a window.
+- Adds "use AI tools responsibly to speed up your work" and "awareness of AI concepts, including Generative AI".
+- Focus areas: Frontend (HTML, CSS, JavaScript, React, AngularJS, Vue.js), Backend (Java, Python or Node.js; MySQL, PostgreSQL or MongoDB; Express, Spring MVC or Django), Full stack (Agile/Scrum, Git, Jenkins or Travis), Mobile.
+- Pay as printed: Mountain View $55.5 - $75, New York $57.5 - $78, San Diego $53.5 - $72 (unit not shown; the June report read these as hourly rates, about $115K to $156K a year for Mountain View). No Atlanta line is printed in the current text; the June text had Atlanta at $46.50 to $62.50 an hour (about $96.7K to $130K), under your $140K walk-away.
+
+**Jobright:** not provided for this posting.
+
+**Fresh CV (1 page):** Languages lead with Java, Python and JavaScript; AI Dev Tools adds AI-Assisted Development and Prompt Engineering; Agentic Systems adds Generative AI; Frameworks lead with Django, Node.js and React beside PostgreSQL and MongoDB; Practices adds Full-Stack Development, Code Review and Mentoring (all stated). TiMoto backend first, NextStep above Pulumi. Numbers match the master CV exactly. Not added (not stated): HTML, CSS, Vue.js, AngularJS, Spring MVC, MySQL, Express, Jenkins, Agile, Git as a skill.
+
+**Score:** stays 3.4/5. **Legitimacy:** Proceed with Caution (real Intuit careers page, new req, pay printed; the 17% layoff noted in June still applies to hiring intent).
+
+### Job Description 102012325536 (archived verbatim, Intuit careers JobPosting data)
+
+This role is for engineers at the start of their careers who are eager to learn, grow, and make an immediate impact. It’s a general posting, so we’ll get to know your skills, interests, and career goals and align you with a team where you can do your best work. You’ll work on real problems alongside experienced engineers, designers, and cross-functional partners. You’ll get hands-on guidance, detailed feedback, and mentorship as you learn proven engineering practices and see your work launch. You’ll also build fluency with AI tools and learn to use them responsibly to work smarter. 
+ We're cultivating a culture that prioritizes innovators, risk-takers, and imaginative thinkers. You’ll help create solutions that transform how millions of consumers and small businesses manage their finances in cloud, platform, mobile, and SaaS environments. Working in a culture that embraces experimentation and rapid prototyping, you’ll collaborate closely with customers and cross-functional teams, turning ideas into real impact while building the skills to launch a rewarding career. 
+ Responsibilities 
+ Across all tech stacks: 
+ Build and ship features for our core products and the systems that power engineering operations, and see your work reach customers.
+ Learn and apply proven practices for designing, building, testing, and supporting software.
+ Use AI tools responsibly to speed up your work, and share what you learn with your team.
+ Turn customer feedback into small, meaningful improvements, using methods like Design for Delight.
+ Collaborate with peers, designers, and engineers, and use code reviews, mentorship, and feedback to grow.
+ Focus areas: 
+ Frontend: Build responsive, dynamic web applications with HTML, CSS, JavaScript, and frameworks such as React, AngularJS, or Vue.js. Partner with designers, UX specialists, and backend engineers.
+ Backend: Build web services in Java, Python, or Node.js. Work with databases like MySQL, PostgreSQL, or MongoDB, and design and integrate RESTful APIs using frameworks such as Express, Spring MVC, or Django.
+ Full stack: Work across frontend and backend, discuss application and API architecture, and contribute on Agile/Scrum teams using tools like Git, Jenkins, or Travis.
+ Mobile: Build Android or iOS applications using tools such as React Native, Flutter, Xcode, Android Studio, Swift, Objective-C, or Java. Integrate them with cloud-based APIs.
+ Qualifications 
+ Completed a degree-seeking program in Computer Science or a related technical field within the last 12 months.
+ Less than 12 months of relevant professional work experience (not including internships, co-ops, or work study).
+ Foundational understanding of Agile development, object-oriented design, and programming principles.
+ Coursework, internships, personal projects, or academic experience in one or more programming languages (e.g., Java, Python, JavaScript, C++).
+ Basic knowledge of front-end web technologies (HTML, CSS, JavaScript) is a plus.
+ Awareness of AI concepts, including Generative AI, plus curiosity about AI tools and a willingness to apply them in your daily work.
+ Strong written, verbal, and collaboration skills.
+ Willingness to learn and adapt to new priorities, tools, and technologies in a fast-paced environment.
+ Intuit provides a competitive compensation package with a strong pay for performance rewards approach. This position will be eligible for a cash bonus, equity rewards and benefits, in accordance with our applicable plans and programs (see more about our compensation and benefits at Intuit®: Careers | Benefits ). Pay offered is based on factors such as job-related knowledge, skills, experience, and work location. To drive ongoing fair pay for employees, Intuit conducts regular comparisons across categories of ethnicity and gender.
+ The expected base pay range for this position is: 
+ Mountain View $55.5 - $75 
+ New York $57.5- $78
+ San Diego, CA $53.5- $72

@@ -5,7 +5,7 @@
 **Archetype:** Full-Stack / Product SWE
 **Score:** 3.5/5
 **Legitimacy:** High Confidence
-**PDF:** pending
+**PDF:** output/050-asana-harry-nguyen-2026-08-06.pdf (refreshed 2026-08-06, see addendum below)
 
 ---
 
@@ -207,3 +207,13 @@ red_flags:
 recommend: "apply -- warn on experience gap; strong codebase match (Chromium), TypeScript/React present, sponsorship confirmed, comp clears target"
 date: "2026-06-04"
 ```
+
+---
+
+## Addendum — CV refresh 2026-08-06
+
+Same posting resurfaced (identical job ID `7961475`, `asana.com/jobs/apply/7961475?gh_jid=7961475`). Not a new role; no re-evaluation performed.
+
+The original CV (`output/050-asana-software-engineer-cv.pdf`, generated 2026-06-04) predated the `templates/cv-template.tex` spacing fix on 2026-08-05 and was missing the NextStep project entirely. Regenerated with the fixed template, following the original Customization Plan's intent: Google Chrome's TypeScript/React observer-pattern bullet leads (matches the JD's explicit TypeScript + React + large-codebase ask), Skills reordered to lead with Languages (TypeScript first) then Frameworks (React), and NextStep leads the Projects section as the stronger full-stack/product proof point over Pulumi's IaC framing. Both personal projects present, all Experience bullets intact. Verified 1 page, 18/18 items, 0 stray asterisks. Score and recommendation unchanged (3.5/5, already Applied).
+
+New file: `output/050-asana-harry-nguyen-2026-08-06.pdf`.

@@ -162,3 +162,29 @@ visa_risk: "F-1 — H-1B confirmed active sponsor (LCA filings FY2025, h1bgrader
 legitimacy: High Confidence
 recommendation: "Apply — top AI company ($11B valuation), Python+TS/React direct match, remote globally (no relocation), H-1B confirmed, no experience requirement. Full-stack is adjacent archetype; lead with AI product ownership + TiMoto Python/serving + Chrome TypeScript/React."
 ```
+
+
+---
+
+## Addendum 2026-10-01: application link re-pasted, fresh CV
+
+**Dedup:** the Ashby link `6a530871-b6c6-4783-ac6b-69cc3b084192/application?fbclid=...` is exactly this posting (same ID as the URL in the header). No new report, no new tracker row. **The tracker already shows this row as Applied** (submitted June 2026), so check your Ashby application status before filing again. Ashby usually does not accept a second application to the same requisition.
+
+**Liveness (Ashby board API, 2026-10-01):** live. "Full-Stack Engineer", team Agents - Core, remote (global), plus offices in London, New York, San Francisco, and Warsaw; first published 2024-09-06, so this is an evergreen requisition. No pay range is posted. Responsibilities and requirements are unchanged in substance: Python expertise, TypeScript/React web development, system and design patterns (APIs, cloud infrastructure, storage, data structures), bonus for test design and security awareness. Score stays 4.0/5.
+
+**Fresh CV (not yet used):** `output/093-harry-nguyen-resume-2026-10-01.pdf` (1 page, 0 stray asterisks). It replaces the June CV `output/093-elevenlabs-harry-nguyen-2026-06-09.pdf`, which predates the 09-29 cv.md changes. Built from the current master with JD-vocabulary rewording and a reorder, facts unchanged:
+- Backend bullet: "from zero to production" (JD: end-to-end ownership).
+- NextStep bullet: "React and TypeScript AI copilot" (JD: TypeScript/React web development).
+- Skills: added System Design (JD: software and system design patterns).
+- TiMoto order: agent, the cross-functional partnership with ops, sales, and marketing (JD: collaborate with Growth and Sales), backend, EKS to Fargate, vLLM, gRPC deadlock.
+Education shows May 2027.
+
+## Addendum 2026-10-23: apply link re-pasted again (duplicate, no new tracker row)
+
+Same Ashby job `6a530871` (Full-Stack Engineer, United Kingdom, remote; Ashby first-published date 2024-09-06, no pay range shown). The tracker status is already Applied (applied in June), and this link was re-pasted on 2026-10-01 and again on 2026-10-23. A fresh CV exists from 2026-10-01. No new CV was built; ask for one if the company requests an updated resume. Check the application status in Ashby before applying again. Note: the posting lists the United Kingdom location; confirm whether a U.S.-based remote hire is eligible.
+
+## Addendum 2026-10-23 (second entry): Jobright checker result and CV rebuild
+
+Jobright checker for the master resume: 6.0, 4/9 keywords (Python, TypeScript, React, Web Development, APIs, Software Design Patterns, System Design, Data Structures, Test Design); Jobright lists the experience bar as 0+ years. Jobright reads the master resume uploaded to Jobright, not the tailored CV.
+
+Fresh CV `output/093-harry-nguyen-resume-2026-10-23.pdf` (1 page, eight Skills rows, numbers identical to the master) adds Web Development, System Design, API Design, Design Patterns, Data Structures and Test Design in the Platform and Practices rows, from real work: the Chrome event-driven observer refactor (design patterns), the testing design doc (test design), the lock-free trie (data structures), the valuation backend (system and API design). Expected coverage 9/9. Tracker status stays Applied; check Ashby before applying again and confirm US eligibility for the United Kingdom-listed remote role.

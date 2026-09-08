@@ -1424,3 +1424,40 @@ tracked_companies:
     scan_query: 'site:block.xyz "Software Engineer" OR "Backend Engineer" OR "New Grad" OR "University Grad" OR "Early Career" OR intern OR "ML Engineer" OR "Infrastructure" OR "Platform Engineer" OR SRE OR "Distributed Systems"'
     notes: "Careers site — use /career-ops scan (agent Playwright) or paste URLs to data/pipeline.md; not scanned by scan.mjs API."
     enabled: true
+
+  - name: Baselayer
+    careers_url: https://job-boards.greenhouse.io/baselayer
+    api: https://boards-api.greenhouse.io/v1/boards/baselayer/jobs
+    enabled: true
+
+  - name: Lightfield
+    careers_url: https://jobs.ashbyhq.com/lightfield
+    enabled: true
+
+  - name: Halluminate
+    careers_url: https://jobs.ashbyhq.com/halluminate
+    enabled: true
+
+  - name: Chamelio
+    careers_url: https://jobs.ashbyhq.com/chamelio
+    enabled: true
+
+  - name: Antioch
+    careers_url: https://jobs.ashbyhq.com/antioch
+    enabled: true
+
+  - name: Kastle
+    careers_url: https://jobs.ashbyhq.com/kastle
+    enabled: true
+
+  - name: Blee
+    careers_url: https://jobs.ashbyhq.com/blee
+    enabled: true
+
+  - name: Raindrop
+    careers_url: https://jobs.ashbyhq.com/raindrop
+    enabled: true
+
+  - name: Siena AI
+    careers_url: https://jobs.ashbyhq.com/siena
+    enabled: true

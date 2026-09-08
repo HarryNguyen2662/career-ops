@@ -1,5 +1,5 @@
 %-------------------------
-% Resume: Harry Nguyen — New Grad 2027 | Distributed Systems / Backend Infrastructure
+% Resume: Harry Nguyen, New Grad 2027 | Applied AI Systems (production reliability + inference performance)
 %-------------------------
 
 \documentclass[letterpaper,11pt]{article}
@@ -25,8 +25,8 @@
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.3in}
+\addtolength{\topmargin}{-.95in}
+\addtolength{\textheight}{1.75in}
 
 \urlstyle{same}
 \raggedbottom
@@ -34,8 +34,8 @@
 \setlength{\tabcolsep}{0in}
 
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
 
 \pdfgentounicode=1
 
@@ -70,7 +70,7 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-9pt}}
 \newcommand{\resumeSkillHeading}[2]{%
   \item\small{\textbf{#1}: #2 \vspace{-9pt}}%
 }
@@ -86,17 +86,13 @@
     \href{https://www.linkedin.com/in/harrynguyen26/}{\underline{linkedin.com/in/harrynguyen26}} $|$
     \href{https://github.com/HarryNguyen2662}{\underline{github.com/HarryNguyen2662}}
 \end{center}
+\vspace{-18pt}
 
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
-    \resumeSubheading
-      {Georgia State University}{Expected May 2027}
-      {Bachelor of Science in Computer Science \textbf{· GPA: 3.75/4.0}}{}
-      \resumeItemListStart
-        \resumeItem{Coursework: Distributed Systems, Operating Systems, Database Systems, Computer Networks, Data Structures}
-        \resumeItem{Honors: Presidential Scholarship, Anita Andrew Fellowship, Roxie Alexander Memorial Award}
-      \resumeItemListEnd
+    \resumeSubheadingShortSplit
+      {Georgia State University}{Bachelor of Science in Computer Science}{May 2027}
   \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
@@ -106,30 +102,29 @@
     \resumeSubheadingShortSplit
       {TiMoto AI}{Software Engineer}{Sep 2025 -- Present}
         \resumeItemListStart
-          \resumeItem{Cut incident root-cause time from unknown to \textbf{under 15 minutes} by building TiMoto's observability stack from zero — deployed \textbf{Prometheus} and \textbf{Grafana} metrics alongside CloudWatch
-      dashboards across the gRPC and ML serving layers}
-          \resumeItem{Restored \textbf{100\% evaluation success rate} at \textbf{sub-50ms p99} by resolving a production \textbf{gRPC} deadlock — replaced inconsistent lock-acquisition ordering under concurrent calls with a
-      single enforced sequencing rule across the inter-service layer}
-          \resumeItem{Eliminated \textbf{OOM failures} under concurrent production load by replacing naive batching with a \textbf{vLLM/PagedAttention} inference engine, solving KV cache memory fragmentation for LLM serving}
-          \resumeItem{Prevented single-zone failures from taking production down, sustaining \textbf{99.9\% uptime} and cutting infrastructure cost \textbf{44\%} (\$40--60/month), by migrating off \textbf{EKS} to a multi-AZ \textbf{ECS Fargate}
-      deployment with \textbf{Terraform IaC}, CloudWatch observability, and an auto-rollback circuit breaker pattern}
-          \resumeItem{Cut mean-time-to-identify \textbf{68\%} by building a post-mortem practice with runbooks and a shared on-call rotation}
+          \resumeItem{Shipped an AI agent that fixes production bugs from PR diffs and logs behind tests and auto-rollback, cutting a small team's debug time from about 45 to \textbf{under 8 min} over 150+ issues in 2 months, 95\% fully automated}
+          \resumeItem{Built TiMoto's motorbike-valuation backend from zero on AWS Fargate; since AI valuations can take minutes, split it into a Django REST API, a private gRPC evaluator, and a WebSocket service that notifies the app when done}
+          \resumeItem{Redesigned an over-provisioned \$5K/month EKS setup onto multi-AZ ECS Fargate (Terraform) with Grafana monitoring, reducing cost 44\% to under \$3K/month at 99.9\% uptime over 4 months and root cause to under 15 min}
+          \resumeItem{Diagnosed out-of-memory failures on 6--8\% of peak-hour LLM requests as 65\% KV cache fragmentation; moving serving to vLLM cut it under 4\%, with none in 4 months, and raised throughput 3.2x (14 to 45 req/sec)}
+          \resumeItem{Traced ML evaluation accuracy stuck at 57\% to a production gRPC deadlock that truncated responses into wrong results, then replaced inconsistent lock ordering with one enforced order, raising accuracy to 87\%}
+          \resumeItem{Partnered with ops, sales, marketing, product, and the founder to fix the company-wide AI agent, which gave staff wrong answers, reorganizing its knowledge base by team with RAG and a knowledge graph and speeding replies from 30--40s to 5--10s}
       \resumeItemListEnd
 
     \resumeSubheadingShortSplit
-      {Google}{Software Engineer Intern — Chrome Browser}{May 2025 -- Aug 2025}
+      {Google}{Software Engineer Intern (Chrome Browser)}{May 2025 -- Aug 2025}
       \resumeItemListStart
-        \resumeItem{Shipped a \textbf{C++ IPC transport layer} to Chrome's stable channel — serving \textbf{3B+ active users} at \textbf{sub-50ms p99} and \textbf{10K+ req/sec} — by choosing Protocol Buffers over custom serialization for schema evolution and cross-language compatibility}
-        \resumeItem{Turned a visibly sluggish settings search into an instant one for power users — \textbf{96\%} p99 latency cut (1,200ms down to sub-50ms), zero production regressions — by replacing a mutex-contended search path with a \textbf{lock-free concurrent trie}}
-        \resumeItem{Ended cross-team cascading UI bugs and accelerated feature delivery \textbf{68\%} across \textbf{25K+ lines} of Chromium, at \textbf{95\% test coverage}, by architecting an event-driven TypeScript/React system that decoupled UI state propagation via the observer pattern}
-        \resumeItem{Landed production-ready changes into Chrome's codebase — reviewed and adopted by senior engineers — by delivering design docs and code reviews at \textbf{95\% test coverage} alongside the Chrome infrastructure team}
+        \resumeItem{Built a Mojo IPC interface and C++ config reader to rebuild Chrome's Privacy Sandbox internals page, cutting debugging from 2--3 hours of logs and DB dumps to \textbf{under 5 min} for 200+ engineers; shipped to stable in 78 PRs}
+        \resumeItem{Wrote the design doc for a lock-free trie in the browser process after settings search took 1,200ms at p99 because it scanned linearly while IPC kept writing new keys, bringing it under 50ms}
+        \resumeItem{Root-caused stale tabs and renderer crashes, via bug-tracker repros and call stacks, to sub-teams' panels mutating one shared state object; moved the page to an event-driven observer model, closing 45 related bugs}
+        \resumeItem{Fixed about 30 page tests that timed out mid-run because checks fired before UI data loaded; wrote a testing design doc that made tests wait for data before checking the UI, taking the suite from \textbf{2 hours to 10 min}}
       \resumeItemListEnd
 
     \resumeSubheadingShortSplit
       {Develop for Good}{Software Engineer Intern}{May 2024 -- Aug 2024}
       \resumeItemListStart
-        \resumeItem{Scaled a backend to support \textbf{500+ concurrent users} and cut deployment time \textbf{90\%} by designing a stateless AWS BaaS with JWT auth and a GitHub Actions CI/CD auto-scaling policy}
-        \resumeItem{Cut API response time from 3+ seconds to \textbf{sub-100ms} on \textbf{10,000+ record} datasets by diagnosing an N+1 query bottleneck and redesigning the data layer with PostgreSQL indexing}
+        \resumeItem{Sped up the member list for CW3, a global Web3 community, which took 3+ seconds to load over 10,000+ records because of N+1 queries; batched the queries and added PostgreSQL indexes, bringing it \textbf{under 100ms}}
+        \resumeItem{Moved CW3 off Airtable, which had become cluttered and hard to use, to Appwrite as primary backend engineer on a 12-person team, with profile-based member matching for meetups, serving 500+ concurrent users}
+        \resumeItem{Automated manual weekly deploys with a GitHub Actions CI/CD pipeline, cutting them from 15 to 5 min}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -138,22 +133,29 @@
 \section{Projects}
   \resumeSubHeadingListStart
     \resumeProjectHeading
-      {\textbf{Pulumi — Contributor} $|$ \emph{Go, TypeScript, Infrastructure-as-Code (IaC)}}{\href{https://github.com/pulumi/pulumi}{\underline{github.com/pulumi}}}
+      {\textbf{Pulumi} \textbar{} Open Source Contributor}{\href{https://github.com/pulumi/pulumi}{github.com/pulumi}}
       \resumeItemListStart
-        \resumeItem{Submitted Go CLI features and bug fixes enabling multi-cloud (AWS/Azure/GCP) provisioning — under active review by core maintainers}
-        \resumeItem{Analyzed \textbf{Raft/Paxos consensus} in distributed state synchronization layer — studied linearizability guarantees and correctness under concurrent operations and partial failures}
+        \resumeItem{Open-source infrastructure-as-code tool that lets DevOps, platform, and software engineers manage AWS, Azure, GCP, and Kubernetes in Go, Python, or TypeScript}
+        \resumeItem{Submitted Go CLI features and fixes for multi-cloud (AWS/Azure/GCP) provisioning, in maintainer review}
+        \resumeItem{Wrote Raft/Paxos consensus test cases for Pulumi's distributed state synchronization layer (submitted), checking correctness under concurrent operations and partial failures}
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\textbf{NextStep} \textbar{} Founder}{\href{https://nexteasystep.com/}{nexteasystep.com}}
+      \resumeItemListStart
+        \resumeItem{NextStep's AI copilot tracks deadlines and obligations in household documents for 100 users; its first model and harness misread 37\% of extracted fields, so switched both and added deterministic schema validation and multi-pass repair, dropping errors to \textbf{9\%} with 7\% routed to manual review}
+        \resumeItem{Provider rate limits and timeouts left the LLM router completing only 92--94\% of requests, with 12--15\% of structured outputs malformed; automatic failover across Gemini, OpenAI, OpenRouter, and NVIDIA NIM plus a retry-and-repair layer raised completion to 99.7\% and cut malformed outputs under 0.3\%}
+        \resumeItem{The model needs each document whole, so uploads up to 500 MiB had to survive network drops and client restarts; built a resumable pipeline with 8 MiB chunks on private Supabase Storage (RLS) and Terraform-managed Cloud Run and KMS, within the project's 302-test suite}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 %-----------TECHNICAL SKILLS-----------
 \section{Skills}
   \resumeSubHeadingListStart
-    \resumeSkillHeading{Distributed Systems}{gRPC, Protocol Buffers, Circuit breakers, Exactly-once semantics, Fault tolerance, Kafka, Multi-AZ, Event-driven architecture}
-    \resumeSkillHeading{ML \& AI Infrastructure}{vLLM, PagedAttention, Continuous Batching, LoRA/QLoRA, PyTorch, LangChain, LLM-as-a-judge evaluation}
     \resumeSkillHeading{Languages}{C++, Python, Go, TypeScript, Java, JavaScript, SQL, Bash, Rust}
-    \resumeSkillHeading{Cloud \& Infrastructure}{AWS (ECS Fargate, EKS, EC2, S3, RDS), Terraform, Kubernetes, Docker, CI/CD, CloudWatch, Prometheus, Grafana, GCP}
-    \resumeSkillHeading{Frameworks \& Databases}{Django, FastAPI, Node.js, React, REST APIs, PostgreSQL, Redis, MongoDB}
     \resumeSkillHeading{AI Dev Tools}{Claude Code, GitHub Copilot, Codex, Cursor}
+    \resumeSkillHeading{Backend \& Infra}{vLLM, gRPC, AWS, Terraform, Kubernetes, Docker, CI/CD, Prometheus, Grafana}
+    \resumeSkillHeading{Frameworks \& Databases}{Django, FastAPI, Node.js, React, REST APIs, PostgreSQL, pgvector, Redis, MongoDB}
+    \resumeSkillHeading{Agentic Systems}{LLM Agents, Tool Calling, MCP, Hybrid Retrieval (RAG), Schema-Constrained Generation, Evals}
   \resumeSubHeadingListEnd
 
 \end{document}

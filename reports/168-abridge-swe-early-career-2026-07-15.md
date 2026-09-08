@@ -186,3 +186,27 @@ I am happy to discuss further at your convenience.
 ## Keywords extracted
 
 agentic LLM systems, retrieval pipelines, RAG, structured tool use, chained LLM workflows, evaluation frameworks, human-in-the-loop, LLM orchestration, prompt chaining, tool use, LangChain, LlamaIndex, monitoring, observability, GenAI, production code, backend, frontend, healthcare AI, clinical systems
+
+---
+
+## Addendum — CV refresh 2026-08-08
+
+Same posting confirmed still live, matched again via exact URL (`jobs.ashbyhq.com/Abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace`) against a newly-pasted duplicate link — not a new role, no re-evaluation performed. (Distinct from #238, a separate Mid/Senior "Software Engineer, GenAI" req at the same company evaluated 2026-08-07.)
+
+The original CV (generated 2026-07-15, before the `templates/cv-template.tex` spacing fix on 2026-08-05) was missing the NextStep project entirely — only Pulumi was included. Regenerated with the fixed template: both personal projects present, all Experience bullets intact, same tailoring strategy as the original Customization Plan (vLLM/PagedAttention bullet leading TiMoto experience, observability stack bullet kept prominent, AI Dev Tools and LangChain kept visible in Skills). Verified 1 page, 18/18 items, 0 stray asterisks.
+
+Score and recommendation unchanged (4.4/5, Apply — strong priority).
+
+New file: `output/168-abridge-harry-nguyen-2026-08-08.pdf`.
+
+## Addendum 2026-10-14 (checker 6.0, 0/6, fresh CV)
+
+Re-pasted with a Jobright result (6.0, keywords 0/6: Generative AI, LLM APIs, RAG, LLM Orchestration, Prompt Chaining, Model Evaluation). The posting is the same Ashby id `7d6ae2be-cd53-466c-8151-2dae2e87aace`, now titled "Member of Technical Staff, Early Career" (published 2026-09-15, $167K-$184K, onsite 5 days in San Francisco), still live. The tracker shows this row as Applied, so no new row and no status change. The checker read an old uploaded resume (its profile line shows the Chrome internship). New CV `output/168-harry-nguyen-resume-2026-10-14.pdf` (1 page) carries all six phrases in Agentic Systems (Generative AI, LLM APIs, LLM Orchestration, RAG, Prompt Chaining, Model Evaluation (Evals)) plus Prompt Engineering, LangChain, Human-in-the-Loop Review, Frontend, Customer-Facing Work and Reliability. Prompt Chaining and LLM Orchestration rest on the NextStep router and multi-pass repair work and the TiMoto agent; Prompt Engineering and LangChain are stated by Harry (Skills only). No sentence added; numbers unchanged against the master. Use this CV only if the application is reopened or a recruiter asks for an updated resume; a submitted application does not change.
+
+## Addendum 2026-11-01 (checker 6.0, 0/5, fresh CV in the 8-row format)
+
+Third re-paste of the same Ashby id `7d6ae2be-cd53-466c-8151-2dae2e87aace` (title "Member of Technical Staff, Early Career", SF Office on-site, $167K-$184K, published 2026-09-15 on the board API, still live). The tracker row stays Applied; no new row and no status change. Jobright now lists 5 keywords (Generative AI, LLM API Integration, RAG, LLM Orchestration, Model Evaluation; Prompt Chaining dropped out of the list) and again scored an old uploaded resume.
+
+Fresh CV `output/168-harry-nguyen-resume-2026-11-01.pdf`: one page, eight one-line Skills rows, no blank gap. All 5 Jobright keywords appear literally (Generative AI, LLM API Integration, LLM Orchestration, RAG, Model Evaluation), plus LangChain and Prompt Engineering (both stated by Harry, Skills only, and both named in the JD), Frontend work through React and Full-Stack, Monitoring and Observability (the JD asks for monitoring and observability systems), and Human-in-the-Loop Review. TiMoto order: vLLM, agent, company-wide agent, gRPC deadlock, backend, Fargate. Google order: shared-state refactor, lock-free trie, Mojo IPC, test fix. NextStep project first. Numbers equal the master. ATS coverage 18 of 27 (67%) on my tool; remaining misses are Fine-tuning, Research, Experiment Design and Cybersecurity (no support) and HTTP/HTTPS (matched only a URL).
+
+This supersedes `output/168-harry-nguyen-resume-2026-10-14.pdf`, which predates the one-line Skills format and wraps two rows. Use the new CV only if the application is reopened or a recruiter asks for an updated resume; a submitted application does not change.

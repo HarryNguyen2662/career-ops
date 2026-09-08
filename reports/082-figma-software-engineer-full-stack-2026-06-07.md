@@ -5,9 +5,28 @@
 **Archetype:** Full-Stack Engineer (React/TypeScript + Backend)
 **Score:** 3.8/5
 **Legitimacy:** High Confidence
-**PDF:** output/082-figma-software-engineer-full-stack-harry-nguyen-2026-06-07.pdf
+**PDF:** output/082-harry-nguyen-resume.pdf (regenerated 2026-09-17; see re-verification note below)
 
 ---
+
+## Re-verification (2026-07-20)
+
+Same posting resurfaced via jobright (`token=5691911004` on a Greenhouse `embed/job_app` link matches this report's job ID exactly) — re-checked via Playwright before Harry acts on it, ~6.5 weeks after the original evaluation.
+
+- **Posting confirmed live and unchanged in substance.** Title, JD body, and the `$153,000 - $376,000 USD` base range are identical to the original evaluation. The team list grew slightly — the current posting adds **Figma Buzz** and **Frontend Platform** to the original Editor/FigJam/Slides/Sites/Growth/Internal Tools/Foundations list — more placement breadth, not a material change to fit or score.
+- **Score unchanged at 3.8/5.** No new gaps or new strengths found; the original Block A-G analysis (Internal Tools/Foundations positioning, C++/WASM gap only relevant to the Editor team, F-1/H-1B strong-sponsor read) still holds.
+- **CV regenerated** with the now-fixed LaTeX template (one-line header, working `**bold**` emphasis via the fixed `escapeLatexWithBold` pipeline, corrected `mailto:` link): `output/082-figma-software-engineer-full-stack-harry-nguyen-2026-07-20.pdf`, 1 page, verified via `pdfinfo`. Bullet order follows the original Customization Plan (Section E): TypeScript/React Chrome bullet leads, TiMoto infra/observability ownership bullets lead the TiMoto block, Skills reordered to Frameworks & Databases first.
+- **Recommendation unchanged: Apply**, targeting Internal Tools or Foundations in the application's team-interest question.
+
+---
+
+## Re-verification (2026-09-17)
+
+Same URL pasted a third time (job ID `5691911004` on a fresh `gh_jid`/`gh_src`-tagged link), stripped token confirms identical posting. Re-navigated via Playwright: still live, same title ("Software Engineer - Full Stack"), same `$153,000 - $376,000 USD` base range, same team list (Editor, FigJam, Slides, Sites, Buzz, Growth & Monetization, Internal Tools, Frontend Platform, Foundations — matching the 2026-07-20 re-verification's expanded list). No new report or tracker row created; score, CV, and all findings above stand unchanged.
+
+The actual application form was reached this time (not just the overview page), confirming the exact field text of the "Why do you want to join Figma?" question (max 3-4 sentences) already drafted for Harry in this session, plus several other structured questions worth flagging for when he fills the form: "Have you ever worked for Figma before, as an employee or a contractor/consultant?", "Which of the following best describes your primary technical expertise?" (per Section C, answer "Full-stack / backend"), "Our Full Stack Engineer role can lead to opportunities on a variety of teams... select a maximum of 2 areas" (per Section C's strategy, select Internal Tools and Foundations, not Editor), and "Which programming languages do you regularly use in a professional setting?" (Python, TypeScript, C++, Go per cv.md).
+
+**CV regenerated (2026-09-17)** at Harry's request, rebuilt fresh from the current canonical `cv.md`. This surfaced a factual correction worth recording: the original Customization Plan (Section E, #1) and the "Sell Chrome at scale as frontend proof" quote in Section C describe the Google Chrome internship as having shipped "React/TypeScript... to 3 billion Chrome users." The current `cv.md`'s Chrome bullets are, and as far as can be determined always were in this evaluation's own scope, entirely C++ (privacy-sandbox-internals C++ interface, C++ Mojo IPC, a self-implemented lock-free concurrent trie, and a 25K+ line refactor) — no TypeScript or React appears anywhere in the Chrome block. The genuine React/TypeScript full-stack proof point on `cv.md` is **NextStep** (Founder), not Chrome. This regeneration does not repeat the earlier framing; the new CV keeps Chrome's bullets honestly C++-only (leading with the 25K+ line refactor and lock-free trie, both strong "reliability/scalability" proof for this JD) and relies on NextStep for the frontend/full-stack story. No new facts or metrics were added, only reordering, and the Skills section now leads with Frameworks & Databases and Languages (React, TypeScript, Python, Go, C++ all surfaced early) to match this JD's explicit stack list. Verified 1 page, passed the 4-check anti-AI-signs gate. New file: `output/082-harry-nguyen-resume.pdf` (current naming convention; the 2026-06-07 and 2026-07-20 dated files are left in place as history).
 
 ## A) Role Summary
 
@@ -148,3 +167,37 @@ visa_risk: "F-1 — H-1B strong positive (Figma 100+ LCA filings; form asks work
 legitimacy: High Confidence
 recommendation: "Apply — Chrome React/TS 3B users + TiMoto backend ownership = genuine full-stack proof; target Internal Tools/Foundations team; $153K+ clears minimum; H-1B confirmed"
 ```
+
+## Addendum 2026-10-03: link pasted again (fifth time), full CV rewrite
+
+**Duplicate:** Same Greenhouse job `5691911004` (requisition 1918; the `jr_id` parameter is a tracking tag). No new report and no new tracker row.
+
+**Check this first:** the tracker row for #82 says **Applied**, but this report's own re-verification notes (2026-07-20 and 2026-09-17) read as if you had not applied yet ("before Harry acts on it"), and the status ledger has no entry for it. If you did submit to Figma, the row is right and re-applying adds nothing. If you did not, the row is wrong and should go back to Evaluated; tell me which and I will fix it. Figma's posting does not say whether it ignores a second application from the same person.
+
+**Liveness:** the Greenhouse board API still returns the posting (title "Software Engineer - Full Stack", first published 2025-11-01, last updated 2026-09-24). Pay is unchanged at $153,000 to $376,000 base (the range spans levels). The text says the opening applies at varying seniority levels across Figma Editor, FigJam, Slides, Sites, Buzz, Growth & Monetization, Internal Tools, Frontend Platform and Foundations, and can be held from a US hub or remotely in the United States. Score stays 3.8/5.
+
+**Form (from the Greenhouse API), with suggestions from cv.md; each answer is yours to confirm:**
+- Authorized to work in the country: Yes (F-1 with CPT/OPT). There is no sponsorship question on this form.
+- Worked for Figma before: No.
+- Years of professional experience excluding internships: 0-2 years.
+- Full-time software engineer professionally, excluding internships: your TiMoto role is the basis; earlier reports describe it as full-time. Confirm.
+- Built and maintained user-facing web applications professionally: your TiMoto work is the backend of a consumer app; the front end is another person's. Answer as you see it.
+- Team areas: Internal Tools / Developer Platforms fits (your agent tool, the Chrome debugging page, CI/CD automation). Frontend Platform does not.
+- Primary expertise: Backend, Infrastructure, ML/AI; Full-Stack only if you consider yourself that.
+- Languages used professionally: TypeScript, Python, C++ (Chrome internship). Go comes from open source, not a professional role.
+- From where do you intend to work: your choice (a US hub or remote).
+- Why do you want to join Figma?, Additional Information, pronouns: yours to write or choose.
+
+**Fresh CV:** `output/082-harry-nguyen-resume-2026-10-03.pdf` (1 page), rebuilt from scratch: every Experience bullet and the NextStep lead bullet were rewritten in the JD's vocabulary. A numeric check shows no figure added or lost against the master CV. It supersedes `output/082-harry-nguyen-resume.pdf`. MongoDB was dropped from the Frameworks line to keep one page.
+
+| JD phrase | CV change |
+|---|---|
+| "shipping and maintaining ... applications in production", "own projects end-to-end" | TiMoto bullet 1: "Owned TiMoto's motorbike-valuation backend end to end, from zero to production ... a WebSocket service that notifies the app in real time when done"; `Full-Stack` added to the Frameworks line (React first) |
+| "cross-functional partners in Product, Design, Research, and Data" | "Worked cross-functionally with ops, sales, marketing, product, and the founder" |
+| "developer workflows", "developer tooling" | Bullet 3: "Shipped a developer-tooling agent that fixes production bugs"; Google Mojo bullet reads "a debugging tool for 200+ engineers" |
+| "reliability, security, and scalability" | `Reliability` and `Observability` added; EKS to multi-AZ ECS Fargate bullet kept |
+| "testing, launch, iteration" | Google leads with the test-suite design doc (2 hours to 10 min) |
+| "AI-assisted development tools (GitHub Copilot, ChatGPT, Claude)" | AI Dev Tools line leads GitHub Copilot, Claude Code |
+| "React/TypeScript ... Python, Go, C++, PostgreSQL" | Languages leads TypeScript, Python, Go, C++; Frameworks leads React, Node.js; PostgreSQL stays |
+
+Not added because cv.md does not support them: WebAssembly, SAML/SCIM, Stripe or Salesforce integrations, billing or payments work, production React/TypeScript (the 2026-09-17 correction in this report stands: the Chrome internship was C++, not React). Gates: 1 page, 0 em dashes, 0 AI-vocabulary hits, 0 contrast frames, 0 stray asterisks.

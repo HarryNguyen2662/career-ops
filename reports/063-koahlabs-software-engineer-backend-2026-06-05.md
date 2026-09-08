@@ -5,7 +5,9 @@
 **Archetype:** Backend / Distributed Systems Engineer + Founding / Early-Stage Software Engineer
 **Score:** 3.8/5
 **Legitimacy:** High Confidence
-**PDF:** pending
+**PDF:** output/063-koahlabs-software-engineer-backend-harry-nguyen-2026-07-22.pdf
+
+> **Re-verification (2026-07-22):** same posting resurfaced via jobright (identical job ID, same $180K-$250K comp, same responsibilities: frequency capping, impression data models, ClickHouse/Kafka/Terraform stack) — re-checked via Playwright directly on the original Ashby URL, still live and unchanged, ~7 weeks after the original evaluation. Funding history reconfirmed unchanged ($5M seed Sep 2025 + $20.5M Series A Feb 2026, $25.5M total per Crunchbase — consistent with report's original $26.5M figure). No layoff signal. Score stands unchanged at 3.8/5. CV regenerated with the now-fixed LaTeX template (one-line header, working `**bold**` emphasis): `output/063-koahlabs-software-engineer-backend-harry-nguyen-2026-07-22.pdf`, 1 page, verified via `pdfinfo`. Bullet order follows this report's own Customization Plan (Section E): TiMoto's data-pipeline/event-tracking framing leads, Redis-caching parenthetical added, Kafka surfaced explicitly in Skills.
 
 ---
 

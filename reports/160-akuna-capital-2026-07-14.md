@@ -212,3 +212,7 @@ No essay-style "why this role" / "why Akuna" field exists on this form to draft 
 ## Keywords extracted
 
 C++20, C++23, distributed systems, parallel processing, asynchronous architectures, networking, protocol encoding/decoding, lock-free data structures and algorithms, performance profiling, perf, gprof, vtune, GDB, Valgrind, address sanitizer, Quant, Trading stakeholders, Chicago, entry-level, new grad, STEM OPT, H-1B, Illinois Equal Pay Act, discretionary performance bonus, top preference acknowledgment
+
+## Addendum 2026-10-07 (re-paste)
+
+Greenhouse job 8013085 (Akuna Entry-Level C++, Chicago) re-pasted from a Facebook tracking link (fbclid ignored). The posting is still live on the API (last updated 2026-08-31) and the text is unchanged: graduating by August 2027, F-1 OPT/STEM allowed, base from $145,000. This row is already Applied, so no new row. Fresh CV for the C++ role: `output/160-harry-nguyen-resume-2026-10-07.pdf` (1 page; C++/concurrency/lock-free/IPC work leads, Skills row names Distributed Systems, Concurrency, Performance Profiling, Debugging, Networking). Real gaps, not added: C++20/23, GDB, Valgrind, sanitizers, perf/vtune (none are on your CV). Applying to this role means you are not considered for other Akuna Quant and Tech roles this season (the Python role #159 was already rejected).

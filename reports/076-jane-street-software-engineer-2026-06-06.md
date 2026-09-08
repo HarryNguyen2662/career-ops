@@ -7,6 +7,8 @@
 **Legitimacy:** High Confidence
 **PDF:** output/076-jane-street-software-engineer-harry-nguyen-2026-06-06.pdf
 
+> **Addendum 2026-07-22:** the same evergreen "Software Engineer" posting is live under a new Greenhouse req: `https://job-boards.greenhouse.io/embed/job_app?for=janestreet&jr_id=6a4c0a7d4eb370649b27bfa5&token=8594541002` (same title, same NYC on-site location, same "About the Position"/"About You" boilerplate text, no co-op or student-specific framing — matches this evergreen req, not the co-op-restricted one at #002). Evaluation below stands unchanged.
+
 ---
 
 ## A) Role Summary
@@ -123,6 +125,29 @@ Jane Street SWE interview: multiple rounds of algorithmic coding (harder than FA
 **Context:** Jane Street always has this posting open. It is not tied to a specific headcount — it's their application funnel. Applications are reviewed on a rolling basis and candidates proceed to phone screen if they pass an initial review. The lack of JD specificity is intentional, not a ghost job signal.
 
 ---
+
+---
+
+## Re-verification Addendum, 2026-09-14
+
+The same evergreen req (`token=8594541002` / position ID `8594541002`) was submitted again, this time as a direct link to Jane Street's own careers site (`janestreet.com/join-jane-street/position/8594541002/`) rather than the Greenhouse embed used in the 2026-07-22 addendum. Same posting, new access channel. No new report number, no new tracker row — status remains **Applied**.
+
+**Liveness:** Confirmed live via Playwright on 2026-09-14. Title "Software Engineer, New York," Technology department, Software Engineering team. "About the Position" and "About You" text matches what's already on file, unchanged.
+
+**Comp update:** The live page now states a flat **base salary of $300,000**, plus annual discretionary bonus. This sits at the top of the $200K-$300K range this report already recorded, so it is a confirmation of the strong end of that range rather than a new figure. Comp remains, by a wide margin, the strongest in this pipeline.
+
+No change to score (3.5/5), archetype, or recommendation. The school-prestige and OCaml gaps already documented in Block B stand unchanged, and since Harry has already applied, this addendum is for the record rather than a new decision point.
+
+### CV rebuilt, 2026-09-14
+
+The existing `output/076-jane-street-software-engineer-harry-nguyen-2026-06-06.pdf` was built from an old, pre-current template (not `cv.md`) and carried one stale claim. Rebuilt from current `cv.md`, applying the tailoring plan already written in Block E of this report:
+
+- Google bullets reordered: C++ Mojo IPC transport layer leads (systems depth), then the lock-free concurrent trie (correctness reasoning, the closest analog to formal/functional-programming thinking), then the internals-page rebuild, then the 25K-line refactor.
+- Trie bullet reworded to make the correctness claim explicit: "proving correctness under concurrent access," mirroring the linearizability-proof pitch already drafted in Block C.
+- TiMoto bullets reordered: the gRPC deadlock diagnosis leads (Block E's "production systems debugging is the clearest Jane Street signal"), reworded to open with "Diagnosed... without a senior engineer's help" per Block C's own pitch language, since TiMoto's 3-person team has no senior engineer above Harry. Infrastructure bullet moved to 2nd; the agentic, retrieval, and vLLM bullets (no AI/ML ask anywhere in this JD) moved down, in that order.
+- Skills reordered: Languages now leads (C++, Python already first within it), then Backend & Infrastructure, then AI & Agent Systems, then Frameworks & Databases, with AI Dev Tools kept last per the standing house rule.
+
+Verified: 1 page, anti-AI-signs gate clean, stale claim confirmed absent from the rendered PDF text.
 
 ## Keywords extracted
 

@@ -192,3 +192,32 @@ applied AI, LLMs, TypeScript, React, Next.js, Node.js, Apollo GraphQL, PostgreSQ
 ## Keywords extracted
 
 applied AI, Large Language Models, LLMs, TypeScript, React, Next.js, Node.js, Apollo GraphQL, PostgreSQL, full-stack, observability, metrics, proactive issue detection, scalability, reliability, performance, project ownership, ambiguity, mentorship, code reviews, CRM, AI-native, customer intelligence, San Francisco, New Grad
+
+---
+
+> **CV refresh (2026-08-06):** Regenerated against `templates/cv-template.tex` now that its spacing bug is fixed (see [modes/_custom.md](../modes/_custom.md) house rule, 2026-08-05) — **full content restored, nothing cut.** The 2026-07-17 version only included Pulumi as a project (no NextStep) and was missing the Google "lock-free concurrent trie" bullet, both artifacts of the old template's wasted space. Kept the original tailoring emphasis from Section E: observability bullet leads TiMoto, event-driven TypeScript/React bullet leads Google. Both Personal Projects (NextStep + Pulumi) now present. New PDF: `output/171-lightfield-harry-nguyen-2026-08-06.pdf` — 1 page, verified (18/18 items, 0 stray asterisks, correct links). Score and recommendation unchanged (4.0/5 — already Applied).
+
+## Addendum 2026-10-06: resume checker result pasted, CV rebuilt
+
+**Duplicate:** You pasted a resume-checker result for "Software Engineer, Applied AI (Early Career)" at Lightfield. That is the same Ashby job `fc93a467-773d-4805-b342-bf470950732d` evaluated above as "Applied AI, New Grad" (the company renamed the title; published 2026-07-16). No new report and no new tracker row. **The tracker shows #171 as Applied**, so if you already submitted in July this CV is only for a re-application or an interview; do not reapply to the same role without checking. **Liveness:** the Ashby board API still lists the posting at $160K-$180K plus equity, San Francisco HQ; the job text matches the archive. Score stays 4.0/5.
+
+**Fresh CV:** `output/171-harry-nguyen-resume-2026-10-06.pdf` (1 page), built with the confirmed recipe at the 95% target. It supersedes `output/171-lightfield-harry-nguyen-2026-08-06.pdf`. Numeric check against the master passes (no figure added or lost). Your checker listed 8 keywords (4 of 8 matched on the old CV): Large Language Models (LLMs), TypeScript, React, Next.js, Node.js, Apollo GraphQL, PostgreSQL, Full-Stack Software Engineering. **Six of the eight now appear literally on the CV; Next.js and Apollo GraphQL do not**, because neither is on cv.md or in the skills you stated. My own measure over the whole JD went from 8 of 18 (44%) to 16 of 18 (89%).
+
+| JD phrase | CV change |
+|---|---|
+| "excited about Large Language Models (LLMs)" | `Large Language Models (LLMs)` leads Agentic Systems; the TiMoto agent bullet and the company-wide agent bullet lead TiMoto |
+| "TypeScript, React, Node.js, PostgreSQL" | Languages lead TypeScript, JavaScript, Python, SQL; Frameworks lead `React (Front-End)`, Node.js, `Full-Stack Software Engineering` (stated by you), PostgreSQL |
+| "full-stack product features end-to-end, reliability, scalability, performance" | `Reliability`, `Scalability`, `Performance Optimization`, `Observability` in Backend & Infra; "Owned TiMoto's motorbike-valuation backend end to end" |
+| "collaborate with product leaders", "customer problems" | "Worked cross-functionally with ops, sales, marketing, product, and the founder"; `Customer-Facing Work` in Practices (stated by you) |
+| "mentor teammates, participate in code reviews" | Practices row: Code Review, Mentoring, Automated Testing, Data Structures, Algorithms (Skills only) |
+
+**If you have used Next.js or Apollo GraphQL, tell me and they go into Skills (checker would reach 8 of 8).** MongoDB and Prometheus left Skills to keep one page. Gates: 1 page, 0 em dashes, 0 AI-vocabulary hits, 0 stray asterisks.
+
+
+## Addendum 2026-10-22: third checker run (duplicate, no new tracker row)
+
+Same Ashby job `fc93a467` (still live, published 2026-07-16, San Francisco on-site with Wednesdays work from home, $160K-$180K plus equity). Jobright checker for the master resume: 8.0, 4/7 keywords (TypeScript, React, Next.js, Node.js, Apollo GraphQL, PostgreSQL, Large Language Models). Tracker status is already Applied.
+
+Fresh CV `output/171-harry-nguyen-resume-2026-10-22.pdf` (1 page, eight Skills rows, numbers identical to the master) adds the posting's vocabulary from real work: Large Language Models (LLMs) in the Agentic row, Observability and Metrics, Full-Stack Development, Customer-Facing. Real gaps, not added: Next.js and Apollo GraphQL (the same two gaps recorded on 2026-10-06). Expected coverage 5/7.
+
+Use this CV only if the company asks for a refreshed resume or you re-apply through another channel; the application already on file used an earlier CV.

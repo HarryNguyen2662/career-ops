@@ -5,7 +5,13 @@
 **Archetype:** Founding / Early-Stage Software Engineer (primary) + AI Platform / LLMOps (secondary)
 **Score:** 4.3/5
 **Legitimacy:** High Confidence
-**PDF:** pending
+**PDF:** ✅ `output/054-ellipsis-harry-nguyen-2026-08-27.pdf` — regenerated 2026-08-27
+
+---
+
+## Re-verification note (2026-08-27)
+
+Posting reconfirmed live via direct browser navigation. cv.md's underlying facts are unchanged since the original 2026-06-04 evaluation, so the score and analysis below stand at 4.3/5. The CV was regenerated because the prior output file (`054-ellipsis-software-engineer-new-grad.pdf`, no date suffix) was stale and had drifted from cv.md: it was missing the NextStep project entirely (a house-rule violation — both Pulumi and NextStep must always be included), duplicated the "95% test coverage" figure, carried the unbacked "68%" feature-delivery claim since removed from cv.md, included a fabricated fifth TiMoto bullet not present in cv.md ("on-call rotation," "documented runbooks"), and listed invented skill items not in cv.md ("Exactly-once semantics," "Fault tolerance," "LLM-as-a-judge evaluation"). The regenerated CV pulls only from cv.md's current, exact content: 1 page, 0 stray formatting artifacts, both projects included, no invented bullets or skills.
 
 ---
 

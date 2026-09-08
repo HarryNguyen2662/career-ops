@@ -138,8 +138,27 @@ url: https://jobs.ashbyhq.com/zip/3b54f98b-c0a7-4c6b-8a8b-b34a224db0ad
 score: 3.8
 archetype: AI Forward Deployed Engineer / Founding-track Full-Stack
 location: San Francisco, CA (hybrid)
-comp_range: "$160,000–$250,000 base; SF TC median ~$195K (Levels.fyi)"
+comp_range: "$150,000–$250,000 base (re-verified 2026-07-23; was $160,000–$250,000 on 2026-06-06); SF TC median ~$195K (Levels.fyi)"
 visa_risk: "F-1 — H-1B positive (ZipHQ 32 LCAs FY2025, 100% approval)"
 legitimacy: High Confidence
 recommendation: "Apply — exact stack match (Python + React/TS); TiMoto ownership is the FDE proof point; comp above target; H-1B confirmed sponsor"
 ```
+
+---
+
+## Re-verification — 2026-07-23
+
+**Status:** Still active, Applied. Posting confirmed live via Playwright (Apply button present, full JD served).
+
+**What changed since 2026-06-06:**
+- Base salary range floor dropped **$10K**: was $160,000–$250,000, now **$150,000–$250,000**. Still meets Harry's $150K target floor exactly and clears the $140K minimum.
+- JD body, "You will," qualifications, and "Helpful, not required" sections are otherwise unchanged.
+- Company: no layoffs found; actively growing (1,259 employees as of 2026-05-31, new Toronto office opened Nov 2025, recognized in G2 Best Software 2026). Funding/valuation unchanged ($2.2B, $371M raised).
+
+**Score unchanged at 3.8/5** — the comp floor dip is within noise and doesn't move the needle; no other material change to the match, strategy, or legitimacy assessment above.
+
+**CV:** Regenerated through the current `build-cv-latex.mjs` pipeline (JSON payload → .tex → PDF via tectonic) per user request, preserving the exact tailored content from the Customization Plan above. Verified: 1 page, bold GPA renders clean, no stray `**` markdown, Honors line present. Same file paths (`output/074-zip-forward-deployed-engineer-harry-nguyen-2026-06-06.tex` / `.pdf`).
+
+Sources:
+- [Zip raises $190 million in Series D funding](https://ziphq.com/blog/series-d)
+- [Zip - 2026 Company Profile, Team, Funding & Competitors - Tracxn](https://tracxn.com/d/companies/zip/__Lq0ndH3cM1jIqOVqyu9g7HaJbf3Z2n4GQhBMH5tFwqU)

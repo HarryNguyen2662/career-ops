@@ -6,7 +6,7 @@
 **Archetype:** Systems Software Engineer + Performance Engineer (dual primary fit)
 **Score:** 4.5/5
 **Legitimacy:** High Confidence
-**PDF:** output/158-hrt-swe-harry-nguyen-2026-07-13.pdf
+**PDF:** output/158-hrt-swe-harry-nguyen-2026-08-06.pdf (refreshed 2026-08-06, see addendum below)
 
 ---
 
@@ -191,3 +191,13 @@ C++, Python, UNIX, Linux, system performance, processor performance, network com
 ### Files used
 
 - None captured.
+
+---
+
+## Addendum — CV refresh 2026-08-06
+
+Same posting resurfaced via a Greenhouse mirror URL (`job-boards.greenhouse.io/embed/job_app?for=wehrtyou`, token `8052122`) — identical title "Software Engineer (C++ or Python), 2027 Grads," same $300K base, same "no multiple applications" policy noted originally. Not a new role; no re-evaluation performed.
+
+The original CV (generated 2026-07-13, before the `templates/cv-template.tex` spacing fix on 2026-08-05) was missing the NextStep project entirely — only Pulumi was included. Regenerated with the fixed template: both personal projects present, all Experience bullets intact, same tailoring strategy as the original Customization Plan (Chrome's C++ IPC/lock-free-trie bullets leading, TiMoto's gRPC concurrency fix emphasized over the ML-serving angle, Languages leading with C++). Verified 1 page, 18/18 items, 0 stray asterisks. Score and recommendation unchanged (4.5/5, already Applied).
+
+New file: `output/158-hrt-swe-harry-nguyen-2026-08-06.pdf`.

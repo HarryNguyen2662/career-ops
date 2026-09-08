@@ -7,8 +7,17 @@
 **Score:** 4.3/5
 **Legitimacy:** High Confidence
 **PDF:** output/159-akuna-capital-harry-nguyen-2026-07-14.pdf
+**Status:** Rejected (2026-07-25)
 
 ---
+
+> **Outcome — Rejected 2026-07-25 (failed testing round).** Rejection email received from `no-reply@akunacapital.com`, addressed to "Huu Phuc Toan" and naming this Python req specifically: *"The results of your testing did not meet our requirements to move forward in our process."*
+>
+> **Funnel read:** this is an assessment-stage rejection, not a resume-screen rejection — the application cleared screening and reached Akuna's online test. The CV and targeting did their job here; the gate that closed was the timed technical assessment. Worth separating from resume-stage rejections when running `patterns`, since the corrective action is different (assessment/interview drilling, not CV or targeting changes).
+>
+> **Open question on the C++ req (#160).** The email names only the Python role, so #160 is not explicitly rejected and remains `Applied` in the tracker. Two unresolved factors, both flagged at evaluation time and neither verified since: (1) Akuna's application requires certifying a single **top preference** role and states you "will not be considered for other Tech and/or Quant roles at Akuna for this recruiting season" — if Python was certified as top preference, #160 may already have been foreclosed by that clause rather than still pending; (2) many trading firms treat a failed entry-level assessment as season-wide rather than per-req. Neither has been confirmed with Akuna — do not treat #160 as either alive or dead without asking the recruiter.
+>
+> **Assessment details not captured.** The platform, subject matter, and score/threshold of the testing round were never logged, so `assessment-log.mjs` has no entry for it and `data/assessments.tsv` remains empty. If the details are recoverable from the original test invitation email, logging them retroactively would make this the first data point for assessment-channel analysis.
 
 ## Machine Summary
 

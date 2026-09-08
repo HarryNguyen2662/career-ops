@@ -155,3 +155,15 @@ I'm also drawn to the open-source culture. My Pulumi contributions gave me a tas
 ## Keywords extracted
 
 `Python`, `TypeScript`, `Go`, `FastAPI`, `Pydantic`, `React`, `Node.js`, `REST API`, `open-source`, `SDK`, `GPU cloud`, `AI infrastructure`, `serverless inference`, `full-stack`, `CI/CD`, `Docker`, `containerization`, `distributed computing`, `developer experience`, `code review`, `scalability`, `backend`, `frontend`
+
+---
+
+> **CV refresh (2026-08-06):** RunPod re-listed this identical role on Ashby (dedup-confirmed 2026-08-06: same $130K-$200K range, same "unable to sponsor" language, same Remote USA) — regenerated the CV against `templates/cv-template.tex` now that both spacing bugs are fixed (see [modes/_custom.md](../modes/_custom.md) house rule, 2026-08-05/06) — **full content restored, nothing cut.** The original 2026-06-05 version only included Pulumi (no NextStep). Kept the original tailoring emphasis from Section E: TypeScript/React bullet leads Google (developer-tooling framing), Pulumi's open-source/SDK angle kept explicit ("widely-used open-source SDK" phrasing added, matching RunPod's own SDK focus). Both Personal Projects (Pulumi + NextStep) now present. New PDF: `output/062-runpod-harry-nguyen-2026-08-06.pdf` — 1 page, verified (18/18 items, 0 stray asterisks, correct links). Score and recommendation unchanged (3.6/5 — already Applied).
+
+## Addendum 2026-10-24: re-listed role pasted with a Jobright checker (same role, no new tracker row)
+
+Runpod re-posted this role on Ashby as job `b64a3935` (Software Engineer (Full-Stack), Remote - USA, published 2026-10-09; $130,000-$200,000 base, possibly spanning several levels). Tracker status is already Applied for the same role. Jobright checker for the master resume: 7.0, 7/12 keywords (TypeScript, Go, React, JavaScript, HTML, CSS, Express, FastAPI, Pydantic, Docker, Git, Distributed Computing). Jobright reads the master resume uploaded to Jobright, not the tailored CV.
+
+The posting still says "we are currently unable to sponsor employment visas" and requires a background check. See the visa note above (not legal advice): ask Runpod early whether an F-1 student on OPT after May 2027 can be considered.
+
+Fresh CV `output/062-harry-nguyen-resume-2026-10-24.pdf` (1 page, eight Skills rows, numbers identical to the master) adds Distributed Computing (Ray, Spark), Git, API Design and Open Source (Pulumi contributions) from real work. Expected coverage 9/12. Real gaps, not added: HTML, CSS, Express, Pydantic. Score unchanged (3.6/5).

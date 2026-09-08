@@ -3,9 +3,20 @@
 **Date:** 2026-06-07
 **URL:** https://jobs.ashbyhq.com/baseten/d073254f-729c-471e-9a33-520358ead183
 **Archetype:** Backend Engineer (Payments & High-Throughput) — adjacent to Harry's archetype
-**Score:** 3.5/5
+**Score:** 3.6/5
 **Legitimacy:** High Confidence
-**PDF:** output/087-baseten-software-engineer-billing-internal-tooling-harry-nguyen-2026-06-07.pdf
+**PDF:** output/087-baseten-software-engineer-billing-internal-tooling-harry-nguyen-2026-07-23.pdf
+
+## Re-verification (2026-07-23)
+
+Same posting resurfaced via jobright (identical Ashby job ID) — re-checked via Playwright, still live ~7 weeks after the original evaluation.
+
+- **Major company update: Baseten closed a $1.5B Series F**, up from the $300M Series E known at original evaluation — led by Altimeter Capital, Conviction Partners, and Spark Capital. Named customer list also expanded (added Abridge, Clay, Gamma, Writer, alongside the original Cursor/Notion/OpenEvidence). This is the same company-wide funding update already confirmed independently in report #097's 2026-07-18 re-verification (same company, different role).
+- **Locations expanded**: now lists San Francisco, Montreal, New York, and Toronto (hybrid), vs. the original "San Francisco or New York" — more flexibility, not a contradiction.
+- **Comp and core JD unchanged**: same $165K–$330K + equity ("90th percentile or better" policy), same requirements (billing systems OR internal tools, deep web-stack/database knowledge), same responsibilities (Orb integration, Finance/Sales/GTM partnership, revenue-critical reliability). No new gaps or strengths identified — the billing-experience gap and internal-tools mitigation strategy from the original Block B both still hold.
+- **Score adjusted up slightly, 3.5 → 3.6/5**, reflecting the materially stronger company signal (5x larger raise, broader customer base) with no change to the technical-fit gaps.
+- **CV regenerated** with the now-fixed LaTeX template (one-line header, working `**bold**` emphasis, corrected `mailto:` link, and the 2026-07-23 Education-field bold fix): `output/087-baseten-software-engineer-billing-internal-tooling-harry-nguyen-2026-07-23.pdf`, 1 page, verified via `pdfinfo`. Bullet order follows the original Customization Plan (Section E): reliability/observability bullet leads TiMoto, PostgreSQL/N+1 bullet emphasized for Develop for Good, Skills reordered to Frameworks & Databases first.
+- **Recommendation unchanged: Apply cautiously** — billing-experience gap is real but the "internal tools OR billing" clause still opens the door; frame around metering/reliability/internal-tooling angle as before.
 
 ---
 
@@ -135,10 +146,11 @@ company: Baseten
 role: Software Engineer, Billing and Internal Tooling
 date: 2026-06-07
 url: https://jobs.ashbyhq.com/baseten/d073254f-729c-471e-9a33-520358ead183
-score: 3.5
+score: 3.6
+score_note: "Adjusted up from 3.5 on 2026-07-23 re-verification: $1.5B Series F (up from $300M Series E), expanded customer base and locations; no change to technical-fit gaps"
 archetype: Backend Engineer (Billing / Internal Tools)
-location: San Francisco or New York (hybrid)
-comp_range: "$165,000–$330,000 base + equity (90th percentile policy, $300M Series E)"
+location: "San Francisco, Montreal, New York, or Toronto (hybrid)"
+comp_range: "$165,000–$330,000 base + equity (90th percentile policy, $1.5B Series F)"
 visa_risk: "F-1 — H-1B positive (8 LCAs FY2025, 7 FY2026 — active sponsor)"
 legitimacy: High Confidence
 recommendation: "Apply cautiously — excellent company and comp; billing experience gap is real but 'internal tools OR billing' clause opens the door; frame around metering/reliability/internal tooling angle; H-1B confirmed"

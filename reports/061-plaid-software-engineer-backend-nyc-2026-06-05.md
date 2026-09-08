@@ -263,3 +263,7 @@ notes: "NYC variant of #042 Seattle posting; same comp band (Zone 1); East Coast
 ## Keywords Extracted
 
 `backend systems`, `APIs`, `scalable`, `reliable`, `distributed systems`, `gRPC`, `Protocol Buffers`, `system design`, `production`, `observability`, `code quality`, `automated testing`, `debugging`, `performance`, `fintech`, `financial data`, `bank connectivity`, `TypeScript`, `Go`, `Python`, `PostgreSQL`, `AWS`, `Terraform`, `hybrid`, `New York`, `ownership`, `circuit breaker`, `multi-AZ`
+
+---
+
+> **CV refresh (2026-08-06):** Same posting resurfaced again via jobright (dedup-confirmed, job ID `7e10c0b5` unchanged). Regenerated the CV against `templates/cv-template.tex` now that both spacing bugs are fixed (see [modes/_custom.md](../modes/_custom.md) house rule, 2026-08-05/06) — **full content restored, nothing cut.** The 2026-07-15 version only included Pulumi (no NextStep) and had a since-superseded TiMoto bullet ("mean-time-to-identify" post-mortem practice) not present in the current cv.md. Kept the original tailoring emphasis: Go leads the Languages skill row and Pulumi's Go CLI work stays the featured project first, since Plaid uses Go extensively internally. Both Personal Projects (Pulumi + NextStep) now present. New PDF: `output/061-plaid-harry-nguyen-2026-08-06.pdf` — 1 page, verified (18/18 items, 0 stray asterisks, correct links). Score and recommendation unchanged (4.3/5 — already Applied).

@@ -41,16 +41,40 @@
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
+import { getCareerOpsRoot } from './path-resolver.mjs';
+import { normalizeTextKey } from './tracker-parse.mjs';
+import { validateFlags } from './lib/cli-flags.mjs';
+import { isMainModule } from './lib/is-main-module.mjs';
 
-const CAREER_OPS = dirname(fileURLToPath(import.meta.url));
+const CAREER_OPS = getCareerOpsRoot();
 
 const CV_FILE = process.env.CAREER_OPS_CV || join(CAREER_OPS, 'cv.md');
 const ARTICLE_DIGEST_FILE = process.env.CAREER_OPS_ARTICLE_DIGEST || join(CAREER_OPS, 'article-digest.md');
 
+const KNOWN_FLAGS = ['--dry-run', '--stdin', '--help', '-h'];
+
+const USAGE = `Usage:
+  node add-entry.mjs <payload.json> [--dry-run]
+  node add-entry.mjs --stdin [--dry-run]
+  node add-entry.mjs --help                    # print this usage block and exit (-h is an alias)`;
+
 // Normalize a title/heading for duplicate detection: lowercase, collapse to
-// alphanumerics only. "FraudShield", "Fraud-Shield", "fraud shield" all match.
+// letters and digits. "FraudShield", "Fraud-Shield", "fraud shield" all match.
+//
+// Delegates to the shared normalizeTextKey rather than keeping a private
+// `[^a-z0-9]` strip. That strip deleted every non-Latin character, so a CV
+// written in Japanese, Russian or Hindi keyed EVERY heading and dedup key to
+// '' — which made `add` unusable rather than inaccurate: the non-empty-dedupKey
+// guard below rejected a key the user had actually supplied ("payload.cv
+// requires a non-empty dedupKey"), and two different section headings both
+// keying to '' matched each other, so an entry could land under the wrong
+// heading (#2849).
+//
+// Latin behaviour is unchanged except that an accented word now keys
+// faithfully: "Café" was truncated to "caf" (it never matched "Cafe" either
+// way), and now keys as "café".
 export function normalizeKey(s) {
-  return typeof s === 'string' ? s.toLowerCase().replace(/[^a-z0-9]+/g, '') : '';
+  return typeof s === 'string' ? normalizeTextKey(s) : '';
 }
 
 // Split a markdown doc into the block belonging to a `## <section>` heading:
@@ -86,6 +110,82 @@ export function extractIdentifiers(body) {
   return ids;
 }
 
+// Some users maintain cv.md as raw LaTeX (config/profile.yml `cv.output_format:
+// latex`) rather than markdown — templates/cv-template.tex's own macro
+// vocabulary. locateSection()'s `^##\s+` regex never matches a LaTeX
+// `\section{...}` line, so without this, a LaTeX cv.md silently falls through
+// to insertIntoCvSection()'s "missing section" branch and gets a dead
+// `## Section` markdown fragment appended after `\end{document}` — reported as
+// `"status": "added"` while the entry never appears in any compiled PDF.
+// (Local addition, kept across the v1.32.0 merge, 2026-09-09 — this repo's
+// cv.md is LaTeX.)
+function isLatexDoc(md) {
+  return /\\documentclass|\\begin\{document\}/.test(md);
+}
+
+// LaTeX equivalent of locateSection(): find `\section{<Section>}` (case-
+// insensitive on the name) and the first `\resumeSubHeadingListEnd` after it —
+// the closing macro that wraps every entry under a section in
+// templates/cv-template.tex and in cv.md itself. Returns null if the section
+// or its closing macro isn't found; callers must not guess a placement in that
+// case (see insertIntoLatexSection).
+export function locateLatexSection(md, section) {
+  const target = section.trim().toLowerCase();
+  const lines = md.split('\n');
+  const sectionRe = /^\s*\\section\{([^}]*)\}\s*$/;
+  for (let i = 0; i < lines.length; i++) {
+    const m = lines[i].match(sectionRe);
+    if (m && m[1].trim().toLowerCase() === target) {
+      let end = i + 1;
+      while (end < lines.length && !/\\resumeSubHeadingListEnd/.test(lines[end])) end++;
+      if (end >= lines.length) return null;
+      return {
+        before: lines.slice(0, i + 1).join('\n'),
+        body: lines.slice(i + 1, end).join('\n'),
+        closing: lines[end],
+        after: lines.slice(end + 1).join('\n'),
+      };
+    }
+  }
+  return null;
+}
+
+// LaTeX identifiers: \textbf{...} spans, matching cv.md's own bolding
+// convention for entry names (e.g. \textbf{Pulumi -- Contributor}).
+export function extractLatexIdentifiers(body) {
+  const ids = [];
+  for (const m of body.matchAll(/\\textbf\{([^}]+)\}/g)) ids.push(m[1]);
+  return ids;
+}
+
+export function cvHasEntryLatex(md, section, dedupKey) {
+  const key = normalizeKey(dedupKey);
+  if (!key) return false;
+  const loc = locateLatexSection(md, section);
+  if (!loc) return false;
+  return extractLatexIdentifiers(loc.body).some(id => normalizeKey(id) === key);
+}
+
+// Insert a pre-formatted LaTeX entry just before the section's closing
+// \resumeSubHeadingListEnd. Unlike insertIntoCvSection(), this never invents a
+// missing section — a LaTeX \section{} that doesn't exist (or has no
+// \resumeSubHeadingListEnd) means this template shape isn't recognized, and
+// guessing a placement would risk silently breaking compilation. Fail loudly
+// instead so the agent falls back to a manual paste.
+export function insertIntoLatexSection(md, section, entry) {
+  const loc = locateLatexSection(md, section);
+  if (!loc) {
+    throw new Error(
+      `LaTeX cv.md has no recognizable "\\section{${section}}" ... "\\resumeSubHeadingListEnd" block -- ` +
+      `refusing to guess where to insert. Add the section manually or insert this entry yourself:\n\n${entry}`
+    );
+  }
+  const block = entry.replace(/^\s+|\s+$/g, '');
+  const body = loc.body.replace(/\s+$/, '');
+  const newBody = body ? `${body}\n${block}` : `  ${block}`;
+  return `${loc.before}\n${newBody}\n${loc.closing}${loc.after ? `\n${loc.after}` : ''}`;
+}
+
 // Does the named CV section already contain an entry matching dedupKey?
 // Compares the key against each entry's identifier (normalized equality), not a
 // substring of the whole section body.
@@ -117,15 +217,15 @@ export function insertIntoCvSection(md, section, entry) {
 
 // article-digest.md is a sequence of `## <name> -- <tagline>` blocks separated
 // by `---`. Dedup on the name (the heading text before the dash), matched by
-// normalized equality or prefix so "## FraudShield -- Detection" matches the key
-// "FraudShield" without a short key colliding on unrelated heading text.
+// normalized equality so "## FraudShield -- Detection" matches the key
+// "FraudShield" without a short key colliding on other project names.
 export function articleDigestHasEntry(md, dedupKey) {
   const key = normalizeKey(dedupKey);
   if (!key) return false;
   for (const m of md.matchAll(/^##\s+(.*\S)\s*$/gm)) {
     const name = m[1].split(/\s+[—–-]{1,2}\s+/)[0];
     const n = normalizeKey(name);
-    if (n === key || n.startsWith(key)) return true;
+    if (n === key) return true;
   }
   return false;
 }
@@ -158,7 +258,23 @@ export function applyAdd(payload, { cvText = null, articleText = null } = {}) {
     // rather than silently allowing duplicate re-runs.
     if (!normalizeKey(dedupKey)) throw new Error('payload.cv requires a non-empty dedupKey (used for dedup/idempotency)');
     if (cvText === null) throw new Error(`cv.md not found — cannot add to a CV that does not exist`);
-    if (cvHasEntry(cvText, section, dedupKey)) {
+
+    // A markdown `## Section` match always wins (handles a LaTeX-flavored file
+    // that still happens to carry a markdown heading). Only fall through to the
+    // LaTeX-aware path when no markdown section was found AND the doc actually
+    // looks like LaTeX — a plain markdown CV missing the section keeps the
+    // original "create it at EOF" behavior below. (Local addition, kept across
+    // the v1.32.0 merge, 2026-09-09.)
+    const useLatex = !locateSection(cvText, section) && isLatexDoc(cvText);
+
+    if (useLatex) {
+      if (cvHasEntryLatex(cvText, section, dedupKey)) {
+        result.cv = { status: 'duplicate', section };
+      } else {
+        cv = insertIntoLatexSection(cvText, section, entry);
+        result.cv = { status: 'added', section };
+      }
+    } else if (cvHasEntry(cvText, section, dedupKey)) {
       result.cv = { status: 'duplicate', section };
     } else {
       cv = insertIntoCvSection(cvText, section, entry);
@@ -194,12 +310,17 @@ async function readStdin() {
 
 async function main() {
   const args = process.argv.slice(2);
+
+  // Migrated to shared validateFlags to reject mistyped flags (#3112).
+  // Inside the main-module guard so importers are unaffected (#3088).
+  validateFlags(args, KNOWN_FLAGS, USAGE);
+
   const dryRun = args.includes('--dry-run');
   const useStdin = args.includes('--stdin');
-  const fileArg = args.find(a => !a.startsWith('--'));
+  const fileArg = args.find(a => !a.startsWith('-'));
 
   if (!useStdin && !fileArg) {
-    console.error('Usage: node add-entry.mjs <payload.json> [--dry-run]  (or --stdin)');
+    console.error(USAGE);
     process.exit(1);
   }
 
@@ -246,6 +367,6 @@ async function main() {
 }
 
 // Only run main() when invoked directly, not when imported by tests.
-if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+if (isMainModule(import.meta.url)) {
   main();
 }

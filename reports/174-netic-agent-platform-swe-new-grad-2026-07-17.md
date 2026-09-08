@@ -177,3 +177,21 @@ Agent Manager, orchestration layer, execution harnesses, guardrails, rollback pa
 ## Keywords extracted
 
 Agent Manager, orchestration layer, execution harnesses, sandboxes, eval loops, guardrails, rollback paths, human-in-the-loop, multi-agent workflows, agentic products, asyncio, FastAPI, Node, React, distributed systems, LLM APIs, RAG, LangChain, MCP, founder-level ownership, New Grad, San Francisco, on-site
+
+---
+
+## Addendum 2026-09-19: CV correction warning
+
+The CV originally built for this report (`output/173-...` or `output/174-...`, dated 2026-07-17) was made under an older cv.md. It contains content that is not on the current cv.md, including "Expected May 2027", a Coursework line, "3B+ active users", JWT auth, Kafka, LangChain, LoRA/QLoRA and PyTorch. Report body text in this file that cites those items should not be reused. If an application was submitted with that CV, be ready for interview questions on those claims, and answer only from what the current cv.md supports. A fresh CV built from the current cv.md can be generated on request.
+
+## Addendum 2026-11-02 (same requisition re-sent from Jobright; no new tracker row)
+
+**Duplicate:** Ashby id `d9bcb6a2` and the same Jobright `jr_id` as the July application link. Tracker status is already **Applied** (from 2026-07-17). The posting is still listed on Netic's Ashby board (published 2026-07-16). Netic also has #173 (Applied) and #573 (FDE, Evaluated, not applied).
+
+**New fact since July:** pay is now stated on the board: base $138,000 to $160,000 per year (San Francisco). The bottom is $2K under your $140K floor; the top is inside your $150K to $200K target.
+
+**Fresh CV:** `output/174-harry-nguyen-resume-2026-11-02.pdf` replaces the 2026-07-17 build, which was made from an older cv.md (see the 2026-09-19 correction above). One page, eight one-line Skills rows, no blank gap. TiMoto order: production agent, backend owned end to end, gRPC deadlock, company-wide agent, vLLM, Fargate migration. Google order: Mojo IPC, test fix, shared-state refactor, lock-free trie. NextStep before Pulumi. Skills: LLM APIs, LLM Agents, Tool Calling, MCP, LangChain (stated by Harry, Skills only), RAG, Evals; Distributed Systems, Concurrency, Algorithms, Data Structures; Guardrails, Rollback, Reliability, Monitoring, Scalability (backed by the agent's tests and auto-rollback); Full-Stack Development (stated), Customer-Facing (stated). Checks: 1 page, 0 em dashes, 0 asterisks, numeric parity with the master CV, ATS coverage 19 of 26 JD terms (73%).
+
+**Why it matches the JD:** "Agent Manager" with guardrails, rollback paths and human-in-the-loop checkpoints maps to the TiMoto production agent (tests, auto-rollback, 95% automated). Real gaps, not added: multi-agent orchestration, asyncio, data modeling.
+
+**Status guidance:** if the July CV was the one submitted, expect questions on claims that are not on the current cv.md (listed above), and answer only from what cv.md supports. Send the fresh CV to a Netic recruiter if you are in contact, or use it for a follow-up. Status stays Applied.

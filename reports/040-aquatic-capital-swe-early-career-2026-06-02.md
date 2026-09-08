@@ -250,3 +250,7 @@ Check: **I have not participated in any of these competitions**
 ## Keywords extracted
 
 early career, software engineer, distributed systems, event-driven architectures, Python, C++, quantitative, financial markets, scientific research, trading infrastructure, research infrastructure, system reliability, test-driven development, refactoring, low-latency, high-throughput, mentoring, rotation, technical excellence, performance, correctness, concurrency
+
+## Addendum 2026-10-27: apply link and Jobright block re-pasted
+
+Greenhouse `8489226002` (requisition `python_swe`, Chicago and New York) is this report's posting and was refreshed on 2026-10-26; base $150,000 to $200,000 plus discretionary bonus, no more than 3 years of professional experience, Python or C++, rotations through 2 or 3 teams. It is a sibling of #001 (Greenhouse `8489233002`, Applied since June), so a recruiter sees two Early Career applications from you. This report had no tracker row of its own, so a row is added now (labelled "Aquatic Capital (python_swe)"). Jobright checker: 6.0, 2/4 keywords (Python, C++, Event-Driven Architectures, Distributed Systems). Fresh CV `output/040-harry-nguyen-resume-2026-10-27.pdf` (1 page, eight Skills rows) replaces the two-page June version, leading with Python and C++ and adding Event-Driven Architecture and Distributed Systems (supported by the shared-state observer refactor and gRPC and WebSocket work). Still true: relocation to Chicago or New York, sponsorship unstated, F-1 flag.

@@ -69,29 +69,33 @@ target_roles:
 
 narrative:
   # Your professional headline (1 line)
-  headline: "CS @ Georgia State (May 2027) · Google SWE intern · distributed systems & ML serving"
+  headline: "CS @ Georgia State (May 2027) · Google SWE intern · applied AI systems & ML serving"
   # Your exit story — what makes you unique
-  exit_story: "Primary engineer for backend, cloud infra, and ML serving at TiMoto AI (3-person team) — owns distributed production systems: vLLM, gRPC, Django, AWS/Terraform, 99.9% uptime. Google internship shipped C++ IPC and settings perf work to billions of Chrome users. Prior internship at Develop for Good on AWS, PostgreSQL, and DynamoDB at scale."
+  exit_story: "Primary engineer for backend, cloud infra, and AI systems at TiMoto AI, a Vietnamese app that prices used motorbikes from photos with AI. Shipped an AI agent that fixes production bugs from PR diffs and logs behind tests and auto-rollback (debug time about 45 to under 8 min over 150+ issues, 95% fully automated), built the valuation backend from zero on AWS Fargate (Django REST API, private gRPC evaluator, WebSocket service), moved infra to multi-AZ ECS Fargate (44% cost cut, 99.9% uptime), and ran LLM serving on vLLM (3.2x throughput). At Google Chrome, rebuilt the Chrome Privacy Sandbox internals page (C++ IPC config reader, TypeScript), shipped to stable in 78 changes, cutting debugging from 2-3 hours to under 5 min for 200+ engineers, and cut the page test suite from 2 hours to 10 min. Prior internship at Develop for Good on PostgreSQL and backend scaling."
   # Your top 3-5 superpowers
   superpowers:
-    - "Distributed systems & performance (gRPC, Protocol Buffers, lock-free structures, exactly-once semantics)"
+    - "Agentic AI systems (tool calling, MCP, autonomous bug-fix loops with pre-deploy tests and auto-rollback)"
     - "Production ML serving (vLLM, PagedAttention, concurrent inference on AWS)"
-    - "Cloud & IaC (ECS Fargate, Terraform, multi-AZ, circuit breakers, CI/CD)"
-    - "Low-latency backend (C++, Go, TypeScript) with strong testing discipline"
+    - "Retrieval & AI reliability (hybrid BM25/vector search, schema-constrained generation, multi-pass repair, evals)"
+    - "Distributed systems & performance (gRPC, Protocol Buffers, lock-free structures, concurrency debugging)"
+    - "Cloud & IaC (ECS Fargate, Terraform, multi-AZ, CI/CD, Prometheus/Grafana observability)"
   # Proof points — projects, articles, case studies with measurable impact
   proof_points:
-    - name: "TiMoto AI — ML Serving Platform"
+    - name: "TiMoto AI — Applied AI Systems"
       url: "https://timoto.ai"
-      hero_metric: "sub-50ms p99 inference, 99.9% uptime, 44% infra cost reduction; distributed production systems on 3-person team"
+      hero_metric: "AI bug-fix agent (debug time about 45 to under 8 min over 150+ issues in 2 months, 95% fully automated); valuation backend from zero on AWS Fargate (Django REST, private gRPC evaluator, WebSocket); EKS to multi-AZ ECS Fargate (44% cost cut, $5K to under $3K/month, 99.9% uptime, root cause under 15 min); vLLM (OOM fixed, KV cache fragmentation 65% to under 4%, 3.2x throughput); gRPC deadlock fix (ML eval accuracy 57% to 87%); company-wide AI agent with ops/sales/marketing/product/founder (replies 30-40s to 5-10s); RAG+MCP (Precision@5 68 to 91%, data-access latency -70%)"
     - name: "Google Chrome — SWE Intern"
       url: ""
-      hero_metric: "96% settings-nav latency cut; C++ IPC + Protobuf shipped to stable (3B+ users)"
+      hero_metric: "Built a Mojo IPC interface and C++ config reader to rebuild the Chrome Privacy Sandbox internals page (TypeScript UI), debugging 2-3 hours per case to under 5 min for 200+ engineers, shipped to stable in 78 PRs; lock-free trie design doc (settings search 1,200ms to under 50ms p99); state refactor closed 45 related bugs; testing design doc cut the suite from 2 hours to 10 min"
+    - name: "NextStep — Founder"
+      url: "https://nexteasystep.com"
+      hero_metric: "per-field extraction error 37%→9% for 100 real users (confirmed 2026-09-24); LLM router completion 92-94%→99.7% across 4 providers"
     - name: "Pulumi — Open Source Contributor"
       url: "https://github.com/pulumi/pulumi"
-      hero_metric: "Go CLI contributions for multi-cloud IaC; 24.4K+ star project"
-    - name: "Develop for Good — AWS BaaS"
+      hero_metric: "Go CLI features/bug fixes for multi-cloud provisioning, under maintainer review (no public PR link on file)"
+    - name: "Develop for Good — Appwrite/AWS backend"
       url: ""
-      hero_metric: "500+ concurrent users; N+1 fix → sub-100ms on 10K+ records"
+      hero_metric: "Primary backend engineer (12-person team) moving CW3 off Airtable onto an Appwrite/AWS platform that collects member profiles and matches members to connect and meet up; 500+ concurrent users; member list 3+ s to under 100ms on 10K+ records; deploys 15 to 5 min"
   # Optional: dashboard/demo URL with credentials
   # dashboard:
   #   url: "https://timoto.ai"

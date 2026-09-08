@@ -175,3 +175,13 @@ visa_risk: "F-1 — H-1B confirmed active sponsor (validated in #087 evaluation,
 legitimacy: High Confidence
 recommendation: "Apply immediately — primary archetype match (ML / AI Infrastructure). vLLM + PagedAttention production experience = exactly what Baseten's platform does. $165K+ comp floor above target. Remote option available. H-1B confirmed. This is the top ML infra opportunity in the current pipeline."
 ```
+
+## Addendum 2026-10-09 (re-paste)
+
+Ashby posting ae64d1d4 re-pasted. The row is already Applied. The posting is listed as published 2025-03-09 on the Ashby board (over a year old) but is still live; pay $165K-$330K plus equity, San Francisco. Fresh CV `output/097-harry-nguyen-resume-2026-10-09.pdf` built with Python, Go, Kubernetes, containers, model serving, distributed systems and monitoring terms; no checker result was provided this time. Baseten has other open roles in the tracker (#653 Dedicated Inference 4.4 is the closest sibling).
+
+## Addendum 2026-10-24: apply link re-pasted again (duplicate, no new tracker row)
+
+Same Ashby job `ae64d1d4` (Software Engineer - Infrastructure, San Francisco, hybrid, $165K-$330K plus equity, posting dated 2025-03-09 and still listed). Tracker status is already Applied (applied in June); this link was re-pasted on 2026-10-09 and again on 2026-10-24. Baseten has several other reqs in your tracker (#87 Applied, #249, #653, #657-#666); recruiters can see all of them. No Jobright block was provided this time.
+
+Fresh CV `output/097-harry-nguyen-resume-2026-10-24.pdf` (1 page, eight Skills rows, numbers identical to the master): Backend & Infra lead with Kubernetes and Docker; ML & Data leads with Model Serving, vLLM, Triton, Ray and GPU; Platform adds Distributed Systems, Observability and Resource Management; TiMoto order leads with the vLLM serving fix and the Fargate migration. Use it only if Baseten asks for an updated resume. Check the application status in Ashby before applying again. Score unchanged (4.5/5).
